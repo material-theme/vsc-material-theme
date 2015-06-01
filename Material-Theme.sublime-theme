@@ -576,11 +576,11 @@
             "layer0.inner_margin": [2, 6],
             "layer0.opacity": 1.0,
 
-            "content_margin": [3, 0, 3, 1],
+            "content_margin": [3, -8, 24, 0],
             "tab_overlap": 17,
             "tab_width": 180,
-            "tab_min_width": 48,
-            "tab_height": 50,
+            "tab_min_width": 64,
+            "tab_height": 64,
             "mouse_wheel_switch": false
         },
         {
@@ -720,11 +720,11 @@
             // tab set scroll left | scroll right
         {
             "class": "scroll_tabs_left_button",
-            "content_margin": [9, 7, 8, 6],
+            "content_margin": [9, 7, 9, 6],
             "layer0.texture": "material-theme/assets/arrow_left.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "material-theme/assets/arrow_left_over.png",
+            "layer1.texture": "material-theme/assets/arrow_left--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
         },
@@ -736,11 +736,11 @@
 
         {
             "class": "scroll_tabs_right_button",
-            "content_margin": [9, 7, 8, 6],
+            "content_margin": [9, 7, 9, 6],
             "layer0.texture": "material-theme/assets/arrow_right.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "material-theme/assets/arrow_right_over.png",
+            "layer1.texture": "material-theme/assets/arrow_right--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
         },
@@ -752,11 +752,11 @@
 
         {
             "class": "show_tabs_dropdown_button",
-            "content_margin": [9, 7, 8, 6],
-            "layer0.texture": "material-theme/assets/arrow_down.png",
+            "content_margin": [2, 8, 2, 8],
+            "layer0.texture": "material-theme/assets/overflow_menu.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "material-theme/assets/arrow_down_over.png",
+            "layer1.texture": "material-theme/assets/overflow_menu--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
         },
