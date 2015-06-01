@@ -674,6 +674,14 @@
         {
             "class": "tab_close_button",
             "settings": ["show_tab_close_buttons"],
+            "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+            "content_margin": [5, 5],
+            "layer0.opacity": 0, // Close Icon
+            "layer1.opacity": 1, // Close Icon Hover
+        },
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons"],
             "content_margin": [5, 5],
             "attributes": ["hover"],
             "layer0.opacity": 0, // Close Icon
@@ -716,57 +724,7 @@
             "layer2.opacity": 0, // Dirty Icon
             "layer3.opacity": 0  // Dirty Icon Hover
         },
-        // {
-        //     "class": "tab_close_button",
-        //     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        //     "layer0.opacity": 0.0, // Close Icon
-        //     "layer1.opacity": 0.0, // Close Icon Hover
-        //     "layer2.opacity": 1.0, // Dirty Icon
-        //     "layer3.opacity": 0.0  // Dirty Icon Hover
-        // },
-        // {
-        //     "class": "tab_close_button",
-        //     "attributes": ["dirty"],
-        //     "layer0.opacity": 0.0,
-        //     "layer1.opacity": 0.0,
-        //     "layer2.opacity": 1.0,
-        //     "layer3.opacity": 0.0
-        // },
-        // {
-        //     "class": "tab_close_button",
-        //     "attributes": ["selected"],
-        //     "layer0.opacity": 0.0, // Cloasdse Icon
-        //     "layer1.opacity": 1.0, // Close Icon Hover
-        //     "layer2.opacity": 0.0, // Dirty Icon
-        //     "layer3.opacity": 0.0  // Dirty Icon Hover
-        // },
-        // {
-        //     "class": "tab_close_button",
-        //     "attributes": ["hover"],
-        //     "layer0.opacity": 0.0,
-        //     "layer1.opacity": 1.0,
-        //     "layer2.opacity": 0.0,
-        //     "layer3.opacity": 0.0
-        // },
-        // {
-        //     "class": "tab_close_button",
-        //     "attributes": ["hover", "dirty"],
-        //     "layer0.opacity": 0.0,
-        //     "layer1.opacity": 0.0,
-        //     "layer2.opacity": 0.0,
-        //     "layer3.texture": "material-theme/assets/dirty_icon.png",
-        //     "layer3.opacity": 1.0
-        // },
-        // {
-        //     "class": "tab_close_button",
-        //     "attributes": ["hover", "selected"],
-        //     "layer0.opacity": 0.0,
-        //     "layer1.opacity": 1.0,
-        //     "layer2.opacity": 0.0,
-        //     "layer3.opacity": 0.0
-        // },
-
-        // tab set scroll left scroll right
+            // tab set scroll left scroll right
         {
             "class": "scroll_tabs_left_button",
             "content_margin": [9, 7, 8, 6],
