@@ -588,39 +588,28 @@
             "settings": ["mouse_wheel_switches_tabs", "!enable_tab_scrolling"],
             "mouse_wheel_switch": true
         },
-        {
-            // Tabset override for light colors
-            "class": "tabset_control",
-            "attributes": ["file_light"],
-            "layer1.tint": [38, 50, 56]
-        },
-        {
-            // Tabset override for medium-dark colors
-            "class": "tabset_control",
-            "attributes": ["file_medium_dark"],
-            "layer1.opacity": 1.0,
-            "layer1.tint": [38, 50, 56]
-        },
-        {
-            // Tabset override for dark colors
-            "class": "tabset_control",
-            "attributes": ["file_dark"],
-            "layer1.opacity": 1.0,
-            "layer1.tint": [38, 50, 56]
-        },
-
-        // Tabs
+            // Tabs
         {
             "class": "tab_control",
-            "content_margin": [28, 6, 28, 4],
-            "max_margin_trim": 0,
-            "hit_test_level": 0.5,
 
-            // Inactive Tab
             "layer0.tint": [38, 50, 56],
+            "layer0.inner_margin": [22, 4],
             "layer0.opacity": 1.0,
-        },
+            "tint_index": 0,
 
+            "layer1.texture": "material-theme/assets/tab_current.png",
+            "layer1.inner_margin": [22, 4],
+            "layer1.opacity": 0.0,
+
+            "content_margin": [24, 8, 23, 4],
+            "max_margin_trim": 6,
+            "hit_test_level": 0.4
+        },
+            // Selected current tab
+        {
+            "class": "tab_control", "attributes": ["selected"],
+            "layer1.opacity": 1.0
+        },
         // Tab Labels
         {
             "class": "tab_label",
@@ -640,13 +629,13 @@
         {
             "class": "tab_label",
             "attributes": ["transient"],
-            "font.italic": true
+            "font.italic": false
         },
 
         // Tab Close Buttons
         {
             "class": "tab_close_button",
-            "content_margin": [5, 5],
+            "content_margin": [6, 6],
 
              // Close Icon
             "layer0.texture": "material-theme/assets/close_icon.png",
@@ -659,72 +648,73 @@
 
              // Dirty Icon
             "layer2.texture": "material-theme/assets/dirty_icon.png",
-            "layer2.opacity": 0,
+            "layer2.inner_margin": 0,
 
             // Dirty Icon Hover
             "layer3.texture": "material-theme/assets/dirty_icon--hover.png",
             "layer3.opacity": 0
         },
+            // Default
         {
             "class": "tab_close_button",
             "settings": ["show_tab_close_buttons"],
-            "content_margin": [5, 5],
             "layer0.opacity": 1, // Close Icon
         },
+            // Selected Tab
         {
             "class": "tab_close_button",
             "settings": ["show_tab_close_buttons"],
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-            "content_margin": [5, 5],
             "layer0.opacity": 0, // Close Icon
             "layer1.opacity": 1, // Close Icon Hover
         },
+            // Default hover
         {
             "class": "tab_close_button",
             "settings": ["show_tab_close_buttons"],
-            "content_margin": [5, 5],
             "attributes": ["hover"],
             "layer0.opacity": 0, // Close Icon
             "layer1.opacity": 1, // Close Icon Hover
         },
+            // Dirty tab
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-            "content_margin": [5, 5],
             "layer0.opacity": 0, // Close Icon
             "layer1.opacity": 0, // Close Icon Hover
-            "layer2.opacity": 1 // Dirty Icon
+            "layer2.opacity": 1, // Dirty Icon
+            "layer3.opacity": 0 // Dirty Icon
         },
+            // Dirty tab on hover
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-            "content_margin": [5, 5],
             "attributes": ["hover"],
             "layer0.opacity": 0, // Close Icon
             "layer1.opacity": 1, // Close Icon Hover
             "layer2.opacity": 0, // Dirty Icon
             "layer3.opacity": 0  // Dirty Icon Hover
         },
+            // Selected dirty tab
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-            "content_margin": [5, 5],
             "layer0.opacity": 0, // Close Icon
             "layer1.opacity": 0, // Close Icon Hover
             "layer2.opacity": 0, // Dirty Icon
             "layer3.opacity": 1  // Dirty Icon Hover
         },
+            // Selected dirty tab on hover
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-            "content_margin": [5, 5],
             "attributes": ["hover"],
             "layer0.opacity": 0, // Close Icon
             "layer1.opacity": 1, // Close Icon Hover
             "layer2.opacity": 0, // Dirty Icon
             "layer3.opacity": 0  // Dirty Icon Hover
         },
-            // tab set scroll left scroll right
+            // tab set scroll left | scroll right
         {
             "class": "scroll_tabs_left_button",
             "content_margin": [9, 7, 8, 6],
