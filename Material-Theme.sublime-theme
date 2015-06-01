@@ -657,8 +657,11 @@
             // Default
         {
             "class": "tab_close_button",
-            "settings": ["show_tab_close_buttons"],
-            "layer0.opacity": 1, // Close Icon
+            "settings": ["!show_tab_close_buttons"],
+            "layer0.opacity": 0, // Close Icon
+            "layer1.opacity": 0, // Close Icon
+            "layer2.opacity": 0, // Close Icon
+            "layer3.opacity": 0, // Close Icon
         },
             // Selected Tab
         {
