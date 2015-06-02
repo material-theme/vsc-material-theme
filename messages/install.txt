@@ -7,8 +7,8 @@ ___  ___      _            _       _ 	   _____ _
 
 Material Theme for Sublime Text 3
 https://github.com/equinusocio/material-theme
-————————————————————————————————————————————————————————————————————————————————
 
+********************************************************************************
 
 
 To activate this awesome theme, add in your current settings this code:
@@ -20,4 +20,5 @@ To activate this awesome theme, add in your current settings this code:
 
 
 MAKE SURE TO RESTART SUBLIME AFTER INSTALLING AND ACTIVATING PREAP
+
 ********************************************************************************
