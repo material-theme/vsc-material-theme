@@ -417,6 +417,7 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+			"font.bold": false,
 			"color": [255, 255, 255]
 		},
 
@@ -560,7 +561,7 @@
 
 		{
 			"class": "tree_row",
-			"layer0.tint": [38, 50, 56],
+			"layer0.tint": [35, 50, 56],
 			"layer0.opacity": 0.0,
 			"layer0.inner_margin": [1, 1]
 		},
@@ -792,7 +793,6 @@
 		},
 
 
-
 	/* @WIDGET PANEL
 	 * Widget, input, buttons settings and behavioring
 	========================================================================= */
@@ -913,11 +913,11 @@
 		// Small Icon Buttons
 		{
 			"class": "icon_button_control",
-			"layer0.texture": "material-theme/assets/middle_button.png",
+			"layer0.tint": [38, 50, 56],
 			"layer0.inner_margin": [6, 6],
-			"layer0.opacity": 0,
-			"layer2.texture": "material-theme/assets/blue_highlight.png",
-			"layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
+			"layer0.opacity": 0.0,
+			"layer2.tint": [255, 255, 255],
+			"layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
 			"content_margin": [10, 6]
 		},
 
