@@ -857,7 +857,7 @@
             "layer1.texture": "material-theme/assets/folder--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
-            "content_margin": [9, 7, 8, 6]
+            "content_margin": [9, 8, 8, 6]
         },
 
         {
