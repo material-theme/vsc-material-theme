@@ -440,7 +440,6 @@
 			"color": [207, 216, 220],
 			"font.bold": false,
 			"font.size": 12,
-			"font.face": "Roboto Medium",
 			"shadow_color": [250, 250, 250, 0],
 			"shadow_offset": [0, 0]
 		},
@@ -458,8 +457,7 @@
 			"class": "sidebar_label",
 			"color": [96, 125, 139],
 			"font.bold": false,
-			"font.italic": false,
-			"font.face": "Roboto Regular"
+			"font.italic": false
 		},
 
 		{
@@ -779,8 +777,7 @@
 			"shadow_color": [24, 24, 24, 0],
 			"shadow_offset": [0, 0],
 			"font.bold": true,
-			"font.size": 12,
-	        "font.face": "Roboto Regular"
+			"font.size": 11
 		},
 
 	    	// Status bar labels
@@ -789,8 +786,7 @@
 	        "class": "label_control",
 	        "parents": [{"class": "status_bar"}],
 	        "color": [120, 144, 156],
-	        "font.bold": false,
-	        "font.face": "Roboto Regular"
+	        "font.bold": false
     	},
 
 			// Text field labels
@@ -825,7 +821,7 @@
 		},
 		{
 			"class": "status_button",
-			"layer0.tint": [0, 50, 56],
+			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 1.0,
 			"layer0.draw_center": false,
 			"layer0.inner_margin": [1, 0, 0, 0],
@@ -942,8 +938,7 @@
 	        "parents": [{"class": "button_control"}],
 	        "color": [176, 190, 196],
 	        "font.bold": true,
-	        "font.size": 12,
-	        "font.face": "Roboto Regular"
+	        "font.size": 12
 	    },
 
 	    {
