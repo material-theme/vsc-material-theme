@@ -905,7 +905,7 @@
             // Opened files
         {
             "class": "close_button",
-            "content_margin": [5, 5],
+            "content_margin": [8, 8],
 
             // Default Close icon
             "layer0.texture": "material-theme/assets/close_icon.png",
@@ -921,7 +921,7 @@
         {
             "class": "close_button",
             "attributes": ["dirty"],
-            "layer0.texture": "material-theme/assets/dirty_icon.png"
+            "layer0.texture": "material-theme/assets/dirty_icon--hover.png"
         },
 
         {
