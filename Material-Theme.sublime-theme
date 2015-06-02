@@ -174,6 +174,9 @@
 			"layer0.tint": [84, 110, 122],
 			"layer1.opacity": 0.0
 		},
+
+			// Panel labels
+
 		{
 			"class": "quick_panel_label",
 			"fg": [84, 110, 122, 255],
@@ -181,6 +184,9 @@
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [128, 203, 196, 255]
 		},
+
+			// Panels sublabels
+
 		{
 			"class": "quick_panel_path_label",
 			"fg": [176, 190, 197, 255],
@@ -188,6 +194,9 @@
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [128, 203, 196, 255]
 		},
+
+			// Panels data / score
+
 		{
 			"class": "quick_panel_score_label",
 			"fg": [128, 203, 196, 255],
