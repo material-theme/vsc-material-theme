@@ -1,16 +1,10 @@
 [
 
 	{
-		"class": "overlay_control",
-		"layer0.tint": [64, 64, 64],
-		"layer0.opacity": 1.0,
-		"content_margin": [4, 4]
-	},
-	{
 		"class": "popup_control",
 		"layer0.tint": [0, 64, 64, 255],
 		"layer0.opacity": 1.0,
-		"content_margin": [2, 2]
+		"content_margin": [12, 12]
 	},
 	{
 		"class": "tool_tip_control",
@@ -24,59 +18,7 @@
 		"color": [0, 0, 0, 255]
 	},
 
-	// Quick Panel
-	{
-		"class": "quick_panel",
-		"row_padding": [2, 1],
-		"layer0.tint": [25, 25, 25],
-		"layer0.opacity": 1.0,
-		"dark_content": false
-	},
-	{
-		"class": "quick_panel_row",
-		"layer0.tint": [64, 64, 64],
-		"layer0.opacity": 1.0,
-		"layer1.texture": "material-theme/assets/panel_row.png",
-		"layer1.inner_margin": [1, 2, 1, 2],
-		"layer1.draw_center": false,
-		"layer1.opacity": 1.0
-	},
-	{
-		"class": "quick_panel_row",
-		"attributes": ["selected"],
-		"layer0.tint": [87, 87, 87],
-		"layer1.opacity": 0.0
-	},
-	{
-		"class": "quick_panel_label",
-		"fg": [200, 200, 200, 255],
-		"match_fg": [225, 225, 225, 255],
-		"selected_fg": [200, 200, 200, 255],
-		"selected_match_fg": [255, 255, 255, 255]
-	},
-	{
-		"class": "quick_panel_path_label",
-		"fg": [255, 255, 255, 100],
-		"match_fg": [255, 255, 255, 255],
-		"selected_fg": [255, 255, 255, 100],
-		"selected_match_fg": [255, 255, 255, 255]
-	},
-	{
-		"class": "quick_panel_score_label",
-		"fg": [28, 177, 239, 255],
-		"selected_fg": [166, 229, 255, 255]
-	},
-	{
-		"class": "mini_quick_panel_row",
-		"layer0.texture": "material-theme/assets/panel_row.png",
-		"layer0.inner_margin": [2, 2, 2, 2],
-		"layer0.opacity": 1.0
-	},
-	{
-		"class": "mini_quick_panel_row",
-		"attributes": ["selected"],
-		"layer0.texture": "material-theme/assets/panel_row_selected.png"
-	},
+
 
 	{
 		"class": "auto_complete",
@@ -147,6 +89,76 @@
 		"layer0.opacity": 1.0
 	},
 
+
+
+
+	/* @OVERLAY PANELS
+	 * Overlay panels setting and behavioring
+	========================================================================= */
+
+		// Quick Panel
+	    {
+	        "class": "overlay_control",
+	        "layer0.texture": "material-theme/assets/overlay-bg.png",
+	        "layer0.inner_margin": [30, 30],
+	        "layer0.opacity": 1.0,
+	        "layer1.texture": "material-theme/assets/quick-panel-background.png",
+	        "layer1.inner_margin": [30, 0, 20, 20],
+	        "layer1.opacity": 1.0,
+	        "content_margin": [13, 6, 13, 18]
+	    },
+
+		{
+			"class": "quick_panel",
+			"row_padding": [12, 12],
+			"layer0.tint": [25, 25, 25],
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "quick_panel_row",
+			"layer0.tint": [64, 64, 64],
+			"layer0.opacity": 1.0,
+			"layer1.texture": "material-theme/assets/panel_row.png",
+			"layer1.inner_margin": [40, 2, 1, 2],
+			"layer1.draw_center": false,
+			"layer1.opacity": 1.0
+		},
+		{
+			"class": "quick_panel_row",
+			"attributes": ["selected"],
+			"layer0.tint": [87, 87, 87],
+			"layer1.opacity": 0.0
+		},
+		{
+			"class": "quick_panel_label",
+			"fg": [200, 200, 200, 255],
+			"match_fg": [225, 225, 225, 255],
+			"selected_fg": [200, 200, 200, 255],
+			"selected_match_fg": [255, 255, 255, 255]
+		},
+		{
+			"class": "quick_panel_path_label",
+			"fg": [255, 255, 255, 100],
+			"match_fg": [255, 255, 255, 255],
+			"selected_fg": [255, 255, 255, 100],
+			"selected_match_fg": [255, 255, 255, 255]
+		},
+		{
+			"class": "quick_panel_score_label",
+			"fg": [28, 177, 239, 255],
+			"selected_fg": [166, 229, 255, 255]
+		},
+		{
+			"class": "mini_quick_panel_row",
+			"layer0.texture": "material-theme/assets/panel_row.png",
+			"layer0.inner_margin": [2, 2, 2, 2],
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "mini_quick_panel_row",
+			"attributes": ["selected"],
+			"layer0.texture": "material-theme/assets/panel_row_selected.png"
+		},
 
 
 
@@ -842,6 +854,19 @@
 			"tint_index": 1,
 
 			"content_margin": [16, 8, 16, 8]
+		},
+
+			// Textline input inside overlay panels
+
+		{
+			"class": "text_line_control",
+			"parents": [{"class": "overlay_control"}],
+			"layer0.texture": "material-theme/assets/input_field_border--short.png",
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": [32, 2, 32, 2],
+			"layer0.draw_center": true,
+
+			"content_margin": [32, 8, 32, 8]
 		},
 
 			// Textline input oveflow menu
