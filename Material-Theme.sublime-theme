@@ -605,7 +605,9 @@
 			"layer0.opacity": 1,
 			"content_margin": [8, 8]
 		},
-			// Secondary folder icon (original) used as a spacer between folder and label
+
+			// Secondary folder icon (original) used as main folder icon
+
 		{
 			"class": "icon_folder",
 			"layer0.texture": "material-theme/assets/folder.png",
@@ -613,6 +615,15 @@
 			"layer1.texture": "material-theme/assets/folder.png",
 			"layer1.opacity": 1,
 			"content_margin": [9, 8, 8, 6]
+		},
+
+		{
+			"class": "icon_folder",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["hover"] }
+			],
+			"layer1.texture": "material-theme/assets/folder--hover.png",
 		},
 
 		{
@@ -653,6 +664,9 @@
 			"layer0.opacity": 1.0,
 			"content_margin": [8, 8]
 		},
+
+			// Hidden arrow icon before folder
+
 		{
 			"class": "disclosure_button_control",
 			"layer0.texture": "material-theme/assets/folder.png",
@@ -678,7 +692,6 @@
 			"class": "disclosure_button_control",
 			"attributes": ["expanded"],
 			"layer0.texture": "material-theme/assets/folder_opened--hover.png",
-			"layer1.texture": "material-theme/assets/folder_opened--hover.png"
 		},
 
 		{
