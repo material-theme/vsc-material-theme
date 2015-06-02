@@ -113,35 +113,6 @@
 		"class": "tool_tip_label_control",
 		"color": [0, 0, 0, 255]
 	},
-	{
-		"class": "panel_close_button",
-		"layer0.texture": "material-theme/assets/dark_x.png",
-		"layer0.opacity": 0.6,
-		"layer1.texture": "material-theme/assets/dark_x_light_shadow.png",
-		"layer1.opacity": 0.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "panel_close_button",
-		"attributes": ["hover"],
-		"layer0.opacity": 0.0,
-		"layer1.opacity": 1.0,
-	},
-
-
-	{
-		"class": "text_line_control",
-		"layer0.texture": "material-theme/assets/input_field.png",
-		"layer0.opacity": 1.0,
-		"layer0.inner_margin": [4, 5, 4, 3],
-
-		"layer1.texture": "material-theme/assets/input_field_shadow.png",
-		"layer1.opacity": 1.0,
-		"layer1.inner_margin": [4, 5, 4, 3],
-		"tint_index": 1,
-
-		"content_margin": [3, 3, 3, 3]
-	},
 
 	// Quick Panel
 	{
@@ -978,5 +949,35 @@
 
 			"content_margin": [24, 14],
 			"layer0.opacity": 1.0
+		},
+
+			// Status bar panel close icon
+
+		{
+			"class": "panel_close_button",
+			"layer0.texture": "material-theme/assets/close_icon.png",
+			"layer0.opacity": 0.6,
+			"layer1.texture": "material-theme/assets/close_icon--hover.png",
+			"layer1.opacity": 0.0,
+			"content_margin": [8, 8]
+		},
+
+		{
+			"class": "panel_close_button",
+			"attributes": ["hover"],
+			"layer0.opacity": 0.0,
+			"layer1.opacity": 1.0,
+		},
+
+			// Texline input
+
+		{
+			"class": "text_line_control",
+			"layer0.texture": "material-theme/assets/input_field_shadow.png",
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": [4, 5, 4, 4],
+			"tint_index": 1,
+
+			"content_margin": [16, 8, 16, 8]
 		},
 ]
