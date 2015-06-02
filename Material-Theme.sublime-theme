@@ -1,67 +1,9 @@
 [
 
 	{
-		"class": "popup_control",
-		"layer0.tint": [0, 64, 64, 255],
-		"layer0.opacity": 1.0,
-		"content_margin": [12, 12]
-	},
-	{
-		"class": "tool_tip_control",
-		"layer0.texture": "material-theme/assets/tool_tip_background.png",
-		"layer0.inner_margin": [2, 2],
-		"layer0.opacity": 1.0,
-		"content_margin": [3, 3]
-	},
-	{
-		"class": "tool_tip_label_control",
-		"color": [0, 0, 0, 255]
-	},
-
-
-
-	{
-		"class": "auto_complete",
-		"row_padding": [2, 0],
-		"layer0.tint": [255, 255, 255],
-		"layer0.opacity": 1.0,
-		"dark_content": false
-	},
-	{
-		"class": "auto_complete_label",
-		"fg": [72, 72, 72, 255],
-		"match_fg": [0, 0, 0, 255],
-		"selected_fg": [72, 72, 72, 255],
-		"selected_match_fg": [0, 0, 0, 255]
-	},
-
-	{
 		"class": "sheet_container_control",
-		"layer0.tint": [64, 64, 64],
+		"layer0.tint": [ 64, 64, 64],
 		"layer0.opacity": 1.0
-	},
-
-	{
-		"class": "fold_button_control",
-		"layer0.texture": "material-theme/assets/arrow_right.png",
-		"layer0.opacity": 1.0,
-		"layer0.inner_margin": 0,
-		"layer1.texture": "material-theme/assets/arrow_right--hover.png",
-		"layer1.opacity": 0.0,
-		"layer1.inner_margin": 0,
-		"content_margin": [9, 7, 8, 6]
-	},
-	{
-		"class": "fold_button_control",
-		"attributes": ["hover"],
-		"layer0.opacity": 0.0,
-		"layer1.opacity": 1.0
-	},
-	{
-		"class": "fold_button_control",
-		"attributes": ["expanded"],
-		"layer0.texture": "material-theme/assets/arrow_down.png",
-		"layer1.texture": "material-theme/assets/arrow_down--hover.png"
 	},
 
 	{
@@ -92,11 +34,85 @@
 
 
 
+	/* @CODE FOLDING
+	 * Folding arrow setting and behavioring
+	========================================================================= */
+
+		{
+			"class": "fold_button_control",
+			"layer0.texture": "material-theme/assets/arrow_right.png",
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": 0,
+			"layer1.texture": "material-theme/assets/arrow_right--hover.png",
+			"layer1.opacity": 0.0,
+			"layer1.inner_margin": 0,
+			"content_margin": [9, 7, 8, 6]
+		},
+		{
+			"class": "fold_button_control",
+			"attributes": ["hover"],
+			"layer0.opacity": 0.0,
+			"layer1.opacity": 1.0
+		},
+		{
+			"class": "fold_button_control",
+			"attributes": ["expanded"],
+			"layer0.texture": "material-theme/assets/arrow_down.png",
+			"layer1.texture": "material-theme/assets/arrow_down--hover.png"
+		},
+
+
+	/* @AUTOCOMPLETE
+	 * Autocomplete popup setting and behavioring
+	========================================================================= */
+
+
+		{
+			"class": "popup_control",
+			"layer0.tint": [255, 255, 255, 255],
+			"layer0.opacity": 1.0,
+			"content_margin": [0, 0]
+		},
+
+		{
+			"class": "auto_complete",
+			"row_padding": [12, 6],
+			"layer0.tint": [255, 255, 255],
+			"layer0.opacit": 1.0,
+			"dark_content": false
+		},
+		{
+			"class": "auto_complete_label",
+			"fg": [84, 110, 122, 255],
+			"match_fg": [128, 203, 196, 255],
+			"selected_fg": [255, 255, 255, 255],
+			"selected_match_fg": [128, 203, 196, 255]
+		},
+
+
+	/* @TOOLTIP
+	 * Tooltip setting and behavioring
+	========================================================================= */
+
+		{
+			"class": "tool_tip_control",
+			"layer0.texture": "material-theme/assets/tool_tip_background.png",
+			"layer0.inner_margin": [2, 2],
+			"layer0.opacity": 1.0,
+			"content_margin": [3, 3]
+		},
+
+		{
+			"class": "tool_tip_label_control",
+			"color": [0, 0, 0, 255]
+		},
+
+
 	/* @OVERLAY PANELS
 	 * Overlay panels setting and behavioring
 	========================================================================= */
 
-		// Quick Panel
+		// Command Panel
 	    {
 	        "class": "overlay_control",
 	        "layer0.texture": "material-theme/assets/overlay-bg--light.png",
@@ -108,7 +124,7 @@
 	        "content_margin": [13, 6, 13, 18]
 	    },
 
-	    	// Quick Panel list item style
+	    	// Command Panel list item style
 
 		{
 			"class": "mini_quick_panel_row",
@@ -117,7 +133,7 @@
 			"layer0.opacity": 1.0
 		},
 
-			// Quick Panel selected list item style
+			// Command Panel selected list item style
 
 		{
 			"class": "mini_quick_panel_row",
@@ -131,39 +147,41 @@
 			"layer0.tint": [25, 25, 25],
 			"layer0.opacity": 1.0
 		},
+
+			// Quick Panel default list item style
+
 		{
 			"class": "quick_panel_row",
-			"layer0.tint": [64, 64, 64],
-			"layer0.opacity": 1.0,
-			"layer1.texture": "material-theme/assets/panel_row.png",
-			"layer1.inner_margin": [40, 2, 1, 2],
-			"layer1.draw_center": false,
-			"layer1.opacity": 1.0
+			"layer0.tint": [255, 255, 255],
+			"layer0.opacity": 1.0
 		},
+
+			// Quick Panel selected list item style
+
 		{
 			"class": "quick_panel_row",
 			"attributes": ["selected"],
-			"layer0.tint": [87, 87, 87],
+			"layer0.tint": [84, 110, 122],
 			"layer1.opacity": 0.0
 		},
 		{
 			"class": "quick_panel_label",
-			"fg": [200, 200, 200, 255],
-			"match_fg": [225, 225, 225, 255],
-			"selected_fg": [200, 200, 200, 255],
-			"selected_match_fg": [255, 255, 255, 255]
+			"fg": [84, 110, 122, 255],
+			"match_fg": [128, 203, 196, 255],
+			"selected_fg": [255, 255, 255, 255],
+			"selected_match_fg": [128, 203, 196, 255]
 		},
 		{
 			"class": "quick_panel_path_label",
-			"fg": [255, 255, 255, 100],
-			"match_fg": [255, 255, 255, 255],
-			"selected_fg": [255, 255, 255, 100],
-			"selected_match_fg": [255, 255, 255, 255]
+			"fg": [176, 190, 197, 255],
+			"match_fg": [128, 203, 196, 255],
+			"selected_fg": [255, 255, 255, 255],
+			"selected_match_fg": [128, 203, 196, 255]
 		},
 		{
 			"class": "quick_panel_score_label",
-			"fg": [28, 177, 239, 255],
-			"selected_fg": [166, 229, 255, 255]
+			"fg": [128, 203, 196, 255],
+			"selected_fg": [255, 255, 255, 255]
 		},
 
 
@@ -205,7 +223,7 @@
 			"layer1.inner_margin": [24, 0],
 			"layer1.opacity": 0.0,
 
-			"content_margin": [18, 8, 15, 4],
+			"content_margin": [18, 8, 11, 4],
 			"max_margin_trim": 0,
 			"hit_test_level": 0.4
 		},
@@ -1105,11 +1123,19 @@
 	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 	    },
 
+	    	// Reverse direction
+
 		{
 			"class": "icon_reverse",
-			"layer0.texture": "material-theme/assets/find_reverse.png",
-			"layer0.opacity": 1.0,
-			"content_margin": [8, 8]
+			"layer0.texture": "material-theme/assets/find_reverse--hover.png",
+			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"content_margin": [12, 12]
 		},
+
+	    {
+	        "class": "icon_reverse",
+	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+	    },
 
 ]
