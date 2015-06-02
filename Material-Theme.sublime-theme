@@ -1,94 +1,4 @@
 [
-	{
-		"class": "button_control",
-		"content_margin": [6, 5, 6, 6],
-		"min_size": [75, 0],
-		"layer0.texture": "material-theme/assets/full_button.png",
-		"layer0.opacity": 1.0,
-		"layer0.inner_margin": [6, 6],
-		"layer1.texture": "material-theme/assets/full_button_indented.png",
-		"layer1.opacity": 0.0,
-		"layer1.inner_margin": [6, 6],
-		"layer2.texture": "material-theme/assets/blue_highlight.png",
-		"layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
-		"layer2.inner_margin": [6, 6]
-	},
-	{
-		"class": "button_control",
-		"attributes": ["pressed"],
-		"layer0.opacity": 0,
-		"layer1.opacity": 1.0
-	},
-	{
-		"class": "button_control",
-		"attributes": ["pressed", "hover"],
-		"layer2.opacity": 0.0
-	},
-	{
-		"class": "button_control",
-		"attributes": ["hover"],
-		"layer2.opacity": 1.0
-	},
-
-	// Small Icon Buttons
-	{
-		"class": "icon_button_control",
-		"layer0.texture": "material-theme/assets/middle_button.png",
-		"layer0.inner_margin": [6, 6],
-		"layer0.opacity": 1.0,
-		"layer2.texture": "material-theme/assets/blue_highlight.png",
-		"layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
-		"content_margin": [4, 4]
-	},
-	/*
-	{
-		"class": "icon_button_control",
-		"attributes": ["hover", "selected"],
-		"layer2.opacity": 0.0
-	},
-	*/
-	{
-		"class": "icon_button_control",
-		"attributes": ["selected"],
-		"layer0.texture": "material-theme/assets/middle_button_selected.png",
-		"layer0.opacity": 1.0
-	},
-	{
-		"class": "icon_button_control",
-		"attributes": ["left", "selected"],
-		"layer0.texture": "material-theme/assets/left_button_selected.png",
-		"layer0.opacity": 1.0
-	},
-	{
-		"class": "icon_button_control",
-		"attributes": ["right", "selected"],
-		"layer0.texture": "material-theme/assets/right_button_selected.png",
-		"layer0.opacity": 1.0
-	},
-	{
-		"class": "icon_button_control",
-		"attributes": ["right", "left", "selected"],
-		"layer0.texture": "material-theme/assets/mini_button_selected.png",
-		"layer0.opacity": 1.0
-	},
-
-	{
-		"class": "dropdown_button_control",
-		"content_margin": [8, 8],
-		"layer0.texture": "material-theme/assets/down_arrow_inv.png",
-		"layer0.opacity": 1.0,
-		"layer0.inner_margin": [4, 4],
-		"layer1.texture": "material-theme/assets/down_arrow_inv_over.png",
-		"layer1.opacity": 0.0,
-		"layer1.inner_margin": [4, 4],
-	},
-	{
-		"class": "dropdown_button_control",
-		"attributes": ["hover"],
-		"layer1.opacity": 1.0
-	},
-
-
 
 	{
 		"class": "overlay_control",
@@ -237,66 +147,7 @@
 		"layer0.opacity": 1.0
 	},
 
-	{
-		"class": "icon_regex",
-		"layer0.texture": "material-theme/assets/find_regex.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_case",
-		"layer0.texture": "material-theme/assets/find_case.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_highlight",
-		"layer0.texture": "material-theme/assets/find_highlight.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_in_selection",
-		"layer0.texture": "material-theme/assets/find_inselection.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_reverse",
-		"layer0.texture": "material-theme/assets/find_reverse.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_whole_word",
-		"layer0.texture": "material-theme/assets/find_wholeword.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_wrap",
-		"layer0.texture": "material-theme/assets/find_wrap.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_preserve_case",
-		"layer0.texture": "material-theme/assets/replace_preserve_case.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_context",
-		"layer0.texture": "material-theme/assets/context.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
-	{
-		"class": "icon_use_buffer",
-		"layer0.texture": "material-theme/assets/use_buffer.png",
-		"layer0.opacity": 1.0,
-		"content_margin": [8, 8]
-	},
+
 
 
 	/* @TABS
@@ -878,7 +729,8 @@
 	 * Status bar settings and behavioring
 	========================================================================= */
 
-			// All labels
+		// All labels
+
 		{
 			"class": "label_control",
 			"color": [176, 190, 197],
@@ -888,17 +740,6 @@
 			"font.size": 12,
 	        "font.face": "Roboto Regular"
 		},
-
-		   // Button labels
-
-	    {
-	        "class": "label_control",
-	        "parents": [{"class": "button_control"}],
-	        "color": [176, 190, 197],
-	        "font.bold": true,
-	        "font.size": 12,
-	        "font.face": "Roboto Regular"
-	    },
 
 	    	// Status bar labels
 
@@ -949,7 +790,15 @@
 			"content_margin": [10, 2, 10, 3],
 			"min_size": [75, 0],
 		},
-			// Status bar panel
+
+
+
+	/* @WIDGET PANEL
+	 * Widget, input, buttons settings and behavioring
+	========================================================================= */
+
+
+		// Status bar panel
 		{
 			"class": "panel_control",
 
@@ -961,11 +810,11 @@
 			"layer1.inner_margin": [2, 2, 2, 2],
 			"layer1.opacity": 1.0,
 
-			"content_margin": [24, 14],
+			"content_margin": [24, 14, 0, 14],
 			"layer0.opacity": 1.0
 		},
 
-			// Status bar panel close icon
+		// Status bar panel close icon
 
 		{
 			"class": "panel_close_button",
@@ -973,7 +822,7 @@
 			"layer0.opacity": 0.6,
 			"layer1.texture": "material-theme/assets/close_icon--hover.png",
 			"layer1.opacity": 0.0,
-			"content_margin": [8, 8]
+			"content_margin": [0, 0] // 8,8 to show
 		},
 
 		{
@@ -987,11 +836,186 @@
 
 		{
 			"class": "text_line_control",
-			"layer0.texture": "material-theme/assets/input_field_shadow.png",
+			"layer0.texture": "material-theme/assets/input_field_border.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [4, 5, 4, 4],
 			"tint_index": 1,
 
 			"content_margin": [16, 8, 16, 8]
 		},
+
+			// Textline input oveflow menu
+
+		{
+			"class": "dropdown_button_control",
+			"content_margin": [2, 8],
+			"layer0.texture": "material-theme/assets/overflow_menu.png",
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": [0, 8],
+			"layer1.texture": "material-theme/assets/overflow_menu--hover.png",
+			"layer1.opacity": 0.0,
+			"layer1.inner_margin": [0, 8],
+		},
+		{
+			"class": "dropdown_button_control",
+			"attributes": ["hover"],
+			"layer1.opacity": 1.0
+		},
+
+
+	/* @BUTTONS
+	 * Buttons panels settings and behavioring
+	========================================================================= */
+
+
+  		// Button labels
+
+	    {
+	        "class": "label_control",
+	        "parents": [{"class": "button_control"}],
+	        "color": [176, 190, 197],
+	        "font.bold": true,
+	        "font.size": 12,
+	        "font.face": "Roboto Regular"
+	    },
+
+	    {
+			"class": "button_control",
+			"content_margin": [6, 5, 6, 6],
+			"min_size": [75, 0],
+			"layer0.texture": "material-theme/assets/full_button.png",
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": [6, 6],
+			"layer1.texture": "material-theme/assets/full_button_indented.png",
+			"layer1.opacity": 0.0,
+			"layer1.inner_margin": [6, 6],
+			"layer2.texture": "material-theme/assets/blue_highlight.png",
+			"layer2.opacity": { "target": 0.0, "speed": 0.5, "interpolation": "smoothstep" },
+			"layer2.inner_margin": [6, 6]
+		},
+		{
+			"class": "button_control",
+			"attributes": ["pressed"],
+			"layer0.opacity": 0,
+			"layer1.opacity": 1.0
+		},
+		{
+			"class": "button_control",
+			"attributes": ["pressed", "hover"],
+			"layer2.opacity": 0.0
+		},
+		{
+			"class": "button_control",
+			"attributes": ["hover"],
+			"layer2.opacity": 0.4
+		},
+
+		// Small Icon Buttons
+		{
+			"class": "icon_button_control",
+			"layer0.texture": "material-theme/assets/middle_button.png",
+			"layer0.inner_margin": [6, 6],
+			"layer0.opacity": 1.0,
+			"layer2.texture": "material-theme/assets/blue_highlight.png",
+			"layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
+			"content_margin": [4, 4]
+		},
+		/*
+		{
+			"class": "icon_button_control",
+			"attributes": ["hover", "selected"],
+			"layer2.opacity": 0.0
+		},
+		*/
+		{
+			"class": "icon_button_control",
+			"attributes": ["selected"],
+			"layer0.texture": "material-theme/assets/middle_button_selected.png",
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "icon_button_control",
+			"attributes": ["left", "selected"],
+			"layer0.texture": "material-theme/assets/left_button_selected.png",
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "icon_button_control",
+			"attributes": ["right", "selected"],
+			"layer0.texture": "material-theme/assets/right_button_selected.png",
+			"layer0.opacity": 1.0
+		},
+		{
+			"class": "icon_button_control",
+			"attributes": ["right", "left", "selected"],
+			"layer0.texture": "material-theme/assets/mini_button_selected.png",
+			"layer0.opacity": 1.0
+		},
+
+
+
+ 		/* Buttons icons settings
+		===================================================================== */
+
+		{
+			"class": "icon_regex",
+			"layer0.texture": "material-theme/assets/find_regex.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_case",
+			"layer0.texture": "material-theme/assets/find_case.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_highlight",
+			"layer0.texture": "material-theme/assets/find_highlight.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_in_selection",
+			"layer0.texture": "material-theme/assets/find_inselection.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_reverse",
+			"layer0.texture": "material-theme/assets/find_reverse.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_whole_word",
+			"layer0.texture": "material-theme/assets/find_wholeword.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_wrap",
+			"layer0.texture": "material-theme/assets/find_wrap.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_preserve_case",
+			"layer0.texture": "material-theme/assets/replace_preserve_case.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_context",
+			"layer0.texture": "material-theme/assets/context.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+		{
+			"class": "icon_use_buffer",
+			"layer0.texture": "material-theme/assets/use_buffer.png",
+			"layer0.opacity": 1.0,
+			"content_margin": [8, 8]
+		},
+
 ]

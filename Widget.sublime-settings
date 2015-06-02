@@ -1,3 +1,5 @@
 {
-	"color_scheme": "Packages/material-theme/Widgets.stTheme"
+	"color_scheme": "Packages/material-theme/Widgets.stTheme",
+	"font_size": 14,
+	"font_face": "Roboto Regular"
 }
