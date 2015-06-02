@@ -509,11 +509,11 @@
             "layer0.inner_margin": [2, 6],
             "layer0.opacity": 1.0,
 
-            "content_margin": [0, -8, 24, 0],
+            "content_margin": [12, -8, 24, 0],
             "tab_overlap": 0,
             "tab_width": 180,
             "tab_min_width": 64,
-            "tab_height": 64,
+            "tab_height": 54,
             "mouse_wheel_switch": false
         },
         {
@@ -534,7 +534,7 @@
             "layer1.inner_margin": [24, 0],
             "layer1.opacity": 0.0,
 
-            "content_margin": [24, 8, 24, 4],
+            "content_margin": [18, 8, 15, 4],
             "max_margin_trim": 0,
             "hit_test_level": 0.4
         },
@@ -543,12 +543,15 @@
             "class": "tab_control", "attributes": ["selected"],
             "layer1.opacity": 1.0
         },
-        // Tab Labels
+
+            // Tab Labels
+
         {
             "class": "tab_label",
             "fg": [84, 110, 122, 255],
             "shadow_color": [255, 255, 255, 0],
             "shadow_offset": [0, 0],
+            "font.size": 11,
             "font.italic": false,
             "font.bold": false
         },
@@ -565,10 +568,11 @@
             "font.italic": false
         },
 
-        // Tab Close Buttons
+            // Tab Close Buttons
+
         {
             "class": "tab_close_button",
-            "content_margin": [6, 6],
+            "content_margin": [8, 8],
 
              // Close Icon
             "layer0.texture": "material-theme/assets/close_icon.png",
@@ -710,12 +714,12 @@
             "layer0.tint": [38, 50, 56],
             "layer0.opacity": 1.0,
             "layer0.draw_center": false,
-            "layer0.inner_margin": [24, 24, 24, 24],
-            "content_margin": [24, 24, 24, 24]
+            "layer0.inner_margin": [0, 24, 12, 24],
+            "content_margin": [0, 24, 12, 24]
         },
         {
             "class": "sidebar_tree",
-            "row_padding": [0, 6],
+            "row_padding": [24, 5],
             "indent": 16,
             "indent_offset": 17,
             "indent_top_level": false,
@@ -747,13 +751,13 @@
             "color": [96, 125, 139],
             "font.bold": false,
             "font.italic": false,
-            "font.face": "Roboto"
+            "font.face": "Roboto Regular"
         },
 
         {
             "class": "sidebar_label",
             "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-            "color": [128, 203, 196]
+            "color": [175, 189, 196]
         },
 
         {
@@ -789,15 +793,22 @@
         {
             "class": "icon_file_type",
             // layer0.texture is filled in by code with the relevant icon name
-            "layer0.opacity": 1.0,
+            "layer0.opacity": 0.6,
             "content_margin": [8, 8]
         },
-            // Secondary folder icon (original)
+        {
+            "class": "icon_file_type",
+            "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+            "layer0.opacity": 1,
+            "content_margin": [8, 8]
+        },
+            // Secondary folder icon (original) used as a spacer between folder and label
         {
             "class": "icon_folder",
             "layer0.texture": "material-theme/assets/folder.png",
-            "layer0.opacity": 0.0,
-            "content_margin": [0, 0]
+            "layer0.tint": [38, 50, 56],
+            "layer0.opacity": 0,
+            "content_margin": [4, 0]
         },
 
         {
@@ -838,7 +849,6 @@
             "layer0.opacity": 1.0,
             "content_margin": [8, 8]
         },
-            // Opened files
         {
             "class": "disclosure_button_control",
             "layer0.texture": "material-theme/assets/folder.png",
@@ -892,13 +902,20 @@
             "attributes": ["selected"],
             "layer0.opacity": 1
         },
-
+            // Opened files
         {
             "class": "close_button",
+            "content_margin": [5, 5],
+
+            // Default Close icon
             "layer0.texture": "material-theme/assets/close_icon.png",
-            "layer0.opacity": 0.5,
+            "layer0.opacity": 1,
             "layer0.inner_margin": 0,
-            "content_margin": [5, 5]
+
+            // Hover close icon
+            "layer1.texture": "material-theme/assets/close_icon--hover.png",
+            "layer1.opacity": 0,
+            "layer1.inner_margin": 0,
         },
 
         {
@@ -910,6 +927,7 @@
         {
             "class": "close_button",
             "attributes": ["hover"],
-            "layer0.opacity": 1.0
+            "layer0.opacity": 0,
+            "layer1.opacity": 1.0
         }
 ]
