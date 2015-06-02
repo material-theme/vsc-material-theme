@@ -893,13 +893,40 @@
 	 * Status bar settings and behavioring
 	========================================================================= */
 
-
+			// All labels
 		{
 			"class": "label_control",
-			"color": [120, 144, 156],
+			"color": [176, 190, 197],
 			"shadow_color": [24, 24, 24, 0],
-			"shadow_offset": [0, 0]
+			"shadow_offset": [0, 0],
+			"font.bold": true,
+			"font.size": 12,
+	        "font.face": "Roboto Regular"
 		},
+
+		   // Button labels
+
+	    {
+	        "class": "label_control",
+	        "parents": [{"class": "button_control"}],
+	        "color": [176, 190, 197],
+	        "font.bold": true,
+	        "font.size": 12,
+	        "font.face": "Roboto Regular"
+	    },
+
+	    	// Status bar labels
+
+	    {
+	        "class": "label_control",
+	        "parents": [{"class": "status_bar"}],
+	        "color": [120, 144, 156],
+	        "font.bold": false,
+	        "font.face": "Roboto Regular"
+    	},
+
+			// Text field labels
+
 		{
 			"class": "status_bar",
 
