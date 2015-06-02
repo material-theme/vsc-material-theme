@@ -509,8 +509,8 @@
             "layer0.inner_margin": [2, 6],
             "layer0.opacity": 1.0,
 
-            "content_margin": [3, -8, 24, 0],
-            "tab_overlap": 17,
+            "content_margin": [0, -8, 24, 0],
+            "tab_overlap": 0,
             "tab_width": 180,
             "tab_min_width": 64,
             "tab_height": 64,
@@ -526,16 +526,16 @@
             "class": "tab_control",
 
             "layer0.tint": [38, 50, 56],
-            "layer0.inner_margin": [22, 4],
+            "layer0.inner_margin": [24, 0],
             "layer0.opacity": 1.0,
             "tint_index": 0,
 
             "layer1.texture": "material-theme/assets/tab_current.png",
-            "layer1.inner_margin": [22, 4],
+            "layer1.inner_margin": [24, 0],
             "layer1.opacity": 0.0,
 
-            "content_margin": [24, 8, 23, 4],
-            "max_margin_trim": 6,
+            "content_margin": [24, 8, 24, 4],
+            "max_margin_trim": 0,
             "hit_test_level": 0.4
         },
             // Selected current tab
