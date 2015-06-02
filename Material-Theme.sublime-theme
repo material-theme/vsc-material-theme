@@ -810,7 +810,7 @@
 			"layer1.inner_margin": [2, 2, 2, 2],
 			"layer1.opacity": 1.0,
 
-			"content_margin": [24, 14, 0, 14],
+			"content_margin": [6, 14, 0, 14],
 			"layer0.opacity": 1.0
 		},
 
@@ -928,30 +928,30 @@
 			// Regex Icon
 		{
 			"class": "icon_regex",
-			"layer0.texture": "material-theme/assets/find_regex.png",
-			"layer0.opacity": 1.0,
+			"layer0.texture": "material-theme/assets/find_regex--hover.png",
+			"layer0.opacity": { "target": 0.2, "speed": 1.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 		{
 	        "class": "icon_regex",
 	        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
 	        "layer0.texture": "material-theme/assets/find_regex--hover.png",
-	        "layer0.opacity": 0.4
+	        "layer0.opacity": { "target": 1.0, "speed": 100.0, "interpolation": "smoothstep" }
 	    },
 
 	    {
 	        "class": "icon_regex",
 	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 	        "layer0.texture": "material-theme/assets/find_regex--hover.png",
-	        "layer0.opacity": 1
+	        "layer0.opacity": 1.0
 	    },
 
 	    	// Preserve case
 
 		{
 			"class": "icon_case",
-			"layer0.texture": "material-theme/assets/find_case.png",
-			"layer0.opacity": 1.0,
+			"layer0.texture": "material-theme/assets/find_case--hover.png",
+			"layer0.opacity": { "target": 0.2, "speed": 1.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
@@ -959,13 +959,82 @@
 	        "class": "icon_case",
 	        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
 	        "layer0.texture": "material-theme/assets/find_case--hover.png",
-	        "layer0.opacity": 0.4
+	        "layer0.opacity": { "target": 1.0, "speed": 100.0, "interpolation": "smoothstep" }
 	    },
 
 	    {
 	        "class": "icon_case",
 	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 	        "layer0.texture": "material-theme/assets/find_case--hover.png",
+	        "layer0.opacity": 1
+	    },
+
+	    	// Wholeword
+
+		{
+			"class": "icon_whole_word",
+			"layer0.texture": "material-theme/assets/find_word--hover.png",
+			"layer0.opacity": { "target": 0.2, "speed": 1.0, "interpolation": "smoothstep" },
+			"content_margin": [12, 12]
+		},
+
+		{
+	        "class": "icon_whole_word",
+	        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+	        "layer0.texture": "material-theme/assets/find_word--hover.png",
+	        "layer0.opacity": { "target": 1.0, "speed": 100.0, "interpolation": "smoothstep" }
+	    },
+
+	    {
+	        "class": "icon_whole_word",
+	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+	        "layer0.texture": "material-theme/assets/find_word--hover.png",
+	        "layer0.opacity": 1
+	    },
+
+	    	// Wrap
+
+		{
+			"class": "icon_wrap",
+			"layer0.texture": "material-theme/assets/find_wrap--hover.png",
+			"layer0.opacity": { "target": 0.2, "speed": 1.0, "interpolation": "smoothstep" },
+			"content_margin": [12, 12]
+		},
+
+		{
+	        "class": "icon_wrap",
+	        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+	        "layer0.texture": "material-theme/assets/find_wrap--hover.png",
+	        "layer0.opacity": { "target": 1.0, "speed": 100.0, "interpolation": "smoothstep" }
+	    },
+
+	    {
+	        "class": "icon_wrap",
+	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+	        "layer0.texture": "material-theme/assets/find_wrap--hover.png",
+	        "layer0.opacity": 1
+	    },
+
+	    	// In selection
+
+		{
+			"class": "icon_in_selection",
+			"layer0.texture": "material-theme/assets/find_inselection--hover.png",
+			"layer0.opacity": { "target": 0.2, "speed": 1.0, "interpolation": "smoothstep" },
+			"content_margin": [12,12]
+		},
+
+		{
+	        "class": "icon_in_selection",
+	        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+	        "layer0.texture": "material-theme/assets/find_inselection--hover.png",
+	        "layer0.opacity": { "target": 1.0, "speed": 100.0, "interpolation": "smoothstep" }
+	    },
+
+	    {
+	        "class": "icon_in_selection",
+	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+	        "layer0.texture": "material-theme/assets/find_inselection--hover.png",
 	        "layer0.opacity": 1
 	    },
 
@@ -973,31 +1042,28 @@
 
 		{
 			"class": "icon_highlight",
-			"layer0.texture": "material-theme/assets/find_highlight.png",
-			"layer0.opacity": 1.0,
-			"content_margin": [8, 8]
+			"layer0.texture": "material-theme/assets/find_highlight--hover.png",
+			"layer0.opacity": { "target": 0.2, "speed": 1.0, "interpolation": "smoothstep" },
+			"content_margin": [12, 12]
 		},
+
 		{
-			"class": "icon_in_selection",
-			"layer0.texture": "material-theme/assets/find_inselection.png",
-			"layer0.opacity": 1.0,
-			"content_margin": [8, 8]
-		},
+	        "class": "icon_highlight",
+	        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+	        "layer0.texture": "material-theme/assets/find_highlight--hover.png",
+	        "layer0.opacity": { "target": 1.0, "speed": 100.0, "interpolation": "smoothstep" }
+	    },
+
+	    {
+	        "class": "icon_highlight",
+	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+	        "layer0.texture": "material-theme/assets/find_highlight--hover.png",
+	        "layer0.opacity": 1
+	    },
+
 		{
 			"class": "icon_reverse",
 			"layer0.texture": "material-theme/assets/find_reverse.png",
-			"layer0.opacity": 1.0,
-			"content_margin": [8, 8]
-		},
-		{
-			"class": "icon_whole_word",
-			"layer0.texture": "material-theme/assets/find_wholeword.png",
-			"layer0.opacity": 1.0,
-			"content_margin": [8, 8]
-		},
-		{
-			"class": "icon_wrap",
-			"layer0.texture": "material-theme/assets/find_wrap.png",
 			"layer0.opacity": 1.0,
 			"content_margin": [8, 8]
 		},
