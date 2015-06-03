@@ -66,8 +66,8 @@
 
 
 		{
-			"class": "popup_control",
-			"layer0.tint": [255, 255, 255, 255],
+			"cla": "popup_control",
+			"layer0.texture": "[255, 255, 255, 255]",
 			"layer0.opacity": 1.0,
 			"content_margin": [0, 0]
 		},
@@ -106,7 +106,7 @@
 
 		{
 			"class": "tool_tip_control",
-			"layer0.tint": [84,110,122],
+			"layer0.tint": [33,33,33],
 			"layer0.inner_margin": [0, 0],
 			"layer0.opacity": 1.0,
 			"content_margin": [8, 8]
@@ -748,7 +748,7 @@
 			"class": "minimap_control",
 			"settings": ["always_show_minimap_viewport"],
 			"viewport_color": [128, 203, 196, 96],
-			"viewport_opacity": 1.0,
+			"viewport_opacity": 0.4,
 		},
 
 		{
@@ -761,7 +761,7 @@
 			"class": "minimap_control",
 			"attributes": ["hover"],
 			"settings": ["!always_show_minimap_viewport"],
-			"viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
+			"viewport_opacity": { "target": 0.4, "speed": 20.0, "interpolation": "smoothstep" },
 		},
 
 
