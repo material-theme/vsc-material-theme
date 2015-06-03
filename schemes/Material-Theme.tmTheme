@@ -35,9 +35,9 @@
 				<key>gutterForeground</key>
 				<string>#4d575b</string>
 				<key>guide</key>
-				<string>#3c3c3c</string>
+				<string>#37474F</string>
 				<key>activeGuide</key>
-				<string>#484848</string>
+				<string>#37474F</string>
 				<key>minimapBorder</key>
 				<string>#24dbec25</string>
 			</dict>
@@ -50,7 +50,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4d575b</string>
+				<string>#546E7A</string>
 			</dict>
 		</dict>
 		<dict>
