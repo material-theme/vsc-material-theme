@@ -138,7 +138,7 @@
 	        "layer1.texture": "material-theme/assets/quick-panel-background.png",
 	        "layer1.inner_margin": [30, 0, 20, 20],
 	        "layer1.opacity": 1.0,
-	        "content_margin": [13, 13, 13, 30]
+	        "content_margin": [13, 13, 13, 15]
 	    },
 
 	    	// Command Panel list item style
@@ -607,7 +607,7 @@
 
 		{
 			"class": "tree_row",
-			"layer0.tint": [35, 50, 56],
+			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 0.0,
 			"layer0.inner_margin": [1, 1]
 		},
@@ -651,26 +651,54 @@
 	 * Scrollbars settings and behavioring
 	========================================================================= */
 
+		// Normal Vertical scrollbar track
+	    {
+	        "class": "scroll_bar_control",
+	        "layer0.tint": [38, 50, 56],
+	        "layer0.opacity": 1.0,
+	        "layer0.inner_margin": [0, 6],
+	        "blur": false
+	    },
+	    	// Normal Vertical scrollbar track inside overlay panel
+
+     	{
+	        "class": "scroll_bar_control",
+	        "parents": [{"class": "overlay_control"}],
+	        "layer0.tint": [255, 255, 255],
+	        "layer0.opacity": 1.0,
+	        "layer0.inner_margin": [0, 6],
+	        "blur": false
+	    },
+
+	    	// Normal horizontal scrollbar track
+
+	    {
+	        "class": "scroll_bar_control",
+	        "attributes": ["horizontal"],
+	        "layer0.tint": [38, 50, 56],
+	        "layer0.opacity": 1.0,
+	        "layer0.inner_margin": [6, 0],
+	        "blur": false
+	    },
+
+	    	// Normal horizontal scrollbar track inside overlay panel
 
 		{
-			"class": "scroll_bar_control",
-			"layer0.texture": "material-theme/assets/normal_bar_vertical.png",
-			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [0, 6],
-			"blur": false
-		},
-		{
-			"class": "scroll_bar_control",
-			"attributes": ["horizontal"],
-			"layer0.texture": "material-theme/assets/normal_bar_horizontal.png",
-			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [6, 0],
-			"blur": false
-		},
+	        "class": "scroll_bar_control",
+	        "attributes": ["horizontal"],
+	        "parents": [{"class": "overlay_control"}],
+	        "layer0.tint": [255, 255, 255],
+	        "layer0.opacity": 1.0,
+	        "layer0.inner_margin": [0, 6],
+	        "blur": false
+	    },
+
+	    	// Scrollbars corner
+
 		{
 			"class": "scroll_corner_control",
 			"layer0.texture": "material-theme/assets/normal_bar_corner.png",
-			"layer0.opacity": 1.0,
+			"layer0.opacity": 0.0,
 			"layer0.inner_margin": [1, 1]
 		},
 		{
