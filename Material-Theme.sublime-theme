@@ -131,7 +131,7 @@
 	        "layer1.texture": "material-theme/assets/quick-panel-background.png",
 	        "layer1.inner_margin": [30, 0, 20, 20],
 	        "layer1.opacity": 1.0,
-	        "content_margin": [13, 6, 13, 18]
+	        "content_margin": [13, 13, 13, 30]
 	    },
 
 	    	// Command Panel list item style
@@ -851,7 +851,7 @@
 			"layer0.opacity": 1.0
 		},
 
-		// Status bar panel close icon
+			// Status bar panel close icon
 
 		{
 			"class": "panel_close_button",
@@ -875,10 +875,10 @@
 			"class": "text_line_control",
 			"layer0.texture": "material-theme/assets/input_field_bar.png",
 			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [4, 5, 4, 4],
+			"layer0.inner_margin": [20, 5, 20, 5],
 			"tint_index": 1,
 
-			"content_margin": [16, 8, 16, 8]
+			"content_margin": [24, 8, 24, 8]
 		},
 
 		// bordered input style
@@ -914,10 +914,10 @@
 			"content_margin": [2, 8],
 			"layer0.texture": "material-theme/assets/overflow_menu.png",
 			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [1, 8],
+			"layer0.inner_margin": [0, 0],
 			"layer1.texture": "material-theme/assets/overflow_menu--hover.png",
 			"layer1.opacity": 0.0,
-			"layer1.inner_margin": [1, 8],
+			"layer1.inner_margin": [0, 0],
 		},
 		{
 			"class": "dropdown_button_control",
