@@ -106,15 +106,15 @@
 
 		{
 			"class": "tool_tip_control",
-			"layer0.texture": "material-theme/assets/tool_tip_background.png",
-			"layer0.inner_margin": [2, 2],
+			"layer0.tint": [84,110,122],
+			"layer0.inner_margin": [0, 0],
 			"layer0.opacity": 1.0,
-			"content_margin": [3, 3]
+			"content_margin": [8, 8]
 		},
 
 		{
 			"class": "tool_tip_label_control",
-			"color": [0, 0, 0, 255]
+			"color": [255, 255, 255, 255]
 		},
 
 
@@ -747,14 +747,14 @@
 		{
 			"class": "minimap_control",
 			"settings": ["always_show_minimap_viewport"],
-			"viewport_color": [68, 68, 68, 96],
+			"viewport_color": [128, 203, 196, 96],
 			"viewport_opacity": 1.0,
 		},
 
 		{
 			"class": "minimap_control",
 			"settings": ["!always_show_minimap_viewport"],
-			"viewport_color": [68, 68, 68, 128],
+			"viewport_color": [128, 203, 196, 96],
 			"viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
 		},
 		{
