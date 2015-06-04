@@ -37,6 +37,7 @@
 			"layer0.opacity": 1.0,
 		},
 
+
 	/* @CODE FOLDING
 	 * Folding arrow setting and behavioring
 	========================================================================= */
@@ -161,7 +162,7 @@
 		{
 			"class": "quick_panel",
 			"row_padding": [32, 12],
-			"layer0.tint": [25, 25, 25],
+			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 1.0
 		},
 
