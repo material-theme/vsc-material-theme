@@ -19,3 +19,7 @@ This is a beta version and if you use it, somewhere in the world, a developer wi
 	"color_scheme": "Packages/material-theme/schemes/Material-Theme.tmTheme",
 }
 ```
+
+## Thanks
+
+Thanks @Riccardo-Zanutta for the windows beta test, site development and support :)
