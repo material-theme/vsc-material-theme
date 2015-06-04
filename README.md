@@ -7,7 +7,7 @@ This is a beta version and if you use it, somewhere in the world, a developer wi
 
 ## Manual Installation (for testing)
 
-1. Download the ```.zip```file, extract and rename the folder in "material-theme".
+1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the folder in "material-theme".
 
 2. Move the folder inside your sublime Packages directory.
 
