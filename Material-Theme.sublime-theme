@@ -142,16 +142,16 @@
 	        "content_margin": [13, 13, 13, 15]
 	    },
 
-	    	// Command Panel list item style
+	    	// Command Panel list item style (cmd + shift + p)
 
 		{
 			"class": "mini_quick_panel_row",
-			"layer0.tint": [0, 255, 255],
+			"layer0.tint": [255, 255, 255],
 			"layer0.inner_margin": [2, 2, 2, 2],
 			"layer0.opacity": 1.0
 		},
 
-			// Command Panel selected list item style
+			// Command Panel selected list item style (cmd + p)
 
 		{
 			"class": "mini_quick_panel_row",
@@ -159,7 +159,7 @@
 			"layer0.tint": [84, 110, 122]
 		},
 
-			// Quick Panel style (project manager)
+			// Quick panel project setting (project manager) (cmd + alt + p)
 
 		{
 			"class": "quick_panel",
@@ -168,7 +168,7 @@
 			"layer0.opacity": 1.0
 		},
 
-			// Quick Panel default list item style
+			// Quick Panel row default style (project manager)
 
 		{
 			"class": "quick_panel_row",
@@ -176,7 +176,7 @@
 			"layer0.opacity": 1.0
 		},
 
-			// Quick Panel list item style inside overlay_control
+			// Row panel style inside comman panel (cmd + shift + p)
 
 		{
 			"class": "quick_panel_row",
@@ -198,6 +198,17 @@
 
 		{
 			"class": "quick_panel_label",
+			"fg": [128, 203, 196, 255],
+			"match_fg": [128, 203, 196, 255],
+			"selected_fg": [255, 255, 255, 255],
+			"selected_match_fg": [128, 203, 196, 255]
+		},
+
+			// Panel labels
+
+		{
+			"class": "quick_panel_label",
+			"parents": [{"class": "overlay_control"}],
 			"fg": [84, 110, 122, 255],
 			"match_fg": [128, 203, 196, 255],
 			"selected_fg": [255, 255, 255, 255],
