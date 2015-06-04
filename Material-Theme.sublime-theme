@@ -2,7 +2,7 @@
 
 	{
 		"class": "sheet_container_control",
-		"layer0.tint": [ 64, 64, 64],
+		"layer0.tint": [ 0, 0, 0],
 		"layer0.opacity": 1.0
 	},
 
@@ -12,11 +12,6 @@
 		"border_color": [80, 80, 80]
 	},
 
-	{
-		"class": "progress_bar_control",
-		"layer0.tint": [38, 50, 56],
-		"layer0.opacity": 1.0,
-	},
 
 
 	/* @DIALOG POPUP
@@ -36,6 +31,11 @@
 			"layer0.opacit": 1.0
 		},
 
+		{
+			"class": "progress_bar_control",
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0,
+		},
 
 	/* @CODE FOLDING
 	 * Folding arrow setting and behavioring
@@ -525,7 +525,7 @@
 			"layer0.opacity": 0,
 			"layer1.texture": "material-theme/assets/folder.png",
 			"layer1.opacity": 1,
-			"content_margin": [9, 8, 8, 6]
+			"content_margin": [8, 8]
 		},
 
 		{
