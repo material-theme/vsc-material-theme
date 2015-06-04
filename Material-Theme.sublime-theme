@@ -73,8 +73,8 @@
 
 
 		{
-			"cla": "popup_control",
-			"layer0.texture": "[255, 255, 255, 255]",
+			"class": "popup_control",
+			"layer0.texture": [255, 255, 255, 255],
 			"layer0.opacity": 1.0,
 			"content_margin": [0, 0]
 		},
@@ -697,37 +697,57 @@
 
 		{
 			"class": "scroll_corner_control",
-			"layer0.texture": "material-theme/assets/normal_bar_corner.png",
-			"layer0.opacity": 0.0,
-			"layer0.inner_margin": [1, 1]
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": [1, 1],
+			"layer1.tint": [38, 50, 56],
+			"layer1.opacity": 1.0,
+			"layer1.inner_margin": [1, 1]
 		},
+
+			// Vertical puck controller
+
 		{
 			"class": "puck_control",
 			"layer0.texture": "material-theme/assets/normal_thumb_vertical.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [0, 10],
-			"content_margin": [8, 12],
+			"content_margin": [6, 2],
 			"blur": false
 		},
+
+			// Horizontal puck controller
+
 		{
 			"class": "puck_control",
 			"attributes": ["horizontal"],
 			"layer0.texture": "material-theme/assets/normal_thumb_horizontal.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [10, 0],
-			"content_margin": [12, 8],
+			"content_margin": [2, 6],
 			"blur": false
 		},
+
 		{
 			"class": "scroll_area_control",
 			"settings": ["overlay_scroll_bars"],
 			"overlay": true
 		},
+
 		{
 			"class": "scroll_area_control",
 			"settings": ["!overlay_scroll_bars"],
-			"overlay": false
+			"overlay": false // set to false for the original behavior
 		},
+
+		{
+			"class": "scroll_area_control",
+			"parents": [{"class": "overlay_control"}],
+			"settings": ["!overlay_scroll_bars"],
+			"overlay": true // set to false for the original behavior
+		},
+
+
 		{
 			"class": "scroll_bar_control",
 			"settings": ["overlay_scroll_bars"],
@@ -746,7 +766,7 @@
 		{
 			"class": "puck_control",
 			"settings": ["overlay_scroll_bars"],
-			"layer0.texture": "material-theme/assets/overlay_thumb_vertical.png",
+			"layer0.texture": "material-theme/assets/overlay_dark_thumb_vertical.png",
 			"layer0.inner_margin": [0, 5],
 			"content_margin": [5, 20],
 			"blur": true
@@ -755,22 +775,10 @@
 			"class": "puck_control",
 			"settings": ["overlay_scroll_bars"],
 			"attributes": ["horizontal"],
-			"layer0.texture": "material-theme/assets/overlay_thumb_horizontal.png",
+			"layer0.texture": "material-theme/assets/overlay_dark_thumb_horizontal.png",
 			"layer0.inner_margin": [5, 0],
 			"content_margin": [20, 5],
 			"blur": true
-		},
-		{
-			"class": "puck_control",
-			"settings": ["overlay_scroll_bars"],
-			"attributes": ["dark"],
-			"layer0.texture": "material-theme/assets/overlay_dark_thumb_vertical.png"
-		},
-		{
-			"class": "puck_control",
-			"settings": ["overlay_scroll_bars"],
-			"attributes": ["horizontal", "dark"],
-			"layer0.texture": "material-theme/assets/overlay_dark_thumb_horizontal.png"
 		},
 
 
