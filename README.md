@@ -22,4 +22,4 @@ This is a beta version and if you use it, somewhere in the world, a developer wi
 
 ## Thanks
 
-Thanks @Riccardo-Zanutta for the windows beta test, site development and support :)
+Thanks [@Riccardo-Zanutta](https://github.com/Riccardo-Zanutta) for the windows beta test, site development and support :)
