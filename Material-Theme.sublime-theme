@@ -146,7 +146,7 @@
 
 		{
 			"class": "mini_quick_panel_row",
-			"layer0.tint": [255, 255, 255],
+			"layer0.tint": [0, 255, 255],
 			"layer0.inner_margin": [2, 2, 2, 2],
 			"layer0.opacity": 1.0
 		},
@@ -159,6 +159,8 @@
 			"layer0.tint": [84, 110, 122]
 		},
 
+			// Quick Panel style (project manager)
+
 		{
 			"class": "quick_panel",
 			"row_padding": [32, 12],
@@ -170,6 +172,15 @@
 
 		{
 			"class": "quick_panel_row",
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0
+		},
+
+			// Quick Panel list item style inside overlay_control
+
+		{
+			"class": "quick_panel_row",
+			"parents": [{"class": "overlay_control"}],
 			"layer0.tint": [255, 255, 255],
 			"layer0.opacity": 1.0
 		},
