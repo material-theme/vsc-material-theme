@@ -787,6 +787,13 @@
 		},
 
 		{
+			"class": "scroll_area_control",
+			"parents": [{"class": "sidebar_container"}],
+			"settings": ["!overlay_scroll_bars"],
+			"overlay": true // set to false for the original behavior
+		},
+
+		{
 			"class": "scroll_bar_control",
 			"settings": ["overlay_scroll_bars"],
 			"layer0.texture": "material-theme/assets/overlay_bar_vertical.png",
