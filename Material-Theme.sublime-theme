@@ -1,17 +1,25 @@
 [
 
-	{
-		"class": "sheet_container_control",
-		"layer0.tint": [ 0, 0, 0],
-		"layer0.opacity": 1.0
-	},
+	/* @EMPTY WINDOW
+	 * Style for empty (no tabs) window
+	========================================================================= */
 
-	{
-		"class": "grid_layout_control",
-		"border_size": 1,
-		"border_color": [80, 80, 80]
-	},
+		{
+			"class": "sheet_container_control",
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0
+		},
 
+
+	/* @GRID LAYOUT
+	 * Grid style
+	========================================================================= */
+
+		{
+			"class": "grid_layout_control",
+			"border_size": 1,
+			"border_color": [80, 80, 80]
+		},
 
 
 	/* @DIALOG POPUP
@@ -476,30 +484,28 @@
 
 		{
 			"class": "sidebar_heading",
-			"parents": [{"class": "sidebar_tree"}],
-			"row_padding": [0, 0],
-		},
-
-		{
-			"class": "sidebar_heading",
 			"parents":
 			[
 				{ "class": "tree_row", "attributes": ["selected"] }
 			],
-			"shadow_color": [160, 174, 192, 0]
+			"shadow_color": [160, 174, 192, 0],
 		},
 
 		{
 			"class": "sidebar_label",
 			"color": [96, 125, 139],
 			"font.bold": false,
-			"font.italic": false
+			"font.italic": false,
+			"shadow_color": [0, 0, 0, 0],
+			"shadow_offset": [0, 1]
 		},
 
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-			"color": [175, 189, 196]
+			"color": [175, 189, 196],
+			"shadow_color": [0, 0, 0, 0],
+			"shadow_offset": [0, 1]
 		},
 
 		{
