@@ -23,11 +23,11 @@
 				<key>invisibles</key>
 				<string>#24dbec</string>
 				<key>lineHighlight</key>
-				<string>#232323</string>
+				<string>#546E7A</string>
 				<key>selection</key>
-				<string>#1E3538</string>
+				<string>#546E7A</string>
 				<key>selectionForeground</key>
-				<string>#61ABB6</string>
+				<string>#FFFFFF</string>
 				<key>inactiveSelection</key>
 				<string>#1B3134</string>
 				<key>findHighlight</key>
