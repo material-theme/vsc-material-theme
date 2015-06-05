@@ -466,7 +466,7 @@
 		{
 			"class": "sidebar_tree",
 			"row_padding": [24, 5],
-			"indent": 20,
+			"indent": 30,
 			"indent_offset": 0,
 			"indent_top_level": false,
 			"layer0.tint": [38, 50, 56],
