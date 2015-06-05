@@ -33,9 +33,9 @@
 				<key>findHighlight</key>
 				<string>#24dbec</string>
 				<key>gutterForeground</key>
-				<string>#4d575b</string>
-				<key>guide</key>
 				<string>#37474F</string>
+				<key>guide</key>
+				<string>#37474F80</string>
 				<key>activeGuide</key>
 				<string>#37474F</string>
 				<key>minimapBorder</key>
