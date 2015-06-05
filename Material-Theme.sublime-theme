@@ -476,6 +476,12 @@
 
 		{
 			"class": "sidebar_heading",
+			"parents": [{"class": "sidebar_tree"}],
+			"row_padding": [0, 0],
+		},
+
+		{
+			"class": "sidebar_heading",
 			"parents":
 			[
 				{ "class": "tree_row", "attributes": ["selected"] }
@@ -544,11 +550,11 @@
 
 		{
 			"class": "icon_folder",
-			"layer0.texture": "material-theme/assets/folder.png",
+			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 0,
 			"layer1.texture": "material-theme/assets/folder.png",
 			"layer1.opacity": 1,
-			"content_margin": [8, 8]
+			"content_margin": [13, 8]
 		},
 
 		{
