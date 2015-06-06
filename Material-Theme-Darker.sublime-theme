@@ -439,7 +439,7 @@
 
 		{
 			"class": "show_tabs_dropdown_button",
-			"content_margin": [2, 8, 2, 8],
+			"content_margin": [12, 12],
 			"layer0.texture": "material-theme/assets/commons/overflow_menu.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": 0,
@@ -1021,7 +1021,7 @@
 
 		{
 			"class": "dropdown_button_control",
-			"content_margin": [2, 8],
+			"content_margin": [12, 12],
 			"layer0.texture": "material-theme/assets/commons/overflow_menu.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [0, 0],

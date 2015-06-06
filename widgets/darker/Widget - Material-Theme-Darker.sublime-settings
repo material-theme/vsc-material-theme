@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/material-theme/widgets/darker/Widget - Material-Theme-Darker.stTheme",
 	"font_size": 14,
+	"draw_shadows": false,
 	"line_padding_top": 2
 }
