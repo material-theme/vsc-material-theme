@@ -20,6 +20,8 @@ This is a beta version and if you use it, somewhere in the world, a developer wi
 }
 ```
 
+4. **RESTART SUBLIME AND ENJOY**
+
 ## Thanks
 
 Thanks [@Riccardo-Zanutta](https://github.com/Riccardo-Zanutta) for the windows beta test, site development and support :)
