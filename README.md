@@ -16,7 +16,7 @@ This is a beta version and if you use it, somewhere in the world, a developer wi
 		"theme": "Material-Theme.sublime-theme",
 		"color_scheme": "Packages/material-theme/schemes/Material-Theme.tmTheme",
 
-4. **RESTART SUBLIME AND ENJOY**
+4. **RESTART SUBLIME(!!!) AND ENJOY**
 
 ## Thanks
 
