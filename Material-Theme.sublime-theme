@@ -284,7 +284,9 @@
 			"max_margin_trim": 0,
 			"hit_test_level": 0.4
 		},
+
 			// Selected current tab
+
 		{
 			"class": "tab_control", "attributes": ["selected"],
 			"layer1.opacity": 1.0
@@ -411,6 +413,7 @@
 			"layer1.opacity": 0.0,
 			"layer1.inner_margin": 0,
 		},
+
 		{
 			"class": "scroll_tabs_left_button",
 			"attributes": ["hover"],
@@ -427,6 +430,7 @@
 			"layer1.opacity": 0.0,
 			"layer1.inner_margin": 0,
 		},
+
 		{
 			"class": "scroll_tabs_right_button",
 			"attributes": ["hover"],
@@ -443,6 +447,7 @@
 			"layer1.opacity": 0.0,
 			"layer1.inner_margin": 0,
 		},
+
 		{
 			"class": "show_tabs_dropdown_button",
 			"attributes": ["hover"],
