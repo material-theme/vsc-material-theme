@@ -863,14 +863,14 @@
 		{
 			"class": "minimap_control",
 			"settings": ["always_show_minimap_viewport"],
-			"viewport_color": [128, 203, 196, 0],
+			"viewport_color": [128, 203, 196, 255],
 			"viewport_opacity": 0.4,
 		},
 
 		{
 			"class": "minimap_control",
 			"settings": ["!always_show_minimap_viewport"],
-			"viewport_color": [128, 203, 196, 0],
+			"viewport_color": [128, 203, 196, 255],
 			"viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
 		},
 		{
