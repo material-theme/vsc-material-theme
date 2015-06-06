@@ -586,6 +586,8 @@
 			"layer1.texture": "material-theme/assets/folder_opened--hover.png",
 		},
 
+			// Folder loading
+
 		{
 			"class": "icon_folder_loading",
 			"layer1.texture":
@@ -605,7 +607,7 @@
 				"frame_time": 0.075,
 			},
 
-			"layer0.opacity": 1.0,
+			"layer0.opacity": 0.0,
 			"content_margin": [8, 8]
 		},
 
