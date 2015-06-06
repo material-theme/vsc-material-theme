@@ -758,8 +758,8 @@
 
 		{
 			"class": "puck_control",
-			"layer0.texture": "material-theme/assets/commons/normal_thumb_vertical.png",
-			"layer0.opacity": 0.0,
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [0, 10],
 			"layer1.texture": "material-theme/assets/commons/normal_thumb_vertical.png",
 			"layer1.opacity": 1.0,
@@ -773,8 +773,8 @@
 		{
 			"class": "puck_control",
 			"attributes": ["horizontal"],
-			"layer0.texture": "material-theme/assets/commons/normal_thumb_horizontal.png",
-			"layer0.opacity": 0.0,
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [10, 0],
 			"layer1.texture": "material-theme/assets/commons/normal_thumb_horizontal.png",
 			"layer1.opacity": 1.0,
@@ -838,8 +838,11 @@
 		{
 			"class": "puck_control",
 			"settings": ["overlay_scroll_bars"],
-			"layer0.texture": "material-theme/assets/commons/overlay_dark_thumb_vertical.png",
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [1, 8, 1, 8],
+			"layer1.texture": "material-theme/assets/commons/overlay_dark_thumb_vertical.png",
+			"layer1.inner_margin": [1, 8, 1, 8],
 			"content_margin": [6, 2],
 			"blur": true
 		},
@@ -848,9 +851,12 @@
 			"class": "puck_control",
 			"settings": ["overlay_scroll_bars"],
 			"attributes": ["horizontal"],
-			"layer0.texture": "material-theme/assets/commons/overlay_dark_thumb_horizontal.png",
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [6, 1, 6, 1],
-			"content_margin": [2, 5],
+			"layer1.texture": "material-theme/assets/commons/overlay_dark_thumb_horizontal.png",
+			"layer1.inner_margin": [6, 1, 6, 1],
+			"content_margin": [2, 6],
 			"blur": true
 		},
 
