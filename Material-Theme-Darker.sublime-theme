@@ -96,7 +96,7 @@
 		},
 
 		{
-			"cla": "auto_complete_label",
+			"class": "auto_complete_label",
 			"fg": [176, 190, 197, 255],
 			"match_fg": [128, 203, 196, 255],
 			"selected_fg": [255, 255, 255, 255],
@@ -989,12 +989,12 @@
 
 		{
 			"class": "text_line_control",
-			"layer0.texture": "material-theme/assets/commons/input_field_border.png",
+			"layer0.texture": "material-theme/assets/darker/input_field_border.png",
 			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [4, 5, 4, 4],
+			"layer0.inner_margin": [20, 5, 20, 5],
 			"tint_index": 1,
 
-			"content_margin": [16, 8, 16, 8]
+			"content_margin": [24, 8, 24, 8]
 		},
 
 
