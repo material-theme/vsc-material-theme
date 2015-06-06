@@ -26,7 +26,7 @@
 				<key>background</key>
 				<string>#263238</string>
 				<key>caret</key>
-				<string>#c0c5ce</string>
+				<string>#CDD3DE</string>
 				<key>foreground</key>
 				<string>#CDD3DE</string>
 				<key>invisibles</key>
@@ -75,7 +75,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c3e88d</string>
+				<string>#80cbc4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,7 +97,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80cbc4</string>
+				<string>#CDD3DE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -108,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777</string>
+				<string>#fad430</string>
 			</dict>
 		</dict>
 
