@@ -1,12 +1,12 @@
 # Material Theme for Sublime Text 3
-This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3.
+This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems report them with an [issue](https://github.com/equinusocio/material-theme/issues).
 
 
 <!-- ### Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme"*, install, **restart Sublime Text** and enjoy! -->
 
 
-### Manual installation
+#### Manual installation
 1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the folder to "material-theme".
 
 2. Move the folder inside your sublime Packages directory. (Preferences > Browse packages...)
@@ -27,8 +27,8 @@ This theme provides two style versions. If you don't like the default white pane
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
 ```
- 
-## Recommended settings
+
+## Recommended settings and font
 I suggest you to use this custom settings for a better experience with the theme:
 
 ```json
@@ -37,6 +37,8 @@ I suggest you to use this custom settings for a better experience with the theme
 "always_show_minimap_viewport": true,
 "bold_folder_labels": true
 ```
+
+The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures.
 
 
 ## Thanks
