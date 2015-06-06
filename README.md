@@ -13,12 +13,8 @@ This is a beta version and if you use it, somewhere in the world, a developer wi
 
 3. Activate the theme with the following preferences:
 
-```json
-{
-	"theme": "Material-Theme.sublime-theme",
-	"color_scheme": "Packages/material-theme/schemes/Material-Theme.tmTheme",
-}
-```
+		"theme": "Material-Theme.sublime-theme",
+		"color_scheme": "Packages/material-theme/schemes/Material-Theme.tmTheme",
 
 4. **RESTART SUBLIME AND ENJOY**
 
