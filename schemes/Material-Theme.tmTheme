@@ -7,19 +7,6 @@
 	<string>Dmitri Voronianski (http:&#x2f;&#x2f;pixelhunter.me)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
-	<key>gutterSettings</key>
-	<dict>
-		<key>background</key>
-		<string>#263238</string>
-		<key>divider</key>
-		<string>#343d46</string>
-		<key>gutterForeground</key>
-		<string>#37474F</string>
-		<key>selectionBackground</key>
-		<string>#4f5b66</string>
-		<key>selectionForeground</key>
-		<string>#a7adba</string>
-	</dict>
 	<key>name</key>
 	<string>Material Theme Oceanic</string>
 	<key>semanticClass</key>
@@ -38,7 +25,7 @@
 				<key>invisibles</key>
 				<string>#65737e</string>
 				<key>lineHighlight</key>
-				<string>#65737e55</string>
+				<string>#37474F</string>
 				<key>selection</key>
 				<string>#4f5b66</string>
 				<key>guide</key>
