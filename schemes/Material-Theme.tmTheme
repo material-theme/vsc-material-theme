@@ -4,7 +4,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Dmitri Voronianski (http:&#x2f;&#x2f;pixelhunter.me)</string>
+	<string>Mattia Astorino (http://astorinomattia.it)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
@@ -27,7 +27,7 @@
 				<key>lineHighlight</key>
 				<string>#80CBC41A</string>
 				<key>selection</key>
-				<string>#80CBC41A</string>
+				<string>#80CBC432</string>
 				<key>guide</key>
 				<string>#37474F80</string>
 				<key>activeGuide</key>

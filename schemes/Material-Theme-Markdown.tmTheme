@@ -4,7 +4,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Preap</string>
+	<string>Material Theme Oceanic - Markdown</string>
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
@@ -34,7 +34,7 @@
 				<key>lineHighlight</key>
 				<string>#80CBC41A</string>
 				<key>selection</key>
-				<string>#4f5b66</string>
+				<string>#80CBC432</string>
 				<key>guide</key>
 				<string>#37474F80</string>
 				<key>activeGuide</key>
