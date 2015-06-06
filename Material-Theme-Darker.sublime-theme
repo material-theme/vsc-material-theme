@@ -141,7 +141,7 @@
 		// Command Panel
 	    {
 	        "class": "overlay_control",
-	        "layer0.texture": "material-theme/assets/overlay-bg--light.png",
+	        "layer0.texture": "material-theme/assets/overlay-bg.png",
 	        "layer0.inner_margin": [30, 30],
 	        "layer0.opacity": 1.0,
 	        "layer1.texture": "material-theme/assets/quick-panel-background.png",
@@ -154,7 +154,7 @@
 
 		{
 			"class": "mini_quick_panel_row",
-			"layer0.tint": [255, 255, 255],
+			"layer0.tint": [38, 50, 56],
 			"layer0.inner_margin": [2, 2, 2, 2],
 			"layer0.opacity": 1.0
 		},
@@ -167,7 +167,7 @@
 			"layer0.tint": [84, 110, 122]
 		},
 
-			// Quick panel project setting (project manager) (cmd + alt + p)
+			// Quick panel project setting (project manager) (cmd + ctrl + p)
 
 		{
 			"class": "quick_panel",
@@ -189,7 +189,7 @@
 		{
 			"class": "quick_panel_row",
 			"parents": [{"class": "overlay_control"}],
-			"layer0.tint": [255, 255, 255],
+			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 1.0
 		},
 
@@ -206,7 +206,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"fg": [128, 203, 196, 255],
+			"fg": [176, 190, 197, 255],
 			"match_fg": [128, 203, 196, 255],
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [128, 203, 196, 255]
@@ -217,7 +217,7 @@
 		{
 			"class": "quick_panel_label",
 			"parents": [{"class": "overlay_control"}],
-			"fg": [84, 110, 122, 255],
+			"fg": [176, 190, 197, 255],
 			"match_fg": [128, 203, 196, 255],
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [128, 203, 196, 255]
@@ -227,7 +227,7 @@
 
 		{
 			"class": "quick_panel_path_label",
-			"fg": [176, 190, 197, 255],
+			"fg": [84, 110, 122, 255],
 			"match_fg": [128, 203, 196, 255],
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [128, 203, 196, 255]
@@ -989,26 +989,13 @@
 
 		{
 			"class": "text_line_control",
-			"layer0.texture": "material-theme/assets/input_field_bar.png",
+			"layer0.texture": "material-theme/assets/input_field_border.png",
 			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [20, 5, 20, 5],
+			"layer0.inner_margin": [4, 5, 4, 4],
 			"tint_index": 1,
 
-			"content_margin": [24, 8, 24, 8]
+			"content_margin": [16, 8, 16, 8]
 		},
-
-			//bordered input style
-
-		// {
-		// 	"class": "text_line_control",
-		// 	"settings": ["material_darker"],
-		// 	"layer0.texture": "material-theme/assets/input_field_border.png",
-		// 	"layer0.opacity": 1.0,
-		// 	"layer0.inner_margin": [4, 5, 4, 4],
-		// 	"tint_index": 1,
-
-		// 	"content_margin": [16, 8, 16, 8]
-		// },
 
 
 			// Textline input inside overlay panels
@@ -1016,7 +1003,7 @@
 		{
 			"class": "text_line_control",
 			"parents": [{"class": "overlay_control"}],
-			"layer0.texture": "material-theme/assets/input_field_border--short--light.png",
+			"layer0.texture": "material-theme/assets/input_field_border--short.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [32, 2, 32, 2],
 			"layer0.draw_center": true,

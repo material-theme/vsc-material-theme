@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Sublime Widgets</string>
+	<string>Material Theme Darker</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#263238</string>
 				<!-- <string>#263238</string> -->
 				<key>caret</key>
 				<string>#B0BEC5</string>
