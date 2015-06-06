@@ -5,6 +5,19 @@
 <dict>
 	<key>name</key>
 	<string>Preap</string>
+	<key>gutterSettings</key>
+	<dict>
+		<key>background</key>
+		<string>#263238</string>
+		<key>divider</key>
+		<string>#343d46</string>
+		<key>gutterForeground</key>
+		<string>#37474F</string>
+		<key>selectionBackground</key>
+		<string>#4f5b66</string>
+		<key>selectionForeground</key>
+		<string>#a7adba</string>
+	</dict>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -13,29 +26,23 @@
 				<key>background</key>
 				<string>#263238</string>
 				<key>caret</key>
-				<string>#24dbec</string>
+				<string>#c0c5ce</string>
 				<key>foreground</key>
-				<string>#d9d9d9</string>
+				<string>#CDD3DE</string>
 				<key>invisibles</key>
-				<string>#24dbec</string>
+				<string>#65737e</string>
 				<key>lineHighlight</key>
-				<string>#232323</string>
+				<string>#65737e55</string>
 				<key>selection</key>
-				<string>#546E7A</string>
-				<key>selectionForeground</key>
-                <string>#FFFFFF</string>
-				<key>inactiveSelection</key>
-				<string>#546E7A</string>
-				<key>findHighlight</key>
-				<string>#F8E71C</string>
-				<key>gutterForeground</key>
-				<string>#546E7AB3</string>
+				<string>#4f5b66</string>
 				<key>guide</key>
 				<string>#37474F80</string>
 				<key>activeGuide</key>
+				<string>#37474F80</string>
+				<key>gutterForeground</key>
 				<string>#37474F</string>
-				<key>minimapBorder</key>
-				<string>#80CBC4</string>
+				<key>findHighlight</key>
+				<string>#F8E71C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -57,7 +64,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F18260</string>
+				<string>#EC5F67</string>
 			</dict>
 		</dict>
 		<dict>
@@ -68,7 +75,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b4d388</string>
+				<string>#c3e88d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +86,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#92bfbf</string>
+				<string>#fad430</string>
 			</dict>
 		</dict>
 		<dict>
@@ -90,7 +97,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bddcdc</string>
+				<string>#80cbc4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -102,6 +109,20 @@
 			<dict>
 				<key>foreground</key>
 				<string>#777</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Inline Code, Block Code, Blockquote</string>
+			<key>scope</key>
+			<string>meta.block-level.markdown markup.raw.block.markdown, markup.raw.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#37474F</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 
