@@ -1,0 +1,171 @@
+// Strip the units from a value
+@function strip-units($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+// Calculate ems from a px value
+@function em($px, $base-val: $em-base) {
+  @if not unitless($px) {
+    $px: strip-units($px);
+  }
+  @if not unitless($base-val) {
+    $base-val: strip-units($base-val);
+  }
+  @return ($px / $base-val) * 1em;
+}
+
+// Managing Z-Layers & icon font names
+@function z($layer: "base") {
+  @if not map-has-key($z-layers, $layer) {
+    @warn "No z-index found in $z-layers map for '#{$layer}'. Property omitted.";
+  }
+  @return map-get($z-layers, $layer);
+}
+
+@function icf($icon: null) {
+  @if not map-has-key($icons, $icon) {
+    @warn "No z-index found in $z-layers map for '#{$icon}'. Property omitted.";
+  }
+  @return map-get($icons, $icon);
+}
+
+// Clearfix
+@mixin clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin visual-hide() {
+  border: 0;
+  clip: rect(0 0 0 0); height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@mixin insertChar($char-name, $icf-name: $icon-font-name) {
+  font-family: $icf-name;
+  content: icf(#{$char-name});
+  @content;
+}
+
+// Sizing
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin centerer($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+
+// z-Depth
+@mixin z-depth($depth) {
+  @if $depth == 0 {
+    box-shadow: none;
+  } @else if $depth == 1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  } @else if $depth == 1.5 {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  } @else if $depth == 2 {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } @else if $depth == 3 {
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  } @else if $depth == 4 {
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  } @else if $depth == 5 {
+    box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+  } @else {
+    @error "Valore errato inserito per '#{$depth}'. ";
+  }
+}
+
+// Conditional Mq mixin 
+@mixin mq($break) {
+  @if $break == "phone" {
+    @media only screen and (max-width: em($phone)) {
+      @content;
+    }
+  } @else if $break == "mobile-down" {
+    @media only screen and (max-width: em($mobile)) {
+      @content;
+    }
+  } @else if $break == "mobile" {
+    @media only screen and (min-width: em($phone-up)) and(max-width: em($mobile)) {
+      @content;
+    }
+  } @else if $break == "small-tab" {
+    @media only screen and (min-width: em($mobile-up)) and (max-width: em($tablet-down)) {
+      @content;
+    }
+  } @else if $break == "tab" {
+    @media only screen and (min-width: em($tablet)) and (max-width: em($desktop-down)) {
+      @content;
+    }
+  } @else if $break == "all-tab" {
+    @media only screen and (min-width: em($mobile-up)) and (max-width: em($desktop-down)) {
+      @content;
+    }
+  } @else if $break == "tab-down" {
+    @media only screen and (max-width: em($tablet-down)) {
+      @content;
+    }
+  } @else if $break == "desk" {
+    @media only screen and (min-width: em($desktop)) {
+      @content;
+    }
+  } @else if $break == "desk-down" {
+    @media only screen and (max-width: em($desktop-down)) {
+      @content;
+    }
+  } @else if $break == "large" {
+    @media only screen and (min-width: em($large)) {
+      @content;
+    }
+  } @else if $break == "x-large" {
+    @media only screen and (min-width: em($x-large)) {
+      @content;
+    }
+  }
+   @else {
+    @error "Valore errato inserito per '#{$break}'. ";
+  }
+}
+
+// Component-related-mq
+@mixin tweakpoint($screen, $res, $res2: null) {
+  @if $screen == 'max' {
+    @media only screen and (max-width: em($res)) {
+      @content;
+    }
+  } @else if $screen == 'min' {
+    @media only screen and (min-width: em($res)) {
+      @content;
+    }
+  } @else if $screen == 'between' {
+    @media only screen and (min-width: em($res)) and (max-width: em($res2)) {
+      @content;
+    }
+  } @else {
+    @error "Valore errato inserito per '#{$screen}'. ";
+  }
+}
