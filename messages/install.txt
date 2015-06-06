@@ -22,3 +22,10 @@ To activate this awesome theme, add in your current settings this code:
 MAKE SURE TO RESTART SUBLIME AFTER INSTALLING AND ACTIVATING PREAP
 
 ********************************************************************************
+
+
+You can set the alternative darker (panels) version with this:
+
+{
+	"theme": "Material-Theme-Darker.sublime-theme",
+}
