@@ -839,7 +839,7 @@
 			"class": "puck_control",
 			"settings": ["overlay_scroll_bars"],
 			"layer0.tint": [38, 50, 56],
-			"layer0.opacity": 1.0,
+			"layer0.opacity": 0.0,
 			"layer0.inner_margin": [1, 8, 1, 8],
 			"layer1.texture": "material-theme/assets/commons/overlay_dark_thumb_vertical.png",
 			"layer1.inner_margin": [1, 8, 1, 8],
