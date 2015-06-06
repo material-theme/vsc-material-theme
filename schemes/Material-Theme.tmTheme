@@ -35,7 +35,7 @@
 				<key>inactiveSelection</key>
 				<string>#1B3134</string>
 				<key>findHighlight</key>
-				<string>#24dbec</string>
+				<string>#F8E71C</string>
 				<key>gutterForeground</key>
 				<string>#546E7AB3</string>
 				<key>guide</key>
@@ -43,7 +43,7 @@
 				<key>activeGuide</key>
 				<string>#37474F</string>
 				<key>minimapBorder</key>
-				<string>#24dbec25</string>
+				<string>#80CBC4</string>
 			</dict>
 		</dict>
 		<dict>

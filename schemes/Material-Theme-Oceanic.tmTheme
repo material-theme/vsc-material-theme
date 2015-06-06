@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Dmitri Voronianski (http://pixelhunter.me) and revisited by Mattia Astorino for Material Theme</string>
+	<string>Dmitri Voronianski (http:&#x2f;&#x2f;pixelhunter.me)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -20,9 +21,9 @@
 		<string>#a7adba</string>
 	</dict>
 	<key>name</key>
-	<string>Oceanic Next</string>
+	<string>Material Theme Oceanic</string>
 	<key>semanticClass</key>
-	<string>oceanic.next.dark</string>
+	<string>theme.dark.material_theme_oceanic</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -46,6 +47,8 @@
 				<string>#37474F80</string>
 				<key>gutterForeground</key>
 				<string>#37474F</string>
+				<key>findHighlight</key>
+				<string>#F8E71C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -89,7 +92,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5FB3B3</string>
+				<string>#80cbc4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +136,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#ffeb95</string>
 			</dict>
 		</dict>
 		<dict>
@@ -155,7 +158,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAC863</string>
+				<string>#BB80B3</string>
+				<key>background</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -208,11 +213,14 @@
 			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name</string>
+			<string>entity.other.attribute-name,
+meta.selector.css entity.other.attribute-name.class, source.scss entity.other.attribute-name.class.css, source.less entity.other.attribute-name.class.css, keyword.other.default.scss, keyword.other.default.less</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BB80B3</string>
+				<string>#c3e88d</string>
+				<key>background</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -256,7 +264,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5FB3B3</string>
+				<string>#80cbc4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -267,7 +275,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5FB3B3</string>
+				<string>#80cbc4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -281,8 +289,227 @@
 				<string>underline</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS&#x2f;SCSS variables declaration</string>
+			<key>scope</key>
+			<string>source.less variable.declaration.less, source.less variable.other.less, source.scss meta.set.variable variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e6647c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS&#x2f;SCSS other variables</string>
+			<key>scope</key>
+			<string>source.less meta.property-value.css variable.other.less, source.scss meta.property-list.scss meta.property-value.scss variable.scss variable.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e6647c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS mixin parameters</string>
+			<key>scope</key>
+			<string>source.less parameter.less variable.other.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e6647c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS function</string>
+			<key>scope</key>
+			<string>source.less meta.property-value.css support.function.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e58f48ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS mixins</string>
+			<key>scope</key>
+			<string>entity.other.less.mixin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80CBC4</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>!important</string>
+			<key>scope</key>
+			<string>meta.property-value.css keyword.operator.less, keyword.other.important.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ee9903ff</string>
+				<key>background</key>
+				<string>#c03e4430</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css&#x2f;less property-name: psuedos and attibutes</string>
+			<key>scope</key>
+			<string>support.type.property-name.css, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss, meta.property-name.less, meta.property-list.css meta.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7fccc4</string>
+				<key>background</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F44336</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FAC86E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c3e88d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Annotations</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.notes</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f3f38dff</string>
+				<key>foreground</key>
+				<string>#F9A825</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ec8158ff</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d54731ff</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#eca25bff</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d54731ff</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#776363ff</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d703034f</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css&#x2f;less id&apos;s</string>
+			<key>scope</key>
+			<string>meta.selector.css entity.other.attribute-name.id, meta.selector.scss entity.other.attribute-name.id, meta.selector.less entity.other.attribute-name.id, entity.name.tag.reference.scss, entity.name.tag.reference.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fad430</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>21a3a5f5-e82f-48a8-bc8b-9aef307f6131</string>
+	<key>comment</key>
+	<string>Revisited by Mattia Astorino for Material Theme</string>
 </dict>
 </plist>
