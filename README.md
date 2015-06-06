@@ -18,7 +18,7 @@ You can install this awesome theme through the [Package Control](https://package
 "color_scheme": "Packages/material-theme/schemes/Material-Theme.tmTheme",
 ```
 
-***Note*** : Remember to restart Sublime Text after activating the theme.*
+***Note*** : Remember to restart Sublime Text after activating the theme.
 
 
 ## Theme styles
