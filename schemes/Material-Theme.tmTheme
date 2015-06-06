@@ -5,8 +5,12 @@
 <dict>
 	<key>author</key>
 	<string>Mattia Astorino (www.astorinomattia.it)</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.preap</string>
 	<key>comment</key>
-	<string>Preap, a subtle Sublime Text Theme</string>
+	<string>Preap Syntax, a subtle Sublime Text Theme</string>
 	<key>name</key>
 	<string>Preap</string>
 	<key>settings</key>
@@ -23,7 +27,7 @@
 				<key>invisibles</key>
 				<string>#24dbec</string>
 				<key>lineHighlight</key>
-				<string>#546E7A</string>
+				<string>#80CBC426</string>
 				<key>selection</key>
 				<string>#546E7A</string>
 				<key>selectionForeground</key>
@@ -33,7 +37,7 @@
 				<key>findHighlight</key>
 				<string>#24dbec</string>
 				<key>gutterForeground</key>
-				<string>#37474F</string>
+				<string>#546E7AB3</string>
 				<key>guide</key>
 				<string>#37474F80</string>
 				<key>activeGuide</key>
@@ -978,9 +982,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>colorSpaceName</key>
-	<string>sRGB</string>
-	<key>semanticClass</key>
-	<string>theme.dark.preap</string>
 </dict>
 </plist>
