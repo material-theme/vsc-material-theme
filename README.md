@@ -28,7 +28,7 @@ This theme provides two style versions. If you don't like the default white pane
 "theme": "Material-Theme-Darker.sublime-theme",
 ```
 
-## Recommended settings and font
+## Recommended UI and font settings
 I suggest you to use this custom settings for a better experience with the theme:
 
 ```json
