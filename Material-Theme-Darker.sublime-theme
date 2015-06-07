@@ -1076,7 +1076,7 @@
 			"layer1.opacity": 0.0,
 			"layer1.inner_margin": [6, 6],
 			"layer2.texture": "material-theme/assets/commons/blue_highlight.png",
-			"layer2.opacity": { "target": 0.0, "speed": 0.5, "interpolation": "smoothstep" },
+			"layer2.opacity": { "target": 0.0, "speed": 2.0, "interpolation": "smoothstep" },
 			"layer2.inner_margin": [6, 6]
 		},
 		{
@@ -1093,7 +1093,7 @@
 		{
 			"class": "button_control",
 			"attributes": ["hover"],
-			"layer2.opacity": 0.4
+			"layer2.opacity": 1.0
 		},
 
 		// Small Icon Buttons
