@@ -276,7 +276,7 @@
 			"layer0.opacity": 1.0,
 			"tint_index": 0,
 
-			"layer1.texture": "material-theme/assets/commons/tab_current.png",
+			"layer1.texture": "material-theme/assets/darker/tab_current.png",
 			"layer1.inner_margin": [24, 0],
 			"layer1.opacity": 0.0,
 
@@ -303,6 +303,19 @@
 			"font.italic": false,
 			"font.bold": false
 		},
+
+			// Tab hovered label color
+
+		{
+			"class": "tab_label",
+			"parents": [{"class": "tab_control", "attributes": ["hover"]}],
+			"fg": [176, 190, 197, 255],
+			"shadow_color": [255, 255, 255, 0],
+			"shadow_offset": [0, 0]
+		},
+
+			// Tab selected label color
+
 		{
 			"class": "tab_label",
 			"parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -310,6 +323,7 @@
 			"shadow_color": [255, 255, 255, 0],
 			"shadow_offset": [0, 0]
 		},
+
 		{
 			"class": "tab_label",
 			"attributes": ["transient"],
