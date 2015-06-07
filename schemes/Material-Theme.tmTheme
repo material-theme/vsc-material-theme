@@ -86,6 +86,17 @@
 			<key>name</key>
 			<string>Operator, Misc</string>
 			<key>scope</key>
+			<string>text.html.basic meta.tag.inline.any.html entity.other.attribute-name.html, text.html.basic meta.tag.any.html entity.other.attribute-name.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80cbc4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operator, Misc</string>
+			<key>scope</key>
 			<string>embedding.php text.html.basic meta.embedded.block.php source.php comment.block.documentation.phpdoc.php meta.tag.inline.phpdoc.php keyword.other.phpdoc.php</string>
 			<key>settings</key>
 			<dict>

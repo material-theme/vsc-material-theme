@@ -13,7 +13,6 @@
 			<dict>
 				<key>background</key>
 				<string>#FFFFFF</string>
-				<!-- <string>#263238</string> -->
 				<key>caret</key>
 				<string>#B0BEC5</string>
 				<key>foreground</key>
