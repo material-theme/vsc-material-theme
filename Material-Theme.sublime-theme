@@ -141,13 +141,13 @@
 		// Command Panel
 	    {
 	        "class": "overlay_control",
-	        "layer0.texture": "material-theme/assets/commons/overlay-bg--light.png",
-	        "layer0.inner_margin": [30, 30],
+	        "layer0.texture": "material-theme/assets/default/overlay-bg--light.png",
+	        "layer0.inner_margin": [16, 4, 16, 33],
 	        "layer0.opacity": 1.0,
 	        "layer1.texture": "material-theme/assets/commons/quick-panel-background.png",
-	        "layer1.inner_margin": [30, 0, 20, 20],
+	        "layer1.inner_margin": [16, 0, 16, 25],
 	        "layer1.opacity": 1.0,
-	        "content_margin": [13, 13, 13, 15]
+	        "content_margin": [13, 13, 13, 33]
 	    },
 
 	    	// Command Panel list item style (cmd + shift + p)
