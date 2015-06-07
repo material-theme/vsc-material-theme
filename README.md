@@ -44,4 +44,5 @@ The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" 
 
 
 ## Thanks
-Thanks [@Riccardo-Zanutta](https://github.com/Riccardo-Zanutta) for the windows beta test, site development and support :)
+- [@Riccardo-Zanutta](https://github.com/Riccardo-Zanutta) for the windows beta test, site development and support.
+- [@irazasyed](https://github.com/irazasyed)
