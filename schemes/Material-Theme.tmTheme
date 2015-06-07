@@ -311,6 +311,17 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Attributes</string>
+			<key>scope</key>
+			<string>source.less keyword.operator.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E8A01E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Inserted</string>
 			<key>scope</key>
 			<string>markup.inserted</string>
@@ -318,6 +329,17 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<dict>
 				<key>foreground</key>
 				<string>#99C794</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inserted</string>
+			<key>scope</key>
+			<string>source.less entity.other.attribute-name.class.css punctuation.definition.entity.css, source.less entity.other.attribute-name.id.css punctuation.definition.entity.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BB80B3</string>
 			</dict>
 		</dict>
 		<dict>
