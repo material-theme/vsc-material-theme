@@ -111,7 +111,21 @@
 				<string>#fad430</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>Markdown: Image link, Inline Code, Block Code, Blockquote</string>
+			<key>scope</key>
+			<string>text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<key>background</key>
+				<string>#263238</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Inline Code, Block Code, Blockquote</string>
