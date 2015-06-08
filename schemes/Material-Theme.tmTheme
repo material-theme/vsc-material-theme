@@ -86,7 +86,7 @@
 			<key>name</key>
 			<string>Operator, Misc</string>
 			<key>scope</key>
-			<string>text.html.basic meta.tag.inline.any.html entity.other.attribute-name.html, text.html.basic meta.tag.any.html entity.other.attribute-name.html</string>
+			<string>text.html.basic meta.tag.inline.any.html entity.other.attribute-name.html, text.html.basic meta.tag.block.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html, text.html.basic meta.tag.any.html entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
