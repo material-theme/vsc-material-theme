@@ -35,7 +35,7 @@ I suggest you to use this custom settings for a better experience with the theme
 "overlay_scroll_bars": "enabled",
 "line_padding_top": 3,
 "line_padding_bottom": 3,
-"font_options": [ "gray_antialias" ],
+"font_options": [ "gray_antialias" ], // On retina Mac
 "always_show_minimap_viewport": true,
 "bold_folder_labels": true
 ```
