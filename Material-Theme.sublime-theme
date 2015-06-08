@@ -554,9 +554,21 @@
 
 		{
 			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+			"color": [175, 189, 196]
+		},
+
+		{
+			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
 			"settings": ["bold_folder_labels"],
 			"font.bold": true,
+			"color": [128, 203, 196]
+		},
+
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
 			"color": [128, 203, 196]
 		},
 
