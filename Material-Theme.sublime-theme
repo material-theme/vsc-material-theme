@@ -835,7 +835,7 @@
 		{
 			"class": "scroll_area_control",
 			"parents": [{"class": "overlay_control"}],
-			"settings": ["!overlay_scroll_bars"],
+			"settings": ["overlay_scroll_bars"],
 			"overlay": true // set to false for the original behavior
 		},
 
@@ -843,7 +843,7 @@
 			"class": "scroll_area_control",
 			"parents": [{"class": "sidebar_container"}],
 			"settings": ["!overlay_scroll_bars"],
-			"overlay": true // set to false for the original behavior
+			"overlay": false // set to false for the original behavior
 		},
 
 		{
@@ -873,7 +873,6 @@
 
 		{
 			"class": "puck_control",
-			"settings": ["overlay_scroll_bars"],
 			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 0.0,
 			"layer0.inner_margin": [1, 8, 1, 8],
@@ -885,7 +884,6 @@
 
 		{
 			"class": "puck_control",
-			"settings": ["overlay_scroll_bars"],
 			"attributes": ["horizontal"],
 			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 1.0,
