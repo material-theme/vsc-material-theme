@@ -1,4 +1,4 @@
-# Material Theme for Sublime Text 3
+# (BETA!!) Material Theme for Sublime Text 3
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems report them with an [issue](https://github.com/equinusocio/material-theme/issues).
 
 ## Screenshots
