@@ -4,9 +4,9 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 ## Screenshots
 ***Note*** : This theme is still in Beta and development. Some screenshots may not reflect the final UI style.
 
-![image](https://d13yacurqjgara.cloudfront.net/users/44860/screenshots/2085617/attachments/375409/Find.jpg)
+![image](https://d13yacurqjgara.cloudfront.net/users/44860/screenshots/2085617/attachments/375510/Main.jpg)
 
-![image](https://d13yacurqjgara.cloudfront.net/users/44860/screenshots/2085617/attachments/375410/_Replace.jpg)
+![image](https://d13yacurqjgara.cloudfront.net/users/44860/screenshots/2085617/attachments/375409/Find.jpg)
 
 ![image](https://d13yacurqjgara.cloudfront.net/users/44860/screenshots/2085617/attachments/375511/Command_Panel_2.jpg)
 
