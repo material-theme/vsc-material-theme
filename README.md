@@ -28,7 +28,6 @@ You can install this awesome theme through the [Package Control](https://package
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
 
-
 ## Theme styles
 This theme provides two style versions. If you don't like the default white panels and field inputs you can set the darker version by using this:
 
