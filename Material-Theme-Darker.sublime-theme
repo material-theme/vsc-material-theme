@@ -336,7 +336,7 @@
 		{
 			"class": "tab_label",
 			"attributes": ["transient"],
-			"font.italic": false
+			"font.italic": true
 		},
 
 			// Tab Close Buttons
