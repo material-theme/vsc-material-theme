@@ -47,7 +47,7 @@ I suggest you to use this custom settings for a better experience with the theme
 "bold_folder_labels": true
 ```
 
-The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures.
+The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text)
 
 
 ## Thanks
