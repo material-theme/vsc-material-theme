@@ -276,13 +276,13 @@
 			"layer0.opacity": 1.0,
 			"tint_index": 0,
 
-			"layer1.tint": [128, 203, 196, 20],
+			"layer1.texture": "material-theme/assets/default/tab_current.png",
 			"layer1.inner_margin": [0, 0],
 			"layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
-			"layer2.texture": "material-theme/assets/default/tab_current.png",
+			"layer2.tint": [128, 203, 196, 20],
 			"layer2.inner_margin": [0, 0],
-			"layer2.opacity": 0.0,
+			"layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
 
 			"content_margin": [18, 8, 11, 4],
 			"max_margin_trim": 0,
@@ -293,24 +293,26 @@
 
 		{
 			"class": "tab_control", "attributes": ["selected"],
-			"layer2.opacity": 1.0
+			"layer1.opacity": 1.0,
+			"layer2.opacity": 0.0
 		},
 
 			// Hovered current tab
 
 		{
 			"class": "tab_control", "attributes": ["hover"],
-			"layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" },
-			"layer2.opacity": 0.0
+			"layer1.opacity": 0.0,
+			"layer2.opacity": { "target": 0.4, "speed": 5.0, "interpolation": "smoothstep" }
 		},
 
 			// Selected current tab
 
 		{
 			"class": "tab_control", "attributes": ["selected","hover"],
-			"layer1.opacity": 0.0,
-			"layer2.opacity": 1.0
+			"layer1.opacity": 1.0,
+			"layer2.opacity": { "target": 0.4, "speed": 5.0, "interpolation": "smoothstep" }
 		},
+
 			// Tab Labels
 
 		{
