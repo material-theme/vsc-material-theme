@@ -47,6 +47,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#546E7A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown: Text</string>
 			<key>scope</key>
 			<string>text.html.markdown</string>
