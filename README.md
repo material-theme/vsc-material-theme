@@ -1,11 +1,8 @@
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="4LM76KTWW4C2Y">
-<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - Il metodo rapido, affidabile e innovativo per pagare e farsi pagare.">
-<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-</form>
+
+[paypalbutton]: https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_LG.gif "Donate with PayPal"
+[![paypalbutton]](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4LM76KTWW4C2Y)
 
 
 # (BETA) Material Theme for Sublime Text 3
