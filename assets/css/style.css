@@ -18,7 +18,7 @@ header {
 width: 100%;
 height: 100vh;
 text-align: center;
-padding: 3rem;
+padding: 9rem 3rem;
 color: #FFFFFF;
 background-color: #263238; }
 
@@ -29,6 +29,7 @@ hgroup h1 {
 font-size: 3rem;
 font-weight: 200;
 margin-top: 0;
+line-height: 1;
 margin-bottom: 0; }
 
 hgroup h2 {
@@ -45,26 +46,28 @@ padding: 1.5rem; }
 
 .button {
 display: inline-block;
-padding: .75rem 1.25rem;
+padding: 0.65rem 1.45rem;
 background-color: #80CBC4;
-border: 1px solid #80CBC4;
 font-weight: 400;
 color: #FFFFFF;
 text-decoration: none;
-border-radius: .25rem;
+border-radius: 2px;
+line-height: 1.1;
+box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+text-transform: uppercase;
 transition: all 200ms; }
 
 .button:hover {
 background-color: #FFFFFF;
 color: #263238;
-border-color: #FFFFFF; }
+box-shadow: 0 11px 7px 0 rgba(0, 0, 0, 0.1), 0 13px 25px 0 rgba(0, 0, 0, 0.1); }
 
-.button.outline {
+.button.flat {
 background-color: transparent;
-border: 1px solid #80CBC4;
+box-shadow: none;
 color: #80CBC4; }
 
-.button.outline:hover {
+.button.flat:hover {
 color: #FFFFFF;
 border-color: #FFFFFF; }
 
