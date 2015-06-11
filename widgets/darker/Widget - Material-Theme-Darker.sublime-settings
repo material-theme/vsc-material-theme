@@ -1,0 +1,7 @@
+{
+	"color_scheme": "Packages/material-theme/widgets/darker/Widget - Material-Theme-Darker.stTheme",
+	"font_size": 14,
+	"draw_shadows": false,
+	"font_options": ["subpixel_antialias"],
+	"line_padding_top": 2
+}
