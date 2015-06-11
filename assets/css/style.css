@@ -86,7 +86,7 @@ color: #FFFFFF;
 font-size: 0.875rem;
 font-weight: 400; }
 
-footer a {
+footer a:not( .button ) {
 text-decoration: none;
 color: #80CBC4;
 border-bottom: 1px solid #80CBC4; }
