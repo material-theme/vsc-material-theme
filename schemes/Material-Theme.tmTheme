@@ -405,7 +405,7 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80cbc4</string>
+				<string>#e6647c</string>
 			</dict>
 		</dict>
 		<dict>
