@@ -1,0 +1,6 @@
+{
+    "extensions": [
+        "css.erb",
+        "css.liquid"
+    ]
+}

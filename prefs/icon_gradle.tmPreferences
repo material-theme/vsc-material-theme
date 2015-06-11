@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>scope</key>
+        <string>source.gradle</string>
+        <key>settings</key>
+        <dict>
+            <key>icon</key>
+            <string>file_type_gradle</string>
+        </dict>
+    </dict>
+</plist>
