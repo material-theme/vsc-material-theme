@@ -9,8 +9,8 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 
 ![image](http://equinusocio.github.io/material-theme/assets/materialtheme3.jpg)
 
-<!-- ### Easy installation
-You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme"*, install, **restart Sublime Text** and enjoy! -->
+### Easy installation
+You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme"*, install, **restart Sublime Text** and enjoy!
 
 
 #### Manual installation
