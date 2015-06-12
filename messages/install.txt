@@ -19,7 +19,7 @@ To activate this awesome theme, add in your current settings this code:
 }
 
 
-MAKE SURE TO RESTART SUBLIME AFTER INSTALLING AND ACTIVATING PREAP
+MAKE SURE TO RESTART SUBLIME AFTER ACTIVATING THE THEME
 
 ********************************************************************************
 
