@@ -3,7 +3,7 @@
         "md",
         "markdown"
     ],
-    "color_scheme": "Packages/material-theme/schemes/Material-Theme-Markdown.tmTheme",
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Markdown.tmTheme",
     "draw_centered": true, // Centers the column in the window
     "draw_indent_guides": false,
     "trim_trailing_white_space_on_save": false,

@@ -15,7 +15,7 @@ To activate this awesome theme, add in your current settings this code:
 
 {
 	"theme": "Material-Theme.sublime-theme",
-	"color_scheme": "Packages/material-theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 }
 
 
