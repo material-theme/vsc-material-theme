@@ -3,11 +3,11 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 
 ## Screenshots
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme.jpg)
+![image](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme2.jpg)
+![image](http://equinusocio.github.io/material-theme/assets/materialtheme2.png)
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme3.jpg)
+![image](http://equinusocio.github.io/material-theme/assets/materialtheme3.png)
 
 ## Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme"*, install, **restart Sublime Text** and enjoy!
