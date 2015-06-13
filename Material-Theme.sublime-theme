@@ -317,7 +317,7 @@
 
 		{
 			"class": "tab_label",
-			"fg": [84, 110, 122, 255],
+			"fg": [124, 171, 194, 255],
 			"shadow_color": [255, 255, 255, 0],
 			"shadow_offset": [0, 0],
 			"font.size": 11,
@@ -523,7 +523,7 @@
 
 		{
 			"class": "sidebar_label",
-			"color": [96, 125, 139],
+			"color": [124, 171, 194],
 			"font.bold": false,
 			"font.italic": false,
 			"shadow_color": [0, 0, 0, 0],
