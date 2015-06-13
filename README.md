@@ -62,11 +62,12 @@ You can [download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime
 - [@irazasyed](https://github.com/irazasyed)
 
 
-## Please if you like this work buy me a beer.
+## Buy me a beer.
 
 <!-- Pledgie Donation -->
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
 <!-- PayPal Donation -->
-[paypalbutton]: https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_LG.gif "Donate with PayPal"
+<!-- [paypalbutton]: https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_LG.gif "Donate with PayPal"
 [![paypalbutton]](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4LM76KTWW4C2Y)
+ -->
