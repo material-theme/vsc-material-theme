@@ -48,7 +48,14 @@ I suggest you to use this custom settings for a better experience with the theme
 "bold_folder_labels": true
 ```
 
-The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text)
+The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
+
+You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
+
+
+## Official resources
+You can download the official Material Theme icon here:
+https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650
 
 
 ## Thanks
