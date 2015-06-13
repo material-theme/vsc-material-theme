@@ -354,7 +354,7 @@
 
 			// Close Icon Hover
 			"layer1.texture": "Material Theme/assets/commons/close_icon--hover.png",
-			"layer1.opacity": 0,
+			"layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
 			 // Dirty Icon
 			"layer2.texture": "Material Theme/assets/commons/dirty_icon.png",
@@ -362,7 +362,7 @@
 
 			// Dirty Icon Hover
 			"layer3.texture": "Material Theme/assets/commons/dirty_icon--hover.png",
-			"layer3.opacity": 0
+			"layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
 		},
 			// Default
 		{
