@@ -17,8 +17,8 @@
 
 		{
 			"class": "grid_layout_control",
-			"border_size": 1,
-			"border_color": [38, 50, 56]
+			"border_size": 2,
+			"border_color": [39, 53, 60]
 		},
 
 
