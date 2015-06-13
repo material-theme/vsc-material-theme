@@ -16,7 +16,7 @@ You can install this awesome theme through the [Package Control](https://package
 
 **Manual installation**
 
-1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the folder to "material-theme".
+1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the folder to "Material Theme".
 
 2. Move the folder inside your sublime Packages directory. (Preferences > Browse packages...)
 

@@ -11,21 +11,9 @@
 	<string>theme.dark.base16_ocean_dark</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
-	<key>gutterSettings</key>
-	<dict>
-		<key>background</key>
-		<string>#263238263238</string>
-		<key>divider</key>
-		<string>#343d46</string>
-		<key>foreground</key>
-		<string>#65737e</string>
-		<key>selectionBackground</key>
-		<string>#4f5b66</string>
-		<key>selectionForeground</key>
-		<string>#a7adba</string>
-	</dict>
 	<key>settings</key>
 	<array>
+
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -51,6 +39,7 @@
 				<string>#F8E71C</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Text</string>
@@ -62,6 +51,7 @@
 				<string>#d1e1f1ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
@@ -73,6 +63,7 @@
 				<string>#546E7A</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>GitGutter deleted</string>
@@ -84,6 +75,7 @@
 				<string>#F44336</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>GitGutter changed</string>
@@ -95,6 +87,7 @@
 				<string>#FAC86E</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>GitGutter inserted</string>
@@ -106,6 +99,7 @@
 				<string>#c3e88d</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
@@ -117,6 +111,7 @@
 				<string>#d1e1f1ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Delimiters</string>
@@ -128,6 +123,7 @@
 				<string>#d1e1f1ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Delimiters</string>
@@ -139,6 +135,7 @@
 				<string>#FFD496</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Operators</string>
@@ -150,6 +147,8 @@
 				<string>#d1e1f1ff</string>
 			</dict>
 		</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>Keywords</string>
@@ -161,6 +160,7 @@
 				<string>#d58fd2ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Variables</string>
@@ -172,6 +172,7 @@
 				<string>#e55578ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Functions</string>
@@ -183,6 +184,7 @@
 				<string>#90bcd3ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Classes</string>
@@ -194,6 +196,7 @@
 				<string>#ffd58eff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Classes</string>
@@ -205,6 +208,7 @@
 				<string>#ffffffff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Methods</string>
@@ -216,6 +220,7 @@
 				<string>#90bcd3ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
@@ -227,6 +232,7 @@
 				<string>#d58fd2ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Support</string>
@@ -238,6 +244,7 @@
 				<string>#99d6cbff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Strings, Inherited Class</string>
@@ -249,6 +256,7 @@
 				<string>#c0e18dff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Integers</string>
@@ -260,6 +268,7 @@
 				<string>#f77669ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Floats</string>
@@ -271,6 +280,7 @@
 				<string>#f77669ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Boolean</string>
@@ -282,6 +292,7 @@
 				<string>#f77669ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Constants</string>
@@ -293,6 +304,7 @@
 				<string>#f77669ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Tags</string>
@@ -304,6 +316,7 @@
 				<string>#e55578ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Attributes</string>
@@ -315,6 +328,7 @@
 				<string>#f77669ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Attribute IDs</string>
@@ -326,6 +340,7 @@
 				<string>#90bcd3ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Selector</string>
@@ -337,6 +352,7 @@
 				<string>#d58fd2ff</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Values</string>
@@ -595,6 +611,11 @@
 				<string>#ffffffff</string>
 			</dict>
 		</dict>
+
+		<!-- ====================================
+			Less
+			====================================== -->
+
 	</array>
 	<key>uuid</key>
 	<string>6a5b0925-40af-42cf-8a2f-dc8485b15a77</string>
