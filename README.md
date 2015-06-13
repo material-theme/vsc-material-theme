@@ -54,8 +54,7 @@ You can also use the official Material Design monospace font, "[Roboto Mono](htt
 
 
 ## Official resources
-You can download the official Material Theme icon here:
-https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650
+You can [download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
 
 ## Thanks
