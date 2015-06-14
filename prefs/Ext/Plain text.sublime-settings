@@ -1,8 +1,9 @@
 {
     "extensions": [
         "ini",
-        "txt",
+        "changelog",
         "readme",
-        "changelog"
+        "license"
+        "txt"
     ]
 }
