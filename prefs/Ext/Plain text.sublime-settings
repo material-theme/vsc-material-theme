@@ -3,7 +3,7 @@
         "ini",
         "changelog",
         "readme",
-        "license"
+        "license",
         "txt"
     ]
 }
