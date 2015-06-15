@@ -1086,8 +1086,7 @@
 	        "class": "label_control",
 	        "parents": [{"class": "button_control"}],
 	        "color": [176, 190, 196],
-	        "font.bold": true,
-	        "font.size": 12
+	        "font.bold": true
 	    },
 
 	    {
