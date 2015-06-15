@@ -47,11 +47,15 @@ This theme provides two style versions. If you don't like the default white pane
 ```
 
 
-## Theme settings
+<!-- 
+
+## Theme options
 
 ```json
 "material_theme_small_tab": true,  // Set small tabs
-```
+``` 
+
+-->
 
 
 ## Recommended UI and font settings
