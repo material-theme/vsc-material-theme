@@ -1281,4 +1281,24 @@
 	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 	    },
 
+
+	/* @ THEME OPTIONS
+	 * Options override
+	========================================================================= */
+
+		// Tabs size ()
+
+		{
+			"class": "tabset_control",
+			"settings": ["material_theme_small_tab"],
+			"tab_height": 36,
+			"content_margin": [12, -4, 8, 0]
+		},
+
+		{
+			"class": "tab_control",
+			"settings": ["material_theme_small_tab"],
+			"content_margin": [12, 8, 6, 4],
+		}
+
 ]
