@@ -1,8 +1,10 @@
 {
     "extensions": [
+        "changelog",
+        "contributing",
         "ini",
-        "txt",
+        "license",
         "readme",
-        "changelog"
+        "txt"
     ]
 }
