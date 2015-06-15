@@ -937,8 +937,7 @@
 			"color": [176, 190, 197],
 			"shadow_color": [24, 24, 24, 0],
 			"shadow_offset": [0, 0],
-			"font.bold": true,
-			"font.size": 11
+			"font.bold": true
 		},
 
 	    	// Status bar labels
