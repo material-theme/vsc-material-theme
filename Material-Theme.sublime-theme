@@ -1,6 +1,6 @@
 [
 
-	/* @EMPTY WINDOW
+	/* @ EMPTY WINDOW
 	 * Style for empty (no tabs) window
 	========================================================================= */
 
@@ -11,7 +11,7 @@
 		},
 
 
-	/* @GRID LAYOUT
+	/* @ GRID LAYOUT
 	 * Grid style
 	========================================================================= */
 
@@ -22,7 +22,7 @@
 		},
 
 
-	/* @DIALOG POPUP
+	/* @ DIALOG POPUP
 	 * Dialog popup style and progressbar
 	========================================================================= */
 
@@ -46,7 +46,7 @@
 		},
 
 
-	/* @CODE FOLDING
+	/* @ CODE FOLDING
 	 * Folding arrow setting and behavioring
 	========================================================================= */
 
@@ -76,7 +76,7 @@
 		},
 
 
-	/* @AUTOCOMPLETE
+	/* @ AUTOCOMPLETE
 	 * Autocomplete popup setting and behavioring
 	========================================================================= */
 
@@ -116,7 +116,7 @@
 		},
 
 
-	/* @TOOLTIP
+	/* @ TOOLTIP
 	 * Tooltip setting and behavioring
 	========================================================================= */
 
@@ -134,7 +134,7 @@
 		},
 
 
-	/* @OVERLAY PANELS
+	/* @ OVERLAY PANELS
 	 * Overlay panels setting and behavioring
 	========================================================================= */
 
@@ -242,7 +242,7 @@
 		},
 
 
-	/* @TABS
+	/* @ TABS
 	 * Tabs settings and behavioring
 	========================================================================= */
 
@@ -480,7 +480,7 @@
 		},
 
 
-	/* @SIDEBAR
+	/* @ SIDEBAR
 	 * Sidebar panel settings and behavioring
 	========================================================================= */
 
@@ -730,7 +730,7 @@
 		},
 
 
-	/* @SCROLLBARS
+	/* @ SCROLLBARS
 	 * Scrollbars settings and behavioring
 	========================================================================= */
 
@@ -900,7 +900,7 @@
 		},
 
 
-	/* @MINIMAP
+	/* @ MINIMAP
 	 * Minimap settings and behavioring
 	========================================================================= */
 
@@ -926,7 +926,7 @@
 		},
 
 
-	/* @STATUS BAR
+	/* @ STATUS BAR
 	 * Status bar settings and behavioring
 	========================================================================= */
 
@@ -937,8 +937,7 @@
 			"color": [176, 190, 197],
 			"shadow_color": [24, 24, 24, 0],
 			"shadow_offset": [0, 0],
-			"font.bold": true,
-			"font.size": 11
+			"font.bold": true
 		},
 
 	    	// Status bar labels
@@ -991,7 +990,7 @@
 		},
 
 
-	/* @WIDGET PANEL
+	/* @ WIDGET PANEL
 	 * Widget, input, buttons settings and behavioring
 	========================================================================= */
 
@@ -1075,7 +1074,7 @@
 		},
 
 
-	/* @BUTTONS
+	/* @ BUTTONS
 	 * Buttons panels settings and behavioring
 	========================================================================= */
 
@@ -1086,8 +1085,7 @@
 	        "class": "label_control",
 	        "parents": [{"class": "button_control"}],
 	        "color": [176, 190, 196],
-	        "font.bold": true,
-	        "font.size": 12
+	        "font.bold": true
 	    },
 
 	    {
@@ -1287,5 +1285,25 @@
 	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 	    },
+
+
+	/* @ THEME OPTIONS
+	 * Options override
+	========================================================================= */
+
+		// Tabs size ()
+
+		{
+			"class": "tabset_control",
+			"settings": ["material_theme_small_tab"],
+			"tab_height": 36,
+			"content_margin": [12, -4, 8, 0]
+		},
+
+		{
+			"class": "tab_control",
+			"settings": ["material_theme_small_tab"],
+			"content_margin": [12, 8, 6, 4],
+		}
 
 ]

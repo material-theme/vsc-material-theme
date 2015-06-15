@@ -46,6 +46,18 @@ This theme provides two style versions. If you don't like the default white pane
 "theme": "Material-Theme-Darker.sublime-theme",
 ```
 
+
+<!-- 
+
+## Theme options
+
+```json
+"material_theme_small_tab": true,  // Set small tabs
+``` 
+
+-->
+
+
 ## Recommended UI and font settings
 I suggest you to use this custom settings for a better experience with the theme:
 
