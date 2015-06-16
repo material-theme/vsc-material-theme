@@ -42,7 +42,7 @@ You can install this awesome theme through the [Package Control](https://package
 
 
 ## Known issues
-Please see the issue #67 if you can't see the bottom panel (find/replace, rename, move, etc..). here the quick fix:
+Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, etc..). here the quick fix:
 
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
 
@@ -53,17 +53,11 @@ This theme provides two style versions. If you don't like the default white pane
 "theme": "Material-Theme-Darker.sublime-theme",
 ```
 
-
-<!-- 
-
 ## Theme options
 
 ```json
 "material_theme_small_tab": true,  // Set small tabs
 ``` 
-
--->
-
 
 ## Recommended UI and font settings
 I suggest you to use this custom settings for a better experience with the theme:
