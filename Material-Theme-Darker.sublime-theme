@@ -648,11 +648,26 @@
 			"content_margin": [8, 8]
 		},
 
+			// Symlink folder icon
+
 		{
 			"class": "icon_folder_dup",
 			"layer0.texture": "Material Theme/assets/commons/folder_dup.png",
 			"layer0.opacity": 1.0,
-			"content_margin": [8, 8]
+			"content_margin": [13, 8]
+		},
+
+		{
+			"class": "icon_folder_dup",
+			"parents":
+			[{ "class": "tree_row", "attributes": ["hover"] }],
+			"layer0.texture": "Material Theme/assets/commons/folder_dup--hover.png"
+		},
+
+		{
+			"class": "icon_folder_dup",
+			"parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+			"layer0.texture": "Material Theme/assets/commons/folder_dup--hover.png"
 		},
 
 			// Hidden arrow icon before folder
