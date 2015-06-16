@@ -901,6 +901,17 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 				<string>#546E7A</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Support function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F77669</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>6a5b0925-40af-42cf-8a2f-dc8485b15a77</string>
