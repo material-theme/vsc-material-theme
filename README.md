@@ -40,6 +40,12 @@ You can install this awesome theme through the [Package Control](https://package
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
 
+
+## Known issues
+Please see the issue #67 if you can't see the bottom panel (find/replace, rename, move, etc..). here the quick fix:
+
+![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
+
 ## Theme styles
 This theme provides two style versions. If you don't like the default white panels and field inputs you can set the darker version by using this:
 
@@ -81,5 +87,5 @@ You can [download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime
 
 
 ## Thanks
-- [@Riccardo-Zanutta](https://github.com/Riccardo-Zanutta) for the windows beta test, site development and support.
-- [@irazasyed](https://github.com/irazasyed)
+- All donators!
+- All contributors 
