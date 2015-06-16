@@ -786,7 +786,7 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>name</key>
 			<string>CSS: property-value</string>
 			<key>scope</key>
-			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-list.css meta.property-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -865,7 +865,7 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B388FF</string>
+				<string>#EB446B</string>
 			</dict>
 		</dict>
 		<dict>
