@@ -1,16 +1,19 @@
 Material Theme for Sublime Text 3
 https://github.com/equinusocio/material-theme
+asdasdasd
 
-
-Version 1.0.1
+Version 1.1.0
 ********************************************************************************
 
-## UI IMPROVEMENTS
+## THEME IMPROVEMENTS
 
-	- Fix font-size for button and input field
-	- Add theme options (See https://github.com/equinusocio/material-theme#theme-options)
+	- Fix font-size for button and input field (issue #103)
+	- Add theme options (issue https://github.com/equinusocio/material-theme#theme-options)
+	- Fix symlink folder icon in treeview (issue #122)
+	- Assets update
 
 
-## SYNTAX IMPROVEMENETS
+## COLOR SCHEME IMPROVEMENTS
 
 	- New line highlight color
+	- New selection colors
