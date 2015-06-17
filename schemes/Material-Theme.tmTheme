@@ -31,9 +31,11 @@
 				<key>selectionForeground</key>
 				<string>#FFFFFF</string>
 				<key>guide</key>
-				<string>#37474F80</string>
+				<string>#65737e</string>
 				<key>activeGuide</key>
-				<string>#80CBC450</string>
+				<string>#F8E71C</string>
+				<key>stackGuide</key>
+        			<string>#65737e</string>
 				<key>gutterForeground</key>
 				<string>#37474F</string>
 				<key>findHighlight</key>
