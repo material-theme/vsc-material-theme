@@ -41,7 +41,7 @@ I suggest you to use this custom settings for a better experience with the theme
   "font_options": [ "gray_antialias" ], // On retina Mac
   "always_show_minimap_viewport": true,
   "bold_folder_labels": true
-  "indent_guide_options": [ "draw_normal", "draw_active" ], //Highligh Active Indent
+  "indent_guide_options": [ "draw_normal", "draw_active" ], //Highlight active indent
 }
 
 ********************************************************************************
