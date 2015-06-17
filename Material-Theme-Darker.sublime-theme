@@ -489,7 +489,7 @@
 			"layer0.opacity": 1.0,
 			"layer0.draw_center": false,
 			"layer0.inner_margin": [0, 24, 12, 24],
-			"content_margin": [0, 12, 0, 24]
+			"content_margin": [0, 12, 0, 0]
 		},
 		{
 			"class": "sidebar_tree",
