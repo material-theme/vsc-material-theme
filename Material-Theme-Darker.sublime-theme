@@ -489,7 +489,7 @@
 			"layer0.opacity": 1.0,
 			"layer0.draw_center": false,
 			"layer0.inner_margin": [0, 24, 12, 24],
-			"content_margin": [0, 12, 0, 24]
+			"content_margin": [0, 12, 0, 0]
 		},
 		{
 			"class": "sidebar_tree",
@@ -900,10 +900,10 @@
 			"class": "puck_control",
 			"attributes": ["horizontal"],
 			"layer0.tint": [38, 50, 56],
-			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [6, 1, 6, 1],
+			"layer0.opacity": 0.0,
+			"layer0.inner_margin": [8, 1, 8, 1],
 			"layer1.texture": "Material Theme/assets/commons/overlay_dark_thumb_horizontal.png",
-			"layer1.inner_margin": [6, 1, 6, 1],
+			"layer1.inner_margin": [8, 1, 8, 1],
 			"content_margin": [2, 6],
 			"blur": true
 		},
@@ -1046,7 +1046,7 @@
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [20, 5, 20, 5],
 			"tint_index": 1,
-			"content_margin": [24, 8, 16, 8]
+			"content_margin": [16, 8, 13, 8]
 		},
 
 
