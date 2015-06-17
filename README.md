@@ -69,6 +69,7 @@ I suggest you to use this custom settings for a better experience with the theme
 "font_options": [ "gray_antialias" ], // On retina Mac
 "always_show_minimap_viewport": true,
 "bold_folder_labels": true
+"indent_guide_options": [ "draw_normal", "draw_active" ], // Highlight active indent
 ```
 
 The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
