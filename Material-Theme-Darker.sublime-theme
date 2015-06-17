@@ -900,10 +900,10 @@
 			"class": "puck_control",
 			"attributes": ["horizontal"],
 			"layer0.tint": [38, 50, 56],
-			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [6, 1, 6, 1],
+			"layer0.opacity": 0.0,
+			"layer0.inner_margin": [8, 1, 8, 1],
 			"layer1.texture": "Material Theme/assets/commons/overlay_dark_thumb_horizontal.png",
-			"layer1.inner_margin": [6, 1, 6, 1],
+			"layer1.inner_margin": [8, 1, 8, 1],
 			"content_margin": [2, 6],
 			"blur": true
 		},
