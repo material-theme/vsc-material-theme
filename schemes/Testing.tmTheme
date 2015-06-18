@@ -753,7 +753,7 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>name</key>
 			<string>CSS: #ID</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id, entity.other.attribute-name.id.css punctuation</string>
+			<string>meta.selector.css entity.other.attribute-name.id, entity.other.attribute-name.id.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -850,11 +850,11 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>name</key>
 			<string>CSS: @ rule</string>
 			<key>scope</key>
-			<string>meta.at-rule.css keyword.control.at-rule.css punctuation.definition.keyword.css, meta.at-rule.import.css keyword.control.at-rule.import.css punctuation.definition.keyword.css</string>
+			<string>meta.at-rule.css keyword.control.at-rule.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAD430</string>
+				<string>#D58FD2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -906,6 +906,28 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<string>CSS: Support function</string>
 			<key>scope</key>
 			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F77669</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS: Quoted string</string>
+			<key>scope</key>
+			<string>source.less meta.property-value.css string.quoted.double.css comment markup.raw</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FAD430</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS: Operator</string>
+			<key>scope</key>
+			<string>source.less meta.property-value.css string.quoted.double.css comment markup.raw keyword.operator.less</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
