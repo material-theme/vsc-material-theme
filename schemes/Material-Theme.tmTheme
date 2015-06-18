@@ -4,13 +4,13 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Mattia Astorino (http://astorinomattia.it)</string>
+	<string>Mattia Astorino (http:&#x2f;&#x2f;astorinomattia.it)</string>
+	<key>name</key>
+	<string>Material Theme</string>
+	<key>semanticClass</key>
+	<string>theme.default.material_theme</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
-	<key>name</key>
-	<string>Material Theme Oceanic</string>
-	<key>semanticClass</key>
-	<string>theme.dark.material_theme_oceanic</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -30,12 +30,10 @@
 				<string>#80CBC420</string>
 				<key>selectionForeground</key>
 				<string>#FFFFFF</string>
-        			<key>guide</key>
+				<key>guide</key>
 				<string>#37474F80</string>
 				<key>activeGuide</key>
-				<string>#80CBC470</string>
-				<key>stackGuide</key>
-				<string>#37474Fff</string>
+				<string>#80CBC450</string>
 				<key>gutterForeground</key>
 				<string>#37474F</string>
 				<key>findHighlight</key>
@@ -44,97 +42,141 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Comments</string>
+			<string>Text</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment, string.comment.buffered</string>
+			<string>variable.parameter.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#546E7A80</string>
+				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#546E7A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d9f5ddff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Delimiters</string>
+			<key>scope</key>
+			<string>none</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d9f5ddff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d9f5ddff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keywords</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c792eaff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
 			<key>scope</key>
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CDD3DE</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword, Storage</string>
+			<string>Functions</string>
 			<key>scope</key>
-			<string>keyword, storage.type</string>
+			<string>entity.name.function, meta.require, support.function.any-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C594C5</string>
+				<string>#78ccf0ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Classes</string>
 			<key>scope</key>
-			<string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
+			<string>support.class, entity.name.class, entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80cbc4</string>
+				<string>#ffcb6b</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Classes</string>
 			<key>scope</key>
-			<string>text.html.basic meta.tag.inline.any.html entity.other.attribute-name.html, text.html.basic meta.tag.block.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html, text.html.basic meta.tag.any.html entity.other.attribute-name.html</string>
+			<string>meta.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80cbc4</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Methods</string>
 			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php source.php comment.block.documentation.phpdoc.php meta.tag.inline.phpdoc.php keyword.other.phpdoc.php</string>
+			<string>keyword.other.special-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#546E7A</string>
+				<string>#78ccf0ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Storage</string>
 			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php source.php comment.block.documentation.phpdoc.php meta.tag.inline.phpdoc.php</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#546E7A</string>
+				<string>#c792eaff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Support</string>
 			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php source.php support.function.basic_functions.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#80CBC4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Operator, Misc</string>
-			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php source.php support.function.file.php</string>
+			<string>support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -143,9 +185,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Strings, Inherited Class</string>
 			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -154,185 +196,219 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Integers</string>
 			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php source.php meta.function-call.object.php</string>
+			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80CBC4</string>
+				<string>#F77669</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Floats</string>
 			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php source.php meta.array.php meta.array.php support.function.construct.php</string>
+			<string>none</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80CBC4</string>
+				<string>#F77669</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Operator, Misc</string>
+			<string>Boolean</string>
 			<key>scope</key>
-			<string>embedding.php text.html.basic meta.embedded.block.php source.php variable.other.php</string>
+			<string>none</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#F77669</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag</string>
+			<string>Constants</string>
 			<key>scope</key>
-			<string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter</string>
+			<string>constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EB606B</string>
+				<string>#F77669</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function, Special Method, Block Level</string>
+			<string>Tags</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6699CC</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Other Variable, String Link</string>
+			<string>Attributes</string>
 			<key>scope</key>
-			<string>support.other.variable, string.other.link</string>
+			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F2777A</string>
+				<string>#C3E88D</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<string>Attribute IDs</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
+			<string>entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffeb95</string>
+				<string>#FAD430</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String, Symbols, Inherited Class, Markup Heading</string>
+			<string>Selector</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter</string>
+			<string>meta.selector</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c3e88d</string>
+				<string>#c792eaff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Class, Support</string>
+			<string>Values</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
+			<string>none</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BB80B3</string>
-				<key>background</key>
+				<string>#F77669</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Headings</string>
+			<key>scope</key>
+			<string>markup.heading punctuation.definition.heading, entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#78ccf0ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Sub-methods</string>
+			<string>Units</string>
 			<key>scope</key>
-			<string>entity.name.module.js, variable.import.parameter.js, variable.other.class.js</string>
+			<string>keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#F77669</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Language methods</string>
+			<string>Bold</string>
 			<key>scope</key>
-			<string>variable.language</string>
+			<string>markup.bold, punctuation.definition.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#ffcb6b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic</string>
+			<key>scope</key>
+			<string>markup.italic, punctuation.definition.italic</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#c792eaff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>entity.name.method.js</string>
+			<string>Code</string>
 			<key>scope</key>
-			<string>entity.name.method.js</string>
+			<string>markup.raw.inline</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8DEE9</string>
+				<string>#f1e655</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>meta.method.js</string>
+			<string>Link Text</string>
 			<key>scope</key>
-			<string>meta.method.js</string>
+			<string>string.other.link, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fff</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Attributes</string>
+			<string>Link Url</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name,
-meta.selector.css entity.other.attribute-name.class, source.scss entity.other.attribute-name.class.css, source.less entity.other.attribute-name.class.css, keyword.other.default.scss, keyword.other.default.less</string>
+			<string>meta.link</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c3e88d</string>
+				<string>#F77669</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Lists</string>
+			<key>scope</key>
+			<string>markup.list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff5370ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Quotes</string>
+			<key>scope</key>
+			<string>markup.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F77669</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Separator</string>
+			<key>scope</key>
+			<string>meta.separator</string>
+			<key>settings</key>
+			<dict>
 				<key>background</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>class puntaction</string>
-			<key>scope</key>
-			<string>source.less entity.other.attribute-name.class.css punctuation.definition.entity.css</string>
-			<key>settings</key>
-			<dict>
+				<string>#1e3445ff</string>
 				<key>foreground</key>
-				<string>#c3e88d</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Attributes</string>
-			<key>scope</key>
-			<string>source.less keyword.operator.less</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E8A01E</string>
+				<string>#d9f5ddff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -343,29 +419,7 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#99C794</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Inserted</string>
-			<key>scope</key>
-			<string>source.less entity.other.attribute-name.id.css, source.less entity.other.attribute-name.id.css punctuation.definition.entity.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ee9903</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Mixin name</string>
-			<key>scope</key>
-			<string>source.less entity.other.attribute-name.class.css entity.other.less.mixin</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BB80B3</string>
+				<string>#F1E655</string>
 			</dict>
 		</dict>
 		<dict>
@@ -376,7 +430,7 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -387,7 +441,19 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BB80B3</string>
+				<string>#c792eaff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Colors</string>
+			<key>scope</key>
+			<string>constant.other.color,
+meta.property-value support.constant.named-color.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEB95</string>
 			</dict>
 		</dict>
 		<dict>
@@ -398,7 +464,7 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80cbc4</string>
+				<string>#80CBC4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -409,172 +475,107 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e6647c</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>URL</string>
-			<key>scope</key>
-			<string>*url*, *link*, *uri*</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS&#x2f;SCSS variables declaration</string>
-			<key>scope</key>
-			<string>source.less variable.declaration.less, source.less variable.other.less, source.scss meta.set.variable variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e6647c</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS&#x2f;SCSS other variables</string>
-			<key>scope</key>
-			<string>source.less meta.property-value.css variable.other.less, source.scss meta.property-list.scss meta.property-value.scss variable.scss variable.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e6647c</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS mixin parameters</string>
-			<key>scope</key>
-			<string>source.less parameter.less variable.other.less</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e6647c</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS function</string>
-			<key>scope</key>
-			<string>source.less meta.property-value.css support.function.less</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e58f48ff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>LESS mixins</string>
-			<key>scope</key>
-			<string>entity.other.less.mixin</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
 				<string>#80CBC4</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>!important</string>
+			<string>Embedded</string>
 			<key>scope</key>
-			<string>meta.property-value.css keyword.operator.less, keyword.other.important.css</string>
+			<string>punctuation.section.embedded, variable.interpolation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ee9903</string>
+				<string>#d3423eff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Illegal</string>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
 				<key>background</key>
-				<string>#c03e4430</string>
+				<string>#EC5F67</string>
+				<key>foreground</key>
+				<string>#ffffffff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css&#x2f;less property-name: psuedos and attibutes</string>
+			<string>Broken</string>
 			<key>scope</key>
-			<string>support.type.property-name.css, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss, meta.property-name.less, meta.property-list.css meta.property-name.css</string>
+			<string>invalid.broken</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#7fccc4</string>
 				<key>background</key>
-				<string></string>
+				<string>#F77669</string>
+				<key>foreground</key>
+				<string>#020e14ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>GitGutter deleted</string>
+			<string>Deprecated</string>
 			<key>scope</key>
-			<string>markup.deleted.git_gutter</string>
+			<string>invalid.deprecated</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#d3423eff</string>
 				<key>foreground</key>
-				<string>#F44336</string>
+				<string>#ffffffff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>GitGutter changed</string>
+			<string>Unimplemented</string>
 			<key>scope</key>
-			<string>markup.changed.git_gutter</string>
+			<string>invalid.unimplemented</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#8BD649</string>
 				<key>foreground</key>
-				<string>#FAC86E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter inserted</string>
-			<key>scope</key>
-			<string>markup.inserted.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c3e88d</string>
+				<string>#ffffffff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>SublimeLinter Annotations</string>
 			<key>scope</key>
-			<string>sublimelinter.outline.notes</string>
+			<string>sublimelinter.annotations</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#f3f38dff</string>
+				<string>#fffff7ff</string>
 				<key>foreground</key>
-				<string>#F9A825</string>
+				<string>#7b5157ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Outline</string>
+			<string>SublimeLinter Error Outline</string>
 			<key>scope</key>
 			<string>sublimelinter.outline.illegal</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ec8158ff</string>
+				<string>#ff9599ff</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#ffffffff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Underline</string>
+			<string>SublimeLinter Error Underline</string>
 			<key>scope</key>
 			<string>sublimelinter.underline.illegal</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#d54731ff</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#ff4941ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -585,9 +586,9 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eca25bff</string>
+				<string>#FFCF1B</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#ffffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -598,9 +599,7 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#d54731ff</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#ff4941ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -611,9 +610,9 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#776363ff</string>
+				<string>#ffffff33</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#ffffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -624,26 +623,179 @@ meta.selector.css entity.other.attribute-name.class, source.scss entity.other.at
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#d703034f</string>
-				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#ff4941ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css&#x2f;less id&apos;s</string>
+			<string>SublimeLinter Error</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id, meta.selector.scss entity.other.attribute-name.id, meta.selector.less entity.other.attribute-name.id, entity.name.tag.reference.scss, entity.name.tag.reference.less</string>
+			<string>sublimelinter.mark.error</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fad430</string>
+				<string>#ff572dff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffcf1bff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EC5F67</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFCF1B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C3E88D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter Ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#546E7A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment line &#x2f;&#x2f;</string>
+			<key>scope</key>
+			<string>comment.line.double-slash punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5C7E8C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Property-name</string>
+			<key>scope</key>
+			<string>support.type.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80CBC4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Prefix</string>
+			<key>scope</key>
+			<string>meta.property-list meta.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80CBC4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Styles Units</string>
+			<key>scope</key>
+			<string>source.css keyword.other.unit,
+source.less keyword.other.unit,
+source.scss keyword.other.unit,
+source.sass keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEB95</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>LESS: mixins</string>
+			<key>scope</key>
+			<string>entity.other.less.mixin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7986CB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: #</string>
+			<key>scope</key>
+			<string>constant.other.color.rgb-value punctuation.definition.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F77669</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Attribute selector value</string>
+			<key>scope</key>
+			<string>meta.attribute-selector string.unquoted.attribute-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C3E88D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Attribute selector name</string>
+			<key>scope</key>
+			<string>meta.attribute-selector entity.other.attribute-name.attribute</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F77669</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>21a3a5f5-e82f-48a8-bc8b-9aef307f6131</string>
-	<key>comment</key>
-	<string>Revisited by Mattia Astorino for Material Theme</string>
+	<string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
 </dict>
 </plist>
