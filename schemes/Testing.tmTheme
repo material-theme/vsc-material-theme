@@ -102,13 +102,13 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, 
-punctuation.definition.variable, 
-punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+			<string>SASS: Attribute Selectortuation.definition.variable, 
+punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array,
+punctuation.separator.key-value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d1e1f1ff</string>
+				<string>#80CBC4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -119,7 +119,7 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d1e1f1ff</string>
+				<string>#80CBC4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -251,7 +251,7 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f77669ff</string>
+				<string>#f77669</string>
 			</dict>
 		</dict>
 		<dict>
@@ -632,7 +632,7 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#e2cd4bff</string>
+				<string>#FAD430</string>
 				<key>foreground</key>
 				<string>#ffffffff</string>
 			</dict>
@@ -691,7 +691,7 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dde14bff</string>
+				<string>#FAD430</string>
 			</dict>
 		</dict>
 		<dict>
@@ -786,7 +786,8 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<key>name</key>
 			<string>CSS: property-value</string>
 			<key>scope</key>
-			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-list.css meta.property-value.css</string>
+			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-list.css meta.property-value, source.less meta.property-value.css,
+source.less meta.property-value.css support.function.less</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -932,6 +933,39 @@ punctuation.definition.variable, punctuation.definition.string, punctuation.defi
 			<dict>
 				<key>foreground</key>
 				<string>#F77669</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SASS: Block comment</string>
+			<key>scope</key>
+			<string>comment.block.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#546E7A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SASS: Placeholder selector</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.placeholder-selector.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00EBB4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SASS: Attribute Selector</string>
+			<key>scope</key>
+			<string>entity.other.attribute-selector.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8A007F</string>
 			</dict>
 		</dict>
 	</array>
