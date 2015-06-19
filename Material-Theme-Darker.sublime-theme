@@ -1312,6 +1312,15 @@
 			"class": "tab_control",
 			"settings": ["material_theme_small_tab"],
 			"content_margin": [12, 8, 6, 4],
-		}
+		},
+
+			// Filetype icons in sidebar
+
+		{
+			"class": "icon_file_type",
+			"settings": ["material_theme_disable_fileicons"],			
+			"layer0.opacity": 0,
+			"content_margin": [0, 0]
+		},
 
 ]

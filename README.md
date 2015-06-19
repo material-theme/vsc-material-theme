@@ -6,11 +6,6 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 <!-- Pledgie Donation -->
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
-<!-- PayPal Donation -->
-<!-- [paypalbutton]: https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_LG.gif "Donate with PayPal"
-[![paypalbutton]](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4LM76KTWW4C2Y)
- -->
-
 ## Screenshots
 
 ![image](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
@@ -56,7 +51,8 @@ This theme provides two style versions. If you don't like the default white pane
 ## Theme options
 
 ```json
-"material_theme_small_tab": true,  // Set small tabs
+"material_theme_small_tab": true,  			  // Set small tabs
+"material_theme_disable_fileicons": true,   // Hide siderbar file type icons
 ``` 
 
 ## Recommended UI and font settings
