@@ -769,14 +769,15 @@
 	 * Scrollbars settings and behavioring
 	========================================================================= */
 
-		// Normal Vertical scrollbar track
-	    {
-	        "class": "scroll_bar_control",
-	        "layer0.tint": [38, 50, 56],
-	        "layer0.opacity": 1.0,
-	        "layer0.inner_margin": [0, 6],
-	        "blur": false
-	    },
+			// Normal Vertical scrollbar track
+		
+		{
+			"class": "scroll_bar_control",
+			"layer0.tint": [38, 50, 56],
+			"layer0.opacity": 1.0,
+			"layer0.inner_margin": [0, 6],
+			"blur": false
+		},
 
 	    	// Normal Vertical scrollbar track inside overlay panel
 
@@ -998,10 +999,12 @@
 
 			"content_margin": [0, 0]
 		},
+
 		{
 			"class": "status_container",
 			"content_margin": [24, 12, 24, 12],
 		},
+
 		{
 			"class": "status_button",
 			"layer0.tint": [38, 50, 56],
@@ -1011,6 +1014,7 @@
 			"content_margin": [10, 2, 10, 3],
 			"min_size": [75, 0]
 		},
+
 		{
 			"class": "status_button",
 			"layer0.tint": [38, 50, 56],

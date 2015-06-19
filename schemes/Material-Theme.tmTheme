@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 
-<plist version="1.0">
+<plist version="2.3">
 <dict>
 	<key>author</key>
 	<string>Mattia Astorino (http:&#x2f;&#x2f;astorinomattia.it)</string>
 	<key>name</key>
 	<string>Material Theme</string>
 	<key>semanticClass</key>
-	<string>theme.default.material_theme</string>
+	<string>theme.dark.material_theme</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>settings</key>
@@ -30,7 +30,7 @@
 				<string>#80CBC420</string>
 				<key>selectionForeground</key>
 				<string>#FFFFFF</string>
-    			<key>guide</key>
+				<key>guide</key>
 				<string>#37474F80</string>
 				<key>activeGuide</key>
 				<string>#80CBC470</string>
@@ -123,11 +123,12 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method</string>
+			<string>entity.name.function, meta.require, support.function.any-method,
+meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#78ccf0ff</string>
+				<string>#82B1FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -160,7 +161,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#78ccf0ff</string>
+				<string>#82B1FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,7 +179,8 @@
 			<key>name</key>
 			<string>Support</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>support.function,
+keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
