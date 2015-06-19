@@ -30,10 +30,12 @@
 				<string>#80CBC420</string>
 				<key>selectionForeground</key>
 				<string>#FFFFFF</string>
-				<key>guide</key>
+    			<key>guide</key>
 				<string>#37474F80</string>
 				<key>activeGuide</key>
-				<string>#80CBC450</string>
+				<string>#80CBC470</string>
+				<key>stackGuide</key>
+				<string>#37474Fff</string>
 				<key>gutterForeground</key>
 				<string>#37474F</string>
 				<key>findHighlight</key>
@@ -114,7 +116,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF3D38</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -246,7 +248,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EA5C54</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -362,7 +364,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF3D38</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -384,7 +386,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF3D38</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -430,7 +432,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF3D38</string>
+				<string>#ff5370ff</string>
 			</dict>
 		</dict>
 		<dict>
