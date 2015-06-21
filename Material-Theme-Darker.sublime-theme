@@ -164,7 +164,7 @@
 		{
 			"class": "mini_quick_panel_row",
 			"attributes": ["selected"],
-			"layer0.tint": [97, 97, 97]
+			"layer0.tint": [66, 66, 66]
 		},
 
 			// Quick panel project setting (project manager) (cmd + ctrl + p)
@@ -198,7 +198,7 @@
 		{
 			"class": "quick_panel_row",
 			"attributes": ["selected"],
-			"layer0.tint": [97, 97, 97],
+			"layer0.tint": [66, 66, 66],
 			"layer1.opacity": 0.0
 		},
 
