@@ -429,7 +429,7 @@
 		{
 			"class": "scroll_tabs_left_button",
 			"content_margin": [14, 7],
-			"layer0.texture": "Material Theme/assets/commons/arrow_left.png",
+			"layer0.texture": "Material Theme/assets/darker/arrow_left.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": 0,
 			"layer1.texture": "Material Theme/assets/commons/arrow_left--hover.png",
@@ -446,7 +446,7 @@
 		{
 			"class": "scroll_tabs_right_button",
 			"content_margin": [14, 7],
-			"layer0.texture": "Material Theme/assets/commons/arrow_right.png",
+			"layer0.texture": "Material Theme/assets/darker/arrow_right.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": 0,
 			"layer1.texture": "Material Theme/assets/commons/arrow_right--hover.png",
@@ -463,7 +463,7 @@
 		{
 			"class": "show_tabs_dropdown_button",
 			"content_margin": [12, 12],
-			"layer0.texture": "Material Theme/assets/commons/overflow_menu.png",
+			"layer0.texture": "Material Theme/assets/darker/overflow_menu.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": 0,
 			"layer1.texture": "Material Theme/assets/commons/overflow_menu--hover.png",
@@ -1068,7 +1068,7 @@
 		{
 			"class": "dropdown_button_control",
 			"content_margin": [12, 12],
-			"layer0.texture": "Material Theme/assets/commons/overflow_menu.png",
+			"layer0.texture": "Material Theme/assets/darker/overflow_menu.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [0, 0],
 			"layer1.texture": "Material Theme/assets/commons/overflow_menu--hover.png",
