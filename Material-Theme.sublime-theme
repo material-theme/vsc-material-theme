@@ -545,15 +545,14 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-			"settings": ["bold_folder_labels"],
-			"font.bold": true,
 			"color": [175, 189, 196]
 		},
 
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-			"color": [175, 189, 196]
+			"settings": ["bold_folder_labels"],
+			"font.bold": true
 		},
 
 		{
@@ -565,15 +564,14 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-			"settings": ["bold_folder_labels"],
-			"font.bold": true,
 			"color": [128, 203, 196]
 		},
 
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-			"color": [128, 203, 196]
+			"settings": ["bold_folder_labels"],
+			"font.bold": true
 		},
 
 		{
@@ -674,7 +672,7 @@
 
 		{
 			"class": "icon_folder_dup",
-			"layer0.texture": "Material Theme/assets/commons/folder_dup.png",
+			"layer0.texture": "Material Theme/assets/default/folder_dup.png",
 			"layer0.opacity": 1.0,
 			"content_margin": [13, 8]
 		},
