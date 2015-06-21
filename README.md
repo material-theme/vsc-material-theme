@@ -79,7 +79,7 @@ You can also use the official Material Design monospace font, "[Roboto Mono](htt
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
 #### Default Color Palette
-![Color Palette](http://i.imgur.com/QJv7eSo.jpg)
+![Color Palette](http://i.imgur.com/zyIK71j.jpg)
 
 
 ## Thanks
