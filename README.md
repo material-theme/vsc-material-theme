@@ -30,12 +30,12 @@ You can install this awesome theme through the [Package Control](https://package
 ### Default Style
 ```json
 "theme": "Material-Theme.sublime-theme",
-"color_scheme": "Packages/Material Theme/schemes/default/Material-Theme.tmTheme
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme
 
 ### Darker Style
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
-"color_scheme": "Packages/Material Theme/schemes/darker/Material-Theme.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 ```
 
 
