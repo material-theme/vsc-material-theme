@@ -251,10 +251,9 @@
 
 			"layer0.opacity": 1.0,
 			"layer0.tint": [33, 33, 33],
-			"tint_index": 0,
+			"tint_index": 1,
 			"layer0.inner_margin": [2, 6],
 			"layer0.opacity": 1.0,
-
 			"content_margin": [12, -8, 8, 0],
 			"tab_overlap": 0,
 			"tab_width": 180,
@@ -1007,16 +1006,13 @@
 		// Status bar panel
 		{
 			"class": "panel_control",
-
 			"layer0.tint": [33, 33, 33],
 			"layer0.inner_margin": [2, 2, 2, 2],
 			"layer0.opacity": 1.0,
-
 			"layer1.tint": [33, 33, 33],
 			"layer1.inner_margin": [2, 2, 2, 2],
 			"layer1.opacity": 1.0,
-
-			"content_margin": [6, 14, 0, 14],
+			"content_margin": [6, 14, 6, 14],
 			"layer0.opacity": 1.0
 		},
 
