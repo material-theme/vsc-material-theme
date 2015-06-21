@@ -21,7 +21,7 @@
 				<key>caret</key>
 				<string>#c0c5ce</string>
 				<key>foreground</key>
-				<string>#CDD3DE</string>
+				<string>#c0c5ce70</string>
 				<key>invisibles</key>
 				<string>#65737e</string>
 				<key>lineHighlight</key>
@@ -64,6 +64,17 @@
 				<string>#424242</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text and Source Base Colors</string>
+			<key>scope</key>
+			<string>text, source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CDD3DE</string> <!-- text colour -->
+			</dict>
+		</dict>			
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
