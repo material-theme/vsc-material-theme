@@ -27,17 +27,11 @@ You can install this awesome theme through the [Package Control](https://package
 
 3. Activate the theme with the following preferences:
 
-<!-- ### Default Style
+### Default Style
 ```json
 "theme": "Material-Theme.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme
-
-### Darker Style
-```json
-"theme": "Material-Theme-Darker.sublime-theme",
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-``` -->
-
+```
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
 
@@ -50,9 +44,11 @@ Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/
 ## Theme styles
 This theme provides two style versions. If you don't like the default white panels and field inputs you can set the darker version by using this:
 
+<!-- #### Darker
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
-```
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+``` -->
 
 ## Theme options
 
