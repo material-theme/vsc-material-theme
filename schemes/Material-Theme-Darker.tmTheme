@@ -711,7 +711,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>name</key>
 			<string>Comment line &#x2f;&#x2f;</string>
 			<key>scope</key>
-			<string>comment.line.double-slash punctuation.definition.comment</string>
+			<string>comment.line.double-slash punctuation.definition.comment, meta.structure.array comment.block.json punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
