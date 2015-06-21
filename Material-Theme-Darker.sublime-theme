@@ -71,7 +71,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"layer0.texture": "Material Theme/assets/commons/fold_down.png",
+			"layer0.texture": "Material Theme/assets/darker/fold_down.png",
 			"layer1.texture": "Material Theme/assets/commons/fold_down--hover.png"
 		},
 
