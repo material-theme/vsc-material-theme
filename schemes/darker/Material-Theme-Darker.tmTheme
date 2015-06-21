@@ -27,17 +27,17 @@
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>selection</key>
-				<string>#80CBC420</string>
+				<string>#61616160</string>
 				<key>selectionForeground</key>
 				<string>#FFFFFF</string>
 				<key>guide</key>
-				<string>#37474F80</string>
+				<string>#42424280</string>
 				<key>activeGuide</key>
 				<string>#80CBC470</string>
 				<key>stackGuide</key>
 				<string>#37474Fff</string>
 				<key>gutterForeground</key>
-				<string>#37474F</string>
+				<string>#424242</string>
 				<key>findHighlight</key>
 				<string>#F8E71C</string>
 			</dict>
@@ -61,7 +61,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#546E7A</string>
+				<string>#424242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -715,7 +715,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5C7E8C</string>
+				<string>#616161</string>
 			</dict>
 		</dict>
 		<dict>

@@ -611,7 +611,7 @@
 			"class": "icon_folder",
 			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 0,
-			"layer1.texture": "Material Theme/assets/commons/folder.png",
+			"layer1.texture": "Material Theme/assets/default/folder.png",
 			"layer1.opacity": 1,
 			"content_margin": [13, 8]
 		},

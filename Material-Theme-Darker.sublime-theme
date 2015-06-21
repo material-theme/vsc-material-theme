@@ -105,7 +105,7 @@
 
 		{
 			"class": "table_row",
-			"layer0.tint": [84, 110, 122],
+			"layer0.tint": [97, 97, 97],
 			"layer0.opacity": 0.0,
 		},
 
@@ -164,7 +164,7 @@
 		{
 			"class": "mini_quick_panel_row",
 			"attributes": ["selected"],
-			"layer0.tint": [84, 110, 122]
+			"layer0.tint": [97, 97, 97]
 		},
 
 			// Quick panel project setting (project manager) (cmd + ctrl + p)
@@ -198,7 +198,7 @@
 		{
 			"class": "quick_panel_row",
 			"attributes": ["selected"],
-			"layer0.tint": [84, 110, 122],
+			"layer0.tint": [97, 97, 97],
 			"layer1.opacity": 0.0
 		},
 
@@ -227,7 +227,7 @@
 
 		{
 			"class": "quick_panel_path_label",
-			"fg": [84, 110, 122, 255],
+			"fg": [97, 97, 97, 255],
 			"match_fg": [128, 203, 196, 255],
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [128, 203, 196, 255]
@@ -317,7 +317,7 @@
 
 		{
 			"class": "tab_label",
-			"fg": [84, 110, 122, 255],
+			"fg": [97, 97, 97, 255],
 			"shadow_color": [255, 255, 255, 0],
 			"shadow_offset": [0, 0],
 			"font.size": 11,
@@ -521,7 +521,7 @@
 
 		{
 			"class": "sidebar_label",
-			"color": [96, 125, 139],
+			"color": [97, 97, 97],
 			"font.bold": false,
 			"font.italic": false,
 			"shadow_color": [0, 0, 0, 0],
@@ -598,7 +598,7 @@
 			"class": "icon_folder",
 			"layer0.tint": [33, 33, 33],
 			"layer0.opacity": 0,
-			"layer1.texture": "Material Theme/assets/commons/folder.png",
+			"layer1.texture": "Material Theme/assets/darker/folder.png",
 			"layer1.opacity": 1,
 			"content_margin": [13, 8]
 		},
@@ -954,7 +954,7 @@
 	    {
 	        "class": "label_control",
 	        "parents": [{"class": "status_bar"}],
-	        "color": [120, 144, 156],
+	        "color": [66, 66, 66],
 	        "font.bold": false
     	},
 
