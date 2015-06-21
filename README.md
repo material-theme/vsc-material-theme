@@ -73,8 +73,13 @@ The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" 
 You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
 
 
-## Official resources
-You can [download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
+## Resources
+
+#### App icon
+[Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
+
+#### Default Color Palette
+![Color Palette](http://i.imgur.com/QJv7eSo.jpg)
 
 
 ## Thanks
