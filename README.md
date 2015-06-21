@@ -27,7 +27,7 @@ You can install this awesome theme through the [Package Control](https://package
 
 3. Activate the theme with the following preferences:
 
-### Default Style
+<!-- ### Default Style
 ```json
 "theme": "Material-Theme.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme
@@ -36,7 +36,7 @@ You can install this awesome theme through the [Package Control](https://package
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-```
+``` -->
 
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
