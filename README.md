@@ -27,9 +27,15 @@ You can install this awesome theme through the [Package Control](https://package
 
 3. Activate the theme with the following preferences:
 
+### Default Style
 ```json
 "theme": "Material-Theme.sublime-theme",
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/default/Material-Theme.tmTheme
+
+### Darker Style
+```json
+"theme": "Material-Theme-Darker.sublime-theme",
+"color_scheme": "Packages/Material Theme/schemes/darker/Material-Theme.tmTheme",
 ```
 
 
