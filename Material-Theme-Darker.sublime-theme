@@ -348,7 +348,7 @@
 			"content_margin": [0, 0],
 
 			 // Close Icon
-			"layer0.texture": "Material Theme/assets/commons/close_icon.png",
+			"layer0.texture": "Material Theme/assets/darker/close_icon.png",
 			"layer0.opacity": 1,
 			"layer0.inner_margin": 0,
 
@@ -357,7 +357,7 @@
 			"layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
 			 // Dirty Icon
-			"layer2.texture": "Material Theme/assets/commons/dirty_icon.png",
+			"layer2.texture": "Material Theme/assets/darker/dirty_icon.png",
 			"layer2.inner_margin": 0,
 
 			// Dirty Icon Hover
@@ -715,7 +715,7 @@
 			"content_margin": [8, 8],
 
 			// Default Close icon
-			"layer0.texture": "Material Theme/assets/commons/close_icon.png",
+			"layer0.texture": "Material Theme/assets/darker/close_icon.png",
 			"layer0.opacity": 1,
 			"layer0.inner_margin": [0,0],
 
@@ -1024,7 +1024,7 @@
 
 		{
 			"class": "panel_close_button",
-			"layer0.texture": "Material Theme/assets/commons/close_icon.png",
+			"layer0.texture": "Material Theme/assets/darker/close_icon.png",
 			"layer0.opacity": 0.6,
 			"layer1.texture": "Material Theme/assets/commons/close_icon--hover.png",
 			"layer1.opacity": 0.0,
