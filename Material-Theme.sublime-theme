@@ -1126,7 +1126,7 @@
 			"layer1.texture": "Material Theme/assets/commons/full_button_indented.png",
 			"layer1.opacity": 0.0,
 			"layer1.inner_margin": [6, 6],
-			"layer2.texture": "Material Theme/assets/commons/blue_highlight.png",
+			"layer2.texture": "Material Theme/assets/default/blue_highlight.png",
 			"layer2.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 			"layer2.inner_margin": [6, 6]
 		},
