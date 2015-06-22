@@ -277,7 +277,7 @@
 
 			"layer1.texture": "Material Theme/assets/darker/tab_current.png",
 			"layer1.inner_margin": [0, 0],
-			"layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+			"layer1.opacity": 0.0,
 
 			"layer2.tint": [255, 255, 255, 10],
 			"layer2.inner_margin": [0, 0],
