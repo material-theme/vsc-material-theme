@@ -8,10 +8,10 @@ Version 1.2.0
 ## THEME IMPROVEMENTS
 
 	- Darker version completely revisited and now with dedicated color scheme ("color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme")
-
+	- Sidebar selected file mark
 	- Minor UI improvements
 
 
 ## COLOR SCHEME IMPROVEMENTS
 
-	- Improved color support for PHP, Python, Javascript, C++
+	- Removed Markdown color scheme overriding
