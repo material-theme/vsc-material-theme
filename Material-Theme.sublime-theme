@@ -605,11 +605,46 @@
 
 		{
 			"class": "icon_folder",
+			"content_margin": [13, 8],
 			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 0,
 			"layer1.texture": "Material Theme/assets/default/folder.png",
 			"layer1.opacity": 1,
-			"content_margin": [13, 8]
+			"layer2.texture": "Material Theme/assets/commons/folder--hover.png",
+			"layer2.opacity": 0.0,
+			"layer3.texture":
+			{
+				"keyframes":
+				[
+					"Material Theme/assets/commons/folder_opened--hover-0.png",
+					"Material Theme/assets/commons/folder_opened--hover-1.png",
+					"Material Theme/assets/commons/folder_opened--hover-2.png",
+					"Material Theme/assets/commons/folder_opened--hover-3.png",
+					"Material Theme/assets/commons/folder_opened--hover-4.png",
+					"Material Theme/assets/commons/folder_opened--hover-5.png",
+					"Material Theme/assets/commons/folder_opened--hover-5.png",
+					"Material Theme/assets/commons/folder_opened--hover-5.png",
+					"Material Theme/assets/commons/folder_opened--hover-6.png",
+					"Material Theme/assets/commons/folder_opened--hover-6.png",
+					"Material Theme/assets/commons/folder_opened--hover-6.png",
+					"Material Theme/assets/commons/folder_opened--hover-6.png",
+					"Material Theme/assets/commons/folder_opened--hover-7.png",
+				],
+				"loop": false,
+				"frame_time": 0.020,
+			},
+			"layer3.opacity": 0			
+		},
+
+		{
+			"class": "icon_folder",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["expanded"] }
+			],
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.opacity": 1.0,
 		},
 
 		{
@@ -618,7 +653,9 @@
 			[
 				{ "class": "tree_row", "attributes": ["hover"] }
 			],
-			"layer1.texture": "Material Theme/assets/commons/folder--hover.png",
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 1.0,
+			"layer3.opacity": 0.0,
 		},
 
 		{
@@ -628,15 +665,6 @@
 				{ "class": "tree_row", "attributes": ["selected"] }
 			],
 			"layer1.texture": "Material Theme/assets/commons/folder--hover.png",
-		},
-
-		{
-			"class": "icon_folder",
-			"parents":
-			[
-				{ "class": "tree_row", "attributes": ["expanded"] }
-			],
-			"layer1.texture": "Material Theme/assets/commons/folder_opened--hover.png",
 		},
 
 			// Folder loading
