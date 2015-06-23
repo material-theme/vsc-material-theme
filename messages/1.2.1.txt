@@ -8,3 +8,4 @@ Version 1.2.1
 #### THEME IMPROVEMENTS
 
 	- Removed white inputs and panel from the default theme
+	- New expanded folder icon animation
