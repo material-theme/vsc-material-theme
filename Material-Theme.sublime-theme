@@ -1092,7 +1092,7 @@
 
 		{
 			"class": "text_line_control",
-			"layer0.texture": "Material Theme/assets/default/input_field_bar.png",
+			"layer0.texture": "Material Theme/assets/default/input_field_border.png",
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [20, 5, 20, 5],
 			"tint_index": 1,
