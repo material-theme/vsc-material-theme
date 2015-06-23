@@ -390,8 +390,8 @@
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 			"layer0.opacity": 0, // Close Icon
 			"layer1.opacity": 0, // Close Icon Hover
-			"layer2.opacity": 1, // Dirty Icon
-			"layer3.opacity": 0, // Dirty Icon Hover
+			"layer2.opacity": 0, // Dirty Icon
+			"layer3.opacity": 1, // Dirty Icon Hover
 			"content_margin": [8,8],
 		},
 
