@@ -5,11 +5,6 @@ https://github.com/equinusocio/material-theme
 Version 1.2.1
 ********************************************************************************
 
-## THEME IMPROVEMENTS
+#### THEME IMPROVEMENTS
 
 	- Removed white inputs and panel from the default theme
-
-
-## COLOR SCHEME IMPROVEMENTS
-
-	- 
