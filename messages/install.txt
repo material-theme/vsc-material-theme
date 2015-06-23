@@ -23,10 +23,12 @@ MAKE SURE TO RESTART SUBLIME AFTER ACTIVATING THE THEME
 ******************************************************************************
 
 
-You can set the alternative darker (panels) version with this:
+You can set the alternative darker version with this:
 
 {
     "theme": "Material-Theme-Darker.sublime-theme",
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+
 }
 
 ******************************************************************************
