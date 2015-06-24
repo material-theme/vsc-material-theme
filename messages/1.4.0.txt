@@ -7,7 +7,6 @@ Version 1.4.0
 
 #### THEME IMPROVEMENTS
 	
-	
 	- Fix missing assets in the darker version (Fix #221)
 	- Add setting to disable the folder animation ("material_theme_disable_folder_animation": true)
 	- Add file icon for .liquid extension (Request #227)
