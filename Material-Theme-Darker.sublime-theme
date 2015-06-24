@@ -954,7 +954,7 @@
 		{
 			"class": "minimap_control",
 			"settings": ["always_show_minimap_viewport"],
-			"viewport_color": [128, 203, 196, 80],
+			"viewport_color": [255, 255, 255, 80],
 			"viewport_opacity": 0.4,
 		},
 
