@@ -142,7 +142,7 @@
 	    {
 	        "class": "overlay_control",
 	        "layer0.texture": "Material Theme/assets/default/overlay-bg.png",
-	        "layer0.inner_margin": [16, 4, 16, 33],
+	        "layer0.inner_margin": [24, 4, 24, 33],
 	        "layer0.opacity": 1.0,
 	        "layer1.texture": "Material Theme/assets/commons/quick-panel-background.png",
 	        "layer1.inner_margin": [16, 0, 16, 25],
