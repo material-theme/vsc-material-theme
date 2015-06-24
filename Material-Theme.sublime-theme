@@ -154,7 +154,7 @@
 
 		{
 			"class": "mini_quick_panel_row",
-			"layer0.tint": [38, 50, 56],
+			"layer0.tint": [38, 50, 56, 0],
 			"layer0.inner_margin": [2, 2, 2, 2],
 			"layer0.opacity": 1.0
 		},
@@ -180,7 +180,7 @@
 
 		{
 			"class": "quick_panel_row",
-			"layer0.tint": [38, 50, 56],
+			"layer0.tint": [38, 50, 56, 0],
 			"layer0.opacity": 1.0
 		},
 
@@ -189,7 +189,15 @@
 		{
 			"class": "quick_panel_row",
 			"parents": [{"class": "overlay_control"}],
-			"layer0.tint": [38, 50, 56],
+			"layer0.tint": [38, 50, 56, 0],
+			"layer0.opacity": 1.0
+		},
+
+		{
+			"class": "quick_panel",
+			"parents": [{"class": "overlay_control"}],
+			"row_padding": [32, 12],
+			"layer0.tint": [38, 50, 56, 0],
 			"layer0.opacity": 1.0
 		},
 
@@ -1117,7 +1125,7 @@
 			"parents": [{"class": "overlay_control"}],
 			"layer0.texture": "Material Theme/assets/default/input_field_border--short.png",
 			"layer0.opacity": 1.0,
-			"layer0.inner_margin": [32, 2, 32, 2],
+			"layer0.inner_margin": [32, 0, 32, 2],
 			"layer0.draw_center": true,
 
 			"content_margin": [32, 8, 32, 8]
