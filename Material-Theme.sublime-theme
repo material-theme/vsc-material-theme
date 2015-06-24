@@ -193,6 +193,8 @@
 			"layer0.opacity": 1.0
 		},
 
+			// Quick panel (project) style inside overlay_control (cmd + shift + p)
+
 		{
 			"class": "quick_panel",
 			"parents": [{"class": "overlay_control"}],

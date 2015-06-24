@@ -154,7 +154,7 @@
 
 		{
 			"class": "mini_quick_panel_row",
-			"layer0.tint": [33, 33, 33],
+			"layer0.tint": [33, 33, 33, 0],
 			"layer0.inner_margin": [2, 2, 2, 2],
 			"layer0.opacity": 1.0
 		},
@@ -180,7 +180,7 @@
 
 		{
 			"class": "quick_panel_row",
-			"layer0.tint": [33, 33, 33],
+			"layer0.tint": [33, 33, 33, 0],
 			"layer0.opacity": 1.0
 		},
 
@@ -189,9 +189,19 @@
 		{
 			"class": "quick_panel_row",
 			"parents": [{"class": "overlay_control"}],
-			"layer0.tint": [33, 33, 33],
+			"layer0.tint": [33, 33, 33, 0],
 			"layer0.opacity": 1.0
 		},
+
+			// Quick panel (project) style inside overlay_control (cmd + shift + p)
+
+		{
+			"class": "quick_panel",
+			"parents": [{"class": "overlay_control"}],
+			"row_padding": [32, 12],
+			"layer0.tint": [33, 33, 33, 0],
+			"layer0.opacity": 1.0
+		},		
 
 			// Quick Panel selected list item style
 
