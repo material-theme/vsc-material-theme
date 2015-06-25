@@ -804,7 +804,7 @@
      	{
 	        "class": "scroll_bar_control",
 	        "parents": [{"class": "overlay_control"}],
-	        "layer0.tint": [255, 255, 255],
+	        "layer0.tint": [33, 33, 33, 0],
 	        "layer0.opacity": 1.0,
 	        "layer0.inner_margin": [0, 6],
 	        "blur": false
