@@ -28,8 +28,6 @@
 				<string>#00000030</string>
 				<key>selection</key>
 				<string>#61616160</string>
-				<key>selectionForeground</key>
-				<string>#FFFFFF</string>
 				<key>guide</key>
 				<string>#42424280</string>
 				<key>activeGuide</key>
