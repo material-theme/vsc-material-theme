@@ -192,6 +192,56 @@ section {
 	color: #fff;
 }
 
+.scroll-down {
+  display: none;
+}
+
+.scroll-down .button-float-large {
+  display: inline-block;
+  padding: 0;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  vertical-align: middle;
+  overflow: visible;
+  z-index: 1;
+  position: absolute;
+  top: -45px;
+  right: 10%;
+  background-color: #f5f5f5;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  transition: all 0.4s cubic-bezier(0.32, 1.259, 0.375, 1.15);
+}
+.scroll-down .button-float-large span {
+  line-height: 75px;
+  color: #273238;
+}
+.scroll-down .button-float-large span:before, .scroll-down .button-float-large span:after {
+  content: "";
+  position: absolute;
+  top: 37px;
+  margin-top: -3px;
+  left: 50%;
+  margin-left: -1px;
+  background-color: #333333;
+  width: 3px;
+  height: 9px;
+}
+.scroll-down .button-float-large span:before {
+  -webkit-transform: translate(2px, 0) rotate(45deg);
+      -ms-transform: translate(2px, 0) rotate(45deg);
+          transform: translate(2px, 0) rotate(45deg);
+}
+.scroll-down .button-float-large span:after {
+  -webkit-transform: translate(-2px, 0) rotate(-45deg);
+      -ms-transform: translate(-2px, 0) rotate(-45deg);
+          transform: translate(-2px, 0) rotate(-45deg);
+}
+.scroll-down .button-float-large:hover {
+  top: -47px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
 .fork-me {
   position: absolute;
   display: block;
@@ -247,6 +297,7 @@ footer {
 
 footer a {
 	color: #80CBC4;
+  text-decoration: none;
 }
 
 footer .button.flat {
@@ -256,23 +307,30 @@ footer .button.flat {
 .mb1 {
 margin-bottom: 1rem; }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	header,
 	section {
-	padding: 22vh 30px; }
+	 padding: 22vh 30px; 
+  }
 
 	hgroup {
-	margin-bottom: 2rem; }
+	  margin-bottom: 2rem; 
+  }
 
 	hgroup h1 {
-	font-size: 3rem; }
+	  font-size: 3rem; 
+  }
 
 	hgroup p {
-	font-size: 1rem; }
+	  font-size: 1rem; 
+  }
+
+  .scroll-down {
+    display: inline-block;
+  }
 }
 
-@media (min-width: 1024px) {
-
+@media only screen and (min-width: 1024px) {
 	header,
 	section {
 		padding: 20vh 30px;
@@ -283,10 +341,12 @@ margin-bottom: 1rem; }
 	}
 
 	hgroup h1 {
-	font-size: 3rem; }
+	 font-size: 3rem; 
+  }
 
 	hgroup p {
-	font-size: 1.050rem; }
+	 font-size: 1.050rem; 
+  }
 }
 @media only screen and (max-width: 33.75em) {
   .hero-main-content {
