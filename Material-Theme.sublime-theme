@@ -602,13 +602,13 @@
 			"class": "icon_file_type",
 			// layer0.texture is filled in by code with the relevant icon name
 			"layer0.opacity": 0.6,
-			"content_margin": [8, 8]
+			"content_margin": [9, 9]
 		},
 		{
 			"class": "icon_file_type",
 			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
 			"layer0.opacity": 1,
-			"content_margin": [8, 8]
+			"content_margin": [9, 9]
 		},
 
 			// Secondary folder icon (original) used as main folder icon
