@@ -189,7 +189,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
 			<string>Support</string>
 			<key>scope</key>
 			<string>support.function,
-keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
+keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
