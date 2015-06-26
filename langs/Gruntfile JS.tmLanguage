@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Gruntfile JS</string>
+	<key>fileTypes</key>
+	<array>
+		<string>gruntfile.js</string>
+	</array>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js, source.gruntfile.js</string>
+</dict>
+</plist>
