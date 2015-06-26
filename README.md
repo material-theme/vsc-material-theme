@@ -1,7 +1,7 @@
 # Material Theme for Sublime Text 3
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
-## Buy me a beer.
+## Buy me a beer. (Alcoholist mode ON)
 
 <!-- Pledgie Donation -->
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
@@ -41,13 +41,16 @@ Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
 
 ## Theme styles
-This theme provides two style versions. If you don't like the default white panels and field inputs you can set the darker version by using this:
+This theme provides a second style version:
 
 #### Darker
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 ```
+
+#### White panels
+If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels".
 
 ## Theme options
 
