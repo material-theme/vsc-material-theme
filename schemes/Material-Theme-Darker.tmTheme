@@ -27,13 +27,13 @@
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>selection</key>
-				<string>#61616160</string>
+				<string>#61616120</string>
 				<key>guide</key>
-				<string>#42424280</string>
+				<string>#42424260</string>
 				<key>activeGuide</key>
-				<string>#80CBC470</string>
+				<string>#424242</string>
 				<key>stackGuide</key>
-				<string>#37474Fff</string>
+				<string>#42424280</string>
 				<key>gutterForeground</key>
 				<string>#424242</string>
 				<key>findHighlight</key>
@@ -59,7 +59,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#424242</string>
+				<string>#444444</string>
 			</dict>
 		</dict>
 		<dict>
