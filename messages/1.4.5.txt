@@ -1,0 +1,15 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+
+Version 1.4.5
+********************************************************************************
+
+#### THEME IMPROVEMENTS
+	
+	- Added small status bar setting ("material_theme_small_statusbar": true)
+	- Fixing scss-sass color scheme detection and colors
+
+#### COLOR SCHEME
+
+	- Improve find in folder results color.
