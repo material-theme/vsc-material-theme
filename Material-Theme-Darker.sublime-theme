@@ -1046,7 +1046,6 @@
 			"layer1.inner_margin": [2, 2, 2, 2],
 			"layer1.opacity": 1.0,
 			"content_margin": [6, 14, 6, 8],
-			"layer0.opacity": 1.0
 		},
 
 			// Status bar panel close icon
@@ -1362,5 +1361,13 @@
 			"layer2.opacity": 0.0,
 			"layer3.texture": "Material Theme/assets/commons/folder--hover.png",
 		},			
+
+			// Small status bar
+
+		{
+			"class": "status_container",
+			"settings": ["material_theme_small_statusbar"],	
+			"content_margin": [12, 6, 12, 6],
+		},		
 
 ]
