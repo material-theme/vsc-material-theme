@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>embedding.php</string>
+    <string>source.php, embedding.php</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
