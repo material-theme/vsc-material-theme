@@ -729,6 +729,17 @@ meta.property-value support.constant.named-color.css</string>
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Result file path</string>
+			<key>scope</key>
+			<string>text.find-in-files entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEB95</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS: Property-name</string>
 			<key>scope</key>
 			<string>support.type.property-name</string>
