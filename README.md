@@ -6,6 +6,7 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 <!-- Pledgie Donation -->
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
+
 ## Screenshots
 
 ![image](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
