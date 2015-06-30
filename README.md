@@ -6,6 +6,8 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 <!-- Pledgie Donation -->
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
+<a target="_blank" href='https://www.coinbase.com/checkouts/55a05405c6a05ae2d431cc55e84cb161' data-code="55a05405c6a05ae2d431cc55e84cb161" class="coinbase-button"><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://www.coinbase.com/assets/buttons/donation_small-210ad5fe8fe0846a0c6bc676e1bad3d462ab3fcbdaf2443de8755503d0729847.png' border='0' ></a>
+
 ## Screenshots
 
 ![image](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
