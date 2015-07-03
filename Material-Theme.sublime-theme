@@ -36,7 +36,7 @@
 		{
 			"class": "dialog",
 			"layer0.tint": [38, 50, 56],
-			"layer0.opacit": 1.0
+			"layer0.opacity": 1.0
 		},
 
 		{
@@ -623,7 +623,7 @@
 			"layer2.texture": "Material Theme/assets/commons/folder--hover.png",
 			"layer2.opacity": 0.0,
 			"layer3.texture": "Material Theme/assets/commons/folder_opened--hover.png",
-			"layer3.opacity": 0.0,	
+			"layer3.opacity": 0.0,
 		},
 
 		{
@@ -816,7 +816,7 @@
 	========================================================================= */
 
 			// Normal Vertical scrollbar track
-		
+
 		{
 			"class": "scroll_bar_control",
 			"layer0.texture": "Material Theme/assets/default/normal_bar_vertical.png",
@@ -1374,27 +1374,27 @@
 
 		{
 			"class": "icon_file_type",
-			"settings": ["material_theme_disable_fileicons"],			
+			"settings": ["material_theme_disable_fileicons"],
 			"layer0.opacity": 0,
 			"content_margin": [0, 0]
 		},
 
 			// Folder animation
-		
+
 		{
 			"class": "icon_folder",
-			"settings": ["material_theme_disable_folder_animation"],	
+			"settings": ["material_theme_disable_folder_animation"],
 			"parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
 			"layer1.opacity": 0.0,
 			"layer2.opacity": 0.0,
 			"layer3.texture": "Material Theme/assets/commons/folder--hover.png",
-		},		
+		},
 
 			// Small status bar
 
 		{
 			"class": "status_container",
-			"settings": ["material_theme_small_statusbar"],	
+			"settings": ["material_theme_small_statusbar"],
 			"content_margin": [12, 6, 12, 6],
 		},
 ]
