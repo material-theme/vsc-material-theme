@@ -2,5 +2,6 @@
     "extensions": [
         "md",
         "markdown"
-    ]
+    ],
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Markdown.tmTheme",
 }
