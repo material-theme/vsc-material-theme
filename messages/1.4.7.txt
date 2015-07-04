@@ -6,10 +6,10 @@ Version 1.4.7
 ********************************************************************************
 
 #### THEME IMPROVEMENTS
-	
-	- Added small status bar setting ("material_theme_small_statusbar": true)
-	- Fixing scss-sass color scheme detection and colors
+
+	- Updated some file type icon
+	- Fix autocomplete style with default theme (#276)
 
 #### COLOR SCHEME
 
-	- Improve find in folder results color.
+	- Restored default markdown color scheme.
