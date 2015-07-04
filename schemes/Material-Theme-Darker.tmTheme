@@ -270,7 +270,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C3E88D</string>
+				<string>#FFCB6B</string>
 			</dict>
 		</dict>
 		<dict>
