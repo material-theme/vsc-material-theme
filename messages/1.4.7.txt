@@ -12,5 +12,4 @@ Version 1.4.7
 
 #### COLOR SCHEME
 
-	- Restored default markdown color scheme.
 	- Fix attributes name color
