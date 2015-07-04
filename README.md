@@ -81,16 +81,10 @@ The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" 
 You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
 
 
-## Other Resources
+## Resources
 
 #### App icon
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
-
-#### Vim Porting
-You can now download the [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material), Material Theme porting made by @kristijanhusak.
-
-#### Terminal Porting
-You can download [Material Theme Terminal](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf), Material Theme porting made by @mvaneijgen
 
 #### Default Color Palette
 ![Color Palette](http://i.imgur.com/zyIK71j.jpg)
