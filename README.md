@@ -36,20 +36,19 @@ You can install this awesome theme through the [Package Control](https://package
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
 
+## Theme styles
+This theme provides a second style version:
+
+**Darker**
+```json
+"theme": "Material-Theme-Darker.sublime-theme",
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+```
 
 ## Known issues
 Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). here the quick fix:
 
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
-
-## Theme styles
-This theme provides a second style version:
-
-#### Darker
-```json
-"theme": "Material-Theme-Darker.sublime-theme",
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-```
 
 #### White panels
 If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels".
@@ -81,12 +80,18 @@ The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" 
 You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
 
 
-## Resources
+## Other Resources
 
-#### App icon
+**App icon**
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
-#### Default Color Palette
+**Vim Porting**
+You can now download the [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material), Material Theme porting made by @kristijanhusak.
+
+**Terminal Porting**
+You can download [Material Theme Terminal](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf), Material Theme porting made by @mvaneijgen
+
+**Default Color Palette**
 ![Color Palette](http://i.imgur.com/zyIK71j.jpg)
 
 
