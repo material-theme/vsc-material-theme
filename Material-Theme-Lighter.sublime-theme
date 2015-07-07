@@ -325,7 +325,7 @@
 
 		{
 			"class": "tab_label",
-			"fg": [84, 110, 122, 255],
+			"fg": [176, 190, 197, 255],
 			"shadow_color": [255, 255, 255, 0],
 			"shadow_offset": [0, 0],
 			"font.size": 11,
@@ -338,7 +338,8 @@
 		{
 			"class": "tab_label",
 			"parents": [{"class": "tab_control", "attributes": ["selected"]}],
-			"fg": [255, 255, 255, 255],
+			"fg": [69, 90, 100, 255],
+			"font.bold": true,
 			"shadow_color": [255, 255, 255, 0],
 			"shadow_offset": [0, 0]
 		},
@@ -530,7 +531,7 @@
 
 		{
 			"class": "sidebar_label",
-			"color": [96, 125, 139],
+			"color": [176, 190, 197],
 			"font.bold": false,
 			"font.italic": false,
 			"shadow_color": [0, 0, 0, 0],
@@ -540,7 +541,7 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-			"color": [175, 189, 196],
+			"color": [144, 164, 174],
 			"shadow_color": [0, 0, 0, 0],
 			"shadow_offset": [0, 1]
 		},
@@ -548,14 +549,14 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-			"font.bold": false,
-			"color": [255, 255, 255]
+			"font.bold": true,
+			"color": [69, 90, 100]
 		},
 
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-			"color": [175, 189, 196]
+			"color": [144, 164, 174]
 		},
 
 		{
