@@ -567,6 +567,12 @@
 
 		{
 			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["expandable", "selected"]}],
+			"color": [255, 255, 255]
+		},		
+
+		{
+			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
 			"color": [128, 203, 196]
 		},
@@ -667,6 +673,15 @@
 			"layer2.opacity": 0.0,
 			"layer3.opacity": 1.0,
 		},
+
+		{
+			"class": "icon_folder",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["selected"] }
+			],
+			"layer1.texture": "Material Theme/assets/commons/folder--hover.png",
+		},		
 
 			// Folder loading
 
