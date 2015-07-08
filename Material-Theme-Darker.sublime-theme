@@ -529,18 +529,6 @@
 		},
 
 		{
-		    "class": "tree_row",
-		    "layer1.texture": "Material Theme/assets/darker/tree_highlight.png",
-		    "layer1.opacity": 0.0,
-		    "layer1.inner_margin": [22, 12, 0, 0]
-		},
-		{
-		    "class": "tree_row",
-		    "attributes": ["selected"],
-		    "layer1.opacity": 1.0
-		},
-
-		{
 			"class": "sidebar_label",
 			"color": [97, 97, 97],
 			"font.bold": false,
