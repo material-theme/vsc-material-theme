@@ -83,7 +83,7 @@
 
 		{
 			"class": "popup_control",
-			"layer0.tint": [38, 50, 56, 255],
+			"layer0.texture": [255, 255, 255, 255],
 			"layer0.opacity": 1.0,
 			"content_margin": [0, 0]
 		},
@@ -91,13 +91,14 @@
 		{
 			"class": "auto_complete",
 			"row_padding": [12, 6],
-			"layer0.tint": [38, 50, 56, 255],
+			"layer0.tint": [255, 255, 255],
 			"layer0.opacity": 1.0
 		},
 
+
 		{
 			"class": "auto_complete_label",
-			"fg": [176, 190, 197, 255],
+			"fg": [84, 110, 122, 255],
 			"match_fg": [128, 203, 196, 255],
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [128, 203, 196, 255]
@@ -330,7 +331,7 @@
 			"shadow_offset": [0, 0],
 			"font.size": 11,
 			"font.italic": false,
-			"font.bold": false
+			"font.bold": true
 		},
 
 			// Tab selected label color
@@ -1012,7 +1013,7 @@
 
 		{
 			"class": "label_control",
-			"color": [176, 190, 197],
+			"color": [176, 190, 197, 255],
 			"shadow_color": [24, 24, 24, 0],
 			"shadow_offset": [0, 0],
 			"font.bold": true
@@ -1023,7 +1024,7 @@
 		 {
 			  "class": "label_control",
 			  "parents": [{"class": "status_bar"}],
-			  "color": [120, 144, 156],
+			  "color": [144, 164, 174],
 			  "font.bold": false
 		},
 
