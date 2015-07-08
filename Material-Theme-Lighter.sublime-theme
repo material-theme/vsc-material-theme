@@ -1214,38 +1214,44 @@
 			// Regex Icon
 		{
 			"class": "icon_regex",
-			"layer0.texture": "Material Theme/assets/commons/find_regex--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/find_regex.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_regex--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
 		 {
 			  "class": "icon_regex",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Preserve case sensitive
 
 		{
 			"class": "icon_case",
-			"layer0.texture": "Material Theme/assets/commons/find_case--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/find_case.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_case--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
 		 {
 			  "class": "icon_case",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Wholeword
 
 		{
 			"class": "icon_whole_word",
-			"layer0.texture": "Material Theme/assets/commons/find_word--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/find_word.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_word--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
@@ -1253,30 +1259,34 @@
 		 {
 			  "class": "icon_whole_word",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Wrap
 
 		{
 			"class": "icon_wrap",
-			"layer0.texture": "Material Theme/assets/commons/find_wrap--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/find_wrap.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_wrap--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
 		 {
 			  "class": "icon_wrap",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// In selection
 
 		{
 			"class": "icon_in_selection",
-			"layer0.texture": "Material Theme/assets/commons/find_inselection--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/find_inselection.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_inselection--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12,12]
 		},
 
@@ -1284,45 +1294,51 @@
 		 {
 			  "class": "icon_in_selection",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Highlight Result
 
 		{
 			"class": "icon_highlight",
-			"layer0.texture": "Material Theme/assets/commons/find_highlight--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/find_highlight.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_highlight--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
 		 {
 			  "class": "icon_highlight",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Preserve Case
 
 		{
 			"class": "icon_preserve_case",
-			"layer0.texture": "Material Theme/assets/commons/replace_preserve_case--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/replace_preserve_case.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/replace_preserve_case--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
 		 {
 			  "class": "icon_preserve_case",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Show context
 
 		{
 			"class": "icon_context",
-			"layer0.texture": "Material Theme/assets/commons/find_context--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/find_context.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_context--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
@@ -1330,37 +1346,41 @@
 		 {
 			  "class": "icon_context",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Use buffer
 
 		{
 			"class": "icon_use_buffer",
-			"layer0.texture": "Material Theme/assets/commons/use_buffer--hover.png",
-			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer0.texture": "Material Theme/assets/commons/use_buffer.png",
+			"layer0.opacity": { "target": 0.3, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/use_buffer--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
 		 {
 			  "class": "icon_use_buffer",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 			// Reverse direction
 
 		{
 			"class": "icon_reverse",
-			"layer0.texture": "Material Theme/assets/commons/find_reverse--hover.png",
+			"layer0.texture": "Material Theme/assets/commons/find_reverse.png",
 			"layer0.opacity": { "target": 0.2, "speed": 6.0, "interpolation": "smoothstep" },
+			"layer1.texture": "Material Theme/assets/commons/find_reverse--hover.png",
+			"layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
 		 {
 			  "class": "icon_reverse",
 			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+			  "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
 		 },
 
 
