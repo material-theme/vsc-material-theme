@@ -101,5 +101,4 @@ You can download [Material Theme Terminal](https://gist.github.com/mvaneijgen/4c
 
 
 ## Thanks
-- All donators!
-- All contributors 
+Thanks for all the [contributors](https://github.com/equinusocio/material-theme/graphs/contributors).
