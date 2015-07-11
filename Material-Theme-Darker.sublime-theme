@@ -1102,7 +1102,7 @@
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [20, 5, 20, 5],
 			"tint_index": 1,
-			"content_margin": [24, 8, 13, 8]
+			"content_margin": [10, 8, 13, 8]
 		},
 
 
