@@ -529,6 +529,19 @@
 		},
 
 		{
+		    "class": "tree_row",
+		    "layer1.texture": "Material Theme/assets/darker/tree_highlight.png",
+		    "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+		    "layer1.inner_margin": [22, 12, 0, 0]
+		},
+		
+		{
+		    "class": "tree_row",
+		    "attributes": ["selected"],
+		    "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+		},
+
+		{
 			"class": "sidebar_label",
 			"color": [97, 97, 97],
 			"font.bold": false,
@@ -564,6 +577,12 @@
 			"settings": ["bold_folder_labels"],
 			"font.bold": true,
 		},
+
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "tree_row", "attributes": ["expandable", "selected"]}],
+			"color": [255, 255, 255]
+		},		
 
 		{
 			"class": "sidebar_label",
@@ -667,6 +686,15 @@
 			"layer2.opacity": 0.0,
 			"layer3.opacity": 1.0,
 		},
+
+		{
+			"class": "icon_folder",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["selected"] }
+			],
+			"layer1.texture": "Material Theme/assets/commons/folder--hover.png",
+		},		
 
 			// Folder loading
 
@@ -1369,5 +1397,15 @@
 			"settings": ["material_theme_small_statusbar"],
 			"content_margin": [12, 6, 12, 6],
 		},
+
+			// Tree Indicator
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_disable_tree_indicator"],
+			"attributes": ["selected"],
+			"layer1.opacity": 0.0
+		},		
+
 
 ]

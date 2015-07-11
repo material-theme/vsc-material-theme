@@ -139,18 +139,18 @@
 	========================================================================= */
 
 		// Command Panel
-	    {
-	        "class": "overlay_control",
-	        "layer0.texture": "Material Theme/assets/default/overlay-bg.png",
-	        "layer0.inner_margin": [24, 4, 24, 33],
-	        "layer0.opacity": 1.0,
-	        "layer1.texture": "Material Theme/assets/commons/quick-panel-background.png",
-	        "layer1.inner_margin": [16, 0, 16, 25],
-	        "layer1.opacity": 1.0,
-	        "content_margin": [13, 13, 13, 33]
-	    },
+		 {
+			  "class": "overlay_control",
+			  "layer0.texture": "Material Theme/assets/default/overlay-bg.png",
+			  "layer0.inner_margin": [24, 4, 24, 33],
+			  "layer0.opacity": 1.0,
+			  "layer1.texture": "Material Theme/assets/commons/quick-panel-background.png",
+			  "layer1.inner_margin": [16, 0, 16, 25],
+			  "layer1.opacity": 1.0,
+			  "content_margin": [13, 13, 13, 33]
+		 },
 
-	    	// Command Panel list item style (cmd + shift + p)
+			// Command Panel list item style (cmd + shift + p)
 
 		{
 			"class": "mini_quick_panel_row",
@@ -529,6 +529,19 @@
 		},
 
 		{
+			 "class": "tree_row",
+			 "layer1.texture": "Material Theme/assets/default/tree_highlight.png",
+			 "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+			 "layer1.inner_margin": [22, 12, 0, 0]
+		},
+		
+		{
+			 "class": "tree_row",
+			 "attributes": ["selected"],
+			 "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+		},		
+
+		{
 			"class": "sidebar_label",
 			"color": [96, 125, 139],
 			"font.bold": false,
@@ -825,47 +838,47 @@
 			"blur": false
 		},
 
-	    	// Normal Vertical scrollbar track inside overlay panel
-
-     	{
-	        "class": "scroll_bar_control",
-	        "parents": [{"class": "overlay_control"}],
-	        "layer0.tint": [38, 50, 56, 0],
-	        "layer0.opacity": 1.0,
-	        "layer0.inner_margin": [0, 6],
-	        "blur": false
-	    },
-
-	    	// Normal horizontal scrollbar track
-
-	    {
-	        "class": "scroll_bar_control",
-	        "attributes": ["horizontal"],
-	        "layer0.texture": "Material Theme/assets/default/normal_bar_horizontal.png",
-	        "layer0.opacity": 1.0,
-	        "layer0.inner_margin": [6, 0],
-	        "blur": false
-	    },
-
-	    	// Normal horizontal scrollbar track inside overlay panel
+			// Normal Vertical scrollbar track inside overlay panel
 
 		{
-	        "class": "scroll_bar_control",
-	        "attributes": ["horizontal"],
-	        "parents": [{"class": "overlay_control"}],
-	        "layer0.tint": [38, 50, 56, 0],
-	        "layer0.opacity": 0.0,
-	        "layer0.inner_margin": [0, 2],
-	        "blur": false
-	    },
+			  "class": "scroll_bar_control",
+			  "parents": [{"class": "overlay_control"}],
+			  "layer0.tint": [38, 50, 56, 0],
+			  "layer0.opacity": 1.0,
+			  "layer0.inner_margin": [0, 6],
+			  "blur": false
+		 },
 
-	    	// Scrollbars corner
+			// Normal horizontal scrollbar track
+
+		 {
+			  "class": "scroll_bar_control",
+			  "attributes": ["horizontal"],
+			  "layer0.texture": "Material Theme/assets/default/normal_bar_horizontal.png",
+			  "layer0.opacity": 1.0,
+			  "layer0.inner_margin": [6, 0],
+			  "blur": false
+		 },
+
+			// Normal horizontal scrollbar track inside overlay panel
 
 		{
-        "class": "scroll_corner_control",
-        "layer0.texture": "Material Theme/assets/default/normal_bar_corner.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [1, 1]
+			  "class": "scroll_bar_control",
+			  "attributes": ["horizontal"],
+			  "parents": [{"class": "overlay_control"}],
+			  "layer0.tint": [38, 50, 56, 0],
+			  "layer0.opacity": 0.0,
+			  "layer0.inner_margin": [0, 2],
+			  "blur": false
+		 },
+
+			// Scrollbars corner
+
+		{
+		  "class": "scroll_corner_control",
+		  "layer0.texture": "Material Theme/assets/default/normal_bar_corner.png",
+		  "layer0.opacity": 1.0,
+		  "layer0.inner_margin": [1, 1]
 		},
 
 			// Vertical puck controller
@@ -1006,14 +1019,14 @@
 			"font.bold": true
 		},
 
-	    	// Status bar labels
+			// Status bar labels
 
-	    {
-	        "class": "label_control",
-	        "parents": [{"class": "status_bar"}],
-	        "color": [120, 144, 156],
-	        "font.bold": false
-    	},
+		 {
+			  "class": "label_control",
+			  "parents": [{"class": "status_bar"}],
+			  "color": [120, 144, 156],
+			  "font.bold": false
+		},
 
 			// Text field labels
 
@@ -1143,16 +1156,16 @@
 	========================================================================= */
 
 
-  		// Button labels
+		// Button labels
 
-	    {
-	        "class": "label_control",
-	        "parents": [{"class": "button_control"}],
-	        "color": [176, 190, 196],
-	        "font.bold": true
-	    },
+		 {
+			  "class": "label_control",
+			  "parents": [{"class": "button_control"}],
+			  "color": [176, 190, 196],
+			  "font.bold": true
+		 },
 
-	    {
+		 {
 			"class": "button_control",
 			"content_margin": [6, 12, 6, 12],
 			"min_size": [75, 0],
@@ -1195,7 +1208,7 @@
 		},
 
 
- 		/* Buttons icons settings
+		/* Buttons icons settings
 		===================================================================== */
 
 			// Regex Icon
@@ -1206,13 +1219,13 @@
 			"content_margin": [12, 12]
 		},
 
-	    {
-	        "class": "icon_regex",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_regex",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Preserve case sensitive
+			// Preserve case sensitive
 
 		{
 			"class": "icon_case",
@@ -1221,13 +1234,13 @@
 			"content_margin": [12, 12]
 		},
 
-	    {
-	        "class": "icon_case",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_case",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Wholeword
+			// Wholeword
 
 		{
 			"class": "icon_whole_word",
@@ -1237,13 +1250,13 @@
 		},
 
 
-	    {
-	        "class": "icon_whole_word",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_whole_word",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Wrap
+			// Wrap
 
 		{
 			"class": "icon_wrap",
@@ -1252,13 +1265,13 @@
 			"content_margin": [12, 12]
 		},
 
-	    {
-	        "class": "icon_wrap",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_wrap",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// In selection
+			// In selection
 
 		{
 			"class": "icon_in_selection",
@@ -1268,13 +1281,13 @@
 		},
 
 
-	    {
-	        "class": "icon_in_selection",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_in_selection",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Highlight Result
+			// Highlight Result
 
 		{
 			"class": "icon_highlight",
@@ -1283,13 +1296,13 @@
 			"content_margin": [12, 12]
 		},
 
-	    {
-	        "class": "icon_highlight",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_highlight",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Preserve Case
+			// Preserve Case
 
 		{
 			"class": "icon_preserve_case",
@@ -1298,13 +1311,13 @@
 			"content_margin": [12, 12]
 		},
 
-	    {
-	        "class": "icon_preserve_case",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_preserve_case",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Show context
+			// Show context
 
 		{
 			"class": "icon_context",
@@ -1314,13 +1327,13 @@
 		},
 
 
-	    {
-	        "class": "icon_context",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_context",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Use buffer
+			// Use buffer
 
 		{
 			"class": "icon_use_buffer",
@@ -1329,13 +1342,13 @@
 			"content_margin": [12, 12]
 		},
 
-	    {
-	        "class": "icon_use_buffer",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_use_buffer",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
-	    	// Reverse direction
+			// Reverse direction
 
 		{
 			"class": "icon_reverse",
@@ -1344,11 +1357,11 @@
 			"content_margin": [12, 12]
 		},
 
-	    {
-	        "class": "icon_reverse",
-	        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-	        "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
-	    },
+		 {
+			  "class": "icon_reverse",
+			  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+			  "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" }
+		 },
 
 
 	/* @ THEME OPTIONS
@@ -1397,4 +1410,14 @@
 			"settings": ["material_theme_small_statusbar"],
 			"content_margin": [12, 6, 12, 6],
 		},
+
+			// Tree Indicator
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_disable_tree_indicator"],
+			"attributes": ["selected"],
+			"layer1.opacity": 0.0
+		},		
+
 ]

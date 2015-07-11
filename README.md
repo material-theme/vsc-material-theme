@@ -1,6 +1,8 @@
 # Material Theme for Sublime Text 3
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
+Please read the section [Known Issues](https://github.com/equinusocio/material-theme#known-issues) before send a new one.
+
 ## Buy me a beer. (Alcoholist mode ON)
 
 <!-- Pledgie Donation -->
@@ -60,6 +62,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_disable_fileicons": true,          // Hide siderbar file type icons
 "material_theme_disable_folder_animation": true,   // Disable folder animation
 "material_theme_small_statusbar": true,            // Set small status bar
+"material_theme_disable_tree_indicator": false,    // Disable sidebar file indicator
 ``` 
 
 ## Recommended UI and font settings
@@ -100,5 +103,4 @@ You can download [Material Theme Terminal](https://gist.github.com/mvaneijgen/4c
 
 
 ## Thanks
-- All donators!
-- All contributors 
+Thanks for all the [contributors](https://github.com/equinusocio/material-theme/graphs/contributors).

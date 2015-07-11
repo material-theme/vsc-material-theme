@@ -38,6 +38,8 @@
 				<string>#424242</string>
 				<key>findHighlight</key>
 				<string>#F8E71C</string>
+				<key>shadow</key>
+				<string>#00000010</string>					
 			</dict>
 		</dict>
 		<dict>
@@ -125,7 +127,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff5370ff</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
