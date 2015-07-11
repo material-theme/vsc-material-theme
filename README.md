@@ -14,9 +14,9 @@ Please read the section [Known Issues](https://github.com/equinusocio/material-t
 
 ![image](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme2.png)
+![image](http://equinusocio.github.io/material-theme/assets/img/darker1.png)
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme3.png)
+More screeshots [here](http://equinusocio.github.io/material-theme/)
 
 ## Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme"*, install, **restart Sublime Text** and enjoy!
