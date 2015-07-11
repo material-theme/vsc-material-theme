@@ -529,7 +529,7 @@
 
 		{
 		    "class": "tree_row",
-		    "layer1.texture": "Material Theme/assets/darker/tree_highlight.png",
+			"layer1.tint": [200, 200, 200, 15],
 		    "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 		    "layer1.inner_margin": [22, 12, 0, 0]
 		},
