@@ -274,7 +274,21 @@ section {
 .screenshot {
 	width: 100%;
 	position: relative;
-	background-color: #fafafa; 
+	background-color: #fafafa;
+}
+.screenshot.darker {
+  background-color: #e5e5e5;
+  padding: 10vh 30px;
+}
+.screenshot.darker h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1;
+}
+.screenshot.darker h1 span {
+  font-weight: 400;
 }
 
 .screenshot img {
@@ -306,7 +320,7 @@ margin-bottom: 1rem; }
 @media only screen and (min-width: 768px) {
 	header,
 	section {
-	 padding: 22vh 30px; 
+	 padding: 17vh 30px; 
   }
 
 	hgroup {
@@ -329,7 +343,7 @@ margin-bottom: 1rem; }
 @media only screen and (min-width: 1024px) {
 	header,
 	section {
-		padding: 20vh 30px; 
+		padding: 15vh 30px; 
 	}
 
 	hgroup {
