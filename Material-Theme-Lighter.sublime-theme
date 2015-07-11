@@ -531,6 +531,19 @@
 		},
 
 		{
+		    "class": "tree_row",
+		    "layer1.texture": "Material Theme/assets/lighter/tree_highlight.png",
+		    "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+		    "layer1.inner_margin": [22, 12, 0, 0]
+		},
+		
+		{
+		    "class": "tree_row",
+		    "attributes": ["selected"],
+		    "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+		},
+
+		{
 			"class": "sidebar_label",
 			"color": [176, 190, 197],
 			"font.bold": false,
@@ -843,7 +856,7 @@
 		{
 			  "class": "scroll_bar_control",
 			  "parents": [{"class": "overlay_control"}],
-			  "layer0.tint": [38, 50, 56, 0],
+			  "layer0.tint": [255, 255, 255, 0],
 			  "layer0.opacity": 1.0,
 			  "layer0.inner_margin": [0, 6],
 			  "blur": false
@@ -866,7 +879,7 @@
 			  "class": "scroll_bar_control",
 			  "attributes": ["horizontal"],
 			  "parents": [{"class": "overlay_control"}],
-			  "layer0.tint": [38, 50, 56, 0],
+			  "layer0.tint": [255, 255, 255, 0],
 			  "layer0.opacity": 0.0,
 			  "layer0.inner_margin": [0, 2],
 			  "blur": false
@@ -885,7 +898,7 @@
 
 		{
 			"class": "puck_control",
-			"layer0.tint": [38, 50, 255, 255],
+			"layer0.tint": [38, 50, 255, 0],
 			"layer0.opacity": 1.0,
 			"layer0.inner_margin": [10, 10],
 			"layer1.texture": "Material Theme/assets/lighter/thumb_vertical.png",
@@ -1430,4 +1443,14 @@
 			"settings": ["material_theme_small_statusbar"],
 			"content_margin": [12, 6, 12, 6],
 		},
+
+			// Tree Indicator
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_disable_tree_indicator"],
+			"attributes": ["selected"],
+			"layer1.opacity": 0.0
+		},		
+		
 ]
