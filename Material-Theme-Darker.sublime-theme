@@ -280,16 +280,15 @@
 		{
 			"class": "tab_control",
 
-			"layer0.tint": [33, 33, 33],
+			"layer0.texture": "Material Theme/assets/darker/tab_current.png",
 			"layer0.inner_margin": [24, 0],
-			"layer0.opacity": 1.0,
-			"tint_index": 0,
+			"layer0.opacity": 0.4,
 
 			"layer1.texture": "Material Theme/assets/darker/tab_current.png",
 			"layer1.inner_margin": [0, 0],
 			"layer1.opacity": 0.0,
 
-			"layer2.tint": [255, 255, 255, 10],
+			"layer2.texture": "Material Theme/assets/darker/tab_current.png",
 			"layer2.inner_margin": [0, 0],
 			"layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
 
