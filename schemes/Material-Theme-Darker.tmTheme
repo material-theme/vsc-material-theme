@@ -38,6 +38,8 @@
 				<string>#424242</string>
 				<key>findHighlight</key>
 				<string>#F8E71C</string>
+				<key>shadow</key>
+				<string>#00000010</string>					
 			</dict>
 		</dict>
 		<dict>
