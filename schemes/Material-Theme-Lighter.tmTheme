@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>Material Theme</string>
 	<key>semanticClass</key>
-	<string>theme.lighter.material_theme</string>
+	<string>theme.light.material_theme</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>settings</key>
@@ -129,7 +129,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b83f54ff</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -263,7 +263,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B83F54</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -379,7 +379,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b83f54ff</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -401,7 +401,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b83f54ff</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -447,7 +447,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b83f54ff</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -790,7 +790,7 @@ source.sass keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7986CB</string>
+				<string>#7c4dff</string>
 			</dict>
 		</dict>
 		<dict>
