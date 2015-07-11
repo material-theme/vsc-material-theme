@@ -16,13 +16,13 @@
 				<key>caret</key>
 				<string>#B0BEC5</string>
 				<key>foreground</key>
-				<string>#607D8B</string>
+				<string>#90A4AE</string>
 				<key>invisibles</key>
 				<string>#607D8B</string>
 				<key>lineHighlight</key>
 				<string>#00000012</string>
 				<key>selection</key>
-				<string>#546E7A</string>
+				<string>#90A4AE</string>
 				<key>selectionBorder</key>
 				<string>#546E7A</string>
 				<key>selectionForeground</key>
