@@ -703,17 +703,7 @@
 				{ "class": "tree_row", "attributes": ["selected"] }
 			],
 			"layer1.texture": "Material Theme/assets/commons/folder--hover.png",
-		},
-
-		{
-			"class": "icon_folder",
-			"parents":
-			[
-				{ "class": "tree_row", "attributes": ["selected"] }
-			],
-			"layer1.texture": "Material Theme/assets/commons/folder--hover.png",
 		},		
-		
 
 			// Folder loading
 
