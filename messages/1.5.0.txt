@@ -1,0 +1,21 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+
+Version 1.5.0
+********************************************************************************
+
+#### UI IMPROVEMENTS
+
+	- Fix (new shape and position) tree indicator for selected file 
+	- Update some file type icons
+	- Fix inputs internal padding to following Material Theme guidelines.
+	- Add the new **lighter** style:
+	{
+		"theme": "Material-Theme-Lighter.sublime-theme",
+		"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
+	}
+
+#### COLOR SCHEME
+
+	- Add the new lighter color scheme. Open the issue if you find incoerences.

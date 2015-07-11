@@ -12,9 +12,11 @@ Please read the section [Known Issues](https://github.com/equinusocio/material-t
 
 ## Screenshots
 
-![image](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
+![Default version](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
 
-![image](http://equinusocio.github.io/material-theme/assets/img/darker1.png)
+![Darker version](http://equinusocio.github.io/material-theme/assets/img/darker1.png)
+
+![Lighter version](https://transfer.sh/CyRdb/screen-shot-2015-07-11-at-15.52.39.png)
 
 More screeshots [here](http://equinusocio.github.io/material-theme/)
 
@@ -47,13 +49,19 @@ This theme provides a second style version:
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 ```
 
+**Lighter**
+```json
+"theme": "Material-Theme-Lighter.sublime-theme",
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
+```
+
 ## Known issues
 Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). here the quick fix:
 
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
 
 #### White panels
-If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels".
+If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
 
 ## Theme options
 
@@ -75,7 +83,6 @@ I suggest you to use this custom settings for a better experience with the theme
 "font_options": [ "gray_antialias" ], // On retina Mac
 "always_show_minimap_viewport": true,
 "bold_folder_labels": true,
-"indent_guide_options": [ "draw_normal", "draw_active" ], // Highlight active indent
 ```
 
 The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
