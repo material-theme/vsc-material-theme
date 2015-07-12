@@ -276,19 +276,34 @@ section {
 	position: relative;
 	background-color: #fafafa;
 }
-.screenshot.darker {
-  background-color: #e5e5e5;
-  padding: 10vh 30px;
-}
-.screenshot.darker h1 {
+.screenshot h1 {
   text-align: center;
   margin: 20px 0;
   font-size: 2rem;
   font-weight: 200;
   line-height: 1;
 }
-.screenshot.darker h1 span {
+
+.screenshot h1 span {
   font-weight: 400;
+}
+
+.screenshot.darker {
+  background-color: #e5e5e5;
+  padding: 10vh 30px;
+}
+
+.screenshot.extra-dark {
+  background-color: #273238;
+  padding: 10vh 30px;
+}
+
+.screenshot.extra-dark h1 {
+  color: white;
+}
+
+.screenshot.extra-dark h1 span {
+  color: #80CBC4;
 }
 
 .screenshot img {
