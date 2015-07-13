@@ -1383,6 +1383,14 @@
 			"content_margin": [12, 8, 6, 4],
 		},
 
+			// Tab Labels
+
+		{
+			"class": "tab_label",
+			"settings": ["material_theme_bold_tab"],
+			"font.bold": true
+		},		
+
 			// Filetype icons in sidebar
 
 		{
