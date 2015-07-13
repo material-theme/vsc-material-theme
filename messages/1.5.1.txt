@@ -10,8 +10,3 @@ Version 1.5.1
 	- Fix tree file indicator
 	- Fix some file icon association
 	- New theme option to make tabs label bold ("material_theme_bold_tab": true). Lighter style is now "false" by default.
-
-
-#### COLOR SCHEME
-
-	- Add the new lighter color scheme. Open the issue if you find incoerences.
