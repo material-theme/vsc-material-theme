@@ -5,6 +5,7 @@
 
 html {
 	height: 100%; 
+  position: relative;
 }
 
 body {
@@ -17,7 +18,10 @@ body {
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none; 
+  -webkit-touch-callout: none;
+}
+body.not-loaded {
+  overflow: hidden;
 }
 
 ::-moz-selection {

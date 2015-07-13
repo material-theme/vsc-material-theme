@@ -46,8 +46,20 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/style.css">
         <link href="//fonts.googleapis.com" rel="dns-prefetch">
+        <style>
+        .loader-wrap{width:100%;height:100%;position:fixed;overflow:hidden;background-color:#fafafa;-webkit-transition:all 0.6s cubic-bezier(0.694,  0.048, 0.335, 1.000);transition:all 0.6s cubic-bezier(0.694,  0.048, 0.335, 1.000);-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);opacity:1;z-index:1000}.loader-wrap.loaded {-webkit-transform:translateY(110%);-ms-transform:translateY(110%);transform:translateY(110%);}.loader{position:absolute;top:50%;left:50%;opacity:1;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transition:opacity 0.3s ease;transition:opacity 0.3s ease}.loaded .loader{opacity:0}.spinner{-webkit-animation:rotator 1.4s linear infinite;animation:rotator 1.4s linear infinite}@-webkit-keyframes rotator{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(270deg);transform:rotate(270deg)}}@keyframes rotator{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(270deg);transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center;-webkit-animation:dash 1.4s ease-in-out infinite,colors 5.6s ease-in-out infinite;animation:dash 1.4s ease-in-out infinite,colors 5.6s ease-in-out infinite}@-webkit-keyframes colors{0%,100%{stroke:#4285F4}25%{stroke:#DE3E35}50%{stroke:#F7C223}75%{stroke:#1B9A59}}@keyframes colors{0%,100%{stroke:#4285F4}25%{stroke:#DE3E35}50%{stroke:#F7C223}75%{stroke:#1B9A59}}@-webkit-keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;-webkit-transform:rotate(135deg);transform:rotate(135deg)}100%{stroke-dashoffset:187;-webkit-transform:rotate(450deg);transform:rotate(450deg)}}@keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;-webkit-transform:rotate(135deg);transform:rotate(135deg)}100%{stroke-dashoffset:187;-webkit-transform:rotate(450deg);transform:rotate(450deg)}}
+        </style>
+        <script>window.onload=function(){document.getElementsByTagName("body")[0].classList.add("not-loaded"),document.getElementsByClassName("loader-wrap")[0].classList.add("loaded"),document.getElementsByClassName("loader")[0].classList.add("loaded"),document.getElementsByTagName("body")[0].classList.remove("not-loaded")};
+        </script>
     </head>
     <body>
+    <div class="loader-wrap">
+        <div class="loader">
+            <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+               <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+            </svg>
+        </div>
+    </div>
         <header>
             <div class="fork-me">
                 <a href="https://github.com/equinusocio/material-theme" class="fork-me-btn">Fork me on GitHub</a>
