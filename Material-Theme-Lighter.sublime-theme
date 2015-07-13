@@ -17,8 +17,8 @@
 
 		{
 			"class": "grid_layout_control",
-			"border_size": 2,
-			"border_color": [39, 53, 60]
+			"border_size": 1,
+			"border_color": [220, 229, 234]
 		},
 
 
@@ -331,7 +331,7 @@
 			"shadow_offset": [0, 0],
 			"font.size": 11,
 			"font.italic": false,
-			"font.bold": true
+			"font.bold": false
 		},
 
 			// Tab selected label color
@@ -534,7 +534,7 @@
 		    "class": "tree_row",
 		    "layer1.texture": "Material Theme/assets/lighter/tree_highlight.png",
 		    "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-		    "layer1.inner_margin": [22, 12, 0, 0]
+		    "layer1.inner_margin": [22, 8, 0, 0]
 		},
 		
 		{
@@ -1405,6 +1405,14 @@
 			"settings": ["material_theme_small_tab"],
 			"content_margin": [12, 8, 6, 4],
 		},
+
+			// Tab Labels
+
+		{
+			"class": "tab_label",
+			"settings": ["material_theme_bold_tab"],
+			"font.bold": true
+		},				
 
 			// Filetype icons in sidebar
 

@@ -688,7 +688,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b83a42ff</string>
+				<string>#EC5F67</string>
 			</dict>
 		</dict>
 		<dict>
@@ -699,7 +699,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b89617ff</string>
+				<string>#FFCF1B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -710,7 +710,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#91b859ff</string>
+				<string>#C3E88D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -721,7 +721,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#176081ff</string>
+				<string>#546E7A</string>
 			</dict>
 		</dict>
 		<dict>
