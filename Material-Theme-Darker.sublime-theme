@@ -791,13 +791,27 @@
 
 			// Default Close icon
 			"layer0.texture": "Material Theme/assets/darker/close_icon.png",
-			"layer0.opacity": 1,
+			"layer0.opacity": { "target": 0.0, "speed": 7.0, "interpolation": "smoothstep" },
 			"layer0.inner_margin": [0,0],
 
 			// Hover close icon
 			"layer1.texture": "Material Theme/assets/commons/close_icon--hover.png",
 			"layer1.opacity": 0,
 			"layer1.inner_margin": [0,0],
+		},
+
+			// Opened file hover
+
+		{
+			"class": "close_button",
+			"parents":
+			[
+				{ "class": "tree_row", "attributes": ["hover"] }
+			],
+			// Default Close icon
+			"layer0.texture": "Material Theme/assets/default/close_icon.png",
+			"layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
+			"layer0.inner_margin": [0,0],
 		},
 
 		{
