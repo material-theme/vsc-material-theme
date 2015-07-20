@@ -829,7 +829,8 @@
 		{
 			"class": "close_button",
 			"attributes": ["dirty"],
-			"layer0.texture": "Material Theme/assets/commons/dirty_icon--hover.png"
+			"layer0.texture": "Material Theme/assets/commons/dirty_icon--hover.png",
+			"layer0.opacity": 1.0
 		},
 
 		{
