@@ -8,7 +8,7 @@ Please read the section [Known Issues](https://github.com/equinusocio/material-t
 <!-- Pledgie Donation -->
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
-<a target="_blank" href='https://www.coinbase.com/checkouts/55a05405c6a05ae2d431cc55e84cb161' data-code="55a05405c6a05ae2d431cc55e84cb161" class="coinbase-button"><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://www.coinbase.com/assets/buttons/donation_small-210ad5fe8fe0846a0c6bc676e1bad3d462ab3fcbdaf2443de8755503d0729847.png' border='0' ></a>
+<a target="_blank" href='https://www.coinbase.com/checkouts/1ApeKqUE3aLp5x3UuGHU3z95F7XoyDvpeF' data-code="1ApeKqUE3aLp5x3UuGHU3z95F7XoyDvpeF" class="coinbase-button"><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://www.coinbase.com/assets/buttons/donation_small-210ad5fe8fe0846a0c6bc676e1bad3d462ab3fcbdaf2443de8755503d0729847.png' border='0' ></a>
 
 ## Screenshots
 
@@ -72,6 +72,11 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_small_statusbar": true,            // Set small status bar
 "material_theme_disable_tree_indicator": true,		// Disable sidebar file indicator
 "material_theme_bold_tab": true,							// Make the tab labels bolder
+"material_theme_accent_lime": true,						// set green lime accent color
+"material_theme_accent_purple": true,					// set purple accent color
+"material_theme_accent_red": true,						// set pale red accent color
+"material_theme_accent_orange": true,					// set orange accent color
+"material_theme_accent_yellow": true,					// set yellow accent color
 ``` 
 
 ## Recommended UI and font settings

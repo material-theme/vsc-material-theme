@@ -1,0 +1,22 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+
+Version 1.8.0
+********************************************************************************
+
+#### UI IMPROVEMENTS
+
+	- Add accent color selection, add one of the follower setting:
+		"material_theme_accent_lime": true,
+		"material_theme_accent_purple": true,
+		"material_theme_accent_red": true,
+		"material_theme_accent_orange": true,
+		"material_theme_accent_yellow": true,
+
+	- Minor UI fix
+
+
+#### COLOR SCHEME IMPROVEMENTS
+
+	- Add regex color highlight in find/replace
