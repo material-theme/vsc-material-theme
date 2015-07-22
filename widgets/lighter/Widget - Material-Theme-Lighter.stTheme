@@ -31,7 +31,7 @@
 				<string>#607D8B</string>
 			</dict>
 		</dict>
-		<!-- <dict>
+		<dict>
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
@@ -52,7 +52,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfd8dc</string>
+				<string>#AAB3B5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -81,7 +81,7 @@
 				<key>foreground</key>
 				<string>#FFC400</string>
 			</dict>
-		</dict> -->
+		</dict>
 	</array>
 </dict>
 </plist>
