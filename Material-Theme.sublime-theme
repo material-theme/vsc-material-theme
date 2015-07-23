@@ -1697,7 +1697,6 @@
 		},
 
 
-
 	/* PURPLE ACCENT
 	 *	=================================================================== */
 
@@ -1739,7 +1738,7 @@
 			"class": "sidebar_label",
 			"settings": ["material_theme_accent_purple"],
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-			"color": [186, 104, 200]
+			"color": [156, 39, 176]
 		},
 
 		{
@@ -1835,7 +1834,7 @@
 			"class": "quick_panel_label",
 			"settings": ["material_theme_accent_purple"],	
 			"fg": [176, 190, 197, 255],
-			"match_fg": [186, 104, 200],
+			"match_fg": [156, 39, 176],
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [156, 39, 176]
 		},
