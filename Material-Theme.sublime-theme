@@ -1697,7 +1697,6 @@
 		},
 
 
-
 	/* PURPLE ACCENT
 	 *	=================================================================== */
 
@@ -1739,7 +1738,7 @@
 			"class": "sidebar_label",
 			"settings": ["material_theme_accent_purple"],
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-			"color": [186, 104, 200]
+			"color": [156, 39, 176]
 		},
 
 		{
@@ -1835,7 +1834,7 @@
 			"class": "quick_panel_label",
 			"settings": ["material_theme_accent_purple"],	
 			"fg": [176, 190, 197, 255],
-			"match_fg": [186, 104, 200],
+			"match_fg": [156, 39, 176],
 			"selected_fg": [255, 255, 255, 255],
 			"selected_match_fg": [156, 39, 176]
 		},
@@ -2827,6 +2826,7 @@
 			"content_margin": [0, 0]
 		},
 
+
 			// Folder animation
 
 		{
@@ -2838,6 +2838,60 @@
 			"layer3.texture": "Material Theme/assets/commons/folder--hover.png",
 		},
 
+			// Folder animation Lime
+
+		{
+			"class": "icon_folder",
+			"settings": ["material_theme_disable_folder_animation", "material_theme_accent_lime"],
+			"parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.texture": "Material Theme/assets/accent-lime/folder--hover.png",
+		},
+
+			// Folder animation Purple
+
+		{
+			"class": "icon_folder",
+			"settings": ["material_theme_disable_folder_animation", "material_theme_accent_purple"],
+			"parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.texture": "Material Theme/assets/accent-purple/folder--hover.png",
+		},
+
+			// Folder animation Red
+
+		{
+			"class": "icon_folder",
+			"settings": ["material_theme_disable_folder_animation", "material_theme_accent_red"],
+			"parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.texture": "Material Theme/assets/accent-red/folder--hover.png",
+		},
+
+			// Folder animation Orange
+
+		{
+			"class": "icon_folder",
+			"settings": ["material_theme_disable_folder_animation", "material_theme_accent_orange"],
+			"parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.texture": "Material Theme/assets/accent-orange/folder--hover.png",
+		},
+
+			// Folder animation Yellow
+
+		{
+			"class": "icon_folder",
+			"settings": ["material_theme_disable_folder_animation", "material_theme_accent_yellow"],
+			"parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+			"layer1.opacity": 0.0,
+			"layer2.opacity": 0.0,
+			"layer3.texture": "Material Theme/assets/accent-yellow/folder--hover.png",
+		},
 			// Small status bar
 
 		{
