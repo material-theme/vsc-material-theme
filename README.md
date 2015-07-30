@@ -18,7 +18,7 @@ Please read the section [Known Issues](https://github.com/equinusocio/material-t
 
 ![Lighter version](https://transfer.sh/CyRdb/screen-shot-2015-07-11-at-15.52.39.png)
 
-More screeshots [here](http://equinusocio.github.io/material-theme/)
+More screenshots [here](http://equinusocio.github.io/material-theme/)
 
 ## Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme"*, install, **restart Sublime Text** and enjoy!
@@ -66,7 +66,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 ## Theme options
 
 ```json
-"material_theme_small_tab": true,  			         // Set small tabs
+"material_theme_small_tab": true,                  // Set small tabs
 "material_theme_disable_fileicons": true,          // Hide siderbar file type icons
 "material_theme_disable_folder_animation": true,   // Disable folder animation
 "material_theme_small_statusbar": true,            // Set small status bar
