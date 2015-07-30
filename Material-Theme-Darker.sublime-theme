@@ -83,7 +83,7 @@
 
 		{
 			"class": "popup_control",
-			"layer0.texture": [255, 255, 255, 255],
+			"layer0.tint": [33, 33, 33],
 			"layer0.opacity": 1.0,
 			"content_margin": [0, 0]
 		},
