@@ -534,7 +534,7 @@
 			 "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 			 "layer1.inner_margin": [22, 8, 0, 0]
 		},
-		
+
 		{
 			 "class": "tree_row",
 			 "attributes": ["selected"],
@@ -582,7 +582,7 @@
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["expandable", "selected"]}],
 			"color": [255, 255, 255]
-		},		
+		},
 
 		{
 			"class": "sidebar_label",
@@ -694,7 +694,7 @@
 				{ "class": "tree_row", "attributes": ["selected"] }
 			],
 			"layer1.texture": "Material Theme/assets/commons/folder--hover.png",
-		},		
+		},
 
 			// Folder loading
 
@@ -1237,7 +1237,7 @@
 			"layer0.texture": "Material Theme/assets/commons/find_case--hover.png",
 			"layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"layer1.texture": "Material Theme/assets/darker/find_case.png",
-			"layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },			
+			"layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
 
@@ -1254,7 +1254,7 @@
 			"class": "icon_whole_word",
 			"layer0.texture": "Material Theme/assets/commons/find_word--hover.png",
 			"layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-			"layer1.texture": "Material Theme/assets/darker/find_word.png",			
+			"layer1.texture": "Material Theme/assets/darker/find_word.png",
 			"layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
 			"content_margin": [12, 12]
 		},
@@ -1406,13 +1406,21 @@
 
 	/* @ THEME ACCENTS
 	 * Accents color settings
-	========================================================================= 
+	=========================================================================
 	This specific options define the accents color to be used in the general UI.
-	NOTE: This rulers must only override the original definitions */ 
+	NOTE: This rulers must only override the original definitions */
 
 
 	/* LIME ACCENT
 	 *	=================================================================== */
+
+			// Sidebar tree highlight
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_accent_lime"],
+			"layer1.texture": "Material Theme/assets/accent-lime/tree_highlight.png",
+		},
 
 			// Tabs
 
@@ -1429,7 +1437,7 @@
 			"settings": ["material_theme_accent_lime"],
 			"layer1.texture": "Material Theme/assets/accent-lime/close_icon--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-lime/dirty_icon--hover.png"
-		},		
+		},
 
 			// Opened files
 
@@ -1437,7 +1445,7 @@
 			"class": "close_button",
 			"settings": ["material_theme_accent_lime"],
 			"layer1.texture": "Material Theme/assets/accent-lime/close_icon--hover.png",
-		},		
+		},
 
 			// Dirty opened files
 
@@ -1446,7 +1454,7 @@
 			"attributes": ["dirty"],
 			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/dirty_icon--hover.png",
-		},		
+		},
 
 		{
 			"class": "sidebar_label",
@@ -1460,7 +1468,7 @@
 			"settings": ["material_theme_accent_lime"],
 			"layer2.texture": "Material Theme/assets/accent-lime/folder--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-lime/folder_opened--hover.png",
-		},		
+		},
 
 		{
 			"class": "icon_folder",
@@ -1516,20 +1524,20 @@
 
 		{
 			"class": "scroll_tabs_left_button",
-			"settings": ["material_theme_accent_lime"],			
+			"settings": ["material_theme_accent_lime"],
 			"layer1.texture": "Material Theme/assets/accent-lime/arrow_left--hover.png",
 		},
 
 		{
 			"class": "scroll_tabs_right_button",
-			"settings": ["material_theme_accent_lime"],			
+			"settings": ["material_theme_accent_lime"],
 			"layer1.texture": "Material Theme/assets/accent-lime/arrow_right--hover.png",
 		},
 
-	
+
 		{
 			"class": "fold_button_control",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/commons/fold_right.png",
 			"layer1.texture": "Material Theme/assets/accent-lime/fold_right--hover.png",
 		},
@@ -1537,7 +1545,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/darker/fold_down.png",
 			"layer1.texture": "Material Theme/assets/accent-lime/fold_down--hover.png"
 		},
@@ -1546,7 +1554,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [139, 195, 74],
 			"selected_fg": [255, 255, 255, 255],
@@ -1557,7 +1565,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"parents": [{"class": "overlay_control"}],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [139, 195, 74],
@@ -1569,7 +1577,7 @@
 
 		{
 			"class": "quick_panel_path_label",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"fg": [97, 97, 97, 255],
 			"match_fg": [139, 195, 74],
 			"selected_fg": [255, 255, 255, 255],
@@ -1580,14 +1588,14 @@
 
 		{
 			"class": "quick_panel_score_label",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"fg": [139, 195, 74],
 			"selected_fg": [255, 255, 255, 255]
 		},
 
 		{
 			"class": "show_tabs_dropdown_button",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer1.texture": "Material Theme/assets/accent-lime/overflow_menu--hover.png",
 		},
 
@@ -1595,7 +1603,7 @@
 
 		{
 			"class": "dropdown_button_control",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer1.texture": "Material Theme/assets/accent-lime/overflow_menu--hover.png",
 		},
 
@@ -1605,7 +1613,7 @@
 			// Regex Icon
 		{
 			"class": "icon_regex",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_regex--hover.png",
 		},
 
@@ -1613,14 +1621,14 @@
 
 		{
 			"class": "icon_case",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_case--hover.png",
 		},
 			// Wholeword
 
 		{
 			"class": "icon_whole_word",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_word--hover.png",
 		},
 
@@ -1628,7 +1636,7 @@
 
 		{
 			"class": "icon_wrap",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_wrap--hover.png",
 		},
 
@@ -1636,7 +1644,7 @@
 
 		{
 			"class": "icon_in_selection",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_inselection--hover.png",
 		},
 
@@ -1645,7 +1653,7 @@
 
 		{
 			"class": "icon_highlight",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_highlight--hover.png",
 		},
 
@@ -1653,7 +1661,7 @@
 
 		{
 			"class": "icon_preserve_case",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/replace_preserve_case--hover.png",
 		},
 
@@ -1661,7 +1669,7 @@
 
 		{
 			"class": "icon_context",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_context--hover.png",
 		},
 
@@ -1669,7 +1677,7 @@
 
 		{
 			"class": "icon_use_buffer",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/use_buffer--hover.png",
 		},
 
@@ -1677,12 +1685,20 @@
 
 		{
 			"class": "icon_reverse",
-			"settings": ["material_theme_accent_lime"],	
+			"settings": ["material_theme_accent_lime"],
 			"layer0.texture": "Material Theme/assets/accent-lime/find_reverse--hover.png",
 		},
 
 	/* PURPLE ACCENT
 	 *	=================================================================== */
+
+			// Sidebar tree highlight
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_accent_purple"],
+			"layer1.texture": "Material Theme/assets/accent-purple/tree_highlight.png",
+		},
 
 			// Tabs
 
@@ -1699,7 +1715,7 @@
 			"settings": ["material_theme_accent_purple"],
 			"layer1.texture": "Material Theme/assets/accent-purple/close_icon--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-purple/dirty_icon--hover.png"
-		},		
+		},
 
 			// Opened files
 
@@ -1707,7 +1723,7 @@
 			"class": "close_button",
 			"settings": ["material_theme_accent_purple"],
 			"layer1.texture": "Material Theme/assets/accent-purple/close_icon--hover.png",
-		},		
+		},
 
 			// Dirty opened files
 
@@ -1716,7 +1732,7 @@
 			"attributes": ["dirty"],
 			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/dirty_icon--hover.png",
-		},		
+		},
 
 		{
 			"class": "sidebar_label",
@@ -1730,7 +1746,7 @@
 			"settings": ["material_theme_accent_purple"],
 			"layer2.texture": "Material Theme/assets/accent-purple/folder--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-purple/folder_opened--hover.png",
-		},		
+		},
 
 		{
 			"class": "icon_folder",
@@ -1786,20 +1802,20 @@
 
 		{
 			"class": "scroll_tabs_left_button",
-			"settings": ["material_theme_accent_purple"],			
+			"settings": ["material_theme_accent_purple"],
 			"layer1.texture": "Material Theme/assets/accent-purple/arrow_left--hover.png",
 		},
 
 		{
 			"class": "scroll_tabs_right_button",
-			"settings": ["material_theme_accent_purple"],			
+			"settings": ["material_theme_accent_purple"],
 			"layer1.texture": "Material Theme/assets/accent-purple/arrow_right--hover.png",
 		},
 
-	
+
 		{
 			"class": "fold_button_control",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/commons/fold_right.png",
 			"layer1.texture": "Material Theme/assets/accent-purple/fold_right--hover.png",
 		},
@@ -1807,7 +1823,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/darker/fold_down.png",
 			"layer1.texture": "Material Theme/assets/accent-purple/fold_down--hover.png"
 		},
@@ -1816,7 +1832,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [156, 39, 176],
 			"selected_fg": [255, 255, 255, 255],
@@ -1827,7 +1843,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"parents": [{"class": "overlay_control"}],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [156, 39, 176],
@@ -1839,7 +1855,7 @@
 
 		{
 			"class": "quick_panel_path_label",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"fg": [97, 97, 97, 255],
 			"match_fg": [156, 39, 176],
 			"selected_fg": [255, 255, 255, 255],
@@ -1850,14 +1866,14 @@
 
 		{
 			"class": "quick_panel_score_label",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"fg": [156, 39, 176],
 			"selected_fg": [255, 255, 255, 255]
 		},
 
 		{
 			"class": "show_tabs_dropdown_button",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer1.texture": "Material Theme/assets/accent-purple/overflow_menu--hover.png",
 		},
 
@@ -1865,7 +1881,7 @@
 
 		{
 			"class": "dropdown_button_control",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer1.texture": "Material Theme/assets/accent-purple/overflow_menu--hover.png",
 		},
 
@@ -1875,7 +1891,7 @@
 			// Regex Icon
 		{
 			"class": "icon_regex",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_regex--hover.png",
 		},
 
@@ -1883,14 +1899,14 @@
 
 		{
 			"class": "icon_case",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_case--hover.png",
 		},
 			// Wholeword
 
 		{
 			"class": "icon_whole_word",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_word--hover.png",
 		},
 
@@ -1898,7 +1914,7 @@
 
 		{
 			"class": "icon_wrap",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_wrap--hover.png",
 		},
 
@@ -1906,7 +1922,7 @@
 
 		{
 			"class": "icon_in_selection",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_inselection--hover.png",
 		},
 
@@ -1915,7 +1931,7 @@
 
 		{
 			"class": "icon_highlight",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_highlight--hover.png",
 		},
 
@@ -1923,7 +1939,7 @@
 
 		{
 			"class": "icon_preserve_case",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/replace_preserve_case--hover.png",
 		},
 
@@ -1931,7 +1947,7 @@
 
 		{
 			"class": "icon_context",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_context--hover.png",
 		},
 
@@ -1939,7 +1955,7 @@
 
 		{
 			"class": "icon_use_buffer",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/use_buffer--hover.png",
 		},
 
@@ -1947,12 +1963,20 @@
 
 		{
 			"class": "icon_reverse",
-			"settings": ["material_theme_accent_purple"],	
+			"settings": ["material_theme_accent_purple"],
 			"layer0.texture": "Material Theme/assets/accent-purple/find_reverse--hover.png",
 		},
 
 	/* RED ACCENT
 	 *	=================================================================== */
+
+			// Sidebar tree highlight
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_accent_red"],
+			"layer1.texture": "Material Theme/assets/accent-red/tree_highlight.png",
+		},
 
 			// Tabs
 
@@ -1969,7 +1993,7 @@
 			"settings": ["material_theme_accent_red"],
 			"layer1.texture": "Material Theme/assets/accent-red/close_icon--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-red/dirty_icon--hover.png"
-		},		
+		},
 
 			// Opened files
 
@@ -1977,7 +2001,7 @@
 			"class": "close_button",
 			"settings": ["material_theme_accent_red"],
 			"layer1.texture": "Material Theme/assets/accent-red/close_icon--hover.png",
-		},		
+		},
 
 			// Dirty opened files
 
@@ -1986,7 +2010,7 @@
 			"attributes": ["dirty"],
 			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/dirty_icon--hover.png",
-		},		
+		},
 
 		{
 			"class": "sidebar_label",
@@ -2000,7 +2024,7 @@
 			"settings": ["material_theme_accent_red"],
 			"layer2.texture": "Material Theme/assets/accent-red/folder--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-red/folder_opened--hover.png",
-		},		
+		},
 
 		{
 			"class": "icon_folder",
@@ -2056,20 +2080,20 @@
 
 		{
 			"class": "scroll_tabs_left_button",
-			"settings": ["material_theme_accent_red"],			
+			"settings": ["material_theme_accent_red"],
 			"layer1.texture": "Material Theme/assets/accent-red/arrow_left--hover.png",
 		},
 
 		{
 			"class": "scroll_tabs_right_button",
-			"settings": ["material_theme_accent_red"],			
+			"settings": ["material_theme_accent_red"],
 			"layer1.texture": "Material Theme/assets/accent-red/arrow_right--hover.png",
 		},
 
-	
+
 		{
 			"class": "fold_button_control",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/commons/fold_right.png",
 			"layer1.texture": "Material Theme/assets/accent-red/fold_right--hover.png",
 		},
@@ -2077,7 +2101,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/darker/fold_down.png",
 			"layer1.texture": "Material Theme/assets/accent-red/fold_down--hover.png"
 		},
@@ -2086,7 +2110,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [244, 67, 54],
 			"selected_fg": [255, 255, 255, 255],
@@ -2097,7 +2121,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"parents": [{"class": "overlay_control"}],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [229, 115, 115],
@@ -2109,7 +2133,7 @@
 
 		{
 			"class": "quick_panel_path_label",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"fg": [97, 97, 97, 255],
 			"match_fg": [229, 115, 115],
 			"selected_fg": [255, 255, 255, 255],
@@ -2120,14 +2144,14 @@
 
 		{
 			"class": "quick_panel_score_label",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"fg": [229, 115, 115],
 			"selected_fg": [255, 255, 255, 255]
 		},
 
 		{
 			"class": "show_tabs_dropdown_button",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer1.texture": "Material Theme/assets/accent-red/overflow_menu--hover.png",
 		},
 
@@ -2135,7 +2159,7 @@
 
 		{
 			"class": "dropdown_button_control",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer1.texture": "Material Theme/assets/accent-red/overflow_menu--hover.png",
 		},
 
@@ -2145,7 +2169,7 @@
 			// Regex Icon
 		{
 			"class": "icon_regex",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_regex--hover.png",
 		},
 
@@ -2153,14 +2177,14 @@
 
 		{
 			"class": "icon_case",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_case--hover.png",
 		},
 			// Wholeword
 
 		{
 			"class": "icon_whole_word",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_word--hover.png",
 		},
 
@@ -2168,7 +2192,7 @@
 
 		{
 			"class": "icon_wrap",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_wrap--hover.png",
 		},
 
@@ -2176,7 +2200,7 @@
 
 		{
 			"class": "icon_in_selection",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_inselection--hover.png",
 		},
 
@@ -2185,7 +2209,7 @@
 
 		{
 			"class": "icon_highlight",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_highlight--hover.png",
 		},
 
@@ -2193,7 +2217,7 @@
 
 		{
 			"class": "icon_preserve_case",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/replace_preserve_case--hover.png",
 		},
 
@@ -2201,7 +2225,7 @@
 
 		{
 			"class": "icon_context",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_context--hover.png",
 		},
 
@@ -2209,7 +2233,7 @@
 
 		{
 			"class": "icon_use_buffer",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/use_buffer--hover.png",
 		},
 
@@ -2217,12 +2241,20 @@
 
 		{
 			"class": "icon_reverse",
-			"settings": ["material_theme_accent_red"],	
+			"settings": ["material_theme_accent_red"],
 			"layer0.texture": "Material Theme/assets/accent-red/find_reverse--hover.png",
 		},
 
 	/* ORANGE ACCENT
 	 *	=================================================================== */
+
+			// Sidebar tree highlight
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_accent_orange"],
+			"layer1.texture": "Material Theme/assets/accent-orange/tree_highlight.png",
+		},
 
 			// Tabs
 
@@ -2239,7 +2271,7 @@
 			"settings": ["material_theme_accent_orange"],
 			"layer1.texture": "Material Theme/assets/accent-orange/close_icon--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-orange/dirty_icon--hover.png"
-		},		
+		},
 
 			// Opened files
 
@@ -2247,7 +2279,7 @@
 			"class": "close_button",
 			"settings": ["material_theme_accent_orange"],
 			"layer1.texture": "Material Theme/assets/accent-orange/close_icon--hover.png",
-		},		
+		},
 
 			// Dirty opened files
 
@@ -2256,7 +2288,7 @@
 			"attributes": ["dirty"],
 			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/dirty_icon--hover.png",
-		},		
+		},
 
 		{
 			"class": "sidebar_label",
@@ -2270,7 +2302,7 @@
 			"settings": ["material_theme_accent_orange"],
 			"layer2.texture": "Material Theme/assets/accent-orange/folder--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-orange/folder_opened--hover.png",
-		},		
+		},
 
 		{
 			"class": "icon_folder",
@@ -2326,20 +2358,20 @@
 
 		{
 			"class": "scroll_tabs_left_button",
-			"settings": ["material_theme_accent_orange"],			
+			"settings": ["material_theme_accent_orange"],
 			"layer1.texture": "Material Theme/assets/accent-orange/arrow_left--hover.png",
 		},
 
 		{
 			"class": "scroll_tabs_right_button",
-			"settings": ["material_theme_accent_orange"],			
+			"settings": ["material_theme_accent_orange"],
 			"layer1.texture": "Material Theme/assets/accent-orange/arrow_right--hover.png",
 		},
 
-	
+
 		{
 			"class": "fold_button_control",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/commons/fold_right.png",
 			"layer1.texture": "Material Theme/assets/accent-orange/fold_right--hover.png",
 		},
@@ -2347,7 +2379,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/darker/fold_down.png",
 			"layer1.texture": "Material Theme/assets/accent-orange/fold_down--hover.png"
 		},
@@ -2356,7 +2388,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [255, 112, 67],
 			"selected_fg": [255, 255, 255, 255],
@@ -2367,7 +2399,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"parents": [{"class": "overlay_control"}],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [255, 112, 67],
@@ -2379,7 +2411,7 @@
 
 		{
 			"class": "quick_panel_path_label",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"fg": [97, 97, 97, 255],
 			"match_fg": [255, 112, 67],
 			"selected_fg": [255, 255, 255, 255],
@@ -2390,14 +2422,14 @@
 
 		{
 			"class": "quick_panel_score_label",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"fg": [255, 112, 67],
 			"selected_fg": [255, 255, 255, 255]
 		},
 
 		{
 			"class": "show_tabs_dropdown_button",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer1.texture": "Material Theme/assets/accent-orange/overflow_menu--hover.png",
 		},
 
@@ -2405,7 +2437,7 @@
 
 		{
 			"class": "dropdown_button_control",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer1.texture": "Material Theme/assets/accent-orange/overflow_menu--hover.png",
 		},
 
@@ -2415,7 +2447,7 @@
 			// Regex Icon
 		{
 			"class": "icon_regex",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_regex--hover.png",
 		},
 
@@ -2423,14 +2455,14 @@
 
 		{
 			"class": "icon_case",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_case--hover.png",
 		},
 			// Wholeword
 
 		{
 			"class": "icon_whole_word",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_word--hover.png",
 		},
 
@@ -2438,7 +2470,7 @@
 
 		{
 			"class": "icon_wrap",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_wrap--hover.png",
 		},
 
@@ -2446,7 +2478,7 @@
 
 		{
 			"class": "icon_in_selection",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_inselection--hover.png",
 		},
 
@@ -2455,7 +2487,7 @@
 
 		{
 			"class": "icon_highlight",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_highlight--hover.png",
 		},
 
@@ -2463,7 +2495,7 @@
 
 		{
 			"class": "icon_preserve_case",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/replace_preserve_case--hover.png",
 		},
 
@@ -2471,7 +2503,7 @@
 
 		{
 			"class": "icon_context",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_context--hover.png",
 		},
 
@@ -2479,7 +2511,7 @@
 
 		{
 			"class": "icon_use_buffer",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/use_buffer--hover.png",
 		},
 
@@ -2487,13 +2519,21 @@
 
 		{
 			"class": "icon_reverse",
-			"settings": ["material_theme_accent_orange"],	
+			"settings": ["material_theme_accent_orange"],
 			"layer0.texture": "Material Theme/assets/accent-orange/find_reverse--hover.png",
 		},
 
 
 	/* YELLOW ACCENT
 	 *	=================================================================== */
+
+			// Sidebar tree highlight
+
+		{
+			"class": "tree_row",
+			"settings": ["material_theme_accent_yellow"],
+			"layer1.texture": "Material Theme/assets/accent-yellow/tree_highlight.png",
+		},
 
 			// Tabs
 
@@ -2510,7 +2550,7 @@
 			"settings": ["material_theme_accent_yellow"],
 			"layer1.texture": "Material Theme/assets/accent-yellow/close_icon--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-yellow/dirty_icon--hover.png"
-		},		
+		},
 
 			// Opened files
 
@@ -2518,7 +2558,7 @@
 			"class": "close_button",
 			"settings": ["material_theme_accent_yellow"],
 			"layer1.texture": "Material Theme/assets/accent-yellow/close_icon--hover.png",
-		},		
+		},
 
 			// Dirty opened files
 
@@ -2527,7 +2567,7 @@
 			"attributes": ["dirty"],
 			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/dirty_icon--hover.png",
-		},		
+		},
 
 		{
 			"class": "sidebar_label",
@@ -2541,7 +2581,7 @@
 			"settings": ["material_theme_accent_yellow"],
 			"layer2.texture": "Material Theme/assets/accent-yellow/folder--hover.png",
 			"layer3.texture": "Material Theme/assets/accent-yellow/folder_opened--hover.png",
-		},		
+		},
 
 		{
 			"class": "icon_folder",
@@ -2597,20 +2637,20 @@
 
 		{
 			"class": "scroll_tabs_left_button",
-			"settings": ["material_theme_accent_yellow"],			
+			"settings": ["material_theme_accent_yellow"],
 			"layer1.texture": "Material Theme/assets/accent-yellow/arrow_left--hover.png",
 		},
 
 		{
 			"class": "scroll_tabs_right_button",
-			"settings": ["material_theme_accent_yellow"],			
+			"settings": ["material_theme_accent_yellow"],
 			"layer1.texture": "Material Theme/assets/accent-yellow/arrow_right--hover.png",
 		},
 
-	
+
 		{
 			"class": "fold_button_control",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/commons/fold_right.png",
 			"layer1.texture": "Material Theme/assets/accent-yellow/fold_right--hover.png",
 		},
@@ -2618,7 +2658,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/darker/fold_down.png",
 			"layer1.texture": "Material Theme/assets/accent-yellow/fold_down--hover.png"
 		},
@@ -2627,7 +2667,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [255, 241, 118],
 			"selected_fg": [255, 255, 255, 255],
@@ -2638,7 +2678,7 @@
 
 		{
 			"class": "quick_panel_label",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"parents": [{"class": "overlay_control"}],
 			"fg": [176, 190, 197, 255],
 			"match_fg": [255, 241, 118],
@@ -2650,7 +2690,7 @@
 
 		{
 			"class": "quick_panel_path_label",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"fg": [97, 97, 97, 255],
 			"match_fg": [255, 241, 118],
 			"selected_fg": [255, 255, 255, 255],
@@ -2661,14 +2701,14 @@
 
 		{
 			"class": "quick_panel_score_label",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"fg": [255, 241, 118],
 			"selected_fg": [255, 255, 255, 255]
 		},
 
 		{
 			"class": "show_tabs_dropdown_button",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer1.texture": "Material Theme/assets/accent-yellow/overflow_menu--hover.png",
 		},
 
@@ -2676,7 +2716,7 @@
 
 		{
 			"class": "dropdown_button_control",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer1.texture": "Material Theme/assets/accent-yellow/overflow_menu--hover.png",
 		},
 
@@ -2686,7 +2726,7 @@
 			// Regex Icon
 		{
 			"class": "icon_regex",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_regex--hover.png",
 		},
 
@@ -2694,14 +2734,14 @@
 
 		{
 			"class": "icon_case",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_case--hover.png",
 		},
 			// Wholeword
 
 		{
 			"class": "icon_whole_word",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_word--hover.png",
 		},
 
@@ -2709,7 +2749,7 @@
 
 		{
 			"class": "icon_wrap",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_wrap--hover.png",
 		},
 
@@ -2717,7 +2757,7 @@
 
 		{
 			"class": "icon_in_selection",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_inselection--hover.png",
 		},
 
@@ -2726,7 +2766,7 @@
 
 		{
 			"class": "icon_highlight",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_highlight--hover.png",
 		},
 
@@ -2734,7 +2774,7 @@
 
 		{
 			"class": "icon_preserve_case",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/replace_preserve_case--hover.png",
 		},
 
@@ -2742,7 +2782,7 @@
 
 		{
 			"class": "icon_context",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_context--hover.png",
 		},
 
@@ -2750,7 +2790,7 @@
 
 		{
 			"class": "icon_use_buffer",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/use_buffer--hover.png",
 		},
 
@@ -2758,7 +2798,7 @@
 
 		{
 			"class": "icon_reverse",
-			"settings": ["material_theme_accent_yellow"],	
+			"settings": ["material_theme_accent_yellow"],
 			"layer0.texture": "Material Theme/assets/accent-yellow/find_reverse--hover.png",
 		},
 
@@ -2796,7 +2836,7 @@
 			"class": "tab_label",
 			"settings": ["material_theme_bold_tab"],
 			"font.bold": true
-		},		
+		},
 
 			// Filetype icons in sidebar
 
@@ -2888,7 +2928,7 @@
 			"settings": ["material_theme_disable_tree_indicator"],
 			"attributes": ["selected"],
 			"layer1.opacity": 0.0
-		},		
+		},
 
 
 ]
