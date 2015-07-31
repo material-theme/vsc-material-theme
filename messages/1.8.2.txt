@@ -1,0 +1,15 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+
+Version 1.8.2
+********************************************************************************
+
+#### UI IMPROVEMENTS
+
+	- Fix tree accent indicator
+	- Minor UI fix
+
+#### COLOR SCHEME
+	
+	- Update caret color	
