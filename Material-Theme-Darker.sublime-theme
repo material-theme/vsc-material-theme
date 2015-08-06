@@ -2830,6 +2830,15 @@
 			"content_margin": [12, 8, 6, 4],
 		},
 
+		// Tabs separator
+		{
+			"class": "tab_control",
+			"settings": ["material_theme_tabs_separator"],
+			"layer3.texture": "Material Theme/assets/commons/tab_separator.png",
+			"layer3.inner_margin": [1, 1],
+			"layer3.opacity": 1.0,
+		},				
+
 			// Tab Labels
 
 		{
