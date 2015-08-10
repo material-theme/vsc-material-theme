@@ -2939,5 +2939,13 @@
 			"layer1.opacity": 0.0
 		},
 
+		// Status bar panel
+		{
+			"class": "panel_control",
+			"settings": ["material_theme_panel_separator"],
+			"layer1.texture": "Material Theme/assets/commons/panel_separator.png",
+			"layer1.opacity": 0.2,
+			"layer1.inner_margin": [2, 2, 2, 2],
+		},		
 
 ]
