@@ -73,6 +73,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_disable_tree_indicator": true,		  // Disable sidebar file indicator
 "material_theme_bold_tab": true,			              // Make the tab labels bolder
 "material_theme_tabs_separator": true,			        // Show tabs separator
+"material_theme_accent_blue": true,                    // set blue accent color
 "material_theme_accent_lime": true,			           // set green lime accent color
 "material_theme_accent_purple": true,			        // set purple accent color
 "material_theme_accent_red": true,			           // set pale red accent color

@@ -8,6 +8,7 @@ Version 1.8.0
 #### UI IMPROVEMENTS
 
 	- Add accent color selection, add one of the follower setting:
+		"material_theme_accent_blue": true,
 		"material_theme_accent_lime": true,
 		"material_theme_accent_purple": true,
 		"material_theme_accent_red": true,
