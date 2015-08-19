@@ -1474,7 +1474,7 @@
 			"class": "sidebar_label",
 			"settings": ["material_theme_accent_blue"],
 			"parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-			"color": [139, 195, 74]
+			"color": [74, 126, 195]
 		},
 
 		{
@@ -1570,9 +1570,9 @@
 			"class": "quick_panel_label",
 			"settings": ["material_theme_accent_blue"],
 			"fg": [176, 190, 197, 255],
-			"match_fg": [139, 195, 74],
+			"match_fg": [74, 126, 195],
 			"selected_fg": [255, 255, 255, 255],
-			"selected_match_fg": [139, 195, 74]
+			"selected_match_fg": [74, 126, 195]
 		},
 
 			// Panel labels
@@ -1582,9 +1582,9 @@
 			"settings": ["material_theme_accent_blue"],
 			"parents": [{"class": "overlay_control"}],
 			"fg": [176, 190, 197, 255],
-			"match_fg": [139, 195, 74],
+			"match_fg": [74, 126, 195],
 			"selected_fg": [255, 255, 255, 255],
-			"selected_match_fg": [139, 195, 74]
+			"selected_match_fg": [74, 126, 195]
 		},
 
 			// Panels sublabels
@@ -1593,9 +1593,9 @@
 			"class": "quick_panel_path_label",
 			"settings": ["material_theme_accent_blue"],
 			"fg": [97, 97, 97, 255],
-			"match_fg": [139, 195, 74],
+			"match_fg": [74, 126, 195],
 			"selected_fg": [255, 255, 255, 255],
-			"selected_match_fg": [139, 195, 74]
+			"selected_match_fg": [74, 126, 195]
 		},
 
 			// Panels data / score
@@ -1603,7 +1603,7 @@
 		{
 			"class": "quick_panel_score_label",
 			"settings": ["material_theme_accent_blue"],
-			"fg": [139, 195, 74],
+			"fg": [74, 126, 195],
 			"selected_fg": [255, 255, 255, 255]
 		},
 
