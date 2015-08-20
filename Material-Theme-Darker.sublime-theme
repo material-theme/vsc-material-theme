@@ -293,7 +293,7 @@
          "layer2.inner_margin": [0, 0],
          "layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
 
-         "content_margin": [18, 8, 11, 4],
+         "content_margin": [18, 12, 11, 4],
          "max_margin_trim": 0,
          "hit_test_level": 0.4
       },
