@@ -191,7 +191,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
          <string>Support</string>
          <key>scope</key>
          <string>support.function,
-keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown</string>
+keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown, source.js, source.gulpfile.js variable.other.object.js, source.js</string>
          <key>settings</key>
          <dict>
             <key>foreground</key>
@@ -818,6 +818,17 @@ source.sass keyword.other.unit</string>
          <dict>
             <key>foreground</key>
             <string>#F77669</string>
+         </dict>
+      </dict>
+      <dict>
+         <key>name</key>
+         <string>Gulpfile: Functions variables</string>
+         <key>scope</key>
+         <string>source.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.function-call.with-arguments.js variable.function.js</string>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#7986CB</string>
          </dict>
       </dict>
    </array>
