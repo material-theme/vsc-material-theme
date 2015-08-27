@@ -830,13 +830,13 @@ source.sass keyword.other.unit</string>
          <key>name</key>
          <string>Gulpfile: Functions variables</string>
          <key>scope</key>
-         <string>source.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.function-call.with-arguments.js variable.function.js</string>
+         <string>source.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.function-call.with-arguments.js variable.function.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly variable.function.js</string>
          <key>settings</key>
          <dict>
             <key>foreground</key>
             <string>#7986CB</string>
          </dict>
-      </dict>     
+      </dict>
    </array>
    <key>uuid</key>
    <string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>

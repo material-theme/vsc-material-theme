@@ -824,7 +824,7 @@ source.sass keyword.other.unit</string>
          <key>name</key>
          <string>Gulpfile: Functions variables</string>
          <key>scope</key>
-         <string>source.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.function-call.with-arguments.js variable.function.js</string>
+         <string>source.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.function-call.with-arguments.js variable.function.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly variable.function.js</string>
          <key>settings</key>
          <dict>
             <key>foreground</key>
