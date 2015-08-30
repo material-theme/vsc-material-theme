@@ -16,7 +16,7 @@ Please read the section [Known Issues](https://github.com/equinusocio/material-t
 
 ![Darker version](http://equinusocio.github.io/material-theme/assets/img/darker1.png)
 
-![Lighter version](https://transfer.sh/CyRdb/screen-shot-2015-07-11-at-15.52.39.png)
+![Lighter version](http://equinusocio.github.io/material-theme/assets/img/material-light.png)
 
 More screenshots [here](http://equinusocio.github.io/material-theme/)
 
