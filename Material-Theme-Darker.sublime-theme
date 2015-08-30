@@ -747,7 +747,7 @@
 
       {
          "class": "disclosure_button_control",
-         "layer0.texture": "Material Theme/assets/commons/folder.png",
+         "layer0.texture": "Material Theme/assets/darker/folder.png",
          "layer0.opacity": 1.0,
          "layer0.inner_margin": 0,
          "layer1.texture": "Material Theme/assets/commons/folder--hover.png",
