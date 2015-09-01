@@ -772,10 +772,7 @@ meta.property-value support.constant.named-color.css</string>
          <key>name</key>
          <string>Styles Units</string>
          <key>scope</key>
-         <string>source.css keyword.other.unit,
-source.less keyword.other.unit,
-source.scss keyword.other.unit,
-source.sass keyword.other.unit</string>
+         <string>source.css keyword.other.unit, source.less keyword.other.unit, source.scss keyword.other.unit, source.sass keyword.other.unit</string>
          <key>settings</key>
          <dict>
             <key>foreground</key>
@@ -793,6 +790,28 @@ source.sass keyword.other.unit</string>
             <string>#7c4dff</string>
          </dict>
       </dict>
+      <dict>
+         <key>name</key>
+         <string>LESS: misc variables</string>
+         <key>scope</key>
+         <string>source.less parameter.less variable.parameter.misc.css</string>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#7986CB</string>
+         </dict>
+      </dict>
+      <dict>
+         <key>name</key>
+         <string>LESS: property string</string>
+         <key>scope</key>
+         <string>source.less meta.property-value.css string.quoted.double.css comment markup.raw</string>
+         <key>settings</key>
+         <dict>
+            <key>foreground</key>
+            <string>#C3E88D</string>
+         </dict>
+      </dict>      
       <dict>
          <key>name</key>
          <string>CSS: #</string>
