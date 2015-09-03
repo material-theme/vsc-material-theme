@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d9f5ddff</string>
+				<string>#39ADB5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -233,6 +233,17 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 				<string>#F77669</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Arguments</string>
+			<key>scope</key>
+			<string>meta.function-call meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C3E88D</string>
+			</dict>
+		</dict>		
 		<dict>
 			<key>name</key>
 			<string>Boolean</string>
