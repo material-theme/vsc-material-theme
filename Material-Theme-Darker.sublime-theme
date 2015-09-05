@@ -2825,6 +2825,12 @@
       },
 
       {
+         "class": "tabset_control",
+         "settings": ["material_theme_tabs_autowidth"],
+         "tab_width": 0
+      },
+
+      {
          "class": "tab_control",
          "settings": ["material_theme_small_tab"],
          "content_margin": [12, 8, 6, 4],
