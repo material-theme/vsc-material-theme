@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>Material Theme</string>
 	<key>semanticClass</key>
-	<string>theme.dark.material_theme</string>
+	<string>theme.material_theme</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>settings</key>
@@ -136,8 +136,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method,
-meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, meta.require, support.function.any-method, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.function-call.method.with-arguments variable.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -148,7 +147,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class</string>
+			<string>support.class, entity.name.class, entity.name.type.class, variable.language.this.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -861,6 +860,17 @@ meta.property-value support.constant.named-color.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#7986CB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support functions</string>
+			<key>scope</key>
+			<string>meta.function-call support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEB95</string>
 			</dict>
 		</dict>
 	</array>
