@@ -79,7 +79,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_accent_orange": true,						// set orange accent color
 "material_theme_accent_yellow": true,						// set yellow accent color
 "material_theme_panel_separator": true,					// show bottom panel separator
-"material_theme_tabs_autowidth": true,						// show bottom panel separator
+"material_theme_tabs_autowidth": true,						// Enable autowidth for tabs
 ```
 
 ## Recommended UI and font settings
