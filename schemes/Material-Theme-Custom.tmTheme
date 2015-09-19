@@ -19,7 +19,7 @@
 					<key>findHighlight</key><string>#4FA5C7</string>
 					<key>inactiveSelection</key><string>#2F6277</string>
 					<key>gutter</key><string>#263238</string>
-					<key>gutterForeground</key><string>#4d575b</string>
+					<key>gutterForeground</key><string>#546e7a</string>
 
 					<key>selection</key><string>#4FA5C7</string>
 					<key>selectionForeground</key><string>#fefefe</string>
