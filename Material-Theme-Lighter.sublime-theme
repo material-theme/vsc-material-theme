@@ -546,7 +546,6 @@
 		{
 			"class": "sidebar_label",
 			"color": [110, 119, 123],
-			// "color": [160, 173, 179],
 			"font.bold": false,
 			"font.italic": false,
 			"shadow_color": [255, 255, 255, 0],
