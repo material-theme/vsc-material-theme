@@ -545,7 +545,8 @@
 
 		{
 			"class": "sidebar_label",
-			"color": [176, 190, 197],
+			"color": [110, 119, 123],
+			// "color": [160, 173, 179],
 			"font.bold": false,
 			"font.italic": false,
 			"shadow_color": [255, 255, 255, 0],
@@ -555,7 +556,7 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-			"color": [144, 164, 174],
+			"color": [69, 90, 100],
 			"shadow_color": [255, 255, 255, 0],
 			"shadow_offset": [0, 0]
 		},
@@ -563,7 +564,7 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-			"font.bold": false,
+			"font.bold": true,
 			"color": [69, 90, 100]
 		},
 
@@ -2845,7 +2846,7 @@
 			"class": "tabset_control",
 			"settings": ["material_theme_tabs_autowidth"],
 			"tab_width": 0
-		},   
+		},
 
 		{
 			"class": "tab_control",
@@ -2860,7 +2861,7 @@
 			"layer3.texture": "Material Theme/assets/commons/tab_separator.png",
 			"layer3.inner_margin": [1, 1],
 			"layer3.opacity": 1.0,
-		},       
+		},
 
 			// Tab Labels
 
@@ -3024,6 +3025,6 @@
 			"layer1.texture": "Material Theme/assets/commons/panel_separator.png",
 			"layer1.opacity": 0.1,
 			"layer1.inner_margin": [2, 2, 2, 2],
-		},    
+		},
 
 ]
