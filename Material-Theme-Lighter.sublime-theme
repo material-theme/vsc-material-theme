@@ -1042,7 +1042,7 @@
 		 {
 			  "class": "label_control",
 			  "parents": [{"class": "status_bar"}],
-			  "color": [144, 164, 174],
+			  "color": [110, 119, 123],
 			  "font.bold": false
 		},
 
