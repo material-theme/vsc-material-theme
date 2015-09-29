@@ -41,7 +41,7 @@ You can install this awesome theme through the [Package Control](https://package
 ***Note*** : Remember to restart Sublime Text after activating the theme.
 
 ## Theme styles
-This theme provides a second style version:
+This theme provides three style versions:
 
 **Darker**
 ```json
@@ -53,6 +53,12 @@ This theme provides a second style version:
 ```json
 "theme": "Material-Theme-Lighter.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
+```
+
+**Solarized Ocean**
+```json
+"theme": "Material-Theme-Solarized-Ocean.sublime-theme",
+"color_scheme": "Packages/Material Theme/schemes/Solarized-Ocean.tmTheme",
 ```
 
 ## Known issues
