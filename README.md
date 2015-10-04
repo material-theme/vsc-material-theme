@@ -1,7 +1,7 @@
 # Material Theme for Sublime Text 3
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
-Please read the section [Known Issues](https://github.com/equinusocio/material-theme#known-issues) before send a new one.
+Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before send a new one.
 
 ## Buy me a beer. (Alcoholist mode ON)
 
