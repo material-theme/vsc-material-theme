@@ -113,7 +113,7 @@
 		{
 			"class": "table_row",
 			"attributes": ["selected"],
-			"layer0.opacity": 10
+			"layer0.opacity": 1.0
 		},
 
 
