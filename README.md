@@ -105,9 +105,13 @@ You can also use the official Material Design monospace font, "[Roboto Mono](htt
 
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
+**IntelliJ IDEA Porting**
+
+You can download the [IntelliJ IDEA Material Theme](https://github.com/ChrisRM/material-theme-jetbrains), theme porting made by @ChrisRM.
+
 **Vim Porting**
 
-You can now download the [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material), Material Theme porting made by @kristijanhusak.
+You can download the [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material), Material Theme porting made by @kristijanhusak.
 
 **Terminal Porting**
 
