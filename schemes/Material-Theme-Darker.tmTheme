@@ -140,7 +140,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#82B1FF</string>
+				<string>#89DDFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -173,7 +173,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#82B1FF</string>
+				<string>#89DDFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -871,6 +871,17 @@ meta.property-value support.constant.named-color.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#FFEB95</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python: Argument variable</string>
+			<key>scope</key>
+			<string>source.python meta.function-call.arguments.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7986CB</string>
 			</dict>
 		</dict>
 	</array>
