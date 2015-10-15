@@ -41,7 +41,7 @@
 				<key>findHighlight</key>
 				<string>#F8E71C</string>
 				<key>tagsOptions</key>
-				<string>underline</string>            
+				<string>underline</string>
 				<key>shadow</key>
 				<string>#90A4AE50</string>
 			</dict>
@@ -244,7 +244,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 				<key>foreground</key>
 				<string>#C3E88D</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Boolean</string>
@@ -504,7 +504,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3fb3a8ff</string>
+				<string>#E53935</string>
 			</dict>
 		</dict>
 		<dict>
@@ -823,7 +823,7 @@ meta.property-value support.constant.named-color.css</string>
 				<key>foreground</key>
 				<string>#C3E88D</string>
 			</dict>
-		</dict>      
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS: #</string>
@@ -889,7 +889,7 @@ meta.property-value support.constant.named-color.css</string>
 				<key>foreground</key>
 				<string>#7986CB</string>
 			</dict>
-		</dict>		
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
