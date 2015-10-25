@@ -91,7 +91,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "always_show_minimap_viewport": true,
 "bold_folder_labels": true,
 "indent_guide_options": [ "draw_normal", "draw_active" ]   // Highlight active indent
-"font_options": [ "gray_antialias" ],  // On retina Mac
+"font_options": [ "gray_antialias" ],                      // On retina Mac
 ```
 
 The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
