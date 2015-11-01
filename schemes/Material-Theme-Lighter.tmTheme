@@ -890,6 +890,17 @@ meta.property-value support.constant.named-color.css</string>
 				<string>#7986CB</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: html tags</string>
+			<key>scope</key>
+			<string>embedding.php entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDDDDD</string>
+			</dict>
+		</dict>		
 	</array>
 	<key>uuid</key>
 	<string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
