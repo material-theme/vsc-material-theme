@@ -105,6 +105,10 @@ You can also use the official Material Design monospace font, "[Roboto Mono](htt
 
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
+**Atom porting**
+
+You can download the [Atom Material UI](https://github.com/silvestreh/atom-material-ui), theme porting made by @silvestreh.
+
 **IntelliJ IDEA Porting**
 
 You can download the [IntelliJ IDEA Material Theme](https://github.com/ChrisRM/material-theme-jetbrains), theme porting made by @ChrisRM.
