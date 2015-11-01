@@ -504,7 +504,7 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3fb3a8ff</string>
+				<string>#E53935</string>
 			</dict>
 		</dict>
 		<dict>
