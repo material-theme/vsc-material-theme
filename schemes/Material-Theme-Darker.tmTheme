@@ -76,7 +76,7 @@
 				<key>foreground</key>
 				<string>#CDD3DE</string> <!-- text colour -->
 			</dict>
-		</dict>        
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
@@ -242,7 +242,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 				<key>foreground</key>
 				<string>#C3E88D</string>
 			</dict>
-		</dict>		
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Boolean</string>
@@ -751,7 +751,7 @@ meta.property-value support.constant.named-color.css</string>
 				<key>foreground</key>
 				<string>#FFEB95</string>
 			</dict>
-		</dict>     
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS: Property-name</string>
@@ -817,7 +817,7 @@ meta.property-value support.constant.named-color.css</string>
 				<key>foreground</key>
 				<string>#C3E88D</string>
 			</dict>
-		</dict>      
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS: #</string>
