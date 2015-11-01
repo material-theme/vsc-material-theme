@@ -17,8 +17,8 @@
 
 		{
 			"class": "grid_layout_control",
-			"border_size": 2,
-			"border_color": [39, 53, 60]
+			"border_size": 1,
+			"border_color": [34, 45, 51]
 		},
 
 
@@ -630,7 +630,7 @@
 
 		{
 			"class": "icon_folder",
-			"content_margin": [13, 8],
+			"content_margin": [10, 8],
 			"layer0.tint": [38, 50, 56],
 			"layer0.opacity": 0,
 			"layer1.texture": "Material Theme/assets/default/folder.png",
