@@ -91,7 +91,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "line_padding_bottom": 3,
 "always_show_minimap_viewport": true,
 "bold_folder_labels": true,
-"indent_guide_options": [ "draw_normal", "draw_active" ]   // Highlight active indent
+"indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
 "font_options": [ "gray_antialias" ],                      // On retina Mac
 ```
 
