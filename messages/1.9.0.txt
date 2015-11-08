@@ -8,7 +8,8 @@ Version 1.9.0
 #### UI THEME
 
 	- New contrast mode ( "material_theme_contrast_mode": true )
+	- Minor UI fixes
 
 #### COLOR SCHEME
-   
-   - Minor color scheme improvements
+
+	- Minor color scheme improvements
