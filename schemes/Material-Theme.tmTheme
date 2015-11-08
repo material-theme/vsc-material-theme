@@ -74,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CDD3DE</string> <!-- text colour -->
+				<string>#CDD3DE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -894,7 +894,18 @@ meta.property-value support.constant.named-color.css</string>
 				<key>foreground</key>
 				<string>#DDDDDD</string>
 			</dict>
-		</dict>		
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GO: function call</string>
+			<key>scope</key>
+			<string>source.go meta.function-call.go</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDDDDD</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>

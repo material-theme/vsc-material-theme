@@ -74,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CDD3DE</string> <!-- text colour -->
+				<string>#CDD3DE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -889,6 +889,17 @@ meta.property-value support.constant.named-color.css</string>
 			<string>PHP: html tags</string>
 			<key>scope</key>
 			<string>embedding.php entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDDDDD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GO: function call</string>
+			<key>scope</key>
+			<string>source.go meta.function-call.go</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
