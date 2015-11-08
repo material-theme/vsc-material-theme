@@ -898,7 +898,18 @@ meta.property-value support.constant.named-color.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#90A4AE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GO: function call</string>
+			<key>scope</key>
+			<string>source.go meta.function-call.go</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#90A4AE</string>
 			</dict>
 		</dict>		
 	</array>
