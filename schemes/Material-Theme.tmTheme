@@ -55,6 +55,18 @@
 				<string>#eeffffff</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Library class&#x2f;type</string>
+			<key>scope</key>
+			<string>support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FBC02D</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
