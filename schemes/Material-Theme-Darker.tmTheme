@@ -904,7 +904,18 @@ meta.property-value support.constant.named-color.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#DDDDDD</string>
-			</dict>
+				</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BABEL: Variables and props fix</string>
+			<key>scope</key>
+			<string>meta.group.braces.curly.js meta.property.object.js variable.other.object.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEB95</string>
+				</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
