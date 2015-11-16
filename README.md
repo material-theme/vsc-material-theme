@@ -1,4 +1,3 @@
-[![Buy me a beer](https://pledgie.com/campaigns/29452.png?skin_name=chrome](https://pledgie.com/campaigns/29452)
 [![Downloads](https://packagecontrol.herokuapp.com/downloads/Material%20Theme.svg?color=80d4cd&style=flat-square)](https://packagecontrol.io/packages/Material%20Theme)
 [![Share on Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/material-theme.svg?style=social)](https://github.com/equinusocio/material-theme)
 
@@ -110,23 +109,17 @@ You can also use the official Material Design monospace font, "[Roboto Mono](htt
 
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
-**Atom porting**
+## Other Editors
+Material Theme was also ported to:
 
-You can download the [Atom Material UI](https://github.com/silvestreh/atom-material-ui), theme porting made by @silvestreh.
 
-**IntelliJ IDEA Porting**
+- [x] [Atom Editor](https://github.com/silvestreh/atom-material-ui) (thanks to [@silvestreh](https://github.com/silvestreh)).
+- [x] [IntelliJ IDEA](https://github.com/ChrisRM/material-theme-jetbrains) (thanks to [@ChrisRM](https://github.com/ChrisRM)).
+- [x] [Vim](https://github.com/kristijanhusak/vim-hybrid-material) (thanks to [@kristijanhusak](https://github.com/kristijanhusak)).
+- [x] [Terminal OSX](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) (thanks to [@mvaneijgen](https://github.com/mvaneijgen)).
 
-You can download the [IntelliJ IDEA Material Theme](https://github.com/ChrisRM/material-theme-jetbrains), theme porting made by @ChrisRM.
 
-**Vim Porting**
-
-You can download the [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material), Material Theme porting made by @kristijanhusak.
-
-**Terminal Porting**
-
-You can download [Material Theme Terminal](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf), Material Theme porting made by @mvaneijgen
-
-**Default Color Palette**
+## Default Color Palette
 
 ![Color Palette](http://i.imgur.com/zyIK71j.jpg)
 
