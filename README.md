@@ -1,5 +1,5 @@
 [![GitHub tag](https://img.shields.io/github/tag/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases/latest)
-[![GitHub tag](https://img.shields.io/github/issues/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/issues)
+[![GitHub tag](https://img.shields.io/github/release/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases)
 [![Downloads](https://packagecontrol.herokuapp.com/downloads/Material%20Theme.svg?color=80d4cd&style=flat-square)](https://packagecontrol.io/packages/Material%20Theme)
 [![Share on Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/material-theme.svg?style=social)](https://github.com/equinusocio/material-theme)
 
@@ -41,7 +41,6 @@ Activate the theme with the following preferences at  **(Preferences > Setting -
 ```json
 "theme": "Material-Theme.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-// or "color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
 ```
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
@@ -53,7 +52,6 @@ This theme provides 2 alternative styles:
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-// or "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
 ```
 
 **Lighter**
@@ -61,6 +59,18 @@ This theme provides 2 alternative styles:
 "theme": "Material-Theme-Lighter.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 ```
+
+**Oceanic Next Color Scheme**
+If you don't like material theme color schemes you can use Oceanic Next that is provided with package by using:
+
+```json
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
+```
+or
+```json
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
+```
+
 
 ## Known issues
 Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). here the quick fix:
