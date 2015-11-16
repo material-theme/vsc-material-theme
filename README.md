@@ -1,19 +1,17 @@
-[![Releases](https://img.shields.io/github/release/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases)
-[![Issues](https://img.shields.io/github/issues/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases)
+<!-- [![Releases](https://img.shields.io/github/release/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases)
+[![Issues](https://img.shields.io/github/issues/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/issues) -->
+<!-- Pledgie Donation -->
+<!-- <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a> -->
+
+[![Buy me a beer](https://pledgie.com/campaigns/29452.png?skin_name=chrome](https://pledgie.com/campaigns/29452)
 [![Downloads](https://packagecontrol.herokuapp.com/downloads/Material%20Theme.svg?color=80d4cd&style=flat-square)](https://packagecontrol.io/packages/Material%20Theme)
 [![Share on Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/material-theme.svg?style=social)](https://github.com/equinusocio/material-theme)
-
 
 
 # Material Theme for Sublime Text 3
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
 Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before send a new one.
-
-## Buy me a beer.
-
-<!-- Pledgie Donation -->
-<a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
 ## Screenshots
 
