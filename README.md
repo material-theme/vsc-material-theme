@@ -40,17 +40,19 @@ Activate the theme with the following preferences at  **(Preferences > Setting -
 ```json
 "theme": "Material-Theme.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+// or "color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
 ```
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
 
 ## Theme styles
-This theme provides a second style version:
+This theme provides 2 alternative styles:
 
 **Darker**
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+// or "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
 ```
 
 **Lighter**
