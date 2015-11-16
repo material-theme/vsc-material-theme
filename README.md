@@ -1,11 +1,9 @@
-<!-- [![Releases](https://img.shields.io/github/release/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases)
-[![Issues](https://img.shields.io/github/issues/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/issues) -->
-<!-- Pledgie Donation -->
-<!-- <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a> -->
-
 [![Buy me a beer](https://pledgie.com/campaigns/29452.png?skin_name=chrome](https://pledgie.com/campaigns/29452)
 [![Downloads](https://packagecontrol.herokuapp.com/downloads/Material%20Theme.svg?color=80d4cd&style=flat-square)](https://packagecontrol.io/packages/Material%20Theme)
 [![Share on Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/material-theme.svg?style=social)](https://github.com/equinusocio/material-theme)
+
+<!-- Pledgie Donation -->
+<a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
 
 # Material Theme for Sublime Text 3
