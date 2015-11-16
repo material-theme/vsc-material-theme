@@ -5,10 +5,8 @@ https://github.com/equinusocio/material-theme
 Version 1.9.1
 ********************************************************************************
 
-#### UI THEME
-
-  - 
-
 #### COLOR SCHEME
 
+  - New Oceanic Next based color schemes ( Material-Theme-OceanicNext.tmTheme, Material-Theme-Darker-OceanicNext.tmTheme )
   - BABEL JS color scheme improvements
+  - Fix JSON color scheme
