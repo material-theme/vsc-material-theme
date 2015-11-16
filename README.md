@@ -61,6 +61,7 @@ This theme provides 2 alternative styles:
 ```
 
 **Oceanic Next Color Scheme**
+
 If you don't like material theme color schemes you can use Oceanic Next that is provided with package by using:
 
 ```json
