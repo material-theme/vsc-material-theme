@@ -1,4 +1,5 @@
 [![GitHub tag](https://img.shields.io/github/tag/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases/latest)
+[![GitHub tag](https://img.shields.io/github/issues/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/issues)
 [![Downloads](https://packagecontrol.herokuapp.com/downloads/Material%20Theme.svg?color=80d4cd&style=flat-square)](https://packagecontrol.io/packages/Material%20Theme)
 [![Share on Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/material-theme.svg?style=social)](https://github.com/equinusocio/material-theme)
 
