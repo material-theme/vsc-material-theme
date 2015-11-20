@@ -4,8 +4,7 @@ For more information on the Material Theme: https://github.com/equinusocio/mater
 
 **********************************************************************************************
 
-If installing manually (not through Package Control), add the following to your 
-Settings - User file and restart Sublime Text after:
+Add the following to your Settings - User file and restart Sublime Text after:
 
 {
 	"theme": "Material-Theme.sublime-theme",
@@ -29,6 +28,8 @@ Lighter version:
 	"theme": "Material-Theme-Lighter.sublime-theme",
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 }
+
+You can also use Material-Theme-OceanicNext and Material-Theme-Darker-OceanicNext as color_scheme.
 
 **********************************************************************************************
 
