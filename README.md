@@ -14,11 +14,7 @@ Please read the [Known Issues](https://github.com/equinusocio/material-theme#kno
 
 ## Screenshots
 
-![Default version](http://equinusocio.github.io/material-theme/assets/materialtheme.png)
-
-![Darker version](http://equinusocio.github.io/material-theme/assets/img/darker1.png)
-
-![Lighter version](http://equinusocio.github.io/material-theme/assets/img/material-light.png)
+![Material Theme](http://equinusocio.github.io/material-theme/assets/material_theme.png)
 
 More screenshots [here](http://equinusocio.github.io/material-theme/)
 
