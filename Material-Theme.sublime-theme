@@ -134,7 +134,7 @@
 		},
 
 
-		/* @OVERLAY PANELS
+	/* @OVERLAY PANELS
 	 * Overlay panels setting and behavioring
 	========================================================================= */
 
@@ -873,7 +873,7 @@
 	 * Scrollbars settings and behavioring
 	========================================================================= */
 
-			// Normal Vertical scrollbar track
+		// Normal Vertical scrollbar track
 
 		{
 			"class": "scroll_bar_control",
@@ -1457,7 +1457,7 @@
 	/* LIME ACCENT
 	 * =================================================================== */
 
-			// Sidebar tree highlight
+		// Sidebar tree highlight
 
 		{
 			"class": "tree_row",
@@ -2567,9 +2567,6 @@
 			"layer0.texture": "Material Theme/assets/accent-orange/find_reverse--hover.png",
 		},
 
-
-
-
 	/* YELLOW ACCENT
 	 * =================================================================== */
 
@@ -2862,7 +2859,7 @@
 	 * Options override
 	========================================================================= */
 
-			// Tabs size Settings
+		// Tabs size Settings
 
 		{
 			"class": "tabset_control",
