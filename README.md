@@ -1,7 +1,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases/latest)
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases)
 [![Downloads](https://packagecontrol.herokuapp.com/downloads/Material%20Theme.svg?color=80d4cd&style=flat-square)](https://packagecontrol.io/packages/Material%20Theme)
-[![Share on Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/material-theme.svg?style=social)](https://github.com/equinusocio/material-theme)
+[![Join the chat at https://gitter.im/equinusocio/material-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/equinusocio/material-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <!-- Pledgie Donation -->
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
@@ -9,7 +9,6 @@
 
 # Material Theme for Sublime Text 3
 
-[![Join the chat at https://gitter.im/equinusocio/material-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/equinusocio/material-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
 Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before send a new one.
