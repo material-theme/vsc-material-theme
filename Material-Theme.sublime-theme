@@ -134,7 +134,7 @@
 		},
 
 
-		/* @OVERLAY PANELS
+	/* @OVERLAY PANELS
 	 * Overlay panels setting and behavioring
 	========================================================================= */
 
@@ -290,9 +290,32 @@
 			"layer1.inner_margin": [0, 0],
 			"layer1.opacity": 0.0,
 
-			"layer2.tint": [128, 203, 196, 20],
+			"layer2.tint": [128, 203, 196, 0],
 			"layer2.inner_margin": [0, 0],
 			"layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
+
+			"layer3.inner_margin": [0, 0],
+			"layer3.opacity": 0.0,
+			"layer3.texture": {
+							"keyframes":
+							[
+								"Material Theme/assets/default/tab_animation1.png",
+								"Material Theme/assets/default/tab_animation2.png",
+								"Material Theme/assets/default/tab_animation3.png",
+								"Material Theme/assets/default/tab_animation4.png",
+								"Material Theme/assets/default/tab_animation5.png",
+								"Material Theme/assets/default/tab_animation6.png",
+								"Material Theme/assets/default/tab_animation7.png",
+								"Material Theme/assets/default/tab_animation8.png",
+								"Material Theme/assets/default/tab_animation9.png",
+								"Material Theme/assets/default/tab_animation10.png",
+								"Material Theme/assets/default/tab_animation11.png",
+								"Material Theme/assets/default/tab_animation12.png",
+								"Material Theme/assets/default/tab_animation13.png"
+							],
+							"loop": false,
+							"frame_time": 0.015,
+			},
 
 			"content_margin": [18, 12, 11, 4],
 			"max_margin_trim": 0,
@@ -304,15 +327,17 @@
 		{
 			"class": "tab_control", "attributes": ["selected"],
 			"layer1.opacity": 1.0,
-			"layer2.opacity": 0.0
+			"layer2.opacity": 0.0,
+			"layer3.opacity": 0.0
 		},
 
 			// Hovered current tab
 
 		{
 			"class": "tab_control", "attributes": ["hover"],
-			"layer1.opacity": 0.0,
-			"layer2.opacity": { "target": 0.4, "speed": 5.0, "interpolation": "smoothstep" }
+			"layer1.opacity": 1.0,
+			"layer2.opacity": { "target": 0.6, "speed": 5.0, "interpolation": "smoothstep" },
+			"layer3.opacity": 1.0
 		},
 
 			// Selected current tab
@@ -320,7 +345,8 @@
 		{
 			"class": "tab_control", "attributes": ["selected","hover"],
 			"layer1.opacity": 1.0,
-			"layer2.opacity": { "target": 0.4, "speed": 5.0, "interpolation": "smoothstep" }
+			"layer2.opacity": { "target": 0.6, "speed": 5.0, "interpolation": "smoothstep" },
+			"layer3.opacity": 0.0
 		},
 
 			// Tab Labels
@@ -847,7 +873,7 @@
 	 * Scrollbars settings and behavioring
 	========================================================================= */
 
-			// Normal Vertical scrollbar track
+		// Normal Vertical scrollbar track
 
 		{
 			"class": "scroll_bar_control",
@@ -1431,7 +1457,7 @@
 	/* LIME ACCENT
 	 * =================================================================== */
 
-			// Sidebar tree highlight
+		// Sidebar tree highlight
 
 		{
 			"class": "tree_row",
@@ -2541,9 +2567,6 @@
 			"layer0.texture": "Material Theme/assets/accent-orange/find_reverse--hover.png",
 		},
 
-
-
-
 	/* YELLOW ACCENT
 	 * =================================================================== */
 
@@ -2836,7 +2859,7 @@
 	 * Options override
 	========================================================================= */
 
-			// Tabs size Settings
+		// Tabs size Settings
 
 		{
 			"class": "tabset_control",
@@ -2849,7 +2872,7 @@
 			"class": "tabset_control",
 			"settings": ["material_theme_tabs_autowidth"],
 			"tab_width": 0
-		},      
+		},
 
 		{
 			"class": "tab_control",
@@ -2864,7 +2887,7 @@
 			"layer3.texture": "Material Theme/assets/commons/tab_separator.png",
 			"layer3.inner_margin": [1, 1],
 			"layer3.opacity": 1.0,
-		},       
+		},
 
 			// Tab Labels
 
@@ -2986,12 +3009,12 @@
 			"class": "sidebar_tree",
 			"settings": ["material_theme_contrast_mode"],
 			"layer0.tint": [33, 45, 52]
-		},      
+		},
 		{
 			"class": "status_bar",
 			"settings": ["material_theme_contrast_mode"],
 			"layer1.tint": [33, 45, 52]
-		},      
+		},
 		{
 			"class": "panel_control",
 			"settings": ["material_theme_contrast_mode"],

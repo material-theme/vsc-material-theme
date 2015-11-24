@@ -289,9 +289,33 @@
 			"layer1.inner_margin": [0, 0],
 			"layer1.opacity": 0.0,
 
-			"layer2.tint": [128, 203, 196, 20],
+			"layer2.tint": [128, 203, 196, 0],
 			"layer2.inner_margin": [0, 0],
 			"layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
+
+
+			"layer3.inner_margin": [0, 0],
+			"layer3.opacity": 0.0,
+			"layer3.texture": {
+							"keyframes":
+							[
+								"Material Theme/assets/lighter/tab_animation1.png",
+								"Material Theme/assets/lighter/tab_animation2.png",
+								"Material Theme/assets/lighter/tab_animation3.png",
+								"Material Theme/assets/lighter/tab_animation4.png",
+								"Material Theme/assets/lighter/tab_animation5.png",
+								"Material Theme/assets/lighter/tab_animation6.png",
+								"Material Theme/assets/lighter/tab_animation7.png",
+								"Material Theme/assets/lighter/tab_animation8.png",
+								"Material Theme/assets/lighter/tab_animation9.png",
+								"Material Theme/assets/lighter/tab_animation10.png",
+								"Material Theme/assets/lighter/tab_animation11.png",
+								"Material Theme/assets/lighter/tab_animation12.png",
+								"Material Theme/assets/lighter/tab_animation13.png"
+							],
+							"loop": false,
+							"frame_time": 0.015,
+			},
 
 			"content_margin": [18, 12, 11, 4],
 			"max_margin_trim": 0,
@@ -303,15 +327,17 @@
 		{
 			"class": "tab_control", "attributes": ["selected"],
 			"layer1.opacity": 1.0,
-			"layer2.opacity": 0.0
+			"layer2.opacity": 0.0,
+			"layer3.opacity": 0.0
 		},
 
 			// Hovered current tab
 
 		{
 			"class": "tab_control", "attributes": ["hover"],
-			"layer1.opacity": 0.0,
-			"layer2.opacity": { "target": 0.8, "speed": 5.0, "interpolation": "smoothstep" }
+			"layer1.opacity": 1.0,
+			"layer2.opacity": { "target": 0.8, "speed": 5.0, "interpolation": "smoothstep" },
+			"layer3.opacity": 1.0
 		},
 
 			// Selected current tab
@@ -319,7 +345,8 @@
 		{
 			"class": "tab_control", "attributes": ["selected","hover"],
 			"layer1.opacity": 1.0,
-			"layer2.opacity": { "target": 0.8, "speed": 5.0, "interpolation": "smoothstep" }
+			"layer2.opacity": { "target": 0.8, "speed": 5.0, "interpolation": "smoothstep" },
+			"layer3.opacity": 0.0
 		},
 
 			// Tab Labels
@@ -2845,7 +2872,7 @@
 			"class": "tabset_control",
 			"settings": ["material_theme_tabs_autowidth"],
 			"tab_width": 0
-		},   
+		},
 
 		{
 			"class": "tab_control",
@@ -2860,7 +2887,7 @@
 			"layer3.texture": "Material Theme/assets/commons/tab_separator.png",
 			"layer3.inner_margin": [1, 1],
 			"layer3.opacity": 1.0,
-		},       
+		},
 
 			// Tab Labels
 
@@ -3024,7 +3051,7 @@
 			"layer1.texture": "Material Theme/assets/commons/panel_separator.png",
 			"layer1.opacity": 0.1,
 			"layer1.inner_margin": [2, 2, 2, 2],
-		},    
+		},
 
 			// Contrast mode
 
@@ -3037,12 +3064,12 @@
 			"class": "sidebar_tree",
 			"settings": ["material_theme_contrast_mode"],
 			"layer0.tint": [240, 240, 240]
-		},      
+		},
 		{
 			"class": "status_bar",
 			"settings": ["material_theme_contrast_mode"],
 			"layer1.tint": [240, 240, 240]
-		},      
+		},
 		{
 			"class": "panel_control",
 			"settings": ["material_theme_contrast_mode"],

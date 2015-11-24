@@ -15,7 +15,7 @@ Please read the [Known Issues](https://github.com/equinusocio/material-theme#kno
 
 ## Screenshots
 
-![Material Theme](http://equinusocio.github.io/material-theme/assets/material_theme.png)
+![Material Theme](http://equinusocio.github.io/material-theme/assets/multi.jpg)
 
 More screenshots [here](http://equinusocio.github.io/material-theme/)
 
