@@ -8,6 +8,8 @@
 
 
 # Material Theme for Sublime Text 3
+
+[![Join the chat at https://gitter.im/equinusocio/material-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/equinusocio/material-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
 Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before send a new one.
