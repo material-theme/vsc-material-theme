@@ -58,7 +58,7 @@
 
 		<dict>
 			<key>name</key>
-			<string>Library class&#x2f;type</string>
+			<string>Library class type</string>
 			<key>scope</key>
 			<string>support.type, support.class</string>
 			<key>settings</key>
