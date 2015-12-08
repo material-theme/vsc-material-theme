@@ -471,14 +471,14 @@
       "layer0.opacity": 1.0,
       "layer0.inner_margin": 0,
       "layer1.texture": "Material Theme/assets/commons/arrow_left--hover.png",
-      "layer1.opacity": 0.0,
+      "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
       "layer1.inner_margin": 0,
     },
 
     {
       "class": "scroll_tabs_left_button",
       "attributes": ["hover"],
-      "layer1.opacity": 1.0
+      "layer1.opacity": { "target": 1.0, "speed": 8.0, "interpolation": "smoothstep" }
     },
 
     {
@@ -488,14 +488,14 @@
       "layer0.opacity": 1.0,
       "layer0.inner_margin": 0,
       "layer1.texture": "Material Theme/assets/commons/arrow_right--hover.png",
-      "layer1.opacity": 0.0,
+      "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
       "layer1.inner_margin": 0,
     },
 
     {
       "class": "scroll_tabs_right_button",
       "attributes": ["hover"],
-      "layer1.opacity": 1.0
+      "layer1.opacity": { "target": 1.0, "speed": 8.0, "interpolation": "smoothstep" }
     },
 
     {
@@ -505,14 +505,14 @@
       "layer0.opacity": 1.0,
       "layer0.inner_margin": 0,
       "layer1.texture": "Material Theme/assets/commons/overflow_menu--hover.png",
-      "layer1.opacity": 0.0,
+      "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
       "layer1.inner_margin": 0,
     },
 
     {
       "class": "show_tabs_dropdown_button",
       "attributes": ["hover"],
-      "layer1.opacity": 1.0
+      "layer1.opacity": { "target": 1.0, "speed": 8.0, "interpolation": "smoothstep" }
     },
 
 
