@@ -932,9 +932,20 @@ meta.property-value support.constant.named-color.css</string>
     </dict>
     <dict>
       <key>name</key>
+      <string>JSON: Value</string>
+      <key>scope</key>
+      <string>source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#f77669</string>
+        </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>JSON: Key</string>
       <key>scope</key>
-      <string>source.js meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js, source.js meta.group.braces.curly string.quoted.single.js</string>
+      <string>source.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json, source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
