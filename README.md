@@ -101,13 +101,13 @@ If you want to enable the white panels and inputs you can install the addon pack
 ## Recommended UI and font settings for a better experience:
 
 ```json
-"overlay_scroll_bars": "enabled",
-"line_padding_top": 3,
-"line_padding_bottom": 3,
-"always_show_minimap_viewport": true,
-"bold_folder_labels": true,
-"indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
-"font_options": [ "gray_antialias" ],                      // On retina Mac
+"overlay_scroll_bars"          : "enabled",
+"line_padding_top"             : 3,
+"line_padding_bottom"          : 3,
+"always_show_minimap_viewport" : true,
+"bold_folder_labels"           : true,
+"indent_guide_options"         : [ "draw_normal", "draw_active" ],   // Highlight active indent
+"font_options"                 : [ "gray_antialias" ],                      // On retina Mac
 ```
 
 The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
