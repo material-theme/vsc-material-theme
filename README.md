@@ -61,10 +61,12 @@ This theme provides 2 alternative styles:
 
 If you don't like material theme color schemes you can use Oceanic Next that is provided with package by using:
 
+*default*
 ```json
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
 ```
-or
+
+*Darker*
 ```json
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
 ```
