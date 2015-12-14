@@ -945,6 +945,61 @@ meta.property-value support.constant.named-color.css</string>
         <string>#C3E88D</string>
         </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Module Names</string>
+      <key>scope</key>
+      <string>source.elixir support.type.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#EBB060</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Atom</string>
+      <key>scope</key>
+      <string>source.elixir constant.other.symbol.elixir, source.elixir constant.other.keywords.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E53935</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: String</string>
+      <key>scope</key>
+      <string>source.elixir punctuation.definition.string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#99b89dff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Module Attribute</string>
+      <key>scope</key>
+      <string>source.elixir variable.other.readwrite.module.elixir, source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#EBB060</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Binaries</string>
+      <key>scope</key>
+      <string>source.elixir punctuation.binary.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#39ADB5</string>
+      </dict>
+    </dict>
 	</array>
 	<key>uuid</key>
 	<string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
