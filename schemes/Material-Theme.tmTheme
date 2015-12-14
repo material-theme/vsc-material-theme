@@ -59,13 +59,24 @@
 			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment</string>
+			<string>comment, punctuation.definition.comment, text.cancelled, meta.punctuation.separator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#546E7A</string>
 			</dict>
 		</dict>
+	    <dict>
+	      <key>name</key>
+	      <string>notes</string>
+	      <key>scope</key>
+	      <string>notes</string>
+	      <key>settings</key>
+	      <dict>
+	        <key>foreground</key>
+	        <string>#8EACE3</string>
+	      </dict>
+	    </dict>
 		<dict>
 			<key>name</key>
 			<string>Text and Source Base Colors</string>
@@ -348,7 +359,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 			<key>name</key>
 			<string>Bold</string>
 			<key>scope</key>
-			<string>markup.bold, punctuation.definition.bold</string>
+			<string>markup.bold, punctuation.definition.bold, todo.bold</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -361,7 +372,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
 			<key>name</key>
 			<string>Italic</string>
 			<key>scope</key>
-			<string>markup.italic, punctuation.definition.italic</string>
+			<string>markup.italic, punctuation.definition.italic, todo.italic</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -938,6 +949,72 @@ meta.property-value support.constant.named-color.css</string>
         <key>foreground</key>
         <string>#C3E88D</string>
         </dict>
+    </dict>
+		<dict>
+      <key>name</key>
+      <string>Elixir: Module Names</string>
+      <key>scope</key>
+      <string>source.elixir support.type.elixir, source.elixir meta.module.elixir entity.name.class.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#82AAFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Function definitions</string>
+      <key>scope</key>
+      <string>source.elixir entity.name.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffcb6b</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Atom</string>
+      <key>scope</key>
+      <string>source.elixir constant.other.symbol.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F77669</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: String</string>
+      <key>scope</key>
+      <string>source.elixir punctuation.definition.string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C3E88D</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Module Attribute</string>
+      <key>scope</key>
+      <string>source.elixir variable.other.readwrite.module.elixir, source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffcb6b</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Elixir: Binaries</string>
+      <key>scope</key>
+      <string>source.elixir punctuation.binary.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#c792eaff</string>
+      </dict>
     </dict>
 	</array>
 	<key>uuid</key>
