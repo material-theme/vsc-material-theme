@@ -72,11 +72,22 @@
       <key>name</key>
       <string>Comments</string>
       <key>scope</key>
-      <string>comment, punctuation.definition.comment</string>
+      <string>comment, punctuation.definition.comment, text.cancelled, meta.punctuation.separator</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#444444</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>notes</string>
+      <key>scope</key>
+      <string>notes</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8EACE3</string>
       </dict>
     </dict>
     <dict>
@@ -361,7 +372,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Bold</string>
       <key>scope</key>
-      <string>markup.bold, punctuation.definition.bold</string>
+      <string>markup.bold, punctuation.definition.bold, todo.bold</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -374,7 +385,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Italic</string>
       <key>scope</key>
-      <string>markup.italic, punctuation.definition.italic</string>
+      <string>markup.italic, punctuation.definition.italic, todo.italic</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>

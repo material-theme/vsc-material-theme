@@ -60,11 +60,22 @@
       <key>name</key>
       <string>Comments</string>
       <key>scope</key>
-      <string>comment, punctuation.definition.comment</string>
+      <string>comment, punctuation.definition.comment, text.cancelled, meta.punctuation.separator</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#546E7A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>notes</string>
+      <key>scope</key>
+      <string>notes</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#8EACE3</string>
       </dict>
     </dict>
     <dict>
