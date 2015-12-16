@@ -55,6 +55,8 @@
         <string>underline</string>
         <key>shadow</key>
         <string>#00000010</string>
+        <key>selectionBorder</key>
+        <string>#5A647E</string>
       </dict>
     </dict>
     <dict>
