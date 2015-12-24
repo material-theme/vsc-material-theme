@@ -1028,7 +1028,18 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c792eaff</string>
+        <string>#c792ea</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SysTypes</string>
+      <key>scope</key>
+      <string>support.type.sys-types</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffcb6b</string>
       </dict>
     </dict>
   </array>
