@@ -72,6 +72,7 @@ If you don't like material theme color schemes you can use Oceanic Next that is 
 ```
 
 **Old Color Schemes**
+
 You can still use the oldest and **unsupported** color schemes (with red variables) 
 
 ```json
