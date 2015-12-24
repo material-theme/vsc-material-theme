@@ -1,0 +1,17 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+
+Version 1.9.8
+********************************************************************************
+
+#### UI THEME
+
+  - Minor UI bugfix
+
+#### COLOR SCHEME
+
+  - Add selection border
+  - Improve markdown highlight
+  - Improve general system highlight
+  - Restored old and UNSUPPORTED color schemes with red variables.
