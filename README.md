@@ -7,7 +7,7 @@
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
 
-# Material Theme for Sublime Text 3
+# Material Theme for Sublime Text 3 3085+
 
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
@@ -57,18 +57,28 @@ This theme provides 2 alternative styles:
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 ```
 
-**Oceanic Next Color Scheme**
+**Oceanic Next Color Schemes**
 
 If you don't like material theme color schemes you can use Oceanic Next that is provided with package by using:
 
+*default*
 ```json
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
 ```
-or
+
+*Darker*
 ```json
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
 ```
 
+**Old Color Schemes**
+You can still use the oldest and **unsupported** color schemes (with red variables) 
+
+```json
+"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme-Darker.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme-Lighter.tmTheme",
+```
 
 ## Known issues
 Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). here the quick fix:
@@ -87,7 +97,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_small_statusbar"          : true , // Set small status bar
 "material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
 "material_theme_bold_tab"                 : true , // Make the tab labels bolder
-"material_theme_tabs_separator"           : true , // Show tabs separator
+"material_theme_tabs_separator"           : true , // Show tabs separator, this disable tab animation hover
 "material_theme_accent_lime"              : true , // set green lime accent color
 "material_theme_accent_purple"            : true , // set purple accent color
 "material_theme_accent_red"               : true , // set pale red accent color
