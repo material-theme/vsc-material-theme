@@ -528,7 +528,7 @@
     },
     {
       "class": "sidebar_tree",
-      "row_padding": [24, 5],
+      "row_padding": [24, 8],
       "indent": 16,
       "indent_offset": 0,
       "indent_top_level": false,
@@ -3071,5 +3071,12 @@
       "settings": ["material_theme_contrast_mode"],
       "layer1.tint": [30, 30, 30]
     },
+
+    // Compact mode
+    {
+      "class": "sidebar_tree",
+      "settings": ["material_theme_compact_sidebar"],
+      "row_padding": [24, 5]
+    }
 
 ]
