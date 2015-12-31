@@ -96,6 +96,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_disable_fileicons"        : true , // Hide siderbar file type icons
 "material_theme_disable_folder_animation" : true , // Disable folder animation
 "material_theme_small_statusbar"          : true , // Set small status bar
+"material_theme_compact_sidebar"          : true , // Set small status bar
 "material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
 "material_theme_bold_tab"                 : true , // Make the tab labels bolder
 "material_theme_tabs_separator"           : true , // Show tabs separator, this disable tab animation hover
