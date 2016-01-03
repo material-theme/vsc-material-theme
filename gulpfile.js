@@ -10,22 +10,22 @@
 // #############################################################################
 
 // Compiler settings
-var srcPath         = './src';
-var notifyLogo      = './icon.png';
+var srcPath    = './src';
+var notifyLogo = './icon.png';
 
 
 // Modules loader
-var gulp        = require( 'gulp' ),
-    path        = require( 'path' ),
-    duration    = require( 'gulp-duration' ),
-    gutil       = require( 'gulp-util' ),
-    clean       = require( 'gulp-clean' ),
-    runSequence = require( 'run-sequence' ),
-    concat_json = require( "gulp-concat-json" ),
-    rename      = require( 'gulp-rename' ),
-    concat      = require( 'gulp-concat-json2js' ),
-    wrap        = require( 'gulp-wrap' ),
-    notify      = require( 'gulp-notify' );
+var gulp       = require( 'gulp' ),
+path           = require( 'path' ),
+duration       = require( 'gulp-duration' ),
+gutil          = require( 'gulp-util' ),
+clean          = require( 'gulp-clean' ),
+runSequence    = require( 'run-sequence' ),
+concat_json    = require( "gulp-concat-json" ),
+rename         = require( 'gulp-rename' ),
+concat         = require( 'gulp-concat-json2js' ),
+wrap           = require( 'gulp-wrap' ),
+notify         = require( 'gulp-notify' );
 
 
 // Theme builder
@@ -35,16 +35,16 @@ var gulp        = require( 'gulp' ),
 gulp.task('themeBuilder', function () {
 
   gulp.src('./src/**.json')
- .pipe(concat())
- .pipe(wrap('[\r\n <%= contents %> \r\n]'))
- .pipe(rename({ extname: ".sublime-theme" }) )
- .pipe(gulp.dest('./'))
- .pipe(notify({
+  .pipe(concat())
+  .pipe(wrap('[\r\n <%= contents %> \r\n]'))
+  .pipe(rename({ extname: ".sublime-theme" }) )
+  .pipe(gulp.dest('./'))
+  .pipe(notify({
     title: "Material Theme",
     message: "Theme compiled",
     icon: path.join( __dirname, notifyLogo )
   }))
- .pipe(duration('Building theme'))
+  .pipe(duration('Building theme'))
 })
 
 
