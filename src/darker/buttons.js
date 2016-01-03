@@ -1,0 +1,242 @@
+
+/* @BUTTONS
+ * Buttons panels settings and behavioring
+========================================================================= */
+
+
+  // Button labels
+
+   {
+      "class": "label_control",
+      "parents": [{"class": "button_control"}],
+      "color": [176, 190, 196],
+      "font.bold": true
+   },
+
+   {
+    "class": "button_control",
+    "content_margin": [6, 12, 6, 12],
+    "min_size": [75, 0],
+    "layer0.tint": [33, 33, 33],
+    "layer0.opacity": 0.0,
+    "layer0.inner_margin": [6, 6],
+    "layer1.texture": "Material Theme/assets/commons/full_button_indented.png",
+    "layer1.opacity": 0.0,
+    "layer1.inner_margin": [6, 6],
+    "layer2.texture": "Material Theme/assets/darker/blue_highlight.png",
+    "layer2.opacity": { "target": 0.0, "speed": 2.0, "interpolation": "smoothstep" },
+    "layer2.inner_margin": [6, 6]
+  },
+  {
+    "class": "button_control",
+    "attributes": ["pressed"],
+    "layer0.opacity": 0,
+    "layer2.opacity": 1.0
+  },
+  {
+    "class": "button_control",
+    "attributes": ["pressed", "hover"],
+    "layer2.opacity": 0.0
+  },
+  {
+    "class": "button_control",
+    "attributes": ["hover"],
+    "layer2.opacity": 1.0
+  },
+
+  // Small Icon Buttons
+  {
+    "class": "icon_button_control",
+    "layer0.tint": [33, 33, 33],
+    "layer0.inner_margin": [6, 6],
+    "layer0.opacity": 0.0,
+    "layer2.tint": [255, 255, 255],
+    "layer2.opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" },
+    "content_margin": [10, 6]
+  },
+
+
+  /* Buttons icons settings
+  ===================================================================== */
+
+    // Regex Icon
+  {
+    "class": "icon_regex",
+    "layer0.texture": "Material Theme/assets/commons/find_regex--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_regex.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+   {
+      "class": "icon_regex",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Preserve case sensitive
+
+  {
+    "class": "icon_case",
+    "layer0.texture": "Material Theme/assets/commons/find_case--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_case.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+   {
+      "class": "icon_case",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Wholeword
+
+  {
+    "class": "icon_whole_word",
+    "layer0.texture": "Material Theme/assets/commons/find_word--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_word.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+
+   {
+      "class": "icon_whole_word",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Wrap
+
+  {
+    "class": "icon_wrap",
+    "layer0.texture": "Material Theme/assets/commons/find_wrap--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_wrap.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+   {
+      "class": "icon_wrap",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // In selection
+
+  {
+    "class": "icon_in_selection",
+    "layer0.texture": "Material Theme/assets/commons/find_inselection--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_inselection.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12,12]
+  },
+
+
+   {
+      "class": "icon_in_selection",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Highlight Result
+
+  {
+    "class": "icon_highlight",
+    "layer0.texture": "Material Theme/assets/commons/find_highlight--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_highlight.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+   {
+      "class": "icon_highlight",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Preserve Case
+
+  {
+    "class": "icon_preserve_case",
+    "layer0.texture": "Material Theme/assets/commons/replace_preserve_case--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/replace_preserve_case.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+   {
+      "class": "icon_preserve_case",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Show context
+
+  {
+    "class": "icon_context",
+    "layer0.texture": "Material Theme/assets/commons/find_context--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_context.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+
+   {
+      "class": "icon_context",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Use buffer
+
+  {
+    "class": "icon_use_buffer",
+    "layer0.texture": "Material Theme/assets/commons/use_buffer--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/use_buffer.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+   {
+      "class": "icon_use_buffer",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
+
+    // Reverse direction
+
+  {
+    "class": "icon_reverse",
+    "layer0.texture": "Material Theme/assets/commons/find_reverse--hover.png",
+    "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.texture": "Material Theme/assets/darker/find_reverse.png",
+    "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "content_margin": [12, 12]
+  },
+
+   {
+      "class": "icon_reverse",
+      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+   },
