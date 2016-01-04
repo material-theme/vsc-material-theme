@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>text.html.laravel-blade</string>
+    <string>text.html.laravel-blade, text.blade</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
