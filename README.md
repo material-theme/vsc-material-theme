@@ -76,9 +76,9 @@ If you don't like material theme color schemes you can use Oceanic Next that is 
 You can still use the oldest and **unsupported** color schemes (with red variables) 
 
 ```json
-"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme.tmTheme",
-"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme-Darker.tmTheme",
-"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme-Lighter.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Darker.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Lighter.tmTheme",
 ```
 
 ## Known issues
