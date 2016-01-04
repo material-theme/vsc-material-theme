@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>name</key>
+		<string>Less</string>
+		<key>fileTypes</key>
+		<array>
+			<string>less</string>
+		</array>
+		<key>patterns</key>
+		<array>
+			<dict>
+				<key>include</key>
+				<string>source.css</string>
+			</dict>
+		</array>
+		<key>scopeName</key>
+		<string>source.css, source.less</string>
+	</dict>
+</plist>
