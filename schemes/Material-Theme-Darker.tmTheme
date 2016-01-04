@@ -295,11 +295,11 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Tags</string>
       <key>scope</key>
-      <string>entity.name.tag</string>
+      <string>entity.name.tag, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ff5370ff</string>
+        <string>#ff5370</string>
       </dict>
     </dict>
     <dict>
