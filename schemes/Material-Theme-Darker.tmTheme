@@ -1042,6 +1042,24 @@ meta.property-value support.constant.named-color.css</string>
         <string>#ffcb6b</string>
       </dict>
     </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant.numeric.line-number.find-in-files - match</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#AE81FFA0</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>entity.name.filename.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E6DB74</string>
+      </dict>
+    </dict>
   </array>
   <key>uuid</key>
   <string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
