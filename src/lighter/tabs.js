@@ -10,7 +10,7 @@
     "tint_index": 1,
     "layer0.inner_margin": [2, 6],
     "layer0.opacity": 1.0,
-    "content_margin": [12, 10, 8, 0],
+    "content_margin": [12, 0, 8, 0],
     "tab_overlap": 0,
     "tab_width": 180,
     "tab_min_width": 64,
@@ -63,7 +63,7 @@
             "frame_time": 0.015,
     },
 
-    "content_margin": [18, 12, 11, 4],
+    "content_margin": [16, 0, 8, 0],
     "max_margin_trim": 0,
     "hit_test_level": 0.4
   },

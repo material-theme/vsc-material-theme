@@ -86,6 +86,8 @@ Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/
 
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
 
+## Addons
+
 #### White panels
 If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
 
