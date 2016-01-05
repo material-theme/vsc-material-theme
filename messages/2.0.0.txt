@@ -13,6 +13,7 @@ Happy 5K stars and 90K installations!! I love you all! ( except those who open i
   ➼ Increase sidebar spacing and add new setting to enable old compact sidebar ( "material_theme_compact_sidebar": true )
   ➼ Update some filetype icons
   ➼ Fixed blade icon not showing after the latest updates
+  ➼ Revisited tabs size and centering
 
 🏮 COLOR SCHEME️
 
@@ -22,4 +23,3 @@ Happy 5K stars and 90K installations!! I love you all! ( except those who open i
 🏮 CORE
 
   ➼ Add a gulp/js compiler to the main theme structure. Now we have to edit source (./src) files and compile by run `$ npm install` and then `$ gulp`
-
