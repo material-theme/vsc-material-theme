@@ -282,7 +282,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Tags</string>
       <key>scope</key>
-      <string>entity.name.tag</string>
+      <string>entity.name.tag, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -766,7 +766,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b8aa6fff</string>
+        <string>#E53935</string>
       </dict>
     </dict>
     <dict>
@@ -1024,20 +1024,20 @@ meta.property-value support.constant.named-color.css</string>
     </dict>
     <dict>
       <key>scope</key>
-      <string>constant.numeric.line-number.find-in-files - match</string>
+      <string>constant.numeric.line-number.find-in-files - match, text.find-in-files constant.numeric.line-number.find-in-files</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#AE81FFA0</string>
+        <string>#CFD8DC</string>
       </dict>
     </dict>
     <dict>
       <key>scope</key>
-      <string>entity.name.filename.find-in-files</string>
+      <string>entity.name.filename.find-in-files, text.find-in-files constant.numeric.line-number.match.find-in-files</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E6DB74</string>
+        <string>#E53935</string>
       </dict>
     </dict>
   </array>

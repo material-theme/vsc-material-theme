@@ -76,15 +76,17 @@ If you don't like material theme color schemes you can use Oceanic Next that is 
 You can still use the oldest and **unsupported** color schemes (with red variables) 
 
 ```json
-"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme.tmTheme",
-"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme-Darker.tmTheme",
-"color_scheme": "Packages/Material Theme/schemes/OLD-Material-Theme-Lighter.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Darker.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Lighter.tmTheme",
 ```
 
 ## Known issues
 Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). here the quick fix:
 
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
+
+## Addons
 
 #### White panels
 If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
@@ -126,6 +128,17 @@ The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" 
 
 You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
 
+## Theme compiler
+
+This UI theme use a custom compiler build on Gulp and JS. If you want to edit the UI you must first install the compiler:
+```
+$ npm install
+```
+then run compiler and watcher by run:
+```
+$ gulp
+```
+You can now edit the source files under `/src` folder that will be compiled inside the root folder (don't edit compiled files.)
 
 ## Other Resources
 
