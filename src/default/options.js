@@ -159,11 +159,7 @@
     "settings": ["material_theme_contrast_mode"],
     "layer1.tint": [33, 45, 52]
   },
-  {
-    "class": "panel_control",
-    "settings": ["material_theme_contrast_mode"],
-    "layer1.tint": [33, 45, 52]
-  },
+
 
   // Compact mode
   {
