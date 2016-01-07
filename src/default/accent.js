@@ -9,7 +9,7 @@ NOTE: This rulers must only override the original definitions */
 /* LIME ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
@@ -301,7 +301,7 @@ NOTE: This rulers must only override the original definitions */
 /* PURPLE ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
@@ -361,7 +361,7 @@ NOTE: This rulers must only override the original definitions */
     "class": "sidebar_label",
     "settings": ["material_theme_accent_purple"],
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-    "color": [156, 39, 176]
+    "color": [171, 71, 188]
   },
 
   {
