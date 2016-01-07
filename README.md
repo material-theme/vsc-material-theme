@@ -110,6 +110,9 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_panel_separator"          : true , // show bottom panel separator
 "material_theme_tabs_autowidth"           : true , // Enable autowidth for tabs
 "material_theme_contrast_mode"            : true , // Enable sidebar and panels contrast mode
+
+// If you use Material Theme - Appbar addon you can use additional settings:
+"material_theme_tree_headings"            : true , // Show siderbar headings
 ```
 
 ## Recommended UI and font settings for a better experience:
