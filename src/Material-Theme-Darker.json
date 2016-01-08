@@ -12,6 +12,6 @@
   "darker/statusbar.js",
   "darker/widgets.js",
   "darker/buttons.js",
-  "darker/accent.js",
+  "commons/accent.js",
   "darker/options.js"
 ]

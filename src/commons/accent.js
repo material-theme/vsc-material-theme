@@ -1,5 +1,5 @@
-
 /* @ THEME ACCENTS
+
  * Accents color settings
 =========================================================================
 This specific options define the accents color to be used in the general UI.
@@ -18,12 +18,25 @@ NOTE: This rulers must only override the original definitions */
   },
 
   {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_lime"],
+    "layer0.tint": [139, 195, 74],
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_lime"],
+    "match_fg": [139, 195, 74],
+    "selected_match_fg": [139, 195, 74]
+  },
+
+  {
     "class": "tool_tip_label_control",
     "settings": ["material_theme_accent_lime"],
     "color": [255, 255, 255, 255]
   },
 
-  // Sidebar tree highlight
+    // Sidebar tree highlight
 
   {
     "class": "tree_row",
@@ -310,6 +323,19 @@ NOTE: This rulers must only override the original definitions */
   },
 
   {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_purple"],
+    "layer0.tint": [156, 39, 176]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_purple"],
+    "match_fg": [156, 39, 176],
+    "selected_match_fg": [156, 39, 176]
+  },
+
+  {
     "class": "tool_tip_label_control",
     "settings": ["material_theme_accent_purple"],
     "color": [255, 255, 255, 255]
@@ -593,12 +619,25 @@ NOTE: This rulers must only override the original definitions */
 /* RED ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_red"],
     "layer0.tint": [229, 115, 115],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_red"],
+    "layer0.tint": [229, 115, 115]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_red"],
+    "match_fg": [229, 115, 115],
+    "selected_match_fg": [229, 115, 115]
   },
 
   {
@@ -885,12 +924,25 @@ NOTE: This rulers must only override the original definitions */
 /* ORANGE ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_orange"],
     "layer0.tint": [255, 112, 67],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_orange"],
+    "layer0.tint": [255, 112, 67]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_orange"],
+    "match_fg": [255, 112, 67],
+    "selected_match_fg": [255, 112, 67]
   },
 
   {
@@ -1177,12 +1229,25 @@ NOTE: This rulers must only override the original definitions */
 /* YELLOW ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_yellow"],
     "layer0.tint": [255, 241, 118],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_yellow"],
+    "layer0.tint": [255, 241, 118]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_yellow"],
+    "match_fg": [255, 241, 118],
+    "selected_match_fg": [255, 241, 118]
   },
 
   {
@@ -1335,7 +1400,7 @@ NOTE: This rulers must only override the original definitions */
     "fg": [176, 190, 197, 255],
     "match_fg": [255, 241, 118],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 241, 118]
   },
 
     // Panel labels
@@ -1347,7 +1412,7 @@ NOTE: This rulers must only override the original definitions */
     "fg": [176, 190, 197, 255],
     "match_fg": [255, 241, 118],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 241, 118]
   },
 
     // Panels sublabels
@@ -1358,7 +1423,7 @@ NOTE: This rulers must only override the original definitions */
     "fg": [97, 97, 97, 255],
     "match_fg": [255, 241, 118],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 241, 118]
   },
 
     // Panels data / score
@@ -1466,3 +1531,307 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-yellow/find_reverse--hover.png",
   },
 
+/* INDIGO ACCENT
+ * =================================================================== */
+
+  // Tooltip
+
+  {
+    "class": "tool_tip_control",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.tint": [92, 107, 192],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.tint": [92, 107, 192]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_indigo"],
+    "match_fg": [92, 107, 192],
+    "selected_match_fg": [92, 107, 192]
+  },
+
+  {
+    "class": "tool_tip_label_control",
+    "settings": ["material_theme_accent_indigo"],
+    "color": [0, 0, 0, 150]
+  },
+
+    // Sidebar tree highlight
+
+  {
+    "class": "tree_row",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/tree_highlight.png",
+  },
+
+    // Tabs
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/tab_current.png",
+  },
+
+    // Tabs close button
+
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/close_icon--hover.png",
+    "layer3.texture": "Material Theme/assets/accent-indigo/dirty_icon--hover.png"
+  },
+
+    // Opened files
+
+  {
+    "class": "close_button",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/close_icon--hover.png",
+  },
+
+    // Dirty opened files
+
+  {
+    "class": "close_button",
+    "attributes": ["dirty"],
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/dirty_icon--hover.png",
+  },
+
+  {
+    "class": "sidebar_label",
+    "settings": ["material_theme_accent_indigo"],
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "color": [121, 134, 203]
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_accent_indigo"],
+    "layer2.texture": "Material Theme/assets/accent-indigo/folder--hover.png",
+    "layer3.texture": "Material Theme/assets/accent-indigo/folder_opened--hover.png",
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_accent_indigo"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer3.texture":
+    {
+      "keyframes":
+      [
+        "Material Theme/assets/accent-indigo/folder_opened--hover-0.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-1.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-2.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-3.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-4.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-5.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-5.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-5.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-indigo/folder_opened--hover-7.png",
+      ],
+      "loop": false,
+      "frame_time": 0.020,
+    }
+  },
+
+    // Folder loading
+
+  {
+    "class": "icon_folder_loading",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture":
+    {
+      "keyframes":
+      [
+        "Material Theme/assets/accent-indigo/spinner7.png",
+        "Material Theme/assets/accent-indigo/spinner6.png",
+        "Material Theme/assets/accent-indigo/spinner5.png",
+        "Material Theme/assets/accent-indigo/spinner4.png",
+        "Material Theme/assets/accent-indigo/spinner3.png",
+        "Material Theme/assets/accent-indigo/spinner2.png",
+        "Material Theme/assets/accent-indigo/spinner1.png",
+        "Material Theme/assets/accent-indigo/spinner.png",
+      ],
+      "loop": true,
+      "frame_time": 0.075,
+    },
+  },
+
+    // tab set scroll left | scroll right
+
+  {
+    "class": "scroll_tabs_left_button",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/arrow_left--hover.png",
+  },
+
+  {
+    "class": "scroll_tabs_right_button",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/arrow_right--hover.png",
+  },
+
+
+  {
+    "class": "fold_button_control",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
+    "layer1.texture": "Material Theme/assets/accent-indigo/fold_right--hover.png",
+  },
+
+  {
+    "class": "fold_button_control",
+    "attributes": ["expanded"],
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
+    "layer1.texture": "Material Theme/assets/accent-indigo/fold_down--hover.png"
+  },
+
+  // Panel labels
+
+  {
+    "class": "quick_panel_label",
+    "settings": ["material_theme_accent_indigo"],
+    "fg": [176, 190, 197, 255],
+    "match_fg": [121, 134, 203],
+    "selected_fg": [255, 255, 255, 255],
+    "selected_match_fg": [121, 134, 203]
+  },
+
+    // Panel labels
+
+  {
+    "class": "quick_panel_label",
+    "settings": ["material_theme_accent_indigo"],
+    "parents": [{"class": "overlay_control"}],
+    "fg": [176, 190, 197, 255],
+    "match_fg": [121, 134, 203],
+    "selected_fg": [255, 255, 255, 255],
+    "selected_match_fg": [121, 134, 203]
+  },
+
+    // Panels sublabels
+
+  {
+    "class": "quick_panel_path_label",
+    "settings": ["material_theme_accent_indigo"],
+    "fg": [97, 97, 97, 255],
+    "match_fg": [121, 134, 203],
+    "selected_fg": [255, 255, 255, 255],
+    "selected_match_fg": [121, 134, 203]
+  },
+
+    // Panels data / score
+
+  {
+    "class": "quick_panel_score_label",
+    "settings": ["material_theme_accent_indigo"],
+    "fg": [121, 134, 203],
+    "selected_fg": [255, 255, 255, 255]
+  },
+
+  {
+    "class": "show_tabs_dropdown_button",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/overflow_menu--hover.png",
+  },
+
+    // Textline input oveflow menu
+
+  {
+    "class": "dropdown_button_control",
+    "settings": ["material_theme_accent_indigo"],
+    "layer1.texture": "Material Theme/assets/accent-indigo/overflow_menu--hover.png",
+  },
+
+  /* Buttons icons settings
+  ===================================================================== */
+
+    // Regex Icon
+  {
+    "class": "icon_regex",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_regex--hover.png",
+  },
+
+    // Preserve case sensitive
+
+  {
+    "class": "icon_case",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_case--hover.png",
+  },
+    // Wholeword
+
+  {
+    "class": "icon_whole_word",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_word--hover.png",
+  },
+
+    // Wrap
+
+  {
+    "class": "icon_wrap",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_wrap--hover.png",
+  },
+
+    // In selection
+
+  {
+    "class": "icon_in_selection",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_inselection--hover.png",
+  },
+
+
+    // Highlight Result
+
+  {
+    "class": "icon_highlight",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_highlight--hover.png",
+  },
+
+    // Preserve Case
+
+  {
+    "class": "icon_preserve_case",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/replace_preserve_case--hover.png",
+  },
+
+    // Show context
+
+  {
+    "class": "icon_context",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_context--hover.png",
+  },
+
+    // Use buffer
+
+  {
+    "class": "icon_use_buffer",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/use_buffer--hover.png",
+  },
+
+    // Reverse direction
+
+  {
+    "class": "icon_reverse",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/find_reverse--hover.png",
+  },

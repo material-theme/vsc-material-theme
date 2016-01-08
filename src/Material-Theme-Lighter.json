@@ -12,6 +12,6 @@
   "lighter/statusbar.js",
   "lighter/widgets.js",
   "lighter/buttons.js",
-  "lighter/accent.js",
+  "commons/accent.js",
   "lighter/options.js"
 ]

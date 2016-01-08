@@ -1438,8 +1438,8 @@
       "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
    },
 
-
 /* @ THEME ACCENTS
+
  * Accents color settings
 =========================================================================
 This specific options define the accents color to be used in the general UI.
@@ -1458,12 +1458,25 @@ NOTE: This rulers must only override the original definitions */
   },
 
   {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_lime"],
+    "layer0.tint": [139, 195, 74],
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_lime"],
+    "match_fg": [139, 195, 74],
+    "selected_match_fg": [139, 195, 74]
+  },
+
+  {
     "class": "tool_tip_label_control",
     "settings": ["material_theme_accent_lime"],
     "color": [255, 255, 255, 255]
   },
 
-  // Sidebar tree highlight
+    // Sidebar tree highlight
 
   {
     "class": "tree_row",
@@ -1750,6 +1763,19 @@ NOTE: This rulers must only override the original definitions */
   },
 
   {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_purple"],
+    "layer0.tint": [156, 39, 176]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_purple"],
+    "match_fg": [156, 39, 176],
+    "selected_match_fg": [156, 39, 176]
+  },
+
+  {
     "class": "tool_tip_label_control",
     "settings": ["material_theme_accent_purple"],
     "color": [255, 255, 255, 255]
@@ -2033,12 +2059,25 @@ NOTE: This rulers must only override the original definitions */
 /* RED ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_red"],
     "layer0.tint": [229, 115, 115],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_red"],
+    "layer0.tint": [229, 115, 115]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_red"],
+    "match_fg": [229, 115, 115],
+    "selected_match_fg": [229, 115, 115]
   },
 
   {
@@ -2325,12 +2364,25 @@ NOTE: This rulers must only override the original definitions */
 /* ORANGE ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_orange"],
     "layer0.tint": [255, 112, 67],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_orange"],
+    "layer0.tint": [255, 112, 67]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_orange"],
+    "match_fg": [255, 112, 67],
+    "selected_match_fg": [255, 112, 67]
   },
 
   {
@@ -2617,12 +2669,25 @@ NOTE: This rulers must only override the original definitions */
 /* YELLOW ACCENT
  * =================================================================== */
 
-    // Tooltip
+  // Tooltip
 
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_yellow"],
     "layer0.tint": [255, 241, 118],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_yellow"],
+    "layer0.tint": [255, 241, 118]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_yellow"],
+    "match_fg": [255, 241, 118],
+    "selected_match_fg": [255, 241, 118]
   },
 
   {
@@ -2775,7 +2840,7 @@ NOTE: This rulers must only override the original definitions */
     "fg": [176, 190, 197, 255],
     "match_fg": [255, 241, 118],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 241, 118]
   },
 
     // Panel labels
@@ -2787,7 +2852,7 @@ NOTE: This rulers must only override the original definitions */
     "fg": [176, 190, 197, 255],
     "match_fg": [255, 241, 118],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 241, 118]
   },
 
     // Panels sublabels
@@ -2798,7 +2863,7 @@ NOTE: This rulers must only override the original definitions */
     "fg": [97, 97, 97, 255],
     "match_fg": [255, 241, 118],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 241, 118]
   },
 
     // Panels data / score
@@ -2906,7 +2971,6 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-yellow/find_reverse--hover.png",
   },
 
-
 /* INDIGO ACCENT
  * =================================================================== */
 
@@ -2916,6 +2980,19 @@ NOTE: This rulers must only override the original definitions */
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_indigo"],
     "layer0.tint": [92, 107, 192],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_indigo"],
+    "layer0.tint": [92, 107, 192]
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_indigo"],
+    "match_fg": [92, 107, 192],
+    "selected_match_fg": [92, 107, 192]
   },
 
   {
@@ -3360,11 +3437,7 @@ NOTE: This rulers must only override the original definitions */
     "settings": ["material_theme_contrast_mode"],
     "layer1.tint": [33, 45, 52]
   },
-  {
-    "class": "panel_control",
-    "settings": ["material_theme_contrast_mode"],
-    "layer1.tint": [33, 45, 52]
-  },
+
 
   // Compact mode
   {

@@ -12,6 +12,6 @@
   "default/statusbar.js",
   "default/widgets.js",
   "default/buttons.js",
-  "default/accent.js",
+  "commons/accent.js",
   "default/options.js"
 ]
