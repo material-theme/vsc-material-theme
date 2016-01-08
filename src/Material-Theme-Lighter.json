@@ -1,0 +1,17 @@
+[
+  "lighter/app.js",
+  "lighter/dialog.js",
+  "lighter/code_folding.js",
+  "lighter/autocomplete.js",
+  "lighter/tooltip.js",
+  "lighter/overlay_panels.js",
+  "lighter/tabs.js",
+  "lighter/sidebar.js",
+  "lighter/scrollbars.js",
+  "lighter/minimap.js",
+  "lighter/statusbar.js",
+  "lighter/widgets.js",
+  "lighter/buttons.js",
+  "commons/accent.js",
+  "lighter/options.js"
+]

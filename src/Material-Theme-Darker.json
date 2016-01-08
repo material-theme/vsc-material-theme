@@ -1,0 +1,17 @@
+[
+  "darker/app.js",
+  "darker/dialog.js",
+  "darker/code_folding.js",
+  "darker/autocomplete.js",
+  "darker/tooltip.js",
+  "darker/overlay_panels.js",
+  "darker/tabs.js",
+  "darker/sidebar.js",
+  "darker/scrollbars.js",
+  "darker/minimap.js",
+  "darker/statusbar.js",
+  "darker/widgets.js",
+  "darker/buttons.js",
+  "commons/accent.js",
+  "darker/options.js"
+]
