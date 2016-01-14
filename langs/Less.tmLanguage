@@ -16,6 +16,6 @@
 			</dict>
 		</array>
 		<key>scopeName</key>
-		<string>source.css, source.less</string>
+		<string>source.less</string>
 	</dict>
 </plist>
