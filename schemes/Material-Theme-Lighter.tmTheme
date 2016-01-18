@@ -94,7 +94,7 @@
       <key>name</key>
       <string>Punctuation</string>
       <key>scope</key>
-      <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+      <string>punctuation.definition.string, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
