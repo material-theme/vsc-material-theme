@@ -1234,20 +1234,20 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_yellow"],
-    "layer0.tint": [255, 241, 118],
+    "layer0.tint": [255, 162, 26],
   },
 
   {
     "class": "progress_gauge_control",
     "settings": ["material_theme_accent_yellow"],
-    "layer0.tint": [255, 241, 118]
+    "layer0.tint": [255, 162, 26]
   },
 
   {
     "class": "auto_complete_label",
     "settings": ["material_theme_accent_yellow"],
-    "match_fg": [255, 241, 118],
-    "selected_match_fg": [255, 241, 118]
+    "match_fg": [255, 162, 26],
+    "selected_match_fg": [255, 162, 26]
   },
 
   {
@@ -1302,7 +1302,7 @@ NOTE: This rulers must only override the original definitions */
     "class": "sidebar_label",
     "settings": ["material_theme_accent_yellow"],
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-    "color": [255, 241, 118]
+    "color": [255, 162, 26]
   },
 
   {
@@ -1398,9 +1398,9 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_yellow"],
     "fg": [176, 190, 197, 255],
-    "match_fg": [255, 241, 118],
+    "match_fg": [255, 162, 26],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [255, 241, 118]
+    "selected_match_fg": [255, 162, 26]
   },
 
     // Panel labels
@@ -1410,9 +1410,9 @@ NOTE: This rulers must only override the original definitions */
     "settings": ["material_theme_accent_yellow"],
     "parents": [{"class": "overlay_control"}],
     "fg": [176, 190, 197, 255],
-    "match_fg": [255, 241, 118],
+    "match_fg": [255, 162, 26],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [255, 241, 118]
+    "selected_match_fg": [255, 162, 26]
   },
 
     // Panels sublabels
@@ -1421,9 +1421,9 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_yellow"],
     "fg": [97, 97, 97, 255],
-    "match_fg": [255, 241, 118],
+    "match_fg": [255, 162, 26],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [255, 241, 118]
+    "selected_match_fg": [255, 162, 26]
   },
 
     // Panels data / score
@@ -1431,7 +1431,7 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_score_label",
     "settings": ["material_theme_accent_yellow"],
-    "fg": [255, 241, 118],
+    "fg": [255, 162, 26],
     "selected_fg": [255, 255, 255, 255]
   },
 
