@@ -1,0 +1,17 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+👉 Version 2.0.4 👈
+********************************************************************************
+
+🏮 UI THEME
+
+  ➼ Fix accent color for automplete popup and progress bar dialog (update popup)
+  ➼ Fix commet toggle for gulpfiles (thanks to @opjlmi)
+  ➼ Darker tab separator is now inverted and more visible
+  ➼ Revisited yellow accent to match yellow appbar
+
+🏮 COLOR SCHEME
+
+  ➼ Add support.stype color highlight
+
