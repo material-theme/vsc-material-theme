@@ -892,7 +892,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>Support functions</string>
       <key>scope</key>
-      <string>meta.function-call support.type</string>
+      <string>meta.function-call support.type, support.type</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

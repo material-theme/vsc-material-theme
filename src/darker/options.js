@@ -28,7 +28,7 @@
   {
     "class": "tab_control",
     "settings": ["material_theme_tabs_separator"],
-    "layer3.texture": "Material Theme/assets/commons/tab_separator.png",
+    "layer3.texture": "Material Theme/assets/darker/tab_separator.png",
     "layer3.inner_margin": [1, 1],
     "layer3.opacity": 1.0,
   },
