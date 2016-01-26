@@ -90,7 +90,7 @@ Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/
 
 #### White panels
 
-[Material Theme Appbar](https://github.com/equinusocio/material-theme-white-panels)
+[Material Theme White Panels](https://github.com/equinusocio/material-theme-white-panels)
 If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
 
 #### App Bar
@@ -106,7 +106,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_disable_fileicons"        : true , // Hide siderbar file type icons
 "material_theme_disable_folder_animation" : true , // Disable folder animation
 "material_theme_small_statusbar"          : true , // Set small status bar
-"material_theme_compact_sidebar"          : true , // Set small status bar
+"material_theme_compact_sidebar"          : true , // Set compact side bar
 "material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
 "material_theme_bold_tab"                 : true , // Make the tab labels bolder
 "material_theme_tabs_separator"           : true , // Show tabs separator, this disable tab animation hover
