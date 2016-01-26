@@ -3275,7 +3275,7 @@ NOTE: This rulers must only override the original definitions */
     "class": "tabset_control",
     "settings": ["material_theme_small_tab"],
     "tab_height": 36,
-    "content_margin": [12, -4, 8, 0]
+    "content_margin": [12, 0, 8, 0]
   },
 
   {
