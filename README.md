@@ -90,7 +90,7 @@ Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/
 
 #### White panels
 
-[Material Theme Appbar](https://github.com/equinusocio/material-theme-white-panels)
+[Material Theme White Panels](https://github.com/equinusocio/material-theme-white-panels)
 If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
 
 #### App Bar
