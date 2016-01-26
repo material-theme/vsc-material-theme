@@ -1,0 +1,9 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+👉 Version 2.0.5 👈
+********************************************************************************
+
+🏮 UI THEME
+
+  ➼ Fix tabs and sidebar heading height when use both small tabs and disabled tabs scrolling
