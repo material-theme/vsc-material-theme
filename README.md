@@ -26,7 +26,7 @@ You can install this awesome theme through the [Package Control](https://package
 
 2. Type "install" press enter
 
-3. Search for *"Material Theme"*.changed installation instructions to be helpful to people that don’t already know how to install
+3. Search for *"Material Theme"*
 
 --
 
