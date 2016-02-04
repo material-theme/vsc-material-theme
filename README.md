@@ -9,9 +9,9 @@
 
 # Material Theme for Sublime Text 3 3085+
 
-This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
+This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
-Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before send a new one.
+Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one.
 
 ## Screenshots
 
@@ -22,15 +22,7 @@ More screenshots [here](http://equinusocio.github.io/material-theme/)
 # Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
 
-## OS X / Mac
-1. Press "cmd + shift + p" to access Package Control
-
-2. Type "install" press enter
-
-3. Search for *"Material Theme"*
-
-## Windows
-1. Press "ctrl + shift + p" to access Package Control
+1. Press "ctrl + shift + p" (Windows, Linux) or "cmd + shift + p" (OS X) to access Package Control
 
 2. Type "install" press enter
 
@@ -40,9 +32,9 @@ You can install this awesome theme through the [Package Control](https://package
 
 # Manual installation
 
-1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the folder to **"Material Theme"**.
+1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the directory to **"Material Theme"**.
 
-2. Move the folder inside your sublime Packages directory. **(Preferences > Browse packages...)**
+2. Move the directory inside your sublime Packages directory. **(Preferences > Browse packages...)**
 
 
 # Activate the theme
