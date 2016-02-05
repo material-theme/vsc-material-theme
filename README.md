@@ -9,9 +9,9 @@
 
 # Material Theme for Sublime Text 3 3085+
 
-This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
+This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
-Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before send a new one.
+Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one.
 
 ## Screenshots
 
@@ -19,18 +19,10 @@ Please read the [Known Issues](https://github.com/equinusocio/material-theme#kno
 
 More screenshots [here](http://equinusocio.github.io/material-theme/)
 
-## Easy installation
+# Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
 
-# OS X / Mac
-1. Press "cmd + shift + p" to access Package Control
-
-2. Type "install" press enter
-
-3. Search for *"Material Theme"*
-
-# Windows
-1. Press "ctrl + shift + p" to access Package Control
+1. Press "ctrl + shift + p" (Windows, Linux) or "cmd + shift + p" (OS X) to access Package Control
 
 2. Type "install" press enter
 
@@ -38,14 +30,14 @@ You can install this awesome theme through the [Package Control](https://package
 
 --
 
-## Manual installation
+# Manual installation
 
-1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the folder to **"Material Theme"**.
+1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the directory to **"Material Theme"**.
 
-2. Move the folder inside your sublime Packages directory. **(Preferences > Browse packages...)**
+2. Move the directory inside your sublime Packages directory. **(Preferences > Browse packages...)**
 
 
-## Activate the theme
+# Activate the theme
 
 Activate the theme with the following preferences at  **(Preferences > Setting - User)**:
 
@@ -56,22 +48,22 @@ Activate the theme with the following preferences at  **(Preferences > Setting -
 
 ***Note*** : Remember to restart Sublime Text after activating the theme.
 
-## Theme styles
+# Theme styles
 This theme provides 2 alternative styles:
 
-**Darker**
+### Darker
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 ```
 
-**Lighter**
+### Lighter
 ```json
 "theme": "Material-Theme-Lighter.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 ```
 
-**Oceanic Next Color Schemes**
+### Oceanic Next Color Schemes
 
 If you don't like material theme color schemes you can use Oceanic Next that is provided with package by using:
 
@@ -85,7 +77,7 @@ If you don't like material theme color schemes you can use Oceanic Next that is 
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
 ```
 
-**Old Color Schemes**
+### Old Color Schemes
 
 You can still use the oldest and **unsupported** color schemes (with red variables) 
 
@@ -95,25 +87,25 @@ You can still use the oldest and **unsupported** color schemes (with red variabl
 "color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Lighter.tmTheme",
 ```
 
-## Known issues
+# Known issues
 Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). here the quick fix:
 
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
 
-## Addons
+# Addons
 
-#### White panels
+### White panels
 
 [Material Theme White Panels](https://github.com/equinusocio/material-theme-white-panels)
 If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
 
-#### App Bar
+### App Bar
 
 [Material Theme Appbar](https://github.com/equinusocio/material-theme-appbar)
 This official addon enable a beautiful colored tab bar to your Material Theme. The color tint fits automagically the material theme accent color you choosed.
 
 
-## Theme options
+# Theme options
 
 ```json
 "material_theme_small_tab"                : true , // Set small tabs
@@ -138,7 +130,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_tree_headings"            : true , // Show siderbar headings
 ```
 
-## Recommended UI and font settings for a better experience:
+# Recommended UI and font settings for a better experience:
 
 ```json
 "overlay_scroll_bars"          : "enabled",
@@ -154,7 +146,7 @@ The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" 
 
 You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
 
-## Theme compiler
+# Contributing
 
 This UI theme use a custom compiler build on Gulp and JS. If you want to edit the UI you must first install the compiler:
 ```
@@ -166,7 +158,7 @@ $ gulp
 ```
 You can now edit the source files under `/src` folder that will be compiled inside the root folder (don't edit compiled files.)
 
-## Other Resources
+# Other Resources
 
 **App icon**
 
@@ -183,7 +175,7 @@ Material Theme was also ported to:
 - [x] [ConEmu](https://gist.github.com/rajadain/b306b2ba71bd58a1df41) (thanks to [@rajadain](https://github.com/rajadain)).
 
 
-## Default Color Palette
+# Default Color Palette
 
 ![Color Palette](http://i.imgur.com/zyIK71j.jpg)
 
