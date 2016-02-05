@@ -306,7 +306,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name</string>
+      <string>entity.other.attribute-name, meta.tag.any.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
