@@ -64,3 +64,17 @@
     "content_margin": [10, 2, 10, 3],
     "min_size": [75, 0],
   },
+
+  // panel switcher
+  {
+    "class": "panel_button_control",
+    "layer0.texture": "Material Theme/assets/default/overflow_menu.png",
+    "layer0.opacity": 1.0,
+    "content_margin": [10, 10]
+  },
+
+  {
+    "class": "panel_button_control",
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/commons/overflow_menu--hover.png",
+  },

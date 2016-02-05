@@ -293,7 +293,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name</string>
+      <string>entity.other.attribute-name, meta.tag.any.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -976,9 +976,9 @@ meta.property-value support.constant.named-color.css</string>
     </dict>
     <dict>
       <key>name</key>
-      <string>Elixir: Atom</string>
+      <string>Symbols</string>
       <key>scope</key>
-      <string>source.elixir constant.other.symbol.elixir</string>
+      <string>source.elixir constant.other.symbol.elixir, source.ruby constant.other.symbol</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

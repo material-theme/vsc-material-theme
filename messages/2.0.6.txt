@@ -1,0 +1,15 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+👉 Version 2.0.6 👈
+********************************************************************************
+
+🏮 UI THEME
+
+  ➼ Add support to the new status bar switch panel button (bottom left) from dev biuld 3101
+  ➼ Fix tree highlight indicator to match current accent color
+
+🏮 COLOR SCHEME
+
+  ➼ Fix ruby symbols color highlight
+  ➼ Fix html attributes color clitch in some cases
