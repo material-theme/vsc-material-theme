@@ -9,6 +9,14 @@ NOTE: This rulers must only override the original definitions */
 /* LIME ACCENT
  * =================================================================== */
 
+
+  {
+    "class": "panel_button_control",
+    "settings": ["material_theme_accent_lime"],
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/accent-lime/overflow_menu--hover.png",
+  },
+
   // Tooltip
 
   {
@@ -313,6 +321,14 @@ NOTE: This rulers must only override the original definitions */
 
 /* PURPLE ACCENT
  * =================================================================== */
+
+
+  {
+    "class": "panel_button_control",
+    "settings": ["material_theme_accent_purple"],
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/accent-purple/overflow_menu--hover.png",
+  },
 
   // Tooltip
 
@@ -619,6 +635,13 @@ NOTE: This rulers must only override the original definitions */
 /* RED ACCENT
  * =================================================================== */
 
+  {
+    "class": "panel_button_control",
+    "settings": ["material_theme_accent_red"],
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/accent-red/overflow_menu--hover.png",
+  },
+
   // Tooltip
 
   {
@@ -923,6 +946,14 @@ NOTE: This rulers must only override the original definitions */
 
 /* ORANGE ACCENT
  * =================================================================== */
+
+
+  {
+    "class": "panel_button_control",
+    "settings": ["material_theme_accent_orange"],
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/accent-orange/overflow_menu--hover.png",
+  },
 
   // Tooltip
 
@@ -1229,6 +1260,14 @@ NOTE: This rulers must only override the original definitions */
 /* YELLOW ACCENT
  * =================================================================== */
 
+
+  {
+    "class": "panel_button_control",
+    "settings": ["material_theme_accent_yellow"],
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/accent-yellow/overflow_menu--hover.png",
+  },
+
   // Tooltip
 
   {
@@ -1533,6 +1572,13 @@ NOTE: This rulers must only override the original definitions */
 
 /* INDIGO ACCENT
  * =================================================================== */
+
+  {
+    "class": "panel_button_control",
+    "settings": ["material_theme_accent_indigo"],
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/accent-indigo/overflow_menu--hover.png",
+  },
 
   // Tooltip
 
