@@ -41,7 +41,7 @@
 
   {
      "class": "tree_row",
-     "layer1.texture": "Material Theme/assets/lighter/tree_highlight.png",
+     "layer1.texture": "Material Theme/assets/commons/tree_highlight.png",
      "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
      "layer1.inner_margin": [22, 8, 0, 0]
   },
