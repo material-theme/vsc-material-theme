@@ -969,9 +969,9 @@ meta.property-value support.constant.named-color.css</string>
     </dict>
     <dict>
       <key>name</key>
-      <string>Elixir: Atom</string>
+      <string>Symbols</string>
       <key>scope</key>
-      <string>source.elixir constant.other.symbol.elixir, source.elixir constant.other.keywords.elixir</string>
+      <string>source.elixir constant.other.symbol.elixir, source.elixir constant.other.keywords.elixir, source.ruby constant.other.symbol</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

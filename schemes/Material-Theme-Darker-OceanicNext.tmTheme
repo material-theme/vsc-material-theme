@@ -139,7 +139,7 @@
       <key>name</key>
       <string>Other Variable, String Link</string>
       <key>scope</key>
-      <string>support.other.variable, string.other.link</string>
+      <string>support.other.variable, string.other.link, source.ruby constant.other.symbol</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
