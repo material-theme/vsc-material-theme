@@ -21,6 +21,7 @@ More screenshots [here](http://equinusocio.github.io/material-theme/)
 
 # Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
+
  ## Windows & Linux
   1. Press "ctrl + shift + p" (Windows, Linux) to access Package Control
   
@@ -34,6 +35,7 @@ You can install this awesome theme through the [Package Control](https://package
   2. Type "install" press enter
   
   3. Search for *"Material Theme"*
+  
 --
 
 # Manual installation
