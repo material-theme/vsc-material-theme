@@ -139,7 +139,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "always_show_minimap_viewport" : true,
 "bold_folder_labels"           : true,
 "indent_guide_options"         : [ "draw_normal", "draw_active" ],   // Highlight active indent
-"font_options"                 : [ "gray_antialias" ],                      // On retina Mac
+"font_options"                 : [ "gray_antialias", "subpixel_antialias" ],    // On retina Mac & Windows
 ```
 
 The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
