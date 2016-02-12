@@ -942,7 +942,18 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#f77669</string>
+        <string>#597078</string>
+        </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSON: Value Boolean</string>
+      <key>scope</key>
+      <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value constant.language</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#e53935</string>
         </dict>
     </dict>
     <dict>
