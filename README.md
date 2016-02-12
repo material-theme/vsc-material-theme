@@ -115,7 +115,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_compact_sidebar"          : true , // Set compact side bar
 "material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
 "material_theme_bold_tab"                 : true , // Make the tab labels bolder
-"material_theme_tabs_separator"           : true , // Show tabs separator, this disable tab animation hover
+"material_theme_tabs_separator"           : true , // Show tabs separator, this disables tab hover animation
 "material_theme_accent_lime"              : true , // set green lime accent color
 "material_theme_accent_purple"            : true , // set purple accent color
 "material_theme_accent_red"               : true , // set pale red accent color
@@ -139,7 +139,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "always_show_minimap_viewport" : true,
 "bold_folder_labels"           : true,
 "indent_guide_options"         : [ "draw_normal", "draw_active" ],   // Highlight active indent
-"font_options"                 : [ "gray_antialias" ],                      // On retina Mac
+"font_options"                 : [ "gray_antialias", "subpixel_antialias" ],    // On retina Mac & Windows
 ```
 
 The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
