@@ -9,7 +9,7 @@
   <key>gutterSettings</key>
   <dict>
     <key>background</key>
-    <string>#212121</string>
+    <string>#263238</string>
     <key>divider</key>
     <string>#343d46</string>
     <key>foreground</key>
@@ -33,7 +33,7 @@
         <key>caret</key>
         <string>#FFCC00</string>
         <key>foreground</key>
-        <string>#80CBC4</string>
+        <string>#eeffff</string>
         <key>invisibles</key>
         <string>#65737e</string>
         <key>lineHighlight</key>
@@ -62,22 +62,11 @@
       <key>name</key>
       <string>Comments</string>
       <key>scope</key>
-      <string>comment, punctuation.definition.comment, text.cancelled, meta.punctuation.separator, markup.strikethrough</string>
+      <string>comment, punctuation.definition.comment</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#546E7A</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>notes</string>
-      <key>scope</key>
-      <string>notes</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#8EACE3</string>
+        <string>#65737e</string>
       </dict>
     </dict>
     <dict>
@@ -106,7 +95,7 @@
       <key>name</key>
       <string>Operator, Misc</string>
       <key>scope</key>
-      <string>keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
+      <string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -117,7 +106,7 @@
       <key>name</key>
       <string>Tag</string>
       <key>scope</key>
-      <string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
+      <string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -139,7 +128,7 @@
       <key>name</key>
       <string>Other Variable, String Link</string>
       <key>scope</key>
-      <string>support.other.variable, string.other.link, source.ruby constant.other.symbol</string>
+      <string>support.other.variable, string.other.link</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -231,7 +220,7 @@
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name, meta.tag.any.html entity.other.attribute-name.html</string>
+      <string>entity.other.attribute-name</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -350,24 +339,6 @@
         <string>italic</string>
         <key>foreground</key>
         <string>#EC5F67</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>scope</key>
-      <string>constant.numeric.line-number.find-in-files - match, text.find-in-files constant.numeric.line-number.find-in-files</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#37474F</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>scope</key>
-      <string>entity.name.filename.find-in-files, text.find-in-files constant.numeric.line-number.match.find-in-files</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#FFEB95</string>
       </dict>
     </dict>
   </array>
