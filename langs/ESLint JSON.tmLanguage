@@ -16,6 +16,6 @@
       </dict>
     </array>
     <key>scopeName</key>
-    <string>source.json, source.eslintrc</string>
+    <string>source.json, source.json.eslintrc</string>
   </dict>
 </plist>
