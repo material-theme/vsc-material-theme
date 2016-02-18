@@ -8,6 +8,27 @@
         <dict>
             <key>icon</key>
             <string>file_type_gruntfile</string>
+            <key>shellVariables</key>
+            <array>
+               <dict>
+                  <key>name</key>
+                  <string>TM_COMMENT_START</string>
+                  <key>value</key>
+                  <string>// </string>
+               </dict>
+               <dict>
+                  <key>name</key>
+                  <string>TM_COMMENT_START_2</string>
+                  <key>value</key>
+                  <string>/*</string>
+               </dict>
+               <dict>
+                  <key>name</key>
+                  <string>TM_COMMENT_END_2</string>
+                  <key>value</key>
+                  <string>*/</string>
+               </dict>
+            </array>
         </dict>
     </dict>
 </plist>
