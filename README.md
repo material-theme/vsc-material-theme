@@ -130,7 +130,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_tree_headings"            : true , // Show siderbar headings
 ```
 
-# Recommended UI and font settings for a better experience:
+# Recommended settings for a better experience:
 
 ```json
 "overlay_scroll_bars"          : "enabled",
