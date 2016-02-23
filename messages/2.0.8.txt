@@ -7,6 +7,7 @@ https://github.com/equinusocio/material-theme
 🏮 UI THEME
 
   ➼ Removed file extension preferences
+  ➼ Fix autocomplete selected row color (low contrast from text)
 
 
 🏮 COLOR SCHEMES
@@ -15,3 +16,4 @@ https://github.com/equinusocio/material-theme
   ➼ Add support for ESLint and Babel config file types (thanks to @jonsuh)
   ➼ Fix Gruntfile keyboard block comment shortcut (thanks to @jonsuh)
   ➼ Fix HTML tags color inside php files.
+  ➼ Fix Lighter theme contrast issue (#676)
