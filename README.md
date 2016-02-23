@@ -176,9 +176,16 @@ Material Theme was also ported to:
 - [x] [Slack App](https://slack.com/) ( #263238,#2e3a40,#80CBC4,#FFFFFF,#13191C,#ffffff,#50fa7b,#FF5555 )
 
 
-# Default Color Palette
+# Color Palette
 
-![Color Palette](http://i.imgur.com/zyIK71j.jpg)
+Palette              | Hex       | RGB          
+---                  | ---       | ---          
+Blue Grey 900        | `#263238` | `38 50 56`   
+Current Line 800     | `#37474F` | `55 71 79`   
+Selection 600        | `#546E7A` | `84 110 122`   
+Comment 500          | `#607D8B` | `96 125 139` 
+Teal                 | `#80CBC4` | `128 203 196`
+
 
 
 ## Thanks
