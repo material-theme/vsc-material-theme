@@ -35,5 +35,5 @@
   {
     "class": "table_row",
     "attributes": ["selected"],
-    "layer0.opacity": 1.0
+    "layer0.opacity": 0.3
   },
