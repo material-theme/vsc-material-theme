@@ -7,7 +7,7 @@
 <a href='https://pledgie.com/campaigns/29452'><img alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
 
 
-# Material Theme for Sublime Text 3 3085+
+# Material Theme for Sublime Text 3 3103+
 
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
@@ -130,7 +130,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_tree_headings"            : true , // Show siderbar headings
 ```
 
-# Recommended UI and font settings for a better experience:
+# Recommended settings for a better experience:
 
 ```json
 "overlay_scroll_bars"          : "enabled",
@@ -173,6 +173,7 @@ Material Theme was also ported to:
 - [x] [Vim](https://github.com/kristijanhusak/vim-hybrid-material) (thanks to [@kristijanhusak](https://github.com/kristijanhusak)).
 - [x] [Terminal OSX](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) (thanks to [@mvaneijgen](https://github.com/mvaneijgen)).
 - [x] [ConEmu](https://gist.github.com/rajadain/b306b2ba71bd58a1df41) (thanks to [@rajadain](https://github.com/rajadain)).
+- [x] [Slack App](https://slack.com/) ( #263238,#2e3a40,#80CBC4,#FFFFFF,#13191C,#ffffff,#50fa7b,#FF5555 )
 
 
 # Default Color Palette

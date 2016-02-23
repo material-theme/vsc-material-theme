@@ -220,7 +220,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859ff</string>
+        <string>#91b859</string>
       </dict>
     </dict>
     <dict>
@@ -253,7 +253,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#C3E88D</string>
+        <string>#91b859</string>
       </dict>
     </dict>
     <dict>
@@ -733,7 +733,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#C3E88D</string>
+        <string>#91b859</string>
       </dict>
     </dict>
     <dict>
@@ -832,7 +832,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#C3E88D</string>
+        <string>#91b859</string>
       </dict>
     </dict>
     <dict>
@@ -854,7 +854,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#91b859ff</string>
+        <string>#91b859</string>
       </dict>
     </dict>
     <dict>
@@ -964,7 +964,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#C3E88D</string>
+        <string>#91b859</string>
         </dict>
     </dict>
     <dict>

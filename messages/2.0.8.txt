@@ -1,0 +1,19 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+👉 Version 2.0.8 👈
+********************************************************************************
+
+🏮 UI THEME
+
+  ➼ Removed file extension preferences
+  ➼ Fix autocomplete selected row color (low contrast from text)
+
+
+🏮 COLOR SCHEMES
+
+  ➼ Fix JSON color highlight up to 30 levels deep (thanks to @jonsuh)
+  ➼ Add support for ESLint and Babel config file types (thanks to @jonsuh)
+  ➼ Fix Gruntfile keyboard block comment shortcut (thanks to @jonsuh)
+  ➼ Fix HTML tags color inside php files.
+  ➼ Fix Lighter theme contrast issue (#676)
