@@ -4,6 +4,11 @@ https://github.com/equinusocio/material-theme
 👉 Version 2.0.8 👈
 ********************************************************************************
 
+🏮 UI THEME
+
+  ➼ Removed file extension preferences
+
+
 🏮 COLOR SCHEMES
 
   ➼ Fix JSON color highlight up to 30 levels deep (thanks to @jonsuh)
