@@ -44,7 +44,7 @@
         <key>guide</key>
         <string>#42424260</string>
         <key>activeGuide</key>
-        <string>#424242</string>
+        <string>#6E6E6E</string>
         <key>stackGuide</key>
         <string>#42424280</string>
         <key>gutterForeground</key>
