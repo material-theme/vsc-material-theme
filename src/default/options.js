@@ -166,4 +166,10 @@
     "class": "sidebar_tree",
     "settings": ["material_theme_compact_sidebar"],
     "row_padding": [24, 5]
+  },
+
+  {
+    "class": "panel_control",
+    "settings": ["material_theme_compact_panel"],
+    "content_margin": [0, 0, 0, 0],
   }

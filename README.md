@@ -113,6 +113,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_disable_folder_animation" : true , // Disable folder animation
 "material_theme_small_statusbar"          : true , // Set small status bar
 "material_theme_compact_sidebar"          : true , // Set compact side bar
+"material_theme_compact_panel"            : true , // Set minimal padding for the search panel
 "material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
 "material_theme_bold_tab"                 : true , // Make the tab labels bolder
 "material_theme_tabs_separator"           : true , // Show tabs separator, this disables tab hover animation
