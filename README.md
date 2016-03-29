@@ -109,7 +109,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 
 ```json
 "material_theme_small_tab"                : true , // Set small tabs
-"material_theme_disable_fileicons"        : true , // Hide siderbar file type icons
+"material_theme_disable_fileicons"        : true , // Hide sidebar file type icons
 "material_theme_disable_folder_animation" : true , // Disable folder animation
 "material_theme_small_statusbar"          : true , // Set small status bar
 "material_theme_compact_sidebar"          : true , // Set compact side bar
@@ -128,7 +128,7 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_contrast_mode"            : true , // Enable sidebar and panels contrast mode
 
 // If you use Material Theme - Appbar addon you can use additional settings:
-"material_theme_tree_headings"            : true , // Show siderbar headings
+"material_theme_tree_headings"            : true , // Show sidebar headings
 ```
 
 # Recommended settings for a better experience:
