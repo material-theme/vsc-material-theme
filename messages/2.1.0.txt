@@ -8,6 +8,8 @@ https://github.com/equinusocio/material-theme
 
   ➼ New setting to set a small search panel ("material_theme_compact_panel": true)
   ➼ New find/replace regex icon
+  ➼ New npm file icon
+  ➼ 3 KABOOM! Completely new accent color. Pink, Blue, Cyan
 
 🏮 COLOR SCHEME
 

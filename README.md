@@ -123,6 +123,9 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "material_theme_accent_orange"            : true , // set orange accent color
 "material_theme_accent_yellow"            : true , // set yellow accent color
 "material_theme_accent_indigo"            : true , // set indigo accent color
+"material_theme_accent_pink"              : true , // set pink accent color
+"material_theme_accent_blue"              : true , // set blue accent color
+"material_theme_accent_cyan"              : true , // set cyan accent color
 "material_theme_panel_separator"          : true , // show bottom panel separator
 "material_theme_tabs_autowidth"           : true , // Enable autowidth for tabs
 "material_theme_contrast_mode"            : true , // Enable sidebar and panels contrast mode
