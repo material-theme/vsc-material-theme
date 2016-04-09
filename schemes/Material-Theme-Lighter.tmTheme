@@ -33,9 +33,9 @@
         <key>guide</key>
         <string>#B0BEC570</string>
         <key>activeGuide</key>
-        <string>#B0BEC580</string>
+        <string>#0000070</string>
         <key>stackGuide</key>
-        <string>#B0BEC5</string>
+        <string>#B0BEC580</string>
         <key>gutterForeground</key>
         <string>#CFD8DC</string>
         <key>findHighlight</key>
@@ -839,11 +839,11 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>CSS: #</string>
       <key>scope</key>
-      <string>constant.other.color.rgb-value punctuation.definition.constant</string>
+      <string>constant.other.color.rgb-value punctuation.definition.constant, source.sass entity.other.attribute-name.id.sass, source.css meta.selector.css entity.other.attribute-name.id.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#E53935</string>
+        <string>#7C4DFF</string>
       </dict>
     </dict>
     <dict>

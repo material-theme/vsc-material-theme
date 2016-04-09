@@ -835,7 +835,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>CSS: #</string>
       <key>scope</key>
-      <string>constant.other.color.rgb-value punctuation.definition.constant</string>
+      <string>constant.other.color.rgb-value punctuation.definition.constant, source.sass entity.other.attribute-name.id.sass, source.css meta.selector.css entity.other.attribute-name.id.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
