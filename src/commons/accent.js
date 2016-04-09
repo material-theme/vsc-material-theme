@@ -1653,7 +1653,7 @@ NOTE: This rulers must only override the original definitions */
     "class": "sidebar_label",
     "settings": ["material_theme_accent_indigo"],
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-    "color": [255, 64, 129]
+    "color": [121, 134, 203]
   },
 
   {
@@ -1749,9 +1749,9 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_indigo"],
     "fg": [176, 190, 197, 255],
-    "match_fg": [255, 64, 129],
+    "match_fg": [121, 134, 203],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [255, 64, 129]
+    "selected_match_fg": [121, 134, 2039]
   },
 
     // Panel labels
@@ -1761,9 +1761,9 @@ NOTE: This rulers must only override the original definitions */
     "settings": ["material_theme_accent_indigo"],
     "parents": [{"class": "overlay_control"}],
     "fg": [176, 190, 197, 255],
-    "match_fg": [255, 64, 129],
+    "match_fg": [121, 134, 203],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [255, 64, 129]
+    "selected_match_fg": [121, 134, 2039]
   },
 
     // Panels sublabels
@@ -1772,9 +1772,9 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_indigo"],
     "fg": [97, 97, 97, 255],
-    "match_fg": [255, 64, 129],
+    "match_fg": [121, 134, 203],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [255, 64, 129]
+    "selected_match_fg": [121, 134, 2039]
   },
 
     // Panels data / score
@@ -1782,7 +1782,7 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_score_label",
     "settings": ["material_theme_accent_indigo"],
-    "fg": [255, 64, 129],
+    "fg": [121, 134, 203],
     "selected_fg": [255, 255, 255, 255]
   },
 
