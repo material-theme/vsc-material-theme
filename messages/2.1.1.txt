@@ -8,6 +8,7 @@ https://github.com/equinusocio/material-theme
 
   ➼ Add file icon to .swig files
   ➼ Update .twig file icon
+  ➼ Fix pink autocomplete matched text color
 
 
 🏮 COLOR SCHEME
