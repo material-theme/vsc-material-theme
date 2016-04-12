@@ -8,3 +8,8 @@ https://github.com/equinusocio/material-theme
 
   ➼ Add file icon to .swig files
   ➼ Update .twig file icon
+
+
+🏮 COLOR SCHEME
+
+  ➼ Fix material theme lighter active guide color (Thanks @stawberri)
