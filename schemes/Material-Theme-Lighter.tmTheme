@@ -33,7 +33,7 @@
         <key>guide</key>
         <string>#B0BEC570</string>
         <key>activeGuide</key>
-        <string>#0000070</string>
+        <string>#00000070</string>
         <key>stackGuide</key>
         <string>#B0BEC580</string>
         <key>gutterForeground</key>
