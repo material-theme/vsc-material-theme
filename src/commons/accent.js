@@ -1899,20 +1899,20 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_pink"],
-    "layer0.tint": [41, 121, 255],
+    "layer0.tint": [255, 64, 129],
   },
 
   {
     "class": "progress_gauge_control",
     "settings": ["material_theme_accent_pink"],
-    "layer0.tint": [41, 121, 255]
+    "layer0.tint": [255, 64, 129]
   },
 
   {
     "class": "auto_complete_label",
     "settings": ["material_theme_accent_pink"],
-    "match_fg": [41, 121, 255],
-    "selected_match_fg": [41, 121, 255]
+    "match_fg": [255, 64, 129],
+    "selected_match_fg": [255, 64, 129]
   },
 
   {
