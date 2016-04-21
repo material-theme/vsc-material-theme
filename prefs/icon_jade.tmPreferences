@@ -5,7 +5,7 @@
 <plist version="1.0">
     <dict>
         <key>scope</key>
-        <string>source.jade</string>
+        <string>source.jade, text.jade</string>
         <key>settings</key>
         <dict>
             <key>icon</key>
