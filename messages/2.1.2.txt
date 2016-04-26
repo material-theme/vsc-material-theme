@@ -1,0 +1,17 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+👉 Version 2.1.2 👈
+********************************************************************************
+
+🏮 UI THEME
+
+  ➼ New .jade file icon
+  ➼ Fix some file icons
+  ➼ Fix "material_theme_disable_folder_animation" folder color whith the new accent colors
+
+
+🏮 COLOR SCHEM
+  ➼ Update Oceanic Next color schemes
+  ➼ Add italic style to code comments
+  ➼ Add italic stule to the html attributes
