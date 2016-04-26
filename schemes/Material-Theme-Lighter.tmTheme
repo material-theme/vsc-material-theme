@@ -300,6 +300,8 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <dict>
         <key>foreground</key>
         <string>#FFA000</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
