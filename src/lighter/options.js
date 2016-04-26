@@ -170,6 +170,51 @@
     "layer3.texture": "Material Theme/assets/accent-yellow/folder--hover.png",
   },
 
+
+    // Folder animation Indigo
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_indigo"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/accent-indigo/folder--hover.png",
+  },
+
+    // Folder animation Pink
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_pink"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/accent-pink/folder--hover.png",
+  },
+
+    // Folder animation Blue
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_blue"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/accent-blue/folder--hover.png",
+  },
+
+    // Folder animation Cyan
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_cyan"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/accent-cyan/folder--hover.png",
+  },
+
     // Small status bar
 
   {
