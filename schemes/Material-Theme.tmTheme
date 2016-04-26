@@ -66,6 +66,8 @@
       <dict>
         <key>foreground</key>
         <string>#546E7A</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
       <dict>
