@@ -1,8 +1,8 @@
 {
-  "name": "init",
-  "version": "2.0.8",
+  "name": "material-theme",
+  "version": "2.1.2",
   "description": "Material Theme for Sublime Text 3",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.8.11",
@@ -35,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/equinusocio/material-theme/issues"
   },
-  "homepage": "https://github.com/equinusocio/material-theme#readme"
+  "homepage": "http://equinusocio.github.io/material-theme/"
 }
