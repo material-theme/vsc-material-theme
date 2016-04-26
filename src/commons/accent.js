@@ -1882,8 +1882,6 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-indigo/find_reverse--hover.png",
   },
 
-
-
 /* PINK ACCENT
  * =================================================================== */
 
@@ -2196,8 +2194,6 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-pink/find_reverse--hover.png",
   },
 
-
-
 /* BLUE ACCENT
  * =================================================================== */
 
@@ -2509,7 +2505,6 @@ NOTE: This rulers must only override the original definitions */
     "settings": ["material_theme_accent_blue"],
     "layer0.texture": "Material Theme/assets/accent-blue/find_reverse--hover.png",
   },
-
 
 /* CYAN ACCENT
  * =================================================================== */
