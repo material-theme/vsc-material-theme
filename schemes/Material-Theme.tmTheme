@@ -50,11 +50,11 @@
       <key>name</key>
       <string>Text</string>
       <key>scope</key>
-      <string>variable.parameter.function</string>
+      <string>variable.parameter.function, text.cmdline, keyword.cmdline</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#eeffffff</string>
+        <string>#eeffff</string>
       </dict>
     </dict>
     <dict>
@@ -70,17 +70,17 @@
         <string>italic</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>notes</string>
+      <key>scope</key>
+      <string>notes</string>
+      <key>settings</key>
       <dict>
-        <key>name</key>
-        <string>notes</string>
-        <key>scope</key>
-        <string>notes</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#8EACE3</string>
-        </dict>
+        <key>foreground</key>
+        <string>#8EACE3</string>
       </dict>
+    </dict>
     <dict>
       <key>name</key>
       <string>Text and Source Base Colors</string>
@@ -122,7 +122,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c792eaff</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>
@@ -133,7 +133,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c792eaff</string>
+        <string>#c792ea</string>
       </dict>
     </dict>
     <dict>

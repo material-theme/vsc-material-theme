@@ -62,7 +62,7 @@
       <key>name</key>
       <string>Text</string>
       <key>scope</key>
-      <string>variable.parameter.function</string>
+      <string>variable.parameter.function, text.cmdline, keyword.cmdline</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
