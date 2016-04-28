@@ -12,3 +12,5 @@ https://github.com/equinusocio/material-theme
 🏮 COLOR SCHEME
 
   ➼ Fix italic comments for the dark scheme
+  ➼ Fix/add italic html tag attributes
+  ➼ Remove italic style from css classnames
