@@ -7,6 +7,7 @@ https://github.com/equinusocio/material-theme
 🏮 UI THEME
 
   ➼ New .pug file icon (Jade will be renamed Pug, more info here https://github.com/pugjs/pug/issues/2184)
+  ➼ Fix some filetype icons.
 
 
 🏮 COLOR SCHEME
