@@ -8,10 +8,10 @@ https://github.com/equinusocio/material-theme
 
   ➼ New .jade file icon
   ➼ Fix some file icons
-  ➼ Fix "material_theme_disable_folder_animation" folder color whith the new accent colors
+  ➼ Fix "material_theme_disable_folder_animation" folder color with the new accent colors
 
 
-🏮 COLOR SCHEM
+🏮 COLOR SCHEME
   ➼ Update Oceanic Next color schemes
   ➼ Add italic style to code comments
-  ➼ Add italic stule to the html attributes
+  ➼ Add italic style to the html attributes

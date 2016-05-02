@@ -78,6 +78,8 @@
       <dict>
         <key>foreground</key>
         <string>#656565</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
@@ -305,11 +307,13 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
+      <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#FFCB6B</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
@@ -786,6 +790,17 @@ meta.property-value support.constant.named-color.css</string>
       <dict>
         <key>foreground</key>
         <string>#80CBC4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CSS: classes</string>
+      <key>scope</key>
+      <string>source.sass entity.other.attribute-name, source.css entity.other.attribute-name, source.less entity.other.attribute-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffcb6b</string>
       </dict>
     </dict>
     <dict>
