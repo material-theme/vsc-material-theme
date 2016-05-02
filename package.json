@@ -1,11 +1,6 @@
 {
   "name": "material-theme",
   "version": "2.1.2",
-<<<<<<< HEAD
-  "description": "Material Theme for Sublime Text 3",
-  "main": "gulpfile.js",
-  "dependencies": {},
-=======
   "email": "astorino.design@gmail.com",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
@@ -22,7 +17,6 @@
     "run-sequence": "^1.1.5",
     "gulp-util": "^3.0.7"
   },
->>>>>>> develop
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-clean": "^0.3.1",
