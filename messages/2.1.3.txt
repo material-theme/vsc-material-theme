@@ -10,7 +10,7 @@ https://github.com/equinusocio/material-theme
   ➼ Fix some filetype icons.
 
 
-🏮 COLOR SCHEME
+🏮 COLOR SCHEMES
 
   ➼ Fix italic comments for the dark scheme
   ➼ Fix/add italic html tag attributes
