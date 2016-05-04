@@ -185,7 +185,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_lime"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [139, 195, 74],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [139, 195, 74]
@@ -197,7 +196,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_lime"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [139, 195, 74],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [139, 195, 74]
@@ -208,7 +206,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_lime"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [139, 195, 74],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [139, 195, 74]
@@ -498,7 +495,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_purple"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [156, 39, 176],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [156, 39, 176]
@@ -510,7 +506,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_purple"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [156, 39, 176],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [156, 39, 176]
@@ -521,7 +516,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_purple"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [156, 39, 176],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [156, 39, 176]
@@ -810,8 +804,7 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_red"],
-    "fg": [176, 190, 197, 255],
-    "match_fg": [244, 67, 54],
+    "match_fg": [229, 115, 115],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [229, 115, 115]
   },
@@ -822,7 +815,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_red"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [229, 115, 115],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [229, 115, 115]
@@ -833,7 +825,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_red"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [229, 115, 115],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [229, 115, 115]
@@ -1123,10 +1114,9 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_orange"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [255, 112, 67],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 112, 67]
   },
 
     // Panel labels
@@ -1135,10 +1125,9 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_orange"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [255, 112, 67],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 112, 67]
   },
 
     // Panels sublabels
@@ -1146,10 +1135,9 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_orange"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [255, 112, 67],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [229, 115, 115]
+    "selected_match_fg": [255, 112, 67]
   },
 
     // Panels data / score
@@ -1436,7 +1424,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_yellow"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [255, 162, 26],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [255, 162, 26]
@@ -1448,7 +1435,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_yellow"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [255, 162, 26],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [255, 162, 26]
@@ -1459,7 +1445,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_yellow"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [255, 162, 26],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [255, 162, 26]
@@ -1585,20 +1570,20 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "tool_tip_control",
     "settings": ["material_theme_accent_indigo"],
-    "layer0.tint": [41, 121, 255],
+    "layer0.tint": [121, 134, 203]
   },
 
   {
     "class": "progress_gauge_control",
     "settings": ["material_theme_accent_indigo"],
-    "layer0.tint": [41, 121, 255]
+    "layer0.tint": [121, 134, 203]
   },
 
   {
     "class": "auto_complete_label",
     "settings": ["material_theme_accent_indigo"],
-    "match_fg": [41, 121, 255],
-    "selected_match_fg": [41, 121, 255]
+    "match_fg": [121, 134, 203],
+    "selected_match_fg": [121, 134, 203]
   },
 
   {
@@ -1748,7 +1733,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_indigo"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [121, 134, 203],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [121, 134, 2039]
@@ -1760,7 +1744,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_indigo"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [121, 134, 203],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [121, 134, 2039]
@@ -1771,7 +1754,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_indigo"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [121, 134, 203],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [121, 134, 2039]
@@ -2060,7 +2042,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_pink"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [255, 64, 129],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [255, 64, 129]
@@ -2072,7 +2053,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_pink"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [255, 64, 129],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [255, 64, 129]
@@ -2083,7 +2063,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_pink"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [255, 64, 129],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [255, 64, 129]
@@ -2372,7 +2351,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_blue"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [68, 138, 255],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [68, 138, 255]
@@ -2384,7 +2362,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_blue"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [68, 138, 255],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [68, 138, 255]
@@ -2395,7 +2372,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_blue"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [68, 138, 255],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [68, 138, 255]
@@ -2684,10 +2660,9 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_cyan"],
-    "fg": [176, 190, 197, 255],
     "match_fg": [38, 198, 218],
     "selected_fg": [255, 255, 255, 255],
-    "selected_match_fg": [68, 138, 255]
+    "selected_match_fg": [38, 198, 218]
   },
 
     // Panel labels
@@ -2696,7 +2671,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_cyan"],
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
     "match_fg": [38, 198, 218],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [38, 198, 218]
@@ -2707,7 +2681,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_cyan"],
-    "fg": [97, 97, 97, 255],
     "match_fg": [38, 198, 218],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [38, 198, 218]
