@@ -121,10 +121,10 @@
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Material Theme/assets/darker/overlay_bar_horizontal.png",
+    "layer0.texture": "Material Theme/assets/darker/normal_bar_horizontal.png",
     "layer0.inner_margin": [5, 0],
     "layer0.opacity": 0.0,
-    "layer1.texture": "Material Theme/assets/darker/overlay_bar_horizontal.png",
+    "layer1.texture": "Material Theme/assets/darker/normal_bar_horizontal.png",
     "layer1.inner_margin": [5, 0],
     "layer1.opacity": 0.0,
     "blur": true
