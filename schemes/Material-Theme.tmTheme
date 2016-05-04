@@ -21,7 +21,7 @@
         <key>caret</key>
         <string>#FFCC00</string>
         <key>foreground</key>
-        <string>#80CBC4</string>
+        <string>#eeffff</string>
         <key>invisibles</key>
         <string>#65737e</string>
         <key>lineHighlight</key>
@@ -166,7 +166,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ffcb6b</string>
+        <string>#89DDFF</string>
       </dict>
     </dict>
     <dict>
@@ -295,7 +295,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
+      <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html, source.js meta.jsx.js entity.other.attribute-name.jsx</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
