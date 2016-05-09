@@ -178,7 +178,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ffcb6b</string>
+        <string>#89DDFF</string>
       </dict>
     </dict>
     <dict>
@@ -211,7 +211,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c792eaff</string>
+        <string>#89DDFF</string>
       </dict>
     </dict>
     <dict>
@@ -307,7 +307,11 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
+<<<<<<< HEAD
       <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
+=======
+      <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html, source.js meta.jsx.js entity.other.attribute-name.jsx</string>
+>>>>>>> develop
       <key>settings</key>
       <dict>
         <key>foreground</key>

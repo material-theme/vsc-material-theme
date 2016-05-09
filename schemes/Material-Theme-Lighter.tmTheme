@@ -166,7 +166,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#EBB060</string>
+        <string>#3fb3a8</string>
       </dict>
     </dict>
     <dict>
@@ -177,7 +177,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b8b8b8ff</string>
+        <string>#b8b8b8</string>
       </dict>
     </dict>
     <dict>
@@ -188,7 +188,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6182b8ff</string>
+        <string>#6182b8</string>
       </dict>
     </dict>
     <dict>
@@ -199,7 +199,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#945eb8ff</string>
+        <string>#6182b8</string>
       </dict>
     </dict>
     <dict>
@@ -211,7 +211,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3fb3a8ff</string>
+        <string>#3fb3a8</string>
       </dict>
     </dict>
     <dict>
@@ -295,7 +295,11 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
+<<<<<<< HEAD
       <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
+=======
+      <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html, source.js meta.jsx.js entity.other.attribute-name.jsx</string>
+>>>>>>> develop
       <key>settings</key>
       <dict>
         <key>foreground</key>
