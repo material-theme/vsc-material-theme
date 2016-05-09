@@ -16,6 +16,10 @@
   "2.1.0": "messages/2.1.0.txt",
   "2.1.1": "messages/2.1.1.txt",
   "2.1.2": "messages/2.1.2.txt",
+<<<<<<< HEAD
+  "2.1.3": "messages/2.1.3.txt"
+=======
   "2.1.3": "messages/2.1.3.txt",
   "2.1.4": "messages/2.1.4.txt"
+>>>>>>> develop
 }
