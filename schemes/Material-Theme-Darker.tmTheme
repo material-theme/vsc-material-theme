@@ -307,7 +307,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html, source.js meta.jsx.js entity.other.attribute-name.jsx</string>
+      <string>entity.other.attribute-name.html, entity.other.attribute-name.class.html, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html, entity.other.attribute-name.id.html, source.js meta.jsx.js entity.other.attribute-name.jsx</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
