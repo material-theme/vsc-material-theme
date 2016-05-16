@@ -2,8 +2,8 @@
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/material-theme.svg?style=flat-square)](https://github.com/equinusocio/material-theme/releases)
 [![Downloads](https://img.shields.io/packagecontrol/dt/Material%20Theme.svg?colorB=80d4cd&style=flat-square)](https://packagecontrol.io/packages/Material%20Theme)
 [![Join the chat at https://gitter.im/equinusocio/material-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/equinusocio/material-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<a style="display: inline-block !important;" href='https://pledgie.com/campaigns/29452'><img width="100" alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com!' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
-<a style="display: inline-block !important;" class="coinbase-button" data-code="7641b89a8c144e41fdea5e73aaa011db" data-button-style="donation_large" href="https://www.coinbase.com/checkouts/7641b89a8c144e41fdea5e73aaa011db"><img width="120" src="https://www.coinbase.com/assets/buttons/donation_large-5cf4f17cc2d2ae2f45b6b021ee498297409c94dcf0ba1bbf76fd5668e80b0d02.png"></a><script src="https://www.coinbase.com/assets/button.js" type="text/javascript"></script>
+<a style="display: inline-block !important;" target="_blank" href='https://pledgie.com/campaigns/29452'><img width="100" alt='Click here to lend your support to: Material Theme donations and make a donation at pledgie.com!' src='https://pledgie.com/campaigns/29452.png?skin_name=chrome' border='0' ></a>
+<a style="display: inline-block !important;" class="coinbase-button" data-code="7641b89a8c144e41fdea5e73aaa011db" target="_blank" data-button-style="donation_large" href="https://www.coinbase.com/checkouts/7641b89a8c144e41fdea5e73aaa011db"><img width="120" src="https://www.coinbase.com/assets/buttons/donation_large-5cf4f17cc2d2ae2f45b6b021ee498297409c94dcf0ba1bbf76fd5668e80b0d02.png"></a><script src="https://www.coinbase.com/assets/button.js" type="text/javascript"></script>
 
 
 # Material Theme for Sublime Text 3 3103+
