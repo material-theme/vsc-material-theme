@@ -1058,6 +1058,17 @@ meta.property-value support.constant.named-color.css</string>
     </dict>
     <dict>
       <key>name</key>
+      <string>PHP: entity name</string>
+      <key>scope</key>
+      <string>embedding.php text.html.basic meta.embedded.block.php source.php entity.name.label.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#c792ea</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>SysTypes</string>
       <key>scope</key>
       <string>support.type.sys-types</string>
