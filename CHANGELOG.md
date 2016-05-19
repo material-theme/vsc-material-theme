@@ -1,3 +1,19 @@
+<a name="2.1.6"></a>
+## [2.1.6](https://github.com/equinusocio/material-theme/releases/tag/v2.1.6) (19-05-2016)
+
+
+### Bug Fixes
+
+* Fix php block entity name ([8a3e881](https://github.com/equinusocio/material-theme/commit/8a3e88177123c9c386144e405d361ccacde6297d)), close #827
+
+
+### Features
+* Now you can check the official changelog
+* Add extensions overrides ([7d57cb8](https://github.com/equinusocio/material-theme/commit/7d57cb8b73c0205404fda9aa2c300babac2ae5be))
+* Add a lot of new file icons and update the old ones ([933dedf](https://github.com/equinusocio/material-theme/commit/933dedf3fcab01d6de1e4fba1b1ad30dcdfba6a9))
+
+
+
 <a name="2.1.5"></a>
 ## [2.1.5](https://github.com/equinusocio/material-theme/releases/tag/v2.1.5)
 
