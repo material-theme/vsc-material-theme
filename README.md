@@ -36,7 +36,7 @@ You can install this awesome theme through the [Package Control](https://package
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 ```
 
-2. Restart Sublime Text after activating the theme.
+**NOTE:** Restart Sublime Text after activating the theme.
 
 # Theme styles
 This theme provides 2 alternative styles:
@@ -159,7 +159,7 @@ You can now edit the source files under `/src` folder that will be compiled insi
 Material Theme was also ported to:
 
 
-- [x] Atom Editor: [atom-material-ui](https://github.com/silvestreh/atom-material-ui) and [material-ui](https://github.com/leo/material-ui)
+- [x] Atom Editor: [atom-material-ui](https://github.com/silvestreh/atom-material-ui) (by [@silvestreh](https://github.com/silvestreh)) and [material-ui](https://github.com/leo/material-ui) (by [@leo](https://github.com/leo))
 - [x] [IntelliJ IDEA](https://github.com/ChrisRM/material-theme-jetbrains) (thanks to [@ChrisRM](https://github.com/ChrisRM)).
 - [x] [Vim](https://github.com/kristijanhusak/vim-hybrid-material) (thanks to [@kristijanhusak](https://github.com/kristijanhusak)).
 - [x] [Terminal OSX](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) (thanks to [@mvaneijgen](https://github.com/mvaneijgen)).
