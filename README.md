@@ -16,7 +16,7 @@ Please read the [Known Issues](https://github.com/equinusocio/material-theme#kno
 # Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
 
-1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to access Package Control.
+1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
 2. Type *"install package"* and press enter. Then search for *"Material Theme"*
 
 --
