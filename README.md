@@ -24,20 +24,19 @@ You can install this awesome theme through the [Package Control](https://package
 # Manual installation
 
 1. Download the [latest release](https://github.com/equinusocio/material-theme/releases/latest), extract and rename the directory to **"Material Theme"**.
-
-2. Move the directory inside your sublime Packages directory. **(Preferences > Browse packages...)**
+2. Move the directory inside your sublime `Packages` directory. **(Preferences > Browse packages...)**
 
 
 # Activate the theme
 
-Activate the theme with the following preferences at  **(Preferences > Setting - User)**:
+1. Open you preferences **(Preferences > Setting - User)** and add this lines:
 
 ```json
 "theme": "Material-Theme.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 ```
 
-***Note*** : Remember to restart Sublime Text after activating the theme.
+2. Restart Sublime Text after activating the theme.
 
 # Theme styles
 This theme provides 2 alternative styles:
@@ -54,23 +53,18 @@ This theme provides 2 alternative styles:
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 ```
 
-### Oceanic Next Color Schemes
+# Alternative color schemes
 
-If you don't like material theme color schemes you can use Oceanic Next that is provided with package by using:
+If you don't like material theme color schemes you can use [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) — that is provided with this package — by using:
 
-*default*
 ```json
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
-```
-
-*Darker*
-```json
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",  // or 
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",  
 ```
 
 ### Old Color Schemes
 
-You can still use the oldest and **unsupported** color schemes (with red variables) 
+You can still use the oldest and **unsupported** color schemes.
 
 ```json
 "color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
@@ -137,17 +131,19 @@ This official addon enable a beautiful colored tab bar to your Material Theme. T
 "font_options"                 : [ "gray_antialias", "subpixel_antialias" ],    // On retina Mac & Windows
 ```
 
-The font used for the code is "[Fira Code](https://github.com/tonsky/FiraCode)" with code ligatures (not supported in Sublime Text).
+The font used for the code is "[Operator Mono](http://www.typography.com/blog/introducing-operator)
 
-You can also use the official Material Design monospace font, "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)"
+You can also use the official Material Design monospace font "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)" or [Fira Code](https://github.com/tonsky/FiraCode).
 
 # Contributing
 
 This UI theme use a custom compiler build on Gulp and JS. If you want to edit the UI you must first install the compiler:
+
 ```
 $ npm install
 ```
 then run compiler and watcher by run:
+
 ```
 $ gulp
 ```
@@ -159,7 +155,7 @@ You can now edit the source files under `/src` folder that will be compiled insi
 
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
-## Other Editors
+## Official Portings
 Material Theme was also ported to:
 
 
@@ -169,6 +165,7 @@ Material Theme was also ported to:
 - [x] [Terminal OSX](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) (thanks to [@mvaneijgen](https://github.com/mvaneijgen)).
 - [x] [ConEmu](https://gist.github.com/rajadain/b306b2ba71bd58a1df41) (thanks to [@rajadain](https://github.com/rajadain)).
 - [x] [Slack App](https://slack.com/) ( #263238,#2e3a40,#80CBC4,#FFFFFF,#13191C,#ffffff,#50fa7b,#FF5555 )
+- [x] [Nylas N1](https://github.com/jackiehluo/n1-material) (thanks to [@jackiehluo](https://github.com/jackiehluo))
 
 
 # Color Palette
@@ -188,4 +185,5 @@ Thanks for all the [contributors](https://github.com/equinusocio/material-theme/
 
 Check the video review by **LevelUpTuts**
 
+# Video review
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6eqgrCxprOI/0.jpg)](http://www.youtube.com/watch?v=6eqgrCxprOI)
