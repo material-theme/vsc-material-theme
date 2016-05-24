@@ -66,7 +66,9 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#65737e</string>
+        <string>#656565</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
