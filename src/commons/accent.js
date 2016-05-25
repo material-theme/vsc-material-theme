@@ -168,7 +168,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_lime"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-lime/fold_right--hover.png",
   },
 
@@ -176,7 +175,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_lime"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-lime/fold_down--hover.png"
   },
 
@@ -478,7 +476,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_purple"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-purple/fold_right--hover.png",
   },
 
@@ -486,7 +483,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_purple"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-purple/fold_down--hover.png"
   },
 
@@ -787,7 +783,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_red"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-red/fold_right--hover.png",
   },
 
@@ -795,7 +790,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_red"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-red/fold_down--hover.png"
   },
 
@@ -1097,7 +1091,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_orange"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-orange/fold_right--hover.png",
   },
 
@@ -1105,7 +1098,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_orange"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-orange/fold_down--hover.png"
   },
 
@@ -1407,7 +1399,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_yellow"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-yellow/fold_right--hover.png",
   },
 
@@ -1415,7 +1406,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_yellow"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-yellow/fold_down--hover.png"
   },
 
@@ -1716,7 +1706,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_indigo"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-indigo/fold_right--hover.png",
   },
 
@@ -1724,7 +1713,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_indigo"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-indigo/fold_down--hover.png"
   },
 
@@ -2025,7 +2013,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_pink"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-pink/fold_right--hover.png",
   },
 
@@ -2033,7 +2020,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_pink"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-pink/fold_down--hover.png"
   },
 
@@ -2334,7 +2320,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_blue"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-blue/fold_right--hover.png",
   },
 
@@ -2342,7 +2327,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_blue"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-blue/fold_down--hover.png"
   },
 
@@ -2643,7 +2627,6 @@ NOTE: This rulers must only override the original definitions */
   {
     "class": "fold_button_control",
     "settings": ["material_theme_accent_cyan"],
-    "layer0.texture": "Material Theme/assets/commons/fold_right.png",
     "layer1.texture": "Material Theme/assets/accent-cyan/fold_right--hover.png",
   },
 
@@ -2651,7 +2634,6 @@ NOTE: This rulers must only override the original definitions */
     "class": "fold_button_control",
     "attributes": ["expanded"],
     "settings": ["material_theme_accent_cyan"],
-    "layer0.texture": "Material Theme/assets/darker/fold_down.png",
     "layer1.texture": "Material Theme/assets/accent-cyan/fold_down--hover.png"
   },
 
