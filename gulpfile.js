@@ -15,17 +15,19 @@ var notifyLogo = './icon.png';
 
 
 // Modules loader
-var gulp       = require( 'gulp' ),
-path           = require( 'path' ),
-duration       = require( 'gulp-duration' ),
-gutil          = require( 'gulp-util' ),
-clean          = require( 'gulp-clean' ),
-runSequence    = require( 'run-sequence' ),
-concat_json    = require( "gulp-concat-json" ),
-rename         = require( 'gulp-rename' ),
-concat         = require( 'gulp-concat-json2js' ),
-wrap           = require( 'gulp-wrap' ),
-notify         = require( 'gulp-notify' );
+var gulp              = require( 'gulp' ),
+path                  = require( 'path' ),
+duration              = require( 'gulp-duration' ),
+gutil                 = require( 'gulp-util' ),
+clean                 = require( 'gulp-clean' ),
+runSequence           = require( 'run-sequence' ),
+concat_json           = require( 'gulp-concat-json' ),
+conventionalChangelog = require( 'gulp-conventional-changelog' ),
+fs                    = require( 'fs' ),
+rename                = require( 'gulp-rename' ),
+concat                = require( 'gulp-concat-json2js' ),
+wrap                  = require( 'gulp-wrap' ),
+notify                = require( 'gulp-notify' );
 
 
 // Theme builder
@@ -49,7 +51,35 @@ gulp.task('themeBuilder', function () {
 
 
 
-// cleaner
+// Generate changelog
+// #############################################################################
+
+gulp.task('changelog', function() {
+  return gulp.src('CHANGELOG.md')
+    .pipe(conventionalChangelog({
+        // conventional-changelog options go here
+        preset: 'angular'
+      }, {
+        // context goes here
+      }, {
+        // git-raw-commits options go here
+      }, {
+        // conventional-commits-parser options go here
+      }, {
+        // conventional-changelog-writer options go here
+      }))
+      .pipe(gulp.dest('./CHANGELOG.md'));
+
+  // return conventionalChangelog({
+  //   preset: 'angular'
+  // })
+  // .pipe(fs.createWriteStream('CHANGELOG.md'));
+});
+
+
+// Cleaner
+// #############################################################################
+
 gulp.task( 'build-clean', function () {
     return gulp.src( './test.txt', {read: false} )
     .pipe( clean( ) );
