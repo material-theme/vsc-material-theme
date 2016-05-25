@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string><%= author %></string>
+  <key>comment</key>
+  <string><%= comment %></string>
 	<key>name</key>
-	<string>Material Theme</string>
+	<string><%= name %></string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>settings</key>
@@ -12,23 +16,23 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FAFAFA</string>
+				<string><%= ui.background.primary.hex %></string>
 				<key>caret</key>
-				<string>#B0BEC5</string>
+				<string><%= widget.caret %></string>
 				<key>foreground</key>
-				<string>#90A4AE</string>
+				<string><%= widget.foreground %></string>
 				<key>invisibles</key>
-				<string>#607D8B</string>
+				<string><%= widget.invisibles %></string>
 				<key>lineHighlight</key>
-				<string>#00000012</string>
+				<string><%= widget.highlight %></string>
 				<key>selection</key>
-				<string>#90A4AE</string>
+				<string><%= widget.selection %></string>
 				<key>selectionBorder</key>
-				<string>#90A4AE</string>
+				<string><%= widget.selectionBorder %></string>
 				<key>selectionForeground</key>
-				<string>#FFFFFF</string>
+				<string><%= widget.selectionForeground %></string>
 				<key>inactiveSelection</key>
-				<string>#607D8B</string>
+				<string><%= widget.inactiveSelection %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -41,7 +45,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#0066FF</string>
+				<string><%= widget.comments %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +56,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AAB3B5</string>
+				<string><%= widget.keyword %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,7 +65,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80CBC4</string>
+				<string><%= widget.constant %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F9355A</string>
+				<string><%= widget.string %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +83,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC400</string>
+				<string><%= widget.constantEscape %></string>
 			</dict>
 		</dict>
 	</array>

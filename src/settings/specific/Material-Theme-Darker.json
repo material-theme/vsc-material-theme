@@ -1,0 +1,52 @@
+{
+  "name": "Material-Theme-Darker",
+  "semanticClass": "material.theme.dark",
+  "uuid": "4F44C0F5-1F8D-4C52-8BAB-F0951904C1EC",
+  "ui": {
+    "id": "material-theme",
+    "variant": {
+      "id": "darker",
+      "name": "Darker"
+    },
+    "background": {
+      "primary": {
+        "hex": "#212121",
+        "rgb": "34, 50, 58"
+      },
+      "scrollbar": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "foreground": {
+      "primary": {
+        "hex": "#a7adb0",
+        "rgb": "167, 173, 176"
+      },
+      "secondary": {
+        "hex": "#6f7a7f",
+        "rgb": "111, 122, 127"
+      },
+      "selected": {
+        "hex": "#dddfe1",
+        "rgb": "221, 223, 225"
+      }
+    }
+  },
+  "widget": {
+    "background": "#212121",
+    "caret": "#B0BEC5",
+    "foreground": "#616161",
+    "highlight": "#00000012",
+    "selection": "#B0BEC550",
+    "selectionBorder": "#000000",
+    "selectionForeground": "#FFFFFF",
+    "inactiveSelection": "#B0BEC550",
+    "invisibles": "#BFBFBF",
+    "comments": "#0066FF",
+    "keywords": "#cfd8dc",
+    "constant": "#80CBC4",
+    "string": "#F9355A",
+    "constantEscape": "#FFC400"
+  }
+}

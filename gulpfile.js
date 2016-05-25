@@ -160,8 +160,7 @@ gulp.task('release', function(cb) {
 gulp.task('build', function(cb) {
   runSequence(
     'build:themes',
-    //'build:schemes',
-    //'build:widgets',
+    'build:widgets',
     function (error) {
       if (error) {
         console.log('[build]'.bold.magenta + ' There was an issue building BOXY:\n'.bold.red + error.message);
@@ -184,8 +183,8 @@ gulp.task('build:themes', ['clean:themes'], function() {
     }))
     .pipe($.include())
     .pipe($.data(function(file) {
-      //var specific = require('./sources/settings/specific/' + path.basename(file.path));
-      return _.merge(common);
+      var specific = require(srcPath + '/settings/specific/' + path.basename(file.path));
+      return _.merge(common, specific);
     }))
     .pipe($.template())
     .pipe($.rename(function(path) {
@@ -198,99 +197,63 @@ gulp.task('build:themes', ['clean:themes'], function() {
     });
 });
 
-/* >> Schemes */
-
-  // gulp.task('build:schemes', ['clean:schemes'], function(cb) {
-  //   return gulp.src('./sources/settings/specific/*.json')
-  //     .pipe($.plumber(function(error) {
-  //       console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
-  //       this.emit('end');
-  //     }))
-  //     .pipe($.foreach(function(stream, file) {
-  //       var basename = "Material-Theme " + _.startCase(path.basename(file.path, path.extname(file.path)));
-
-  //       return gulp.src('./sources/schemes/scheme.YAML-tmTheme')
-  //         .pipe($.data(function() {
-  //           var specific = require(file.path);
-
-  //           return _.merge(common, specific);
-  //         }))
-  //         .pipe($.template())
-  //         .pipe($.rename(function(scheme) {
-  //           scheme.basename = basename;
-  //         }))
-  //         .pipe(gulp.dest('./schemes'));
-  //     }))
-  //     .on('end', function() {
-  //       console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
-  //     });
-  // });
-
-  // gulp.task('convert:schemes', function() {
-  //   return gulp.src('./schemes/*.YAML-tmTheme')
-  //     .pipe($.plumber(function(error) {
-  //       console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
-  //                   'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
-  //       this.emit('end');
-  //     }))
-  //     .pipe($.exec('subl "<%= file.path %>" --b && subl --b --command "convert_file" && subl --b --command "close_file"'));
-  // });
 
 /* >> Widgets */
 
-  // gulp.task('build:widgets', ['clean:widgets'], function(cb) {
-  //   runSequence(
-  //     'build:widget-themes',
-  //     'build:widget-settings',
-  //     function (error) {
-  //       if (error) {
-  //         console.log('[build:widgets]'.bold.magenta + ' There was an issue building widgets:\n'.bold.red + error.message);
-  //       } else {
-  //         console.log('[build:widgets]'.bold.magenta + ' Finished successfully'.bold.green);
-  //       }
+gulp.task('build:widgets', ['clean:widgets'], function(cb) {
+  runSequence(
+    'build:widget-themes',
+    'build:widget-settings',
+    function (error) {
+      if (error) {
+        console.log('[build:widgets]'.bold.magenta + ' There was an issue building widgets:\n'.bold.red + error.message);
+      } else {
+        console.log('[build:widgets]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
 
-  //       cb(error);
-  //     }
-  //   );
-  // });
+      cb(error);
+    }
+  );
+});
 
-  // gulp.task('build:widget-themes', function() {
-  //   return gulp.src('./sources/settings/specific/*.json')
-  //     .pipe($.foreach(function(stream, file) {
-  //       var basename = "Material-Theme " + _.startCase(path.basename(file.path, path.extname(file.path)));
+gulp.task('build:widget-themes', function() {
+  return gulp.src(srcPath + '/settings/specific/*.json')
+    .pipe($.foreach(function(stream, file) {
+      var basename = path.basename(file.path, path.extname(file.path));
 
-  //       return gulp.src('./sources/widgets/widget.stTheme')
-  //         .pipe($.data(function() {
-  //           var specific = require(file.path);
 
-  //           return _.merge(common, specific);
-  //         }))
-  //         .pipe($.template())
-  //         .pipe($.rename(function(widget) {
-  //           widget.basename = 'Widget - ' + basename;
-  //         }))
-  //         .pipe(gulp.dest('./widgets'));
-  //     }));
-  // });
+      return gulp.src(srcPath + '/widgets/widget.stTheme')
+        .pipe($.data(function() {
+          var specific = require(file.path);
 
-  // gulp.task('build:widget-settings', function() {
-  //   return gulp.src('./sources/settings/specific/*.json')
-  //     .pipe($.foreach(function(stream, file) {
-  //       var basename = "Material-Theme " + _.startCase(path.basename(file.path, path.extname(file.path)));
+          return _.merge(common, specific);
+        }))
+        .pipe($.template())
+        .pipe($.rename(function(widget) {
+          widget.basename = 'Widget - ' + basename;;
+        }))
+        .pipe(gulp.dest('./widgets'));
+    }));
+});
 
-  //       return gulp.src('./sources/widgets/widget.sublime-settings')
-  //         .pipe($.data(function() {
-  //           var specific = require(file.path);
+gulp.task('build:widget-settings', function() {
+  return gulp.src(srcPath + '/settings/specific/*.json')
+    .pipe($.foreach(function(stream, file) {
+      var basename = path.basename(file.path, path.extname(file.path));
 
-  //           return _.merge(common, specific);
-  //         }))
-  //         .pipe($.template())
-  //         .pipe($.rename(function(widget) {
-  //           widget.basename = 'Widget - ' + basename;
-  //         }))
-  //         .pipe(gulp.dest('./widgets'));
-  //     }));
-  // });
+      return gulp.src(srcPath + '/widgets/widget.sublime-settings')
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
+        .pipe($.template())
+        .pipe($.rename(function(widget) {
+          widget.basename = 'Widget - ' + basename;
+        }))
+        .pipe(gulp.dest('./widgets'));
+    }));
+});
 
 
 /*

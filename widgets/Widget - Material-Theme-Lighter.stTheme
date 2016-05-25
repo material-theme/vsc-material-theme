@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string>Mattia Astorino</string>
+  <key>comment</key>
+  <string>The most epic theme for Sublime Text 3</string>
 	<key>name</key>
-	<string>Darker Material Theme</string>
+	<string>Material-Theme-Lighter</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>settings</key>
@@ -12,23 +16,23 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#212121</string>
+				<string>#FAFAFA</string>
 				<key>caret</key>
 				<string>#B0BEC5</string>
 				<key>foreground</key>
-				<string>#616161</string>
+				<string>#90A4AE</string>
 				<key>invisibles</key>
-				<string>#BFBFBF</string>
+				<string>#607D8B</string>
 				<key>lineHighlight</key>
 				<string>#00000012</string>
 				<key>selection</key>
-				<string>#B0BEC550</string>
+				<string>#90A4AE</string>
 				<key>selectionBorder</key>
-				<string>#000000</string>
+				<string>#90A4AE</string>
 				<key>selectionForeground</key>
 				<string>#FFFFFF</string>
 				<key>inactiveSelection</key>
-				<string>#B0BEC550</string>
+				<string>#607D8B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +56,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfd8dc</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
