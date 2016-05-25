@@ -1,7 +1,7 @@
 
-/* @ BUTTONS
- * Buttons panels settings and behavioring
-========================================================================= */
+// @ BUTTONS
+// Buttons panels settings and behavioring
+// =========================================================================
 
 
   // Button labels
@@ -234,9 +234,9 @@
     "content_margin": [12, 12]
   },
 
-   {
-      "class": "icon_reverse",
-      "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-      "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
-      "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
-   },
+  {
+    "class": "icon_reverse",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
+    "layer1.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" }
+  },

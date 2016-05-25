@@ -1,107 +1,312 @@
-//
-//  Sublime Text theme compiler
-//  Developed with love by Mattia Astorino
-//
-//  Licensed under the MIT License
-//  https://www.apache.org/licenses/LICENSE-2.0
-//  ____________________________________________________________________________
+/* Sublime Text 3 Theme Builder
 
-// Compiler settings
-// #############################################################################
+'use strict';
 
-// Compiler settings
-var srcPath    = './src';
-var notifyLogo = './icon.png';
+/*
+ * > Plugins
+ */
 
-
-// Modules loader
-var gulp              = require( 'gulp' ),
-path                  = require( 'path' ),
-duration              = require( 'gulp-duration' ),
-gutil                 = require( 'gulp-util' ),
-clean                 = require( 'gulp-clean' ),
-runSequence           = require( 'run-sequence' ),
-concat_json           = require( 'gulp-concat-json' ),
-conventionalChangelog = require( 'gulp-conventional-changelog' ),
-fs                    = require( 'fs' ),
-rename                = require( 'gulp-rename' ),
-concat                = require( 'gulp-concat-json2js' ),
-wrap                  = require( 'gulp-wrap' ),
-notify                = require( 'gulp-notify' );
+var gulp                       = require('gulp'),
+    del                        = require('del'),
+    path                       = require('path'),
+    colors                     = require('colors'),
+    runSequence                = require('run-sequence'),
+    conventionalChangelog      = require('conventional-changelog'),
+    conventionalGithubReleaser = require('conventional-github-releaser'),
+    argv                       = require('yargs').argv,
+    fs                         = require('fs'),
+    _                          = require('lodash'),
+    $                          = require('gulp-load-plugins')();
 
 
-// Theme builder
-// #############################################################################
+/*
+ * > Settings
+ */
+
+var srcPath = "./src";
+//var common = require('./src/commons/accent.json');
+var common;
 
 
-gulp.task('themeBuilder', function () {
+/*
+ * > Clean
+ */
 
-  gulp.src('./src/**.json')
-  .pipe(concat())
-  .pipe(wrap('[\r\n <%= contents %> \r\n]'))
-  .pipe(rename({ extname: ".sublime-theme" }) )
-  .pipe(gulp.dest('./'))
-  .pipe(notify({
-    title: "Material Theme",
-    message: "Theme compiled",
-    icon: path.join( __dirname, notifyLogo )
-  }))
-  .pipe(duration('Building theme'))
-})
+gulp.task('clean:themes', function() {
+  return del(['./*.sublime-theme']);
+});
+
+gulp.task('clean:schemes', function() {
+  return del(['./schemes/*.tmTheme', './schemes/*.YAML-tmTheme']);
+});
+
+gulp.task('clean:widgets', function() {
+  return del(['./widgets/*.stTheme', './widgets/*.sublime-settings']);
+});
 
 
-
-// Generate changelog
-// #############################################################################
+/*
+ * > Generate CHANGELOG
+ */
 
 gulp.task('changelog', function() {
-  return gulp.src('CHANGELOG.md')
-    .pipe(conventionalChangelog({
-        // conventional-changelog options go here
-        preset: 'angular'
-      }, {
-        // context goes here
-      }, {
-        // git-raw-commits options go here
-      }, {
-        // conventional-commits-parser options go here
-      }, {
-        // conventional-changelog-writer options go here
-      }))
-      .pipe(gulp.dest('./CHANGELOG.md'));
-
-  // return conventionalChangelog({
-  //   preset: 'angular'
-  // })
-  // .pipe(fs.createWriteStream('CHANGELOG.md'));
+  return conventionalChangelog({
+    preset: 'angular'
+  })
+  .pipe(fs.createWriteStream('CHANGELOG.md'));
 });
 
 
-// Cleaner
-// #############################################################################
+/*
+ * > Github Release
+ */
 
-gulp.task( 'build-clean', function () {
-    return gulp.src( './test.txt', {read: false} )
-    .pipe( clean( ) );
+gulp.task('github-release', function(done) {
+  conventionalGithubReleaser({
+    type: 'oauth',
+    token: process.env.CONVENTIONAL_GITHUB_RELEASER_TOKEN
+  }, {
+    preset: 'angular'
+  }, done);
 });
 
 
-// Base watcher task
-// #############################################################################
+/*
+ * > Bump Version
+ */
 
-gulp.task( 'watch', function() {
-    gulp.watch( srcPath + '/**/*.js', [ 'builder' ] );
+gulp.task('bump', function(cb) {
+  runSequence(
+    'bump-version',
+    'commit-version',
+    function (error) {
+      if (error) {
+        console.log('[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
+      } else {
+        console.log('[bump]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+      cb(error);
+    }
+  );
+});
+
+gulp.task('bump-version', function() {
+  return gulp.src('./package.json')
+    .pipe($.if((Object.keys(argv).length === 2), $.bump()))
+    .pipe($.if(argv.patch, $.bump()))
+    .pipe($.if(argv.minor, $.bump({ type: 'minor' })))
+    .pipe($.if(argv.major, $.bump({ type: 'major' })))
+    .pipe(gulp.dest('./'));
 });
 
 
-// Registered tasks
-// #############################################################################
+/*
+ * > Git
+ */
 
-/*gulp.task( 'default', [ 'clean', 'themeBuilder', 'watch' ] );*/
-gulp.task( 'default', function( callback ) {
-  runSequence( 'build-clean', 'themeBuilder', 'watch', callback );
+gulp.task('commit-version', function() {
+  return gulp.src('.')
+    .pipe($.git.add())
+    .pipe($.git.commit('chore: bump version number'));
 });
 
-gulp.task( 'builder', function( callback ) {
-  runSequence( 'build-clean', 'themeBuilder', callback );
+gulp.task('commit-changelog', function() {
+  return gulp.src('.')
+    .pipe($.git.add())
+    .pipe($.git.commit('chore: update CHANGELOG.md'));
 });
+
+gulp.task('create-new-tag', function(cb) {
+  var version = getPackageJsonVersion();
+
+  $.git.tag('v' + version, 'version: ' + version, function (error) {
+    if (error) {
+      return cb(error);
+    }
+    $.git.push('origin', 'master', {args: '--tags'}, cb);
+  });
+
+  function getPackageJsonVersion() {
+    return JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
+  }
+});
+
+
+/*
+ * > Release
+ */
+
+gulp.task('release', function(cb) {
+  runSequence(
+    'changelog',
+    'commit-changelog',
+    'create-new-tag',
+    'github-release',
+    function (error) {
+      if (error) {
+        console.log('[release]'.bold.magenta + ' There was an issue releasing themes:\n'.bold.red + error.message);
+      } else {
+        console.log('[release]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+      cb(error);
+    }
+  );
+});
+
+
+/*
+ * > Build
+ */
+
+gulp.task('build', function(cb) {
+  runSequence(
+    'build:themes',
+    //'build:schemes',
+    //'build:widgets',
+    function (error) {
+      if (error) {
+        console.log('[build]'.bold.magenta + ' There was an issue building BOXY:\n'.bold.red + error.message);
+      } else {
+        console.log('[build]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+
+      cb(error);
+    }
+  );
+});
+
+/* >> Themes */
+
+gulp.task('build:themes', ['clean:themes'], function() {
+  return gulp.src(srcPath + '/themes/*.json')
+    .pipe($.plumber(function(error) {
+      console.log('[build:themes]'.bold.magenta + ' There was an issue building themes:\n'.bold.red + error.message);
+      this.emit('end');
+    }))
+    .pipe($.include())
+    .pipe($.data(function(file) {
+      return _.merge(common);
+    }))
+    .pipe($.template())
+    .pipe($.rename(function(path) {
+      path.basename = path.basename;
+      path.extname = ".sublime-theme";
+    }))
+    .pipe(gulp.dest('./'))
+    .on('end', function() {
+      console.log('[build:themes]'.bold.magenta + ' Finished successfully'.bold.green);
+    });
+});
+
+/* >> Schemes */
+
+  // gulp.task('build:schemes', ['clean:schemes'], function(cb) {
+  //   return gulp.src('./sources/settings/specific/*.json')
+  //     .pipe($.plumber(function(error) {
+  //       console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
+  //       this.emit('end');
+  //     }))
+  //     .pipe($.foreach(function(stream, file) {
+  //       var basename = "Material-Theme " + _.startCase(path.basename(file.path, path.extname(file.path)));
+
+  //       return gulp.src('./sources/schemes/scheme.YAML-tmTheme')
+  //         .pipe($.data(function() {
+  //           var specific = require(file.path);
+
+  //           return _.merge(common, specific);
+  //         }))
+  //         .pipe($.template())
+  //         .pipe($.rename(function(scheme) {
+  //           scheme.basename = basename;
+  //         }))
+  //         .pipe(gulp.dest('./schemes'));
+  //     }))
+  //     .on('end', function() {
+  //       console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
+  //     });
+  // });
+
+  // gulp.task('convert:schemes', function() {
+  //   return gulp.src('./schemes/*.YAML-tmTheme')
+  //     .pipe($.plumber(function(error) {
+  //       console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
+  //                   'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
+  //       this.emit('end');
+  //     }))
+  //     .pipe($.exec('subl "<%= file.path %>" --b && subl --b --command "convert_file" && subl --b --command "close_file"'));
+  // });
+
+/* >> Widgets */
+
+  // gulp.task('build:widgets', ['clean:widgets'], function(cb) {
+  //   runSequence(
+  //     'build:widget-themes',
+  //     'build:widget-settings',
+  //     function (error) {
+  //       if (error) {
+  //         console.log('[build:widgets]'.bold.magenta + ' There was an issue building widgets:\n'.bold.red + error.message);
+  //       } else {
+  //         console.log('[build:widgets]'.bold.magenta + ' Finished successfully'.bold.green);
+  //       }
+
+  //       cb(error);
+  //     }
+  //   );
+  // });
+
+  // gulp.task('build:widget-themes', function() {
+  //   return gulp.src('./sources/settings/specific/*.json')
+  //     .pipe($.foreach(function(stream, file) {
+  //       var basename = "Material-Theme " + _.startCase(path.basename(file.path, path.extname(file.path)));
+
+  //       return gulp.src('./sources/widgets/widget.stTheme')
+  //         .pipe($.data(function() {
+  //           var specific = require(file.path);
+
+  //           return _.merge(common, specific);
+  //         }))
+  //         .pipe($.template())
+  //         .pipe($.rename(function(widget) {
+  //           widget.basename = 'Widget - ' + basename;
+  //         }))
+  //         .pipe(gulp.dest('./widgets'));
+  //     }));
+  // });
+
+  // gulp.task('build:widget-settings', function() {
+  //   return gulp.src('./sources/settings/specific/*.json')
+  //     .pipe($.foreach(function(stream, file) {
+  //       var basename = "Material-Theme " + _.startCase(path.basename(file.path, path.extname(file.path)));
+
+  //       return gulp.src('./sources/widgets/widget.sublime-settings')
+  //         .pipe($.data(function() {
+  //           var specific = require(file.path);
+
+  //           return _.merge(common, specific);
+  //         }))
+  //         .pipe($.template())
+  //         .pipe($.rename(function(widget) {
+  //           widget.basename = 'Widget - ' + basename;
+  //         }))
+  //         .pipe(gulp.dest('./widgets'));
+  //     }));
+  // });
+
+
+/*
+ * > Watch
+ */
+
+gulp.task('watch', function() {
+  gulp.watch(srcPath + '/themes/**/*.json', ['build:themes']);
+  //gulp.watch(srcPath + '/schemes/scheme.YAML-tmTheme', ['build:schemes']);
+  //gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
+  //gulp.watch(srcPath + '/settings/*.json', ['build:schemes', 'build:widgets']);
+});
+
+
+/*
+ * > Default
+ */
+
+gulp.task('default', ['build']);

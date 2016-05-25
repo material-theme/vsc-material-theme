@@ -1,7 +1,7 @@
 
-/* @ DIALOG POPUP
- * Dialog popup style and progressbar
-========================================================================= */
+// @ DIALOG POPUP
+// Dialog popup style and progressbar
+// =========================================================================
 
   {
     "class": "progress_gauge_control",

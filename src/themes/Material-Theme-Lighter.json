@@ -1,0 +1,24 @@
+// > LIGHTER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most epic theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  //=include "lighter/app.json"
+  //=include "lighter/dialog.json"
+  //=include "lighter/code_folding.json"
+  //=include "lighter/autocomplete.json"
+  //=include "lighter/tooltip.json"
+  //=include "lighter/overlay_panels.json"
+  //=include "lighter/tabs.json"
+  //=include "lighter/sidebar.json"
+  //=include "lighter/scrollbars.json"
+  //=include "lighter/minimap.json"
+  //=include "lighter/statusbar.json"
+  //=include "lighter/widgets.json"
+  //=include "lighter/buttons.json"
+  //=include "commons/accent.json"
+  //=include "lighter/options.json"
+  //
+]

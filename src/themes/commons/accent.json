@@ -1,23 +1,11 @@
-/* @ THEME ACCENTS
-
- * Accents color settings
-=========================================================================
-This specific options define the accents color to be used in the general UI.
-NOTE: This rulers must only override the original definitions */
-
-
-/* LIME ACCENT
- * =================================================================== */
-
-
   {
     "class": "panel_button_control",
     "settings": ["material_theme_accent_lime"],
     "attributes": ["hover"],
-    "layer0.texture": "Material Theme/assets/accent-lime/overflow_menu--hover.png",
+    "layer0.texture": "Material Theme/assets/accent-lime/overflow_menu--hover.png"
   },
 
-  // Tooltip
+  // tooltip
 
   {
     "class": "tool_tip_control",
@@ -178,7 +166,7 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-lime/fold_down--hover.png"
   },
 
-  // Panel labels
+    // Panel labels
 
   {
     "class": "quick_panel_label",
@@ -232,8 +220,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-lime/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -249,6 +237,7 @@ NOTE: This rulers must only override the original definitions */
     "settings": ["material_theme_accent_lime"],
     "layer0.texture": "Material Theme/assets/accent-lime/find_case--hover.png",
   },
+
     // Wholeword
 
   {
@@ -314,8 +303,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-lime/find_reverse--hover.png",
   },
 
-/* PURPLE ACCENT
- * =================================================================== */
+ // PURPLE ACCENT
+ // ===================================================================
 
 
   {
@@ -540,8 +529,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-purple/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -622,8 +611,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-purple/find_reverse--hover.png",
   },
 
-/* RED ACCENT
- * =================================================================== */
+ // RED ACCENT
+ // ===================================================================
 
   {
     "class": "panel_button_control",
@@ -847,8 +836,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-red/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -929,8 +918,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-red/find_reverse--hover.png",
   },
 
-/* ORANGE ACCENT
- * =================================================================== */
+ // ORANGE ACCENT
+ // ===================================================================
 
 
   {
@@ -1155,8 +1144,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-orange/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -1237,8 +1226,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-orange/find_reverse--hover.png",
   },
 
-/* YELLOW ACCENT
- * =================================================================== */
+ // YELLOW ACCENT
+ // ===================================================================
 
 
   {
@@ -1463,8 +1452,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-yellow/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -1545,8 +1534,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-yellow/find_reverse--hover.png",
   },
 
-/* INDIGO ACCENT
- * =================================================================== */
+ // INDIGO ACCENT
+ // ===================================================================
 
   {
     "class": "panel_button_control",
@@ -1770,8 +1759,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-indigo/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -1852,8 +1841,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-indigo/find_reverse--hover.png",
   },
 
-/* PINK ACCENT
- * =================================================================== */
+ // PINK ACCENT
+ // ===================================================================
 
   {
     "class": "panel_button_control",
@@ -2077,8 +2066,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-pink/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -2159,8 +2148,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-pink/find_reverse--hover.png",
   },
 
-/* BLUE ACCENT
- * =================================================================== */
+ // BLUE ACCENT
+ // ===================================================================
 
   {
     "class": "panel_button_control",
@@ -2384,8 +2373,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-blue/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {
@@ -2466,8 +2455,8 @@ NOTE: This rulers must only override the original definitions */
     "layer0.texture": "Material Theme/assets/accent-blue/find_reverse--hover.png",
   },
 
-/* CYAN ACCENT
- * =================================================================== */
+ // CYAN ACCENT
+ // ===================================================================
 
   {
     "class": "panel_button_control",
@@ -2691,8 +2680,8 @@ NOTE: This rulers must only override the original definitions */
     "layer1.texture": "Material Theme/assets/accent-cyan/overflow_menu--hover.png",
   },
 
-  /* Buttons icons settings
-  ===================================================================== */
+  // Buttons icons settings
+  // =====================================================================
 
     // Regex Icon
   {

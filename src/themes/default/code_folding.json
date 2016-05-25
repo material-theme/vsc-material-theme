@@ -1,7 +1,7 @@
 
-/* @ CODE FOLDING
- * Folding arrow setting and behavioring
-========================================================================= */
+// @ CODE FOLDING
+// Folding arrow setting and behavioring
+// =========================================================================
 
   {
     "class": "fold_button_control",
