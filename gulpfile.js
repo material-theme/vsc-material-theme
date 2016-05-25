@@ -24,8 +24,7 @@ var gulp                       = require('gulp'),
  */
 
 var srcPath = "./src";
-//var common = require('./src/commons/accent.json');
-var common;
+var common = require(srcPath + '/settings/commons.json');
 
 
 /*
@@ -185,6 +184,7 @@ gulp.task('build:themes', ['clean:themes'], function() {
     }))
     .pipe($.include())
     .pipe($.data(function(file) {
+      //var specific = require('./sources/settings/specific/' + path.basename(file.path));
       return _.merge(common);
     }))
     .pipe($.template())
