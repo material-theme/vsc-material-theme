@@ -262,9 +262,8 @@ gulp.task('build:widget-settings', function() {
 
 gulp.task('watch', function() {
   gulp.watch(srcPath + '/themes/**/*.json', ['build:themes']);
-  //gulp.watch(srcPath + '/schemes/scheme.YAML-tmTheme', ['build:schemes']);
-  //gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
-  //gulp.watch(srcPath + '/settings/*.json', ['build:schemes', 'build:widgets']);
+  gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
+  gulp.watch(srcPath + '/settings/*.json', ['build:schemes', 'build:widgets']);
 });
 
 
