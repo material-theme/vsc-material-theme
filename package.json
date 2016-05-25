@@ -18,6 +18,8 @@
     "gulp-util": "^3.0.7"
   },
   "devDependencies": {
+    "conventional-changelog": "^1.1.0",
+    "fs": "0.0.2",
     "gulp": "^3.8.11",
     "gulp-clean": "^0.3.1",
     "gulp-concat-json": "^1.0.0",
