@@ -33,7 +33,7 @@
   {
     "class": "tool_tip_label_control",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
-    "color": [255, 255, 255, 255]
+    "color": [<%= ui.base.white.rgb %>, 255]
   },
 
     // Sidebar tree highlight
@@ -176,7 +176,7 @@
     "class": "quick_panel_label",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "match_fg": [<%= ui.accents[i].rgb %>],
-    "selected_fg": [255, 255, 255, 255],
+    "selected_fg": [<%= ui.base.white.rgb %>, 255],
     "selected_match_fg": [<%= ui.accents[i].rgb %>]
   },
 
@@ -187,7 +187,7 @@
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "parents": [{"class": "overlay_control"}],
     "match_fg": [<%= ui.accents[i].rgb %>],
-    "selected_fg": [255, 255, 255, 255],
+    "selected_fg": [<%= ui.base.white.rgb %>, 255],
     "selected_match_fg": [<%= ui.accents[i].rgb %>]
   },
 
@@ -197,7 +197,7 @@
     "class": "quick_panel_path_label",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "match_fg": [<%= ui.accents[i].rgb %>],
-    "selected_fg": [255, 255, 255, 255],
+    "selected_fg": [<%= ui.base.white.rgb %>, 255],
     "selected_match_fg": [<%= ui.accents[i].rgb %>]
   },
 
@@ -207,7 +207,7 @@
     "class": "quick_panel_score_label",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "fg": [<%= ui.accents[i].rgb %>],
-    "selected_fg": [255, 255, 255, 255]
+    "selected_fg": [<%= ui.base.white.rgb %>, 255]
   },
 
   {
