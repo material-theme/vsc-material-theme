@@ -1,0 +1,48 @@
+{
+  "author": "Mattia Astorino",
+  "comment": "The most epic theme for Sublime Text 3",
+  "ui": {
+    "base": {
+      "black": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      },
+      "white": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "accents": [
+      {
+        "id": "teal",
+        "name": "Teal",
+        "hex": "#80CBC4",
+        "rgb": "128, 203, 196",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "lime",
+        "name": "Lime",
+        "hex": "#7CB342",
+        "rgb": "124, 179, 66",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "hex": "#00BCD4",
+        "rgb": "0, 188, 212",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      }
+    ]
+  }
+}
