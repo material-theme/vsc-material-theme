@@ -1,5 +1,23 @@
+## Metadata
 scheme: "Material-Theme"
 author: "Mattia Astorino (http://astorinomattia.it)"
+
+## Settings Colors
+settingsBackground: '263238'
+settingsCaret: 'FFCC00'
+settingsFindHighlight: 'F8E71C'
+settingsForeground: 'eeffff'
+settingsGuide: '37474F80'
+settingsGutterForeground: '37474F'
+settingsActiveGuide: '80CBC470'
+settingsInvisibles: '65737e'
+settingsLineHighlight: '00000030'
+settingsSelection: '80CBC420'
+settingsSelectionBorder: '516B79'
+settingsShadow: '00000010'
+settingsStackGuide: '37474F'
+
+## Scheme Colors
 base00: "263238"
 base01: "393939"
 base02: "515151"
