@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
       <key>scope</key>
-      <string>source.js.gulpfile, source.coffee.gulpfile, source.gulpfile.js</string>
+      <string>source.gulpfile.js, source.coffee.gulpfile, source.js.gulpfile</string>
       <key>settings</key>
       <dict>
           <key>icon</key>

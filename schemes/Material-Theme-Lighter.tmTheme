@@ -7,7 +7,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Material-Theme</string>
+	<string>Material-Theme-Lighter</string>
 	<key>semanticClass</key>
 	<string>material.theme.dark</string>
 	<key>settings</key>

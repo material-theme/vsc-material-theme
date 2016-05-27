@@ -1,0 +1,366 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+# > Scheme
+---
+name: Material-Theme-Darker
+uuid: 4F44C0F5-1F8D-4C52-8BAB-F0951904C1EC
+author: Mattia Astorino
+
+colorSpaceName: sRGB
+
+semanticClass: material.theme.dark
+settings:
+- settings:
+    background: '#263238'
+    caret: '#FFCC00'
+    foreground: '#eeffff'
+    guide: '#37474F80'
+    activeGuide: '#80CBC470'
+    stackGuides: '#37474F'
+    gutter: '#37474F'
+    invisibles: '#65737e'
+    lineHighlight: '#00000030'
+    selection: '#80CBC420'
+    selectionBorder: '#80CBC420'
+    shadow: '#00000010'
+
+# >> General
+
+- name: Comments
+  scope: comment, punctuation.definition.comment
+  settings:
+    foreground: '#475E69'
+    fontStyle: 'italic'
+
+- name: Variable
+  scope: variable
+  settings:
+    foreground: '#eeffff'
+
+- name: Keyword, Storage
+  scope: keyword, storage.type, storage.modifier
+  settings:
+    foreground: '#c594c5'
+
+- name: Operator, Misc
+  scope: keyword.operator, constant.other.color, punctuation, meta.tag,
+    punctuation.definition.tag, punctuation.separator.inheritance.php,
+    punctuation.definition.tag.html, punctuation.definition.tag.begin.html,
+    punctuation.definition.tag.end.html, punctuation.section.embedded,
+    keyword.other.template, keyword.other.substitution
+  settings:
+    foreground: '#5fb3b3'
+
+- name: Tag
+  scope: entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter
+  settings:
+    foreground: '#f07178'
+
+- name: Function, Special Method, Block Level
+  scope: entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method,
+    meta.block-level
+  settings:
+    foreground: '#6699cc'
+
+- name: Other Variable, String Link
+  scope: support.other.variable, string.other.link
+  settings:
+    foreground: '#f07178'
+
+- name: Number, Constant, Function Argument, Tag Attribute, Embedded
+  scope: constant.numeric, constant.language, support.constant, constant.character,
+    variable.parameter, keyword.other.unit
+  settings:
+    foreground: '#f99157'
+
+- name: String, Symbols, Inherited Class, Markup Heading
+  scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading,
+    markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
+  settings:
+    foreground: '#99c794'
+    fontStyle: normal
+
+- name: Class, Support
+  scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
+    meta.use.php, support.other.namespace.php, markup.changed.git_gutter
+  settings:
+    foreground: '#fac863'
+
+- name: Sub-methods
+  scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
+  settings:
+    foreground: '#ec5f67'
+
+- name: Language methods
+  scope: variable.language
+  settings:
+    foreground: '#ec5f67'
+    fontStyle: 'italic'
+
+- name: entity.name.method.js
+  scope: entity.name.method.js
+  settings:
+    foreground: '#6699cc'
+
+- name: meta.method.js
+  scope: meta.class-method.js entity.name.function.js, variable.function.constructor
+  settings:
+    foreground: '#6699cc'
+
+- name: Attributes
+  scope: entity.other.attribute-name
+  settings:
+    foreground: '#c594c5'
+
+- name: Inserted
+  scope: markup.inserted
+  settings:
+    foreground: '#99c794'
+
+- name: Deleted
+  scope: markup.deleted
+  settings:
+    foreground: '#ec5f67'
+
+- name: Changed
+  scope: markup.changed
+  settings:
+    foreground: '#c594c5'
+
+- name: Regular Expressions
+  scope: string.regexp
+  settings:
+    foreground: '#5fb3b3'
+
+- name: Escape Characters
+  scope: constant.character.escape
+  settings:
+    foreground: '#5fb3b3'
+
+- name: URL
+  scope: '*url*, *link*, *uri*'
+  settings:
+    fontStyle: underline
+
+- name: Search Results Nums
+  scope: constant.numeric.line-number.find-in-files - match
+  settings:
+    foreground: '#ab7967'
+
+- name: Search Results Lines
+  scope: entity.name.filename.find-in-files
+  settings:
+    foreground: '#99c794'
+
+- name: Decorators
+  scope: tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js
+  settings:
+    foreground: '#6699cc'
+    fontStyle: 'italic'
+
+- name: ES7 Bind Operator
+  scope: source.js constant.other.object.key.js string.unquoted.label.js
+  settings:
+    foreground: '#ec5f67'
+    fontStyle: 'italic'
+
+# >> JSON Levels
+
+- name: JSON Key - Level 8
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#fac863'
+
+- name: JSON Key - Level 7
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#c594c5'
+
+- name: JSON Key - Level 6
+  scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#f07178'
+
+- name: JSON Key - Level 5
+  scope: source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#6699cc'
+
+- name: JSON Key - Level 4
+  scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#ab7967'
+
+- name: JSON Key - Level 3
+  scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#ec5f67'
+
+- name: JSON Key - Level 2
+  scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#f99157'
+
+- name: JSON Key - Level 1
+  scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#fac863'
+
+- name: JSON Key - Level 0
+  scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
+  settings:
+    foreground: '#c594c5'
+
+# >> Markdown Extended
+
+- name: Markdown - Plain
+  scope: text.html.markdown, punctuation.definition.list_item.markdown
+  settings:
+    foreground: '#eeffff'
+
+- name: Markdown - Markup Raw Inline
+  scope: text.html.markdown markup.raw.inline
+  settings:
+    foreground: '#ec5f67'
+
+- name: Markdown - Line Break
+  scope: text.html.markdown meta.dummy.line-break
+  settings:
+    foreground: '#65737e'
+
+- name: Markdown - Heading
+  scope: markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown
+  settings:
+    foreground: '#99c794'
+
+- name: Markup - Italic
+  scope: markup.italic
+  settings:
+    fontStyle: 'italic'
+    foreground: '#f07178'
+
+- name: Markup - Bold
+  scope: markup.bold
+  settings:
+    fontStyle: 'bold'
+    foreground: '#f07178'
+
+- name: Markup - Underline
+  scope: markup.underline
+  settings:
+    fontStyle: 'underline'
+    foreground: '#f99157'
+
+- name: Markup - Strike
+  scope: markup.strike
+  settings:
+    fontStyle: 'strike'
+    foreground: '#ab7967'
+
+- name: Markdown - Blockquote
+  scope: markup.quote, punctuation.definition.blockquote.markdown
+  settings:
+    fontStyle: 'italic'
+    foreground: '#5fb3b3'
+
+- name: Markup - Quote
+  scope: markup.quote
+  settings:
+    fontStyle: 'italic'
+    foreground: '#5fb3b3'
+
+- name: Markdown - Link
+  scope: string.other.link.title.markdown
+  settings:
+    fontStyle: 'underline'
+    foreground: '#6699cc'
+
+- name: Markup - Raw Block
+  scope: markup.raw.block
+  settings:
+    foreground: '#c594c5'
+
+- name: Markdown - Raw Block Fenced
+  scope: markup.raw.block.fenced.markdown
+  settings:
+    background: '#00000030'
+    foreground: '#eeffff'
+
+- name: Markdown - Fenced Bode Block
+  scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
+  settings:
+    background: '#00000030'
+    foreground: '#65737e'
+
+- name: Markdown - Fenced Language
+  scope: variable.language.fenced.markdown
+  settings:
+    fontStyle: ''
+    foreground: '#65737e'
+
+- name: Markdown - Separator
+  scope: meta.separator
+  settings:
+    background: '#00000030'
+    fontStyle: 'bold'
+    foreground: '#65737e'
+
+- name: Markup - Table
+  scope: markup.table
+  settings:
+    background: '#ec5f671a'
+    foreground: '#ec5f67'
+
+# >> AceJump
+
+- name: AceJump Label - Blue
+  scope: acejump.label.blue
+  settings:
+    background: '#7CB342'
+    foreground: '#ffffff'
+
+- name: AceJump Label - Green
+  scope: acejump.label.green
+  settings:
+    background: '#AB47BC'
+    foreground: '#ffffff'
+
+- name: AceJump Label - Orange
+  scope: acejump.label.orange
+  settings:
+    background: '#E57373'
+    foreground: '#ffffff'
+
+- name: AceJump Label - Purple
+  scope: acejump.label.purple
+  settings:
+    background: '#FF7042'
+    foreground: '#ffffff'
+
+# >> Sublime Linter
+
+- name: SublimeLinter Warning
+  scope: sublimelinter.mark.warning
+  settings:
+    foreground: '#fac863'
+
+- name: SublimeLinter Gutter Mark
+  scope: sublimelinter.gutter-mark
+  settings:
+    foreground: '#ffffff'
+
+- name: SublimeLinter Error
+  scope: sublimelinter.mark.error
+  settings:
+    foreground: '#ec5f67'
+
+# >> Git Gutter
+
+- name: GitGutter Ignored
+  scope: markup.ignored.git_gutter
+  settings:
+    foreground: '#65737e'
+
+- name: GitGutter Untracked
+  scope: markup.untracked.git_gutter
+  settings:
+    foreground: '#65737e'

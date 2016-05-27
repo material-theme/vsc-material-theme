@@ -7,7 +7,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Material-Theme</string>
+	<string>Material-Theme-Darker</string>
 	<key>semanticClass</key>
 	<string>material.theme.dark</string>
 	<key>settings</key>
@@ -747,6 +747,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
+	<string>4F44C0F5-1F8D-4C52-8BAB-F0951904C1EC</string>
 </dict>
 </plist>
