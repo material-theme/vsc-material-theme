@@ -95,6 +95,22 @@ class Theme
         "srgb" => to_srgb(hex)
       }
     end
+
+    # Define ERB settings color vars
+    @settings = {}
+    [
+      "ActiveGuide", "Background", "Caret", "FindHighlight", "Foreground", "Guides", "GutterForeground", "Invisibles", "LineHighlight", "Selection", "SelectionBorder", "Shadow",
+      "StackGuides"
+    ].each do |key|
+      hex = scheme_data["settings" + key];
+      @settings[key] = {
+        "hex" => hex,
+        "hexbgr" => to_hex_bgr(hex),
+        "dhex" => to_dhex(hex),
+        "rgb" => to_rgb(hex),
+        "srgb" => to_srgb(hex)
+      }
+    end
   end
 
   def create_output_files
@@ -120,18 +136,18 @@ class Theme
   end
 
   def write_output_file(template_file, contents)
-    dir_name = File.basename(File.dirname(template_file))
+    #dir_name = File.basename(File.dirname(template_file))
+    dir_name = ""
     file_name = File.basename(template_file, ".erb")
-    scheme_name = slug(@scheme)
+    scheme_name = @scheme
 
     output_dir = File.join(@output_dir, dir_name)
     make_dir(output_dir)
 
     # If the filename starts with a dash, we use the dash to separate
-    delimiter = file_name.starts_with?("-") ? "" : "."
+    delimiter = file_name.starts_with?("-") ? "" : "-"
 
-    output_filename = File.join(output_dir,
-                                "base16-#{scheme_name}#{delimiter}#{file_name}")
+    output_filename = File.join(output_dir, "#{scheme_name}.tmTheme")
     output_file = File.open(output_filename, "w")
     output_file.write(contents)
     output_file.close
@@ -149,7 +165,7 @@ class Theme
   end
 
   def to_hex_bgr(hex)
-    hex.scan(/../).reverse.join
+    hex.scan(/../).join
   end
 
   def to_dhex(hex)
@@ -241,8 +257,7 @@ class String
 end
 
 help_message = <<-EOF
-Base16 Builder v0.1
-https://github.com/chriskempson/base16-builder
+Material Theme Builder v1.0
 
 usage: base16               build all schemes and templates
    or: base16 [-s <scheme>] [-t <template>]
