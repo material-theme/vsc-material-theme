@@ -16,7 +16,7 @@ settings:
     guide: '<%= scheme.guides %>'
     activeGuide: '<%= scheme.activeGuide %>'
     stackGuides: '<%= scheme.stackGuides %>'
-    gutter: '<%= scheme.gutter %>'
+    gutterForeground: '<%= scheme.gutter %>'
     invisibles: '<%= scheme.invisibles %>'
     lineHighlight: '<%= scheme.highlight %>'
     selection: '<%= scheme.selection %>'
@@ -168,7 +168,7 @@ settings:
 - name: JSON Key - Level 8
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '<%= scheme.base.yellow %>'
+    foreground: '<%= scheme.base.green %>'
 
 - name: JSON Key - Level 7
   scope: source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
