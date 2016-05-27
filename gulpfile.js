@@ -160,6 +160,8 @@ gulp.task('release', function(cb) {
 gulp.task('build', function(cb) {
   runSequence(
     'build:themes',
+    'build:schemes',
+    'convert:schemes',
     'build:widgets',
     function (error) {
       if (error) {
@@ -195,6 +197,45 @@ gulp.task('build:themes', ['clean:themes'], function() {
     .on('end', function() {
       console.log('[build:themes]'.bold.magenta + ' Finished successfully'.bold.green);
     });
+});
+
+
+/* >> Schemes */
+
+gulp.task('build:schemes', ['clean:schemes'], function(cb) {
+  return gulp.src(srcPath + '/settings/specific/*.json')
+    .pipe($.plumber(function(error) {
+      console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
+      this.emit('end');
+    }))
+    .pipe($.foreach(function(stream, file) {
+      var basename = path.basename(file.path, path.extname(file.path));
+
+      return gulp.src(srcPath + '/schemes/scheme.YAML-tmTheme')
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
+        .pipe($.template())
+        .pipe($.rename(function(scheme) {
+          scheme.basename = basename;
+        }))
+        .pipe(gulp.dest('./schemes'));
+    }))
+    .on('end', function() {
+      console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
+    });
+});
+
+gulp.task('convert:schemes', function() {
+  return gulp.src('./schemes/*.YAML-tmTheme')
+    .pipe($.plumber(function(error) {
+      console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
+                  'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
+      this.emit('end');
+    }))
+    .pipe($.exec('subl "<%= file.path %>" -b && subl -b --command "convert_file" && subl -b -w --command "close_file"'));
 });
 
 
@@ -262,6 +303,7 @@ gulp.task('build:widget-settings', function() {
 
 gulp.task('watch', function() {
   gulp.watch(srcPath + '/themes/**/*.json', ['build:themes']);
+  gulp.watch(srcPath + '/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
   gulp.watch(srcPath + '/settings/*.json', ['build:schemes', 'build:widgets']);
 });
@@ -271,4 +313,4 @@ gulp.task('watch', function() {
  * > Default
  */
 
-gulp.task('default', ['build']);
+gulp.task('default', ['build','watch']);
