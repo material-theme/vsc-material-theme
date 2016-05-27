@@ -14,52 +14,39 @@
   <string><%= @slug %>.darker</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
-  <key>gutterSettings</key>
-  <dict>
-    <key>background</key>
-    <string>#<%= @base["01"]["hex"] %></string>
-    <key>divider</key>
-    <string>#<%= @base["01"]["hex"] %></string>
-    <key>foreground</key>
-    <string>#<%= @base["03"]["hex"] %></string>
-    <key>selectionBackground</key>
-    <string>#<%= @base["02"]["hex"] %></string>
-    <key>selectionForeground</key>
-    <string>#<%= @base["04"]["hex"] %></string>
-  </dict>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#<%= @settings["Background"]["hex"] %></string>
+        <string>#<%= @settings["Background"]["hexbgr"] %></string>
         <key>caret</key>
-        <string>#FFCC00</string>
-        <key>foreground</key>
-        <string>#eeffff</string>
-        <key>invisibles</key>
-        <string>#65737e</string>
-        <key>lineHighlight</key>
-        <string>#00000030</string>
-        <key>selection</key>
-        <string>#80CBC420</string>
-        <key>guide</key>
-        <string>#<%= @settings["Guide"]["hexbgr"] %></string>
-        <key>activeGuide</key>
-        <string>#80CBC470</string>
-        <key>stackGuide</key>
-        <string>#37474Fff</string>
-        <key>gutterForeground</key>
-        <string>#37474F</string>
+        <string>#<%= @settings["Caret"]["hexbgr"] %></string>
         <key>findHighlight</key>
-        <string>#F8E71C</string>
+        <string>#<%= @settings["FindHighlight"]["hexbgr"] %></string>
+        <key>foreground</key>
+        <string>#<%= @settings["Foreground"]["hexbgr"] %></string>
+        <key>guide</key>
+        <string>#<%= @settings["Guides"]["hexbgr"] %></string>
+        <key>activeGuide</key>
+        <string>#<%= @settings["ActiveGuide"]["hexbgr"] %></string>
+        <key>stackGuide</key>
+        <string>#<%= @settings["StackGuides"]["hexbgr"] %></string>
+        <key>gutterForeground</key>
+        <string>#<%= @settings["GutterForeground"]["hexbgr"] %></string>
+        <key>invisibles</key>
+        <string>#<%= @settings["Invisibles"]["hexbgr"] %></string>
+        <key>lineHighlight</key>
+        <string>#<%= @settings["LineHighlight"]["hexbgr"] %></string>
+        <key>selection</key>
+        <string>#<%= @settings["Selection"]["hexbgr"] %></string>
+        <key>selectionBorder</key>
+        <string>#<%= @settings["SelectionBorder"]["hexbgr"] %></string>
         <key>tagsOptions</key>
         <string>underline</string>
         <key>shadow</key>
-        <string>#00000010</string>
-        <key>selectionBorder</key>
-        <string>#516B79</string>
+        <string>#<%= @settings["Shadow"]["hexbgr"] %></string>
       </dict>
     </dict>
     <dict>
@@ -82,6 +69,8 @@
       <dict>
         <key>foreground</key>
         <string>#<%= @base["03"]["hex"] %></string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
@@ -136,7 +125,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#<%= @base["08"]["hex"] %></string>
+        <string>#<%= @base["07"]["hex"] %></string>
       </dict>
     </dict>
     <dict>
@@ -279,7 +268,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#<%= @base["09"]["hex"] %></string>
+        <string>#<%= @base["0A"]["hex"] %></string>
       </dict>
     </dict>
     <dict>
@@ -301,7 +290,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#<%= @base["0E"]["hex"] %></string>
+        <string>#<%= @base["0A"]["hex"] %></string>
       </dict>
     </dict>
     <dict>

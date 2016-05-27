@@ -1,9 +1,9 @@
 ## Metadata
-scheme: "Material-Theme-Darker"
+scheme: "Material-Theme-Lighter"
 author: "Mattia Astorino (http://astorinomattia.it)"
 
 ## Settings Colors
-settingsBackground: '212121'
+settingsBackground: 'FAFAFA'
 settingsCaret: 'FFCC00'
 settingsFindHighlight: 'F8E71C'
 settingsForeground: 'eeffff'
