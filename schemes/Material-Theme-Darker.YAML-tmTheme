@@ -70,7 +70,7 @@ settings:
   scope: constant.numeric, constant.language, support.constant, constant.character,
     variable.parameter, keyword.other.unit
   settings:
-    foreground: '#F79068'
+    foreground: '#F77669'
 
 - name: String, Symbols, Inherited Class, Markup Heading
   scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading,
@@ -84,6 +84,11 @@ settings:
     meta.use.php, support.other.namespace.php, markup.changed.git_gutter
   settings:
     foreground: '#FFCB6B'
+
+- name: CSS Class and Support
+  scope: source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type
+  settings:
+    foreground: '#B2CCD6'
 
 - name: Sub-methods
   scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
@@ -110,6 +115,22 @@ settings:
   scope: entity.other.attribute-name
   settings:
     foreground: '#C792EA'
+
+- name: HTML Attributes
+  scope: text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name
+  settings:
+    foreground: '#FFCB6B'
+    fontStyle: 'italic'
+
+- name: CSS Classes
+  scope: entity.other.attribute-name.class
+  settings:
+    foreground: '#FFCB6B'
+
+- name: CSS Id
+  scope: source.sass keyword.control
+  settings:
+    foreground: '#82AAFF'
 
 - name: Inserted
   scope: markup.inserted
@@ -198,7 +219,7 @@ settings:
 - name: JSON Key - Level 2
   scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#F79068'
+    foreground: '#F77669'
 
 - name: JSON Key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -248,7 +269,7 @@ settings:
   scope: markup.underline
   settings:
     fontStyle: 'underline'
-    foreground: '#F79068'
+    foreground: '#F77669'
 
 - name: Markup - Strike
   scope: markup.strike
@@ -315,25 +336,25 @@ settings:
 - name: AceJump Label - Blue
   scope: acejump.label.blue
   settings:
-    background: '#7CB342'
+    background: '#82AAFF'
     foreground: '#ffffff'
 
 - name: AceJump Label - Green
   scope: acejump.label.green
   settings:
-    background: '#AB47BC'
+    background: '#C3E88D'
     foreground: '#ffffff'
 
 - name: AceJump Label - Orange
   scope: acejump.label.orange
   settings:
-    background: '#E57373'
+    background: '#F77669'
     foreground: '#ffffff'
 
 - name: AceJump Label - Purple
   scope: acejump.label.purple
   settings:
-    background: '#FF7042'
+    background: '#C792EA'
     foreground: '#ffffff'
 
 # >> Sublime Linter
@@ -352,6 +373,12 @@ settings:
   scope: sublimelinter.mark.error
   settings:
     foreground: '#FF5370'
+
+- name: SublimeLinter Annotation
+  scope: sublimelinter.annotations
+  settings:
+    foreground: '#ab7967'
+    background: '#ffffff'
 
 # >> Git Gutter
 

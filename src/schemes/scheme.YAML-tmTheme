@@ -81,9 +81,14 @@ settings:
 
 - name: Class, Support
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
-    meta.use.php, support.other.namespace.php, markup.changed.git_gutter
+    meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types
   settings:
     foreground: '<%= scheme.base.yellow %>'
+
+- name: CSS Class and Support
+  scope: source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type
+  settings:
+    foreground: '<%= scheme.base.paleblue %>'
 
 - name: Sub-methods
   scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
@@ -110,6 +115,22 @@ settings:
   scope: entity.other.attribute-name
   settings:
     foreground: '<%= scheme.base.purple %>'
+
+- name: HTML Attributes
+  scope: text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+    fontStyle: 'italic'
+
+- name: CSS Classes
+  scope: entity.other.attribute-name.class
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+
+- name: CSS Id
+  scope: source.sass keyword.control
+  settings:
+    foreground: '<%= scheme.base.blue %>'
 
 - name: Inserted
   scope: markup.inserted
@@ -315,25 +336,25 @@ settings:
 - name: AceJump Label - Blue
   scope: acejump.label.blue
   settings:
-    background: '<%= ui.accents[0].hex %>'
+    background: '<%= scheme.base.blue %>'
     foreground: '<%= scheme.base.white %>'
 
 - name: AceJump Label - Green
   scope: acejump.label.green
   settings:
-    background: '<%= ui.accents[1].hex %>'
+    background: '<%= scheme.base.green %>'
     foreground: '<%= scheme.base.white %>'
 
 - name: AceJump Label - Orange
   scope: acejump.label.orange
   settings:
-    background: '<%= ui.accents[2].hex %>'
+    background: '<%= scheme.base.orange %>'
     foreground: '<%= scheme.base.white %>'
 
 - name: AceJump Label - Purple
   scope: acejump.label.purple
   settings:
-    background: '<%= ui.accents[3].hex %>'
+    background: '<%= scheme.base.purple %>'
     foreground: '<%= scheme.base.white %>'
 
 # >> Sublime Linter
@@ -352,6 +373,12 @@ settings:
   scope: sublimelinter.mark.error
   settings:
     foreground: '<%= scheme.base.red %>'
+
+- name: SublimeLinter Annotation
+  scope: sublimelinter.annotations
+  settings:
+    foreground: '<%= scheme.base.brown %>'
+    background: '<%= scheme.base.white %>'
 
 # >> Git Gutter
 
