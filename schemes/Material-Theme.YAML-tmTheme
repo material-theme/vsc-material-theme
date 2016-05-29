@@ -28,7 +28,7 @@ settings:
 - name: Comments
   scope: comment, punctuation.definition.comment
   settings:
-    foreground: '#656565'
+    foreground: '#546E7A'
     fontStyle: 'italic'
 
 - name: Variable

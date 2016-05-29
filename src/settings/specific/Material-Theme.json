@@ -36,7 +36,7 @@
     "highlight": "#00000012",
     "selection": "#546E7A",
     "invisibles": "#65737e",
-    "comments": "#656565",
+    "comments": "#546E7A",
     "keywords": "#cfd8dc",
     "constant": "#80CBC4",
     "string": "#F9355A",
@@ -44,7 +44,7 @@
   },
   "scheme": {
     "background": "#263238",
-    "comments": "#656565",
+    "comments": "#546E7A",
     "caret": "#FFCC00",
     "findHighlight": "#F8E71C",
     "foreground": "#eeffff",
