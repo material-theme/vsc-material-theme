@@ -28,11 +28,7 @@
 				<key>selection</key>
 				<string>#61616140</string>
 				<key>selectionBorder</key>
-				<string>#000000</string>
-				<key>selectionForeground</key>
-				<string>#FFFFFF</string>
-				<key>inactiveSelection</key>
-				<string>#B0BEC550</string>
+				<string>#61616140</string>
 			</dict>
 		</dict>
 		<dict>

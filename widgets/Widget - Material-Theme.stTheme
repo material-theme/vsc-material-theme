@@ -29,10 +29,6 @@
 				<string>#546E7A</string>
 				<key>selectionBorder</key>
 				<string>#546E7A</string>
-				<key>selectionForeground</key>
-				<string>#FFFFFF</string>
-				<key>inactiveSelection</key>
-				<string>#607D8B</string>
 			</dict>
 		</dict>
 		<dict>

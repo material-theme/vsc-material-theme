@@ -28,11 +28,7 @@
 				<key>selection</key>
 				<string><%= widget.selection %></string>
 				<key>selectionBorder</key>
-				<string><%= widget.selectionBorder %></string>
-				<key>selectionForeground</key>
-				<string><%= widget.selectionForeground %></string>
-				<key>inactiveSelection</key>
-				<string><%= widget.inactiveSelection %></string>
+				<string><%= widget.selection %></string>
 			</dict>
 		</dict>
 		<dict>
