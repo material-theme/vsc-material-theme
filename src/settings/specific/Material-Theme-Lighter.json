@@ -11,7 +11,7 @@
     "background": {
       "primary": {
         "hex": "#FAFAFA",
-        "rgb": "34, 50, 58"
+        "rgb": "250, 250, 250"
       },
       "scrollbar": {
         "hex": "#ffffff",

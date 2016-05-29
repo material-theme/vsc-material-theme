@@ -36,6 +36,11 @@ settings:
   settings:
     foreground: '<%= scheme.foreground %>'
 
+- name: Colors
+  scope: constant.other.color
+  settings:
+    foreground: '<%= scheme.base.white %>'
+
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
   settings:

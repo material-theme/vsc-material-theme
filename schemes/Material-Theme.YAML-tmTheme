@@ -28,13 +28,18 @@ settings:
 - name: Comments
   scope: comment, punctuation.definition.comment
   settings:
-    foreground: '#475E69'
+    foreground: '#656565'
     fontStyle: 'italic'
 
 - name: Variable
   scope: variable
   settings:
     foreground: '#eeffff'
+
+- name: Colors
+  scope: constant.other.color
+  settings:
+    foreground: '#ffffff'
 
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
@@ -70,7 +75,7 @@ settings:
   scope: constant.numeric, constant.language, support.constant, constant.character,
     variable.parameter, keyword.other.unit
   settings:
-    foreground: '#F77669'
+    foreground: '#F78C6C'
 
 - name: String, Symbols, Inherited Class, Markup Heading
   scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading,
@@ -81,7 +86,7 @@ settings:
 
 - name: Class, Support
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
-    meta.use.php, support.other.namespace.php, markup.changed.git_gutter
+    meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types
   settings:
     foreground: '#FFCB6B'
 
@@ -219,7 +224,7 @@ settings:
 - name: JSON Key - Level 2
   scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#F77669'
+    foreground: '#F78C6C'
 
 - name: JSON Key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -269,7 +274,7 @@ settings:
   scope: markup.underline
   settings:
     fontStyle: 'underline'
-    foreground: '#F77669'
+    foreground: '#F78C6C'
 
 - name: Markup - Strike
   scope: markup.strike
@@ -348,7 +353,7 @@ settings:
 - name: AceJump Label - Orange
   scope: acejump.label.orange
   settings:
-    background: '#F77669'
+    background: '#F78C6C'
     foreground: '#ffffff'
 
 - name: AceJump Label - Purple
