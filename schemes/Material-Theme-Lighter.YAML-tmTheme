@@ -75,7 +75,7 @@ settings:
   scope: constant.numeric, constant.language, support.constant, constant.character,
     variable.parameter, keyword.other.unit
   settings:
-    foreground: '#91B859'
+    foreground: '#F76D47'
 
 - name: String, Symbols, Inherited Class, Markup Heading
   scope: string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading,
@@ -224,7 +224,7 @@ settings:
 - name: JSON Key - Level 2
   scope: source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#91B859'
+    foreground: '#F76D47'
 
 - name: JSON Key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -274,7 +274,7 @@ settings:
   scope: markup.underline
   settings:
     fontStyle: 'underline'
-    foreground: '#91B859'
+    foreground: '#F76D47'
 
 - name: Markup - Strike
   scope: markup.strike
@@ -353,7 +353,7 @@ settings:
 - name: AceJump Label - Orange
   scope: acejump.label.orange
   settings:
-    background: '#91B859'
+    background: '#F76D47'
     foreground: '#ffffff'
 
 - name: AceJump Label - Purple
