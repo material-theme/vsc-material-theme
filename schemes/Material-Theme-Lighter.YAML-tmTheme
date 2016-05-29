@@ -170,7 +170,7 @@ settings:
 - name: Search Results Nums
   scope: constant.numeric.line-number.find-in-files - match
   settings:
-    foreground: '#ab7967'
+    foreground: '#C17E70'
 
 - name: Search Results Lines
   scope: entity.name.filename.find-in-files
@@ -214,7 +214,7 @@ settings:
 - name: JSON Key - Level 4
   scope: source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#ab7967'
+    foreground: '#C17E70'
 
 - name: JSON Key - Level 3
   scope: source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -280,7 +280,7 @@ settings:
   scope: markup.strike
   settings:
     fontStyle: 'strike'
-    foreground: '#ab7967'
+    foreground: '#C17E70'
 
 - name: Markdown - Blockquote
   scope: markup.quote, punctuation.definition.blockquote.markdown
@@ -382,7 +382,7 @@ settings:
 - name: SublimeLinter Annotation
   scope: sublimelinter.annotations
   settings:
-    foreground: '#ab7967'
+    foreground: '#C17E70'
     background: '#ffffff'
 
 # >> Git Gutter
