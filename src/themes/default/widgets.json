@@ -7,10 +7,10 @@
   // Status bar panel
   {
     "class": "panel_control",
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0,
-    "layer1.tint": [38, 50, 56],
+    "layer1.tint": [<%= ui.background.primary.rgb %>],
     "layer1.inner_margin": [2, 2, 2, 2],
     "layer1.opacity": 1.0,
     "content_margin": [6, 14, 6, 8],

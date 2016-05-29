@@ -17,7 +17,7 @@
     "class": "button_control",
     "content_margin": [6, 12, 6, 12],
     "min_size": [75, 0],
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [6, 6],
     "layer1.texture": "Material Theme/assets/commons/full_button_indented.png",
@@ -47,7 +47,7 @@
   // Small Icon Buttons
   {
     "class": "icon_button_control",
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.inner_margin": [6, 6],
     "layer0.opacity": 0.0,
     "layer2.tint": [255, 255, 255],

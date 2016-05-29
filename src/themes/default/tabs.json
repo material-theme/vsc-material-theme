@@ -6,7 +6,7 @@
   {
     "class": "tabset_control",
     "layer0.opacity": 1.0,
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "tint_index": 1,
     "layer0.inner_margin": [2, 6],
     "layer0.opacity": 1.0,
@@ -28,7 +28,7 @@
   {
     "class": "tab_control",
 
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.inner_margin": [24, 0],
     "layer0.opacity": 1.0,
     "tint_index": 0,

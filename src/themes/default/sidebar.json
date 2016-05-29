@@ -6,7 +6,7 @@
 
   {
     "class": "sidebar_container",
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 1.0,
     "layer0.draw_center": false,
     "layer0.inner_margin": [0, 24, 12, 24],
@@ -18,7 +18,7 @@
     "indent": 16,
     "indent_offset": 0,
     "indent_top_level": false,
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 1.0
   },
 
@@ -141,7 +141,7 @@
   {
     "class": "icon_folder",
     "content_margin": [10, 8],
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 0,
     "layer1.texture": "Material Theme/assets/default/folder.png",
     "layer1.opacity": 1,
@@ -296,7 +296,7 @@
 
   {
     "class": "tree_row",
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [1, 1]
   },

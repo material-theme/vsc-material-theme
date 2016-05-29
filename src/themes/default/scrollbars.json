@@ -18,7 +18,7 @@
   {
       "class": "scroll_bar_control",
       "parents": [{"class": "overlay_control"}],
-      "layer0.tint": [38, 50, 56, 0],
+      "layer0.tint": [<%= ui.background.primary.rgb %>, 0],
       "layer0.opacity": 1.0,
       "layer0.inner_margin": [0, 6],
       "blur": false
@@ -41,7 +41,7 @@
       "class": "scroll_bar_control",
       "attributes": ["horizontal"],
       "parents": [{"class": "overlay_control"}],
-      "layer0.tint": [38, 50, 56, 0],
+      "layer0.tint": [<%= ui.background.primary.rgb %>, 0],
       "layer0.opacity": 0.0,
       "layer0.inner_margin": [0, 2],
       "blur": false
@@ -132,7 +132,7 @@
 
   {
     "class": "puck_control",
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [1, 8, 1, 8],
     "layer1.texture": "Material Theme/assets/default/thumb_vertical.png",
@@ -144,7 +144,7 @@
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
-    "layer0.tint": [38, 50, 56],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [8, 1, 8, 1],
     "layer1.texture": "Material Theme/assets/default/thumb_horizontal.png",
