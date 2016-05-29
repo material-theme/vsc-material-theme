@@ -33,19 +33,6 @@
       }
     }
   },
-  "widget": {
-    "background": "#fafafa",
-    "caret": "#27272790",
-    "foreground": "#80CBC4",
-    "highlight": "#90A4AE20",
-    "selection": "#80CBC440",
-    "invisibles": "#E7EAEC",
-    "comments": "#CCD7DA",
-    "keywords": "#AAB3B5",
-    "constant": "#80CBC4",
-    "string": "#F9355A",
-    "constantEscape": "#FFC400"
-  },
   "scheme": {
     "background": "#fafafa",
     "comments": "#CCD7DA",
@@ -60,6 +47,10 @@
     "highlight": "#90A4AE20",
     "selection": "#80CBC440",
     "shadow": "#90A4AE50",
+    "keywords": "#AAB3B5",
+    "constant": "#80CBC4",
+    "string": "#F9355A",
+    "constantEscape": "#FFC400",
     "base": {
       "white": "#ffffff",
       "black": "#000000",

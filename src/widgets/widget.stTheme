@@ -18,17 +18,17 @@
 				<key>background</key>
 				<string><%= ui.background.primary.hex %></string>
 				<key>caret</key>
-				<string><%= widget.caret %></string>
+				<string><%= scheme.caret %></string>
 				<key>foreground</key>
-				<string><%= widget.foreground %></string>
+				<string><%= scheme.foreground %></string>
 				<key>invisibles</key>
-				<string><%= widget.invisibles %></string>
+				<string><%= scheme.invisibles %></string>
 				<key>lineHighlight</key>
-				<string><%= widget.highlight %></string>
+				<string><%= scheme.highlight %></string>
 				<key>selection</key>
-				<string><%= widget.selection %></string>
+				<string><%= scheme.selection %></string>
 				<key>selectionBorder</key>
-				<string><%= widget.selection %></string>
+				<string><%= scheme.selection %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -41,7 +41,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string><%= widget.comments %></string>
+				<string><%= scheme.comments %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +52,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string><%= widget.keyword %></string>
+				<string><%= scheme.keyword %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,7 +61,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string><%= widget.constant %></string>
+				<string><%= scheme.constant %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,7 +70,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string><%= widget.string %></string>
+				<string><%= scheme.string %></string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +79,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string><%= widget.constantEscape %></string>
+				<string><%= scheme.constantEscape %></string>
 			</dict>
 		</dict>
 	</array>

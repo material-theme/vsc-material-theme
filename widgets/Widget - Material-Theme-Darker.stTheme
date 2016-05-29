@@ -20,9 +20,9 @@
 				<key>caret</key>
 				<string>#FFCC00</string>
 				<key>foreground</key>
-				<string>#616161</string>
+				<string>#eeffffff</string>
 				<key>invisibles</key>
-				<string>#BFBFBF</string>
+				<string>#65737e</string>
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>selection</key>

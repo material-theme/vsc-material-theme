@@ -29,19 +29,6 @@
       }
     }
   },
-  "widget": {
-    "background": "#263238",
-    "caret": "#B0BEC5",
-    "foreground": "#607D8B",
-    "highlight": "#00000012",
-    "selection": "#546E7A",
-    "invisibles": "#65737e",
-    "comments": "#546E7A",
-    "keywords": "#cfd8dc",
-    "constant": "#80CBC4",
-    "string": "#F9355A",
-    "constantEscape": "#FFC400"
-  },
   "scheme": {
     "background": "#263238",
     "comments": "#546E7A",
@@ -56,6 +43,10 @@
     "highlight": "#00000030",
     "selection": "#80CBC420",
     "shadow": "#00000010",
+    "keywords": "#cfd8dc",
+    "constant": "#80CBC4",
+    "string": "#F9355A",
+    "constantEscape": "#FFC400",
     "base": {
       "white": "#ffffff",
       "black": "#000000",
