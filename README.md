@@ -39,30 +39,27 @@ You can install this awesome theme through the [Package Control](https://package
 **NOTE:** Restart Sublime Text after activating the theme.
 
 # Theme styles
-This theme provides 2 alternative styles:
+This theme provides 3 styles:
 
-### Darker
+#### Default
+```json
+"theme": "Material-Theme.sublime-theme",
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+```
+
+#### Darker
 ```json
 "theme": "Material-Theme-Darker.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 ```
 
-### Lighter
+#### Lighter
 ```json
 "theme": "Material-Theme-Lighter.sublime-theme",
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 ```
 
-# Alternative color schemes
-
-If you don't like material theme color schemes you can use [Oceanic Next](https://github.com/voronianski/oceanic-next-color-scheme) — that is provided with this package — by using:
-
-```json
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",  // or 
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",  
-```
-
-### Old Color Schemes
+#### Old Color Schemes
 
 You can still use the oldest and **unsupported** color schemes.
 
@@ -79,15 +76,15 @@ Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/
 
 # Addons
 
-### White panels
-
-[Material Theme White Panels](https://github.com/equinusocio/material-theme-white-panels)
-If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
-
-### App Bar
+#### App Bar
 
 [Material Theme Appbar](https://github.com/equinusocio/material-theme-appbar)
 This official addon enable a beautiful colored tab bar to your Material Theme. The color tint fits automagically the material theme accent color you choosed.
+
+#### White panels
+
+[Material Theme White Panels](https://github.com/equinusocio/material-theme-white-panels)
+If you want to enable the white panels and inputs you can install the addon package through **Package Control**, search for "Material theme white panels". You have to disable it if you want to use the ```Lighter``` theme style.
 
 
 # Theme options
@@ -155,28 +152,34 @@ You can now edit the source files under `/src` folder that will be compiled insi
 
 [Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
 
-## Official Portings
+# Official Portings
 Material Theme was also ported to:
 
 
-- [x] Atom Editor: [atom-material-ui](https://github.com/silvestreh/atom-material-ui) (by [@silvestreh](https://github.com/silvestreh)) and [material-ui](https://github.com/leo/material-ui) (by [@leo](https://github.com/leo))
-- [x] [IntelliJ IDEA](https://github.com/ChrisRM/material-theme-jetbrains) (thanks to [@ChrisRM](https://github.com/ChrisRM)).
-- [x] [Vim](https://github.com/kristijanhusak/vim-hybrid-material) (thanks to [@kristijanhusak](https://github.com/kristijanhusak)).
-- [x] [Terminal OSX](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) (thanks to [@mvaneijgen](https://github.com/mvaneijgen)).
-- [x] [ConEmu](https://gist.github.com/rajadain/b306b2ba71bd58a1df41) (thanks to [@rajadain](https://github.com/rajadain)).
-- [x] [Slack App](https://slack.com/) ( #263238,#2e3a40,#80CBC4,#FFFFFF,#13191C,#ffffff,#50fa7b,#FF5555 )
-- [x] [Nylas N1](https://github.com/jackiehluo/n1-material) (thanks to [@jackiehluo](https://github.com/jackiehluo))
+- Atom Editor: [atom-material-ui](https://github.com/silvestreh/atom-material-ui) (by [@silvestreh](https://github.com/silvestreh)) and [material-ui](https://github.com/leo/material-ui) (by [@leo](https://github.com/leo))
+- [IntelliJ IDEA](https://github.com/ChrisRM/material-theme-jetbrains) (thanks to [@ChrisRM](https://github.com/ChrisRM)).
+- [Vim](https://github.com/kristijanhusak/vim-hybrid-material) (thanks to [@kristijanhusak](https://github.com/kristijanhusak)).
+- [Terminal OSX](https://gist.github.com/mvaneijgen/4c56701215847dd5ddcf) (thanks to [@mvaneijgen](https://github.com/mvaneijgen)).
+- [ConEmu](https://gist.github.com/rajadain/b306b2ba71bd58a1df41) (thanks to [@rajadain](https://github.com/rajadain)).
+- [Slack App](https://slack.com/) ( #263238,#2e3a40,#80CBC4,#FFFFFF,#13191C,#ffffff,#50fa7b,#FF5555 )
+- [Nylas N1](https://github.com/jackiehluo/n1-material) (thanks to [@jackiehluo](https://github.com/jackiehluo))
 
 
-# Color Palette
+# Color Schemes palettes
 
-Palette              | Hex       | RGB          
----                  | ---       | ---          
-Blue Grey 900        | `#263238` | `38 50 56`   
-Current Line 800     | `#37474F` | `55 71 79`   
-Selection 600        | `#546E7A` | `84 110 122`   
-Comment 500          | `#607D8B` | `96 125 139` 
-Teal                 | `#80CBC4` | `128 203 196`
+Default / Darker              | Hex       |   Lighter              | Hex       |
+---                           | ---       |   ---                  | ---       |
+Red                           | `#FF5370` |   Red                           | `#E53935` |
+Pink                          | `#f07178` |   Pink                          | `#FF5370` |
+Orange                        | `#F78C6C` |   Orange                        | `#F76D47` |
+Yellow                        | `#FFCB6B` |   Yellow                        | `#FFC000` |
+Green                         | `#C3E88D` |   Green                         | `#91B859` |
+Pale Blue                     | `#B2CCD6` |   Pale Blue                     | `#8796B0` |
+Cyan                          | `#89DDFF` |   Cyan                          | `#39ADB5` |
+Blue                          | `#82AAFF` |   Blue                          | `#6182B8` |
+Purple                        | `#C792EA` |   Purple                        | `#7C4DFF` |
+Violet                        | `#bb80b3` |   Violet                        | `#945EB8` |
+Brown                         | `#ab7967` |   Brown                         | `#ab7967` |
 
 
 
