@@ -41,6 +41,18 @@ settings:
   settings:
     foreground: '<%= scheme.base.white %>'
 
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '<%= scheme.base.white %>'
+    background: '<%= scheme.base.red %>'
+
+- name: Invalid
+  scope: invalid.deprecated
+  settings:
+    foreground: '<%= scheme.base.white %>'
+    background: '<%= scheme.base.purple %>'
+
 - name: Keyword, Storage
   scope: keyword, storage.type, storage.modifier
   settings:
