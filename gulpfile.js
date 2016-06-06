@@ -162,7 +162,6 @@ gulp.task('build', function(cb) {
   runSequence(
     'build:themes',
     'build:schemes',
-    'convert:schemes',
     'build:widgets',
     function (error) {
       if (error) {
@@ -205,7 +204,7 @@ gulp.task('build:themes', ['clean:themes'], function() {
 
 gulp.task('build:schemes', ['clean:schemes'], function(cb) {
   runSequence(
-    'prepare:schemes',
+    'process:schemes',
     'convert:schemes',
     function (error) {
       if (error) {
@@ -219,7 +218,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
   );
 });
 
-gulp.task('prepare:schemes', function(cb) {
+gulp.task('process:schemes', function(cb) {
   return gulp.src(srcPath + '/settings/specific/*.json')
     .pipe($.foreach(function(stream, file) {
       var basename = path.basename(file.path, path.extname(file.path));
@@ -241,9 +240,9 @@ gulp.task('prepare:schemes', function(cb) {
 gulp.task('convert:schemes', function() {
   return gulp.src('./schemes/*.YAML-tmTheme')
     .pipe($.plumber(function(error) {
-      console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
-                  'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
-      this.emit('end');
+       console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
+                   'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
+       this.emit('end');
     }))
     .pipe($.foreach(function(stream, file) {
       sleep.sleep(2);
