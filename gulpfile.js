@@ -248,7 +248,7 @@ gulp.task('convert:schemes', function() {
       sleep.sleep(2);
 
       return stream
-        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file" && subl --command "hide_panel"'));
+        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'));
     }));
 });
 
