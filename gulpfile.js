@@ -10,6 +10,7 @@ var gulp                       = require('gulp'),
     del                        = require('del'),
     path                       = require('path'),
     colors                     = require('colors'),
+    sleep                      = require('sleep'),
     runSequence                = require('run-sequence'),
     conventionalChangelog      = require('conventional-changelog'),
     conventionalGithubReleaser = require('conventional-github-releaser'),
@@ -191,7 +192,7 @@ gulp.task('build:themes', ['clean:themes'], function() {
     .pipe($.template())
     .pipe($.rename(function(path) {
       path.basename = path.basename;
-      path.extname = ".sublime-theme";
+      path.extname = '.sublime-theme';
     }))
     .pipe(gulp.dest('./'))
     .on('end', function() {
@@ -301,11 +302,11 @@ gulp.task('build:widget-settings', function() {
  * > Watch
  */
 
-gulp.task('watch', function() {
+gulp.task('watch', ['build'], function() {
   gulp.watch(srcPath + '/themes/**/*.json', ['build:themes']);
   gulp.watch(srcPath + '/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
-  gulp.watch(srcPath + '/settings/*.json', ['build:schemes', 'build:widgets']);
+  gulp.watch(srcPath + '/settings/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
 });
 
 
@@ -313,4 +314,4 @@ gulp.task('watch', function() {
  * > Default
  */
 
-gulp.task('default', ['build','watch']);
+gulp.task('default', ['build');
