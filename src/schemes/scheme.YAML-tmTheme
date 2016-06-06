@@ -47,7 +47,7 @@ settings:
     foreground: '<%= scheme.base.white %>'
     background: '<%= scheme.base.red %>'
 
-- name: Invalid
+- name: Invalid deprecated
   scope: invalid.deprecated
   settings:
     foreground: '<%= scheme.base.white %>'
