@@ -204,11 +204,23 @@ gulp.task('build:themes', ['clean:themes'], function() {
 /* >> Schemes */
 
 gulp.task('build:schemes', ['clean:schemes'], function(cb) {
+  runSequence(
+    'prepare:schemes',
+    'convert:schemes',
+    function (error) {
+      if (error) {
+        console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
+      } else {
+        console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
+      }
+
+      cb(error);
+    }
+  );
+});
+
+gulp.task('prepare:schemes', function(cb) {
   return gulp.src(srcPath + '/settings/specific/*.json')
-    .pipe($.plumber(function(error) {
-      console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
-      this.emit('end');
-    }))
     .pipe($.foreach(function(stream, file) {
       var basename = path.basename(file.path, path.extname(file.path));
 
@@ -223,10 +235,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
           scheme.basename = basename;
         }))
         .pipe(gulp.dest('./schemes'));
-    }))
-    .on('end', function() {
-      console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
-    });
+    }));
 });
 
 gulp.task('convert:schemes', function() {
@@ -236,7 +245,12 @@ gulp.task('convert:schemes', function() {
                   'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
       this.emit('end');
     }))
-    .pipe($.exec('subl "<%= file.path %>" -b && subl -b --command "convert_file" && subl -b -w --command "close_file"'));
+    .pipe($.foreach(function(stream, file) {
+      sleep.sleep(2);
+
+      return stream
+        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file" && subl --command "hide_panel"'));
+    }));
 });
 
 
@@ -314,4 +328,4 @@ gulp.task('watch', ['build'], function() {
  * > Default
  */
 
-gulp.task('default', ['build');
+gulp.task('default', ['build']);
