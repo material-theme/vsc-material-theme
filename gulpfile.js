@@ -241,14 +241,16 @@ gulp.task('convert:schemes', function() {
   return gulp.src('./schemes/*.YAML-tmTheme')
     .pipe($.plumber(function(error) {
        console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
-                   'To fix this error:\nAdd Sublime Text to the `PATH` and then install "AAAPackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
+                   'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
        this.emit('end');
     }))
     .pipe($.foreach(function(stream, file) {
       sleep.sleep(2);
 
       return stream
-        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'));
+        //.pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'))
+        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file" && subl --command "hide_panel"'))
+        .pipe($.exec.reporter());
     }));
 });
 
@@ -315,11 +317,11 @@ gulp.task('build:widget-settings', function() {
  * > Watch
  */
 
-gulp.task('watch', ['build'], function() {
+gulp.task('watch', function() {
   gulp.watch(srcPath + '/themes/**/*.json', ['build:themes']);
   gulp.watch(srcPath + '/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
-  gulp.watch(srcPath + '/settings/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
+  gulp.watch(srcPath + '/settings/**/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
 });
 
 
