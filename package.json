@@ -6,12 +6,12 @@
   "main": "gulpfile.js",
   "devDependencies": {
     "colors": "^1.1.2",
-    "conventional-changelog": "^0.5.3",
-    "conventional-github-releaser": "^0.5.3",
+    "conventional-changelog": "^1.1.0",
+    "conventional-github-releaser": "^1.1.2",
     "del": "^2.2.0",
     "fs": "^0.0.2",
     "gulp": "^3.9.0",
-    "gulp-bump": "^1.0.0",
+    "gulp-bump": "^2.1.0",
     "gulp-data": "^1.2.1",
     "gulp-exec": "^2.1.2",
     "gulp-foreach": "^0.1.0",
@@ -25,7 +25,8 @@
     "lodash": "^4.11.1",
     "path": "^0.12.7",
     "run-sequence": "^1.1.5",
-    "yargs": "^3.32.0"
+    "yargs": "^4.7.1",
+    "sleep": "^3.0.1"
   },
   "repository": {
     "type": "git",
