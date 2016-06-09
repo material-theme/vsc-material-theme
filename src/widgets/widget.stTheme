@@ -56,6 +56,15 @@
 			</dict>
 		</dict>
 		<dict>
+		  <key>scope</key>
+		  <string>keyword.control.character-class</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string><%= scheme.base.red %></string>
+		  </dict>
+		</dict>
+		<dict>
 			<key>scope</key>
 			<string>constant</string>
 			<key>settings</key>
@@ -66,7 +75,7 @@
 		</dict>
 		<dict>
 			<key>scope</key>
-			<string>string</string>
+			<string>string, keyword.operator.quantifier</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
