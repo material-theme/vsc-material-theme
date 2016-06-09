@@ -389,7 +389,8 @@ settings:
 - name: SublimeLinter Error
   scope: sublimelinter.mark.error
   settings:
-    foreground: '<%= scheme.base.red %>'
+    foreground: '<%= scheme.base.white %>'
+    background: '<%= scheme.base.red %>'
 
 - name: SublimeLinter Annotation
   scope: sublimelinter.annotations
