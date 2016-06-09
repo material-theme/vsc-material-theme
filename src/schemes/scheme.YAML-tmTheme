@@ -32,7 +32,7 @@ settings:
     fontStyle: 'italic'
 
 - name: Variable
-  scope: variable
+  scope: variable, string constant.other.placeholder
   settings:
     foreground: '<%= scheme.foreground %>'
 
