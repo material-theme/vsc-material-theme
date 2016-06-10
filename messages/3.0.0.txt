@@ -12,7 +12,7 @@ Version 3.0.0
   ➼ A completely new and improved color schemes
   ➼ A new theme builder that support variables and modules. The UI themes are now dynamic with variables.
   ➼ A new scheme builder that support variables and allows an easy customization/fix
-  ➼ Oceanic schemes will not provided anymore. If you want to use it, just download and customize the package.
+  ➼ Oceanic schemes will not be provided anymore. If you want to use it, just download and customize the package.
   ➼ The previous color schemes are the new "old" ones
   ➼ Material Theme now support @3x retina display
   ➼ New schemes color palettes (Check the readme file)
