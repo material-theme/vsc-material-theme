@@ -4,7 +4,8 @@ https://github.com/equinusocio/material-theme
 Version 3.0.0
 ********************************************************************************
 
-📣 NEW MAIN RELEASE WITH NEW COLOR SCHEMES
+🎉 NEW MAIN RELEASE WITH NEW COLOR SCHEMES
+
 📣 Please open a new issue only for a bugfix.
 📣 If you don't like the new schemes use the old ones (now out of support).
 
