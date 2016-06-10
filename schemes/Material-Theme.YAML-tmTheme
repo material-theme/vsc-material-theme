@@ -18,7 +18,7 @@ settings:
     stackGuides: '#37474Fff'
     gutterForeground: '#37474F'
     invisibles: '#65737e'
-    lineHighlight: '#00000030'
+    lineHighlight: '#00000050'
     selection: '#80CBC420'
     selectionBorder: '#80CBC420'
     shadow: '#00000010'
@@ -320,13 +320,13 @@ settings:
 - name: Markdown - Raw Block Fenced
   scope: markup.raw.block.fenced.markdown
   settings:
-    background: '#00000030'
+    background: '#00000050'
     foreground: '#eeffff'
 
 - name: Markdown - Fenced Bode Block
   scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
   settings:
-    background: '#00000030'
+    background: '#00000050'
     foreground: '#65737e'
 
 - name: Markdown - Fenced Language
@@ -338,7 +338,7 @@ settings:
 - name: Markdown - Separator
   scope: meta.separator
   settings:
-    background: '#00000030'
+    background: '#00000050'
     fontStyle: 'bold'
     foreground: '#65737e'
 
