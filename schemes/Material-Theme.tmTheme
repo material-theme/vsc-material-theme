@@ -58,7 +58,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, string constant.other.placeholder</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -802,8 +802,10 @@
 			<string>sublimelinter.mark.error</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
+				<key>background</key>
 				<string>#FF5370</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>

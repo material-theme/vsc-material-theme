@@ -32,7 +32,7 @@ settings:
     fontStyle: 'italic'
 
 - name: Variable
-  scope: variable
+  scope: variable, string constant.other.placeholder
   settings:
     foreground: '#eeffff'
 
@@ -389,7 +389,8 @@ settings:
 - name: SublimeLinter Error
   scope: sublimelinter.mark.error
   settings:
-    foreground: '#FF5370'
+    foreground: '#ffffff'
+    background: '#FF5370'
 
 - name: SublimeLinter Annotation
   scope: sublimelinter.annotations

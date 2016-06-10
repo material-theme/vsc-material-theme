@@ -30,11 +30,11 @@
 				<key>invisibles</key>
 				<string>#65737e</string>
 				<key>lineHighlight</key>
-				<string>#00000030</string>
+				<string>#00000050</string>
 				<key>selection</key>
-				<string>#61616140</string>
+				<string>#61616150</string>
 				<key>selectionBorder</key>
-				<string>#61616140</string>
+				<string>#61616150</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuides</key>
@@ -58,7 +58,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, string constant.other.placeholder</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -662,7 +662,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000030</string>
+				<string>#00000050</string>
 				<key>foreground</key>
 				<string>#eeffffff</string>
 			</dict>
@@ -675,7 +675,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000030</string>
+				<string>#00000050</string>
 				<key>foreground</key>
 				<string>#65737e</string>
 			</dict>
@@ -701,7 +701,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000030</string>
+				<string>#00000050</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -802,8 +802,10 @@
 			<string>sublimelinter.mark.error</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
+				<key>background</key>
 				<string>#FF5370</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
