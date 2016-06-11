@@ -58,20 +58,6 @@ gulp.task('changelog', function() {
 
 
 /*
- * > Github Release
- */
-
-gulp.task('github-release', function(done) {
-  conventionalGithubReleaser({
-    type: 'oauth',
-    token: process.env.CONVENTIONAL_GITHUB_RELEASER_TOKEN
-  }, {
-    preset: 'angular'
-  }, done);
-});
-
-
-/*
  * > Bump Version
  */
 
@@ -129,6 +115,20 @@ gulp.task('create-new-tag', function(cb) {
   function getPackageJsonVersion() {
     return JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
   }
+});
+
+
+/*
+ * > Github Release
+ */
+
+gulp.task('github-release', function(done) {
+  conventionalGithubReleaser({
+    type: 'oauth',
+    token: process.env.CONVENTIONAL_GITHUB_RELEASER_TOKEN
+  }, {
+    preset: 'angular'
+  }, done);
 });
 
 
