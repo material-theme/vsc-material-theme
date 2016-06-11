@@ -1,0 +1,119 @@
+
+/* @OVERLAY PANELS
+ * Overlay panels setting and behavioring
+========================================================================= */
+
+  // Command Panel
+   {
+      "class": "overlay_control",
+      "layer0.texture": "Material Theme/assets/default/overlay-bg.png",
+      "layer0.inner_margin": [24, 4, 24, 33],
+      "layer0.opacity": 1.0,
+      "layer1.texture": "Material Theme/assets/commons/quick-panel-background.png",
+      "layer1.inner_margin": [16, 0, 16, 25],
+      "layer1.opacity": 1.0,
+      "content_margin": [13, 13, 13, 33]
+   },
+
+    // Command Panel list item style (cmd + shift + p)
+
+  {
+    "class": "mini_quick_panel_row",
+    "layer0.tint": [<%= ui.background.primary.rgb %>, 0],
+    "layer0.inner_margin": [2, 2, 2, 2],
+    "layer0.opacity": 1.0
+  },
+
+    // Command Panel selected list item style (cmd + p)
+
+  {
+    "class": "mini_quick_panel_row",
+    "attributes": ["selected"],
+    "layer0.tint": [84, 110, 122],
+    "layer0.opacity": 0.3
+  },
+
+    // Quick panel project setting (project manager) (cmd + ctrl + p)
+
+  {
+    "class": "quick_panel",
+    "row_padding": [32, 12],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
+    "layer0.opacity": 1.0
+  },
+
+    // Quick Panel row default style (project manager)
+
+  {
+    "class": "quick_panel_row",
+    "layer0.tint": [<%= ui.background.primary.rgb %>, 0],
+    "layer0.opacity": 1.0
+  },
+
+    // Row panel style inside comman panel (cmd + shift + p)
+
+  {
+    "class": "quick_panel_row",
+    "parents": [{"class": "overlay_control"}],
+    "layer0.tint": [<%= ui.background.primary.rgb %>, 0],
+    "layer0.opacity": 1.0
+  },
+
+    // Quick panel (project) style inside overlay_control (cmd + shift + p)
+
+  {
+    "class": "quick_panel",
+    "parents": [{"class": "overlay_control"}],
+    "row_padding": [32, 12],
+    "layer0.tint": [<%= ui.background.primary.rgb %>, 0],
+    "layer0.opacity": 1.0
+  },
+
+    // Quick Panel selected list item style
+
+  {
+    "class": "quick_panel_row",
+    "attributes": ["selected"],
+    "layer0.tint": [84, 110, 122],
+    "layer0.opacity": 0.3,
+    "layer1.opacity": 0.0
+  },
+
+    // Panel labels
+
+  {
+    "class": "quick_panel_label",
+    "fg": [176, 190, 197, 255],
+    "match_fg": [128, 203, 196, 255],
+    "selected_fg": [255, 255, 255, 255],
+    "selected_match_fg": [128, 203, 196, 255]
+  },
+
+    // Panel labels
+
+  {
+    "class": "quick_panel_label",
+    "parents": [{"class": "overlay_control"}],
+    "fg": [176, 190, 197, 255],
+    "match_fg": [128, 203, 196, 255],
+    "selected_fg": [255, 255, 255, 255],
+    "selected_match_fg": [128, 203, 196, 255]
+  },
+
+    // Panels sublabels
+
+  {
+    "class": "quick_panel_path_label",
+    "fg": [84, 110, 122, 255],
+    "match_fg": [128, 203, 196, 255],
+    "selected_fg": [255, 255, 255, 255],
+    "selected_match_fg": [128, 203, 196, 255]
+  },
+
+    // Panels data / score
+
+  {
+    "class": "quick_panel_score_label",
+    "fg": [128, 203, 196, 255],
+    "selected_fg": [255, 255, 255, 255]
+  },

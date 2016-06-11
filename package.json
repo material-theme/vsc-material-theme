@@ -1,41 +1,36 @@
 {
   "name": "material-theme",
-  "version": "2.1.2",
+  "version": "3.0.0",
   "email": "astorino.design@gmail.com",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.8.11",
-    "gulp-clean": "^0.3.1",
-    "gulp-concat-json": "^1.0.0",
-    "gulp-concat-json2js": "^0.1.0",
-    "gulp-duration": "0.0.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-wrap": "^0.11.0",
-    "path": "^0.11.14",
-    "run-sequence": "^1.1.5",
-    "gulp-util": "^3.0.7"
-  },
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-clean": "^0.3.1",
-    "gulp-concat-json": "^1.0.0",
-    "gulp-concat-json2js": "^0.1.0",
-    "gulp-duration": "0.0.0",
-    "gulp-notify": "^2.2.0",
+    "colors": "^1.1.2",
+    "conventional-changelog": "^1.1.0",
+    "conventional-github-releaser": "^1.1.2",
+    "del": "^2.2.0",
+    "fs": "^0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^2.1.0",
+    "gulp-data": "^1.2.1",
+    "gulp-exec": "^2.1.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-git": "^1.7.0",
+    "gulp-if": "^2.0.0",
+    "gulp-include": "^2.1.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-util": "^3.0.7",
-    "gulp-wrap": "^0.11.0",
-    "path": "^0.11.14",
-    "run-sequence": "^1.1.5"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp-template": "^4.0.0",
+    "lodash": "^4.11.1",
+    "path": "^0.12.7",
+    "run-sequence": "^1.1.5",
+    "yargs": "^4.7.1",
+    "sleep": "^3.0.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://equinusocio@github.com/equinusocio/material-theme.git"
+    "url": "https://equinusocio@github.com/equinusocio/material-theme.git"
   },
   "keywords": [
     "material",
