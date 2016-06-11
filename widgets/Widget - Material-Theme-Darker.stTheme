@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Mattia Astorino</string>
+  <key>comment</key>
+  <string>The most epic theme for Sublime Text 3</string>
+	<key>name</key>
+	<string>Material-Theme-Darker</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#212121</string>
+				<key>caret</key>
+				<string>#FFCC00</string>
+				<key>foreground</key>
+				<string>#eeffffff</string>
+				<key>invisibles</key>
+				<string>#65737e</string>
+				<key>lineHighlight</key>
+				<string>#00000050</string>
+				<key>selection</key>
+				<string>#61616150</string>
+				<key>selectionBorder</key>
+				<string>#61616150</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#4A4A4A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword, storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+		  <key>scope</key>
+		  <string>keyword.control.character-class</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#FF5370</string>
+		  </dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80CBC4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string, keyword.operator.quantifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F9355A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFC400</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
