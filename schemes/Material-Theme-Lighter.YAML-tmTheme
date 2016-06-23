@@ -389,14 +389,12 @@ settings:
 - name: SublimeLinter Error
   scope: sublimelinter.mark.error
   settings:
-    foreground: '#ffffff'
-    background: '#E53935'
+    foreground: '#E53935'
 
 - name: SublimeLinter Annotation
   scope: sublimelinter.annotations
   settings:
-    foreground: '#C17E70'
-    background: '#ffffff'
+    background: '#C17E70'
 
 # >> Git Gutter
 

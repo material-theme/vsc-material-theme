@@ -802,10 +802,8 @@
 			<string>sublimelinter.mark.error</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#E53935</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#E53935</string>
 			</dict>
 		</dict>
 		<dict>
@@ -816,8 +814,6 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff</string>
-				<key>foreground</key>
 				<string>#C17E70</string>
 			</dict>
 		</dict>
