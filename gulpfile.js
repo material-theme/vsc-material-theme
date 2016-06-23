@@ -12,7 +12,7 @@ var gulp                       = require('gulp'),
     colors                     = require('colors'),
     sleep                      = require('sleep'),
     runSequence                = require('run-sequence'),
-    conventionalChangelog      = require('conventional-changelog'),
+    conventionalChangelog      = require('gulp-conventional-changelog'),
     conventionalGithubReleaser = require('conventional-github-releaser'),
     argv                       = require('yargs').argv,
     fs                         = require('fs'),
@@ -49,13 +49,13 @@ gulp.task('clean:widgets', function() {
  * > Generate CHANGELOG
  */
 
-gulp.task('changelog', function() {
-  return conventionalChangelog({
-    preset: 'angular'
-  })
-  .pipe(fs.createWriteStream('CHANGELOG.md'));
+gulp.task('changelog', function () {
+  return gulp.src('CHANGELOG.md')
+    .pipe(conventionalChangelog({
+      preset: 'angular'
+    }))
+    .pipe(gulp.dest('./'));
 });
-
 
 /*
  * > Bump Version
