@@ -1501,7 +1501,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_lime"],
+      "settings": ["material_theme_accent_lime"],
       "layer1.texture": "Material Theme/assets/accent-lime/tree_highlight.png",
     },
   
@@ -1809,7 +1809,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_purple"],
+      "settings": ["material_theme_accent_purple"],
       "layer1.texture": "Material Theme/assets/accent-purple/tree_highlight.png",
     },
   
@@ -2117,7 +2117,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_red"],
+      "settings": ["material_theme_accent_red"],
       "layer1.texture": "Material Theme/assets/accent-red/tree_highlight.png",
     },
   
@@ -2425,7 +2425,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_orange"],
+      "settings": ["material_theme_accent_orange"],
       "layer1.texture": "Material Theme/assets/accent-orange/tree_highlight.png",
     },
   
@@ -2733,7 +2733,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_yellow"],
+      "settings": ["material_theme_accent_yellow"],
       "layer1.texture": "Material Theme/assets/accent-yellow/tree_highlight.png",
     },
   
@@ -3041,7 +3041,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_indigo"],
+      "settings": ["material_theme_accent_indigo"],
       "layer1.texture": "Material Theme/assets/accent-indigo/tree_highlight.png",
     },
   
@@ -3349,7 +3349,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_pink"],
+      "settings": ["material_theme_accent_pink"],
       "layer1.texture": "Material Theme/assets/accent-pink/tree_highlight.png",
     },
   
@@ -3657,7 +3657,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_blue"],
+      "settings": ["material_theme_accent_blue"],
       "layer1.texture": "Material Theme/assets/accent-blue/tree_highlight.png",
     },
   
@@ -3965,7 +3965,7 @@
   
     {
       "class": "tree_row",
-      "settings": ["theme_accent_cyan"],
+      "settings": ["material_theme_accent_cyan"],
       "layer1.texture": "Material Theme/assets/accent-cyan/tree_highlight.png",
     },
   

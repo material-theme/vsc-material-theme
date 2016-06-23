@@ -40,7 +40,7 @@
 
   {
     "class": "tree_row",
-    "settings": ["theme_accent_<%= ui.accents[i].id %>"],
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/tree_highlight.png",
   },
 
