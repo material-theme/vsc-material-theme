@@ -19,7 +19,6 @@ You can install this awesome theme through the [Package Control](https://package
 1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
 2. Type *"install package"* and press enter. Then search for *"Material Theme"*
 
---
 
 # Manual installation
 
@@ -128,9 +127,9 @@ If you want to enable the white panels and inputs you can install the addon pack
 "font_options"                 : [ "gray_antialias", "subpixel_antialias" ],    // On retina Mac & Windows
 ```
 
-The font used for the code is "[Operator Mono](http://www.typography.com/blog/introducing-operator)
+The font used for the code is "[Operator Mono](http://www.typography.com/blog/introducing-operator)"
 
-You can also use the official Material Design monospace font "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)" or [Fira Code](https://github.com/tonsky/FiraCode).
+You can also use the official Material Design monospace font "[Roboto Mono](https://www.google.com/fonts/specimen/Roboto+Mono)" or "[Fira Code](https://github.com/tonsky/FiraCode)".
 
 # Contributing
 
