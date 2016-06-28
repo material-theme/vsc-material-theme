@@ -7,6 +7,7 @@
   "devDependencies": {
     "colors": "^1.1.2",
     "conventional-github-releaser": "^1.1.2",
+    "crypto": "0.0.3",
     "del": "^2.2.0",
     "fs": "^0.0.2",
     "gulp": "^3.9.0",
@@ -21,11 +22,14 @@
     "gulp-load-plugins": "^1.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
     "gulp-template": "^4.0.0",
     "lodash": "^4.11.1",
     "path": "^0.12.7",
     "run-sequence": "^1.1.5",
+    "slash": "^1.0.0",
     "sleep": "^3.0.1",
+    "through2": "^2.0.1",
     "yargs": "^4.7.1"
   },
   "repository": {

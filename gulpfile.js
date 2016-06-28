@@ -14,6 +14,7 @@ var gulp                       = require('gulp'),
     runSequence                = require('run-sequence'),
     conventionalChangelog      = require('gulp-conventional-changelog'),
     conventionalGithubReleaser = require('conventional-github-releaser'),
+    replace                    = require('gulp-replace'),
     argv                       = require('yargs').argv,
     fs                         = require('fs'),
     _                          = require('lodash'),
@@ -206,6 +207,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
   runSequence(
     'process:schemes',
     'convert:schemes',
+    'escape:schemes',
     function (error) {
       if (error) {
         console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
@@ -253,6 +255,16 @@ gulp.task('convert:schemes', function() {
         .pipe($.exec.reporter());
     }));
 });
+
+// Escape CDATA characters
+gulp.task('escape:schemes', function(){
+  sleep.sleep(2);
+  return gulp.src('./schemes/*.tmTheme')
+    .pipe(replace('&lt;', '<'))
+    .pipe(replace('&gt;', '>'))
+    .pipe(gulp.dest('./schemes'));
+});
+
 
 
 /* >> Widgets */
