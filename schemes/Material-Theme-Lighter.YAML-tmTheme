@@ -22,6 +22,26 @@ settings:
     selection: '#80CBC440'
     selectionBorder: '#80CBC440'
     shadow: '#90A4AE50'
+    popupCss: "<![CDATA[
+    html {
+      background-color: #fafafa;
+      color: #80CBC4;
+      padding: 16px;
+    }
+    a {
+      color: #8796B0;
+      display: block;
+    }
+    .error, .deleted {
+      color: #E53935;
+    }
+    .success, .inserted {
+      color: #91B859;
+    }
+    .warning, .modified {
+      color: #FFC000;
+    }
+    ]]>"
 
 # >> General
 

@@ -31,6 +31,8 @@
 				<string>#65737e</string>
 				<key>lineHighlight</key>
 				<string>#00000050</string>
+				<key>popupCss</key>
+				<string><![CDATA[ html { background-color: #212121; color: #eeffffff; padding: 16px; } a { color: #B2CCD6; display: block; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } ]]></string>
 				<key>selection</key>
 				<string>#61616150</string>
 				<key>selectionBorder</key>
