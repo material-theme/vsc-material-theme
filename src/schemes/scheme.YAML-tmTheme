@@ -62,10 +62,16 @@ settings:
     foreground: '<%= scheme.base.white %>'
 
 - name: Invalid
-  scope: invalid
+  scope: invalid, invalid.illegal, invalid.broken
   settings:
     foreground: '<%= scheme.base.white %>'
     background: '<%= scheme.base.red %>'
+
+- name: Unimplemented
+  scope: invalid.unimplemented
+  settings:
+    foreground: '<%= scheme.base.white %>'
+    background: '<%= scheme.base.green %>'
 
 - name: Invalid deprecated
   scope: invalid.deprecated
@@ -427,3 +433,18 @@ settings:
   scope: markup.untracked.git_gutter
   settings:
     foreground: '<%= scheme.invisibles %>'
+
+- name: GitGutter Inserted
+  scope: markup.inserted.git_gutter
+  settings:
+    foreground: '<%= scheme.base.green %>'
+
+- name: GitGutter Changed
+  scope: markup.changed.git_gutter
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+
+- name: GitGutter Deleted
+  scope: markup.deleted.git_gutter
+  settings:
+    foreground: '<%= scheme.base.red %>'
