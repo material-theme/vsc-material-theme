@@ -1,6 +1,6 @@
 {
   "name": "material-theme",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "email": "astorino.design@gmail.com",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
@@ -27,6 +27,7 @@
     "gulp-template": "^4.0.0",
     "lodash": "^4.11.1",
     "path": "^0.12.7",
+    "require-dir": "^0.3.0",
     "run-sequence": "^1.1.5",
     "slash": "^1.0.0",
     "sleep": "^3.0.1",
