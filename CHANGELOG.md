@@ -36,6 +36,25 @@
 
 
 
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/equinusocio/material-theme/compare/v3.0.0...v3.0.1) (2016-06-28)
+
+
+### Bug Fixes
+
+* .stata to .do ([9eb7d27](https://github.com/equinusocio/material-theme/commit/9eb7d27))
+* Fix gutter colors and themes ([bb4fd2a](https://github.com/equinusocio/material-theme/commit/bb4fd2a)), closes [#887](https://github.com/equinusocio/material-theme/issues/887)
+* Optimize image assets ([fe31c02](https://github.com/equinusocio/material-theme/commit/fe31c02))
+* Selected item tree indicator ([58a82fc](https://github.com/equinusocio/material-theme/commit/58a82fc))
+* SublimeLinter gutter colors ([f696f89](https://github.com/equinusocio/material-theme/commit/f696f89)), closes [#880](https://github.com/equinusocio/material-theme/issues/880)
+
+
+### Features
+
+* Add support to the references popup ([7208105](https://github.com/equinusocio/material-theme/commit/7208105)), closes [#882](https://github.com/equinusocio/material-theme/issues/882)
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/equinusocio/material-theme/compare/v2.1.6...v3.0.0) (2016-06-11)
 
