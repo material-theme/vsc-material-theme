@@ -1,4 +1,15 @@
-.DS_Store
-material-palette.less
+# Development
+# =============================
+
+*.sublime-project
+*.sublime-workspace
+*.cache
 node_modules/
-bkp/
+
+!images.cache
+
+
+# OS
+# =============================
+
+.DS_Store
