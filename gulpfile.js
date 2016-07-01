@@ -11,7 +11,6 @@ var gulp                       = require('gulp'),
     path                       = require('path'),
     colors                     = require('colors'),
     sleep                      = require('sleep'),
-    changed                    = require('./changed'),
     runSequence                = require('run-sequence'),
     conventionalChangelog      = require('gulp-conventional-changelog'),
     conventionalGithubReleaser = require('conventional-github-releaser'),
@@ -358,20 +357,12 @@ gulp.task('optimize', function(cb) {
 
 gulp.task('optimize:assets', function() {
   return gulp.src('./assets/**/*.png')
-    .pipe(changed({
-      firstPass: true,
-      cache: getCache()
-    }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./assets'));
 });
 
 gulp.task('optimize:icons', function() {
   return gulp.src('./icons/**/*.png')
-    .pipe(changed({
-      firstPass: true,
-      cache: getCache()
-    }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./icons'));
 });
