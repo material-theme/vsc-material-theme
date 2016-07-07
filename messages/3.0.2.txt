@@ -5,11 +5,12 @@ Version 3.0.2
 ********************************************************************************
 
 📣 Features:
-  ➼
+  ➼ Add Material Theme gutter theme for SublimeLinter (Type "Gutter" in the command palette and choose the theme)
 
 📣 Bugfixes:
 
-  ➼
+  ➼ Fix activeGuide and StackGuide darker variant
+  ➼ Update icons file preferences and associations
 
 ********************************************************************************
 Check the official changelog ( https://github.com/equinusocio/material-theme/blob/master/CHANGELOG.md  )
