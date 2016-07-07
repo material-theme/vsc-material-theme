@@ -1,7 +1,0 @@
-{
-  "extensions": [
-    "rails",
-    "erb",
-    "html.erb"
-  ]
-}
