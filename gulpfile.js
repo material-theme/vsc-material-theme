@@ -166,7 +166,7 @@ gulp.task('build', function(cb) {
     'build:widgets',
     function (error) {
       if (error) {
-        console.log('[build]'.bold.magenta + ' There was an issue building BOXY:\n'.bold.red + error.message);
+        console.log('[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message);
       } else {
         console.log('[build]'.bold.magenta + ' Finished successfully'.bold.green);
       }
