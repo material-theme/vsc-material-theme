@@ -1,13 +1,12 @@
 {
   "name": "material-theme",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "email": "astorino.design@gmail.com",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
   "devDependencies": {
     "colors": "^1.1.2",
     "conventional-github-releaser": "^1.1.2",
-    "crypto": "0.0.3",
     "del": "^2.2.0",
     "fs": "^0.0.2",
     "gulp": "^3.9.0",
@@ -29,9 +28,7 @@
     "path": "^0.12.7",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.5",
-    "slash": "^1.0.0",
     "sleep": "^3.0.1",
-    "through2": "^2.0.1",
     "yargs": "^4.7.1"
   },
   "repository": {

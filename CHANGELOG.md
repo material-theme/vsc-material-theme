@@ -1,3 +1,18 @@
+<a name="3.0.2"></a>
+## [3.0.2](https://github.com/equinusocio/material-theme/compare/v3.0.1...v3.0.2) (2016-07-07)
+
+
+### Bug Fixes
+
+* Fix activeGuide and StackGuide darker variant ([9c2ac2e](https://github.com/equinusocio/material-theme/commit/9c2ac2e)), closes [#892](https://github.com/equinusocio/material-theme/issues/892)
+* Update icons file preferences and associations ([bffa1f8](https://github.com/equinusocio/material-theme/commit/bffa1f8)), closes [#890](https://github.com/equinusocio/material-theme/issues/890)
+
+
+### Features
+
+* add Material Theme gutter theme for SublimeLinter ([156f734](https://github.com/equinusocio/material-theme/commit/156f734))
+
+
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/equinusocio/material-theme/compare/v3.0.0...v3.0.1) (2016-06-28)
 

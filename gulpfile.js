@@ -11,7 +11,6 @@ var gulp                       = require('gulp'),
     path                       = require('path'),
     colors                     = require('colors'),
     sleep                      = require('sleep'),
-    changed                    = require('./changed'),
     runSequence                = require('run-sequence'),
     conventionalChangelog      = require('gulp-conventional-changelog'),
     conventionalGithubReleaser = require('conventional-github-releaser'),
@@ -167,7 +166,7 @@ gulp.task('build', function(cb) {
     'build:widgets',
     function (error) {
       if (error) {
-        console.log('[build]'.bold.magenta + ' There was an issue building BOXY:\n'.bold.red + error.message);
+        console.log('[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message);
       } else {
         console.log('[build]'.bold.magenta + ' Finished successfully'.bold.green);
       }
@@ -358,20 +357,12 @@ gulp.task('optimize', function(cb) {
 
 gulp.task('optimize:assets', function() {
   return gulp.src('./assets/**/*.png')
-    .pipe(changed({
-      firstPass: true,
-      cache: getCache()
-    }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./assets'));
 });
 
 gulp.task('optimize:icons', function() {
   return gulp.src('./icons/**/*.png')
-    .pipe(changed({
-      firstPass: true,
-      cache: getCache()
-    }))
     .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
     .pipe(gulp.dest('./icons'));
 });
