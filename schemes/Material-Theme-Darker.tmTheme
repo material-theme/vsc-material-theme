@@ -16,7 +16,7 @@
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#42424260</string>
+				<string>#FFFFFF50</string>
 				<key>background</key>
 				<string>#212121</string>
 				<key>caret</key>
@@ -24,7 +24,7 @@
 				<key>foreground</key>
 				<string>#eeffffff</string>
 				<key>guide</key>
-				<string>#42424260</string>
+				<string>#42424270</string>
 				<key>gutterForeground</key>
 				<string>#424242</string>
 				<key>invisibles</key>
