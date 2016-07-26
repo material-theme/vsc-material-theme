@@ -887,6 +887,236 @@
 				<string>#FF5370</string>
 			</dict>
 		</dict>
+		<dict>
+    <key>name</key>
+    <string>Unmatched</string>
+    <key>scope</key>
+    <string>brackethighlighter.unmatched</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#FD971F66</string>
+        <key>foreground</key>
+        <string>#FD971F66</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Curly</string>
+    <key>scope</key>
+    <string>brackethighlighter.curly</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#0AFAE14d</string>
+        <key>foreground</key>
+        <string>#0AFAE14d</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Round</string>
+    <key>scope</key>
+    <string>brackethighlighter.round</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#0000FF66</string>
+        <key>foreground</key>
+        <string>#0000FF66</string>
+       
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Square</string>
+    <key>scope</key>
+    <string>brackethighlighter.square</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#80008066</string>
+        <key>foreground</key>
+        <string>#80008066</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Angle</string>
+    <key>scope</key>
+    <string>brackethighlighter.angle</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#AE81FF66</string>
+        <key>foreground</key>
+        <string>#AE81FF66</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Tag</string>
+    <key>scope</key>
+    <string>brackethighlighter.tag</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#FD971F66</string>
+        <key>foreground</key>
+        <string>#FD971F66</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Single Quote | Double Quote | Regex</string>
+    <key>scope</key>
+    <string>brackethighlighter.quote</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#AE81FF66</string>
+        <key>foreground</key>
+        <string>#AE81FF66</string>
+        
+    </dict>
+</dict>
+
+        <!-- BEGIN Bracket Highlighter plugin color modifications -->
+
+
+<dict>
+    <key>name</key>
+    <string>Bracket Default</string>
+    <key>scope</key>
+    <string>brackethighlighter.default</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#0AFAE14d</string>
+        <key>foreground</key>
+        <string>#0AFAE14d</string>
+        
+    </dict>
+</dict>
+
+
+<dict>
+    <key>name</key>
+    <string>Unmatched</string>
+    <key>scope</key>
+    <string>brackethighlighter.unmatched</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#FD971F66</string>
+        <key>foreground</key>
+        <string>#FD971F66</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Curly</string>
+    <key>scope</key>
+    <string>brackethighlighter.curly</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#0AFAE14d</string>
+        <key>foreground</key>
+        <string>#0AFAE14d</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Round</string>
+    <key>scope</key>
+    <string>brackethighlighter.round</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#0000FF66</string>
+        <key>foreground</key>
+        <string>#0000FF66</string>
+       
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Square</string>
+    <key>scope</key>
+    <string>brackethighlighter.square</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#80008066</string>
+        <key>foreground</key>
+        <string>#80008066</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Angle</string>
+    <key>scope</key>
+    <string>brackethighlighter.angle</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#AE81FF66</string>
+        <key>foreground</key>
+        <string>#AE81FF66</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Bracket Tag</string>
+    <key>scope</key>
+    <string>brackethighlighter.tag</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#FD971F66</string>
+        <key>foreground</key>
+        <string>#FD971F66</string>
+        
+    </dict>
+</dict>
+
+<dict>
+    <key>name</key>
+    <string>Single Quote | Double Quote | Regex</string>
+    <key>scope</key>
+    <string>brackethighlighter.quote</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#AE81FF66</string>
+        <key>foreground</key>
+        <string>#AE81FF66</string>
+        
+    </dict>
+</dict>
+
+<!-- END Bracket Highlighter plugin color modifications -->
 	</array>
 	<key>uuid</key>
 	<string>4F44C0F5-1F8D-4C52-8BAB-F0951904C1EC</string>
