@@ -1,8 +1,8 @@
 {
-  "name": "material-theme",
+  "name": "material-theme-brackethighlighter",
   "version": "3.0.2",
   "email": "astorino.design@gmail.com",
-  "description": "Material Theme for Sublime Text 3",
+  "description": "Material Theme BracketHighlighter for Sublime Text 3",
   "main": "gulpfile.js",
   "devDependencies": {
     "colors": "^1.1.2",
