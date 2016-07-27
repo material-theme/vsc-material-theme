@@ -9,17 +9,6 @@
 
 
 
-<a name="3.0.3"></a>
-## [3.0.3](https://github.com/equinusocio/material-theme/compare/v3.0.2...v3.0.3) (2016-07-26)
-
-
-### Features
-
-* Add BracketHighlighter support ([47af504](https://github.com/equinusocio/material-theme/commit/47af504)), closes [#905](https://github.com/equinusocio/material-theme/issues/905)
-* Add linter gutter theme ([5152366](https://github.com/equinusocio/material-theme/commit/5152366))
-
-
-
 <a name="3.0.2"></a>
 ## [3.0.2](https://github.com/equinusocio/material-theme/compare/v3.0.1...v3.0.2) (2016-07-07)
 
