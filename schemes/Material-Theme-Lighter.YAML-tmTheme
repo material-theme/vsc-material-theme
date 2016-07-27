@@ -448,3 +448,22 @@ settings:
   scope: markup.deleted.git_gutter
   settings:
     foreground: '#E53935'
+
+# >> Bracket Highlighter theme
+
+- name: Bracket Curly
+  scope: brackethighlighter.default
+  settings:
+    foreground: '#8796B0'
+
+- name: Bracket Quote
+  scope: brackethighlighter.quote
+  settings:
+    foreground: '#91B859'
+
+- name: Bracket Unmatched
+  scope: brackethighlighter.unmatched
+  settings:
+    foreground: '#E53935'
+
+

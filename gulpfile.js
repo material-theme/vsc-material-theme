@@ -25,7 +25,7 @@ var gulp                       = require('gulp'),
  * > Settings
  */
 
-var srcPath = "./src";
+var srcPath = "./.src";
 var common = require(srcPath + '/settings/commons.json');
 
 
