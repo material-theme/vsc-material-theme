@@ -1,3 +1,13 @@
+<a name="3.0.4"></a>
+## [3.0.4](https://github.com/equinusocio/material-theme/compare/v3.0.3...v3.0.4) (2016-07-30)
+
+
+### Bug Fixes
+
+* Fix popupCss and phantomCss conflicts ([460f3f6](https://github.com/equinusocio/material-theme/commit/460f3f6))
+
+
+
 <a name="3.0.3"></a>
 ## [3.0.3](https://github.com/equinusocio/material-theme/compare/v3.0.2...v3.0.3) (2016-07-26)
 
