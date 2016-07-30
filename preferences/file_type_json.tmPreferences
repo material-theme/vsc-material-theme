@@ -7,7 +7,7 @@
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>file_type_settings</string>
+      <string>file_type_json</string>
     </dict>
   </dict>
 </plist>
