@@ -31,6 +31,7 @@ settings:
     a {
       color: #8796B0;
       display: block;
+      line-height: 16px;
     }
     .error, .deleted {
       color: #E53935;
@@ -40,6 +41,11 @@ settings:
     }
     .warning, .modified {
       color: #FFC000;
+    }
+    ]]>"
+    phantomCss: "<![CDATA[
+    html {
+      position: relative;
     }
     ]]>"
 

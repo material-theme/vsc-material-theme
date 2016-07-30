@@ -31,6 +31,7 @@ settings:
     a {
       color: <%= scheme.base.paleblue %>;
       display: block;
+      line-height: 16px;
     }
     .error, .deleted {
       color: <%= scheme.base.red %>;
@@ -40,6 +41,11 @@ settings:
     }
     .warning, .modified {
       color: <%= scheme.base.yellow %>;
+    }
+    ]]>"
+    phantomCss: "<![CDATA[
+    html {
+      position: relative;
     }
     ]]>"
 
