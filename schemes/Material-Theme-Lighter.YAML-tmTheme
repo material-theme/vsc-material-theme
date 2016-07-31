@@ -40,7 +40,7 @@ settings:
       color: #91B859;
     }
     .warning, .modified {
-      color: #FFC000;
+      color: #FFB62C;
     }
     ]]>"
     phantomCss: "<![CDATA[
@@ -132,7 +132,7 @@ settings:
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
     meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types
   settings:
-    foreground: '#FFC000'
+    foreground: '#FFB62C'
 
 - name: CSS Class and Support
   scope: source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type
@@ -168,13 +168,13 @@ settings:
 - name: HTML Attributes
   scope: text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name
   settings:
-    foreground: '#FFC000'
+    foreground: '#FFB62C'
     fontStyle: 'italic'
 
 - name: CSS Classes
   scope: entity.other.attribute-name.class
   settings:
-    foreground: '#FFC000'
+    foreground: '#FFB62C'
 
 - name: CSS Id
   scope: source.sass keyword.control
@@ -273,7 +273,7 @@ settings:
 - name: JSON Key - Level 1
   scope: source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
-    foreground: '#FFC000'
+    foreground: '#FFB62C'
 
 - name: JSON Key - Level 0
   scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
@@ -411,7 +411,7 @@ settings:
 - name: SublimeLinter Warning
   scope: sublimelinter.mark.warning
   settings:
-    foreground: '#FFC000'
+    foreground: '#FFB62C'
 
 - name: SublimeLinter Gutter Mark
   scope: sublimelinter.gutter-mark
@@ -448,7 +448,7 @@ settings:
 - name: GitGutter Changed
   scope: markup.changed.git_gutter
   settings:
-    foreground: '#FFC000'
+    foreground: '#FFB62C'
 
 - name: GitGutter Deleted
   scope: markup.deleted.git_gutter
