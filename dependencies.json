@@ -18,7 +18,8 @@
   // dependencies will only be installed if no other keys matched first.
   "*": {
     ">=3080": [
-      "mdpopups"
+      "mdpopups",
+      "webbrowser"
     ]
   }
 }

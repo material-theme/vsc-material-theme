@@ -4,7 +4,7 @@ import sublime_plugin
 import mdpopups
 
 
-class ColorHelperChangesCommand(sublime_plugin.WindowCommand):
+class MtChangesCommand(sublime_plugin.WindowCommand):
     """Changelog command."""
 
     def run(self):

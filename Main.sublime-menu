@@ -14,10 +14,18 @@
           },
           { "caption": "-" },
           {
-            "caption": "Changelog",
-            "command": "color_helper_changes"
+            "caption": "GitHub Repository",
+            "command": "mt_repo"
           },
-          { "caption": "-" }
+          {
+            "caption": "GitHub Issues",
+            "command": "mt_issues"
+          },
+          { "caption": "-" },
+          {
+            "caption": "Changelog",
+            "command": "mt_changes"
+          },
         ]
 
       }
