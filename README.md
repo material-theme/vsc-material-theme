@@ -28,7 +28,7 @@ You can install this awesome theme through the [Package Control](https://package
 
 # Activate the theme
 
-You can activate the theme through the configurator popup that allow the activation and the customization through the context menu (right click in your editor and select `Material Theme`) and the `Tools > Material Theme` menu.
+You can activate the theme by using the configurator popup that allow the activation and the customization through the context menu (right click in your editor and select `Material Theme`) and the `Tools > Material Theme` menu.
 
 Anyaway you can manually activate this theme by these lines in your setting:
 
