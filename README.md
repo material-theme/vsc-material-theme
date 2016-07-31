@@ -28,9 +28,9 @@ You can install this awesome theme through the [Package Control](https://package
 
 # Activate the theme
 
-**You can activate the theme through the custom `Material Theme` item under the `Tools` menu. Just click `Material Theme Config` and a popup will let you to set and customize this theme. Anyaway you can manually activate this theme by following this steps:**
+You can activate the theme through the configurator popup that allow the activation and the customization through the context menu (right click in your editor and select `Material Theme`) and the `Tools > Material Theme` menu.
 
-1. Open you preferences **(Preferences > Setting - User)** and add this lines:
+Anyaway you can manually activate this theme by these lines in your setting:
 
 ```json
 "theme": "Material-Theme.sublime-theme",
