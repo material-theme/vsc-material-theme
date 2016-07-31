@@ -58,13 +58,13 @@ OPTIONS = OrderedDict(
 BACK = '[❮ BACK](back){: .mt-config .ui-backlink }'
 SECTIONS = '[• %(section)s](::%(section)s){: .mt-config .ui-control }\n'
 SECTION_LABEL = '\n\n## Material Theme - %s\n\n'
-SECTIONS_LABEL = '\n\n## Material Theme - Config\n\n'
+SECTIONS_LABEL = '\n\n## Config - Material Theme\n\n'
 GENERAL_SETTING = '''[**%(status)s**{: .mt-config %(class)s} %(name)s](%(name)s:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
 SCHEME = '''[**%(status)s**{: .mt-config %(class)s} %(name)s](color_scheme:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
-THEME_LABEL = '\n\n## Material Theme - Themes\n\n'
-SCHEME_LABEL = '\n\n## Material Theme - Schemes\n\n'
+THEME_LABEL = '\n\n## Themes - Material Theme\n\n'
+SCHEME_LABEL = '\n\n## Schemes - Material Theme\n\n'
 OTHER_SCHEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} Other: %(name)s]\
 (color_scheme:%(set)s:%(section)s){: .mt-config .ui-control }\n'''
 THEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} %(name)s](theme:%(set)s:%(section)s)\
