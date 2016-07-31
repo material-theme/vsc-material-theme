@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      {
+
+        "caption": "Material Theme",
+        "children":
+        [
+          {
+            "caption": "Material Theme Config",
+            "command": "mt_config"
+          },
+          { "caption": "-" },
+          {
+            "caption": "Changelog",
+            "command": "color_helper_changes"
+          },
+          { "caption": "-" }
+        ]
+
+      }
+    ]
+  }
+]
