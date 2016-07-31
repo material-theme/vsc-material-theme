@@ -1,0 +1,34 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      {
+
+        "caption": "Material Theme",
+        "children":
+        [
+          {
+            "caption": "Material Theme Config",
+            "command": "mt_config"
+          },
+          { "caption": "-" },
+          {
+            "caption": "GitHub Repository",
+            "command": "mt_repo"
+          },
+          {
+            "caption": "GitHub Issues",
+            "command": "mt_issues"
+          },
+          { "caption": "-" },
+          {
+            "caption": "Changelog",
+            "command": "mt_changes"
+          },
+        ]
+
+      }
+    ]
+  }
+]

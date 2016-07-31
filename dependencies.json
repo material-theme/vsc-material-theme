@@ -1,0 +1,25 @@
+{
+  // BE SURE TO REMOVE THESE COMMENTS BEFORE USING THIS TEMPLATE SINCE
+  // COMMENTS ARE NOT ALLOWED IN JSON
+
+  // This file is a filesystem-level solution for specifying dependencies
+  // for packages. This is most useful for package developers since they are
+  // not installing their own packages from a repository or channel, and
+  // need to make sure Package Control installs the dependencies they need.
+
+  // The file contains two levels of selectors, platform and Sublime Text
+  // version, to pick what set of dependencies should be installed.
+  // The most-specific selectors will be used, and all other ignored. This
+  // means that some dependencies will be duplicated under a specific
+  // platform and under *.
+
+
+  // Matching of platform and version selectors is exclusive. Thus, these
+  // dependencies will only be installed if no other keys matched first.
+  "*": {
+    ">=3080": [
+      "mdpopups",
+      "webbrowser"
+    ]
+  }
+}
