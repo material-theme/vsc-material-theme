@@ -2,17 +2,5 @@
     {
         "caption": "Material Theme: Configuration",
         "command": "mt_config"
-    },
-    {
-        "caption": "Material Theme: Open Repository",
-        "command": "mt_repo"
-    },
-    {
-        "caption": "Material Theme: Open Issues",
-        "command": "mt_issues"
-    },
-    {
-        "caption": "Material Theme: Changelog",
-        "command": "mt_changes"
     }
 ]
