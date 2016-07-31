@@ -28,6 +28,8 @@ You can install this awesome theme through the [Package Control](https://package
 
 # Activate the theme
 
+**You can activate the theme through the custom `Material Theme` item under the `Tools` menu. Just click `Material Theme Config` and a popup will let you to set and customize this theme. Anyaway you can manually activate this theme by following this steps:**
+
 1. Open you preferences **(Preferences > Setting - User)** and add this lines:
 
 ```json
