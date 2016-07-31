@@ -56,29 +56,31 @@ OPTIONS = OrderedDict(
 
 
 BACK = '[❮ BACK](back){: .mt-config .ui-backlink }'
-SECTIONS = '- [%(section)s](::%(section)s){: .mt-config .ui-control }\n'
+SECTIONS = '[• %(section)s](::%(section)s){: .mt-config .ui-control }\n'
 SECTION_LABEL = '\n\n## Material Theme - %s\n\n'
 SECTIONS_LABEL = '\n\n## Material Theme - Config\n\n'
-GENERAL_SETTING = '''- [**%(status)s**{: .mt-config %(class)s} %(name)s](%(name)s:%(set)s:%(section)s)\
+GENERAL_SETTING = '''[**%(status)s**{: .mt-config %(class)s} %(name)s](%(name)s:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
-SCHEME = '''- [**%(status)s**{: .mt-config %(class)s} %(name)s](color_scheme:%(set)s:%(section)s)\
+SCHEME = '''[**%(status)s**{: .mt-config %(class)s} %(name)s](color_scheme:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
 THEME_LABEL = '\n\n## Material Theme - Themes\n\n'
 SCHEME_LABEL = '\n\n## Material Theme - Schemes\n\n'
-OTHER_SCHEME = '''- [**%(status)s**{: .mt-config .ui-control %(class)s} Other: %(name)s]\
+OTHER_SCHEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} Other: %(name)s]\
 (color_scheme:%(set)s:%(section)s){: .mt-config .ui-control }\n'''
-THEME = '''- [**%(status)s**{: .mt-config .ui-control %(class)s} %(name)s](theme:%(set)s:%(section)s)\
+THEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} %(name)s](theme:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
-OTHER_THEME = '''- [**%(status)s**{: .mt-config .ui-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
+OTHER_THEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
 MARKED = "☑︎"
 UNMARKED = "☐"
-RADIO_MARKED = "🔘"
-RADIO_UNMARKED = "⚫️"
+RADIO_MARKED = "•"
+RADIO_UNMARKED = "•"
 css = """\
+p { padding: 4px 16px; }
+h1, h2, h3, h4, h5, h6 { padding: 0 16px; margin: 8px 16px 8px 0; }
 .mt-config.small { font-size: {{'*.8px'|relativesize}}; }
 .mt-config.ui-control { text-decoration: none; }
-.mt-config.ui-backlink { text-decoration: none; display: block; background-color:rgba(255,255,255,0.05); padding: 4px 8px; width: 100%; }
+.mt-config.ui-backlink { text-decoration: none; padding: 4px 0; }
 """
 
 
@@ -161,7 +163,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
                 option_value = scheme == option
                 popup.append(
                     SCHEME % {
-                        "name": option,
+                        "name": option[32:],
                         "status": RADIO_MARKED if option_value else RADIO_UNMARKED,
                         "set": option,
                         "class": '.success' if option_value else '.error',
