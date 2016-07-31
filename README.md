@@ -149,7 +149,7 @@ You can now edit the source files under `/src` folder that will be compiled insi
 
 **App icon**
 
-[Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
+[Download](https://github.com/equinusocio/material-theme/files/392479/Material-Theme-Icon.zip) the official Material Theme icon.
 
 # Official Portings
 Material Theme was also ported to:
