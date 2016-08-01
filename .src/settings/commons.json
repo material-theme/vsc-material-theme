@@ -112,6 +112,26 @@
           "hex": "#FFFFFF",
           "rgb": "255, 255, 255"
         }
+      },
+      {
+        "id": "acid-lime",
+        "name": "Acid Lime",
+        "hex": "#C6FF00",
+        "rgb": "198, 255, 0",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "graphite",
+        "name": "Graphite",
+        "hex": "#616161",
+        "rgb": "97, 97, 97",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
       }
     ]
   }
