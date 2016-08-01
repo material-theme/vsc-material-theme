@@ -19,7 +19,8 @@ OPTIONS = OrderedDict(
                 "material_theme_accent_indigo",
                 "material_theme_accent_pink",
                 "material_theme_accent_blue",
-                "material_theme_accent_cyan"
+                "material_theme_accent_cyan",
+                "material_theme_accent_bright-teal"
             ],
         ),
         (

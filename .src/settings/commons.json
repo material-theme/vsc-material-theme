@@ -102,6 +102,16 @@
           "hex": "#FFFFFF",
           "rgb": "255, 255, 255"
         }
+      },
+      {
+        "id": "bright-teal",
+        "name": "Bright Teal",
+        "hex": "#64FFDA",
+        "rgb": "100, 255, 218",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
       }
     ]
   }
