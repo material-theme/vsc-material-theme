@@ -1,3 +1,13 @@
+<a name="3.1.1"></a>
+## [3.1.1](https://github.com/equinusocio/material-theme/compare/v3.1.0...v3.1.1) (2016-08-01)
+
+
+### Bug Fixes
+
+* Fix dependencies on sublime text before build 3118 ([7c34dfc](https://github.com/equinusocio/material-theme/commit/7c34dfc))
+
+
+
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/equinusocio/material-theme/compare/v3.0.4...v3.1.0) (2016-08-01)
 
