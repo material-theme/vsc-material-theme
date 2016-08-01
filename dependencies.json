@@ -17,7 +17,7 @@
   // Matching of platform and version selectors is exclusive. Thus, these
   // dependencies will only be installed if no other keys matched first.
   "*": {
-    ">=3080": [
+    ">=3118": [
       "mdpopups",
       "webbrowser"
     ]
