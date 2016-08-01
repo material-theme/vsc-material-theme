@@ -82,8 +82,9 @@ UNMARKED = "☐"
 RADIO_MARKED = "•"
 RADIO_UNMARKED = "•"
 css = """\
-p { padding: 4px 16px; }
-h1, h2, h3, h4, h5, h6 { padding: 0 16px; margin: 8px 16px 8px 0; }
+html { padding: 16px; }
+p { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { padding-bottom: 20px; }
 .mt-config.small { font-size: {{'*.8px'|relativesize}}; }
 .mt-config.ui-control { text-decoration: none; }
 .mt-config.ui-backlink { text-decoration: none; padding: 4px 0; }
@@ -207,8 +208,8 @@ class MtConfigCommand(sublime_plugin.TextCommand):
             ''.join(popup),
             css=css,
             on_navigate=self.on_navigate,
-            max_width=1024,
-            max_height=1024
+            max_width=800,
+            max_height=400
         )
 
     def run(self, edit):
