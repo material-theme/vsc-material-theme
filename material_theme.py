@@ -24,7 +24,8 @@ OPTIONS = OrderedDict(
                 "material_theme_accent_acid-lime",
                 "material_theme_accent_graphite",
                 "material_theme_accent_brba",
-                "material_theme_accent_sky"
+                "material_theme_accent_sky",
+                "material_theme_accent_tomato"
             ],
         ),
         (

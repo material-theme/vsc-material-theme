@@ -152,6 +152,16 @@
           "hex": "#FFFFFF",
           "rgb": "255, 255, 255"
         }
+      },
+      {
+        "id": "tomato",
+        "name": "Tomato",
+        "hex": "#F44336",
+        "rgb": "244, 67, 54",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
       }
     ]
   }
