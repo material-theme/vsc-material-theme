@@ -1,3 +1,27 @@
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/equinusocio/material-theme/compare/v3.0.4...v3.1.0) (2016-08-01)
+
+
+### Bug Fixes
+
+* Fix json filetype icon ([b0e97b8](https://github.com/equinusocio/material-theme/commit/b0e97b8))
+* Improve Lighter contrast ([9ef73de](https://github.com/equinusocio/material-theme/commit/9ef73de)), closes [#676](https://github.com/equinusocio/material-theme/issues/676)
+* Update json and ruby file icons ([72713c4](https://github.com/equinusocio/material-theme/commit/72713c4))
+
+
+### Features
+
+* Add bright-teal accent ([a78a942](https://github.com/equinusocio/material-theme/commit/a78a942))
+* New acid-lime accent color ([7626f89](https://github.com/equinusocio/material-theme/commit/7626f89))
+* New Breaking Bad color ([66e3ea7](https://github.com/equinusocio/material-theme/commit/66e3ea7))
+* New graphite accent color ([643f09d](https://github.com/equinusocio/material-theme/commit/643f09d))
+* New Sky accent color ([3e6639a](https://github.com/equinusocio/material-theme/commit/3e6639a))
+* New theme configurator popup and menu ([2a9599e](https://github.com/equinusocio/material-theme/commit/2a9599e))
+* New theme icon for your Sublime Text ([d0e076c](https://github.com/equinusocio/material-theme/commit/d0e076c)), closes [#844](https://github.com/equinusocio/material-theme/issues/844)
+* New Tomato accent color ([196dcce](https://github.com/equinusocio/material-theme/commit/196dcce))
+
+
+
 <a name="3.0.4"></a>
 ## [3.0.4](https://github.com/equinusocio/material-theme/compare/v3.0.3...v3.0.4) (2016-07-30)
 

@@ -10,7 +10,7 @@
 
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
-Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one.
+Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that not use the issue template and any issue related to the [known issue section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
 
 
 # Easy installation
@@ -28,7 +28,9 @@ You can install this awesome theme through the [Package Control](https://package
 
 # Activate the theme
 
-1. Open you preferences **(Preferences > Setting - User)** and add this lines:
+You can activate the theme by using the configurator popup that allow the activation and the customization through the context menu (right click in your editor and select `Material Theme`) and the `Tools > Material Theme` menu.
+
+Anyaway you can manually activate this theme by these lines in your setting:
 
 ```json
 "theme": "Material-Theme.sublime-theme",
@@ -107,6 +109,12 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_accent_pink"              : true , // set pink accent color
 "material_theme_accent_blue"              : true , // set blue accent color
 "material_theme_accent_cyan"              : true , // set cyan accent color
+"material_theme_accent_bright-teal"       : true , // set bright-teal accent color
+"material_theme_accent_acid-lime"         : true , // set acid-lime accent color
+"material_theme_accent_graphite"          : true , // set graphite accent color
+"material_theme_accent_brba"              : true , // set Breakind Bad green accent color
+"material_theme_accent_sky"               : true , // set Bright-cyan accent color
+"material_theme_accent_tomato"            : true , // set Tomato green accent color
 "material_theme_panel_separator"          : true , // show bottom panel separator
 "material_theme_tabs_autowidth"           : true , // Enable autowidth for tabs
 "material_theme_contrast_mode"            : true , // Enable sidebar and panels contrast mode
@@ -149,7 +157,7 @@ You can now edit the source files under `/src` folder that will be compiled insi
 
 **App icon**
 
-[Download](https://dribbble.com/shots/2104476-Material-Theme-for-Sublime-Text-3/attachments/380650) the official Material Theme icon.
+[Download](https://github.com/equinusocio/material-theme/files/392479/Material-Theme-Icon.zip) the official Material Theme icon.
 
 # Official Portings
 Material Theme was also ported to:
@@ -171,7 +179,7 @@ Color             | Default / Darker |  Lighter   |
 Red               | `#FF5370`        |  `#E53935` |
 Pink              | `#f07178`        |  `#FF5370` |
 Orange            | `#F78C6C`        |  `#F76D47` |
-Yellow            | `#FFCB6B`        |  `#FFC000` |
+Yellow            | `#FFCB6B`        |  `#FFB62C` |
 Green             | `#C3E88D`        |  `#91B859` |
 Pale Blue         | `#B2CCD6`        |  `#8796B0` |
 Cyan              | `#89DDFF`        |  `#39ADB5` |

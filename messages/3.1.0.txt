@@ -1,0 +1,26 @@
+Material Theme for Sublime Text 3
+https://github.com/equinusocio/material-theme
+
+Version 3.1.0
+********************************************************************************
+
+📣 BUGFIXES:
+    * Fix json filetype icon[b0e97b8]
+    * Improve Lighter contrast [9ef73de]
+    * Update json and ruby file icons [72713c4]
+
+
+📣 FEATURES:
+    * Add Bright-teal accent [a78a942]
+    * New Acid-lime accent color [7626f89]
+    * New Breaking Bad color [66e3ea7]
+    * New Sky accent color [3e6639a]
+    * New Graphite accent color [643f09d]
+    * New Tomato accent color [196dcce]
+    * New theme icon for your Sublime Text (Check the readme file) [d0e076c]
+    * New theme configurator popup and menu [2a9599e] 🎉
+      🎉 You can access it through the context menu (right click), under the Tools menu and through the command palette by searching "Material Theme"
+
+
+********************************************************************************
+Check the official changelog ( https://github.com/equinusocio/material-theme/blob/master/CHANGELOG.md  )

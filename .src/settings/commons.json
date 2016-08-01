@@ -102,6 +102,66 @@
           "hex": "#FFFFFF",
           "rgb": "255, 255, 255"
         }
+      },
+      {
+        "id": "bright-teal",
+        "name": "Bright Teal",
+        "hex": "#64FFDA",
+        "rgb": "100, 255, 218",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "acid-lime",
+        "name": "Acid Lime",
+        "hex": "#C6FF00",
+        "rgb": "198, 255, 0",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "graphite",
+        "name": "Graphite",
+        "hex": "#616161",
+        "rgb": "97, 97, 97",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "brba",
+        "name": "Breaking Bad",
+        "hex": "#388E3C",
+        "rgb": "56, 142, 60",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "sky",
+        "name": "Sky",
+        "hex": "#84FFFF",
+        "rgb": "132, 255, 255",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
+      },
+      {
+        "id": "tomato",
+        "name": "Tomato",
+        "hex": "#F44336",
+        "rgb": "244, 67, 54",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
       }
     ]
   }

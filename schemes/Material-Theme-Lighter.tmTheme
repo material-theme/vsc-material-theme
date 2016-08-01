@@ -34,7 +34,7 @@
 				<key>phantomCss</key>
 				<string><![CDATA[ html { position: relative; } ]]></string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { background-color: #fafafa; color: #80CBC4; padding: 16px; } a { color: #8796B0; display: block; line-height: 16px; } .error, .deleted { color: #E53935; } .success, .inserted { color: #91B859; } .warning, .modified { color: #FFC000; } ]]></string>
+				<string><![CDATA[ html { background-color: #fafafa; color: #80CBC4; padding: 16px; } a { color: #8796B0; display: block; line-height: 16px; } .error, .deleted { color: #E53935; } .success, .inserted { color: #91B859; } .warning, .modified { color: #FFB62C; } ]]></string>
 				<key>selection</key>
 				<string>#80CBC440</string>
 				<key>selectionBorder</key>
@@ -206,7 +206,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC000</string>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -287,7 +287,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FFC000</string>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -298,7 +298,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC000</string>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -511,7 +511,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC000</string>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -798,7 +798,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC000</string>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -875,7 +875,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFC000</string>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>

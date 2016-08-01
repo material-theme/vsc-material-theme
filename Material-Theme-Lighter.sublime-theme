@@ -4219,6 +4219,1854 @@
       "layer0.texture": "Material Theme/assets/accent-cyan/find_reverse--hover.png",
     },
   
+  // Bright Teal Accent Color
+  // ===========================================================================
+  
+    {
+      "class": "panel_button_control",
+      "settings": ["material_theme_accent_bright-teal"],
+      "attributes": ["hover"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/overflow_menu--hover.png"
+    },
+  
+    // tooltip
+  
+    {
+      "class": "tool_tip_control",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.tint": [100, 255, 218],
+    },
+  
+    {
+      "class": "progress_gauge_control",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.tint": [100, 255, 218],
+    },
+  
+    {
+      "class": "auto_complete_label",
+      "settings": ["material_theme_accent_bright-teal"],
+      "match_fg": [100, 255, 218],
+      "selected_match_fg": [100, 255, 218]
+    },
+  
+    {
+      "class": "tool_tip_label_control",
+      "settings": ["material_theme_accent_bright-teal"],
+      "color": [255, 255, 255, 255]
+    },
+  
+      // Sidebar tree highlight
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/tree_highlight.png",
+    },
+  
+      // Tabs
+  
+    {
+      "class": "tab_control",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/tab_current.png",
+    },
+  
+      // Tabs close button
+  
+    {
+      "class": "tab_close_button",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/close_icon--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-bright-teal/dirty_icon--hover.png"
+    },
+  
+      // Opened files
+  
+    {
+      "class": "close_button",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/close_icon--hover.png",
+    },
+  
+      // Dirty opened files
+  
+    {
+      "class": "close_button",
+      "attributes": ["dirty"],
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/dirty_icon--hover.png",
+    },
+  
+    {
+      "class": "sidebar_label",
+      "settings": ["material_theme_accent_bright-teal"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+      "color": [100, 255, 218]
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer2.texture": "Material Theme/assets/accent-bright-teal/folder--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-bright-teal/folder_opened--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_bright-teal"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer3.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-0.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-1.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-2.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-3.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-4.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-bright-teal/folder_opened--hover-7.png",
+        ],
+        "loop": false,
+        "frame_time": 0.020,
+      }
+    },
+  
+      // Folder loading
+  
+    {
+      "class": "icon_folder_loading",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-bright-teal/spinner7.png",
+          "Material Theme/assets/accent-bright-teal/spinner6.png",
+          "Material Theme/assets/accent-bright-teal/spinner5.png",
+          "Material Theme/assets/accent-bright-teal/spinner4.png",
+          "Material Theme/assets/accent-bright-teal/spinner3.png",
+          "Material Theme/assets/accent-bright-teal/spinner2.png",
+          "Material Theme/assets/accent-bright-teal/spinner1.png",
+          "Material Theme/assets/accent-bright-teal/spinner.png",
+        ],
+        "loop": true,
+        "frame_time": 0.075,
+      },
+    },
+  
+      // tab set scroll left | scroll right
+  
+    {
+      "class": "scroll_tabs_left_button",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/arrow_left--hover.png",
+    },
+  
+    {
+      "class": "scroll_tabs_right_button",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/arrow_right--hover.png",
+    },
+  
+  
+    {
+      "class": "fold_button_control",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/fold_right--hover.png",
+    },
+  
+    {
+      "class": "fold_button_control",
+      "attributes": ["expanded"],
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/fold_down--hover.png"
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_bright-teal"],
+      "match_fg": [100, 255, 218],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [100, 255, 218]
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_bright-teal"],
+      "parents": [{"class": "overlay_control"}],
+      "match_fg": [100, 255, 218],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [100, 255, 218]
+    },
+  
+      // Panels sublabels
+  
+    {
+      "class": "quick_panel_path_label",
+      "settings": ["material_theme_accent_bright-teal"],
+      "match_fg": [100, 255, 218],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [100, 255, 218]
+    },
+  
+      // Panels data / score
+  
+    {
+      "class": "quick_panel_score_label",
+      "settings": ["material_theme_accent_bright-teal"],
+      "fg": [100, 255, 218],
+      "selected_fg": [255, 255, 255, 255]
+    },
+  
+    {
+      "class": "show_tabs_dropdown_button",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/overflow_menu--hover.png",
+    },
+  
+      // Textline input oveflow menu
+  
+    {
+      "class": "dropdown_button_control",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/overflow_menu--hover.png",
+    },
+  
+    // Buttons icons settings
+    // =====================================================================
+  
+      // Regex Icon
+    {
+      "class": "icon_regex",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_regex--hover.png",
+    },
+  
+      // Preserve case sensitive
+  
+    {
+      "class": "icon_case",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_case--hover.png",
+    },
+  
+      // Wholeword
+  
+    {
+      "class": "icon_whole_word",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_word--hover.png",
+    },
+  
+      // Wrap
+  
+    {
+      "class": "icon_wrap",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_wrap--hover.png",
+    },
+  
+      // In selection
+  
+    {
+      "class": "icon_in_selection",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_inselection--hover.png",
+    },
+  
+  
+      // Highlight Result
+  
+    {
+      "class": "icon_highlight",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_highlight--hover.png",
+    },
+  
+      // Preserve Case
+  
+    {
+      "class": "icon_preserve_case",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/replace_preserve_case--hover.png",
+    },
+  
+      // Show context
+  
+    {
+      "class": "icon_context",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_context--hover.png",
+    },
+  
+      // Use buffer
+  
+    {
+      "class": "icon_use_buffer",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/use_buffer--hover.png",
+    },
+  
+      // Reverse direction
+  
+    {
+      "class": "icon_reverse",
+      "settings": ["material_theme_accent_bright-teal"],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/find_reverse--hover.png",
+    },
+  
+  // Acid Lime Accent Color
+  // ===========================================================================
+  
+    {
+      "class": "panel_button_control",
+      "settings": ["material_theme_accent_acid-lime"],
+      "attributes": ["hover"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/overflow_menu--hover.png"
+    },
+  
+    // tooltip
+  
+    {
+      "class": "tool_tip_control",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.tint": [198, 255, 0],
+    },
+  
+    {
+      "class": "progress_gauge_control",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.tint": [198, 255, 0],
+    },
+  
+    {
+      "class": "auto_complete_label",
+      "settings": ["material_theme_accent_acid-lime"],
+      "match_fg": [198, 255, 0],
+      "selected_match_fg": [198, 255, 0]
+    },
+  
+    {
+      "class": "tool_tip_label_control",
+      "settings": ["material_theme_accent_acid-lime"],
+      "color": [255, 255, 255, 255]
+    },
+  
+      // Sidebar tree highlight
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/tree_highlight.png",
+    },
+  
+      // Tabs
+  
+    {
+      "class": "tab_control",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/tab_current.png",
+    },
+  
+      // Tabs close button
+  
+    {
+      "class": "tab_close_button",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/close_icon--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-acid-lime/dirty_icon--hover.png"
+    },
+  
+      // Opened files
+  
+    {
+      "class": "close_button",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/close_icon--hover.png",
+    },
+  
+      // Dirty opened files
+  
+    {
+      "class": "close_button",
+      "attributes": ["dirty"],
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/dirty_icon--hover.png",
+    },
+  
+    {
+      "class": "sidebar_label",
+      "settings": ["material_theme_accent_acid-lime"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+      "color": [198, 255, 0]
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer2.texture": "Material Theme/assets/accent-acid-lime/folder--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-acid-lime/folder_opened--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_acid-lime"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer3.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-0.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-1.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-2.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-3.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-4.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-acid-lime/folder_opened--hover-7.png",
+        ],
+        "loop": false,
+        "frame_time": 0.020,
+      }
+    },
+  
+      // Folder loading
+  
+    {
+      "class": "icon_folder_loading",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-acid-lime/spinner7.png",
+          "Material Theme/assets/accent-acid-lime/spinner6.png",
+          "Material Theme/assets/accent-acid-lime/spinner5.png",
+          "Material Theme/assets/accent-acid-lime/spinner4.png",
+          "Material Theme/assets/accent-acid-lime/spinner3.png",
+          "Material Theme/assets/accent-acid-lime/spinner2.png",
+          "Material Theme/assets/accent-acid-lime/spinner1.png",
+          "Material Theme/assets/accent-acid-lime/spinner.png",
+        ],
+        "loop": true,
+        "frame_time": 0.075,
+      },
+    },
+  
+      // tab set scroll left | scroll right
+  
+    {
+      "class": "scroll_tabs_left_button",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/arrow_left--hover.png",
+    },
+  
+    {
+      "class": "scroll_tabs_right_button",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/arrow_right--hover.png",
+    },
+  
+  
+    {
+      "class": "fold_button_control",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/fold_right--hover.png",
+    },
+  
+    {
+      "class": "fold_button_control",
+      "attributes": ["expanded"],
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/fold_down--hover.png"
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_acid-lime"],
+      "match_fg": [198, 255, 0],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [198, 255, 0]
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_acid-lime"],
+      "parents": [{"class": "overlay_control"}],
+      "match_fg": [198, 255, 0],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [198, 255, 0]
+    },
+  
+      // Panels sublabels
+  
+    {
+      "class": "quick_panel_path_label",
+      "settings": ["material_theme_accent_acid-lime"],
+      "match_fg": [198, 255, 0],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [198, 255, 0]
+    },
+  
+      // Panels data / score
+  
+    {
+      "class": "quick_panel_score_label",
+      "settings": ["material_theme_accent_acid-lime"],
+      "fg": [198, 255, 0],
+      "selected_fg": [255, 255, 255, 255]
+    },
+  
+    {
+      "class": "show_tabs_dropdown_button",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/overflow_menu--hover.png",
+    },
+  
+      // Textline input oveflow menu
+  
+    {
+      "class": "dropdown_button_control",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/overflow_menu--hover.png",
+    },
+  
+    // Buttons icons settings
+    // =====================================================================
+  
+      // Regex Icon
+    {
+      "class": "icon_regex",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_regex--hover.png",
+    },
+  
+      // Preserve case sensitive
+  
+    {
+      "class": "icon_case",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_case--hover.png",
+    },
+  
+      // Wholeword
+  
+    {
+      "class": "icon_whole_word",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_word--hover.png",
+    },
+  
+      // Wrap
+  
+    {
+      "class": "icon_wrap",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_wrap--hover.png",
+    },
+  
+      // In selection
+  
+    {
+      "class": "icon_in_selection",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_inselection--hover.png",
+    },
+  
+  
+      // Highlight Result
+  
+    {
+      "class": "icon_highlight",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_highlight--hover.png",
+    },
+  
+      // Preserve Case
+  
+    {
+      "class": "icon_preserve_case",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/replace_preserve_case--hover.png",
+    },
+  
+      // Show context
+  
+    {
+      "class": "icon_context",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_context--hover.png",
+    },
+  
+      // Use buffer
+  
+    {
+      "class": "icon_use_buffer",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/use_buffer--hover.png",
+    },
+  
+      // Reverse direction
+  
+    {
+      "class": "icon_reverse",
+      "settings": ["material_theme_accent_acid-lime"],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/find_reverse--hover.png",
+    },
+  
+  // Graphite Accent Color
+  // ===========================================================================
+  
+    {
+      "class": "panel_button_control",
+      "settings": ["material_theme_accent_graphite"],
+      "attributes": ["hover"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/overflow_menu--hover.png"
+    },
+  
+    // tooltip
+  
+    {
+      "class": "tool_tip_control",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.tint": [97, 97, 97],
+    },
+  
+    {
+      "class": "progress_gauge_control",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.tint": [97, 97, 97],
+    },
+  
+    {
+      "class": "auto_complete_label",
+      "settings": ["material_theme_accent_graphite"],
+      "match_fg": [97, 97, 97],
+      "selected_match_fg": [97, 97, 97]
+    },
+  
+    {
+      "class": "tool_tip_label_control",
+      "settings": ["material_theme_accent_graphite"],
+      "color": [255, 255, 255, 255]
+    },
+  
+      // Sidebar tree highlight
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/tree_highlight.png",
+    },
+  
+      // Tabs
+  
+    {
+      "class": "tab_control",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/tab_current.png",
+    },
+  
+      // Tabs close button
+  
+    {
+      "class": "tab_close_button",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/close_icon--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-graphite/dirty_icon--hover.png"
+    },
+  
+      // Opened files
+  
+    {
+      "class": "close_button",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/close_icon--hover.png",
+    },
+  
+      // Dirty opened files
+  
+    {
+      "class": "close_button",
+      "attributes": ["dirty"],
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/dirty_icon--hover.png",
+    },
+  
+    {
+      "class": "sidebar_label",
+      "settings": ["material_theme_accent_graphite"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+      "color": [97, 97, 97]
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_graphite"],
+      "layer2.texture": "Material Theme/assets/accent-graphite/folder--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-graphite/folder_opened--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_graphite"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer3.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-graphite/folder_opened--hover-0.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-1.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-2.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-3.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-4.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-graphite/folder_opened--hover-7.png",
+        ],
+        "loop": false,
+        "frame_time": 0.020,
+      }
+    },
+  
+      // Folder loading
+  
+    {
+      "class": "icon_folder_loading",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-graphite/spinner7.png",
+          "Material Theme/assets/accent-graphite/spinner6.png",
+          "Material Theme/assets/accent-graphite/spinner5.png",
+          "Material Theme/assets/accent-graphite/spinner4.png",
+          "Material Theme/assets/accent-graphite/spinner3.png",
+          "Material Theme/assets/accent-graphite/spinner2.png",
+          "Material Theme/assets/accent-graphite/spinner1.png",
+          "Material Theme/assets/accent-graphite/spinner.png",
+        ],
+        "loop": true,
+        "frame_time": 0.075,
+      },
+    },
+  
+      // tab set scroll left | scroll right
+  
+    {
+      "class": "scroll_tabs_left_button",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/arrow_left--hover.png",
+    },
+  
+    {
+      "class": "scroll_tabs_right_button",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/arrow_right--hover.png",
+    },
+  
+  
+    {
+      "class": "fold_button_control",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/fold_right--hover.png",
+    },
+  
+    {
+      "class": "fold_button_control",
+      "attributes": ["expanded"],
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/fold_down--hover.png"
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_graphite"],
+      "match_fg": [97, 97, 97],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [97, 97, 97]
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_graphite"],
+      "parents": [{"class": "overlay_control"}],
+      "match_fg": [97, 97, 97],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [97, 97, 97]
+    },
+  
+      // Panels sublabels
+  
+    {
+      "class": "quick_panel_path_label",
+      "settings": ["material_theme_accent_graphite"],
+      "match_fg": [97, 97, 97],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [97, 97, 97]
+    },
+  
+      // Panels data / score
+  
+    {
+      "class": "quick_panel_score_label",
+      "settings": ["material_theme_accent_graphite"],
+      "fg": [97, 97, 97],
+      "selected_fg": [255, 255, 255, 255]
+    },
+  
+    {
+      "class": "show_tabs_dropdown_button",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/overflow_menu--hover.png",
+    },
+  
+      // Textline input oveflow menu
+  
+    {
+      "class": "dropdown_button_control",
+      "settings": ["material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/overflow_menu--hover.png",
+    },
+  
+    // Buttons icons settings
+    // =====================================================================
+  
+      // Regex Icon
+    {
+      "class": "icon_regex",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_regex--hover.png",
+    },
+  
+      // Preserve case sensitive
+  
+    {
+      "class": "icon_case",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_case--hover.png",
+    },
+  
+      // Wholeword
+  
+    {
+      "class": "icon_whole_word",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_word--hover.png",
+    },
+  
+      // Wrap
+  
+    {
+      "class": "icon_wrap",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_wrap--hover.png",
+    },
+  
+      // In selection
+  
+    {
+      "class": "icon_in_selection",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_inselection--hover.png",
+    },
+  
+  
+      // Highlight Result
+  
+    {
+      "class": "icon_highlight",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_highlight--hover.png",
+    },
+  
+      // Preserve Case
+  
+    {
+      "class": "icon_preserve_case",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/replace_preserve_case--hover.png",
+    },
+  
+      // Show context
+  
+    {
+      "class": "icon_context",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_context--hover.png",
+    },
+  
+      // Use buffer
+  
+    {
+      "class": "icon_use_buffer",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/use_buffer--hover.png",
+    },
+  
+      // Reverse direction
+  
+    {
+      "class": "icon_reverse",
+      "settings": ["material_theme_accent_graphite"],
+      "layer0.texture": "Material Theme/assets/accent-graphite/find_reverse--hover.png",
+    },
+  
+  // Breaking Bad Accent Color
+  // ===========================================================================
+  
+    {
+      "class": "panel_button_control",
+      "settings": ["material_theme_accent_brba"],
+      "attributes": ["hover"],
+      "layer0.texture": "Material Theme/assets/accent-brba/overflow_menu--hover.png"
+    },
+  
+    // tooltip
+  
+    {
+      "class": "tool_tip_control",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.tint": [56, 142, 60],
+    },
+  
+    {
+      "class": "progress_gauge_control",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.tint": [56, 142, 60],
+    },
+  
+    {
+      "class": "auto_complete_label",
+      "settings": ["material_theme_accent_brba"],
+      "match_fg": [56, 142, 60],
+      "selected_match_fg": [56, 142, 60]
+    },
+  
+    {
+      "class": "tool_tip_label_control",
+      "settings": ["material_theme_accent_brba"],
+      "color": [255, 255, 255, 255]
+    },
+  
+      // Sidebar tree highlight
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/tree_highlight.png",
+    },
+  
+      // Tabs
+  
+    {
+      "class": "tab_control",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/tab_current.png",
+    },
+  
+      // Tabs close button
+  
+    {
+      "class": "tab_close_button",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/close_icon--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-brba/dirty_icon--hover.png"
+    },
+  
+      // Opened files
+  
+    {
+      "class": "close_button",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/close_icon--hover.png",
+    },
+  
+      // Dirty opened files
+  
+    {
+      "class": "close_button",
+      "attributes": ["dirty"],
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/dirty_icon--hover.png",
+    },
+  
+    {
+      "class": "sidebar_label",
+      "settings": ["material_theme_accent_brba"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+      "color": [56, 142, 60]
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_brba"],
+      "layer2.texture": "Material Theme/assets/accent-brba/folder--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-brba/folder_opened--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_brba"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer3.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-brba/folder_opened--hover-0.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-1.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-2.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-3.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-4.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-brba/folder_opened--hover-7.png",
+        ],
+        "loop": false,
+        "frame_time": 0.020,
+      }
+    },
+  
+      // Folder loading
+  
+    {
+      "class": "icon_folder_loading",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-brba/spinner7.png",
+          "Material Theme/assets/accent-brba/spinner6.png",
+          "Material Theme/assets/accent-brba/spinner5.png",
+          "Material Theme/assets/accent-brba/spinner4.png",
+          "Material Theme/assets/accent-brba/spinner3.png",
+          "Material Theme/assets/accent-brba/spinner2.png",
+          "Material Theme/assets/accent-brba/spinner1.png",
+          "Material Theme/assets/accent-brba/spinner.png",
+        ],
+        "loop": true,
+        "frame_time": 0.075,
+      },
+    },
+  
+      // tab set scroll left | scroll right
+  
+    {
+      "class": "scroll_tabs_left_button",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/arrow_left--hover.png",
+    },
+  
+    {
+      "class": "scroll_tabs_right_button",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/arrow_right--hover.png",
+    },
+  
+  
+    {
+      "class": "fold_button_control",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/fold_right--hover.png",
+    },
+  
+    {
+      "class": "fold_button_control",
+      "attributes": ["expanded"],
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/fold_down--hover.png"
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_brba"],
+      "match_fg": [56, 142, 60],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [56, 142, 60]
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_brba"],
+      "parents": [{"class": "overlay_control"}],
+      "match_fg": [56, 142, 60],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [56, 142, 60]
+    },
+  
+      // Panels sublabels
+  
+    {
+      "class": "quick_panel_path_label",
+      "settings": ["material_theme_accent_brba"],
+      "match_fg": [56, 142, 60],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [56, 142, 60]
+    },
+  
+      // Panels data / score
+  
+    {
+      "class": "quick_panel_score_label",
+      "settings": ["material_theme_accent_brba"],
+      "fg": [56, 142, 60],
+      "selected_fg": [255, 255, 255, 255]
+    },
+  
+    {
+      "class": "show_tabs_dropdown_button",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/overflow_menu--hover.png",
+    },
+  
+      // Textline input oveflow menu
+  
+    {
+      "class": "dropdown_button_control",
+      "settings": ["material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/overflow_menu--hover.png",
+    },
+  
+    // Buttons icons settings
+    // =====================================================================
+  
+      // Regex Icon
+    {
+      "class": "icon_regex",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_regex--hover.png",
+    },
+  
+      // Preserve case sensitive
+  
+    {
+      "class": "icon_case",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_case--hover.png",
+    },
+  
+      // Wholeword
+  
+    {
+      "class": "icon_whole_word",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_word--hover.png",
+    },
+  
+      // Wrap
+  
+    {
+      "class": "icon_wrap",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_wrap--hover.png",
+    },
+  
+      // In selection
+  
+    {
+      "class": "icon_in_selection",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_inselection--hover.png",
+    },
+  
+  
+      // Highlight Result
+  
+    {
+      "class": "icon_highlight",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_highlight--hover.png",
+    },
+  
+      // Preserve Case
+  
+    {
+      "class": "icon_preserve_case",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/replace_preserve_case--hover.png",
+    },
+  
+      // Show context
+  
+    {
+      "class": "icon_context",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_context--hover.png",
+    },
+  
+      // Use buffer
+  
+    {
+      "class": "icon_use_buffer",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/use_buffer--hover.png",
+    },
+  
+      // Reverse direction
+  
+    {
+      "class": "icon_reverse",
+      "settings": ["material_theme_accent_brba"],
+      "layer0.texture": "Material Theme/assets/accent-brba/find_reverse--hover.png",
+    },
+  
+  // Sky Accent Color
+  // ===========================================================================
+  
+    {
+      "class": "panel_button_control",
+      "settings": ["material_theme_accent_sky"],
+      "attributes": ["hover"],
+      "layer0.texture": "Material Theme/assets/accent-sky/overflow_menu--hover.png"
+    },
+  
+    // tooltip
+  
+    {
+      "class": "tool_tip_control",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.tint": [132, 255, 255],
+    },
+  
+    {
+      "class": "progress_gauge_control",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.tint": [132, 255, 255],
+    },
+  
+    {
+      "class": "auto_complete_label",
+      "settings": ["material_theme_accent_sky"],
+      "match_fg": [132, 255, 255],
+      "selected_match_fg": [132, 255, 255]
+    },
+  
+    {
+      "class": "tool_tip_label_control",
+      "settings": ["material_theme_accent_sky"],
+      "color": [255, 255, 255, 255]
+    },
+  
+      // Sidebar tree highlight
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/tree_highlight.png",
+    },
+  
+      // Tabs
+  
+    {
+      "class": "tab_control",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/tab_current.png",
+    },
+  
+      // Tabs close button
+  
+    {
+      "class": "tab_close_button",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/close_icon--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-sky/dirty_icon--hover.png"
+    },
+  
+      // Opened files
+  
+    {
+      "class": "close_button",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/close_icon--hover.png",
+    },
+  
+      // Dirty opened files
+  
+    {
+      "class": "close_button",
+      "attributes": ["dirty"],
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/dirty_icon--hover.png",
+    },
+  
+    {
+      "class": "sidebar_label",
+      "settings": ["material_theme_accent_sky"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+      "color": [132, 255, 255]
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_sky"],
+      "layer2.texture": "Material Theme/assets/accent-sky/folder--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-sky/folder_opened--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_sky"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer3.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-sky/folder_opened--hover-0.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-1.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-2.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-3.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-4.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-sky/folder_opened--hover-7.png",
+        ],
+        "loop": false,
+        "frame_time": 0.020,
+      }
+    },
+  
+      // Folder loading
+  
+    {
+      "class": "icon_folder_loading",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-sky/spinner7.png",
+          "Material Theme/assets/accent-sky/spinner6.png",
+          "Material Theme/assets/accent-sky/spinner5.png",
+          "Material Theme/assets/accent-sky/spinner4.png",
+          "Material Theme/assets/accent-sky/spinner3.png",
+          "Material Theme/assets/accent-sky/spinner2.png",
+          "Material Theme/assets/accent-sky/spinner1.png",
+          "Material Theme/assets/accent-sky/spinner.png",
+        ],
+        "loop": true,
+        "frame_time": 0.075,
+      },
+    },
+  
+      // tab set scroll left | scroll right
+  
+    {
+      "class": "scroll_tabs_left_button",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/arrow_left--hover.png",
+    },
+  
+    {
+      "class": "scroll_tabs_right_button",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/arrow_right--hover.png",
+    },
+  
+  
+    {
+      "class": "fold_button_control",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/fold_right--hover.png",
+    },
+  
+    {
+      "class": "fold_button_control",
+      "attributes": ["expanded"],
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/fold_down--hover.png"
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_sky"],
+      "match_fg": [132, 255, 255],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [132, 255, 255]
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_sky"],
+      "parents": [{"class": "overlay_control"}],
+      "match_fg": [132, 255, 255],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [132, 255, 255]
+    },
+  
+      // Panels sublabels
+  
+    {
+      "class": "quick_panel_path_label",
+      "settings": ["material_theme_accent_sky"],
+      "match_fg": [132, 255, 255],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [132, 255, 255]
+    },
+  
+      // Panels data / score
+  
+    {
+      "class": "quick_panel_score_label",
+      "settings": ["material_theme_accent_sky"],
+      "fg": [132, 255, 255],
+      "selected_fg": [255, 255, 255, 255]
+    },
+  
+    {
+      "class": "show_tabs_dropdown_button",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/overflow_menu--hover.png",
+    },
+  
+      // Textline input oveflow menu
+  
+    {
+      "class": "dropdown_button_control",
+      "settings": ["material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/overflow_menu--hover.png",
+    },
+  
+    // Buttons icons settings
+    // =====================================================================
+  
+      // Regex Icon
+    {
+      "class": "icon_regex",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_regex--hover.png",
+    },
+  
+      // Preserve case sensitive
+  
+    {
+      "class": "icon_case",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_case--hover.png",
+    },
+  
+      // Wholeword
+  
+    {
+      "class": "icon_whole_word",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_word--hover.png",
+    },
+  
+      // Wrap
+  
+    {
+      "class": "icon_wrap",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_wrap--hover.png",
+    },
+  
+      // In selection
+  
+    {
+      "class": "icon_in_selection",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_inselection--hover.png",
+    },
+  
+  
+      // Highlight Result
+  
+    {
+      "class": "icon_highlight",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_highlight--hover.png",
+    },
+  
+      // Preserve Case
+  
+    {
+      "class": "icon_preserve_case",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/replace_preserve_case--hover.png",
+    },
+  
+      // Show context
+  
+    {
+      "class": "icon_context",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_context--hover.png",
+    },
+  
+      // Use buffer
+  
+    {
+      "class": "icon_use_buffer",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/use_buffer--hover.png",
+    },
+  
+      // Reverse direction
+  
+    {
+      "class": "icon_reverse",
+      "settings": ["material_theme_accent_sky"],
+      "layer0.texture": "Material Theme/assets/accent-sky/find_reverse--hover.png",
+    },
+  
+  // Tomato Accent Color
+  // ===========================================================================
+  
+    {
+      "class": "panel_button_control",
+      "settings": ["material_theme_accent_tomato"],
+      "attributes": ["hover"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/overflow_menu--hover.png"
+    },
+  
+    // tooltip
+  
+    {
+      "class": "tool_tip_control",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.tint": [244, 67, 54],
+    },
+  
+    {
+      "class": "progress_gauge_control",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.tint": [244, 67, 54],
+    },
+  
+    {
+      "class": "auto_complete_label",
+      "settings": ["material_theme_accent_tomato"],
+      "match_fg": [244, 67, 54],
+      "selected_match_fg": [244, 67, 54]
+    },
+  
+    {
+      "class": "tool_tip_label_control",
+      "settings": ["material_theme_accent_tomato"],
+      "color": [255, 255, 255, 255]
+    },
+  
+      // Sidebar tree highlight
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/tree_highlight.png",
+    },
+  
+      // Tabs
+  
+    {
+      "class": "tab_control",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/tab_current.png",
+    },
+  
+      // Tabs close button
+  
+    {
+      "class": "tab_close_button",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/close_icon--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-tomato/dirty_icon--hover.png"
+    },
+  
+      // Opened files
+  
+    {
+      "class": "close_button",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/close_icon--hover.png",
+    },
+  
+      // Dirty opened files
+  
+    {
+      "class": "close_button",
+      "attributes": ["dirty"],
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/dirty_icon--hover.png",
+    },
+  
+    {
+      "class": "sidebar_label",
+      "settings": ["material_theme_accent_tomato"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+      "color": [244, 67, 54]
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_tomato"],
+      "layer2.texture": "Material Theme/assets/accent-tomato/folder--hover.png",
+      "layer3.texture": "Material Theme/assets/accent-tomato/folder_opened--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_tomato"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer3.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-tomato/folder_opened--hover-0.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-1.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-2.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-3.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-4.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-5.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-6.png",
+          "Material Theme/assets/accent-tomato/folder_opened--hover-7.png",
+        ],
+        "loop": false,
+        "frame_time": 0.020,
+      }
+    },
+  
+      // Folder loading
+  
+    {
+      "class": "icon_folder_loading",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture":
+      {
+        "keyframes":
+        [
+          "Material Theme/assets/accent-tomato/spinner7.png",
+          "Material Theme/assets/accent-tomato/spinner6.png",
+          "Material Theme/assets/accent-tomato/spinner5.png",
+          "Material Theme/assets/accent-tomato/spinner4.png",
+          "Material Theme/assets/accent-tomato/spinner3.png",
+          "Material Theme/assets/accent-tomato/spinner2.png",
+          "Material Theme/assets/accent-tomato/spinner1.png",
+          "Material Theme/assets/accent-tomato/spinner.png",
+        ],
+        "loop": true,
+        "frame_time": 0.075,
+      },
+    },
+  
+      // tab set scroll left | scroll right
+  
+    {
+      "class": "scroll_tabs_left_button",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/arrow_left--hover.png",
+    },
+  
+    {
+      "class": "scroll_tabs_right_button",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/arrow_right--hover.png",
+    },
+  
+  
+    {
+      "class": "fold_button_control",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/fold_right--hover.png",
+    },
+  
+    {
+      "class": "fold_button_control",
+      "attributes": ["expanded"],
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/fold_down--hover.png"
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_tomato"],
+      "match_fg": [244, 67, 54],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [244, 67, 54]
+    },
+  
+      // Panel labels
+  
+    {
+      "class": "quick_panel_label",
+      "settings": ["material_theme_accent_tomato"],
+      "parents": [{"class": "overlay_control"}],
+      "match_fg": [244, 67, 54],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [244, 67, 54]
+    },
+  
+      // Panels sublabels
+  
+    {
+      "class": "quick_panel_path_label",
+      "settings": ["material_theme_accent_tomato"],
+      "match_fg": [244, 67, 54],
+      "selected_fg": [255, 255, 255, 255],
+      "selected_match_fg": [244, 67, 54]
+    },
+  
+      // Panels data / score
+  
+    {
+      "class": "quick_panel_score_label",
+      "settings": ["material_theme_accent_tomato"],
+      "fg": [244, 67, 54],
+      "selected_fg": [255, 255, 255, 255]
+    },
+  
+    {
+      "class": "show_tabs_dropdown_button",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/overflow_menu--hover.png",
+    },
+  
+      // Textline input oveflow menu
+  
+    {
+      "class": "dropdown_button_control",
+      "settings": ["material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/overflow_menu--hover.png",
+    },
+  
+    // Buttons icons settings
+    // =====================================================================
+  
+      // Regex Icon
+    {
+      "class": "icon_regex",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_regex--hover.png",
+    },
+  
+      // Preserve case sensitive
+  
+    {
+      "class": "icon_case",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_case--hover.png",
+    },
+  
+      // Wholeword
+  
+    {
+      "class": "icon_whole_word",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_word--hover.png",
+    },
+  
+      // Wrap
+  
+    {
+      "class": "icon_wrap",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_wrap--hover.png",
+    },
+  
+      // In selection
+  
+    {
+      "class": "icon_in_selection",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_inselection--hover.png",
+    },
+  
+  
+      // Highlight Result
+  
+    {
+      "class": "icon_highlight",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_highlight--hover.png",
+    },
+  
+      // Preserve Case
+  
+    {
+      "class": "icon_preserve_case",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/replace_preserve_case--hover.png",
+    },
+  
+      // Show context
+  
+    {
+      "class": "icon_context",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_context--hover.png",
+    },
+  
+      // Use buffer
+  
+    {
+      "class": "icon_use_buffer",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/use_buffer--hover.png",
+    },
+  
+      // Reverse direction
+  
+    {
+      "class": "icon_reverse",
+      "settings": ["material_theme_accent_tomato"],
+      "layer0.texture": "Material Theme/assets/accent-tomato/find_reverse--hover.png",
+    },
+  
   
   
   /* @ THEME OPTIONS
