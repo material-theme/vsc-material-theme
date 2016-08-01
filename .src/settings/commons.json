@@ -142,6 +142,16 @@
           "hex": "#FFFFFF",
           "rgb": "255, 255, 255"
         }
+      },
+      {
+        "id": "sky",
+        "name": "Sky",
+        "hex": "#84FFFF",
+        "rgb": "132, 255, 255",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
       }
     ]
   }
