@@ -10,7 +10,7 @@
 
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
 
-Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one.
+Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that not use the issue template and any issue related to the [known issue section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
 
 
 # Easy installation
