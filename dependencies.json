@@ -1,8 +1,10 @@
 {
   "*": {
-    ">=3118": [
+    ">=3114": [
+      "markupsafe",
+      "python-jinja2",
       "mdpopups",
-      "webbrowser"
+      "python-markdown"
     ]
   }
 }
