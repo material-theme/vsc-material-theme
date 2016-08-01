@@ -109,6 +109,12 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_accent_pink"              : true , // set pink accent color
 "material_theme_accent_blue"              : true , // set blue accent color
 "material_theme_accent_cyan"              : true , // set cyan accent color
+"material_theme_accent_bright-teal"       : true , // set bright-teal accent color
+"material_theme_accent_acid-lime"         : true , // set acid-lime accent color
+"material_theme_accent_graphite"          : true , // set graphite accent color
+"material_theme_accent_brba"              : true , // set Breakind Bad green accent color
+"material_theme_accent_sky"               : true , // set Bright-cyan accent color
+"material_theme_accent_tomato"            : true , // set Tomato green accent color
 "material_theme_panel_separator"          : true , // show bottom panel separator
 "material_theme_tabs_autowidth"           : true , // Enable autowidth for tabs
 "material_theme_contrast_mode"            : true , // Enable sidebar and panels contrast mode
