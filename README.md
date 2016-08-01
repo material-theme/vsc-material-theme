@@ -173,7 +173,7 @@ Color             | Default / Darker |  Lighter   |
 Red               | `#FF5370`        |  `#E53935` |
 Pink              | `#f07178`        |  `#FF5370` |
 Orange            | `#F78C6C`        |  `#F76D47` |
-Yellow            | `#FFCB6B`        |  `#FFC000` |
+Yellow            | `#FFCB6B`        |  `#FFB62C` |
 Green             | `#C3E88D`        |  `#91B859` |
 Pale Blue         | `#B2CCD6`        |  `#8796B0` |
 Cyan              | `#89DDFF`        |  `#39ADB5` |
