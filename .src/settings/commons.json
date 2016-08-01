@@ -132,6 +132,16 @@
           "hex": "#FFFFFF",
           "rgb": "255, 255, 255"
         }
+      },
+      {
+        "id": "brba",
+        "name": "Breaking Bad",
+        "hex": "#388E3C",
+        "rgb": "56, 142, 60",
+        "foreground": {
+          "hex": "#FFFFFF",
+          "rgb": "255, 255, 255"
+        }
       }
     ]
   }
