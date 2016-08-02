@@ -732,7 +732,7 @@
   
     {
       "class": "icon_folder_loading",
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
