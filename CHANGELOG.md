@@ -1,5 +1,5 @@
-<a name="3.1.3"></a>
-## [3.1.3](https://github.com/equinusocio/material-theme/compare/v3.1.2...v3.1.3) (2016-08-02)
+<a name="3.1.4"></a>
+## [3.1.4](https://github.com/equinusocio/material-theme/compare/v3.1.3...v3.1.4) (2016-08-02)
 
 
 ### Bug Fixes
