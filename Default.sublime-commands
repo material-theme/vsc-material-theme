@@ -2,5 +2,9 @@
     {
         "caption": "Material Theme: Configuration",
         "command": "mt_config"
+    },
+    {
+        "caption": "Material Theme: Info",
+        "command": "mt_info"
     }
 ]

@@ -1,26 +1,4 @@
 {
-  "install": "messages/install.txt",
-  "1.9.0": "messages/1.9.0.txt",
-  "1.9.1": "messages/1.9.1.txt",
-  "1.9.7": "messages/1.9.7.txt",
-  "1.9.8": "messages/1.9.8.txt",
-  "2.0.0": "messages/2.0.0.txt",
-  "2.0.1": "messages/2.0.1.txt",
-  "2.0.2": "messages/2.0.2.txt",
-  "2.0.4": "messages/2.0.4.txt",
-  "2.0.5": "messages/2.0.5.txt",
-  "2.0.6": "messages/2.0.6.txt",
-  "2.0.7": "messages/2.0.7.txt",
-  "2.0.8": "messages/2.0.8.txt",
-  "2.0.9": "messages/2.0.9.txt",
-  "2.1.0": "messages/2.1.0.txt",
-  "2.1.1": "messages/2.1.1.txt",
-  "2.1.2": "messages/2.1.2.txt",
-  "2.1.3": "messages/2.1.3.txt",
-  "2.1.5": "messages/2.1.5.txt",
-  "2.1.6": "messages/2.1.6.txt",
-  "3.0.2": "messages/3.0.2.txt",
-  "3.0.3": "messages/3.0.3.txt",
-  "3.0.4": "messages/3.0.4.txt",
-  "3.1.0": "messages/3.1.0.txt"
+  "install": "messages/install.md",
+  "3.1.3": "messages/recent.md"
 }
