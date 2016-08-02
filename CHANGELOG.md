@@ -1,3 +1,20 @@
+<a name="3.1.4"></a>
+## [3.1.4](https://github.com/equinusocio/material-theme/compare/v3.1.3...v3.1.4) (2016-08-02)
+
+
+### Bug Fixes
+
+* Fix spinner indicator when folder is loading ([359fdb9](https://github.com/equinusocio/material-theme/commit/359fdb9)), closes [#933](https://github.com/equinusocio/material-theme/issues/933)
+* Remove GitHub Repo command (duplicate of Issues) ([d1dfe74](https://github.com/equinusocio/material-theme/commit/d1dfe74))
+* Theme dependencies and add a new Info command ([dadd824](https://github.com/equinusocio/material-theme/commit/dadd824))
+
+
+### Features
+
+* New changelog command ([b6da997](https://github.com/equinusocio/material-theme/commit/b6da997))
+
+
+
 <a name="3.1.1"></a>
 ## [3.1.1](https://github.com/equinusocio/material-theme/compare/v3.1.0...v3.1.1) (2016-08-01)
 
