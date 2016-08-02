@@ -9,10 +9,6 @@
       },
       { "caption": "-" },
       {
-        "caption": "GitHub Repository",
-        "command": "mt_repo"
-      },
-      {
         "caption": "GitHub Issues",
         "command": "mt_issues"
       },
