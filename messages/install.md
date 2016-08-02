@@ -1,9 +1,10 @@
-Material Theme for Sublime Text 3
+## Material Theme for Sublime Text 3
 
 For more information on the Material Theme: https://github.com/equinusocio/material-theme
 
 **********************************************************************************************
 
+### Recommended activation
 You can activate the theme by using the configurator popup that allow the activation
 and the customization through the context menu (right click in your editor and select `Material Theme`),
 the `Tools > Material Theme` menu and through the command palette.
@@ -17,42 +18,33 @@ Anyaway you can manually activate this theme by these lines in your setting:
 
 **********************************************************************************************
 
-This theme includes a Darker and Lighter version:
+### Theme variants
 
-Darker version:
+**Darker version:**
 
+```
 {
   "theme": "Material-Theme-Darker.sublime-theme",
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 }
+```
 
-Lighter version:
+**Lighter version:**
 
+```
 {
   "theme": "Material-Theme-Lighter.sublime-theme",
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 }
+```
 
 You can also use Material-Theme-OceanicNext and Material-Theme-Darker-OceanicNext as color_scheme.
 
 **********************************************************************************************
 
-Recommended UI and font settings for a better experience:
+### Other available theme options:
 
-{
-  "overlay_scroll_bars": "enabled",
-  "line_padding_top": 3,
-  "line_padding_bottom": 3,
-  "always_show_minimap_viewport": true,
-  "bold_folder_labels": true,
-  "indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
-  "font_options": [ "gray_antialias" ],                       // For retina Mac
-}
-
-**********************************************************************************************
-
-Other available theme options:
-
+```
 "material_theme_small_tab"                : true , // Set small tabs
 "material_theme_disable_fileicons"        : true , // Hide sidebar file type icons
 "material_theme_disable_folder_animation" : true , // Disable folder animation
@@ -83,3 +75,21 @@ Other available theme options:
 
 // If you use Material Theme - Appbar addon you can use additional settings:
 "material_theme_tree_headings"            : true , // Show sidebar headings
+```
+
+**********************************************************************************************
+
+### Recommended UI and font settings for a better experience:
+
+```
+{
+  "overlay_scroll_bars": "enabled",
+  "line_padding_top": 3,
+  "line_padding_bottom": 3,
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
+  "font_options": [ "gray_antialias" ],                       // For retina Mac
+}
+```
+
