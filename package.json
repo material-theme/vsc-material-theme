@@ -1,6 +1,6 @@
 {
   "name": "material-theme",
-  "version": "3.1.3",
+  "version": "3.1.4",
   "email": "astorino.design@gmail.com",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
