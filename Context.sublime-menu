@@ -20,6 +20,10 @@
       {
         "caption": "Changelog",
         "command": "mt_changes"
+      },
+      {
+        "caption": "Theme Info",
+        "command": "mt_info"
       }
     ]
   }

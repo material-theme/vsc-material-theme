@@ -1,7 +1,6 @@
 """Changelog."""
 import sublime
 import sublime_plugin
-import mdpopups
 
 CSS = '''
 .mt-config-changes { {{'.background'|css}} margin: 0; padding: 0; }
@@ -22,6 +21,7 @@ class MtChangesCommand(sublime_plugin.WindowCommand):
 
     def run(self):
         """Show the changelog in a new view."""
+        import mdpopups
         text = sublime.load_resource('Packages/Material Theme/CHANGELOG.md')
         view = self.window.new_file()
         view.set_name('Material Theme - Changelog')
@@ -33,6 +33,11 @@ class MtChangesCommand(sublime_plugin.WindowCommand):
 
     def is_enabled(self):
         """Check if is enabled."""
+        try:
+            import mdpopups
+        except Exception:
+            return False
+
         return (mdpopups.version() >= (1, 7, 3)) and (int(sublime.version()) >= 3118)
 
     is_visible = is_enabled

@@ -2,8 +2,8 @@
 """Material Theme Config."""
 import sublime
 import sublime_plugin
-import mdpopups
 import os
+import mdpopups
 from collections import OrderedDict
 
 OPTIONS = OrderedDict(
@@ -102,6 +102,10 @@ class MtConfigCommand(sublime_plugin.TextCommand):
 
     def on_navigate(self, href):
         """Handle option selection."""
+        try:
+            import mdpopups
+        except Exception:
+            return False
 
         if href == 'back':
             self.show_popup('Main')
