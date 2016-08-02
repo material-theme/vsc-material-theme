@@ -159,7 +159,7 @@ You can now edit the source files under `/src` folder that will be compiled insi
 
 **App icon**
 
-[Download](https://github.com/equinusocio/material-theme/files/392479/Material-Theme-Icon.zip) the official Material Theme icon.
+[Download](https://github.com/equinusocio/material-theme/files/396220/Material-Theme-Icon.zip) the official Material Theme icon.
 
 # Official Portings
 Material Theme was also ported to:
