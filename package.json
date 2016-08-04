@@ -1,6 +1,6 @@
 {
   "name": "material-theme",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
   "devDependencies": {
@@ -16,8 +16,8 @@
     "gulp-conventional-changelog": "^1.1.0",
     "gulp-data": "^1.2.1",
     "gulp-exec": "^2.1.2",
-    "gulp-foreach": "^0.1.0",
-    "gulp-git": "^1.7.0",
+    "gulp-flatmap": "^1.0.0",
+    "gulp-git": "^1.11.0",
     "gulp-if": "^2.0.0",
     "gulp-imagemin": "^3.0.1",
     "gulp-include": "^2.1.0",
@@ -26,7 +26,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-template": "^4.0.0",
-    "lodash": "^4.11.1",
+    "lodash": "^4.14.1",
     "path": "^0.12.7",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.5",

@@ -21,6 +21,8 @@
 				<string>#263238</string>
 				<key>caret</key>
 				<string>#FFCC00</string>
+				<key>findHighlight</key>
+				<string>#F8E71C</string>
 				<key>foreground</key>
 				<string>#eeffff</string>
 				<key>guide</key>

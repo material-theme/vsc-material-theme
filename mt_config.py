@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Material Theme Config."""
+
+"""
+Material Theme Config.
+"""
 import sublime
 import sublime_plugin
 import os
@@ -81,142 +84,218 @@ MARKED = "☑︎"
 UNMARKED = "☐"
 RADIO_MARKED = "•"
 RADIO_UNMARKED = "•"
-css = """\
-html { padding: 16px; }
-p { margin: 0; padding: 0; }
-h1, h2, h3, h4, h5, h6 { padding-bottom: 20px; }
-.mt-config.small { font-size: {{'*.8px'|relativesize}}; }
-.mt-config.ui-control { text-decoration: none; }
-.mt-config.ui-backlink { text-decoration: none; padding: 4px 0; }
+STYLE = """\
+html,
+body {
+  padding: 0;
+}
+
+{%- if var.sublime_version < 3119 %}
+
+  markdown, html {
+    padding: 16px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  a {
+    display: block;
+    padding: 0.25em 0;
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .mt-config.ui-control {
+    text-decoration: none;
+  }
+
+  .mt-config.ui-backlink {
+    text-decoration: none;
+    padding: 4px 0;
+  }
+
+{%- else %}
+
+  .mdpopups {
+    padding: 16px;
+  }
+
+  .mdpopups h1,
+  .mdpopups h2,
+  .mdpopups h3,
+  .mdpopups h4,
+  .mdpopups h5,
+  .mdpopups h6 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .mdpopups p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .mdpopups a {
+    display: inline-block;
+    padding: 0.25em 0;
+    text-decoration: none;
+  }
+
+  .mdpopups .mt-config.ui-control {
+    text-decoration: none;
+  }
+
+  .mdpopups .mt-config.ui-backlink {
+    {{'.foreground'|css}}
+    text-decoration: none;
+    padding: 4px 0;
+    display: block;
+  }
+
+{%- endif %}
 """
 
 
 def is_mt_res(item):
-    """Check if a boxy resource."""
+    """Check if a Material Theme resource."""
 
     return item.startswith('Packages/Material Theme/')
 
 
+"""Material Theme Configuration."""
 class MtConfigCommand(sublime_plugin.TextCommand):
-    """Material Theme Configuration."""
 
+    """Handle option selection."""
     def on_navigate(self, href):
-        """Handle option selection."""
         try:
-            import mdpopups
+          import mdpopups
         except Exception:
-            return False
+          return False
 
-        if href == 'back':
-            self.show_popup('Main')
+        if href.startswith('back'):
+          self.show_popup('Main')
         else:
-            settings = sublime.load_settings('Preferences.sublime-settings')
-            name, value, section = href.split(':')
-            if name:
-                if name not in ('theme', 'color_scheme'):
-                    boolean = True if value == 'True' else False
-                    if boolean:
-                        settings.set(name, boolean)
-                    else:
-                        settings.erase(name)
-                else:
-                    settings.set(name, value)
-                sublime.save_settings('Preferences.sublime-settings')
+          settings = sublime.load_settings('Preferences.sublime-settings')
+          name, value, section = href.split(':')
+          if name:
+            if name not in ('theme', 'color_scheme'):
+              boolean = True if value == 'True' else False
+              if boolean:
+                settings.set(name, boolean)
+              else:
+                settings.erase(name)
+            else:
+              settings.set(name, value)
+            sublime.save_settings('Preferences.sublime-settings')
 
-            self.show_popup(section)
+          self.show_popup(section)
 
+    """Show config popup."""
     def show_popup(self, menu):
-        """Show config popup."""
 
-        settings = sublime.load_settings('Preferences.sublime-settings')
-        popup = []
-        if menu != 'Main':
-            popup = [BACK]
+      settings = sublime.load_settings('Preferences.sublime-settings')
+      popup = []
 
-        if menu == 'Main':
-            popup.append(SECTIONS_LABEL)
-            for k in ['Theme', 'Color Scheme'] + list(OPTIONS.keys()):
-                popup.append(SECTIONS % {"section": k})
-        elif menu == 'Theme':
-            theme = settings.get('theme', '')
-            mt_themes = [
-                os.path.basename(bt) for bt in sorted(sublime.find_resources('Material-Theme*.sublime-theme')) if is_mt_res(bt)
-            ]
-            popup.append(THEME_LABEL)
-            for option in mt_themes:
-                option_value = theme == option
-                popup.append(
-                    THEME % {
-                        "name": option,
-                        "status": RADIO_MARKED if option_value else RADIO_UNMARKED,
-                        "set": option,
-                        "class": '.success' if option_value else '.error',
-                        'section': "Theme"
-                    }
-                )
-            if theme is not None and theme not in mt_themes:
-                popup.append(
-                    OTHER_THEME % {
-                        "name": theme,
-                        "status": RADIO_MARKED,
-                        "set": option,
-                        "class": '.success' if option_value else '.error',
-                        'section': "Theme"
-                    }
-                )
-        elif menu == 'Color Scheme':
-            scheme = settings.get('color_scheme', '')
-            mt_schemes = [
-                bs for bs in sorted(sublime.find_resources('Material-Theme*.tmTheme')) if is_mt_res(bs)
-            ]
-            popup.append(SCHEME_LABEL)
-            for option in mt_schemes:
-                option_value = scheme == option
-                scheme_name = option[32:].replace('/', ' ⚠️ ')
-                popup.append(
-                    SCHEME % {
-                        "name": scheme_name,
-                        "status": RADIO_MARKED if option_value else RADIO_UNMARKED,
-                        "set": option,
-                        "class": '.success' if option_value else '.error',
-                        "section": 'Color Scheme'
-                    }
-                )
-            if scheme is not None and scheme not in mt_schemes:
-                popup.append(
-                    OTHER_SCHEME % {
-                        "name": scheme,
-                        "status": RADIO_MARKED,
-                        "set": option,
-                        "class": '.success',
-                        "section": 'Color Scheme'
-                    }
-                )
-        else:
-            popup.append(SECTION_LABEL % menu)
-            for option in OPTIONS[menu]:
-                option_value = bool(settings.get(option, False))
-                popup.append(
-                    GENERAL_SETTING % {
-                        "name": option,
-                        "status": MARKED if option_value else UNMARKED,
-                        "set": str(not option_value),
-                        "class": '.success' if option_value else '.error',
-                        "section": menu
-                    }
-                )
+      if menu != 'Main':
+        popup = [BACK]
 
-        mdpopups.hide_popup(self.view)
-        mdpopups.show_popup(
-            self.view,
-            ''.join(popup),
-            css=css,
-            on_navigate=self.on_navigate,
-            max_width=800,
-            max_height=400
-        )
+      if menu == 'Main':
+        popup.append(SECTIONS_LABEL)
+        for k in ['Theme', 'Color Scheme'] + list(OPTIONS.keys()):
+          popup.append(SECTIONS % {"section": k})
+
+      elif menu == 'Theme':
+        theme = settings.get('theme', '')
+        mt_themes = [
+          os.path.basename(bt) for bt in sorted(sublime.find_resources('Material-Theme*.sublime-theme')) if is_mt_res(bt)
+        ]
+        popup.append(THEME_LABEL)
+        for option in mt_themes:
+          option_value = theme == option
+          popup.append(
+            THEME % {
+              "name": option,
+              "status": RADIO_MARKED if option_value else RADIO_UNMARKED,
+              "set": option,
+              "class": '.success' if option_value else '.error',
+              'section': "Theme"
+            }
+          )
+        if theme is not None and theme not in mt_themes:
+          popup.append(
+            OTHER_THEME % {
+              "name": theme,
+              "status": RADIO_MARKED,
+              "set": option,
+              "class": '.success' if option_value else '.error',
+              'section': "Theme"
+            }
+          )
+
+      elif menu == 'Color Scheme':
+        scheme = settings.get('color_scheme', '')
+        mt_schemes = [
+            bs for bs in sorted(sublime.find_resources('Material-Theme*.tmTheme')) if is_mt_res(bs)
+        ]
+        popup.append(SCHEME_LABEL)
+        for option in mt_schemes:
+          option_value = scheme == option
+          scheme_name = option[32:].replace('/', ' ⚠️ ')
+          popup.append(
+            SCHEME % {
+              "name": scheme_name,
+              "status": RADIO_MARKED if option_value else RADIO_UNMARKED,
+              "set": option,
+              "class": '.success' if option_value else '.error',
+              "section": 'Color Scheme'
+            }
+          )
+          if scheme is not None and scheme not in mt_schemes:
+            popup.append(
+              OTHER_SCHEME % {
+                "name": scheme,
+                "status": RADIO_MARKED,
+                "set": option,
+                "class": '.success',
+                "section": 'Color Scheme'
+              }
+            )
+      else:
+        popup.append(SECTION_LABEL % menu)
+        for option in OPTIONS[menu]:
+          option_value = bool(settings.get(option, False))
+          popup.append(
+            GENERAL_SETTING % {
+              "name": option,
+              "status": MARKED if option_value else UNMARKED,
+              "set": str(not option_value),
+              "class": '.success' if option_value else '.error',
+              "section": menu
+            }
+          )
+
+      mdpopups.hide_popup(self.view)
+      mdpopups.show_popup(
+        self.view,
+        ''.join(popup),
+        css=STYLE,
+        on_navigate=self.on_navigate,
+        max_width=800,
+        max_height=400
+      )
 
     def run(self, edit):
-        """Run Command."""
+      """Run Command."""
 
-        self.show_popup('Main')
+      self.show_popup('Main')

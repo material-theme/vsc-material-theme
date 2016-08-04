@@ -19,6 +19,7 @@ settings:
     gutterForeground: '<%= scheme.gutter %>'
     invisibles: '<%= scheme.invisibles %>'
     lineHighlight: '<%= scheme.highlight %>'
+    findHighlight: '#F8E71C'
     selection: '<%= scheme.selection %>'
     selectionBorder: '<%= scheme.selection %>'
     shadow: '<%= scheme.shadow %>'
