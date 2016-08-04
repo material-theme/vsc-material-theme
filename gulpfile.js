@@ -222,7 +222,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
 
 gulp.task('process:schemes', function(cb) {
   return gulp.src(srcPath + '/settings/specific/*.json')
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       var basename = path.basename(file.path, path.extname(file.path));
 
       return gulp.src(srcPath + '/schemes/scheme.YAML-tmTheme')
@@ -246,7 +246,7 @@ gulp.task('convert:schemes', function() {
                    'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
        this.emit('end');
     }))
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       sleep.sleep(2);
 
       return stream
@@ -287,7 +287,7 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
 
 gulp.task('build:widget-themes', function() {
   return gulp.src(srcPath + '/settings/specific/*.json')
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       var basename = path.basename(file.path, path.extname(file.path));
 
 
@@ -307,7 +307,7 @@ gulp.task('build:widget-themes', function() {
 
 gulp.task('build:widget-settings', function() {
   return gulp.src(srcPath + '/settings/specific/*.json')
-    .pipe($.foreach(function(stream, file) {
+    .pipe($.flatmap(function(stream, file) {
       var basename = path.basename(file.path, path.extname(file.path));
 
       return gulp.src(srcPath + '/widgets/widget.sublime-settings')
