@@ -84,19 +84,86 @@ MARKED = "☑︎"
 UNMARKED = "☐"
 RADIO_MARKED = "•"
 RADIO_UNMARKED = "•"
-css = """\
-
-html { padding: 16px; }
-p { margin: 0; padding: 0; text-decoration: none; }
-a {
-  display: inline-block;
-  padding: 0.25em 0;
-  text-decoration: none;
+STYLE = """\
+html,
+body {
+  padding: 0;
 }
-h1, h2, h3, h4, h5, h6 { margin-top: 0; padding-top: 0; padding-bottom: 20px; }
-.mt-config.small { font-size: {{'*.8px'|relativesize}}; }
-.mt-config.ui-control { text-decoration: none; }
-.mt-config.ui-backlink { text-decoration: none; padding: 4px 0; }
+
+{%- if var.sublime_version < 3119 %}
+
+  markdown, html {
+    padding: 16px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  a {
+    display: block;
+    padding: 0.25em 0;
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .mt-config.ui-control {
+    text-decoration: none;
+  }
+
+  .mt-config.ui-backlink {
+    text-decoration: none;
+    padding: 4px 0;
+  }
+
+{%- else %}
+
+  .mdpopups {
+    padding: 16px;
+  }
+
+  .mdpopups h1,
+  .mdpopups h2,
+  .mdpopups h3,
+  .mdpopups h4,
+  .mdpopups h5,
+  .mdpopups h6 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .mdpopups p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .mdpopups a {
+    display: inline-block;
+    padding: 0.25em 0;
+    text-decoration: none;
+  }
+
+  .mdpopups .mt-config.ui-control {
+    text-decoration: none;
+  }
+
+  .mdpopups .mt-config.ui-backlink {
+    {{'.foreground'|css}}
+    text-decoration: none;
+    padding: 4px 0;
+    display: block;
+  }
+
+{%- endif %}
 """
 
 
@@ -222,7 +289,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
       mdpopups.show_popup(
         self.view,
         ''.join(popup),
-        css=css,
+        css=STYLE,
         on_navigate=self.on_navigate,
         max_width=800,
         max_height=400
