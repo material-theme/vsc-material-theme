@@ -4,17 +4,15 @@ import sublime_plugin
 import webbrowser
 
 
+"""Repository command."""
 class MtRepoCommand(sublime_plugin.WindowCommand):
-    """Changelog command."""
-
     def run(self):
-        """Show the changelog in a new view."""
+        """Open the repository in a browser tab."""
         webbrowser.open_new_tab('https://github.com/equinusocio/material-theme')
 
 
+"""Issues command."""
 class MtIssuesCommand(sublime_plugin.WindowCommand):
-    """Changelog command."""
-
     def run(self):
-        """Show the changelog in a new view."""
+        """Open the issues page in a browser tab"""
         webbrowser.open_new_tab('https://github.com/equinusocio/material-theme/issues')
