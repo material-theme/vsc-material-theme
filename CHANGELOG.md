@@ -1,3 +1,16 @@
+<a name="3.1.5"></a>
+## [3.1.5](https://github.com/equinusocio/material-theme/compare/v3.1.4...v3.1.5) (2016-08-04)
+
+
+### Bug Fixes
+
+* Fix changelog visual glitches ([cdfe22f](https://github.com/equinusocio/material-theme/commit/cdfe22f))
+* Improved theme configurator for ST < 3119 ([f7764fd](https://github.com/equinusocio/material-theme/commit/f7764fd))
+* restore >=3114 dependencies ([72d80e9](https://github.com/equinusocio/material-theme/commit/72d80e9))
+* Restore custom find highlight color ([8dc4ab3](https://github.com/equinusocio/material-theme/commit/8dc4ab3))
+
+
+
 <a name="3.1.4"></a>
 ## [3.1.4](https://github.com/equinusocio/material-theme/compare/v3.1.3...v3.1.4) (2016-08-02)
 
