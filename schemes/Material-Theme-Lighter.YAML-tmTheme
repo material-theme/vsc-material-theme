@@ -19,6 +19,7 @@ settings:
     gutterForeground: '#CFD8DC'
     invisibles: '#E7EAEC'
     lineHighlight: '#90A4AE20'
+    findHighlight: '#F8E71C'
     selection: '#80CBC440'
     selectionBorder: '#80CBC440'
     shadow: '#90A4AE50'
