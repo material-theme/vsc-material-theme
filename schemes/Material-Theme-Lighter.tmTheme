@@ -36,7 +36,7 @@
 				<key>phantomCss</key>
 				<string><![CDATA[ html { position: relative; } ]]></string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { background-color: #fafafa; color: #80CBC4; padding: 16px; } a { color: #8796B0; display: block; line-height: 16px; } .error, .deleted { color: #E53935; } .success, .inserted { color: #91B859; } .warning, .modified { color: #FFB62C; } ]]></string>
+				<string><![CDATA[ html { background-color: #fafafa; color: #80CBC4; padding: 16px; } a { color: #8796B0; line-height: 16px; } .error, .deleted { color: #E53935; } .success, .inserted { color: #91B859; } .warning, .modified { color: #FFB62C; } ]]></string>
 				<key>selection</key>
 				<string>#80CBC440</string>
 				<key>selectionBorder</key>

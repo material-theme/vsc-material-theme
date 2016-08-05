@@ -31,7 +31,6 @@ settings:
     }
     a {
       color: <%= scheme.base.paleblue %>;
-      display: block;
       line-height: 16px;
     }
     .error, .deleted {
