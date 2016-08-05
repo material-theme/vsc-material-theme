@@ -31,7 +31,6 @@ settings:
     }
     a {
       color: #B2CCD6;
-      display: block;
       line-height: 16px;
     }
     .error, .deleted {
