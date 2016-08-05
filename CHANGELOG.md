@@ -1,3 +1,13 @@
+<a name="3.1.6"></a>
+## [3.1.6](https://github.com/equinusocio/material-theme/compare/v3.1.5...v3.1.6) (2016-08-05)
+
+
+### Bug Fixes
+
+* Fix ColorHelper integration ([dc661bb](https://github.com/equinusocio/material-theme/commit/dc661bb)), closes [#939](https://github.com/equinusocio/material-theme/issues/939)
+
+
+
 <a name="3.1.5"></a>
 ## [3.1.5](https://github.com/equinusocio/material-theme/compare/v3.1.4...v3.1.5) (2016-08-04)
 
