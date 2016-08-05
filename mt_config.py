@@ -147,7 +147,7 @@ body {
   }
 
   .mdpopups a {
-    display: inline-block;
+    display: block;
     padding: 0.25em 0;
     text-decoration: none;
   }
