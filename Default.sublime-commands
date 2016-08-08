@@ -4,6 +4,14 @@
         "command": "mt_config"
     },
     {
+      "caption": "Material Theme: Settings",
+      "command": "edit_settings", "args":
+      {
+          "base_file": "${packages}/Material Theme/Preferences.sublime-settings",
+          "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
+      }
+    },
+    {
         "caption": "Material Theme: Info",
         "command": "mt_info"
     }
