@@ -1,41 +1,48 @@
 [
   {
-    "id": "tools",
+    "id": "preferences",
     "children":
     [
       {
-
-        "caption": "Material Theme",
+        "caption": "Package Settings",
+        "id": "package-settings",
         "children":
         [
           {
-            "caption": "Material Theme Config",
-            "command": "mt_config"
-          },
-          {
-            "caption": "Settings",
-            "command": "edit_settings", "args":
-            {
-                "base_file": "${packages}/Material Theme/Preferences.sublime-settings",
-                "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
-            }
-          },
-          { "caption": "-" },
-          {
-            "caption": "GitHub Issues",
-            "command": "mt_issues"
-          },
-          { "caption": "-" },
-          {
-            "caption": "Changelog",
-            "command": "mt_changes"
-          },
-          {
-            "caption": "Theme Info",
-            "command": "mt_info"
-          }
-        ]
+            "caption": "Material Theme",
+            "children":
+            [
+              {
+                "caption": "Material Theme Config",
+                "command": "mt_config"
+              },
+              {
+                "caption": "Settings",
+                "command": "edit_settings", "args":
+                {
+                    "base_file": "${packages}/Material Theme/Preferences.sublime-settings",
+                    "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
+                }
+              },
+              { "caption": "-" },
+              {
+                "caption": "GitHub Issues",
+                "command": "mt_issues"
+              },
+              { "caption": "-" },
+              {
+                "caption": "Changelog",
+                "command": "mt_changes"
+              },
+              {
+                "caption": "Theme Info",
+                "command": "mt_info"
+              }
+            ]
 
+          }
+
+        ]
       }
     ]
   }
