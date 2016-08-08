@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-"""
+'''
 Material Theme Config.
-"""
+'''
 import sublime
 import sublime_plugin
 import os
@@ -12,51 +12,51 @@ from collections import OrderedDict
 OPTIONS = OrderedDict(
     (
         (
-            "Accent",
+            'Accent',
             [
-                "material_theme_accent_lime",
-                "material_theme_accent_purple",
-                "material_theme_accent_red",
-                "material_theme_accent_orange",
-                "material_theme_accent_yellow",
-                "material_theme_accent_indigo",
-                "material_theme_accent_pink",
-                "material_theme_accent_blue",
-                "material_theme_accent_cyan",
-                "material_theme_accent_bright-teal",
-                "material_theme_accent_acid-lime",
-                "material_theme_accent_graphite",
-                "material_theme_accent_brba",
-                "material_theme_accent_sky",
-                "material_theme_accent_tomato"
+                'material_theme_accent_lime',
+                'material_theme_accent_purple',
+                'material_theme_accent_red',
+                'material_theme_accent_orange',
+                'material_theme_accent_yellow',
+                'material_theme_accent_indigo',
+                'material_theme_accent_pink',
+                'material_theme_accent_blue',
+                'material_theme_accent_cyan',
+                'material_theme_accent_bright-teal',
+                'material_theme_accent_acid-lime',
+                'material_theme_accent_graphite',
+                'material_theme_accent_brba',
+                'material_theme_accent_sky',
+                'material_theme_accent_tomato'
             ],
         ),
         (
-            "Tabs",
+            'Tabs',
             [
-                "material_theme_tabs_autowidth",
-                "material_theme_tabs_separator",
-                "material_theme_bold_tab",
-                "material_theme_small_tab"
+                'material_theme_tabs_autowidth',
+                'material_theme_tabs_separator',
+                'material_theme_bold_tab',
+                'material_theme_small_tab'
             ],
         ),
         (
-            "Sidebar",
+            'Sidebar',
             [
-                "material_theme_disable_fileicons",
-                "material_theme_disable_folder_animation",
-                "material_theme_compact_sidebar",
-                "material_theme_disable_tree_indicator",
-                "material_theme_tree_headings"
+                'material_theme_disable_fileicons',
+                'material_theme_disable_folder_animation',
+                'material_theme_compact_sidebar',
+                'material_theme_disable_tree_indicator',
+                'material_theme_tree_headings'
             ],
         ),
         (
-            "Panels",
+            'Panels',
             [
-                "material_theme_compact_panel",
-                "material_theme_small_statusbar",
-                "material_theme_panel_separator",
-                "material_theme_contrast_mode"
+                'material_theme_compact_panel',
+                'material_theme_small_statusbar',
+                'material_theme_panel_separator',
+                'material_theme_contrast_mode'
             ],
         )
     )
@@ -80,11 +80,11 @@ THEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} %(name)s](theme:%
 {: .mt-config .ui-control }\n'''
 OTHER_THEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} Other: %(name)s](theme:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
-MARKED = "☑︎"
-UNMARKED = "☐"
-RADIO_MARKED = "•"
-RADIO_UNMARKED = "•"
-STYLE = """\
+MARKED = '☑︎'
+UNMARKED = '☐'
+RADIO_MARKED = '•'
+RADIO_UNMARKED = '•'
+STYLE = '''\
 html,
 body {
   padding: 0;
@@ -164,19 +164,19 @@ body {
   }
 
 {% endif %}
-"""
+'''
 
 
 def is_mt_res(item):
-    """Check if a Material Theme resource."""
+    '''Check if a Material Theme resource.'''
 
     return item.startswith('Packages/Material Theme/')
 
 
-"""Material Theme Configuration."""
+'''Material Theme Configuration.'''
 class MtConfigCommand(sublime_plugin.TextCommand):
 
-    """Handle option selection."""
+    '''Handle option selection.'''
     def on_navigate(self, href):
         try:
           import mdpopups
@@ -201,7 +201,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
 
           self.show_popup(section)
 
-    """Show config popup."""
+    '''Show config popup.'''
     def show_popup(self, menu):
 
       settings = sublime.load_settings('Preferences.sublime-settings')
@@ -213,7 +213,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
       if menu == 'Main':
         popup.append(SECTIONS_LABEL)
         for k in ['Theme', 'Color Scheme'] + list(OPTIONS.keys()):
-          popup.append(SECTIONS % {"section": k})
+          popup.append(SECTIONS % {'section': k})
 
       elif menu == 'Theme':
         theme = settings.get('theme', '')
@@ -225,21 +225,21 @@ class MtConfigCommand(sublime_plugin.TextCommand):
           option_value = theme == option
           popup.append(
             THEME % {
-              "name": option,
-              "status": RADIO_MARKED if option_value else RADIO_UNMARKED,
-              "set": option,
-              "class": '.success' if option_value else '.error',
-              'section': "Theme"
+              'name': option,
+              'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+              'set': option,
+              'class': '.success' if option_value else '.error',
+              'section': 'Theme'
             }
           )
         if theme is not None and theme not in mt_themes:
           popup.append(
             OTHER_THEME % {
-              "name": theme,
-              "status": RADIO_MARKED,
-              "set": option,
-              "class": '.success' if option_value else '.error',
-              'section': "Theme"
+              'name': theme,
+              'status': RADIO_MARKED,
+              'set': option,
+              'class': '.success' if option_value else '.error',
+              'section': 'Theme'
             }
           )
 
@@ -254,21 +254,21 @@ class MtConfigCommand(sublime_plugin.TextCommand):
           scheme_name = option[32:].replace('/', ' ⚠️ ')
           popup.append(
             SCHEME % {
-              "name": scheme_name,
-              "status": RADIO_MARKED if option_value else RADIO_UNMARKED,
-              "set": option,
-              "class": '.success' if option_value else '.error',
-              "section": 'Color Scheme'
+              'name': scheme_name,
+              'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
+              'set': option,
+              'class': '.success' if option_value else '.error',
+              'section': 'Color Scheme'
             }
           )
           if scheme is not None and scheme not in mt_schemes:
             popup.append(
               OTHER_SCHEME % {
-                "name": scheme,
-                "status": RADIO_MARKED,
-                "set": option,
-                "class": '.success',
-                "section": 'Color Scheme'
+                'name': scheme,
+                'status': RADIO_MARKED,
+                'set': option,
+                'class': '.success',
+                'section': 'Color Scheme'
               }
             )
       else:
@@ -277,11 +277,11 @@ class MtConfigCommand(sublime_plugin.TextCommand):
           option_value = bool(settings.get(option, False))
           popup.append(
             GENERAL_SETTING % {
-              "name": option,
-              "status": MARKED if option_value else UNMARKED,
-              "set": str(not option_value),
-              "class": '.success' if option_value else '.error',
-              "section": menu
+              'name': option,
+              'status': MARKED if option_value else UNMARKED,
+              'set': str(not option_value),
+              'class': '.success' if option_value else '.error',
+              'section': menu
             }
           )
 
