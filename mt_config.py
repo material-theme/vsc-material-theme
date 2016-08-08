@@ -90,7 +90,7 @@ body {
   padding: 0;
 }
 
-{%- if var.sublime_version < 3119 %}
+{% if var.sublime_version < 3119 %}
 
   markdown, html {
     padding: 16px;
@@ -123,7 +123,7 @@ body {
     padding: 4px 0;
   }
 
-{%- else %}
+{% else %}
 
   .mdpopups {
     padding: 16px;
@@ -163,7 +163,7 @@ body {
     display: block;
   }
 
-{%- endif %}
+{% endif %}
 """
 
 
@@ -296,6 +296,4 @@ class MtConfigCommand(sublime_plugin.TextCommand):
       )
 
     def run(self, edit):
-      """Run Command."""
-
       self.show_popup('Main')

@@ -60,6 +60,6 @@ class MtChangesCommand(sublime_plugin.WindowCommand):
         except Exception:
             return False
 
-        return (mdpopups.version() >= (1, 7, 3)) and (int(sublime.version()) >= 3118)
+        return (mdpopups.version() >= (1, 9, 0)) and (int(sublime.version()) >= 3119)
 
     is_visible = is_enabled
