@@ -1,0 +1,130 @@
+// =============================================================================
+// MATERIAL THEME PREFERENCES
+// =============================================================================
+
+// Source: https://github.com/equinusocio/material-theme#theme-options
+
+// All options are disabled by default, that's why you should place your
+// settings in the "Packages/User/Preferences.sublime-settings" file,
+// which overrides the settings in here, and change `false` -> `true`.
+
+// Settings may also be placed in syntax-specific setting files, for
+// example, in Packages/User/Python.sublime-settings for python files.
+
+// Table of Contents
+// -----------------------------------------------------------------------------
+// Use https://github.com/kizza/Table-of-comments for the quick navigation
+
+//  1 Global
+//    1.1 Accent
+//    1.2 Tabs
+//    1.3 Sidebar
+//    1.4 Panels
+
+{
+  // > 1 Global
+  // -----------------------------------
+
+  // Global options enable you to control some aspects of UI appearance at once.
+  // Generally, there are four kinds of global options which you can use:
+
+  //
+  // >> 2.1 Accents
+  // Choose one option from this section
+
+  // Set lime accent color
+  "material_theme_accent_lime": false,
+
+  // Set purple accent color
+  "material_theme_accent_purple": false,
+
+  // Set red accent color
+  "material_theme_accent_red": false,
+
+  // Set orange accent color
+  "material_theme_accent_orange": false,
+
+  // Set yellow accent color
+  "material_theme_accent_yellow": false,
+
+  // Set indigo accent color
+  "material_theme_accent_indigo": false,
+
+  // Set pink accent color
+  "material_theme_accent_pink": false,
+
+  // Set blue accent color
+  "material_theme_accent_blue": false,
+
+  // Set cyan accent color
+  "material_theme_accent_cyan": false,
+
+  // Set bright-teal accent color
+  "material_theme_accent_bright-teal": false,
+
+  // Set acid-lime accent color
+  "material_theme_accent_acid-lime": false,
+
+  // Set graphite accent color
+  "material_theme_accent_graphite": false,
+
+ // Set brba (dark green) accent color
+  "material_theme_accent_brba": false,
+
+  // Set sky (light cyan) accent color
+  "material_theme_accent_sky": false,
+
+  // Set tomato accent color
+  "material_theme_accent_tomato": false,
+
+  //
+  // >> 1.2 Tabs
+  // Choose one option from this section
+
+  // Enable tabs fixed width
+  "material_theme_tabs_autowidth": false,
+
+  // Enable the vertical tab separator
+  "material_theme_tabs_separator": false,
+
+  // Enable bold tab labels
+  "material_theme_bold_tab": false,
+
+  // Reduce the size of the tab bar
+  "material_theme_small_tab": false,
+
+  //
+  // >> 1.3 Sidebar
+  // Choose one option from this section
+
+  // Hide the tree file icons
+  "material_theme_disable_fileicons": false,
+
+  // Disable the folder animation inside the tree view
+  "material_theme_disable_folder_animation": false,
+
+  // Reduce the size of the sidebar/tree
+  "material_theme_compact_sidebar": false,
+
+  // Disable the current file tree indicator
+  "material_theme_disable_tree_indicator": false,
+
+  // Hide headin titles from the sidebar (only with Material Theme Appbar)
+  "material_theme_tree_headings": false,
+
+  //
+  // >> 1.4 Panels
+  // Choose one option from this section
+
+  // Set minimal padding for the search panel
+  "material_theme_compact_panel": false,
+
+  // Set small status bar
+  "material_theme_small_statusbar": false,
+
+  // show bottom panel separator
+  "material_theme_panel_separator": false,
+
+  // Enable sidebar and panels contrast mode
+  "material_theme_contrast_mode": false,
+}
