@@ -1494,7 +1494,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_lime"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -1802,7 +1802,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_purple"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -2110,7 +2110,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_red"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -2418,7 +2418,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_orange"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -2726,7 +2726,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_yellow"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -3034,7 +3034,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_indigo"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -3342,7 +3342,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_pink"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -3650,7 +3650,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_blue"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -3958,7 +3958,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_cyan"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -4266,7 +4266,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_bright-teal"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -4574,7 +4574,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_acid-lime"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -4882,7 +4882,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_graphite"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -5190,7 +5190,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_brba"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -5498,7 +5498,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_sky"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
@@ -5806,7 +5806,7 @@
     {
       "class": "tool_tip_label_control",
       "settings": ["material_theme_accent_tomato"],
-      "color": [255, 255, 255, 255]
+      "color": [0, 0, 0, 255]
     },
   
       // Sidebar tree highlight
