@@ -1,3 +1,23 @@
+<a name="3.1.7"></a>
+## [3.1.7](https://github.com/equinusocio/material-theme/compare/v3.1.6...v3.1.7) (2016-08-09)
+
+
+### Bug Fixes
+
+* Fix changelog links ([7fd8117](https://github.com/equinusocio/material-theme/commit/7fd8117))
+* Fix folder animation with some settings ([b7446c2](https://github.com/equinusocio/material-theme/commit/b7446c2)), closes [#943](https://github.com/equinusocio/material-theme/issues/943)
+* Fix tooltip foreground color ([50511ef](https://github.com/equinusocio/material-theme/commit/50511ef))
+
+
+### Features
+
+* Add a new Settings command ([aaef00c](https://github.com/equinusocio/material-theme/commit/aaef00c))
+* Add Advanced Config menu action ([f98f00e](https://github.com/equinusocio/material-theme/commit/f98f00e))
+* Add Material Theme to Preferences > Package Settings ([4b5af86](https://github.com/equinusocio/material-theme/commit/4b5af86))
+* New theme activator ([9d0c61a](https://github.com/equinusocio/material-theme/commit/9d0c61a))
+
+
+
 <a name="3.1.6"></a>
 ## [3.1.6](https://github.com/equinusocio/material-theme/compare/v3.1.5...v3.1.6) (2016-08-05)
 

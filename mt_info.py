@@ -3,7 +3,7 @@ import sublime
 import sublime_plugin
 import textwrap
 
-__version__ = "3.1.4"
+__version__ = "3.1.7"
 __pc_name__ = 'Material Theme'
 
 
@@ -76,15 +76,16 @@ class MtInfoCommand(sublime_plugin.ApplicationCommand):
 
         msg = textwrap.dedent(
             """\
-            • ST ver.:   %(version)s
-            • Platform:   %(platform)s
-            • Arch:   %(arch)s
-            • Theme:   %(bh_version)s
-            • Install via PC:   %(pc_install)s
-            • mdpopups:   %(mdpopups_version)s
-            • markdown:   %(markdown_version)s
-            • pygments:   %(pygments_version)s
-            • jinja2:   %(jinja_version)s
+            - Sublime Text:   %(version)s
+            - Platform:   %(platform)s
+            - Arch:   %(arch)s
+            - Theme:   %(bh_version)s
+            - Install via PC:   %(pc_install)s
+            - Dependencies:
+                * mdpopups:   %(mdpopups_version)s
+                * markdown:   %(markdown_version)s
+                * pygments:   %(pygments_version)s
+                * jinja2:   %(jinja_version)s
             """ % info
         )
 
