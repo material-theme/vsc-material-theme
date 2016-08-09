@@ -12,52 +12,52 @@ from collections import OrderedDict
 OPTIONS = OrderedDict(
     (
         (
-            'Accent',
-            [
-                'material_theme_accent_lime',
-                'material_theme_accent_purple',
-                'material_theme_accent_red',
-                'material_theme_accent_orange',
-                'material_theme_accent_yellow',
-                'material_theme_accent_indigo',
-                'material_theme_accent_pink',
-                'material_theme_accent_blue',
-                'material_theme_accent_cyan',
-                'material_theme_accent_bright-teal',
-                'material_theme_accent_acid-lime',
-                'material_theme_accent_graphite',
-                'material_theme_accent_brba',
-                'material_theme_accent_sky',
-                'material_theme_accent_tomato'
-            ],
+          'Accent',
+          [
+            'material_theme_accent_lime',
+            'material_theme_accent_purple',
+            'material_theme_accent_red',
+            'material_theme_accent_orange',
+            'material_theme_accent_yellow',
+            'material_theme_accent_indigo',
+            'material_theme_accent_pink',
+            'material_theme_accent_blue',
+            'material_theme_accent_cyan',
+            'material_theme_accent_bright-teal',
+            'material_theme_accent_acid-lime',
+            'material_theme_accent_graphite',
+            'material_theme_accent_brba',
+            'material_theme_accent_sky',
+            'material_theme_accent_tomato'
+          ],
         ),
         (
-            'Tabs',
-            [
-                'material_theme_tabs_autowidth',
-                'material_theme_tabs_separator',
-                'material_theme_bold_tab',
-                'material_theme_small_tab'
-            ],
+          'Tabs',
+          [
+            'material_theme_tabs_autowidth',
+            'material_theme_tabs_separator',
+            'material_theme_bold_tab',
+            'material_theme_small_tab'
+          ],
         ),
         (
-            'Sidebar',
-            [
-                'material_theme_disable_fileicons',
-                'material_theme_disable_folder_animation',
-                'material_theme_compact_sidebar',
-                'material_theme_disable_tree_indicator',
-                'material_theme_tree_headings'
-            ],
+          'Sidebar',
+          [
+            'material_theme_disable_fileicons',
+            'material_theme_disable_folder_animation',
+            'material_theme_compact_sidebar',
+            'material_theme_disable_tree_indicator',
+            'material_theme_tree_headings'
+          ],
         ),
         (
-            'Panels',
-            [
-                'material_theme_compact_panel',
-                'material_theme_small_statusbar',
-                'material_theme_panel_separator',
-                'material_theme_contrast_mode'
-            ],
+          'Panels',
+          [
+            'material_theme_compact_panel',
+            'material_theme_small_statusbar',
+            'material_theme_panel_separator',
+            'material_theme_contrast_mode'
+          ],
         )
     )
 )
