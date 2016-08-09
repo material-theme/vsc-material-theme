@@ -4,11 +4,16 @@
     "children":
     [
       {
+          "caption": "Activate Material Theme",
+          "command": "mt_activate"
+      },
+      {
         "caption": "Material Theme Config",
         "command": "mt_config"
       },
+      { "caption": "-" },
       {
-        "caption": "Settings",
+        "caption": "Advanced config",
         "command": "edit_settings", "args":
         {
             "base_file": "${packages}/Material Theme/Preferences.sublime-settings",
@@ -20,7 +25,6 @@
         "caption": "GitHub Issues",
         "command": "mt_issues"
       },
-      { "caption": "-" },
       {
         "caption": "Changelog",
         "command": "mt_changes"

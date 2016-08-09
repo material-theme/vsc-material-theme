@@ -1,10 +1,14 @@
 [
     {
+        "caption": "Material Theme: Activate theme",
+        "command": "mt_activate"
+    },
+    {
         "caption": "Material Theme: Configuration",
         "command": "mt_config"
     },
     {
-      "caption": "Material Theme: Settings",
+      "caption": "Material Theme: Advanced configuration",
       "command": "edit_settings", "args":
       {
           "base_file": "${packages}/Material Theme/Preferences.sublime-settings",
