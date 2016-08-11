@@ -43,11 +43,6 @@ settings:
       color: <%= scheme.base.yellow %>;
     }
     ]]>"
-    phantomCss: "<![CDATA[
-    html {
-      position: relative;
-    }
-    ]]>"
 
 # >> General
 

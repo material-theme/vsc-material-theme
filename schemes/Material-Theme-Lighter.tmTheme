@@ -33,8 +33,6 @@
 				<string>#E7EAEC</string>
 				<key>lineHighlight</key>
 				<string>#90A4AE20</string>
-				<key>phantomCss</key>
-				<string><![CDATA[ html { position: relative; } ]]></string>
 				<key>popupCss</key>
 				<string><![CDATA[ html { background-color: #fafafa; color: #80CBC4; padding: 16px; } a { color: #8796B0; line-height: 16px; } .error, .deleted { color: #E53935; } .success, .inserted { color: #91B859; } .warning, .modified { color: #FFB62C; } ]]></string>
 				<key>selection</key>
