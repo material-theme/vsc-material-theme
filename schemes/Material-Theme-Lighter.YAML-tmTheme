@@ -43,11 +43,6 @@ settings:
       color: #FFB62C;
     }
     ]]>"
-    phantomCss: "<![CDATA[
-    html {
-      position: relative;
-    }
-    ]]>"
 
 # >> General
 
