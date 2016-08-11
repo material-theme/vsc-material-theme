@@ -1,3 +1,14 @@
+<a name="3.1.8"></a>
+## [3.1.8](https://github.com/equinusocio/material-theme/compare/v3.1.7...v3.1.8) (2016-08-11)
+
+
+### Bug Fixes
+
+* Fix schemes with new mdpopups ([2babeb7](https://github.com/equinusocio/material-theme/commit/2babeb7))
+* update configurator styles to support the latest mdpopups ([ac03484](https://github.com/equinusocio/material-theme/commit/ac03484))
+
+
+
 <a name="3.1.7"></a>
 ## [3.1.7](https://github.com/equinusocio/material-theme/compare/v3.1.6...v3.1.7) (2016-08-09)
 
