@@ -125,38 +125,39 @@ body {
 
 {% else %}
 
-  .mdpopups {
+  div.mt-config {
+    display: block;
     padding: 16px;
   }
 
-  .mdpopups h1,
-  .mdpopups h2,
-  .mdpopups h3,
-  .mdpopups h4,
-  .mdpopups h5,
-  .mdpopups h6 {
+  .mt-config h1,
+  .mt-config h2,
+  .mt-config h3,
+  .mt-config h4,
+  .mt-config h5,
+  .mt-config h6 {
     margin-top: 0;
     padding-top: 0;
     padding-bottom: 20px;
   }
 
-  .mdpopups p {
+  .mt-config p {
     margin: 0;
     padding: 0;
     text-decoration: none;
   }
 
-  .mdpopups a {
+  .mt-config a {
     display: block;
     padding: 0.25em 0;
     text-decoration: none;
   }
 
-  .mdpopups .mt-config.ui-control {
+  .mt-config .ui-control {
     text-decoration: none;
   }
 
-  .mdpopups .mt-config.ui-backlink {
+  .mt-config .ui-backlink {
     {{'.foreground'|css}}
     text-decoration: none;
     padding: 4px 0;
@@ -290,6 +291,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
         self.view,
         ''.join(popup),
         css=STYLE,
+        wrapper_class='mt-config',
         on_navigate=self.on_navigate,
         max_width=800,
         max_height=400
