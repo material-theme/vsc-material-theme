@@ -8,9 +8,9 @@
 <a style="display: inline-block !important;" class="coinbase-button" data-code="977637f29fdd26f9fba47d9acc7f8d57" target="_blank" data-button-style="donation_large" href="https://www.coinbase.com/checkouts/977637f29fdd26f9fba47d9acc7f8d57"><img width="120" src="https://www.coinbase.com/assets/buttons/donation_large-5cf4f17cc2d2ae2f45b6b021ee498297409c94dcf0ba1bbf76fd5668e80b0d02.png"></a><script src="https://www.coinbase.com/assets/button.js" type="text/javascript"></script>
 
 
-This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report with [new one](https://github.com/equinusocio/material-theme/issues).
+This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report a [new one](https://github.com/equinusocio/material-theme/issues).
 
-Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that not use the issue template and any issue related to the [known issue section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
+Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that does not use the issue template and any issue related to the [known issues section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
 
 
 # Easy installation
@@ -32,7 +32,7 @@ You can install this awesome theme through the [Package Control](https://package
 
 You can activate the theme by using the configurator popup that allow the activation and the customization through the context menu [DEMO](https://cloud.githubusercontent.com/assets/10454741/17295799/4c135f26-57fe-11e6-8c57-f4cc25f90d18.gif) (right click in your editor and select `Material Theme`), the `Tools > Material Theme` menu and through the command palette [DEMO](https://cloud.githubusercontent.com/assets/10454741/17295800/4c161626-57fe-11e6-92b2-bf5ade1e6eeb.gif)
 
-Anyaway you can manually activate this theme by these lines in your setting:
+You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
 ```json
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
@@ -143,7 +143,7 @@ You can also use the official Material Design monospace font "[Roboto Mono](http
 
 # Contributing
 
-This UI theme use a custom compiler build on Gulp and JS. If you want to edit the UI you must first install the compiler:
+This UI theme uses a custom compiler build on Gulp and JS. If you want to edit the UI you must first install the compiler:
 
 ```
 $ npm install
@@ -153,7 +153,7 @@ then run compiler and watcher by run:
 ```
 $ gulp
 ```
-You can now edit the source files under `/src` folder that will be compiled inside the root folder (don't edit compiled files.)
+You can now edit the source files under `/src` folder that will be compiled inside the root folder (don't edit compiled files).
 
 # Other Resources
 
