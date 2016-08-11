@@ -28,9 +28,11 @@ You can install this awesome theme through the [Package Control](https://package
 
 # Activate the theme
 
-**Recommended**
-
-You can activate the theme by using the configurator popup that allow the activation and the customization through the context menu [DEMO](https://cloud.githubusercontent.com/assets/10454741/17295799/4c135f26-57fe-11e6-8c57-f4cc25f90d18.gif) (right click in your editor and select `Material Theme`), the `Tools > Material Theme` menu and through the command palette [DEMO](https://cloud.githubusercontent.com/assets/10454741/17295800/4c161626-57fe-11e6-92b2-bf5ade1e6eeb.gif)
+You can active this theme from:
+- Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd>+ <kbd>↑</kbd>+<kbd>p</
+kbd>) by typing `Material Theme: Activate theme`. 
+- Context menu (Right click on the editor) and choose `Material Theme > Activate Material Theme`
+- `Preferences > Packages Settings` and choose `Material Theme > Activate Material Theme`
 
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
@@ -41,26 +43,11 @@ You can also manually activate this theme by adding these lines to your user set
 
 **NOTE:** Restart Sublime Text after activating the theme.
 
-# Theme styles
-This theme provides 3 styles:
+# Configuration
+This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup. Just right click in your editor and choose `Material Theme > Material Theme Config`. You can also open the configurator from the command palette by searching `Material Theme > Configuration`
 
-#### Default
-```json
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-"theme": "Material-Theme.sublime-theme",
-```
-
-#### Darker
-```json
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-"theme": "Material-Theme-Darker.sublime-theme",
-```
-
-#### Lighter
-```json
-"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
-"theme": "Material-Theme-Lighter.sublime-theme",
-```
+#### Advanced configuration
+If you like the adnvaced text text-configuration you can use it by the `Material Theme > Advanced condiguration` command both form context menu and command palette.
 
 #### Old Color Schemes
 
@@ -157,9 +144,7 @@ You can now edit the source files under `/src` folder that will be compiled insi
 
 # Other Resources
 
-**App icon**
-
-[Download](https://github.com/equinusocio/material-theme/files/396220/Material-Theme-Icon.zip) the official Material Theme icon.
+**App icon**: [Download](https://github.com/equinusocio/material-theme/files/396220/Material-Theme-Icon.zip) the official Material Theme icon.
 
 # Official Portings
 Material Theme was also ported to:
