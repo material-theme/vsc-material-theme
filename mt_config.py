@@ -213,7 +213,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
 
       if menu == 'Main':
         popup.append(SECTIONS_LABEL)
-        for k in ['Theme', 'Color Scheme'] + list(OPTIONS.keys()):
+        for k in sorted(['Theme', 'Color Scheme'] + list(OPTIONS.keys())):
           popup.append(SECTIONS % {'section': k})
 
       elif menu == 'Theme':
@@ -222,7 +222,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
           os.path.basename(bt) for bt in sorted(sublime.find_resources('Material-Theme*.sublime-theme')) if is_mt_res(bt)
         ]
         popup.append(THEME_LABEL)
-        for option in mt_themes:
+        for option in sorted(mt_themes):
           option_value = theme == option
           popup.append(
             THEME % {
@@ -250,7 +250,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
             bs for bs in sorted(sublime.find_resources('Material-Theme*.tmTheme')) if is_mt_res(bs)
         ]
         popup.append(SCHEME_LABEL)
-        for option in mt_schemes:
+        for option in sorted(mt_schemes):
           option_value = scheme == option
           scheme_name = option[32:].replace('/', ' ⚠️ ')
           popup.append(
@@ -274,7 +274,7 @@ class MtConfigCommand(sublime_plugin.TextCommand):
             )
       else:
         popup.append(SECTION_LABEL % menu)
-        for option in OPTIONS[menu]:
+        for option in sorted(OPTIONS[menu]):
           option_value = bool(settings.get(option, False))
           popup.append(
             GENERAL_SETTING % {

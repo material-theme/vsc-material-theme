@@ -1,3 +1,17 @@
+<a name="3.1.9"></a>
+## [3.1.9](https://github.com/equinusocio/material-theme/compare/v3.1.7...v3.1.9) (2016-08-13)
+
+
+### Bug Fixes
+
+* fix: Sorted options inside the theme configurator
+* fix: Fix disable_folder_animation option 
+* Fix schemes with new mdpopups ([2babeb7](https://github.com/equinusocio/material-theme/commit/2babeb7))
+* R file type icon ([5e2ee0d](https://github.com/equinusocio/material-theme/commit/5e2ee0d))
+* update configurator styles to support the latest mdpopups ([ac03484](https://github.com/equinusocio/material-theme/commit/ac03484))
+
+
+
 <a name="3.1.8"></a>
 ## [3.1.8](https://github.com/equinusocio/material-theme/compare/v3.1.7...v3.1.8) (2016-08-11)
 
