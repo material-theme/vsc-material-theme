@@ -47,7 +47,7 @@ You can also manually activate this theme by adding these lines to your user set
 This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup. Just right click in your editor and choose `Material Theme > Material Theme Config`. You can also open the configurator from the command palette by searching `Material Theme > Configuration`
 
 #### Advanced configuration
-If you like the adnvaced text text-configuration you can use it by the `Material Theme > Advanced condiguration` command both form context menu and command palette.
+If you like the advanced text text-configuration you can use it by the `Material Theme > Advanced configuration` command both from context menu and command palette.
 
 #### Old Color Schemes
 
