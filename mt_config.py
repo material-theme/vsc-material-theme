@@ -91,9 +91,9 @@ body {
 }
 
 {% if var.sublime_version < 3119 %}
-
-  markdown, html {
+  body {
     padding: 16px;
+    padding-bottom: 8px;
   }
 
   p {
