@@ -27,7 +27,7 @@ var gulp                       = require('gulp'),
 
 var srcPath = "./.src";
 var common = require(srcPath + '/settings/commons.json');
-var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|\=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+(-\\.\\d+)?(-\\d+)?)[\\d||A-a|.|-]*([\'|\"]?)', 'i');
+var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+)(-[0-9A-Za-z\.-]+)?([\'|\"]?)', 'i');
 
 
 
