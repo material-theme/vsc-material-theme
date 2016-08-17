@@ -91,9 +91,9 @@ body {
 }
 
 {% if var.sublime_version < 3119 %}
-
-  markdown, html {
+  body {
     padding: 16px;
+    padding-bottom: 8px;
   }
 
   p {
@@ -207,6 +207,23 @@ class MtConfigCommand(sublime_plugin.TextCommand):
 
       settings = sublime.load_settings('Preferences.sublime-settings')
       popup = []
+
+      marked = settings.get('theme_config_marked', False)
+      unmarked = settings.get('theme_config_unmarked', False)
+      radio_marked = settings.get('theme_config_radio_marked', False)
+      radio_unmarked = settings.get('theme_config_radio_unmarked', False)
+
+      if marked is False:
+        marked = MARKED
+
+      if unmarked is False:
+        unmarked = UNMARKED
+
+      if radio_marked is False:
+        radio_marked = RADIO_MARKED
+
+      if radio_unmarked is False:
+        radio_unmarked = RADIO_UNMARKED
 
       if menu != 'Main':
         popup = [BACK]
