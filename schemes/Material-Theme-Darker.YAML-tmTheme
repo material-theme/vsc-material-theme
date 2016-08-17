@@ -121,7 +121,7 @@ settings:
     markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
   settings:
     foreground: '#C3E88D'
-    fontStyle: normal
+    fontStyle: 'normal'
 
 - name: Class, Support
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
@@ -204,7 +204,7 @@ settings:
 - name: URL
   scope: '*url*, *link*, *uri*'
   settings:
-    fontStyle: underline
+    fontStyle: 'underline'
 
 - name: Search Results Nums
   scope: constant.numeric.line-number.find-in-files - match
@@ -285,12 +285,12 @@ settings:
 - name: Markdown - Markup Raw Inline
   scope: text.html.markdown markup.raw.inline
   settings:
-    foreground: '#FF5370'
+    background: '#65737e'
 
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    foreground: '#65737e'
+    foreground: ''
 
 - name: Markdown - Heading
   scope: markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown
@@ -304,10 +304,15 @@ settings:
     foreground: '#f07178'
 
 - name: Markup - Bold
-  scope: markup.bold
+  scope: markup.bold, markup.bold string
   settings:
     fontStyle: 'bold'
     foreground: '#f07178'
+
+- name: Markup - Bold & Italic
+  scope: markup.bold markup.italic, markup.italic markup.bold, markup.quote markup.bold, markup.bold markup.italic string, markup.italic markup.bold string, markup.quote markup.bold string
+  settings:
+    fontStyle: 'bold italic'
 
 - name: Markup - Underline
   scope: markup.underline
@@ -319,25 +324,35 @@ settings:
   scope: markup.strike
   settings:
     fontStyle: 'strike'
-    foreground: '#C17E70'
+    foreground: ''
 
 - name: Markdown - Blockquote
-  scope: markup.quote, punctuation.definition.blockquote.markdown
+  scope: markup.quote punctuation.definition.blockquote.markdown
   settings:
-    fontStyle: 'italic'
-    foreground: '#89DDFF'
+    background: '#65737e'
+    foreground: '#65737e'
 
 - name: Markup - Quote
   scope: markup.quote
   settings:
     fontStyle: 'italic'
-    foreground: '#89DDFF'
+    foreground: ''
 
 - name: Markdown - Link
   scope: string.other.link.title.markdown
   settings:
-    fontStyle: 'underline'
     foreground: '#82AAFF'
+
+- name: Markdown - Link Description
+  scope: string.other.link.description.title.markdown
+  settings:
+    foreground: '#C792EA'
+
+- name: Markdown - Link Anchor
+  scope: constant.other.reference.link.markdown
+  settings:
+    foreground: '#FFCB6B'
+
 
 - name: Markup - Raw Block
   scope: markup.raw.block
@@ -362,6 +377,16 @@ settings:
     fontStyle: ''
     foreground: '#65737e'
 
+- name: Markdown - Punctuation Definition
+  scope: text.html.markdown punctuation.definition
+  settings:
+    foreground: '#4A4A4A'
+
+- name: Markdown HTML - Punctuation Definition
+  scope: text.html.markdown meta.disable-markdown punctuation.definition
+  settings:
+    foreground: '#89DDFF'
+
 - name: Markdown - Separator
   scope: meta.separator
   settings:
@@ -372,8 +397,7 @@ settings:
 - name: Markup - Table
   scope: markup.table
   settings:
-    background: '#FF53701a'
-    foreground: '#FF5370'
+    background: ''
 
 # >> AceJump
 

@@ -543,8 +543,8 @@
 			<string>text.html.markdown markup.raw.inline</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#FF5370</string>
+				<key>background</key>
+				<string>#65737e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -555,7 +555,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#65737e</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -586,13 +586,24 @@
 			<key>name</key>
 			<string>Markup - Bold</string>
 			<key>scope</key>
-			<string>markup.bold</string>
+			<string>markup.bold, markup.bold string</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#f07178</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup - Bold &amp; Italic</string>
+			<key>scope</key>
+			<string>markup.bold markup.italic, markup.italic markup.bold, markup.quote markup.bold, markup.bold markup.italic string, markup.italic markup.bold string, markup.quote markup.bold string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -618,20 +629,20 @@
 				<key>fontStyle</key>
 				<string>strike</string>
 				<key>foreground</key>
-				<string>#C17E70</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Markdown - Blockquote</string>
 			<key>scope</key>
-			<string>markup.quote, punctuation.definition.blockquote.markdown</string>
+			<string>markup.quote punctuation.definition.blockquote.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
+				<key>background</key>
+				<string>#65737e</string>
 				<key>foreground</key>
-				<string>#89DDFF</string>
+				<string>#65737e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -644,7 +655,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#89DDFF</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -654,10 +665,30 @@
 			<string>string.other.link.title.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 				<key>foreground</key>
 				<string>#82AAFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Link Description</string>
+			<key>scope</key>
+			<string>string.other.link.description.title.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C792EA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Link Anchor</string>
+			<key>scope</key>
+			<string>constant.other.reference.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFCB6B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -712,6 +743,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markdown - Punctuation Definition</string>
+			<key>scope</key>
+			<string>text.html.markdown punctuation.definition</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4A4A4A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown HTML - Punctuation Definition</string>
+			<key>scope</key>
+			<string>text.html.markdown meta.disable-markdown punctuation.definition</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#89DDFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown - Separator</string>
 			<key>scope</key>
 			<string>meta.separator</string>
@@ -733,9 +786,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FF53701a</string>
-				<key>foreground</key>
-				<string>#FF5370</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>

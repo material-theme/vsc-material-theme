@@ -121,7 +121,7 @@ settings:
     markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
   settings:
     foreground: '<%= scheme.base.green %>'
-    fontStyle: normal
+    fontStyle: 'normal'
 
 - name: Class, Support
   scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
@@ -204,7 +204,7 @@ settings:
 - name: URL
   scope: '*url*, *link*, *uri*'
   settings:
-    fontStyle: underline
+    fontStyle: 'underline'
 
 - name: Search Results Nums
   scope: constant.numeric.line-number.find-in-files - match
@@ -285,12 +285,12 @@ settings:
 - name: Markdown - Markup Raw Inline
   scope: text.html.markdown markup.raw.inline
   settings:
-    foreground: '<%= scheme.base.red %>'
+    background: '<%= scheme.invisibles %>'
 
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break
   settings:
-    foreground: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.punctuation %>'
 
 - name: Markdown - Heading
   scope: markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown
@@ -304,10 +304,15 @@ settings:
     foreground: '<%= scheme.base.pink %>'
 
 - name: Markup - Bold
-  scope: markup.bold
+  scope: markup.bold, markup.bold string
   settings:
     fontStyle: 'bold'
     foreground: '<%= scheme.base.pink %>'
+
+- name: Markup - Bold & Italic
+  scope: markup.bold markup.italic, markup.italic markup.bold, markup.quote markup.bold, markup.bold markup.italic string, markup.italic markup.bold string, markup.quote markup.bold string
+  settings:
+    fontStyle: 'bold italic'
 
 - name: Markup - Underline
   scope: markup.underline
@@ -319,25 +324,35 @@ settings:
   scope: markup.strike
   settings:
     fontStyle: 'strike'
-    foreground: '<%= scheme.base.brown %>'
+    foreground: '<%= scheme.base.comments %>'
 
 - name: Markdown - Blockquote
-  scope: markup.quote, punctuation.definition.blockquote.markdown
+  scope: markup.quote punctuation.definition.blockquote.markdown
   settings:
-    fontStyle: 'italic'
-    foreground: '<%= scheme.base.cyan %>'
+    background: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.invisibles %>'
 
 - name: Markup - Quote
   scope: markup.quote
   settings:
     fontStyle: 'italic'
-    foreground: '<%= scheme.base.cyan %>'
+    foreground: '<%= scheme.base.comments %>'
 
 - name: Markdown - Link
   scope: string.other.link.title.markdown
   settings:
-    fontStyle: 'underline'
     foreground: '<%= scheme.base.blue %>'
+
+- name: Markdown - Link Description
+  scope: string.other.link.description.title.markdown
+  settings:
+    foreground: '<%= scheme.base.purple %>'
+
+- name: Markdown - Link Anchor
+  scope: constant.other.reference.link.markdown
+  settings:
+    foreground: '<%= scheme.base.yellow %>'
+
 
 - name: Markup - Raw Block
   scope: markup.raw.block
@@ -362,6 +377,16 @@ settings:
     fontStyle: ''
     foreground: '<%= scheme.invisibles %>'
 
+- name: Markdown - Punctuation Definition
+  scope: text.html.markdown punctuation.definition
+  settings:
+    foreground: '<%= scheme.comments %>'
+
+- name: Markdown HTML - Punctuation Definition
+  scope: text.html.markdown meta.disable-markdown punctuation.definition
+  settings:
+    foreground: '<%= scheme.base.cyan %>'
+
 - name: Markdown - Separator
   scope: meta.separator
   settings:
@@ -372,8 +397,7 @@ settings:
 - name: Markup - Table
   scope: markup.table
   settings:
-    background: '<%= scheme.base.red %>1a'
-    foreground: '<%= scheme.base.red %>'
+    background: '<%= scheme.invisible %>'
 
 # >> AceJump
 
