@@ -41,7 +41,7 @@
 				<string>#80CBC420</string>
 				<key>shadow</key>
 				<string>#00000010</string>
-				<key>stackGuides</key>
+				<key>stackGuide</key>
 				<string>#37474Fff</string>
 			</dict>
 		</dict>

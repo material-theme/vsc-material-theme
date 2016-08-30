@@ -15,7 +15,7 @@ settings:
     foreground: '#eeffff'
     guide: '#37474F80'
     activeGuide: '#80CBC470'
-    stackGuides: '#37474Fff'
+    stackGuide: '#37474Fff'
     gutterForeground: '#37474F'
     invisibles: '#65737e'
     lineHighlight: '#00000050'

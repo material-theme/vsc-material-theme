@@ -15,7 +15,7 @@ settings:
     foreground: '<%= scheme.foreground %>'
     guide: '<%= scheme.guides %>'
     activeGuide: '<%= scheme.activeGuide %>'
-    stackGuides: '<%= scheme.stackGuides %>'
+    stackGuide: '<%= scheme.stackGuides %>'
     gutterForeground: '<%= scheme.gutter %>'
     invisibles: '<%= scheme.invisibles %>'
     lineHighlight: '<%= scheme.highlight %>'
