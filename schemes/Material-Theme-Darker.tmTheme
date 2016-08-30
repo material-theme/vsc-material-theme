@@ -719,13 +719,22 @@
 			<key>name</key>
 			<string>Markdown - Fenced Bode Block</string>
 			<key>scope</key>
-			<string>punctuation.definition.fenced.markdown, variable.language.fenced.markdown</string>
+			<string>punctuation.definition.fenced.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
 				<string>#00000050</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Fenced Bode Block Variable</string>
+			<key>scope</key>
+			<string>markup.raw.block.fenced.markdown, variable.language.fenced.markdown, punctuation.section.class.end</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
-				<string>#65737e</string>
+				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>
