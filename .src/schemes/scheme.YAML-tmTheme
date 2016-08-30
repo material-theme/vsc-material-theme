@@ -1,13 +1,13 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 # > Scheme
 ---
-name: <%= name %>
-uuid: <%= uuid %>
-author: <%= author %>
+name: '<%= name %>'
+uuid: '<%= uuid %>'
+author: '<%= author %>'
 
-colorSpaceName: sRGB
+colorSpaceName: 'sRGB'
 
-semanticClass: <%= semanticClass %>
+semanticClass: '<%= semanticClass %>'
 settings:
 - settings:
     background: '<%= scheme.background %>'
