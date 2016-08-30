@@ -41,7 +41,7 @@
 				<string>&lt;%= scheme.selection %&gt;</string>
 				<key>shadow</key>
 				<string>&lt;%= scheme.shadow %&gt;</string>
-				<key>stackGuides</key>
+				<key>stackGuide</key>
 				<string>&lt;%= scheme.stackGuides %&gt;</string>
 			</dict>
 		</dict>
