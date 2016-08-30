@@ -713,8 +713,6 @@
 			<dict>
 				<key>background</key>
 				<string>#00000050</string>
-				<key>foreground</key>
-				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -789,6 +787,8 @@
 			<dict>
 				<key>background</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>

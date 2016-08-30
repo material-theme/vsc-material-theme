@@ -713,21 +713,28 @@
 			<dict>
 				<key>background</key>
 				<string>#90A4AE20</string>
-				<key>foreground</key>
-				<string>#80CBC4</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Markdown - Fenced Bode Block</string>
 			<key>scope</key>
-			<string>punctuation.definition.fenced.markdown, variable.language.fenced.markdown</string>
+			<string>punctuation.definition.fenced.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
 				<string>#90A4AE20</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Fenced Bode Block Variable</string>
+			<key>scope</key>
+			<string>markup.raw.block.fenced.markdown, variable.language.fenced.markdown, punctuation.section.class.end</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
-				<string>#E7EAEC</string>
+				<string>#80CBC4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -789,6 +796,8 @@
 			<dict>
 				<key>background</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#80CBC4</string>
 			</dict>
 		</dict>
 		<dict>

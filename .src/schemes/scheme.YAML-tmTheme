@@ -364,13 +364,16 @@ settings:
   scope: markup.raw.block.fenced.markdown
   settings:
     background: '<%= scheme.highlight %>'
-    foreground: '<%= scheme.foreground %>'
 
 - name: Markdown - Fenced Bode Block
-  scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
+  scope: punctuation.definition.fenced.markdown
   settings:
     background: '<%= scheme.highlight %>'
-    foreground: '<%= scheme.invisibles %>'
+
+- name: Markdown - Fenced Bode Block Variable
+  scope: markup.raw.block.fenced.markdown, variable.language.fenced.markdown, punctuation.section.class.end
+  settings:
+    foreground: '<%= scheme.foreground %>'
 
 - name: Markdown - Fenced Language
   scope: variable.language.fenced.markdown
@@ -399,6 +402,7 @@ settings:
   scope: markup.table
   settings:
     background: '<%= scheme.invisible %>'
+    foreground: '<%= scheme.foreground %>'
 
 # >> AceJump
 
