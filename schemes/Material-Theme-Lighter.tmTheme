@@ -126,6 +126,8 @@
 			<string>keyword, storage.type, storage.modifier</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#7C4DFF</string>
 			</dict>

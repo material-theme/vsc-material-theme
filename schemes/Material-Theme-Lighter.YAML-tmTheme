@@ -84,6 +84,7 @@ settings:
   scope: keyword, storage.type, storage.modifier
   settings:
     foreground: '#7C4DFF'
+    fontStyle: 'italic'
 
 - name: Operator, Misc
   scope: keyword.operator, constant.other.color, punctuation, meta.tag,
