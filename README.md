@@ -29,8 +29,7 @@ You can install this awesome theme through the [Package Control](https://package
 # Activate the theme
 
 You can active this theme from:
-- Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd>+ <kbd>↑</kbd>+<kbd>p</
-kbd>) by typing `Material Theme: Activate theme`. 
+- Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd> + <kbd>↑</kbd> + <kbd>p</kbd>) by typing `Material Theme: Activate theme`. 
 - Context menu (Right click on the editor) and choose `Material Theme > Activate Material Theme`
 - `Preferences > Packages Settings` and choose `Material Theme > Activate Material Theme`
 

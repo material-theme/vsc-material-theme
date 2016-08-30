@@ -1,13 +1,13 @@
 # [PackageDev] target_format: plist, ext: tmTheme
 # > Scheme
 ---
-name: <%= name %>
-uuid: <%= uuid %>
-author: <%= author %>
+name: '<%= name %>'
+uuid: '<%= uuid %>'
+author: '<%= author %>'
 
-colorSpaceName: sRGB
+colorSpaceName: 'sRGB'
 
-semanticClass: <%= semanticClass %>
+semanticClass: '<%= semanticClass %>'
 settings:
 - settings:
     background: '<%= scheme.background %>'
@@ -15,7 +15,7 @@ settings:
     foreground: '<%= scheme.foreground %>'
     guide: '<%= scheme.guides %>'
     activeGuide: '<%= scheme.activeGuide %>'
-    stackGuides: '<%= scheme.stackGuides %>'
+    stackGuide: '<%= scheme.stackGuides %>'
     gutterForeground: '<%= scheme.gutter %>'
     invisibles: '<%= scheme.invisibles %>'
     lineHighlight: '<%= scheme.highlight %>'
@@ -84,6 +84,7 @@ settings:
   scope: keyword, storage.type, storage.modifier
   settings:
     foreground: '<%= scheme.base.purple %>'
+    fontStyle: 'italic'
 
 - name: Operator, Misc
   scope: keyword.operator, constant.other.color, punctuation, meta.tag,
@@ -363,13 +364,16 @@ settings:
   scope: markup.raw.block.fenced.markdown
   settings:
     background: '<%= scheme.highlight %>'
-    foreground: '<%= scheme.foreground %>'
 
 - name: Markdown - Fenced Bode Block
-  scope: punctuation.definition.fenced.markdown, variable.language.fenced.markdown
+  scope: punctuation.definition.fenced.markdown
   settings:
     background: '<%= scheme.highlight %>'
-    foreground: '<%= scheme.invisibles %>'
+
+- name: Markdown - Fenced Bode Block Variable
+  scope: markup.raw.block.fenced.markdown, variable.language.fenced.markdown, punctuation.section.class.end
+  settings:
+    foreground: '<%= scheme.foreground %>'
 
 - name: Markdown - Fenced Language
   scope: variable.language.fenced.markdown
@@ -398,6 +402,7 @@ settings:
   scope: markup.table
   settings:
     background: '<%= scheme.invisible %>'
+    foreground: '<%= scheme.foreground %>'
 
 # >> AceJump
 

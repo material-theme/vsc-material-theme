@@ -33,7 +33,7 @@
   {
     "class": "tool_tip_label_control",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
-    "color": [<%= ui.base.black.rgb %>, 255]
+    "color": [<%= ui.accents[i].foreground.rgb %>, 255]
   },
 
     // Sidebar tree highlight
