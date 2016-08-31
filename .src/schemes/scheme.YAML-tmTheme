@@ -84,6 +84,10 @@ settings:
   scope: keyword, storage.type, storage.modifier
   settings:
     foreground: '<%= scheme.base.purple %>'
+
+- name: Keyword, Storage
+  scope: storage.type, keyword.control
+  settings:
     fontStyle: 'italic'
 
 - name: Operator, Misc
