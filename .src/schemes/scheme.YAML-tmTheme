@@ -292,6 +292,12 @@ settings:
   settings:
     background: '<%= scheme.invisibles %>'
 
+- name: Markdown - Markup Raw Inline Punctuation
+  scope: text.html.markdown punctuation.definition.raw.markdown
+  settings:
+    background: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.base.black %>'
+
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break
   settings:

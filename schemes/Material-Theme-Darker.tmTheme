@@ -560,6 +560,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markdown - Markup Raw Inline Punctuation</string>
+			<key>scope</key>
+			<string>text.html.markdown punctuation.definition.raw.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown - Line Break</string>
 			<key>scope</key>
 			<string>text.html.markdown meta.dummy.line-break</string>
