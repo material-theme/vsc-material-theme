@@ -42,6 +42,16 @@ settings:
     .warning, .modified {
       color: <%= scheme.base.yellow %>;
     }
+    .type {
+      color: <%= scheme.base.cyan %>;
+      font-style: italic;
+    }
+    .param {
+      color: <%= scheme.base.orange %>;
+    }
+    .current {
+      text-decoration: underline;
+    }
     ]]>"
 
 # >> General
@@ -84,6 +94,10 @@ settings:
   scope: keyword, storage.type, storage.modifier
   settings:
     foreground: '<%= scheme.base.purple %>'
+
+- name: Keyword, Storage
+  scope: storage.type, keyword.control
+  settings:
     fontStyle: 'italic'
 
 - name: Operator, Misc
@@ -287,6 +301,12 @@ settings:
   scope: text.html.markdown markup.raw.inline
   settings:
     background: '<%= scheme.invisibles %>'
+
+- name: Markdown - Markup Raw Inline Punctuation
+  scope: text.html.markdown punctuation.definition.raw.markdown
+  settings:
+    background: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.base.black %>'
 
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break
