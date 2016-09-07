@@ -3,7 +3,7 @@ import sublime
 import sublime_plugin
 import textwrap
 
-__version__ = '3.1.11'
+__version__ = '3.1.12'
 __pc_name__ = 'Material Theme'
 
 

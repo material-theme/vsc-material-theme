@@ -1,3 +1,21 @@
+<a name="3.1.12"></a>
+## [3.1.12](https://github.com/equinusocio/material-theme/compare/v3.1.7...v3.1.12) (2016-09-07)
+
+
+### Bug Fixes
+
+* Fix active guide color ([b875899](https://github.com/equinusocio/material-theme/commit/b875899))
+* Fix markdown inline code punctuation ([334301f](https://github.com/equinusocio/material-theme/commit/334301f)), closes [#974](https://github.com/equinusocio/material-theme/issues/974)
+* Fix regression from 3.1.11. Italic stile for storage and keywords ([fa7301f](https://github.com/equinusocio/material-theme/commit/fa7301f))
+
+
+
+### Features
+
+* add TypeScript popup styles ([66ac683](https://github.com/equinusocio/material-theme/commit/66ac683))
+
+
+
 <a name="3.1.11"></a>
 ## [3.1.11](https://github.com/equinusocio/material-theme/compare/v3.1.7...v3.1.11) (2016-08-30)
 
