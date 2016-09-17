@@ -14,6 +14,8 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 
 Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that does not use the issue template and any issue related to the [known issues section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
 
+This theme support [File Icons Extended](https://github.com/oivva/st-file-icons-extended) package. It adds support of such icons as NPM, Gulpfile, Font & etc.
+
 
 # Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
