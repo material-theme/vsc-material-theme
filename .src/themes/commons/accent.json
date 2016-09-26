@@ -124,7 +124,7 @@
   {
     "class": "icon_folder_loading",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
-    "layer1.texture":
+    "layer0.texture":
     {
       "keyframes":
       [

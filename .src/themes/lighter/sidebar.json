@@ -239,7 +239,7 @@
       "frame_time": 0.075,
     },
 
-    "layer0.opacity": 0.0,
+    "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
 
