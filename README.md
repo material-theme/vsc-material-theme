@@ -187,3 +187,8 @@ Check the video review by **LevelUpTuts**
 
 # Video review
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6eqgrCxprOI/0.jpg)](http://www.youtube.com/watch?v=6eqgrCxprOI)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/equinusocio/material-theme/badge.svg?style=beer-square)](https://beerpay.io/equinusocio/material-theme)  [![Beerpay](https://beerpay.io/equinusocio/material-theme/make-wish.svg?style=flat-square)](https://beerpay.io/equinusocio/material-theme?focus=wish)
