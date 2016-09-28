@@ -19,6 +19,6 @@
   //=include "default/widgets.json"
   //=include "default/buttons.json"
   //=include "commons/accent.json"
-  //=include "default/options.json"
+  //=include "commons/options.json"
   //
 ]

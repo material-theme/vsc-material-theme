@@ -19,6 +19,6 @@
   //=include "darker/widgets.json"
   //=include "darker/buttons.json"
   //=include "commons/accent.json"
-  //=include "darker/options.json"
+  //=include "commons/options.json"
   //
 ]

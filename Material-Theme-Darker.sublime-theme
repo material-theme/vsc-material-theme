@@ -530,7 +530,9 @@
       "layer0.opacity": 1.0,
       "layer0.draw_center": false,
       "layer0.inner_margin": [0, 24, 12, 24],
-      "content_margin": [0, 12, 0, 0]
+      "content_margin": [0, 12, 0, 0],
+      "layer1.tint": [0,0,0],
+      "layer1.opacity": 0.0
     },
     {
       "class": "sidebar_tree",
@@ -539,7 +541,9 @@
       "indent_offset": 0,
       "indent_top_level": false,
       "layer0.tint": [33, 33, 33],
-      "layer0.opacity": 1.0
+      "layer0.opacity": 1.0,
+      "layer1.tint": [0,0,0],
+      "layer1.opacity": 0.0
     },
   
     {
@@ -749,7 +753,7 @@
         "frame_time": 0.075,
       },
   
-      "layer0.opacity": 0.0,
+      "layer0.opacity": 1.0,
       "content_margin": [8, 8]
     },
   
@@ -1069,6 +1073,7 @@
   
     {
       "class": "status_bar",
+      "content_margin": [0, 0],
   
       // Layer 0 base
       "layer0.tint": [33, 33, 33],
@@ -1076,16 +1081,15 @@
       "layer0.inner_margin": [2, 2],
   
       // Visible tint layer
-      "layer1.tint": [33, 33, 33],
-      "layer1.opacity": 1.0,
-      "layer1.inner_margin": [2, 2],
-  
-      "content_margin": [0, 0]
+      "layer1.tint": [0,0,0],
+      "layer1.opacity": 0.0,
     },
+  
     {
       "class": "status_container",
       "content_margin": [24, 12, 24, 12],
     },
+  
     {
       "class": "status_button",
       "layer0.tint": [33, 33, 33],
@@ -1095,6 +1099,7 @@
       "content_margin": [10, 2, 10, 3],
       "min_size": [75, 0]
     },
+  
     {
       "class": "status_button",
       "layer0.tint": [33, 33, 33],
@@ -1118,6 +1123,7 @@
       "attributes": ["hover"],
       "layer0.texture": "Material Theme/assets/commons/overflow_menu--hover.png",
     },
+  
   
   /* @WIDGET PANEL
    * Widget, input, buttons settings and behavioring
@@ -1565,7 +1571,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_lime"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -1873,7 +1879,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_purple"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -2181,7 +2187,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_red"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -2489,7 +2495,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_orange"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -2797,7 +2803,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_yellow"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -3105,7 +3111,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_indigo"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -3413,7 +3419,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_pink"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -3721,7 +3727,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_blue"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -4029,7 +4035,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_cyan"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -4337,7 +4343,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_bright-teal"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -4645,7 +4651,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_acid-lime"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -4953,7 +4959,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_graphite"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -5261,7 +5267,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_brba"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -5569,7 +5575,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_sky"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -5877,7 +5883,7 @@
     {
       "class": "icon_folder_loading",
       "settings": ["material_theme_accent_tomato"],
-      "layer1.texture":
+      "layer0.texture":
       {
         "keyframes":
         [
@@ -6062,11 +6068,11 @@
   
   
   
-  /* @ THEME OPTIONS
-   * Options override
-  ========================================================================= */
+  // @ THEME OPTIONS
+  // Options override
+  // =========================================================================
   
-      // Tabs size ()
+    // Tabs size Settings
   
     {
       "class": "tabset_control",
@@ -6091,7 +6097,7 @@
     {
       "class": "tab_control",
       "settings": ["material_theme_tabs_separator"],
-      "layer3.texture": "Material Theme/assets/darker/tab_separator.png",
+      "layer3.texture": "Material Theme/assets/commons/tab_separator.png",
       "layer3.inner_margin": [1, 1],
       "layer3.opacity": 1.0,
     },
@@ -6112,6 +6118,7 @@
       "layer0.opacity": 0,
       "content_margin": [0, 0]
     },
+  
   
       // Folder animation
   
@@ -6307,8 +6314,7 @@
       "layer1.opacity": 0.0
     },
   
-      // Status bar panel
-  
+    // Status bar panel
     {
       "class": "panel_control",
       "settings": ["material_theme_panel_separator"],
@@ -6322,17 +6328,19 @@
     {
       "class": "sidebar_container",
       "settings": ["material_theme_contrast_mode"],
-      "layer0.tint": [30, 30, 30]
+      "layer1.opacity": 0.2
     },
+  
     {
       "class": "sidebar_tree",
       "settings": ["material_theme_contrast_mode"],
-      "layer0.tint": [30 ,30, 30]
+      "layer1.opacity": 0.2
     },
+  
     {
       "class": "status_bar",
       "settings": ["material_theme_contrast_mode"],
-      "layer1.tint": [30, 30, 30]
+      "layer1.opacity": 0.2
     },
   
       // Compact mode
@@ -6347,8 +6355,15 @@
       "class": "panel_control",
       "settings": ["material_theme_compact_panel"],
       "content_margin": [0, 0, 0, 0],
-    }
+    },
   
+      // File icon contrast
+  
+    {
+      "class": "icon_file_type",
+      "settings": ["material_theme_contrast_fileicon"],
+      "layer0.opacity": 1.0
+    }
   
   //
 ]

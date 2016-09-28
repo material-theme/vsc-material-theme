@@ -52,10 +52,21 @@ gulp.task('clean:widgets', function() {
  * > Generate CHANGELOG
  */
 
+gulp.task('changelog', function() {
+  return conventionalChangelog({
+    preset: 'angular',
+    releaseCount: 0
+  })
+  .pipe(gulp.dest('./'));
+});
+
+
 gulp.task('changelog', function () {
   return gulp.src('CHANGELOG.md')
     .pipe(conventionalChangelog({
-      preset: 'angular'
+      // conventional-changelog options go here
+      preset: 'angular',
+      releaseCount: 0
     }))
     .pipe(gulp.dest('./'));
 });
@@ -231,7 +242,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
   );
 });
 
-gulp.task('process:schemes', function(cb) {
+gulp.task('process:schemes', function() {
   return gulp.src(srcPath + '/settings/specific/*.json')
     .pipe($.flatmap(function(stream, file) {
       var basename = path.basename(file.path, path.extname(file.path));
@@ -257,7 +268,7 @@ gulp.task('convert:schemes', function() {
                    'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
        this.emit('end');
     }))
-    .pipe($.flatmap(function(stream, file) {
+    .pipe($.flatmap(function(stream) {
       sleep.sleep(2);
 
       return stream
