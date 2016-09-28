@@ -52,10 +52,21 @@ gulp.task('clean:widgets', function() {
  * > Generate CHANGELOG
  */
 
+gulp.task('changelog', function() {
+  return conventionalChangelog({
+    preset: 'angular',
+    releaseCount: 0
+  })
+  .pipe(gulp.dest('./'));
+});
+
+
 gulp.task('changelog', function () {
   return gulp.src('CHANGELOG.md')
     .pipe(conventionalChangelog({
-      preset: 'angular'
+      // conventional-changelog options go here
+      preset: 'angular',
+      releaseCount: 0
     }))
     .pipe(gulp.dest('./'));
 });
