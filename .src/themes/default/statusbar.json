@@ -26,6 +26,7 @@
 
   {
     "class": "status_bar",
+    "content_margin": [0, 0],
 
     // Layer 0 base
     "layer0.tint": [<%= ui.background.primary.rgb %>],
@@ -33,11 +34,8 @@
     "layer0.inner_margin": [2, 2],
 
     // Visible tint layer
-    "layer1.tint": [<%= ui.background.primary.rgb %>],
-    "layer1.opacity": 1.0,
-    "layer1.inner_margin": [2, 2],
-
-    "content_margin": [0, 0]
+    "layer1.tint": [0,0,0],
+    "layer1.opacity": 0.0,
   },
 
   {

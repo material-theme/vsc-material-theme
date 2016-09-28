@@ -19,6 +19,6 @@
   //=include "lighter/widgets.json"
   //=include "lighter/buttons.json"
   //=include "commons/accent.json"
-  //=include "lighter/options.json"
+  //=include "commons/options.json"
   //
 ]

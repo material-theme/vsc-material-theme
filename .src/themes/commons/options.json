@@ -1,7 +1,7 @@
 
-/* @ THEME OPTIONS
- * Options override
-========================================================================= */
+// @ THEME OPTIONS
+// Options override
+// =========================================================================
 
   // Tabs size Settings
 
@@ -49,6 +49,7 @@
     "layer0.opacity": 0,
     "content_margin": [0, 0]
   },
+
 
     // Folder animation
 
@@ -244,13 +245,12 @@
     "layer1.opacity": 0.0
   },
 
-    // Status bar panel
-
+  // Status bar panel
   {
     "class": "panel_control",
     "settings": ["material_theme_panel_separator"],
     "layer1.texture": "Material Theme/assets/commons/panel_separator.png",
-    "layer1.opacity": 0.1,
+    "layer1.opacity": 0.2,
     "layer1.inner_margin": [2, 2, 2, 2],
   },
 
@@ -259,20 +259,23 @@
   {
     "class": "sidebar_container",
     "settings": ["material_theme_contrast_mode"],
-    "layer0.tint": [240, 240, 240]
+    "layer1.opacity": 0.2
   },
+
   {
     "class": "sidebar_tree",
     "settings": ["material_theme_contrast_mode"],
-    "layer0.tint": [240, 240, 240]
+    "layer1.opacity": 0.2
   },
+
   {
     "class": "status_bar",
     "settings": ["material_theme_contrast_mode"],
-    "layer1.tint": [240, 240, 240]
+    "layer1.opacity": 0.2
   },
 
-  // Compact mode
+    // Compact mode
+
   {
     "class": "sidebar_tree",
     "settings": ["material_theme_compact_sidebar"],
