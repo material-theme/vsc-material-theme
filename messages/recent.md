@@ -1,6 +1,6 @@
 #### Material Theme for Sublime Text 3
 
-## Version 3.1.12
+## Version 3.2.0
 
 ☢️ **************************************************************
     After update, and before open a new "already-closed" issue run:
@@ -9,13 +9,15 @@
 
 📣 BUGFIXES:
 
-  * Fix active guide color ([b875899](https://github.com/equinusocio/material-theme/commit/b875899))
-  * Fix markdown inline code punctuation ([334301f](https://github.com/equinusocio/material-theme/commit/334301f)), closes [#974](https://github.com/equinusocio/material-theme/issues/974)
-  * Fix regression from 3.1.11. Italic stile for storage and keywords ([fa7301f](https://github.com/equinusocio/material-theme/commit/fa7301f))
+  * Fix spinner loader ([21ce73e](https://github.com/equinusocio/material-theme/commit/21ce73e)), closes [#950](https://github.com/equinusocio/material-theme/issues/950)
 
 📣 FEATURES:
 
-  * add TypeScript popup styles ([66ac683](https://github.com/equinusocio/material-theme/commit/66ac683))
+  * Add "material_theme_contrast_fileicon" option ([50fdb53](https://github.com/equinusocio/material-theme/commit/50fdb53))
+  * Add `.ini` file icon ([dcb1484](https://github.com/equinusocio/material-theme/commit/dcb1484))
+  * Add Archive/zip file icon ([6217090](https://github.com/equinusocio/material-theme/commit/6217090))
+  * Add sublime-commands file icon ([97ac304](https://github.com/equinusocio/material-theme/commit/97ac304))
+  * Revisited contrast mode and code refactoring ([ffd375f](https://github.com/equinusocio/material-theme/commit/ffd375f))
 
 
 ********************************************************************************
