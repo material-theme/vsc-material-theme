@@ -133,6 +133,7 @@
     "layer0.opacity": 0.6,
     "content_margin": [9, 9]
   },
+
   {
     "class": "icon_file_type",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],

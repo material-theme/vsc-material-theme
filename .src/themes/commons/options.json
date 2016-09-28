@@ -286,4 +286,12 @@
     "class": "panel_control",
     "settings": ["material_theme_compact_panel"],
     "content_margin": [0, 0, 0, 0],
+  },
+
+    // File icon contrast
+
+  {
+    "class": "icon_file_type",
+    "settings": ["material_theme_contrast_fileicon"],
+    "layer0.opacity": 1.0
   }
