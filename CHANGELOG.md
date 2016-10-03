@@ -1,18 +1,54 @@
-<a name="3.2.0"></a>
-# [3.2.0](https://github.com/equinusocio/material-theme/compare/v3.1.12...v3.2.0) (2016-09-28)
+<a name="3.2.1"></a>
+## [3.2.1](https://github.com/equinusocio/material-theme/compare/v3.2.0...v3.2.1) (2016-10-03)
 
 
 ### Bug Fixes
 
+* Fix sidebar heading color with Appbar Package ([27bf47b](https://github.com/equinusocio/material-theme/commit/27bf47b)), closes [#991](https://github.com/equinusocio/material-theme/issues/991)
+
+
+
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/equinusocio/material-theme/compare/3.2.0...v3.2.0) (2016-09-28)
+
+
+### Bug Fixes
+
+* configurator when it's running right after installation ([ad8d345](https://github.com/equinusocio/material-theme/commit/ad8d345))
+* Fix active guide color ([b875899](https://github.com/equinusocio/material-theme/commit/b875899))
+* Fix changelog links ([7fd8117](https://github.com/equinusocio/material-theme/commit/7fd8117))
+* Fix changelog visual glitches ([cdfe22f](https://github.com/equinusocio/material-theme/commit/cdfe22f))
+* Fix ColorHelper integration ([dc661bb](https://github.com/equinusocio/material-theme/commit/dc661bb)), closes [#939](https://github.com/equinusocio/material-theme/issues/939)
+* Fix folder animation with some settings ([b7446c2](https://github.com/equinusocio/material-theme/commit/b7446c2)), closes [#943](https://github.com/equinusocio/material-theme/issues/943)
+* Fix markdown inline code punctuation ([334301f](https://github.com/equinusocio/material-theme/commit/334301f)), closes [#974](https://github.com/equinusocio/material-theme/issues/974)
+* Fix regression from 3.1.11. Italic stile for storage and keywords ([fa7301f](https://github.com/equinusocio/material-theme/commit/fa7301f))
+* Fix schemes with new mdpopups ([2babeb7](https://github.com/equinusocio/material-theme/commit/2babeb7))
 * Fix spinner loader ([21ce73e](https://github.com/equinusocio/material-theme/commit/21ce73e)), closes [#950](https://github.com/equinusocio/material-theme/issues/950)
+* Fix tooltip foreground color ([50511ef](https://github.com/equinusocio/material-theme/commit/50511ef))
+* improve markdown highlighting ([d96c70a](https://github.com/equinusocio/material-theme/commit/d96c70a))
+* improve markdown highlighting ([865a736](https://github.com/equinusocio/material-theme/commit/865a736))
+* Improve markdown highlighting ([02f1930](https://github.com/equinusocio/material-theme/commit/02f1930))
+* Improved theme configurator for ST < 3119 ([f7764fd](https://github.com/equinusocio/material-theme/commit/f7764fd))
+* popup styling in ST < 3119 ([66586db](https://github.com/equinusocio/material-theme/commit/66586db))
+* R file type icon ([5e2ee0d](https://github.com/equinusocio/material-theme/commit/5e2ee0d))
+* restore >=3114 dependencies ([72d80e9](https://github.com/equinusocio/material-theme/commit/72d80e9))
+* Restore custom find highlight color ([8dc4ab3](https://github.com/equinusocio/material-theme/commit/8dc4ab3))
+* Set italic for storage.type scopes ([e9534c4](https://github.com/equinusocio/material-theme/commit/e9534c4)), closes [#960](https://github.com/equinusocio/material-theme/issues/960)
+* Theme configurator style ([0c17f0a](https://github.com/equinusocio/material-theme/commit/0c17f0a))
+* update configurator styles to support the latest mdpopups ([ac03484](https://github.com/equinusocio/material-theme/commit/ac03484))
 
 
 ### Features
 
 * Add "material_theme_contrast_fileicon" option ([50fdb53](https://github.com/equinusocio/material-theme/commit/50fdb53))
 * Add `.ini` file icon ([dcb1484](https://github.com/equinusocio/material-theme/commit/dcb1484))
+* Add a new Settings command ([aaef00c](https://github.com/equinusocio/material-theme/commit/aaef00c))
+* Add Advanced Config menu action ([f98f00e](https://github.com/equinusocio/material-theme/commit/f98f00e))
 * Add Archive/zip file icon ([6217090](https://github.com/equinusocio/material-theme/commit/6217090))
+* Add Material Theme to Preferences > Package Settings ([4b5af86](https://github.com/equinusocio/material-theme/commit/4b5af86))
 * Add sublime-commands file icon ([97ac304](https://github.com/equinusocio/material-theme/commit/97ac304))
+* add TypeScript popup styles ([66ac683](https://github.com/equinusocio/material-theme/commit/66ac683))
+* New theme activator ([9d0c61a](https://github.com/equinusocio/material-theme/commit/9d0c61a))
 * Revisited contrast mode and code refactoring ([ffd375f](https://github.com/equinusocio/material-theme/commit/ffd375f))
 
 
