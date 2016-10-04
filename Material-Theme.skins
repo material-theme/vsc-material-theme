@@ -1,0 +1,26 @@
+{
+  "Material Theme":
+  {
+    "Preferences":
+    {
+      "theme": "Material Theme.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material.tmTheme"
+    }
+  },
+  "Material Theme - Darker":
+  {
+    "Preferences":
+    {
+      "theme": "Boxy Tomorrow.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme"
+    }
+  },
+  "Material Theme - Lighter":
+  {
+    "Preferences":
+    {
+      "theme": "Boxy Ocean.sublime-theme",
+      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme"
+    }
+  }
+}
