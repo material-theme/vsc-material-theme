@@ -101,7 +101,7 @@ gulp.task('bump-pkg-version', function() {
 
 
 gulp.task('bump-env-version', function() {
-  return gulp.src('./mt_info.py')
+  return gulp.src('./plugins/info.py')
     .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
     .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
     .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
