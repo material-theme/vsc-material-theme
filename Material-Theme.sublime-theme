@@ -6128,16 +6128,6 @@
       "font.bold": true
     },
   
-      // Filetype icons in sidebar
-  
-    {
-      "class": "icon_file_type",
-      "settings": ["material_theme_disable_fileicons"],
-      "layer0.opacity": 0,
-      "content_margin": [0, 0]
-    },
-  
-  
       // Folder animation
   
     {
@@ -6375,12 +6365,13 @@
       "content_margin": [0, 0, 0, 0],
     },
   
-      // File icon contrast
+      // Filetype icons in sidebar
   
     {
       "class": "icon_file_type",
-      "settings": ["material_theme_contrast_fileicon"],
-      "layer0.opacity": 1.0
+      "settings": ["material_theme_disable_fileicons"],
+      "layer0.opacity": 0,
+      "content_margin": [0, 0]
     }
   
   //

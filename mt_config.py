@@ -44,7 +44,6 @@ OPTIONS = OrderedDict(
           'Sidebar',
           [
             'material_theme_disable_fileicons',
-            'material_theme_contrast_fileicon',
             'material_theme_disable_folder_animation',
             'material_theme_compact_sidebar',
             'material_theme_disable_tree_indicator',
