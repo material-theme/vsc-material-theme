@@ -3,24 +3,24 @@
   {
     "Preferences":
     {
-      "theme": "Material Theme.sublime-theme",
-      "color_scheme": "Packages/Material Theme/schemes/Material.tmTheme"
+      "theme": "Material-Theme.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
     }
   },
   "Material Theme - Darker":
   {
     "Preferences":
     {
-      "theme": "Boxy Tomorrow.sublime-theme",
-      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme"
+      "theme": "Material-Theme-Darker.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
     }
   },
   "Material Theme - Lighter":
   {
     "Preferences":
     {
-      "theme": "Boxy Ocean.sublime-theme",
-      "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme"
+      "theme": "Material-Theme-Lighter.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
     }
   }
 }
