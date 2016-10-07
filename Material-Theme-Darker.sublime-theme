@@ -658,7 +658,7 @@
   
     {
       "class": "icon_folder",
-      "content_margin": [10, 8],
+      "content_margin": [11, 7],
       "layer0.tint": [38, 50, 56],
       "layer0.opacity": 0,
       "layer1.texture": "Material Theme/assets/darker/folder.png",
@@ -763,7 +763,7 @@
       "class": "icon_folder_dup",
       "layer0.texture": "Material Theme/assets/darker/folder_dup.png",
       "layer0.opacity": 1.0,
-      "content_margin": [10, 8]
+      "content_margin": [11, 7]
     },
   
     {
