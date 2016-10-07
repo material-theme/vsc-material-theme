@@ -61,16 +61,6 @@ gulp.task('changelog', function() {
 });
 
 
-gulp.task('changelog', function () {
-  return gulp.src('CHANGELOG.md')
-    .pipe(conventionalChangelog({
-      // conventional-changelog options go here
-      preset: 'angular',
-      releaseCount: 0
-    }))
-    .pipe(gulp.dest('./'));
-});
-
 /*
  * > Bump Version
  */
@@ -96,7 +86,7 @@ gulp.task('bump-pkg-version', function() {
     .pipe($.if(argv.patch, $.bump()))
     .pipe($.if(argv.minor, $.bump({ type: 'minor' })))
     .pipe($.if(argv.major, $.bump({ type: 'major' })))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./plugins'));
 });
 
 
