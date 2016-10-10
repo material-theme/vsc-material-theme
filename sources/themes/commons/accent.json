@@ -306,4 +306,12 @@
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_reverse--hover.png",
   },
+
+    // Minimap
+
+  {
+    "class": "minimap_control",
+    "settings": ["always_show_minimap_viewport","material_theme_accent_<%= ui.accents[i].id %>"],
+    "viewport_color": [<%= ui.accents[i].rgb %>, 80]
+  },
 <% } %>

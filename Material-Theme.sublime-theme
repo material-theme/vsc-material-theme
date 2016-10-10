@@ -1045,7 +1045,7 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport"],
       "viewport_color": [128, 203, 196, 80],
-      "viewport_opacity": 0.4,
+      "viewport_opacity": 0.6,
     },
   
     {
@@ -1772,6 +1772,14 @@
       "layer0.texture": "Material Theme/assets/accent-lime/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_lime"],
+      "viewport_color": [124, 179, 66, 80]
+    },
+  
   // Purple Accent Color
   // ===========================================================================
   
@@ -2078,6 +2086,14 @@
       "class": "icon_reverse",
       "settings": ["material_theme_accent_purple"],
       "layer0.texture": "Material Theme/assets/accent-purple/find_reverse--hover.png",
+    },
+  
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_purple"],
+      "viewport_color": [171, 71, 188, 80]
     },
   
   // Red Accent Color
@@ -2388,6 +2404,14 @@
       "layer0.texture": "Material Theme/assets/accent-red/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_red"],
+      "viewport_color": [229, 115, 115, 80]
+    },
+  
   // Orange Accent Color
   // ===========================================================================
   
@@ -2694,6 +2718,14 @@
       "class": "icon_reverse",
       "settings": ["material_theme_accent_orange"],
       "layer0.texture": "Material Theme/assets/accent-orange/find_reverse--hover.png",
+    },
+  
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_orange"],
+      "viewport_color": [255, 112, 66, 80]
     },
   
   // Yellow Accent Color
@@ -3004,6 +3036,14 @@
       "layer0.texture": "Material Theme/assets/accent-yellow/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_yellow"],
+      "viewport_color": [255, 160, 0, 80]
+    },
+  
   // Indigo Accent Color
   // ===========================================================================
   
@@ -3310,6 +3350,14 @@
       "class": "icon_reverse",
       "settings": ["material_theme_accent_indigo"],
       "layer0.texture": "Material Theme/assets/accent-indigo/find_reverse--hover.png",
+    },
+  
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_indigo"],
+      "viewport_color": [92, 107, 192, 80]
     },
   
   // Pink Accent Color
@@ -3620,6 +3668,14 @@
       "layer0.texture": "Material Theme/assets/accent-pink/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_pink"],
+      "viewport_color": [255, 64, 129, 80]
+    },
+  
   // Blue Accent Color
   // ===========================================================================
   
@@ -3926,6 +3982,14 @@
       "class": "icon_reverse",
       "settings": ["material_theme_accent_blue"],
       "layer0.texture": "Material Theme/assets/accent-blue/find_reverse--hover.png",
+    },
+  
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_blue"],
+      "viewport_color": [41, 121, 255, 80]
     },
   
   // Cyan Accent Color
@@ -4236,6 +4300,14 @@
       "layer0.texture": "Material Theme/assets/accent-cyan/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_cyan"],
+      "viewport_color": [0, 188, 212, 80]
+    },
+  
   // Bright Teal Accent Color
   // ===========================================================================
   
@@ -4542,6 +4614,14 @@
       "class": "icon_reverse",
       "settings": ["material_theme_accent_bright-teal"],
       "layer0.texture": "Material Theme/assets/accent-bright-teal/find_reverse--hover.png",
+    },
+  
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_bright-teal"],
+      "viewport_color": [100, 255, 218, 80]
     },
   
   // Acid Lime Accent Color
@@ -4852,6 +4932,14 @@
       "layer0.texture": "Material Theme/assets/accent-acid-lime/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_acid-lime"],
+      "viewport_color": [198, 255, 0, 80]
+    },
+  
   // Graphite Accent Color
   // ===========================================================================
   
@@ -5158,6 +5246,14 @@
       "class": "icon_reverse",
       "settings": ["material_theme_accent_graphite"],
       "layer0.texture": "Material Theme/assets/accent-graphite/find_reverse--hover.png",
+    },
+  
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_graphite"],
+      "viewport_color": [97, 97, 97, 80]
     },
   
   // Breaking Bad Accent Color
@@ -5468,6 +5564,14 @@
       "layer0.texture": "Material Theme/assets/accent-brba/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_brba"],
+      "viewport_color": [56, 142, 60, 80]
+    },
+  
   // Sky Accent Color
   // ===========================================================================
   
@@ -5776,6 +5880,14 @@
       "layer0.texture": "Material Theme/assets/accent-sky/find_reverse--hover.png",
     },
   
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_sky"],
+      "viewport_color": [132, 255, 255, 80]
+    },
+  
   // Tomato Accent Color
   // ===========================================================================
   
@@ -6082,6 +6194,14 @@
       "class": "icon_reverse",
       "settings": ["material_theme_accent_tomato"],
       "layer0.texture": "Material Theme/assets/accent-tomato/find_reverse--hover.png",
+    },
+  
+      // Minimap
+  
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport","material_theme_accent_tomato"],
+      "viewport_color": [244, 67, 54, 80]
     },
   
   
