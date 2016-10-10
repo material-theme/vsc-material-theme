@@ -100,6 +100,9 @@
   // Hide the tree file icons
   "material_theme_disable_fileicons": false,
 
+  // Show bigger file type icons
+  "material_theme_big_fileicons": false,
+
   // Disable the folder animation inside the tree view
   "material_theme_disable_folder_animation": false,
 
