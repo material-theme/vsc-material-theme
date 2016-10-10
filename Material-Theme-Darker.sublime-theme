@@ -6354,6 +6354,21 @@
       "settings": ["material_theme_disable_fileicons"],
       "layer0.opacity": 0,
       "content_margin": [0, 0]
+    },
+  
+      // Bigger file_type icons
+  
+    {
+      "class": "icon_file_type",
+      "settings": ["material_theme_big_fileicons"],
+      "content_margin": [11, 11]
+    },
+  
+    {
+      "class": "icon_file_type",
+      "settings": ["material_theme_big_fileicons"],
+      "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+      "content_margin": [11, 11]
     }
   
   //
