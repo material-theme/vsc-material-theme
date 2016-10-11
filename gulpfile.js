@@ -96,7 +96,7 @@ gulp.task('bump-env-version', function() {
     .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
     .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
     .pipe($.if(argv.major, $.bump({ type: 'major', regex: envRegExp })))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./plugins'));
 });
 
 /*
