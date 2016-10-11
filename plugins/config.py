@@ -5,8 +5,8 @@ Material Theme Config.
 '''
 import sublime
 import sublime_plugin
-import os
 import mdpopups
+import os
 from collections import OrderedDict
 
 OPTIONS = OrderedDict(
