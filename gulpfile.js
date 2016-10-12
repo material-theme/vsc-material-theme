@@ -71,9 +71,9 @@ gulp.task('bump', function(cb) {
     'bump-env-version',
     function (error) {
       if (error) {
-        console.log('[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
+        console.log('\n[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
       } else {
-        console.log('[bump]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[bump]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
       cb(error);
     }
@@ -157,9 +157,9 @@ gulp.task('release', function(cb) {
     'github-release',
     function (error) {
       if (error) {
-        console.log('[release]'.bold.magenta + ' There was an issue releasing themes:\n'.bold.red + error.message);
+        console.log('\n[release]'.bold.magenta + ' There was an issue releasing themes:\n'.bold.red + error.message);
       } else {
-        console.log('[release]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[release]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
       cb(error);
     }
@@ -178,9 +178,9 @@ gulp.task('build', function(cb) {
     'build:widgets',
     function (error) {
       if (error) {
-        console.log('[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message);
+        console.log('\n[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message);
       } else {
-        console.log('[build]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[build]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
 
       cb(error);
@@ -193,7 +193,7 @@ gulp.task('build', function(cb) {
 gulp.task('build:themes', ['clean:themes'], function() {
   return gulp.src(srcPath + '/themes/*.json')
     .pipe($.plumber(function(error) {
-      console.log('[build:themes]'.bold.magenta + ' There was an issue building themes:\n'.bold.red + error.message);
+      console.log('\n[build:themes]'.bold.magenta + ' There was an issue building themes:\n'.bold.red + error.message);
       this.emit('end');
     }))
     .pipe($.include())
@@ -208,7 +208,7 @@ gulp.task('build:themes', ['clean:themes'], function() {
     }))
     .pipe(gulp.dest('./'))
     .on('end', function() {
-      console.log('[build:themes]'.bold.magenta + ' Finished successfully'.bold.green);
+      console.log('\n[build:themes]'.bold.magenta + ' Finished successfully \n'.bold.green);
     });
 });
 
@@ -224,7 +224,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
       if (error) {
         console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
       } else {
-        console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[build:schemes]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
 
       cb(error);
@@ -254,7 +254,7 @@ gulp.task('process:schemes', function() {
 gulp.task('convert:schemes', function() {
   return gulp.src('./schemes/*.YAML-tmTheme')
     .pipe($.plumber(function(error) {
-       console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
+       console.log('\n[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
                    'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
        this.emit('end');
     }))
@@ -289,7 +289,7 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
       if (error) {
         console.log('[build:widgets]'.bold.magenta + ' There was an issue building widgets:\n'.bold.red + error.message);
       } else {
-        console.log('[build:widgets]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[build:widgets]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
 
       cb(error);
