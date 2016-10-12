@@ -52,171 +52,20 @@
     "layer3.texture": "Material Theme/assets/commons/folder--hover.png",
   },
 
-    // Folder animation Lime
+    // Folder hover no animation
+
+  <% for (var i = 0; i < ui.accents.length; i++) { %>
 
   {
     "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_lime"],
+    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_<%= ui.accents[i].id %>"],
     "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
     "layer1.opacity": 0.0,
     "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-lime/folder--hover.png",
+    "layer3.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder--hover.png",
   },
 
-    // Folder animation Purple
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_purple"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-purple/folder--hover.png",
-  },
-
-    // Folder animation Red
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_red"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-red/folder--hover.png",
-  },
-
-    // Folder animation Orange
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_orange"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-orange/folder--hover.png",
-  },
-
-    // Folder animation Yellow
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_yellow"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-yellow/folder--hover.png",
-  },
-
-
-    // Folder animation Indigo
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_indigo"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-indigo/folder--hover.png",
-  },
-
-    // Folder animation Pink
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_pink"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-pink/folder--hover.png",
-  },
-
-    // Folder animation Blue
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_blue"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-blue/folder--hover.png",
-  },
-
-    // Folder animation Cyan
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_cyan"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-cyan/folder--hover.png",
-  },
-
-    // Folder animation Bright teal
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_bright-teal"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-bright-teal/folder--hover.png",
-  },
-
-    // Folder animation Acid lime
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_acid-lime"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-acid-lime/folder--hover.png",
-  },
-
-    // Folder animation Graphite
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_graphite"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-graphite/folder--hover.png",
-  },
-
-    // Folder animation Breaking bad
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_brba"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-brba/folder--hover.png",
-  },
-
-    // Folder animation Sky
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_sky"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-sky/folder--hover.png",
-  },
-
-    // Folder animation Tomato
-
-  {
-    "class": "icon_folder",
-    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_tomato"],
-    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.texture": "Material Theme/assets/accent-tomato/folder--hover.png",
-  },
+  <% } %>
 
     // Small status bar
 

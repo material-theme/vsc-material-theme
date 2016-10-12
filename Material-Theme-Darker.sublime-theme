@@ -6241,7 +6241,9 @@
       "layer3.texture": "Material Theme/assets/commons/folder--hover.png",
     },
   
-      // Folder animation Lime
+      // Folder hover no animation
+  
+    
   
     {
       "class": "icon_folder",
@@ -6252,7 +6254,7 @@
       "layer3.texture": "Material Theme/assets/accent-lime/folder--hover.png",
     },
   
-      // Folder animation Purple
+    
   
     {
       "class": "icon_folder",
@@ -6263,7 +6265,7 @@
       "layer3.texture": "Material Theme/assets/accent-purple/folder--hover.png",
     },
   
-      // Folder animation Red
+    
   
     {
       "class": "icon_folder",
@@ -6274,7 +6276,7 @@
       "layer3.texture": "Material Theme/assets/accent-red/folder--hover.png",
     },
   
-      // Folder animation Orange
+    
   
     {
       "class": "icon_folder",
@@ -6285,7 +6287,7 @@
       "layer3.texture": "Material Theme/assets/accent-orange/folder--hover.png",
     },
   
-      // Folder animation Yellow
+    
   
     {
       "class": "icon_folder",
@@ -6296,8 +6298,7 @@
       "layer3.texture": "Material Theme/assets/accent-yellow/folder--hover.png",
     },
   
-  
-      // Folder animation Indigo
+    
   
     {
       "class": "icon_folder",
@@ -6308,7 +6309,7 @@
       "layer3.texture": "Material Theme/assets/accent-indigo/folder--hover.png",
     },
   
-      // Folder animation Pink
+    
   
     {
       "class": "icon_folder",
@@ -6319,7 +6320,7 @@
       "layer3.texture": "Material Theme/assets/accent-pink/folder--hover.png",
     },
   
-      // Folder animation Blue
+    
   
     {
       "class": "icon_folder",
@@ -6330,7 +6331,7 @@
       "layer3.texture": "Material Theme/assets/accent-blue/folder--hover.png",
     },
   
-      // Folder animation Cyan
+    
   
     {
       "class": "icon_folder",
@@ -6341,7 +6342,7 @@
       "layer3.texture": "Material Theme/assets/accent-cyan/folder--hover.png",
     },
   
-      // Folder animation Bright teal
+    
   
     {
       "class": "icon_folder",
@@ -6352,7 +6353,7 @@
       "layer3.texture": "Material Theme/assets/accent-bright-teal/folder--hover.png",
     },
   
-      // Folder animation Acid lime
+    
   
     {
       "class": "icon_folder",
@@ -6363,7 +6364,7 @@
       "layer3.texture": "Material Theme/assets/accent-acid-lime/folder--hover.png",
     },
   
-      // Folder animation Graphite
+    
   
     {
       "class": "icon_folder",
@@ -6374,7 +6375,7 @@
       "layer3.texture": "Material Theme/assets/accent-graphite/folder--hover.png",
     },
   
-      // Folder animation Breaking bad
+    
   
     {
       "class": "icon_folder",
@@ -6385,7 +6386,7 @@
       "layer3.texture": "Material Theme/assets/accent-brba/folder--hover.png",
     },
   
-      // Folder animation Sky
+    
   
     {
       "class": "icon_folder",
@@ -6396,7 +6397,7 @@
       "layer3.texture": "Material Theme/assets/accent-sky/folder--hover.png",
     },
   
-      // Folder animation Tomato
+    
   
     {
       "class": "icon_folder",
@@ -6406,6 +6407,8 @@
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-tomato/folder--hover.png",
     },
+  
+    
   
       // Small status bar
   
