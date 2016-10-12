@@ -6881,6 +6881,17 @@
       "layer3.texture": "Material Theme/assets/commons/folder--hover.png",
     },
   
+      // Disable Folder animation
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
+    },
+  
       // Folder hover no animation
   
     
@@ -6894,6 +6905,15 @@
       "layer3.texture": "Material Theme/assets/accent-lime/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_lime"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-lime/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -6903,6 +6923,15 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-purple/folder--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_purple"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-purple/arrow_folder--opened.png",
     },
   
     
@@ -6916,6 +6945,15 @@
       "layer3.texture": "Material Theme/assets/accent-red/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_red"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-red/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -6925,6 +6963,15 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-orange/folder--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_orange"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-orange/arrow_folder--opened.png",
     },
   
     
@@ -6938,6 +6985,15 @@
       "layer3.texture": "Material Theme/assets/accent-yellow/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_yellow"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-yellow/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -6947,6 +7003,15 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-indigo/folder--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_indigo"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-indigo/arrow_folder--opened.png",
     },
   
     
@@ -6960,6 +7025,15 @@
       "layer3.texture": "Material Theme/assets/accent-pink/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_pink"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-pink/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -6969,6 +7043,15 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-blue/folder--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_blue"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-blue/arrow_folder--opened.png",
     },
   
     
@@ -6982,6 +7065,15 @@
       "layer3.texture": "Material Theme/assets/accent-cyan/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_cyan"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-cyan/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -6991,6 +7083,15 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-bright-teal/folder--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_bright-teal"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-bright-teal/arrow_folder--opened.png",
     },
   
     
@@ -7004,6 +7105,15 @@
       "layer3.texture": "Material Theme/assets/accent-acid-lime/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_acid-lime"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-acid-lime/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -7013,6 +7123,15 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-graphite/folder--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_graphite"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-graphite/arrow_folder--opened.png",
     },
   
     
@@ -7026,6 +7145,15 @@
       "layer3.texture": "Material Theme/assets/accent-brba/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_brba"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-brba/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -7037,6 +7165,15 @@
       "layer3.texture": "Material Theme/assets/accent-sky/folder--hover.png",
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_sky"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-sky/arrow_folder--opened.png",
+    },
+  
     
   
     {
@@ -7046,6 +7183,15 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.texture": "Material Theme/assets/accent-tomato/folder--hover.png",
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_tomato"],
+      "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+      "layer1.opacity": 0.0,
+      "layer2.opacity": 0.0,
+      "layer3.texture": "Material Theme/assets/accent-tomato/arrow_folder--opened.png",
     },
   
     
