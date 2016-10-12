@@ -155,6 +155,19 @@
     "layer3.opacity": 0.0,
   },
 
+      // Arrow icon folder
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders"],
+    "layer0.opacity": 0,
+    "layer1.texture": "Material Theme/assets/lighter/arrow_folder.png",
+    "layer1.opacity": 1,
+    "layer2.texture": "Material Theme/assets/commons/arrow_folder--hover.png",
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
+    "layer3.opacity": 0.0
+  },
+
   {
     "class": "icon_folder",
     "parents":
@@ -208,6 +221,15 @@
     "layer2.opacity": 0.0,
     "layer3.opacity": 1.0,
   },
+
+    // Arrow icon folder Expandend - Hover
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
+  },
+
 
   {
     "class": "icon_folder",

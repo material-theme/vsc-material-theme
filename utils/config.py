@@ -46,6 +46,7 @@ OPTIONS = OrderedDict(
             'material_theme_big_fileicons',
             'material_theme_disable_fileicons',
             'material_theme_disable_folder_animation',
+            'material_theme_arrow_folders',
             'material_theme_compact_sidebar',
             'material_theme_disable_tree_indicator',
             'material_theme_tree_headings'

@@ -106,6 +106,9 @@
   // Disable the folder animation inside the tree view
   "material_theme_disable_folder_animation": false,
 
+  // Replace folder icons with arrows
+  "material_theme_arrow_folders": false,
+
   // Reduce the size of the sidebar/tree
   "material_theme_compact_sidebar": false,
 

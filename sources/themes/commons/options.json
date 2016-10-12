@@ -41,7 +41,7 @@
     "font.bold": true
   },
 
-    // Folder animation
+    // Disable Folder animation
 
   {
     "class": "icon_folder",
