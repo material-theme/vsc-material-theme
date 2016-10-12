@@ -16,8 +16,6 @@ This theme brings the [Material Design](http://www.google.com/design/) visual la
 
 Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that does not use the issue template and any issue related to the [known issues section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
 
-This theme support [File Icons Extended](https://github.com/oivva/st-file-icons-extended) package. It adds support of such icons as NPM, Gulpfile, Font & etc.
-
 
 # Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
@@ -54,22 +52,15 @@ This theme provide a visual configuration tool that allow you to configure the t
 #### Advanced configuration
 If you like the advanced text text-configuration you can use it by the `Material Theme > Advanced configuration` command both from context menu and command palette.
 
-#### Old Color Schemes
-
-You can still use the oldest and **unsupported** color schemes.
-
-```json
-"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
-"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Darker.tmTheme",
-"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme-Lighter.tmTheme",
-```
-
 # Known issues
 Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/67) if you can't see the bottom panel (find/replace, rename, move, can't see the box inputs in SidebarEnhancement, etc..). here the quick fix:
 
 ![Drag the top edge](https://cloud.githubusercontent.com/assets/474329/8178894/a0dd09c0-1412-11e5-8ecf-f7f9ade439ae.gif)
 
 # Addons
+
+#### File icons
+From release 4.0.0 this theme use [zz File Icons](https://github.com/oivva/zz-file-icons) package to display file icons. Please install the package and restart Sublime Text.
 
 #### App Bar
 
