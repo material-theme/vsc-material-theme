@@ -1,6 +1,6 @@
 {
   "name": "Material-Theme-Lighter",
-  "semanticClass": "material.theme.dark",
+  "semanticClass": "material.theme.lighter",
   "uuid": "133d1250-19c6-4565-bc93-b37fd36f7fc9",
   "ui": {
     "id": "material-theme",

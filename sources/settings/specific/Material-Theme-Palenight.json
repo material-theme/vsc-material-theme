@@ -1,0 +1,66 @@
+{
+  "name": "Material-Theme-Palenight",
+  "semanticClass": "material.theme.palenight",
+  "uuid": "133d1250-19c6-4565-bc93-b37fd36f7fc9",
+  "ui": {
+    "id": "material-theme",
+    "variant": {
+      "id": "palenight",
+      "name": "Palenight"
+    },
+    "background": {
+      "primary": {
+        "hex": "#151827",
+        "rgb": "21, 24, 39"
+      },
+      "scrollbar": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "foreground": {
+      "primary": {
+        "hex": "#4E5579",
+        "rgb": "78, 85, 121"
+      },
+      "selected": {
+        "hex": "#dddfe1",
+        "rgb": "221, 223, 225"
+      }
+    }
+  },
+  "scheme": {
+    "background": "#151827",
+    "comments": "#4E5579",
+    "caret": "#FFCC00",
+    "findHighlight": "#F8E71C",
+    "foreground": "#717CB4",
+    "guides": "#4E557980",
+    "activeGuide": "#828ED5",
+    "stackGuides": "#4E5579",
+    "gutter": "#292D44",
+    "invisibles": "#292D44",
+    "highlight": "#00000050",
+    "selection": "#80CBC420",
+    "shadow": "#00000010",
+    "keywords": "#cfd8dc",
+    "constant": "#80CBC4",
+    "string": "#F9355A",
+    "constantEscape": "#FFC400",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#FF5370",
+      "orange": "#F78C6C",
+      "yellow": "#FFCB6B",
+      "green": "#C3E88D",
+      "cyan": "#89DDFF",
+      "blue": "#82AAFF",
+      "paleblue": "#B2CCD6",
+      "purple": "#C792EA",
+      "brown": "#C17E70",
+      "pink": "#f07178",
+      "violet": "#bb80b3"
+    }
+  }
+}

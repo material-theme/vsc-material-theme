@@ -1,0 +1,24 @@
+// >
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most epic theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  //=include "palenight/app.json"
+  //=include "palenight/dialog.json"
+  //=include "palenight/code_folding.json"
+  //=include "palenight/autocomplete.json"
+  //=include "palenight/tooltip.json"
+  //=include "palenight/overlay_panels.json"
+  //=include "palenight/tabs.json"
+  //=include "palenight/sidebar.json"
+  //=include "palenight/scrollbars.json"
+  //=include "palenight/minimap.json"
+  //=include "palenight/statusbar.json"
+  //=include "palenight/widgets.json"
+  //=include "palenight/buttons.json"
+  //=include "commons/accent.json"
+  //=include "commons/options.json"
+  //
+]

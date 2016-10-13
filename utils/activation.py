@@ -13,7 +13,8 @@ PREFERENCES = 'Preferences.sublime-settings'
 THEMES = [
   'Material-Theme',
   'Material-Theme-Darker',
-  'Material-Theme-Lighter'
+  'Material-Theme-Lighter',
+  'Material-Theme-Palenight'
 ]
 
 def get_color_scheme():
