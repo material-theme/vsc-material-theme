@@ -22,5 +22,13 @@
       "theme": "Material-Theme-Lighter.sublime-theme",
       "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
     }
+  },
+  "Material Theme - Palenight":
+  {
+    "Preferences":
+    {
+      "theme": "Material-Theme-Palenight.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+    }
   }
 }

@@ -92,7 +92,7 @@
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [84, 110, 122, 255],
+    "fg": [84, 110, 122],
     "match_fg": [128, 203, 196, 255],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [128, 203, 196, 255]
@@ -112,6 +112,6 @@
 
   {
     "class": "quick_panel_score_label",
-    "fg": [128, 203, 196, 255],
+    "fg": [84, 110, 122],
     "selected_fg": [255, 255, 255, 255]
   },

@@ -29,7 +29,7 @@
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [84, 110, 122],
+    "layer0.tint": [<%= ui.foreground.primary.rgb %>],
     "layer0.opacity": 0.3
   },
 
@@ -74,7 +74,7 @@
   {
     "class": "quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [84, 110, 122],
+    "layer0.tint": [<%= ui.foreground.primary.rgb %>],
     "layer0.opacity": 0.3,
     "layer1.opacity": 0.0
   },
@@ -94,7 +94,7 @@
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [176, 190, 197, 255],
+    "fg": [166, 172, 205],
     "match_fg": [128, 203, 196, 255],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [128, 203, 196, 255]
@@ -104,7 +104,7 @@
 
   {
     "class": "quick_panel_path_label",
-    "fg": [84, 110, 122, 255],
+    "fg": [<%= ui.foreground.primary.rgb %>, 255],
     "match_fg": [128, 203, 196, 255],
     "selected_fg": [255, 255, 255, 255],
     "selected_match_fg": [128, 203, 196, 255]
@@ -114,6 +114,6 @@
 
   {
     "class": "quick_panel_score_label",
-    "fg": [128, 203, 196, 255],
+    "fg": [166, 172, 205, 255],
     "selected_fg": [255, 255, 255, 255]
   },

@@ -28,7 +28,7 @@
 
   {
     "class": "table_row",
-    "layer0.tint": [84, 110, 122],
+    "layer0.tint": [<%= ui.foreground.primary.rgb %>],
     "layer0.opacity": 0.0,
   },
 

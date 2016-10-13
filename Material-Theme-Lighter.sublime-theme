@@ -231,7 +231,7 @@
     {
       "class": "quick_panel_label",
       "parents": [{"class": "overlay_control"}],
-      "fg": [84, 110, 122, 255],
+      "fg": [84, 110, 122],
       "match_fg": [128, 203, 196, 255],
       "selected_fg": [255, 255, 255, 255],
       "selected_match_fg": [128, 203, 196, 255]
@@ -251,7 +251,7 @@
   
     {
       "class": "quick_panel_score_label",
-      "fg": [128, 203, 196, 255],
+      "fg": [84, 110, 122],
       "selected_fg": [255, 255, 255, 255]
     },
   
@@ -1719,13 +1719,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_lime"],
-      "fg": [124, 179, 66],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_lime"],
       "layer1.texture": "Material Theme/assets/accent-lime/overflow_menu--hover.png",
@@ -2073,13 +2066,6 @@
     },
   
       // Panels data / score
-  
-    {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_purple"],
-      "fg": [171, 71, 188],
-      "selected_fg": [255, 255, 255, 255]
-    },
   
     {
       "class": "show_tabs_dropdown_button",
@@ -2431,13 +2417,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_red"],
-      "fg": [229, 115, 115],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_red"],
       "layer1.texture": "Material Theme/assets/accent-red/overflow_menu--hover.png",
@@ -2785,13 +2764,6 @@
     },
   
       // Panels data / score
-  
-    {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_orange"],
-      "fg": [255, 112, 66],
-      "selected_fg": [255, 255, 255, 255]
-    },
   
     {
       "class": "show_tabs_dropdown_button",
@@ -3143,13 +3115,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_yellow"],
-      "fg": [255, 160, 0],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_yellow"],
       "layer1.texture": "Material Theme/assets/accent-yellow/overflow_menu--hover.png",
@@ -3497,13 +3462,6 @@
     },
   
       // Panels data / score
-  
-    {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_indigo"],
-      "fg": [92, 107, 192],
-      "selected_fg": [255, 255, 255, 255]
-    },
   
     {
       "class": "show_tabs_dropdown_button",
@@ -3855,13 +3813,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_pink"],
-      "fg": [255, 64, 129],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_pink"],
       "layer1.texture": "Material Theme/assets/accent-pink/overflow_menu--hover.png",
@@ -4209,13 +4160,6 @@
     },
   
       // Panels data / score
-  
-    {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_blue"],
-      "fg": [41, 121, 255],
-      "selected_fg": [255, 255, 255, 255]
-    },
   
     {
       "class": "show_tabs_dropdown_button",
@@ -4567,13 +4511,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_cyan"],
-      "fg": [0, 188, 212],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_cyan"],
       "layer1.texture": "Material Theme/assets/accent-cyan/overflow_menu--hover.png",
@@ -4921,13 +4858,6 @@
     },
   
       // Panels data / score
-  
-    {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_bright-teal"],
-      "fg": [100, 255, 218],
-      "selected_fg": [255, 255, 255, 255]
-    },
   
     {
       "class": "show_tabs_dropdown_button",
@@ -5279,13 +5209,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_acid-lime"],
-      "fg": [198, 255, 0],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_acid-lime"],
       "layer1.texture": "Material Theme/assets/accent-acid-lime/overflow_menu--hover.png",
@@ -5633,13 +5556,6 @@
     },
   
       // Panels data / score
-  
-    {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_graphite"],
-      "fg": [97, 97, 97],
-      "selected_fg": [255, 255, 255, 255]
-    },
   
     {
       "class": "show_tabs_dropdown_button",
@@ -5991,13 +5907,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_brba"],
-      "fg": [56, 142, 60],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_brba"],
       "layer1.texture": "Material Theme/assets/accent-brba/overflow_menu--hover.png",
@@ -6347,13 +6256,6 @@
       // Panels data / score
   
     {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_sky"],
-      "fg": [132, 255, 255],
-      "selected_fg": [255, 255, 255, 255]
-    },
-  
-    {
       "class": "show_tabs_dropdown_button",
       "settings": ["material_theme_accent_sky"],
       "layer1.texture": "Material Theme/assets/accent-sky/overflow_menu--hover.png",
@@ -6701,13 +6603,6 @@
     },
   
       // Panels data / score
-  
-    {
-      "class": "quick_panel_score_label",
-      "settings": ["material_theme_accent_tomato"],
-      "fg": [244, 67, 54],
-      "selected_fg": [255, 255, 255, 255]
-    },
   
     {
       "class": "show_tabs_dropdown_button",

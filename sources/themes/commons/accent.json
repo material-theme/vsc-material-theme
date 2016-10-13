@@ -244,13 +244,6 @@
     // Panels data / score
 
   {
-    "class": "quick_panel_score_label",
-    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
-    "fg": [<%= ui.accents[i].rgb %>],
-    "selected_fg": [<%= ui.base.white.rgb %>, 255]
-  },
-
-  {
     "class": "show_tabs_dropdown_button",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/overflow_menu--hover.png",

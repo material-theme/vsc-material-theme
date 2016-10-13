@@ -84,7 +84,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-    "color": [175, 189, 196]
+    "color": [166, 172, 205]
   },
 
   {
