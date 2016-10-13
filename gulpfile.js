@@ -369,7 +369,7 @@ gulp.task('optimize:icons', function() {
  * > Watch
  */
 
-gulp.task('watch', function() {
+gulp.task('watch', ["build"], function() {
   gulp.watch(srcPath + '/themes/**/*.json', ['build:themes']);
   gulp.watch(srcPath + '/schemes/scheme.YAML-tmTheme', ['build:schemes']);
   gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
