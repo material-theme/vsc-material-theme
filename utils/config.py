@@ -66,7 +66,7 @@ OPTIONS = OrderedDict(
 
 
 
-BACK = '[❮ BACK](back){: .mt-config .ui-backlink }'
+BACK = '[← BACK](back){: .mt-config .ui-backlink }'
 SECTIONS = '[• %(section)s](::%(section)s){: .mt-config .ui-control }\n'
 SECTION_LABEL = '\n\n## Material Theme - %s\n\n'
 SECTIONS_LABEL = '\n\n## Config - Material Theme\n\n'
