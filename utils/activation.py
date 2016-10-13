@@ -64,9 +64,6 @@ class MtActivateCommand(sublime_plugin.WindowCommand):
 
     self.window.show_quick_panel(quick_list, self.on_done, on_highlight=self.on_highlighted)
 
-    if self.initial_ui_theme.startswith('Material Theme') is False:
-      sublime.set_timeout_async(functools.partial(self.window.run_command, 'insert', args = {'characters': 'Material Theme'}), 100)
-
   def on_highlighted(self, index):
     preview_color_scheme(self._quick_list_to_scheme(index))
     preview_ui_theme(self._quick_list_to_theme(index))
