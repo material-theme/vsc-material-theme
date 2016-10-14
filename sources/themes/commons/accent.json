@@ -44,6 +44,13 @@
     "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/tree_highlight.png",
   },
 
+  {
+    "class": "tree_row",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>", "material_theme_bullet_tree_indicator"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/tree_highlight--bullet.png",
+    "layer1.inner_margin": [22, 16, 0, 0]
+  },
+
     // Tabs
 
   {

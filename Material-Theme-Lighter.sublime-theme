@@ -1519,6 +1519,13 @@
       "layer1.texture": "Material Theme/assets/accent-lime/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_lime", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-lime/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -1866,6 +1873,13 @@
       "class": "tree_row",
       "settings": ["material_theme_accent_purple"],
       "layer1.texture": "Material Theme/assets/accent-purple/tree_highlight.png",
+    },
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_purple", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-purple/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
     },
   
       // Tabs
@@ -2217,6 +2231,13 @@
       "layer1.texture": "Material Theme/assets/accent-red/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_red", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-red/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -2564,6 +2585,13 @@
       "class": "tree_row",
       "settings": ["material_theme_accent_orange"],
       "layer1.texture": "Material Theme/assets/accent-orange/tree_highlight.png",
+    },
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_orange", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-orange/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
     },
   
       // Tabs
@@ -2915,6 +2943,13 @@
       "layer1.texture": "Material Theme/assets/accent-yellow/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_yellow", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-yellow/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -3262,6 +3297,13 @@
       "class": "tree_row",
       "settings": ["material_theme_accent_indigo"],
       "layer1.texture": "Material Theme/assets/accent-indigo/tree_highlight.png",
+    },
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_indigo", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-indigo/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
     },
   
       // Tabs
@@ -3613,6 +3655,13 @@
       "layer1.texture": "Material Theme/assets/accent-pink/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_pink", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-pink/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -3960,6 +4009,13 @@
       "class": "tree_row",
       "settings": ["material_theme_accent_blue"],
       "layer1.texture": "Material Theme/assets/accent-blue/tree_highlight.png",
+    },
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_blue", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-blue/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
     },
   
       // Tabs
@@ -4311,6 +4367,13 @@
       "layer1.texture": "Material Theme/assets/accent-cyan/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_cyan", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-cyan/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -4658,6 +4721,13 @@
       "class": "tree_row",
       "settings": ["material_theme_accent_bright-teal"],
       "layer1.texture": "Material Theme/assets/accent-bright-teal/tree_highlight.png",
+    },
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_bright-teal", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
     },
   
       // Tabs
@@ -5009,6 +5079,13 @@
       "layer1.texture": "Material Theme/assets/accent-acid-lime/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_acid-lime", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -5356,6 +5433,13 @@
       "class": "tree_row",
       "settings": ["material_theme_accent_graphite"],
       "layer1.texture": "Material Theme/assets/accent-graphite/tree_highlight.png",
+    },
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_graphite", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
     },
   
       // Tabs
@@ -5707,6 +5791,13 @@
       "layer1.texture": "Material Theme/assets/accent-brba/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_brba", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-brba/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -6056,6 +6147,13 @@
       "layer1.texture": "Material Theme/assets/accent-sky/tree_highlight.png",
     },
   
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_sky", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-sky/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
+    },
+  
       // Tabs
   
     {
@@ -6403,6 +6501,13 @@
       "class": "tree_row",
       "settings": ["material_theme_accent_tomato"],
       "layer1.texture": "Material Theme/assets/accent-tomato/tree_highlight.png",
+    },
+  
+    {
+      "class": "tree_row",
+      "settings": ["material_theme_accent_tomato", "material_theme_bullet_tree_indicator"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/tree_highlight--bullet.png",
+      "layer1.inner_margin": [22, 16, 0, 0]
     },
   
       // Tabs
