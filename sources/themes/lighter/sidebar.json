@@ -56,6 +56,16 @@
      "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
   },
 
+    // Bullet Tree Indicator
+
+  {
+    "class": "tree_row",
+    "settings": ["material_theme_bullet_tree_indicator"],
+    "attributes": ["selected"],
+    "layer1.texture": "Material Theme/assets/commons/tree_highlight--bullet.png",
+    "layer1.inner_margin": [22, 16, 0, 0]
+  },
+
   {
     "class": "sidebar_label",
     "color": [176, 190, 197],
