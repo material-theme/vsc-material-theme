@@ -10,8 +10,8 @@
     },
     "background": {
       "primary": {
-        "hex": "#151827",
-        "rgb": "21, 24, 39"
+        "hex": "#292D3E",
+        "rgb": "41, 45, 62"
       },
       "scrollbar": {
         "hex": "#ffffff",
@@ -20,8 +20,8 @@
     },
     "foreground": {
       "primary": {
-        "hex": "#4E5579",
-        "rgb": "78, 85, 121"
+        "hex": "#676E95",
+        "rgb": "103, 110, 149"
       },
       "selected": {
         "hex": "#dddfe1",
@@ -30,18 +30,18 @@
     }
   },
   "scheme": {
-    "background": "#151827",
-    "comments": "#4E5579",
+    "background": "#292D3E",
+    "comments": "#676E95",
     "caret": "#FFCC00",
     "findHighlight": "#F8E71C",
-    "foreground": "#717CB4",
+    "foreground": "#676E95",
     "guides": "#4E557980",
     "activeGuide": "#828ED5",
     "stackGuides": "#4E5579",
-    "gutter": "#292D44",
+    "gutter": "#4E5579",
     "invisibles": "#292D44",
-    "highlight": "#00000050",
-    "selection": "#717CB430",
+    "highlight": "#00000030",
+    "selection": "#717CB440",
     "shadow": "#00000010",
     "keywords": "#cfd8dc",
     "constant": "#80CBC4",
