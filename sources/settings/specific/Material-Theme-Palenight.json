@@ -39,7 +39,7 @@
     "activeGuide": "#828ED5",
     "stackGuides": "#4E5579",
     "gutter": "#4E5579",
-    "invisibles": "#292D44",
+    "invisibles": "#4E5579",
     "highlight": "#00000030",
     "selection": "#717CB440",
     "shadow": "#00000010",

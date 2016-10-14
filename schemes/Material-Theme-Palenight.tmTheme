@@ -30,7 +30,7 @@
 				<key>gutterForeground</key>
 				<string>#4E5579</string>
 				<key>invisibles</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>popupCss</key>
@@ -555,7 +555,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 			</dict>
 		</dict>
 		<dict>
@@ -566,7 +566,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
@@ -664,9 +664,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 				<key>foreground</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 			</dict>
 		</dict>
 		<dict>
@@ -769,7 +769,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 			</dict>
 		</dict>
 		<dict>
@@ -806,7 +806,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 			</dict>
 		</dict>
 		<dict>
@@ -926,7 +926,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 			</dict>
 		</dict>
 		<dict>
@@ -937,7 +937,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#292D44</string>
+				<string>#4E5579</string>
 			</dict>
 		</dict>
 		<dict>
