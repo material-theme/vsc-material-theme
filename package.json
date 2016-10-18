@@ -7,9 +7,6 @@
     "colors": "^1.1.2",
     "conventional-github-releaser": "^1.1.2",
     "del": "^2.2.0",
-    "eslint": "^3.0.1",
-    "eslint-config-standard": "^6.1.0",
-    "eslint-plugin-standard": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.4.0",
     "gulp-conventional-changelog": "^1.1.0",
@@ -28,7 +25,7 @@
     "lodash": "^4.15.0",
     "run-sequence": "^1.1.5",
     "sleep": "^4.0.0",
-    "yargs": "^6.0.0"
+    "yargs": "^6.2.0"
   },
   "repository": {
     "type": "git",
