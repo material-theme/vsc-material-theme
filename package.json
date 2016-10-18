@@ -3,6 +3,11 @@
   "version": "3.2.2",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "bt": "gulp build:themes",
+    "bs": "gulp build:schemes"
+  },
   "devDependencies": {
     "colors": "^1.1.2",
     "conventional-github-releaser": "^1.1.2",
