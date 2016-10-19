@@ -8,7 +8,6 @@ When submitting a feature or enhancement request:
 ---
 
 When submitting a bug report, please follow the following template:
-
 ✂ ---------------- ✂ ----------------- ✂ ---------------- ✂ ---------------- 
 
 ### Summary
