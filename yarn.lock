@@ -1266,9 +1266,9 @@ gulp-flatmap@^1.0.0:
     gulp-util "~2.2.14"
     through2 "~0.6.3"
 
-gulp-git@^1.11.0:
-  version "1.11.3"
-  resolved "https://registry.yarnpkg.com/gulp-git/-/gulp-git-1.11.3.tgz#3753c0c2bda7e8882ccb7245e2c6d70666af999a"
+gulp-git@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/gulp-git/-/gulp-git-1.12.0.tgz#a779573d84a344e46d13ecb67182de8e58fcb7f3"
   dependencies:
     any-shell-escape "^0.1.1"
     gulp-util "^3.0.6"
@@ -3276,9 +3276,9 @@ yargs-parser@^4.0.2:
   dependencies:
     camelcase "^3.0.0"
 
-yargs@^6.0.0:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-6.1.1.tgz#95968cdd9bda89d973215b43969b2c82ce0c8032"
+yargs@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-6.2.0.tgz#9001048953def85495a2ce1dcfa690b7ab060fd1"
   dependencies:
     camelcase "^3.0.0"
     cliui "^3.2.0"
