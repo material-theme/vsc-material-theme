@@ -4,7 +4,7 @@
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp build",
+    "build": "gulp",
     "bt": "gulp build:themes",
     "bs": "gulp build:schemes"
   },
