@@ -929,37 +929,37 @@
   
       // Normal Vertical scrollbar track inside overlay panel
   
-    {
-        "class": "scroll_bar_control",
-        "parents": [{"class": "overlay_control"}],
-        "layer0.tint": [38, 50, 56, 0],
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 6],
-        "blur": false
-     },
+    // {
+    //   "class": "scroll_bar_control",
+    //   "parents": [{"class": "overlay_control"}],
+    //   "layer0.tint": [38, 50, 56, 0],
+    //   "layer0.opacity": 1.0,
+    //   "layer0.inner_margin": [0, 6],
+    //   "blur": false
+    // },
   
       // Normal horizontal scrollbar track
   
-     {
-        "class": "scroll_bar_control",
-        "attributes": ["horizontal"],
-        "layer0.texture": "Material Theme/assets/default/normal_bar_horizontal.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [6, 0],
-        "blur": false
-     },
+    {
+      "class": "scroll_bar_control",
+      "attributes": ["horizontal"],
+      "layer0.texture": "Material Theme/assets/default/normal_bar_horizontal.png",
+      "layer0.opacity": 1.0,
+      "layer0.inner_margin": [6, 0],
+      "blur": false
+    },
   
       // Normal horizontal scrollbar track inside overlay panel
   
-    {
-        "class": "scroll_bar_control",
-        "attributes": ["horizontal"],
-        "parents": [{"class": "overlay_control"}],
-        "layer0.tint": [38, 50, 56, 0],
-        "layer0.opacity": 0.0,
-        "layer0.inner_margin": [0, 2],
-        "blur": false
-     },
+    // {
+    //   "class": "scroll_bar_control",
+    //   "attributes": ["horizontal"],
+    //   "parents": [{"class": "overlay_control"}],
+    //   "layer0.tint": [38, 50, 56, 0],
+    //   "layer0.opacity": 0.0,
+    //   "layer0.inner_margin": [0, 2],
+    //   "blur": false
+    // },
   
       // Scrollbars corner
   
