@@ -24,7 +24,7 @@
 				<key>findHighlight</key>
 				<string>#F8E71C</string>
 				<key>foreground</key>
-				<string>#676E95</string>
+				<string>#959DCB</string>
 				<key>guide</key>
 				<string>#4E557980</string>
 				<key>gutterForeground</key>
@@ -34,7 +34,7 @@
 				<key>lineHighlight</key>
 				<string>#00000030</string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { background-color: #292D3E; color: #676E95; padding: 16px; } a { color: #B2CCD6; line-height: 16px; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } .type { color: #89DDFF; font-style: italic; } .param { color: #F78C6C; } .current { text-decoration: underline; } ]]></string>
+				<string><![CDATA[ html { background-color: #292D3E; color: #959DCB; padding: 16px; } a { color: #B2CCD6; line-height: 16px; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } .type { color: #89DDFF; font-style: italic; } .param { color: #F78C6C; } .current { text-decoration: underline; } ]]></string>
 				<key>selection</key>
 				<string>#717CB440</string>
 				<key>selectionBorder</key>
@@ -66,7 +66,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#676E95</string>
+				<string>#959DCB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -544,7 +544,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#676E95</string>
+				<string>#959DCB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -756,7 +756,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#676E95</string>
+				<string>#959DCB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -819,7 +819,7 @@
 				<key>background</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#676E95</string>
+				<string>#959DCB</string>
 			</dict>
 		</dict>
 		<dict>
