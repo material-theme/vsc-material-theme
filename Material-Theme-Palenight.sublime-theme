@@ -58,7 +58,7 @@
   
     {
       "class": "fold_button_control",
-      "layer0.texture": "Material Theme/assets/commons/fold_right.png",
+      "layer0.texture": "Material Theme/assets/palenight/fold_right.png",
       "layer0.opacity": 1.0,
       "layer0.inner_margin": 0,
       "layer1.texture": "Material Theme/assets/commons/fold_right--hover.png",
@@ -77,7 +77,7 @@
     {
       "class": "fold_button_control",
       "attributes": ["expanded"],
-      "layer0.texture": "Material Theme/assets/default/fold_down.png",
+      "layer0.texture": "Material Theme/assets/palenight/fold_down.png",
       "layer1.texture": "Material Theme/assets/commons/fold_down--hover.png"
     },
   
