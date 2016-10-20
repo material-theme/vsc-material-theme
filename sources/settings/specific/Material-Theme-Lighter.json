@@ -66,5 +66,12 @@
       "pink": "#FF5370",
       "violet": "#945EB8"
     }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "material.theme.lighter.plain.tasks",
+      "uuid": "adbb93d6-d3d2-4a08-82aa-8a5d163a83f9"
+    }
   }
 }

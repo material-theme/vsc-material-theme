@@ -62,5 +62,12 @@
       "pink": "#f07178",
       "violet": "#bb80b3"
     }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "material.theme.palenight.plain.tasks",
+      "uuid": "093a4339-743f-47a3-9323-6ae03adc1fed"
+    }
   }
 }

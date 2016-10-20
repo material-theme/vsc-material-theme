@@ -1,0 +1,192 @@
+# [PackageDev] target_format: plist, ext: hidden-tmTheme
+# > PlainTasks
+---
+name: '<%= name %> <%= extras.plainTasks.name %>'
+uuid: '<%= extras.plainTasks.uuid %>'
+author: '<%= author %>'
+
+colorSpaceName: 'sRGB'
+
+semanticClass: '<%= extras.plainTasks.semanticClass %>'
+settings:
+- settings:
+    background: '<%= scheme.background %>'
+    caret: '<%= scheme.caret %>'
+    foreground: '<%= scheme.foreground %>'
+    gutter: '<%= scheme.background %>'
+    invisibles: '<%= scheme.comment %>'
+    lineHighlight: '<%= scheme.highlight %>'
+    selection: '<%= scheme.highlight %>'
+    selectionBorder: '<%= scheme.highlight %>'
+    guide: '<%= scheme.highlight %>'
+    stackGuide: '<%= scheme.highlight %>'
+    activeGuide: '<%= scheme.highlight %>'
+
+# >> General
+
+- name: Comments
+  scope: comment
+  settings:
+    foreground: '<%= scheme.comment %>'
+    fontStyle: 'italic'
+
+- name: Tags
+  scope: meta.tag.todo
+  settings:
+    foreground: '<%= scheme.base.violet %>'
+    fontStyle: 'bold'
+
+- name: Notes
+  scope: notes.todo
+  settings:
+    foreground: '<%= scheme.comment %>'
+
+- name: Meta
+  scope: meta
+  settings:
+    fontStyle: 'italic'
+
+- name: Done Bullet
+  scope: punctuation.definition.bullet.completed
+  settings:
+    foreground: '<%= scheme.base.green %>'
+    fontStyle: 'bold'
+
+- name: Pending Bullet
+  scope: punctuation.definition.bullet.pending
+  settings:
+    foreground: '<%= scheme.foreground %>aa'
+
+- name: Cancelled Bullet
+  scope: punctuation.definition.bullet.cancelled
+  settings:
+    foreground: '<%= scheme.base.red %>'
+
+- name: Cancelled Task
+  scope: meta.item.todo.cancelled
+  settings:
+    foreground: '<%= scheme.comment %>'
+    fontStyle: 'italic'
+
+- name: Meta Info
+  scope: meta.tag.todo.completed, meta.tag.todo.cancelled
+  settings:
+    foreground: '<%= scheme.comment %>aa'
+
+- name: Keyword
+  scope: keyword
+  settings:
+    background: '<%= scheme.highlight %>'
+    foreground: '<%= scheme.foreground %>dd'
+    fontStyle: 'bold'
+
+- name: Separator
+  scope: meta.punctuation.archive.todo, meta.punctuation.separator.todo
+  settings:
+    foreground: '<%= scheme.comment %>'
+    fontStyle: 'bold'
+
+- name: Font Style Punctuation
+  scope: punctuation.definition.italic, punctuation.definition.bold
+  settings:
+    foreground: '<%= scheme.comment %>aa'
+    fontStyle: 'normal'
+
+- name: Italic
+  scope: todo.italic
+  settings:
+    fontStyle: 'italic'
+
+- name: Bold
+  scope: todo.bold
+  settings:
+    fontStyle: 'bold'
+
+- name: URL
+  scope: todo.url
+  settings:
+    foreground: '<%= scheme.base.blue %>'
+    fontStyle: 'bold'
+
+- name: String
+  scope: string
+  settings:
+    background: '<%= scheme.base.yellow %>bf'
+    foreground: '<%= scheme.base.black %>bf'
+
+- name: Number
+  scope: constant.numeric
+  settings:
+    background: '<%= scheme.base.green %>bf'
+    foreground: '<%= scheme.base.black %>bf'
+
+- name: Constant
+  scope: constant.language, constant.character, constant.other
+  settings:
+    background: '<%= scheme.base.blue %>bf'
+    foreground: '<%= scheme.base.black %>bf'
+
+- name: Variable
+  scope: variable.language, variable.other
+  settings:
+    background: '<%= scheme.base.cyan %>bf'
+    foreground: '<%= scheme.base.black %>bf'
+    fontStyle: ''
+
+- name: Entity
+  scope: constant.character.entity
+  settings:
+    background: '<%= scheme.base.green %>bf'
+    foreground: '<%= scheme.base.black %>bf'
+
+- name: Storage
+  scope: storage
+  settings:
+    background: '<%= scheme.comment %>bf'
+    foreground: '<%= scheme.base.black %>bf'
+
+- name: Class Name
+  scope: entity.name.type.class, support.class
+  settings:
+    foreground: '<%= scheme.base.blue %>bf'
+    fontStyle: ''
+
+- name: Tag Name
+  scope: entity.name.tag, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css
+  settings:
+    background: '<%= scheme.base.pink %>bf'
+    foreground: '<%= scheme.base.black %>bf'
+
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '<%= scheme.base.white %>'
+    background: '<%= scheme.base.red %>'
+
+- name: Today
+  scope: string.other.tag.todo.today
+  settings:
+    background: '<%= scheme.base.blue %>'
+    foreground: '<%= scheme.base.white %>'
+    fontStyle: 'bold'
+
+- name: Low
+  scope: string.other.tag.todo.low
+  settings:
+    background: '<%= scheme.highlight %>'
+    foreground: '<%= scheme.foreground %>cc'
+    fontStyle: 'bold'
+
+- name: High
+  scope: string.other.tag.todo.high
+  settings:
+    background: '<%= scheme.base.orange %>'
+    foreground: '<%= scheme.base.white %>'
+    fontStyle: 'bold'
+
+- name: Critical
+  scope: string.other.tag.todo.critical
+  settings:
+    background: '<%= scheme.base.red %>'
+    foreground: '<%= scheme.base.white %>'
+    fontStyle: 'bold'

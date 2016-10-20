@@ -1,0 +1,192 @@
+# [PackageDev] target_format: plist, ext: hidden-tmTheme
+# > PlainTasks
+---
+name: 'Material-Theme-Palenight Plain Tasks'
+uuid: '093a4339-743f-47a3-9323-6ae03adc1fed'
+author: 'Mattia Astorino'
+
+colorSpaceName: 'sRGB'
+
+semanticClass: 'material.theme.palenight.plain.tasks'
+settings:
+- settings:
+    background: '#292D3E'
+    caret: '#FFCC00'
+    foreground: '#959DCB'
+    gutter: '#292D3E'
+    invisibles: ''
+    lineHighlight: '#00000030'
+    selection: '#00000030'
+    selectionBorder: '#00000030'
+    guide: '#00000030'
+    stackGuide: '#00000030'
+    activeGuide: '#00000030'
+
+# >> General
+
+- name: Comments
+  scope: comment
+  settings:
+    foreground: ''
+    fontStyle: 'italic'
+
+- name: Tags
+  scope: meta.tag.todo
+  settings:
+    foreground: '#bb80b3'
+    fontStyle: 'bold'
+
+- name: Notes
+  scope: notes.todo
+  settings:
+    foreground: ''
+
+- name: Meta
+  scope: meta
+  settings:
+    fontStyle: 'italic'
+
+- name: Done Bullet
+  scope: punctuation.definition.bullet.completed
+  settings:
+    foreground: '#C3E88D'
+    fontStyle: 'bold'
+
+- name: Pending Bullet
+  scope: punctuation.definition.bullet.pending
+  settings:
+    foreground: '#959DCBaa'
+
+- name: Cancelled Bullet
+  scope: punctuation.definition.bullet.cancelled
+  settings:
+    foreground: '#FF5370'
+
+- name: Cancelled Task
+  scope: meta.item.todo.cancelled
+  settings:
+    foreground: ''
+    fontStyle: 'italic'
+
+- name: Meta Info
+  scope: meta.tag.todo.completed, meta.tag.todo.cancelled
+  settings:
+    foreground: 'aa'
+
+- name: Keyword
+  scope: keyword
+  settings:
+    background: '#00000030'
+    foreground: '#959DCBdd'
+    fontStyle: 'bold'
+
+- name: Separator
+  scope: meta.punctuation.archive.todo, meta.punctuation.separator.todo
+  settings:
+    foreground: ''
+    fontStyle: 'bold'
+
+- name: Font Style Punctuation
+  scope: punctuation.definition.italic, punctuation.definition.bold
+  settings:
+    foreground: 'aa'
+    fontStyle: 'normal'
+
+- name: Italic
+  scope: todo.italic
+  settings:
+    fontStyle: 'italic'
+
+- name: Bold
+  scope: todo.bold
+  settings:
+    fontStyle: 'bold'
+
+- name: URL
+  scope: todo.url
+  settings:
+    foreground: '#82AAFF'
+    fontStyle: 'bold'
+
+- name: String
+  scope: string
+  settings:
+    background: '#FFCB6Bbf'
+    foreground: '#000000bf'
+
+- name: Number
+  scope: constant.numeric
+  settings:
+    background: '#C3E88Dbf'
+    foreground: '#000000bf'
+
+- name: Constant
+  scope: constant.language, constant.character, constant.other
+  settings:
+    background: '#82AAFFbf'
+    foreground: '#000000bf'
+
+- name: Variable
+  scope: variable.language, variable.other
+  settings:
+    background: '#89DDFFbf'
+    foreground: '#000000bf'
+    fontStyle: ''
+
+- name: Entity
+  scope: constant.character.entity
+  settings:
+    background: '#C3E88Dbf'
+    foreground: '#000000bf'
+
+- name: Storage
+  scope: storage
+  settings:
+    background: 'bf'
+    foreground: '#000000bf'
+
+- name: Class Name
+  scope: entity.name.type.class, support.class
+  settings:
+    foreground: '#82AAFFbf'
+    fontStyle: ''
+
+- name: Tag Name
+  scope: entity.name.tag, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css
+  settings:
+    background: '#f07178bf'
+    foreground: '#000000bf'
+
+- name: Invalid
+  scope: invalid
+  settings:
+    foreground: '#ffffff'
+    background: '#FF5370'
+
+- name: Today
+  scope: string.other.tag.todo.today
+  settings:
+    background: '#82AAFF'
+    foreground: '#ffffff'
+    fontStyle: 'bold'
+
+- name: Low
+  scope: string.other.tag.todo.low
+  settings:
+    background: '#00000030'
+    foreground: '#959DCBcc'
+    fontStyle: 'bold'
+
+- name: High
+  scope: string.other.tag.todo.high
+  settings:
+    background: '#F78C6C'
+    foreground: '#ffffff'
+    fontStyle: 'bold'
+
+- name: Critical
+  scope: string.other.tag.todo.critical
+  settings:
+    background: '#FF5370'
+    foreground: '#ffffff'
+    fontStyle: 'bold'
