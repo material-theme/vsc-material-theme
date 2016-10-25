@@ -670,9 +670,14 @@
   
     {
       "class": "icon_file_type",
+      "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+      "layer0.opacity": { "target": 1.0, "speed": 3.0, "interpolation": "smoothstep" }
+    },
+  
+    {
+      "class": "icon_file_type",
       "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-      "layer0.opacity": 1,
-      "content_margin": [9, 9]
+      "layer0.opacity": 1.0
     },
   
       // Secondary folder icon (original) used as main folder icon
@@ -992,7 +997,7 @@
       "attributes": ["horizontal"],
       "layer0.texture": "Material Theme/assets/palenight/thumb_horizontal.png",
       "layer0.opacity": 1.0,
-      "layer0.inner_margin": [10, 10],
+      "layer0.inner_margin": [10, 0],
       "content_margin": [16, 6],
       "blur": false
     },

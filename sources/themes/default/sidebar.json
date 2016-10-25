@@ -146,6 +146,12 @@
 
   {
     "class": "icon_file_type",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "layer0.opacity": { "target": 1.0, "speed": 3.0, "interpolation": "smoothstep" }
+  },
+
+  {
+    "class": "icon_file_type",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "layer0.opacity": 1,
     "content_margin": [9, 9]
