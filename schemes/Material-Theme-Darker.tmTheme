@@ -10868,17 +10868,11 @@
 			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#4A4A4A</string>
-				<key>selection</key>
-				<string>#61616150</string>
-				<key>selectionBorder</key>
-				<string>#61616150</string>
-				<key>shadow</key>
-				<string>#00000010</string>
-			</dict>
+        <key>foreground</key>
+        <string>#00FF7F</string>
+        <key>background</key>
+        <string>#111111</string>
+      </dict>
 		</dict>
 		<dict>
 			<key>name</key>
