@@ -1115,9 +1115,7 @@
       "font.bold": true
     },
   
-      // Status bar labels
-  
-     {
+    {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "color": [103, 110, 149],
@@ -1269,8 +1267,14 @@
      {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "color": [176, 190, 196],
+        "color": [103, 110, 149],
         "font.bold": true
+     },
+  
+     {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "color": [255,255,255]
      },
   
      {

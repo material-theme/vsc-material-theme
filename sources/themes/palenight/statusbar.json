@@ -13,9 +13,7 @@
     "font.bold": true
   },
 
-    // Status bar labels
-
-   {
+  {
       "class": "label_control",
       "parents": [{"class": "status_bar"}],
       "color": [<%= ui.foreground.primary.rgb %>],

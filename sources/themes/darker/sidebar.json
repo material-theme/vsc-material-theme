@@ -68,7 +68,7 @@
 
   {
     "class": "sidebar_label",
-    "color": [97, 97, 97],
+    "color": [<%= ui.foreground.primary.rgb %>],
     "font.bold": false,
     "font.italic": false,
     "shadow_color": [255, 255, 255, 0],

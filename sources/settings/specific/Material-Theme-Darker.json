@@ -20,8 +20,8 @@
     },
     "foreground": {
       "primary": {
-        "hex": "#a7adb0",
-        "rgb": "167, 173, 176"
+        "hex": "#616161",
+        "rgb": "97, 97, 97"
       },
       "secondary": {
         "hex": "#6f7a7f",

@@ -69,7 +69,7 @@
 
   {
     "class": "sidebar_label",
-    "color": [96, 125, 139],
+    "color": [<%= ui.foreground.primary.rgb %>],
     "font.bold": false,
     "font.italic": false,
     "shadow_color": [255, 255, 255, 0],
@@ -79,7 +79,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "color": [175, 189, 196],
+    "color": [255,255,255],
     "shadow_color": [255, 255, 255, 0],
     "shadow_offset": [0, 0]
   },

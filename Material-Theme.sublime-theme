@@ -602,7 +602,7 @@
     {
       "class": "sidebar_label",
       "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-      "color": [175, 189, 196],
+      "color": [255,255,255],
       "shadow_color": [255, 255, 255, 0],
       "shadow_offset": [0, 0]
     },
@@ -1266,14 +1266,20 @@
   
     // Button labels
   
-     {
-        "class": "label_control",
-        "parents": [{"class": "button_control"}],
-        "color": [176, 190, 196],
-        "font.bold": true
-     },
+    {
+       "class": "label_control",
+       "parents": [{"class": "button_control"}],
+       "color": [96, 125, 139],
+       "font.bold": true
+    },
   
-     {
+    {
+       "class": "label_control",
+       "parents": [{"class": "button_control", "attributes": ["hover"]}],
+       "color": [255,255,255]
+    },
+  
+    {
       "class": "button_control",
       "content_margin": [6, 12, 6, 12],
       "min_size": [75, 0],

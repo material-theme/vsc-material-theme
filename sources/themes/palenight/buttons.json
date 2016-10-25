@@ -9,8 +9,14 @@
    {
       "class": "label_control",
       "parents": [{"class": "button_control"}],
-      "color": [176, 190, 196],
+      "color": [<%= ui.foreground.primary.rgb %>],
       "font.bold": true
+   },
+
+   {
+      "class": "label_control",
+      "parents": [{"class": "button_control", "attributes": ["hover"]}],
+      "color": [255,255,255]
    },
 
    {
