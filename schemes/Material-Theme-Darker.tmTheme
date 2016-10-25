@@ -52,11 +52,11 @@
 			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#4A4A4A</string>
-			</dict>
+        <key>foreground</key>
+        <string>#82AAFF</string> <!-- わさび -->
+        <key>background</key>
+        <string>#000000</string> <!-- なすの漬け物 -->
+    	</dict>
 		</dict>
 		<dict>
 			<key>name</key>
