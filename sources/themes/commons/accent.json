@@ -88,6 +88,13 @@
   {
     "class": "sidebar_label",
     "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "color": [<%= ui.accents[i].rgb %>]
+  },
+
+  {
+    "class": "sidebar_label",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
     "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
     "color": [<%= ui.accents[i].rgb %>]
   },

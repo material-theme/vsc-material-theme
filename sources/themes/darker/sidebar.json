@@ -78,7 +78,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "color": [175, 189, 196],
+    "color": [255, 255, 255],
     "shadow_color": [255, 255, 255, 0],
     "shadow_offset": [0, 0]
   },
@@ -87,7 +87,7 @@
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "font.bold": false,
-    "color": [255, 255, 255]
+    "color": [128, 203, 196]
   },
 
   {
