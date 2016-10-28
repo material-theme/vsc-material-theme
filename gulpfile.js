@@ -89,17 +89,17 @@ gulp.task('bump-pkg-version', function() {
     .pipe($.if(argv.patch, $.bump()))
     .pipe($.if(argv.minor, $.bump({ type: 'minor' })))
     .pipe($.if(argv.major, $.bump({ type: 'major' })))
-    .pipe(gulp.dest('./plugins'));
+    .pipe(gulp.dest('./'));
 });
 
 
 gulp.task('bump-env-version', function() {
-  return gulp.src('./plugins/info.py')
+  return gulp.src('./utils/info.py')
     .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
     .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
     .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
     .pipe($.if(argv.major, $.bump({ type: 'major', regex: envRegExp })))
-    .pipe(gulp.dest('./plugins'));
+    .pipe(gulp.dest('./utils'));
 });
 
 /*
