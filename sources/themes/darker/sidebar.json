@@ -1,0 +1,383 @@
+
+/* @SIDEBAR
+ * Sidebar panel settings and behavioring
+========================================================================= */
+
+  {
+    "class": "sidebar_container",
+    "layer0.tint": [33, 33, 33],
+    "layer0.opacity": 1.0,
+    "layer0.draw_center": false,
+    "layer0.inner_margin": [0, 24, 12, 24],
+    "content_margin": [0, 12, 0, 0],
+    "layer1.tint": [0,0,0],
+    "layer1.opacity": 0.0
+  },
+  {
+    "class": "sidebar_tree",
+    "row_padding": [24, 8],
+    "indent": 16,
+    "indent_offset": 0,
+    "indent_top_level": false,
+    "layer0.tint": [33, 33, 33],
+    "layer0.opacity": 1.0,
+    "layer1.tint": [0,0,0],
+    "layer1.opacity": 0.0
+  },
+
+  {
+    "class": "sidebar_heading",
+    "color": [207, 216, 220],
+    "font.bold": false,
+    "font.size": 12,
+    "shadow_color": [250, 250, 250, 0],
+    "shadow_offset": [0, 0]
+  },
+
+  {
+    "class": "sidebar_heading",
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["selected"] }
+    ],
+    "shadow_color": [160, 174, 192, 0],
+  },
+
+  {
+     "class": "tree_row",
+     "layer1.texture": "Material Theme/assets/commons/tree_highlight.png",
+     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+     "layer1.inner_margin": [22, 8, 0, 0]
+  },
+
+  {
+    "class": "tree_row",
+    "attributes": ["selected"],
+    "layer1.opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+  },
+
+    // Bullet Tree Indicator
+
+  {
+    "class": "tree_row",
+    "settings": ["material_theme_bullet_tree_indicator"],
+    "attributes": ["selected"],
+    "layer1.texture": "Material Theme/assets/commons/tree_highlight--bullet.png",
+    "layer1.inner_margin": [22, 16, 0, 0]
+  },
+
+  {
+    "class": "sidebar_label",
+    "color": [<%= ui.foreground.primary.rgb %>],
+    "font.bold": false,
+    "font.italic": false,
+    "shadow_color": [255, 255, 255, 0],
+    "shadow_offset": [0, 0]
+  },
+
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "color": [255, 255, 255],
+    "shadow_color": [255, 255, 255, 0],
+    "shadow_offset": [0, 0]
+  },
+
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "font.bold": false,
+    "color": [128, 203, 196]
+  },
+
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+    "color": [175, 189, 196]
+  },
+
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+    "settings": ["bold_folder_labels"],
+    "font.bold": true,
+  },
+
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expandable", "selected"]}],
+    "color": [255, 255, 255]
+  },
+
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "color": [128, 203, 196]
+  },
+
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "settings": ["bold_folder_labels"],
+    "font.bold": true
+  },
+
+  {
+    "class": "sidebar_label",
+    "attributes": ["transient"],
+    "font.italic": false
+  },
+
+    // File icons and folder
+
+  {
+    "class": "icon_file_type",
+    // layer0.texture is filled in by code with the relevant icon name
+    "layer0.opacity": 0.6,
+    "content_margin": [9, 9]
+  },
+
+  {
+    "class": "icon_file_type",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "layer0.opacity": { "target": 1.0, "speed": 3.0, "interpolation": "smoothstep" }
+  },
+
+  {
+    "class": "icon_file_type",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "layer0.opacity": 1,
+    "content_margin": [9, 9]
+  },
+
+    // Secondary folder icon (original) used as main folder icon
+
+  {
+    "class": "icon_folder",
+    "content_margin": [11, 7],
+    "layer0.tint": [38, 50, 56],
+    "layer0.opacity": 0,
+    "layer1.texture": "Material Theme/assets/darker/folder.png",
+    "layer1.opacity": 1,
+    "layer2.texture": "Material Theme/assets/commons/folder--hover.png",
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/commons/folder_opened--hover.png",
+    "layer3.opacity": 0.0,
+  },
+
+    // Arrow icon folder
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders"],
+    "layer0.opacity": 0,
+    "layer1.texture": "Material Theme/assets/darker/arrow_folder.png",
+    "layer1.opacity": 1.0,
+    "layer2.texture": "Material Theme/assets/commons/arrow_folder--hover.png",
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
+    "layer3.opacity": 0.0
+  },
+
+  {
+    "class": "icon_folder",
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["expanded"] }
+    ],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.opacity": 1.0,
+  },
+
+  {
+    "class": "icon_folder",
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["hover"] }
+    ],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 1.0,
+    "layer3.opacity": 0.0,
+  },
+
+  {
+    "class": "icon_folder",
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["expanded", "hover"] }
+    ],
+    "layer3.texture":
+    {
+      "keyframes":
+      [
+        "Material Theme/assets/commons/folder_opened--hover-0.png",
+        "Material Theme/assets/commons/folder_opened--hover-1.png",
+        "Material Theme/assets/commons/folder_opened--hover-2.png",
+        "Material Theme/assets/commons/folder_opened--hover-3.png",
+        "Material Theme/assets/commons/folder_opened--hover-4.png",
+        "Material Theme/assets/commons/folder_opened--hover-5.png",
+        "Material Theme/assets/commons/folder_opened--hover-5.png",
+        "Material Theme/assets/commons/folder_opened--hover-5.png",
+        "Material Theme/assets/commons/folder_opened--hover-6.png",
+        "Material Theme/assets/commons/folder_opened--hover-6.png",
+        "Material Theme/assets/commons/folder_opened--hover-6.png",
+        "Material Theme/assets/commons/folder_opened--hover-6.png",
+        "Material Theme/assets/commons/folder_opened--hover-7.png",
+      ],
+      "loop": false,
+      "frame_time": 0.020,
+    },
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.opacity": 1.0,
+  },
+
+    // Arrow icon folder Expandend - Hover
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
+  },
+
+
+  {
+    "class": "icon_folder",
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["selected"] }
+    ],
+    "layer1.texture": "Material Theme/assets/commons/folder--hover.png",
+  },
+
+    // Folder loading
+
+  {
+    "class": "icon_folder_loading",
+    "layer0.texture":
+    {
+      "keyframes":
+      [
+        "Material Theme/assets/commons/spinner7.png",
+        "Material Theme/assets/commons/spinner6.png",
+        "Material Theme/assets/commons/spinner5.png",
+        "Material Theme/assets/commons/spinner4.png",
+        "Material Theme/assets/commons/spinner3.png",
+        "Material Theme/assets/commons/spinner2.png",
+        "Material Theme/assets/commons/spinner1.png",
+        "Material Theme/assets/commons/spinner.png",
+      ],
+      "loop": true,
+      "frame_time": 0.075,
+    },
+
+    "layer0.opacity": 1.0,
+    "content_margin": [8, 8]
+  },
+
+    // Symlink folder icon
+
+  {
+    "class": "icon_folder_dup",
+    "layer0.texture": "Material Theme/assets/darker/folder_dup.png",
+    "layer0.opacity": 1.0,
+    "content_margin": [11, 7]
+  },
+
+  {
+    "class": "icon_folder_dup",
+    "parents":
+    [{ "class": "tree_row", "attributes": ["hover"] }],
+    "layer0.texture": "Material Theme/assets/commons/folder_dup--hover.png"
+  },
+
+  {
+    "class": "icon_folder_dup",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+    "layer0.texture": "Material Theme/assets/commons/folder_dup--hover.png"
+  },
+
+    // Hidden arrow icon before folder
+
+  {
+    "class": "disclosure_button_control",
+    "layer0.texture": "Material Theme/assets/darker/folder.png",
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": 0,
+    "layer1.texture": "Material Theme/assets/commons/folder--hover.png",
+    "layer1.opacity": 0.0,
+    "layer1.inner_margin": 0,
+    "content_margin": [0, 0, 0, 0]
+  },
+
+  {
+    "class": "disclosure_button_control",
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["hover"] }
+    ],
+    "layer0.opacity": 0.0,
+    "layer1.opacity": 1.0
+  },
+
+  {
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "layer0.texture": "Material Theme/assets/commons/folder_opened--hover.png",
+  },
+
+  {
+    "class": "tree_row",
+    "layer0.tint": [33, 33, 33],
+    "layer0.opacity": 0.0,
+    "layer0.inner_margin": [1, 1]
+  },
+
+  {
+    "class": "tree_row",
+    "attributes": ["selected"],
+    "layer0.opacity": 1
+  },
+    // Opened files
+  {
+    "class": "close_button",
+    "content_margin": [8, 8],
+
+    // Default Close icon
+    "layer0.texture": "Material Theme/assets/darker/close_icon.png",
+    "layer0.opacity": { "target": 0.0, "speed": 7.0, "interpolation": "smoothstep" },
+    "layer0.inner_margin": [0,0],
+
+    // Hover close icon
+    "layer1.texture": "Material Theme/assets/commons/close_icon--hover.png",
+    "layer1.opacity": 0,
+    "layer1.inner_margin": [0,0],
+  },
+
+    // Opened file hover
+
+  {
+    "class": "close_button",
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["hover"] }
+    ],
+    // Default Close icon
+    "layer0.texture": "Material Theme/assets/default/close_icon.png",
+    "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
+    "layer0.inner_margin": [0,0],
+  },
+
+  {
+    "class": "close_button",
+    "attributes": ["dirty"],
+    "layer0.texture": "Material Theme/assets/commons/dirty_icon--hover.png",
+    "layer0.opacity": 1.0,
+  },
+
+  {
+    "class": "close_button",
+    "attributes": ["hover"],
+    "layer0.opacity": 0,
+    "layer1.opacity": 1.0
+  },

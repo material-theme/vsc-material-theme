@@ -1,26 +1,29 @@
 {
   "name": "material-theme",
-  "version": "3.2.2",
+  "version": "4.0.0",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "bt": "gulp build:themes",
+    "bs": "gulp build:schemes"
+  },
   "devDependencies": {
     "colors": "^1.1.2",
     "conventional-github-releaser": "^1.1.2",
     "del": "^2.2.0",
-    "eslint": "^3.0.1",
-    "eslint-config-standard": "^6.1.0",
-    "eslint-plugin-standard": "^2.0.1",
+    "eslint": "^3.8.1",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.4.0",
     "gulp-conventional-changelog": "^1.1.0",
     "gulp-data": "^1.2.1",
     "gulp-exec": "^2.1.2",
     "gulp-flatmap": "^1.0.0",
-    "gulp-git": "^1.11.0",
-    "gulp-if": "^2.0.0",
+    "gulp-git": "^1.12.0",
+    "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.1",
     "gulp-include": "^2.1.0",
-    "gulp-load-plugins": "^1.2.4",
+    "gulp-load-plugins": "^1.3.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
@@ -28,7 +31,7 @@
     "lodash": "^4.15.0",
     "run-sequence": "^1.1.5",
     "sleep": "^4.0.0",
-    "yargs": "^5.0.0"
+    "yargs": "^6.2.0"
   },
   "repository": {
     "type": "git",

@@ -100,11 +100,20 @@
   // Hide the tree file icons
   "material_theme_disable_fileicons": false,
 
+  // Show bigger file type icons
+  "material_theme_big_fileicons": false,
+
   // Disable the folder animation inside the tree view
   "material_theme_disable_folder_animation": false,
 
+  // Replace folder icons with arrows
+  "material_theme_arrow_folders": false,
+
   // Reduce the size of the sidebar/tree
   "material_theme_compact_sidebar": false,
+
+  // Set a bullet as active tree indicator
+  "material_theme_bullet_tree_indicator": false,
 
   // Disable the current file tree indicator
   "material_theme_disable_tree_indicator": false,

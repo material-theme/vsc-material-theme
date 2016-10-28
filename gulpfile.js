@@ -25,7 +25,7 @@ var gulp                       = require('gulp'),
  * > Settings
  */
 
-var srcPath = "./.src";
+var srcPath = "./sources";
 var common = require(srcPath + '/settings/commons.json');
 var envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+)(-[0-9A-Za-z\.-]+)?([\'|\"]?)', 'i');
 
@@ -47,19 +47,13 @@ gulp.task('clean:widgets', function() {
   return del(['./widgets/*.stTheme', './widgets/*.sublime-settings']);
 });
 
+gulp.task('clean:extras', function() {
+  return del(['./extras/**/*.hidden-tmTheme', './extras/**/*.YAML-tmTheme']);
+});
 
 /*
  * > Generate CHANGELOG
  */
-
-gulp.task('changelog', function() {
-  return conventionalChangelog({
-    preset: 'angular',
-    releaseCount: 0
-  })
-  .pipe(gulp.dest('./'));
-});
-
 
 gulp.task('changelog', function () {
   return gulp.src('CHANGELOG.md')
@@ -81,9 +75,9 @@ gulp.task('bump', function(cb) {
     'bump-env-version',
     function (error) {
       if (error) {
-        console.log('[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
+        console.log('\n[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
       } else {
-        console.log('[bump]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[bump]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
       cb(error);
     }
@@ -101,12 +95,12 @@ gulp.task('bump-pkg-version', function() {
 
 
 gulp.task('bump-env-version', function() {
-  return gulp.src('./mt_info.py')
+  return gulp.src('./utils/info.py')
     .pipe($.if((Object.keys(argv).length === 2), $.bump({ regex: envRegExp })))
     .pipe($.if(argv.patch, $.bump({ regex: envRegExp })))
     .pipe($.if(argv.minor, $.bump({ type: 'minor', regex: envRegExp })))
     .pipe($.if(argv.major, $.bump({ type: 'major', regex: envRegExp })))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./utils'));
 });
 
 /*
@@ -167,9 +161,9 @@ gulp.task('release', function(cb) {
     'github-release',
     function (error) {
       if (error) {
-        console.log('[release]'.bold.magenta + ' There was an issue releasing themes:\n'.bold.red + error.message);
+        console.log('\n[release]'.bold.magenta + ' There was an issue releasing themes:\n'.bold.red + error.message);
       } else {
-        console.log('[release]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[release]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
       cb(error);
     }
@@ -186,11 +180,12 @@ gulp.task('build', function(cb) {
     'build:themes',
     'build:schemes',
     'build:widgets',
+    'build:extras',
     function (error) {
       if (error) {
-        console.log('[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message);
+        console.log('\n[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message);
       } else {
-        console.log('[build]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[build]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
 
       cb(error);
@@ -203,7 +198,7 @@ gulp.task('build', function(cb) {
 gulp.task('build:themes', ['clean:themes'], function() {
   return gulp.src(srcPath + '/themes/*.json')
     .pipe($.plumber(function(error) {
-      console.log('[build:themes]'.bold.magenta + ' There was an issue building themes:\n'.bold.red + error.message);
+      console.log('\n[build:themes]'.bold.magenta + ' There was an issue building themes:\n'.bold.red + error.message);
       this.emit('end');
     }))
     .pipe($.include())
@@ -218,7 +213,7 @@ gulp.task('build:themes', ['clean:themes'], function() {
     }))
     .pipe(gulp.dest('./'))
     .on('end', function() {
-      console.log('[build:themes]'.bold.magenta + ' Finished successfully'.bold.green);
+      console.log('\n[build:themes]'.bold.magenta + ' Finished successfully \n'.bold.green);
     });
 });
 
@@ -234,7 +229,7 @@ gulp.task('build:schemes', ['clean:schemes'], function(cb) {
       if (error) {
         console.log('[build:schemes]'.bold.magenta + ' There was an issue building schemes:\n'.bold.red + error.message);
       } else {
-        console.log('[build:schemes]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[build:schemes]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
 
       cb(error);
@@ -264,7 +259,7 @@ gulp.task('process:schemes', function() {
 gulp.task('convert:schemes', function() {
   return gulp.src('./schemes/*.YAML-tmTheme')
     .pipe($.plumber(function(error) {
-       console.log('[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
+       console.log('\n[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
                    'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
        this.emit('end');
     }))
@@ -299,7 +294,7 @@ gulp.task('build:widgets', ['clean:widgets'], function(cb) {
       if (error) {
         console.log('[build:widgets]'.bold.magenta + ' There was an issue building widgets:\n'.bold.red + error.message);
       } else {
-        console.log('[build:widgets]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[build:widgets]'.bold.magenta + ' Finished successfully \n'.bold.green);
       }
 
       cb(error);
@@ -346,15 +341,18 @@ gulp.task('build:widget-settings', function() {
     }));
 });
 
-gulp.task('optimize', function(cb) {
+
+/* >> Extras */
+
+gulp.task('build:extras', ['clean:extras'], function(cb) {
   runSequence(
-    'optimize:assets',
-    'optimize:icons',
+    'process:extras',
+    'convert:extras',
     function (error) {
       if (error) {
-        console.log('[optimize]'.bold.magenta + ' There was an issue optimizing images:\n'.bold.red + error.message);
+        console.log('\n[build:extras]'.bold.magenta + ' There was an issue building extras:\n'.bold.red + error.message);
       } else {
-        console.log('[optimize]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log('\n[build:extras]'.bold.magenta + ' Finished successfully\n'.bold.green);
       }
 
       cb(error);
@@ -362,16 +360,39 @@ gulp.task('optimize', function(cb) {
   );
 });
 
-gulp.task('optimize:assets', function() {
-  return gulp.src('./assets/**/*.png')
-    .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
-    .pipe(gulp.dest('./assets'));
+gulp.task('process:extras', function() {
+  return gulp.src(srcPath + '/settings/specific/*.json')
+    .pipe($.flatmap(function(stream, file) {
+      var basename = path.basename(file.path, path.extname(file.path));
+
+      return gulp.src(srcPath + '/extras/**/*.YAML-tmTheme')
+        .pipe($.data(function() {
+          var specific = require(file.path);
+
+          return _.merge(common, specific);
+        }))
+        .pipe($.template())
+        .pipe($.rename(function(scheme) {
+          scheme.basename = basename;
+        }))
+        .pipe(gulp.dest('./extras'));
+    }));
 });
 
-gulp.task('optimize:icons', function() {
-  return gulp.src('./icons/**/*.png')
-    .pipe($.imagemin([$.imagemin.optipng()], {verbose: true}))
-    .pipe(gulp.dest('./icons'));
+gulp.task('convert:extras', function() {
+  return gulp.src('./extras/**/*.YAML-tmTheme')
+    .pipe($.flatmap(function(stream) {
+      sleep.sleep(2);
+
+      return stream
+        .pipe($.plumber(function(error) {
+          console.log('[convert:extras]'.bold.magenta + ' There was an issue converting color extras:\n'.bold.red + error.message +
+                      'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control".\nOpen Sublime Text before running the task.'.bold.blue);
+          this.emit('end');
+        }))
+        .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'))
+        .pipe($.exec.reporter());
+    }));
 });
 
 
@@ -379,9 +400,10 @@ gulp.task('optimize:icons', function() {
  * > Watch
  */
 
-gulp.task('watch', function() {
+gulp.task('watch', ["build"], function() {
   gulp.watch(srcPath + '/themes/**/*.json', ['build:themes']);
   gulp.watch(srcPath + '/schemes/scheme.YAML-tmTheme', ['build:schemes']);
+  gulp.watch(srcPath + '/extras/**/*.YAML-tmTheme', ['build:extras']);
   gulp.watch(srcPath + '/widgets/widget.*', ['build:widgets']);
   gulp.watch(srcPath + '/settings/**/*.json', ['build:schemes', 'build:widgets', 'build:themes']);
 });

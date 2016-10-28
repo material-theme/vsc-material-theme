@@ -1,0 +1,76 @@
+
+/* @ STATUS BAR
+ * Status bar settings and behavioring
+========================================================================= */
+
+  // All labels
+
+  {
+    "class": "label_control",
+    "color": [<%= ui.foreground.primary.rgb %>],
+    "shadow_color": [24, 24, 24, 0],
+    "shadow_offset": [0, 0],
+    "font.bold": true
+  },
+
+  {
+      "class": "label_control",
+      "parents": [{"class": "status_bar"}],
+      "color": [<%= ui.foreground.primary.rgb %>],
+      "font.bold": false
+  },
+
+    // Text field labels
+
+  {
+    "class": "status_bar",
+    "content_margin": [0, 0],
+
+    // Layer 0 base
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": [2, 2],
+
+    // Visible tint layer
+    "layer1.tint": [0,0,0],
+    "layer1.opacity": 0.0,
+  },
+
+  {
+    "class": "status_container",
+    "content_margin": [24, 12, 24, 12],
+  },
+
+  {
+    "class": "status_button",
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
+    "layer0.opacity": 1.0,
+    "layer0.draw_center": false,
+    "layer0.inner_margin": [1, 0, 0, 0],
+    "content_margin": [10, 2, 10, 3],
+    "min_size": [75, 0]
+  },
+
+  {
+    "class": "status_button",
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
+    "layer0.opacity": 1.0,
+    "layer0.draw_center": false,
+    "layer0.inner_margin": [1, 0, 0, 0],
+    "content_margin": [10, 2, 10, 3],
+    "min_size": [75, 0],
+  },
+
+  // panel switcher
+  {
+    "class": "panel_button_control",
+    "layer0.texture": "Material Theme/assets/palenight/overflow_menu.png",
+    "layer0.opacity": 1.0,
+    "content_margin": [10, 10]
+  },
+
+  {
+    "class": "panel_button_control",
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/commons/overflow_menu--hover.png",
+  },

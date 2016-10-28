@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Material-Theme-Darker</string>
 	<key>semanticClass</key>
-	<string>material.theme.dark</string>
+	<string>material.theme.darker</string>
 	<key>settings</key>
 	<array>
 		<dict>

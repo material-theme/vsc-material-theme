@@ -45,13 +45,16 @@ You can also manually activate this theme by adding these lines to your user set
 "material_theme_compact_sidebar"          : true , // Set compact side bar
 "material_theme_contrast_mode"            : true , // Enable sidebar and panels contrast mode
 "material_theme_disable_fileicons"        : true , // Hide sidebar file type icons
+"material_theme_arrow_folders"            : true , // Replace folder icons with arrows
+"material_theme_big_fileicons"            : true , // Show bigger file type icons
 "material_theme_disable_folder_animation" : true , // Disable folder animation
 "material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
+"material_theme_bullet_tree_indicator"    : true , // Set a bullet as active tree indicator
 "material_theme_panel_separator"          : true , // Show bottom panel separator
 "material_theme_small_statusbar"          : true , // Set small status bar
 "material_theme_small_tab"                : true , // Set small tabs
 "material_theme_tabs_autowidth"           : true , // Enable autowidth for tabs
-"material_theme_tabs_separator"           : true , // Show tabs separator, this disables tab hover animation
+"material_theme_tabs_separator"           : true , // Show tabs separator, this disables tab hover 
 
 // If you use Material Theme - Appbar addon you can use additional settings:
 "material_theme_tree_headings"            : true , // Show sidebar headings
