@@ -5,6 +5,8 @@ import webbrowser
 
 
 """Repository command."""
+
+
 class MtRepoCommand(sublime_plugin.WindowCommand):
     def run(self):
         """Open the repository in a browser tab."""
@@ -12,6 +14,8 @@ class MtRepoCommand(sublime_plugin.WindowCommand):
 
 
 """Issues command."""
+
+
 class MtIssuesCommand(sublime_plugin.WindowCommand):
     def run(self):
         """Open the issues page in a browser tab"""
