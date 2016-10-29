@@ -271,13 +271,14 @@
       "tint_index": 1,
       "layer0.inner_margin": [2, 6],
       "layer0.opacity": 1.0,
-      "content_margin": [12, 0, 8, 0],
+      "content_margin": [6, 0, 8, 0],
       "tab_overlap": 0,
       "tab_width": 180,
       "tab_min_width": 64,
       "tab_height": 54,
       "mouse_wheel_switch": false
     },
+  
     {
       "class": "tabset_control",
       "settings": ["mouse_wheel_switches_tabs", "!enable_tab_scrolling"],
@@ -7333,6 +7334,12 @@
       "class": "tabset_control",
       "settings": ["material_theme_tabs_autowidth"],
       "tab_width": 0
+    },
+  
+    {
+      "class": "tabset_control",
+      "settings": ["!enable_tab_scrolling"],
+      "content_margin": [0, 0, 8, 0],
     },
   
     {

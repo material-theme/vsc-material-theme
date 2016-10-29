@@ -19,6 +19,12 @@
   },
 
   {
+    "class": "tabset_control",
+    "settings": ["!enable_tab_scrolling"],
+    "content_margin": [0, 0, 8, 0],
+  },
+
+  {
     "class": "tab_control",
     "settings": ["material_theme_small_tab"],
     "content_margin": [12, 8, 6, 4],
