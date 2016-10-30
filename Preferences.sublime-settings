@@ -118,7 +118,7 @@
   // Disable the current file tree indicator
   "material_theme_disable_tree_indicator": false,
 
-  // Hide headin titles from the sidebar (only with Material Theme Appbar)
+  // Hide heading titles from the sidebar (only with Material Theme Appbar)
   "material_theme_tree_headings": false,
 
   //
