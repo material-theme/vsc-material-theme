@@ -4,7 +4,7 @@
 
 📣 **BREAKING CHANGES**:
 
-  * From this release Material Theme use the `st-file-icons` package to
+  * From this release Material Theme use the `zz File Icons` package to
   display file type icons. Please install it and restart Sublime Text.
 
 

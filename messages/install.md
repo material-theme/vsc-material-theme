@@ -20,6 +20,9 @@ You can also manually activate this theme by adding these lines to your user set
 ```
 ```
 
+## File icons
+To enable file type icons you have to install an additional package, search for `zz File Icons` on Package Control, after install restart Sublime Text.
+
 **********************************************************************************************
 
 ### Other available theme options:
