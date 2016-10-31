@@ -102,6 +102,8 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_panel_separator"          : true , // Show bottom panel separator
 "material_theme_small_statusbar"          : true , // Set small status bar
 "material_theme_small_tab"                : true , // Set small tabs
+"material_theme_bright_scrollbars"        : true , // Bright scrollbars puck color
+"material_theme_accent_scrollbars"        : true , // Enable accent color for scrollbars
 "material_theme_tabs_autowidth"           : true , // Enable autowidth for tabs
 "material_theme_tabs_separator"           : true , // Show tabs separator, this disables tab hover animation
 

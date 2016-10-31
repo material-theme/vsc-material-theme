@@ -175,4 +175,21 @@
     "settings": ["material_theme_big_fileicons"],
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "content_margin": [11, 11]
-  }
+  },
+
+      // Bright scrollbars
+
+  {
+    "class": "puck_control",
+    "settings": ["material_theme_bright_scrollbars"],
+    "layer1.texture": "Material Theme/assets/commons/thumb_vertical.png",
+    "layer1.opacity": 0.2
+  },
+
+  {
+    "class": "puck_control",
+    "attributes": ["horizontal"],
+    "settings": ["material_theme_bright_scrollbars"],
+    "layer1.texture": "Material Theme/assets/commons/thumb_horizontal.png",
+    "layer1.opacity": 0.2
+  },

@@ -1877,6 +1877,23 @@
       "viewport_color": [128, 203, 196, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_teal"],
+      "layer1.texture": "Material Theme/assets/accent-teal/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_teal"],
+      "layer1.texture": "Material Theme/assets/accent-teal/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Lime Accent Color
   // ===========================================================================
   
@@ -2238,6 +2255,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_lime"],
       "viewport_color": [124, 179, 66, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_lime"],
+      "layer1.texture": "Material Theme/assets/accent-lime/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_lime"],
+      "layer1.texture": "Material Theme/assets/accent-lime/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   // Purple Accent Color
@@ -2603,6 +2637,23 @@
       "viewport_color": [171, 71, 188, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_purple"],
+      "layer1.texture": "Material Theme/assets/accent-purple/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_purple"],
+      "layer1.texture": "Material Theme/assets/accent-purple/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Red Accent Color
   // ===========================================================================
   
@@ -2964,6 +3015,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_red"],
       "viewport_color": [229, 115, 115, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_red"],
+      "layer1.texture": "Material Theme/assets/accent-red/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_red"],
+      "layer1.texture": "Material Theme/assets/accent-red/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   // Orange Accent Color
@@ -3329,6 +3397,23 @@
       "viewport_color": [255, 112, 66, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_orange"],
+      "layer1.texture": "Material Theme/assets/accent-orange/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_orange"],
+      "layer1.texture": "Material Theme/assets/accent-orange/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Yellow Accent Color
   // ===========================================================================
   
@@ -3690,6 +3775,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_yellow"],
       "viewport_color": [255, 160, 0, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_yellow"],
+      "layer1.texture": "Material Theme/assets/accent-yellow/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_yellow"],
+      "layer1.texture": "Material Theme/assets/accent-yellow/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   // Indigo Accent Color
@@ -4055,6 +4157,23 @@
       "viewport_color": [92, 107, 192, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_indigo"],
+      "layer1.texture": "Material Theme/assets/accent-indigo/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_indigo"],
+      "layer1.texture": "Material Theme/assets/accent-indigo/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Pink Accent Color
   // ===========================================================================
   
@@ -4416,6 +4535,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_pink"],
       "viewport_color": [255, 64, 129, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_pink"],
+      "layer1.texture": "Material Theme/assets/accent-pink/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_pink"],
+      "layer1.texture": "Material Theme/assets/accent-pink/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   // Blue Accent Color
@@ -4781,6 +4917,23 @@
       "viewport_color": [41, 121, 255, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_blue"],
+      "layer1.texture": "Material Theme/assets/accent-blue/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_blue"],
+      "layer1.texture": "Material Theme/assets/accent-blue/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Cyan Accent Color
   // ===========================================================================
   
@@ -5142,6 +5295,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_cyan"],
       "viewport_color": [0, 188, 212, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_cyan"],
+      "layer1.texture": "Material Theme/assets/accent-cyan/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_cyan"],
+      "layer1.texture": "Material Theme/assets/accent-cyan/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   // Bright Teal Accent Color
@@ -5507,6 +5677,23 @@
       "viewport_color": [100, 255, 218, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_bright-teal"],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Acid Lime Accent Color
   // ===========================================================================
   
@@ -5868,6 +6055,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_acid-lime"],
       "viewport_color": [198, 255, 0, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_acid-lime"],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   // Graphite Accent Color
@@ -6233,6 +6437,23 @@
       "viewport_color": [97, 97, 97, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_graphite"],
+      "layer1.texture": "Material Theme/assets/accent-graphite/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Breaking Bad Accent Color
   // ===========================================================================
   
@@ -6594,6 +6815,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_brba"],
       "viewport_color": [56, 142, 60, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_brba"],
+      "layer1.texture": "Material Theme/assets/accent-brba/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   // Sky Accent Color
@@ -6959,6 +7197,23 @@
       "viewport_color": [132, 255, 255, 80]
     },
   
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_sky"],
+      "layer1.texture": "Material Theme/assets/accent-sky/thumb_horizontal.png",
+      "layer1.opacity": 0.8
+    },
+  
   // Tomato Accent Color
   // ===========================================================================
   
@@ -7320,6 +7575,23 @@
       "class": "minimap_control",
       "settings": ["always_show_minimap_viewport","material_theme_accent_tomato"],
       "viewport_color": [244, 67, 54, 80]
+    },
+  
+      // Scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/thumb_vertical.png",
+      "layer1.opacity": 0.8
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_accent_scrollbars", "material_theme_accent_tomato"],
+      "layer1.texture": "Material Theme/assets/accent-tomato/thumb_horizontal.png",
+      "layer1.opacity": 0.8
     },
   
   
@@ -7800,7 +8072,24 @@
       "settings": ["material_theme_big_fileicons"],
       "parents": [{"class": "tree_row", "attributes": ["selected"]}],
       "content_margin": [11, 11]
-    }
+    },
+  
+        // Bright scrollbars
+  
+    {
+      "class": "puck_control",
+      "settings": ["material_theme_bright_scrollbars"],
+      "layer1.texture": "Material Theme/assets/commons/thumb_vertical.png",
+      "layer1.opacity": 0.2
+    },
+  
+    {
+      "class": "puck_control",
+      "attributes": ["horizontal"],
+      "settings": ["material_theme_bright_scrollbars"],
+      "layer1.texture": "Material Theme/assets/commons/thumb_horizontal.png",
+      "layer1.opacity": 0.2
+    },
   
   //
 ]

@@ -136,4 +136,10 @@
 
   // Enable sidebar and panels contrast mode
   "material_theme_contrast_mode": false,
+
+  // Enable bright scrollbars puck color
+  "material_theme_bright_scrollbars": false,
+
+  // Enable accent scrollbars
+  "material_theme_accent_scrollbars": false,
 }
