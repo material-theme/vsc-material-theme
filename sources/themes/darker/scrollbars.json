@@ -7,9 +7,12 @@
 
   {
     "class": "scroll_bar_control",
-    "layer0.texture": "Material Theme/assets/darker/normal_bar_vertical.png",
-    "layer0.opacity": 1.0,
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.inner_margin": [0, 6],
+    "layer0.opacity": 1.0,
+    "layer1.texture": "Material Theme/assets/darker/normal_bar_vertical.png",
+    "layer1.opacity": 1.0,
+    "layer1.inner_margin": [0, 6],
     "blur": false
   },
 
@@ -29,9 +32,12 @@
   {
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
-    "layer0.texture": "Material Theme/assets/darker/normal_bar_horizontal.png",
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
+    "layer0.inner_margin": [0, 6],
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [6, 0],
+    "layer1.texture": "Material Theme/assets/darker/normal_bar_horizontal.png",
+    "layer1.opacity": 1.0,
+    "layer1.inner_margin": [6, 0],
     "blur": false
   },
 

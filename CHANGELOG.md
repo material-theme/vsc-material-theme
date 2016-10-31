@@ -1,14 +1,18 @@
-<a name="4.0.0"></a>
-# [4.0.0](https://github.com/equinusocio/material-theme/compare/v3.2.2...v4.0.0) (2016-10-28)
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/equinusocio/material-theme/compare/v3.2.2...v4.0.1) (2016-10-31)
 
 
 ### Bug Fixes
 
 * Fix code folding arrows color ([afe682c](https://github.com/equinusocio/material-theme/commit/afe682c))
 * Fix folder icon to fit the pixel grid ([ba25d37](https://github.com/equinusocio/material-theme/commit/ba25d37)), closes [#958](https://github.com/equinusocio/material-theme/issues/958)
+* Fix minimap viewport opacity ([a82b6b3](https://github.com/equinusocio/material-theme/commit/a82b6b3))
+* Fix PlainTasks and PlainNotes support ([4e3d7d9](https://github.com/equinusocio/material-theme/commit/4e3d7d9))
+* Fix scrollbars black border with "overlay_scroll_bars": "disabled" ([c3f53b2](https://github.com/equinusocio/material-theme/commit/c3f53b2)), closes [#1012](https://github.com/equinusocio/material-theme/issues/1012)
 * Fix sidebar heading color with Appbar Package ([27bf47b](https://github.com/equinusocio/material-theme/commit/27bf47b)), closes [#991](https://github.com/equinusocio/material-theme/issues/991)
+* Fix tabset spacing ([1364e5c](https://github.com/equinusocio/material-theme/commit/1364e5c)), closes [#1008](https://github.com/equinusocio/material-theme/issues/1008)
 * Fix theme commands (grey menu) ([733b4bb](https://github.com/equinusocio/material-theme/commit/733b4bb))
-* IMPORTANT: Old color schemes are not available anymore ([ee830a9](https://github.com/equinusocio/material-theme/commit/ee830a9))
+* IMPORTANT: Old color schemes are not more available ([ee830a9](https://github.com/equinusocio/material-theme/commit/ee830a9))
 * Improve buttons and sidebar colors ([26bd93f](https://github.com/equinusocio/material-theme/commit/26bd93f))
 * Improve icon file type hover transition ([a84d6cc](https://github.com/equinusocio/material-theme/commit/a84d6cc))
 * Improve minimap viewport visibility ([b1951db](https://github.com/equinusocio/material-theme/commit/b1951db))
@@ -24,9 +28,10 @@
 * Add "material_theme_big_fileicons" setting ([4da341b](https://github.com/equinusocio/material-theme/commit/4da341b)), closes [#997](https://github.com/equinusocio/material-theme/issues/997)
 * Add PlainTasks support ([b420ec0](https://github.com/equinusocio/material-theme/commit/b420ec0))
 * Add Skins package support. ([4d49774](https://github.com/equinusocio/material-theme/commit/4d49774))
-* Add support for "st-file-icons" package. ([e493311](https://github.com/equinusocio/material-theme/commit/e493311))
-* Add support to st-file icons and update icons. Please check the readme file. ([8224e68](https://github.com/equinusocio/material-theme/commit/8224e68))
+* Add support for "zz-file-icons" package. ([e493311](https://github.com/equinusocio/material-theme/commit/e493311))
+* Add support to zz-file icons and update icons. Please check the readme file. ([8224e68](https://github.com/equinusocio/material-theme/commit/8224e68))
 * Brand new theme variant: Palenight ([113b313](https://github.com/equinusocio/material-theme/commit/113b313))
+* New "material_theme_bright_scrollbars" and "material_theme_accent_scrollbars" ([0038542](https://github.com/equinusocio/material-theme/commit/0038542)), closes [#1016](https://github.com/equinusocio/material-theme/issues/1016)
 * New “material_theme_arrow_folders” setting ([4c22ee0](https://github.com/equinusocio/material-theme/commit/4c22ee0)), closes [#998](https://github.com/equinusocio/material-theme/issues/998)
 * New “material_theme_bullet_tree_indicator” setting ([cf0f513](https://github.com/equinusocio/material-theme/commit/cf0f513))
 * Now the minimap viewport use the current accent color ([0aa5b69](https://github.com/equinusocio/material-theme/commit/0aa5b69))
@@ -34,7 +39,7 @@
 
 ### BREAKING CHANGES
 
-* From this release Material Theme use the `st-file-icons` package to
+* From this release Material Theme use the `zz-file-icons` package to
 display file type icons. Please install it and restart Sublime Text.
 
 

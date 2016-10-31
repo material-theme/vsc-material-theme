@@ -17,14 +17,14 @@ PLAIN_NOTES = 'PlainNotes'
 
 EXTRAS = OrderedDict(
     [
-        # (
-        #     'PlainNotes',
-        #     {
-        #         'name': 'Plain Notes',
-        #         'settings': 'Note.sublime-settings',
-        #         'desc': 'Choose a color scheme'
-        #     }
-        # ),
+        (
+            'PlainNotes',
+            {
+                'name': 'Plain Notes',
+                'settings': 'Note.sublime-settings',
+                'desc': 'Choose a color scheme'
+            }
+        ),
         (
             'PlainTasks',
             {

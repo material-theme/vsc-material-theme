@@ -118,7 +118,7 @@
   // Disable the current file tree indicator
   "material_theme_disable_tree_indicator": false,
 
-  // Hide headin titles from the sidebar (only with Material Theme Appbar)
+  // Hide heading titles from the sidebar (only with Material Theme Appbar)
   "material_theme_tree_headings": false,
 
   //
@@ -136,4 +136,10 @@
 
   // Enable sidebar and panels contrast mode
   "material_theme_contrast_mode": false,
+
+  // Enable bright scrollbars puck color
+  "material_theme_bright_scrollbars": false,
+
+  // Enable accent scrollbars
+  "material_theme_accent_scrollbars": false,
 }

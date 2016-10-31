@@ -358,7 +358,24 @@
 
   {
     "class": "minimap_control",
-    "settings": ["always_show_minimap_viewport","material_theme_accent_<%= ui.accents[i].id %>"],
-    "viewport_color": [<%= ui.accents[i].rgb %>, 80]
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "viewport_color": [<%= ui.accents[i].rgb %>, 60]
+  },
+
+    // Scrollbars
+
+  {
+    "class": "puck_control",
+    "settings": ["material_theme_accent_scrollbars", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/thumb_vertical.png",
+    "layer1.opacity": 0.8
+  },
+
+  {
+    "class": "puck_control",
+    "attributes": ["horizontal"],
+    "settings": ["material_theme_accent_scrollbars", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/thumb_horizontal.png",
+    "layer1.opacity": 0.8
   },
 <% } %>
