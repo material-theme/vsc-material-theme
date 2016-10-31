@@ -358,8 +358,8 @@
 
   {
     "class": "minimap_control",
-    "settings": ["always_show_minimap_viewport","material_theme_accent_<%= ui.accents[i].id %>"],
-    "viewport_color": [<%= ui.accents[i].rgb %>, 80]
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "viewport_color": [<%= ui.accents[i].rgb %>, 60]
   },
 
     // Scrollbars

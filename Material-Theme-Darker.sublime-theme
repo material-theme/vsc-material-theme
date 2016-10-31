@@ -1858,8 +1858,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_teal"],
-      "viewport_color": [128, 203, 196, 80]
+      "settings": ["material_theme_accent_teal"],
+      "viewport_color": [128, 203, 196, 60]
     },
   
       // Scrollbars
@@ -2238,8 +2238,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_lime"],
-      "viewport_color": [124, 179, 66, 80]
+      "settings": ["material_theme_accent_lime"],
+      "viewport_color": [124, 179, 66, 60]
     },
   
       // Scrollbars
@@ -2618,8 +2618,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_purple"],
-      "viewport_color": [171, 71, 188, 80]
+      "settings": ["material_theme_accent_purple"],
+      "viewport_color": [171, 71, 188, 60]
     },
   
       // Scrollbars
@@ -2998,8 +2998,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_red"],
-      "viewport_color": [229, 115, 115, 80]
+      "settings": ["material_theme_accent_red"],
+      "viewport_color": [229, 115, 115, 60]
     },
   
       // Scrollbars
@@ -3378,8 +3378,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_orange"],
-      "viewport_color": [255, 112, 66, 80]
+      "settings": ["material_theme_accent_orange"],
+      "viewport_color": [255, 112, 66, 60]
     },
   
       // Scrollbars
@@ -3758,8 +3758,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_yellow"],
-      "viewport_color": [255, 160, 0, 80]
+      "settings": ["material_theme_accent_yellow"],
+      "viewport_color": [255, 160, 0, 60]
     },
   
       // Scrollbars
@@ -4138,8 +4138,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_indigo"],
-      "viewport_color": [92, 107, 192, 80]
+      "settings": ["material_theme_accent_indigo"],
+      "viewport_color": [92, 107, 192, 60]
     },
   
       // Scrollbars
@@ -4518,8 +4518,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_pink"],
-      "viewport_color": [255, 64, 129, 80]
+      "settings": ["material_theme_accent_pink"],
+      "viewport_color": [255, 64, 129, 60]
     },
   
       // Scrollbars
@@ -4898,8 +4898,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_blue"],
-      "viewport_color": [41, 121, 255, 80]
+      "settings": ["material_theme_accent_blue"],
+      "viewport_color": [41, 121, 255, 60]
     },
   
       // Scrollbars
@@ -5278,8 +5278,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_cyan"],
-      "viewport_color": [0, 188, 212, 80]
+      "settings": ["material_theme_accent_cyan"],
+      "viewport_color": [0, 188, 212, 60]
     },
   
       // Scrollbars
@@ -5658,8 +5658,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_bright-teal"],
-      "viewport_color": [100, 255, 218, 80]
+      "settings": ["material_theme_accent_bright-teal"],
+      "viewport_color": [100, 255, 218, 60]
     },
   
       // Scrollbars
@@ -6038,8 +6038,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_acid-lime"],
-      "viewport_color": [198, 255, 0, 80]
+      "settings": ["material_theme_accent_acid-lime"],
+      "viewport_color": [198, 255, 0, 60]
     },
   
       // Scrollbars
@@ -6418,8 +6418,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_graphite"],
-      "viewport_color": [97, 97, 97, 80]
+      "settings": ["material_theme_accent_graphite"],
+      "viewport_color": [97, 97, 97, 60]
     },
   
       // Scrollbars
@@ -6798,8 +6798,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_brba"],
-      "viewport_color": [56, 142, 60, 80]
+      "settings": ["material_theme_accent_brba"],
+      "viewport_color": [56, 142, 60, 60]
     },
   
       // Scrollbars
@@ -7178,8 +7178,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_sky"],
-      "viewport_color": [132, 255, 255, 80]
+      "settings": ["material_theme_accent_sky"],
+      "viewport_color": [132, 255, 255, 60]
     },
   
       // Scrollbars
@@ -7558,8 +7558,8 @@
   
     {
       "class": "minimap_control",
-      "settings": ["always_show_minimap_viewport","material_theme_accent_tomato"],
-      "viewport_color": [244, 67, 54, 80]
+      "settings": ["material_theme_accent_tomato"],
+      "viewport_color": [244, 67, 54, 60]
     },
   
       // Scrollbars
