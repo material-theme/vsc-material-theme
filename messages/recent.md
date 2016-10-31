@@ -1,6 +1,6 @@
 #### Material Theme for Sublime Text 3
 
-## Version 4.0.0
+## Version 4.0.1
 
 📣 **BREAKING CHANGES**:
 
