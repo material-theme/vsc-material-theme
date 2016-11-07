@@ -549,17 +549,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown - Markup Raw Inline</string>
-			<key>scope</key>
-			<string>text.html.markdown markup.raw.inline</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#65737e</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Markdown - Markup Raw Inline Punctuation</string>
 			<key>scope</key>
 			<string>text.html.markdown punctuation.definition.raw.markdown</string>
