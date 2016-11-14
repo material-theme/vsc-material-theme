@@ -300,13 +300,12 @@ settings:
 - name: Markdown - Markup Raw Inline
   scope: text.html.markdown markup.raw.inline
   settings:
-    background: '<%= scheme.invisibles %>'
+    foreground: '<%= scheme.base.purple %>'
 
 - name: Markdown - Markup Raw Inline Punctuation
   scope: text.html.markdown punctuation.definition.raw.markdown
   settings:
-    background: '<%= scheme.invisibles %>'
-    foreground: '<%= scheme.base.black %>'
+    foreground: '<%= scheme.invisibles %>'
 
 - name: Markdown - Line Break
   scope: text.html.markdown meta.dummy.line-break

@@ -191,7 +191,7 @@
       "layer0.opacity": 1.0
     },
   
-      // Row panel style inside comman panel (cmd + shift + p)
+      // Row panel style inside command panel (cmd + shift + p)
   
     {
       "class": "quick_panel_row",

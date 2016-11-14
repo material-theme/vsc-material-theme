@@ -273,10 +273,10 @@ class MtConfigCommand(sublime_plugin.TextCommand):
         popup.append(SCHEME_LABEL)
         for option in sorted(mt_schemes):
           option_value = scheme == option
-          #scheme_name = option[32:].replace('/', ' ⚠️ ')
+          scheme_name = option[32:].replace('.tmTheme', '')
           popup.append(
             SCHEME % {
-              'name': option,
+              'name': scheme_name,
               'status': RADIO_MARKED if option_value else RADIO_UNMARKED,
               'set': option,
               'class': '.success' if option_value else '.error',

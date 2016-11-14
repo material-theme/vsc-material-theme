@@ -554,8 +554,8 @@
 			<string>text.html.markdown markup.raw.inline</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#65737e</string>
+				<key>foreground</key>
+				<string>#C792EA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -565,10 +565,8 @@
 			<string>text.html.markdown punctuation.definition.raw.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#65737e</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#65737e</string>
 			</dict>
 		</dict>
 		<dict>
