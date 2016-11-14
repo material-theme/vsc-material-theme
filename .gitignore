@@ -8,7 +8,7 @@ node_modules/
 
 images.cache
 schemes/*.YAML-tmTheme
-.src/schemes/scheme.tmTheme
+sources/schemes/scheme.tmTheme
 
 
 # OS

@@ -1,17 +1,15 @@
 #### Material Theme for Sublime Text 3
 
-## Version 4.0.1
+## Version 4.0.2
 
 📣 **BUGFIXES**:
-  * Fix minimap viewport opacity ([a82b6b3](https://github.com/equinusocio/material-theme/commit/a82b6b3))
-  * Fix PlainTasks and PlainNotes support ([4e3d7d9](https://github.com/equinusocio/material-theme/commit/4e3d7d9))
-  * Fix scrollbars black border with "overlay_scroll_bars": "disabled" ([c3f53b2](https://github.com/equinusocio/material-theme/commit/c3f53b2)), closes [#1012](https://github.com/equinusocio/material-theme/issues/1012)
-  * Fix tabset spacing ([1364e5c](https://github.com/equinusocio/material-theme/commit/1364e5c)), closes [#1008](https://github.com/equinusocio/material-theme/issues/1008)
+  * Fix Raw markdown background color ([14a4fcf](https://github.com/equinusocio/material-theme/commit/14a4fcf))
+  * Fix minor color schemes highlights ([664ce96](https://github.com/equinusocio/material-theme/commit/664ce96))
+  * Fix color schemes names inside configuration popup ([2e703d7](https://github.com/equinusocio/material-theme/commit/2e703d7))
 
 
 📣 **FEATURES**:
-
-  * New "material_theme_bright_scrollbars" and "material_theme_accent_scrollbars" ([0038542](https://github.com/equinusocio/material-theme/commit/0038542)), closes [#1016](https://github.com/equinusocio/material-theme/issues/1016)
+  * Add new file icons for zz File Icons package ([b17159b](https://github.com/equinusocio/material-theme/commit/b17159b))
 
 
 

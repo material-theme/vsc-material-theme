@@ -60,7 +60,7 @@ gulp.task('changelog', function () {
     .pipe(conventionalChangelog({
       // conventional-changelog options go here
       preset: 'angular',
-      releaseCount: 0
+      releaseCount: 1
     }))
     .pipe(gulp.dest('./'));
 });
