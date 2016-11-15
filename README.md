@@ -31,7 +31,7 @@ You can install this awesome theme through the [Package Control](https://package
 # Activate the theme
 
 You can active this theme from:
-- Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd> + <kbd>↑</kbd> + <kbd>p</kbd>) by typing `Material Theme: Activate theme`. 
+- Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd> + <kbd>↑</kbd> + <kbd>p</kbd>) by typing `Material Theme: Activate theme`.
 - Context menu (Right click on the editor) and choose `Material Theme > Activate Material Theme`
 - `Preferences > Packages Settings` and choose `Material Theme > Activate Material Theme`
 
@@ -74,6 +74,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 # Theme options
 
 ```json
+// Accent
 "material_theme_accent_acid-lime"         : true , // Set acid-lime accent color
 "material_theme_accent_blue"              : true , // Set blue accent color
 "material_theme_accent_brba"              : true , // Set Breaking Bad green accent color
@@ -89,21 +90,27 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_accent_sky"               : true , // Set bright-cyan accent color
 "material_theme_accent_tomato"            : true , // Set tomato red accent color
 "material_theme_accent_yellow"            : true , // Set yellow accent color
-"material_theme_bold_tab"                 : true , // Make the tab labels bolder
+
+// Panels
+"material_theme_accent_scrollbars"        : true , // Enable accent color for scrollbars
+"material_theme_bright_scrollbars"        : true , // Bright scrollbars puck color
 "material_theme_compact_panel"            : true , // Set minimal padding for the search panel
-"material_theme_compact_sidebar"          : true , // Set compact side bar
 "material_theme_contrast_mode"            : true , // Enable sidebar and panels contrast mode
-"material_theme_disable_fileicons"        : true , // Hide sidebar file type icons
-"material_theme_arrow_folders"            : true , // Replace folder icons with arrows
-"material_theme_big_fileicons"            : true , // Show bigger file type icons
-"material_theme_disable_folder_animation" : true , // Disable folder animation
-"material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
-"material_theme_bullet_tree_indicator"    : true , // Set a bullet as active tree indicator
 "material_theme_panel_separator"          : true , // Show bottom panel separator
 "material_theme_small_statusbar"          : true , // Set small status bar
+
+// Sidebar
+"material_theme_arrow_folders"            : true , // Replace folder icons with arrows
+"material_theme_big_fileicons"            : true , // Show bigger file type icons
+"material_theme_bullet_tree_indicator"    : true , // Set a bullet as active tree indicator
+"material_theme_compact_sidebar"          : true , // Set compact side bar
+"material_theme_disable_fileicons"        : true , // Hide sidebar file type icons
+"material_theme_disable_folder_animation" : true , // Disable folder animation
+"material_theme_disable_tree_indicator"   : true , // Disable sidebar file indicator
+
+// Tabs
+"material_theme_bold_tab"                 : true , // Make the tab labels bolder
 "material_theme_small_tab"                : true , // Set small tabs
-"material_theme_bright_scrollbars"        : true , // Bright scrollbars puck color
-"material_theme_accent_scrollbars"        : true , // Enable accent color for scrollbars
 "material_theme_tabs_autowidth"           : true , // Enable autowidth for tabs
 "material_theme_tabs_separator"           : true , // Show tabs separator, this disables tab hover animation
 
