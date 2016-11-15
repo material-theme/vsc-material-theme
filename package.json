@@ -9,6 +9,8 @@
     "bs": "gulp build:schemes"
   },
   "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
     "colors": "^1.1.2",
     "conventional-github-releaser": "^1.1.2",
     "del": "^2.2.0",
