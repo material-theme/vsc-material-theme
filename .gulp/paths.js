@@ -5,10 +5,13 @@
 const infos = require('../package.json')
   , today = new Date()
   , paths =  {
-  "srcPath": './sources',
-  "common": "./sources/settings/commons.json",
-  "utils": "./utils"
-};
+    'src': './sources',
+    'common': './sources/settings/commons.json',
+    'utils': './utils',
+    'schemes': './schemes',
+    'widgets': './widgets',
+    'extras': './extras'
+  };
 
 module.exports = paths;
 }(require, module));
