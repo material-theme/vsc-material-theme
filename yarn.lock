@@ -734,7 +734,7 @@ chalk@*, chalk@^1.0.0, chalk@^1.1.0, chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^0.5.0:
+chalk@^0.5.0, chalk@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-0.5.1.tgz#663b3a648b68b55d04690d49167aa837858f2174"
   dependencies:
@@ -2031,6 +2031,14 @@ gulp-sourcemaps@1.6.0:
     strip-bom "^2.0.0"
     through2 "^2.0.0"
     vinyl "^1.0.0"
+
+gulp-stats@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/gulp-stats/-/gulp-stats-0.0.3.tgz#2d986470508565b6124b4fba2524b0e1b177a963"
+  dependencies:
+    chalk "^0.5.1"
+    pretty-hrtime "^1.0.0"
+    text-table "^0.2.0"
 
 gulp-template@^4.0.0:
   version "4.0.0"
@@ -3882,7 +3890,7 @@ text-extensions@^1.0.0:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/text-extensions/-/text-extensions-1.3.3.tgz#fef0c8ce07f5bb3b8297bcf075304531754124bf"
 
-text-table@~0.2.0:
+text-table@^0.2.0, text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 

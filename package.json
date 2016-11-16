@@ -16,6 +16,7 @@
     "conventional-github-releaser": "^1.1.2",
     "del": "^2.2.0",
     "eslint": "^3.8.1",
+    "eslint-plugin-standard": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.4.0",
     "gulp-conventional-changelog": "^1.1.0",
@@ -33,7 +34,6 @@
     "gulp-stats": "0.0.3",
     "gulp-template": "^4.0.0",
     "lodash": "^4.15.0",
-    "require-dir": "^0.3.1",
     "run-sequence": "^1.1.5",
     "sleep": "^5.0.0",
     "yargs": "^6.2.0"

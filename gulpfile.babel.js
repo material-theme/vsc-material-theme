@@ -1,10 +1,11 @@
 /* Sublime Text 3 Theme Builder */
 
 import gulp from 'gulp';
+import gulpStats from 'gulp-stats';
+import tasks from './.gulp/tasks';
 
 // Use gulp-stats
-require('gulp-stats')(gulp);
-require('require-dir')('.gulp/tasks');
+gulpStats(gulp);
 
-// Set default script
-gulp.task('default', ['build']);
+// set default task
+gulp.task('default', tasks);

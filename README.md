@@ -138,6 +138,12 @@ You can also use the official Material Design monospace font "[Roboto Mono](http
 
 This UI theme uses a custom compiler build on Gulp and JS. If you want to edit the UI you must first install the compiler:
 
+Install the `PackageDev` package to Sublime Text.
+
+Then create a new symlink for the `subl` command following [this guide](https://www.sublimetext.com/docs/2/osx_command_line.html)
+
+Install all the required packages:
+
 ```
 $ npm install
 ```
