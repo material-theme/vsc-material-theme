@@ -10,7 +10,9 @@ import colors from 'colors';
 import path from 'path';
 import sleep from 'sleep';
 import _ from 'lodash';
+import common from '~/sources/settings/commons';
 
+var $ = require('gulp-load-plugins')();
 
 gulp.task('build:themes', ['clean:themes'], () => {
   return gulp.src(`${paths.src}/themes/*.json`)

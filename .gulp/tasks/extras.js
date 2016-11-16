@@ -11,11 +11,13 @@ import runSequence from 'run-sequence';
 import path from 'path';
 import sleep from 'sleep';
 import _ from 'lodash';
+import common from '~/sources/settings/commons';
 
+var $ = require('gulp-load-plugins')();
 
 gulp.task('process:extras', () => {
   return gulp.src(`${paths.src}/settings/specific/*.json`)
-    .pipe($.flatmap((stream, file) => {
+    .pipe($.flatmap( (stream, file) => {
       var basename = path.basename(file.path, path.extname(file.path));
 
       return gulp.src(`${paths.src}/extras/**/*.YAML-tmTheme`)

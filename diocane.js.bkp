@@ -1,0 +1,94 @@
+/* Sublime Text 3 Theme Builder
+
+'use strict';
+
+/*
+ * > Plugins
+ */
+
+var gulp                       = require('gulp'),
+    del                        = require('del'),
+    path                       = require('path'),
+    colors                     = require('colors'),
+    sleep                      = require('sleep'),
+    runSequence                = require('run-sequence'),
+    conventionalChangelog      = require('gulp-conventional-changelog'),
+    conventionalGithubReleaser = require('conventional-github-releaser'),
+    replace                    = require('gulp-replace'),
+    argv                       = require('yargs').argv,
+    fs                         = require('fs'),
+    _                          = require('lodash'),
+    $                          = require('gulp-load-plugins')();
+
+
+
+
+
+/*
+ * > Git
+ */
+
+gulp.task('commit-version', function() {
+  return gulp.src('.')
+    .pipe($.git.add())
+    .pipe($.git.commit('chore: bump version number'));
+});
+
+gulp.task('commit-changelog', function() {
+  return gulp.src('.')
+    .pipe($.git.add())
+    .pipe($.git.commit('chore: update CHANGELOG.md'));
+});
+
+gulp.task('create-new-tag', function(cb) {
+  var version = getPackageJsonVersion();
+
+  $.git.tag('v' + version, 'version: ' + version, function (error) {
+    if (error) {
+      return cb(error);
+    }
+    $.git.push('origin', 'master', {args: '--tags'}, cb);
+  });
+
+  function getPackageJsonVersion() {
+    return JSON.parse(fs.readFileSync('./package.json', 'utf8')).version;
+  }
+});
+
+
+/*
+ * > Github Release
+ */
+
+gulp.task('github-release', function(done) {
+  conventionalGithubReleaser({
+    type: 'oauth',
+    token: process.env.CONVENTIONAL_GITHUB_RELEASER_TOKEN
+  }, {
+    preset: 'angular'
+  }, done);
+});
+
+
+/*
+ * > Release
+ */
+
+gulp.task('release', function(cb) {
+  runSequence(
+    'changelog',
+    'commit-changelog',
+    'create-new-tag',
+    'github-release',
+    function (error) {
+      if (error) {
+        console.log('\n[release]'.bold.magenta + ' There was an issue releasing themes:\n'.bold.red + error.message);
+      } else {
+        console.log('\n[release]'.bold.magenta + ' Finished successfully \n'.bold.green);
+      }
+      cb(error);
+    }
+  );
+});
+
+

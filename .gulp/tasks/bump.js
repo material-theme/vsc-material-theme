@@ -10,6 +10,7 @@ import colors from 'colors';
 import yrgv from 'yargs';
 import runSequence from 'run-sequence';
 
+var $ = require('gulp-load-plugins')();
 var argv = yrgv.argv;
 let envRegExp = new RegExp('([\'|\"]?__version__[\'|\"]?[ ]*[:|=][ ]*[\'|\"]?)(\\d+\\.\\d+\\.\\d+)(-[0-9A-Za-z\.-]+)?([\'|\"]?)', 'i');
 

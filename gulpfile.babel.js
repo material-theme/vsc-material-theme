@@ -1,9 +1,6 @@
 /* Sublime Text 3 Theme Builder */
-'use strict';
 
 import gulp from 'gulp';
-import $ from 'gulp-load-plugins';
-
 
 // Use gulp-stats
 //require('gulp-stats')(gulp);
