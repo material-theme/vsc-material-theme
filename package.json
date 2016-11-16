@@ -2,7 +2,7 @@
   "name": "material-theme",
   "version": "4.0.2",
   "description": "Material Theme for Sublime Text 3",
-  "main": "gulpfile.js",
+  "main": "gulpfile.babel.js",
   "scripts": {
     "build": "gulp",
     "bt": "gulp build:themes",
