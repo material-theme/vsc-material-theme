@@ -3,7 +3,7 @@
 import gulp from 'gulp';
 
 // Use gulp-stats
-//require('gulp-stats')(gulp);
+require('gulp-stats')(gulp);
 require('require-dir')('.gulp/tasks');
 
 // Set default script

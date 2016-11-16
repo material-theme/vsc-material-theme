@@ -30,6 +30,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
+    "gulp-stats": "0.0.3",
     "gulp-template": "^4.0.0",
     "lodash": "^4.15.0",
     "require-dir": "^0.3.1",
