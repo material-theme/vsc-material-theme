@@ -22,7 +22,7 @@ gulp.task('build:themes', ['clean:themes'], () => {
     }))
     .pipe($.include())
     .pipe($.data( (file) => {
-      var specific = require(`${paths.src}/settings/specific/` + path.basename(file.path));
+      var specific = require('~/sources/settings/specific/' + path.basename(file.path));
       return _.merge(common, specific);
     }))
     .pipe($.template())
