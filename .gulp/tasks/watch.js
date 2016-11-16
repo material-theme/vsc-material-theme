@@ -14,4 +14,5 @@ gulp.task('watch', ['build'], () => {
   gulp.watch(`${paths.src}/extras/**/*.YAML-tmTheme`, ['build:extras']);
   gulp.watch(`${paths.src}/widgets/widget.*`, ['build:widgets']);
   gulp.watch(`${paths.src}/settings/**/*.json`, ['build:schemes', 'build:widgets', 'build:themes']);
+  gulp.watch("gulpfile.babel.js").on("change", () => process.exit(0));
 });
