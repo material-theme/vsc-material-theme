@@ -138,21 +138,22 @@ You can also use the official Material Design monospace font "[Roboto Mono](http
 
 This UI theme uses a custom compiler build on Gulp and JS. If you want to edit the UI you must first install the compiler:
 
-Install the `PackageDev` package to Sublime Text.
+1. Install the `PackageDev` package to Sublime Text.
 
-Then create a new symlink for the `subl` command following [this guide](https://www.sublimetext.com/docs/2/osx_command_line.html)
+2. Then create a new symlink for the `subl` command following [this guide](https://www.sublimetext.com/docs/2/osx_command_line.html)
 
-Install all the required packages:
+3. Install all the required packages:
 
 ```
 $ npm install
 ```
-then run compiler and watcher by run:
+
+4. then run compiler and watcher by run:
 
 ```
 $ gulp
 ```
-You can now edit the source files under `/src` folder that will be compiled inside the root folder (don't edit compiled files).
+You can now edit the source files under `./sources` folder that will be compiled inside the root folder (don't edit compiled files).
 
 # Other Resources
 
