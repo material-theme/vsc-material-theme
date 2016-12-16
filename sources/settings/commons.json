@@ -14,16 +14,6 @@
     },
     "accents": [
       {
-        "id": "teal",
-        "name": "Teal",
-        "hex": "#80CBC4",
-        "rgb": "128, 203, 196",
-        "foreground": {
-          "hex": "#FFFFFF",
-          "rgb": "255, 255, 255"
-        }
-      },
-      {
         "id": "lime",
         "name": "Lime",
         "hex": "#7CB342",
