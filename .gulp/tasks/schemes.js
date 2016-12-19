@@ -9,7 +9,6 @@ import paths from '../paths';
 import colors from 'colors';
 import path from 'path';
 import runSequence from 'run-sequence';
-import sleep from 'sleep';
 import replace from 'gulp-replace';
 import _ from 'lodash';
 import common from '~/sources/settings/commons';
@@ -60,8 +59,6 @@ gulp.task('convert:schemes', function() {
       this.emit('end');
     }))
     .pipe($.flatmap( (stream) => {
-      sleep.sleep(2);
-
       return stream
         //.pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file"'))
         .pipe($.exec('subl "<%= file.path %>" && subl --command "convert_file" && subl --command "hide_panel"'))
@@ -71,7 +68,6 @@ gulp.task('convert:schemes', function() {
 
 // Escape CDATA characters
 gulp.task('escape:schemes', () => {
-  sleep.sleep(2);
   return gulp.src(`${paths.schemes}/*.tmTheme`)
     .pipe(replace('&lt;', '<'))
     .pipe(replace('&gt;', '>'))

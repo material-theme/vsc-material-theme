@@ -9,7 +9,6 @@ import paths from '../paths';
 import colors from 'colors';
 import runSequence from 'run-sequence';
 import path from 'path';
-import sleep from 'sleep';
 import _ from 'lodash';
 import common from '~/sources/settings/commons';
 
@@ -37,8 +36,6 @@ gulp.task('process:extras', () => {
 gulp.task('convert:extras', () => {
   return gulp.src(`${paths.extras}/**/*.YAML-tmTheme`)
     .pipe($.flatmap( (stream) => {
-      sleep.sleep(2);
-
       return stream
         .pipe($.plumber( (error) => {
           console.log('[convert:extras]'.bold.magenta + ' There was an issue converting color extras:\n'.bold.red + error.message +
