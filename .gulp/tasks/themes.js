@@ -8,7 +8,6 @@ import gulp from 'gulp';
 import paths from '../paths';
 import colors from 'colors';
 import path from 'path';
-import sleep from 'sleep';
 import _ from 'lodash';
 import common from '~/sources/settings/commons';
 

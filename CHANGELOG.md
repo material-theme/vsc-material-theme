@@ -5,15 +5,6 @@
 ### Bug Fixes
 
 * Fix accent-teal missing assets ([d959813](https://github.com/equinusocio/material-theme/commit/d959813))
-
-
-
-<a name="4.0.2"></a>
-## [4.0.2](https://github.com/equinusocio/material-theme/compare/v3.2.2...v4.0.2) (2016-11-14)
-
-
-### Bug Fixes
-
 * Fix code folding arrows color ([afe682c](https://github.com/equinusocio/material-theme/commit/afe682c))
 * Fix color schemes names inside configuration popup ([2e703d7](https://github.com/equinusocio/material-theme/commit/2e703d7))
 * Fix folder icon to fit the pixel grid ([ba25d37](https://github.com/equinusocio/material-theme/commit/ba25d37)), closes [#958](https://github.com/equinusocio/material-theme/issues/958)
@@ -26,6 +17,7 @@
 * Fix theme commands (grey menu) ([733b4bb](https://github.com/equinusocio/material-theme/commit/733b4bb))
 * IMPORTANT: Old color schemes are not more available ([ee830a9](https://github.com/equinusocio/material-theme/commit/ee830a9))
 * Improve buttons and sidebar colors ([26bd93f](https://github.com/equinusocio/material-theme/commit/26bd93f))
+* Improve Get Info popup ([1a1f297](https://github.com/equinusocio/material-theme/commit/1a1f297))
 * Improve icon file type hover transition ([a84d6cc](https://github.com/equinusocio/material-theme/commit/a84d6cc))
 * Improve minimap viewport visibility ([b1951db](https://github.com/equinusocio/material-theme/commit/b1951db))
 * Improve tree folder/arrow hover animation ([37879c9](https://github.com/equinusocio/material-theme/commit/37879c9))
@@ -57,22 +49,27 @@ display file type icons. Please install it and restart Sublime Text.
 
 
 
-<a name="4.0.1"></a>
-## [4.0.1](https://github.com/equinusocio/material-theme/compare/v3.2.2...v4.0.1) (2016-10-31)
+<a name="4.0.3"></a>
+## [4.0.3](https://github.com/equinusocio/material-theme/compare/v3.2.2...v4.0.3) (2016-12-19)
 
 
 ### Bug Fixes
 
+* Fix accent-teal missing assets ([d959813](https://github.com/equinusocio/material-theme/commit/d959813))
 * Fix code folding arrows color ([afe682c](https://github.com/equinusocio/material-theme/commit/afe682c))
+* Fix color schemes names inside configuration popup ([2e703d7](https://github.com/equinusocio/material-theme/commit/2e703d7))
 * Fix folder icon to fit the pixel grid ([ba25d37](https://github.com/equinusocio/material-theme/commit/ba25d37)), closes [#958](https://github.com/equinusocio/material-theme/issues/958)
 * Fix minimap viewport opacity ([a82b6b3](https://github.com/equinusocio/material-theme/commit/a82b6b3))
+* Fix minor color schemes highlights ([664ce96](https://github.com/equinusocio/material-theme/commit/664ce96))
 * Fix PlainTasks and PlainNotes support ([4e3d7d9](https://github.com/equinusocio/material-theme/commit/4e3d7d9))
+* Fix Raw markdown background color ([14a4fcf](https://github.com/equinusocio/material-theme/commit/14a4fcf)), closes [#1027](https://github.com/equinusocio/material-theme/issues/1027)
 * Fix scrollbars black border with "overlay_scroll_bars": "disabled" ([c3f53b2](https://github.com/equinusocio/material-theme/commit/c3f53b2)), closes [#1012](https://github.com/equinusocio/material-theme/issues/1012)
 * Fix sidebar heading color with Appbar Package ([27bf47b](https://github.com/equinusocio/material-theme/commit/27bf47b)), closes [#991](https://github.com/equinusocio/material-theme/issues/991)
 * Fix tabset spacing ([1364e5c](https://github.com/equinusocio/material-theme/commit/1364e5c)), closes [#1008](https://github.com/equinusocio/material-theme/issues/1008)
 * Fix theme commands (grey menu) ([733b4bb](https://github.com/equinusocio/material-theme/commit/733b4bb))
 * IMPORTANT: Old color schemes are not more available ([ee830a9](https://github.com/equinusocio/material-theme/commit/ee830a9))
 * Improve buttons and sidebar colors ([26bd93f](https://github.com/equinusocio/material-theme/commit/26bd93f))
+* Improve Get Info popup ([1a1f297](https://github.com/equinusocio/material-theme/commit/1a1f297))
 * Improve icon file type hover transition ([a84d6cc](https://github.com/equinusocio/material-theme/commit/a84d6cc))
 * Improve minimap viewport visibility ([b1951db](https://github.com/equinusocio/material-theme/commit/b1951db))
 * Improve tree folder/arrow hover animation ([37879c9](https://github.com/equinusocio/material-theme/commit/37879c9))
@@ -85,6 +82,7 @@ display file type icons. Please install it and restart Sublime Text.
 ### Features
 
 * Add "material_theme_big_fileicons" setting ([4da341b](https://github.com/equinusocio/material-theme/commit/4da341b)), closes [#997](https://github.com/equinusocio/material-theme/issues/997)
+* Add new icons for zz File Icons Support ([b17159b](https://github.com/equinusocio/material-theme/commit/b17159b))
 * Add PlainTasks support ([b420ec0](https://github.com/equinusocio/material-theme/commit/b420ec0))
 * Add Skins package support. ([4d49774](https://github.com/equinusocio/material-theme/commit/4d49774))
 * Add support for "zz-file-icons" package. ([e493311](https://github.com/equinusocio/material-theme/commit/e493311))
