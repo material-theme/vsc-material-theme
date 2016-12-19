@@ -1,3 +1,13 @@
+<a name="4.0.3"></a>
+## [4.0.3](https://github.com/equinusocio/material-theme/compare/v3.2.2...v4.0.3) (2016-12-19)
+
+
+### Bug Fixes
+
+* Fix accent-teal missing assets ([d959813](https://github.com/equinusocio/material-theme/commit/d959813))
+
+
+
 <a name="4.0.2"></a>
 ## [4.0.2](https://github.com/equinusocio/material-theme/compare/v3.2.2...v4.0.2) (2016-11-14)
 
