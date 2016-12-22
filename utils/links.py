@@ -4,7 +4,7 @@ import sublime_plugin
 import webbrowser
 
 
-"""Repository command."""
+# Repository command.
 
 
 class MtRepoCommand(sublime_plugin.WindowCommand):
@@ -13,7 +13,7 @@ class MtRepoCommand(sublime_plugin.WindowCommand):
         webbrowser.open_new_tab('https://github.com/equinusocio/material-theme')
 
 
-"""Issues command."""
+# Issues command.
 
 
 class MtIssuesCommand(sublime_plugin.WindowCommand):
