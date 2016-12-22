@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-'''
-Material Theme Config.
-'''
+
+# Material Theme Config.
+
 import sublime
 import sublime_plugin
 import mdpopups
