@@ -1,6 +1,6 @@
 {
   "name": "material-theme",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.babel.js",
   "scripts": {
@@ -33,9 +33,9 @@
     "gulp-replace": "^0.5.4",
     "gulp-stats": "0.0.4",
     "gulp-template": "^4.0.0",
-    "lodash": "^4.15.0",
+    "lodash": "^4.17.4",
     "run-sequence": "^1.1.5",
-    "yargs": "^6.2.0"
+    "yargs": "^6.6.0"
   },
   "repository": {
     "type": "git",
