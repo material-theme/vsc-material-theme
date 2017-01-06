@@ -5,6 +5,7 @@
 
   {
     "class": "tabset_control",
+    "attributes": ["file_medium_dark"],
     "layer0.opacity": 1.0,
     "layer0.tint": [<%= ui.background.primary.rgb %>],
     "tint_index": 1,

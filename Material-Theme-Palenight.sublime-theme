@@ -266,6 +266,7 @@
   
     {
       "class": "tabset_control",
+      "attributes": ["file_medium_dark"],
       "layer0.opacity": 1.0,
       "layer0.tint": [41, 45, 62],
       "tint_index": 1,
@@ -735,6 +736,16 @@
       "class": "icon_folder",
       "parents":
       [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/commons/folder--hover.png",
+      "layer1.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "parents":
+      [
         { "class": "tree_row", "attributes": ["expanded", "hover"] }
       ],
       "layer3.texture":
@@ -770,15 +781,6 @@
       "settings": ["material_theme_arrow_folders"],
       "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
       "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
-    },
-  
-    {
-      "class": "icon_folder",
-      "parents":
-      [
-        { "class": "tree_row", "attributes": ["selected"] }
-      ],
-      "layer1.texture": "Material Theme/assets/commons/folder--hover.png",
     },
   
       // Folder loading
@@ -1672,6 +1674,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_lime"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-lime/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -1710,6 +1722,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_lime"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-lime/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -2052,6 +2074,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_purple"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-purple/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -2090,6 +2122,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_purple"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-purple/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -2432,6 +2474,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_red"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-red/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -2470,6 +2522,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_red"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-red/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -2812,6 +2874,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_orange"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-orange/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -2850,6 +2922,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_orange"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-orange/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -3192,6 +3274,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_yellow"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-yellow/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -3230,6 +3322,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_yellow"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-yellow/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -3572,6 +3674,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_indigo"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-indigo/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -3610,6 +3722,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_indigo"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-indigo/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -3952,6 +4074,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_pink"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-pink/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -3990,6 +4122,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_pink"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-pink/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -4332,6 +4474,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_blue"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-blue/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -4370,6 +4522,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_blue"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-blue/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -4712,6 +4874,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_cyan"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-cyan/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -4750,6 +4922,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_cyan"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-cyan/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -5092,6 +5274,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_bright-teal"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -5130,6 +5322,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_bright-teal"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-bright-teal/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -5472,6 +5674,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_acid-lime"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -5510,6 +5722,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_acid-lime"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-acid-lime/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -5852,6 +6074,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_graphite"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-graphite/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -5890,6 +6122,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_graphite"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-graphite/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -6232,6 +6474,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_brba"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-brba/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -6270,6 +6522,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_brba"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-brba/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -6612,6 +6874,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_sky"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-sky/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -6650,6 +6922,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_sky"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-sky/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right
@@ -6992,6 +7274,16 @@
       },
     },
   
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_accent_tomato"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-tomato/folder--hover.png",
+    },
+  
       // Arrow icon folder
     {
       "class": "icon_folder",
@@ -7030,6 +7322,16 @@
       "layer1.opacity": 0.0,
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0
+    },
+  
+    {
+      "class": "icon_folder",
+      "settings": ["material_theme_arrow_folders", "material_theme_accent_tomato"],
+      "parents":
+      [
+        { "class": "tree_row", "attributes": ["selected"] }
+      ],
+      "layer1.texture": "Material Theme/assets/accent-tomato/arrow_folder--hover.png",
     },
   
       // tab set scroll left | scroll right

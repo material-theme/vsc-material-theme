@@ -156,6 +156,16 @@
     },
   },
 
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["selected"] }
+    ],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder--hover.png",
+  },
+
     // Arrow icon folder
   {
     "class": "icon_folder",
@@ -194,6 +204,16 @@
     "layer1.opacity": 0.0,
     "layer2.opacity": 0.0,
     "layer3.opacity": 1.0
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["selected"] }
+    ],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/arrow_folder--hover.png",
   },
 
     // tab set scroll left | scroll right

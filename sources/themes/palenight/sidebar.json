@@ -210,6 +210,16 @@
     "class": "icon_folder",
     "parents":
     [
+      { "class": "tree_row", "attributes": ["selected"] }
+    ],
+    "layer1.texture": "Material Theme/assets/commons/folder--hover.png",
+    "layer1.opacity": 1.0
+  },
+
+  {
+    "class": "icon_folder",
+    "parents":
+    [
       { "class": "tree_row", "attributes": ["expanded", "hover"] }
     ],
     "layer3.texture":
@@ -245,15 +255,6 @@
     "settings": ["material_theme_arrow_folders"],
     "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
     "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
-  },
-
-  {
-    "class": "icon_folder",
-    "parents":
-    [
-      { "class": "tree_row", "attributes": ["selected"] }
-    ],
-    "layer1.texture": "Material Theme/assets/commons/folder--hover.png",
   },
 
     // Folder loading
