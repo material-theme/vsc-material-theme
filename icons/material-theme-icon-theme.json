@@ -1,0 +1,19 @@
+{
+  "iconDefinitions": {
+    "_markdown": {
+      "iconPath": "./svg/markdown.svg"
+    },
+    "_sass": {
+      "iconPath": "./svg/svss.svg"
+    },
+    "_json": {
+      "iconPath": "./svg/json.svg"
+    }
+  },
+  "fileExtensions": {
+      "md": "_markdown",
+      "scss": "_sass",
+      "sass": "_sass",
+      "json": "_json"
+  }
+}

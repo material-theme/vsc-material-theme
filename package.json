@@ -17,6 +17,13 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Material-Theme-Darker.tmTheme"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "material-theme-icons",
+        "label": "Material Theme Icons",
+        "path": "./icons/material-theme-icon-theme.json"
+      }
     ]
   }
 }
