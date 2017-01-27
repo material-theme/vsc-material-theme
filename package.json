@@ -1,0 +1,22 @@
+{
+  "name": "theme-material-theme-darker",
+  "displayName": "Material Theme",
+  "description": "The most epic theme now for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "Equinusocio",
+  "engines": {
+      "vscode": "^1.5.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Darker.tmTheme"
+      }
+    ]
+  }
+}
