@@ -11,9 +11,9 @@
     }
   },
   "fileExtensions": {
-      "md": "_markdown",
-      "scss": "_sass",
-      "sass": "_sass",
-      "json": "_json"
+    "md": "_markdown",
+    "scss": "_sass",
+    "sass": "_sass",
+    "json": "_json"
   }
 }
