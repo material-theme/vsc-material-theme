@@ -1,16 +1,328 @@
 {
   "iconDefinitions": {
+    "_actionscript": {
+      "iconPath": "svg/actionscript.svg"
+    },
+    "_ai": {
+      "iconPath": "svg/ai.svg"
+    },
+    "_angular": {
+      "iconPath": "svg/angular.svg"
+    },
+    "_applescript": {
+      "iconPath": "svg/applescript.svg"
+    },
+    "_archive": {
+      "iconPath": "svg/archive.svg"
+    },
+    "_babel": {
+      "iconPath": "svg/babel.svg"
+    },
+    "_binary": {
+      "iconPath": "svg/binary.svg"
+    },
+    "_blade": {
+      "iconPath": "svg/blade.svg"
+    },
+    "_bower": {
+      "iconPath": "svg/bower.svg"
+    },
+    "_c": {
+      "iconPath": "svg/c.svg"
+    },
+    "_cf": {
+      "iconPath": "svg/cf.svg"
+    },
+    "_circleci": {
+      "iconPath": "svg/circleci.svg"
+    },
+    "_clojure": {
+      "iconPath": "svg/clojure.svg"
+    },
+    "_coffeescript": {
+      "iconPath": "svg/coffeescript.svg"
+    },
+    "_composer": {
+      "iconPath": "svg/composer.svg"
+    },
+    "_cpp": {
+      "iconPath": "svg/cpp.svg"
+    },
+    "_csharp": {
+      "iconPath": "svg/csharp.svg"
+    },
+    "_css": {
+      "iconPath": "svg/css.svg"
+    },
+    "_csv": {
+      "iconPath": "svg/csv.svg"
+    },
+    "_default": {
+      "iconPath": "svg/default.svg"
+    },
+    "_dlang": {
+      "iconPath": "svg/dlang.svg"
+    },
+    "_docker": {
+      "iconPath": "svg/docker.svg"
+    },
+    "_dotnet": {
+      "iconPath": "svg/dotnet.svg"
+    },
+    "_editorconfig": {
+      "iconPath": "svg/editorconfig.svg"
+    },
+    "_elm": {
+      "iconPath": "svg/elm.svg"
+    },
+    "_erlang": {
+      "iconPath": "svg/erlang.svg"
+    },
+    "_eslint": {
+      "iconPath": "svg/eslint.svg"
+    },
+    "_ex": {
+      "iconPath": "svg/ex.svg"
+    },
+    "_font": {
+      "iconPath": "svg/font.svg"
+    },
+    "_git": {
+      "iconPath": "svg/git.svg"
+    },
+    "_go": {
+      "iconPath": "svg/go.svg"
+    },
+    "_gradle": {
+      "iconPath": "svg/gradle.svg"
+    },
+    "_graphviz": {
+      "iconPath": "svg/graphviz.svg"
+    },
+    "_groovy": {
+      "iconPath": "svg/groovy.svg"
+    },
+    "_gruntfile": {
+      "iconPath": "svg/gruntfile.svg"
+    },
+    "_gulpfile": {
+      "iconPath": "svg/gulpfile.svg"
+    },
+    "_haml": {
+      "iconPath": "svg/haml.svg"
+    },
+    "_haskell": {
+      "iconPath": "svg/haskell.svg"
+    },
+    "_haxe": {
+      "iconPath": "svg/haxe.svg"
+    },
+    "_html": {
+      "iconPath": "svg/html.svg"
+    },
+    "_image": {
+      "iconPath": "svg/image.svg"
+    },
+    "_java": {
+      "iconPath": "svg/java.svg"
+    },
+    "_js": {
+      "iconPath": "svg/js.svg"
+    },
+    "_json": {
+      "iconPath": "svg/json.svg"
+    },
+    "_jsp": {
+      "iconPath": "svg/jsp.svg"
+    },
+    "_jsx": {
+      "iconPath": "svg/jsx.svg"
+    },
+    "_julia": {
+      "iconPath": "svg/julia.svg"
+    },
+    "_less": {
+      "iconPath": "svg/less.svg"
+    },
+    "_license": {
+      "iconPath": "svg/license.svg"
+    },
+    "_liquid": {
+      "iconPath": "svg/liquid.svg"
+    },
+    "_lisp": {
+      "iconPath": "svg/lisp.svg"
+    },
+    "_lock": {
+      "iconPath": "svg/lock.svg"
+    },
+    "_log": {
+      "iconPath": "svg/log.svg"
+    },
+    "_lsl": {
+      "iconPath": "svg/lsl.svg"
+    },
+    "_lua": {
+      "iconPath": "svg/lua.svg"
+    },
     "_markdown": {
       "iconPath": "svg/markdown.svg"
+    },
+    "_markup": {
+      "iconPath": "svg/markup.svg"
+    },
+    "_matlab": {
+      "iconPath": "svg/matlab.svg"
+    },
+    "_mustache": {
+      "iconPath": "svg/mustache.svg"
+    },
+    "_nginx": {
+      "iconPath": "svg/nginx.svg"
+    },
+    "_nodejs": {
+      "iconPath": "svg/nodejs.svg"
+    },
+    "_note": {
+      "iconPath": "svg/note.svg"
+    },
+    "_npm": {
+      "iconPath": "svg/npm.svg"
+    },
+    "_nsis": {
+      "iconPath": "svg/nsis.svg"
+    },
+    "_ocaml": {
+      "iconPath": "svg/ocaml.svg"
+    },
+    "_pdf": {
+      "iconPath": "svg/pdf.svg"
+    },
+    "_perl": {
+      "iconPath": "svg/perl.svg"
+    },
+    "_php": {
+      "iconPath": "svg/php.svg"
+    },
+    "_plist": {
+      "iconPath": "svg/plist.svg"
+    },
+    "_postcss": {
+      "iconPath": "svg/postcss.svg"
+    },
+    "_preferences": {
+      "iconPath": "svg/preferences.svg"
+    },
+    "_procfile": {
+      "iconPath": "svg/procfile.svg"
+    },
+    "_psd": {
+      "iconPath": "svg/psd.svg"
+    },
+    "_pug": {
+      "iconPath": "svg/pug.svg"
+    },
+    "_puppet": {
+      "iconPath": "svg/puppet.svg"
+    },
+    "_python": {
+      "iconPath": "svg/python.svg"
+    },
+    "_r": {
+      "iconPath": "svg/r.svg"
+    },
+    "_rails": {
+      "iconPath": "svg/rails.svg"
+    },
+    "_riot": {
+      "iconPath": "svg/riot.svg"
+    },
+    "_ruby": {
+      "iconPath": "svg/ruby.svg"
+    },
+    "_rust": {
+      "iconPath": "svg/rust.svg"
     },
     "_sass": {
       "iconPath": "svg/sass.svg"
     },
+    "_scala": {
+      "iconPath": "svg/scala.svg"
+    },
     "_scss": {
       "iconPath": "svg/scss.svg"
     },
-    "_json": {
-      "iconPath": "svg/json.svg"
+    "_settings": {
+      "iconPath": "svg/settings.svg"
+    },
+    "_shell": {
+      "iconPath": "svg/shell.svg"
+    },
+    "_sketch": {
+      "iconPath": "svg/sketch.svg"
+    },
+    "_slim": {
+      "iconPath": "svg/slim.svg"
+    },
+    "_source": {
+      "iconPath": "svg/source.svg"
+    },
+    "_sql": {
+      "iconPath": "svg/sql.svg"
+    },
+    "_stata": {
+      "iconPath": "svg/stata.svg"
+    },
+    "_stylelint": {
+      "iconPath": "svg/stylelint.svg"
+    },
+    "_stylus": {
+      "iconPath": "svg/stylus.svg"
+    },
+    "_sublime": {
+      "iconPath": "svg/sublime.svg"
+    },
+    "_svg": {
+      "iconPath": "svg/svg.svg"
+    },
+    "_swift": {
+      "iconPath": "svg/swift.svg"
+    },
+    "_tcl": {
+      "iconPath": "svg/tcl.svg"
+    },
+    "_tex": {
+      "iconPath": "svg/tex.svg"
+    },
+    "_text": {
+      "iconPath": "svg/text.svg"
+    },
+    "_textile": {
+      "iconPath": "svg/textile.svg"
+    },
+    "_todo": {
+      "iconPath": "svg/todo.svg"
+    },
+    "_twig": {
+      "iconPath": "svg/twig.svg"
+    },
+    "_typescript": {
+      "iconPath": "svg/typescript.svg"
+    },
+    "_vue": {
+      "iconPath": "svg/vue.svg"
+    },
+    "_webpack": {
+      "iconPath": "svg/webpack.svg"
+    },
+    "_windows": {
+      "iconPath": "svg/windows.svg"
+    },
+    "_yaml": {
+      "iconPath": "svg/yaml.svg"
+    },
+    "_yarn": {
+      "iconPath": "svg/yarn.svg"
     }
   },
   "fileExtensions": {

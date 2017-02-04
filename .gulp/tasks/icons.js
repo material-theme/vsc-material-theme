@@ -6,18 +6,41 @@
 
 import Gulp from 'gulp';
 import Colorize from 'gulp-colorize-svgs';
-import colors from 'colors';
+import runSequence from 'run-sequence';
+import Template from 'gulp-template';
+import Rename from 'gulp-rename';
+import FileList from 'gulp-filelist';
+import Data from 'gulp-data';
 import Paths from '../paths';
-import del from 'del';
+import Del from 'del';
 
-import iconsColors from '../../icons/colors.js';
+import iconsColors from '../../src/settings/colors.js';
+import iconList from '../../src/iconlist.json';
 
-console.log(iconsColors);
+
+Gulp.task('icons', (cb) => {
+  runSequence(
+    'clean:icons',
+    'process:icons',
+    'iconslist',
+    'template:icons',
+    (error) => {
+      if (error) {
+        console.log('\n[Build Icons]'.bold.magenta + ' There was an issue building icons:\n'.bold.red + error.message);
+      } else {
+        console.log('\n[Build Icons]'.bold.magenta + ' Finished successfully\n'.bold.green);
+      }
+      cb(error);
+    }
+  );
+});
+
+
+Gulp.task('clean:icons', () => {
+  Del([`${Paths.icons}/svg/*.svg`]);
+});
 
 Gulp.task('process:icons', () => {
-  del([`${Paths.icons}/svg/*.svg`]).then(paths => {
-    console.log('[ 🔥 Deleting all icons]\n'.bold.red);
-  });
   Gulp.src(`${Paths.src}/icons/*.svg`)
     .pipe(Colorize({
       colors: iconsColors,
@@ -29,4 +52,25 @@ Gulp.task('process:icons', () => {
       }
     }))
     .pipe(Gulp.dest(`${Paths.icons}/svg`));
+});
+
+Gulp.task('iconslist', () => {
+  Gulp.src(`${Paths.src}/icons/*.svg`)
+    .pipe(FileList('iconlist.json', {
+      flatten: true,
+      removeExtensions: true
+    }))
+    .pipe(Gulp.dest(Paths.src));
+});
+
+
+Gulp.task('template:icons', () => {
+  Gulp.src(`${Paths.src}/theme-icon.template`)
+    .pipe(Data(() => ({ icons: iconList })))
+    .pipe(Template())
+    .pipe(Rename({
+      basename: "material-theme-icon-theme",
+      extname: ".json"
+    }))
+    .pipe(Gulp.dest(Paths.icons));
 });

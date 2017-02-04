@@ -1,0 +1,13 @@
+{
+  "iconDefinitions": {<% for( var i = 0; i < icons.length; i++ ){  %>
+    "_<%= icons[i] %>": {
+      "iconPath": "svg/<%= icons[i] %>.svg"
+    }<% if( i !== (icons.length - 1)){ %>,<%} %><% } %>
+  },
+  "fileExtensions": {
+    "md": "_markdown",
+    "scss": "_scss",
+    "sass": "_sass",
+    "json": "_json"
+  }
+}

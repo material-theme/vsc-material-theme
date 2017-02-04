@@ -1720,6 +1720,23 @@ gulp-conventional-changelog@^1.1.0:
     object-assign "^4.0.1"
     through2 "^2.0.0"
 
+gulp-data@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/gulp-data/-/gulp-data-1.2.1.tgz#a94b54de7d4f3b8ea1f40ef859749c24578cf12b"
+  dependencies:
+    gulp-util "^3.0.7"
+    through2 "^2.0.0"
+    util-extend "^1.0.1"
+
+gulp-filelist@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-filelist/-/gulp-filelist-1.0.0.tgz#21e2408298a3d30de0ea60ed1f72fcab15c86889"
+  dependencies:
+    gulp-util "^3.0.7"
+    path "^0.12.7"
+    through2 "^2.0.0"
+    vinyl "^1.1.0"
+
 gulp-if@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/gulp-if/-/gulp-if-2.0.2.tgz#a497b7e7573005041caa2bc8b7dda3c80444d629"
@@ -1734,6 +1751,10 @@ gulp-match@^1.0.3:
   dependencies:
     minimatch "^3.0.3"
 
+gulp-rename@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.2.2.tgz#3ad4428763f05e2764dec1c67d868db275687817"
+
 gulp-stats@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/gulp-stats/-/gulp-stats-0.0.4.tgz#f216c2bc079cb890cebf5d6aaa3b1eb397d12bab"
@@ -1741,6 +1762,14 @@ gulp-stats@^0.0.4:
     chalk "^0.5.1"
     pretty-hrtime "^1.0.0"
     text-table "^0.2.0"
+
+gulp-template@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-template/-/gulp-template-4.0.0.tgz#05de36808c6fb9966578d5a94ee72cee08cdc53b"
+  dependencies:
+    gulp-util "^3.0.0"
+    lodash "^4.8.2"
+    through2 "^2.0.0"
 
 gulp-util@*, gulp-util@^3.0.0, gulp-util@^3.0.4, gulp-util@^3.0.6, gulp-util@^3.0.7:
   version "3.0.8"
@@ -1911,6 +1940,10 @@ inherits@1:
 inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+
+inherits@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.1.tgz#b17d08d326b4423e568eff719f91b0b1cbdf69f1"
 
 ini@^1.3.2, ini@^1.3.4, ini@~1.3.0:
   version "1.3.4"
@@ -2376,7 +2409,7 @@ lodash@^3.6.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.8.2:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -2721,6 +2754,13 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+path@^0.12.7:
+  version "0.12.7"
+  resolved "https://registry.yarnpkg.com/path/-/path-0.12.7.tgz#d4dc2a506c4ce2197eb481ebfcd5b36c0140b10f"
+  dependencies:
+    process "^0.11.1"
+    util "^0.10.3"
+
 pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -2775,6 +2815,10 @@ private@^0.1.6:
 process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
+
+process@^0.11.1:
+  version "0.11.9"
+  resolved "https://registry.yarnpkg.com/process/-/process-0.11.9.tgz#7bd5ad21aa6253e7da8682264f1e11d11c0318c1"
 
 progress@^1.1.8:
   version "1.1.8"
@@ -3404,6 +3448,16 @@ user-home@^2.0.0:
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+
+util-extend@^1.0.1:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/util-extend/-/util-extend-1.0.3.tgz#a7c216d267545169637b3b6edc6ca9119e2ff93f"
+
+util@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/util/-/util-0.10.3.tgz#7afb1afe50805246489e3db7fe0ed379336ac0f9"
+  dependencies:
+    inherits "2.0.1"
 
 uuid@^3.0.0:
   version "3.0.1"

@@ -46,8 +46,12 @@
     "gulp-bump": "^2.6.1",
     "gulp-colorize-svgs": "git+https://git@github.com/unic/gulp-colorize-svgs.git",
     "gulp-conventional-changelog": "^1.1.0",
+    "gulp-data": "^1.2.1",
+    "gulp-filelist": "^1.0.0",
     "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.2",
     "gulp-stats": "^0.0.4",
+    "gulp-template": "^4.0.0",
     "gulp-watch": "^4.3.8",
     "run-sequence": "^1.2.2",
     "yargs": "^6.6.0"
