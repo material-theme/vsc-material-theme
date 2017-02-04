@@ -43,12 +43,13 @@
     "eslint": "^3.11.0",
     "eslint-plugin-standard": "^2.0.1",
     "gulp": "^3.9.1",
-    "gulp-bump": "^2.4.0",
+    "gulp-bump": "^2.6.1",
     "gulp-colorize-svgs": "git+https://git@github.com/unic/gulp-colorize-svgs.git",
     "gulp-conventional-changelog": "^1.1.0",
+    "gulp-if": "^2.0.2",
     "gulp-stats": "^0.0.4",
     "gulp-watch": "^4.3.8",
     "run-sequence": "^1.2.2",
-    "yargs": "^6.0.0"
+    "yargs": "^6.6.0"
   }
 }
