@@ -19,6 +19,7 @@
     "test": "node ./node_modules/vscode/bin/test",
     "import": "node ./scripts/import.js"
   },
+  "category": "Theme",
   "categories": [
     "Themes",
     "Other"
