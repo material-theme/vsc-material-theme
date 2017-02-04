@@ -1,19 +1,27 @@
 {
-  "name": "theme-material-theme-darker",
+  "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
   "version": "0.0.1",
   "publisher": "Equinusocio",
+  "bugs": {
+    "url": "https://github.com/equinusocio/vsc-material-theme/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/equinusocio/vsc-material-theme",
   "engines": {
       "vscode": "^1.5.0"
   },
   "categories": [
+      "Theme",
+      "Material",
+      "Design",
       "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Material Theme",
+        "label": "Material Theme Darker",
         "uiTheme": "vs-dark",
         "path": "./themes/Material-Theme-Darker.tmTheme"
       }
@@ -25,5 +33,21 @@
         "path": "./icons/material-theme-icon-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-root-import": "^4.1.5",
+    "colors": "^1.1.2",
+    "del": "^2.2.2",
+    "eslint": "^3.11.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.4.0",
+    "gulp-conventional-changelog": "^1.1.0",
+    "gulp-stats": "^0.0.4",
+    "gulp-watch": "^4.3.8",
+    "run-sequence": "^1.2.2",
+    "yargs": "^6.0.0"
   }
 }
