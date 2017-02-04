@@ -6,6 +6,8 @@
   },
   "fileExtensions": {
     "md": "_markdown",
+    "js": "_js",
+    "css": "_css",
     "scss": "_scss",
     "sass": "_sass",
     "json": "_json"

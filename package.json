@@ -4,13 +4,20 @@
   "description": "The most epic theme now for Visual Studio Code",
   "version": "0.0.1",
   "publisher": "Equinusocio",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/equinusocio/vsc-material-theme",
   "bugs": {
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
   },
-  "license": "Apache-2.0",
-  "homepage": "https://github.com/equinusocio/vsc-material-theme",
   "engines": {
     "vscode": "^1.5.0"
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "node ./scripts/import.js",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test",
+    "import": "node ./scripts/import.js"
   },
   "categories": [
     "Theme",
@@ -25,13 +32,6 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Material-Theme-Darker.tmTheme"
       }
-    ],
-    "iconThemes": [
-      {
-        "id": "material-theme-icons",
-        "label": "Material Theme Icons",
-        "path": "./icons/material-theme-icon-theme.json"
-      }
     ]
   },
   "devDependencies": {
@@ -44,16 +44,11 @@
     "eslint-plugin-standard": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.6.1",
-    "gulp-colorize-svgs": "git+https://git@github.com/unic/gulp-colorize-svgs.git",
     "gulp-conventional-changelog": "^1.1.0",
-    "gulp-data": "^1.2.1",
-    "gulp-filelist": "^1.0.0",
-    "gulp-if": "^2.0.2",
-    "gulp-rename": "^1.2.2",
     "gulp-stats": "^0.0.4",
-    "gulp-template": "^4.0.0",
     "gulp-watch": "^4.3.8",
     "run-sequence": "^1.2.2",
+    "vscode": "^1.0.3",
     "yargs": "^6.6.0"
   }
 }
