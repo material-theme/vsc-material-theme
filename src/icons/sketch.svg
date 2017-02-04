@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_sketch.svg" class="i-color" d="M7.544,13.971L3.677,6.784,1.062,4.8ZM14.966,4.8L12.351,6.784,8.484,13.971ZM11.7,6.861H4.3L8,14l3.7-7.14h0ZM3.791,6.236L1,4.147,2.7,2.2l2.409,1.16L3.792,6.236h0ZM5.577,3.547L4.3,6.35h7.4l-1.275-2.8H5.577Zm6.63,2.688L15,4.147,13.305,2.2l-2.41,1.16,1.312,2.879h0Zm-1.785-3.2H5.577L3.231,1.891,5.36,1h5.279l2.13,0.891Z" transform="translate(0 0)"/>
+</svg>

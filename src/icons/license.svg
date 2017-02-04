@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_license.svg" class="i-color" d="M3,5H7V6H3V5ZM3,8H7V7H3V8Zm0,2H7V9H3v1ZM14,5H10V6h4V5Zm0,2H10V8h4V7Zm0,2H10v1h4V9Zm2-6v9a1,1,0,0,1-1,1H9.5l-1,1-1-1H2a1,1,0,0,1-1-1V3A1,1,0,0,1,2,2H7.5l1,1,1-1H15A1,1,0,0,1,16,3ZM8,3.5L7.5,3H2v9H8V3.5ZM15,3H9.5L9,3.5V12h6V3Z" transform="translate(0 -1)"/>
+</svg>

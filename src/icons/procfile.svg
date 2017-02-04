@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_procfile.svg" class="i-color" d="M9.442,13V6.437s0.441-1.57-5.431.642C4,7.108,4,1.011,4,1.011L5.919,1V4.906s5.372-2.048,5.372,1.553V13H9.442Zm1.093-9.636H8.5A12.084,12.084,0,0,0,9.9,1.011H12a9.678,9.678,0,0,1-1.465,2.353h0Zm-6.5,9.625V9.251l1.93,1.869-1.93,1.868h0Z" transform="translate(0 0)"/>
+</svg>

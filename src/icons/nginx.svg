@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_nginx.svg" class="i-color" d="M11.661,14H4.47L0.98,8.081,4.454,2h7.494l1.987,4.5H11.342L10.326,4.505H5.987L4.977,6.273,3.954,8.066l2.018,3.443h4.081l0.774-1.524H7.644A1.273,1.273,0,0,1,6.337,8.747,1.385,1.385,0,0,1,7.644,7.48H15Z" transform="translate(0 -1)"/>
+</svg>
