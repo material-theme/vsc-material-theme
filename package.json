@@ -10,13 +10,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/equinusocio/vsc-material-theme",
   "engines": {
-      "vscode": "^1.5.0"
+    "vscode": "^1.5.0"
   },
   "categories": [
-      "Theme",
-      "Material",
-      "Design",
-      "Themes"
+    "Theme",
+    "Material",
+    "Design",
+    "Themes"
   ],
   "contributes": {
     "themes": [
@@ -44,6 +44,7 @@
     "eslint-plugin-standard": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.4.0",
+    "gulp-colorize-svgs": "git+https://git@github.com/unic/gulp-colorize-svgs.git",
     "gulp-conventional-changelog": "^1.1.0",
     "gulp-stats": "^0.0.4",
     "gulp-watch": "^4.3.8",

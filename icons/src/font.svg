@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_font.svg" class="i-color" d="M1,7H7V9H5v5H3V9H1V7ZM15,4H11.066V14H8.934V4H5V2H15V4Z" transform="translate(0 -1)"/>
+</svg>

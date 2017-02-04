@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_haskell.svg" class="i-color" d="M1,13L4.294,8,1,3H3.471L6.765,8,3.471,13H1Zm3.294,0L7.588,8,4.294,3H6.765l6.588,10H10.882L8.824,9.875,6.765,13H4.294Zm7.961-2.916-1.1-1.667H15v1.667H12.255Zm-1.647-2.5L9.51,5.918H15V7.584H10.608Z" transform="translate(0 0)"/>
+</svg>

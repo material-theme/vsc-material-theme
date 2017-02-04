@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_ruby.svg" class="i-color" d="M13,6L8,11V4h3Zm3,0L8,14,0,6,4,2h8ZM8,12.5L14.5,6l-3-3h-7l-3,3Z" transform="translate(0 -1)"/>
+</svg>
