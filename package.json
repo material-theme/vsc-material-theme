@@ -20,10 +20,8 @@
     "import": "node ./scripts/import.js"
   },
   "categories": [
-    "Theme",
-    "Material",
-    "Design",
-    "Themes"
+    "Themes",
+    "Other"
   ],
   "contributes": {
     "themes": [
