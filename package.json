@@ -6,6 +6,11 @@
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "homepage": "https://github.com/equinusocio/vsc-material-theme",
+  "icon": "logo.svg",
+  "galleryBanner": {
+    "color": "#2d2d2d",
+    "theme": "dark"
+  },
   "bugs": {
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
   },
@@ -13,13 +18,11 @@
     "vscode": "^1.5.0"
   },
   "scripts": {
-    "vscode:prepublish": "tsc -p ./",
-    "compile": "node ./scripts/import.js",
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test",
-    "import": "node ./scripts/import.js"
+    "start": "npm run remove-min && npm run minimize-icons && npm run minimize-json",
+    "minimize-icons": "svgo -f src/icons -o dist/icons",
+    "minimize-json": "json-minify src/material-theme-icons.json > dist/material-theme-icons.json",
+    "remove-min": "rimraf min"
   },
-  "category": "Theme",
   "categories": [
     "Themes",
     "Other"
@@ -31,6 +34,13 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Material-Theme-Darker.tmTheme"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "material-theme-icons",
+        "label": "Material Theme Icons",
+        "path": "./dist/material-theme-icons.json"
+      }
     ]
   },
   "devDependencies": {
@@ -38,7 +48,6 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-root-import": "^4.1.5",
     "colors": "^1.1.2",
-    "del": "^2.2.2",
     "eslint": "^3.11.0",
     "eslint-plugin-standard": "^2.0.1",
     "gulp": "^3.9.1",
@@ -47,7 +56,10 @@
     "gulp-stats": "^0.0.4",
     "gulp-watch": "^4.3.8",
     "run-sequence": "^1.2.2",
-    "vscode": "^1.0.3",
-    "yargs": "^6.6.0"
+    "yargs": "^6.6.0",
+    "cpx": "^1.5.0",
+    "json-minify": "^1.0.0",
+    "rimraf": "^2.5.4",
+    "svgo": "^0.7.1"
   }
 }
