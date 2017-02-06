@@ -49,7 +49,7 @@
      inkscape:current-layer="svg2" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:42.82164001px;line-height:113.99999857%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f44336;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-weight:normal;font-size:42.82164001px;line-height:113.99999857%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#D14748;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="5.6050396"
      y="15.89185"
      id="text4136"
@@ -59,10 +59,10 @@
        id="tspan4138"
        x="5.6050396"
        y="15.89185"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.38176346px;line-height:113.99999857%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:-2.68541741px;fill:#f44336;fill-opacity:1;" /></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.38176346px;line-height:113.99999857%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:-2.68541741px;fill:#D14748;fill-opacity:1;" /></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:51.01877594px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f44336;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     style="font-style:normal;font-weight:normal;font-size:51.01877594px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#D14748;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
      x="-0.67922986"
      y="15.112477"
      id="text4144"
@@ -72,10 +72,10 @@
        id="tspan4146"
        x="-0.67922986"
        y="15.112477"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.13204002px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#f44336;fill-opacity:1;">{   }</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.13204002px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#D14748;fill-opacity:1;">{   }</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:35.22633743px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f44336;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:35.22633743px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#D14748;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="4.7331672"
      y="15.426298"
      id="text4160"
@@ -85,5 +85,5 @@
        id="tspan4162"
        x="4.7331672"
        y="15.426298"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.20987701px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';letter-spacing:-0.62814659px;fill:#f44336;fill-opacity:1">AS</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.20987701px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';letter-spacing:-0.62814659px;fill:#D14748;fill-opacity:1">AS</tspan></text>
 </svg>

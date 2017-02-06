@@ -272,6 +272,9 @@
     },
     "_folder_open_light": {
       "iconPath": "./icons/folder-outline.svg"
+    },
+    "_file_npm": {
+      "iconPath": "./icons/npm.svg"
     }
   },
   "folderExpanded": "_folder_open_dark",
@@ -531,7 +534,7 @@
     ".io-config.json": "_file_ionic",
     "gulpfile.js": "_file_gulp",
     "gulpfile.babel.js": "_file_gulp",
-    "package.json": "_file_nodejs",
+    "package.json": "_file_npm",
     "gradle.properties": "_file_gradle",
     "gradlew": "_file_gradle",
     ".jscsrc": "_file_json",
@@ -589,7 +592,8 @@
     "favicon.ico": "_file_favicon"
   },
   "folderNames": {
-    "node_modules": "_file_nodejs"
+    "node_modules": "_file_nodejs",
+    ".gulp": "_file_gulp"
   },
   "languageIds": {
     "git": "_file_git"
