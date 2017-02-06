@@ -5,9 +5,9 @@
   "version": "0.0.2",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
-  "icon": "logo.svg",
+  "icon": "logo.png",
   "galleryBanner": {
-    "color": "#2d2d2d",
+    "color": "#252526",
     "theme": "dark"
   },
   "homepage": "https://github.com/equinusocio/vsc-material-theme",
