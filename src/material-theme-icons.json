@@ -18,6 +18,9 @@
     "_file_sass": {
       "iconPath": "./icons/sass.svg"
     },
+    "_file_less": {
+      "iconPath": "./icons/less.svg"
+    },
     "_file_gradle": {
       "iconPath": "./icons/gradle.svg"
     },
@@ -285,7 +288,7 @@
     "css": "_file_css",
     "scss": "_file_sass",
     "sass": "_file_sass",
-    "less": "_file_css",
+    "less": "_file_less",
     "json": "_file_json",
     "yaml": "_file_yaml",
     "YAML-tmLanguage": "_file_yaml",
@@ -527,6 +530,7 @@
     "ionic.config.json": "_file_ionic",
     ".io-config.json": "_file_ionic",
     "gulpfile.js": "_file_gulp",
+    "gulpfile.babel.js": "_file_gulp",
     "package.json": "_file_nodejs",
     "gradle.properties": "_file_gradle",
     "gradlew": "_file_gradle",
@@ -584,7 +588,9 @@
     "app.module.ts": "_file_angular",
     "favicon.ico": "_file_favicon"
   },
-  "folderNames": {},
+  "folderNames": {
+    "node_modules": "_file_nodejs"
+  },
   "languageIds": {
     "git": "_file_git"
   }

@@ -55,7 +55,7 @@
         
     <text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#42a5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6A9FB5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="9.9141932"
    y="364.91901"
    id="text4169"
@@ -64,10 +64,10 @@
      id="tspan4171"
      x="9.9141932"
      y="364.91901"
-     style="font-size:287.5px;fill:#42a5f5;fill-opacity:1">T</tspan></text>
+     style="font-size:287.5px;fill:#6A9FB5;fill-opacity:1">T</tspan></text>
 <text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#42a5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6A9FB5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="136.37389"
    y="435.55774"
    id="text4173"
@@ -76,10 +76,10 @@
      id="tspan4175"
      x="136.37389"
      y="435.55774"
-     style="font-size:287.5px;fill:#42a5f5;fill-opacity:1">E</tspan></text>
+     style="font-size:287.5px;fill:#6A9FB5;fill-opacity:1">E</tspan></text>
 <text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#42a5f5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6A9FB5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="307.81876"
    y="361.20114"
    id="text4177"
@@ -88,6 +88,6 @@
      id="tspan4179"
      x="307.81876"
      y="361.20114"
-     style="font-size:287.5px;fill:#42a5f5;fill-opacity:1">X</tspan></text>
+     style="font-size:287.5px;fill:#6A9FB5;fill-opacity:1">X</tspan></text>
 </g>
 </svg>

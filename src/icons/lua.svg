@@ -51,20 +51,20 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <circle
-     style="fill:none;fill-opacity:1;stroke:#42a5f5;stroke-opacity:1"
+     style="fill:none;fill-opacity:1;stroke:#6A9FB5;stroke-opacity:1"
      id="path4142"
      cx="12.203389"
      cy="12.101695"
      r="10.322034" />
   <path
-     style="fill:#42a5f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#6A9FB5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="M 12.330078 5.7460938 A 6.4830503 6.3813553 0 0 0 5.8476562 12.126953 A 6.4830503 6.3813553 0 0 0 12.330078 18.507812 A 6.4830503 6.3813553 0 0 0 18.814453 12.126953 A 6.4830503 6.3813553 0 0 0 12.330078 5.7460938 z M 14.189453 7.6621094 A 2.3290315 2.2924976 0 0 1 16.519531 9.9550781 A 2.3290315 2.2924976 0 0 1 14.189453 12.246094 A 2.3290315 2.2924976 0 0 1 11.861328 9.9550781 A 2.3290315 2.2924976 0 0 1 14.189453 7.6621094 z "
      id="ellipse4144" />
   <ellipse
      cy="4.6153951"
      cx="19.630934"
      id="ellipse4151"
-     style="fill:#42a5f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#6A9FB5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      rx="2.3290315"
      ry="2.2924976" />
 </svg>
