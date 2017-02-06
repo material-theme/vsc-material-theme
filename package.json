@@ -5,11 +5,15 @@
   "version": "0.0.2",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/equinusocio/vsc-material-theme",
   "icon": "logo.svg",
   "galleryBanner": {
     "color": "#2d2d2d",
     "theme": "dark"
+  },
+  "homepage": "https://github.com/equinusocio/vsc-material-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/equinusocio/vsc-material-theme.git"
   },
   "bugs": {
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
