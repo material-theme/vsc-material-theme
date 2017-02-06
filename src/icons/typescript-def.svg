@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 500 500"
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   stroke-linejoin="round"
+   stroke-miterlimit="1.414"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="typescript-def.svg">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="0.472"
+     inkscape:cx="-106.99153"
+     inkscape:cy="250"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     d="M457 459H49V51h408v408zM69 71v368h368V71H69z"
+     fill="#6A9FB5"
+     id="path4"
+     style="fill:#0085c1;fill-opacity:1" />
+  <text
+     x="342.219"
+     y="344.544"
+     font-family="ArialMT"
+     font-size="12"
+     fill="#6A9FB5"
+     transform="translate(-6058.94 -5838) scale(18.1514)"
+     id="text6"
+     style="fill:#0085c1;fill-opacity:1;">
+    <tspan
+       style="-inkscape-font-specification:sans-serif;fill:#0085c1;fill-opacity:1;"
+       font-family="sans-serif"
+       font-weight="400"
+       id="tspan8">TS</tspan>
+  </text>
+</svg>
