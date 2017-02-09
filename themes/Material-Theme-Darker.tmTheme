@@ -44,7 +44,7 @@
         <key>activeLinkForeground</key>
         <string>#00FFFF</string>
         <key>hoverHighlight</key>
-        <string>#ff0000</string>
+        <string>#FFFFFF30</string>
         <key>referenceHighlight</key>
         <string>#00FFFF</string>
         <key>guide</key>
