@@ -4,7 +4,11 @@ out/test/**
 test/**
 src/**
 **/*.map
+.gulp
+.github
 .gitignore
 tsconfig.json
 vsc-extension-quickstart.md
 node_modules
+gulpfile.babel.json
+yarn.lock

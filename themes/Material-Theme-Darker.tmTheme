@@ -36,7 +36,7 @@
         <key>wordHighlightStrong</key>
         <string>#80CBC440</string>
         <key>currentFindMatchHighlight</key>
-        <string>#F8E71C</string>
+        <string>#D28445</string>
         <key>findMatchHighlight</key>
         <string>#FFFFFF40</string>
         <key>findRangeHighlight</key>
@@ -44,7 +44,7 @@
         <key>activeLinkForeground</key>
         <string>#00FFFF</string>
         <key>hoverHighlight</key>
-        <string>#ff0000</string>
+        <string>#FFFFFF30</string>
         <key>referenceHighlight</key>
         <string>#00FFFF</string>
         <key>guide</key>

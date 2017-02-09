@@ -1,5 +1,8 @@
 {
   "iconDefinitions": {
+    "_file_bower": {
+      "iconPath": "./icons/bower.svg"
+    },
     "_file_json": {
       "iconPath": "./icons/json.svg"
     },
@@ -524,6 +527,7 @@
     "css.map": "_file_cssmap"
   },
   "fileNames": {
+    "bower.json": "_file_bower",
     "webpack.js": "_file_webpack",
     "webpack.config.js": "_file_webpack",
     "webpack.dev.js": "_file_webpack",
