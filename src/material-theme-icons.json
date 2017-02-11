@@ -1,5 +1,8 @@
 {
   "iconDefinitions": {
+    "_file_todo": {
+      "iconPath": "./icons/todo.svg"
+    },
     "_file_license": {
       "iconPath": "./icons/license.svg"
     },
@@ -302,6 +305,7 @@
   "folder": "_folder_dark",
   "file": "_file_dark",
   "fileExtensions": {
+    "do": "_file_todo",
     "sublime-settings": "_file_sublime",
     "sublime-theme": "_file_sublime",
     "sublime-commands": "_file_sublime",
@@ -395,6 +399,9 @@
     "bzip2": "_file_zip",
     "gzip": "_file_zip",
     "7z": "_file_zip",
+    "7zip": "_file_zip",
+    "pzip": "_file_zip",
+    "wim": "_file_zip",
     "rar": "_file_zip",
     "tgz": "_file_zip",
     "exe": "_file_exe",
@@ -584,7 +591,7 @@
     "license.md.rendered": "_file_license",
     "license.txt": "_file_license",
     ".babelrc": "_file_json",
-    ".eslintrc": "_file_json",
+    ".eslintrc": "_file_yaml",
     ".buildignore": "_file_settings",
     ".htaccess": "_file_xml",
     "composer.lock": "_file_json",
