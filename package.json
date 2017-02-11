@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "icon": "logo.png",
@@ -25,7 +25,10 @@
     "start": "npm run remove-min && npm run minimize-icons && npm run minimize-json",
     "minimize-icons": "svgo -f src/icons -o dist/icons",
     "minimize-json": "json-minify src/material-theme-icons.json > dist/material-theme-icons.json",
-    "remove-min": "rimraf min"
+    "remove-min": "rimraf min",
+    "release": "npm run bump && npm run changelog",
+    "changelog": "gulp changelog",
+    "bump": "gulp bump"
   },
   "categories": [
     "Themes",

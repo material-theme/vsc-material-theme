@@ -1,5 +1,41 @@
 {
   "iconDefinitions": {
+    "_file_stylus": {
+      "iconPath": "./icons/stylus.svg"
+    },
+    "_file_swig": {
+      "iconPath": "./icons/swig.svg"
+    },
+    "_file_twig": {
+      "iconPath": "./icons/twig.svg"
+    },
+    "_file_sketch": {
+      "iconPath": "./icons/sketch.svg"
+    },
+    "_file_procfile": {
+      "iconPath": "./icons/procfile.svg"
+    },
+    "_file_todo": {
+      "iconPath": "./icons/todo.svg"
+    },
+    "_file_license": {
+      "iconPath": "./icons/license.svg"
+    },
+    "_file_markup": {
+      "iconPath": "./icons/markup.svg"
+    },
+    "_file_sublime": {
+      "iconPath": "./icons/sublime.svg"
+    },
+    "_file_grunt": {
+      "iconPath": "./icons/grunt.svg"
+    },
+    "_file_ai": {
+      "iconPath": "./icons/ai.svg"
+    },
+    "_file_svg": {
+      "iconPath": "./icons/svg.svg"
+    },
     "_file_bower": {
       "iconPath": "./icons/bower.svg"
     },
@@ -29,6 +65,9 @@
     },
     "_file_git": {
       "iconPath": "./icons/git.svg"
+    },
+    "_file_github": {
+      "iconPath": "./icons/github.svg"
     },
     "_file_image": {
       "iconPath": "./icons/image.svg"
@@ -267,23 +306,33 @@
     "_folder_dark": {
       "iconPath": "./icons/folder.svg"
     },
-    "_folder_open_dark": {
-      "iconPath": "./icons/folder-outline.svg"
-    },
     "_folder_light": {
-      "iconPath": "./icons/folder.svg"
+      "iconPath": "./icons/folder-light.svg"
     },
-    "_folder_open_light": {
+    "_folder_open": {
       "iconPath": "./icons/folder-outline.svg"
     },
     "_file_npm": {
       "iconPath": "./icons/npm.svg"
     }
   },
-  "folderExpanded": "_folder_open_dark",
+  "folderExpanded": "_folder_open",
   "folder": "_folder_dark",
+  "light": {
+    "folderExpanded": "_folder_open",
+    "folder": "_folder_light"
+  },
   "file": "_file_dark",
   "fileExtensions": {
+    "styl": "_file_stylus",
+    "twig": "_file_twig",
+    "swig": "_file_swig",
+    "sketch": "_file_sketch",
+    "do": "_file_todo",
+    "sublime-settings": "_file_sublime",
+    "sublime-theme": "_file_sublime",
+    "sublime-commands": "_file_sublime",
+    "sublime-menu": "_file_sublime",
     "html": "_file_html",
     "jade": "_file_pug",
     "pug": "_file_pug",
@@ -313,7 +362,9 @@
     "jpeg": "_file_image",
     "jpg": "_file_image",
     "gif": "_file_image",
-    "svg": "_file_image",
+    "svg": "_file_svg",
+    "eps": "_file_svg",
+    "ai": "_file_ai",
     "ico": "_file_image",
     "tif": "_file_image",
     "tiff": "_file_image",
@@ -371,6 +422,9 @@
     "bzip2": "_file_zip",
     "gzip": "_file_zip",
     "7z": "_file_zip",
+    "7zip": "_file_zip",
+    "pzip": "_file_zip",
+    "wim": "_file_zip",
     "rar": "_file_zip",
     "tgz": "_file_zip",
     "exe": "_file_exe",
@@ -392,6 +446,8 @@
     "sh": "_file_console",
     "bat": "_file_console",
     "ps1": "_file_console",
+    "fish": "_file_console",
+    "bash": "_file_console",
     "gradle": "_file_gradle",
     "doc": "_file_word",
     "docx": "_file_word",
@@ -524,9 +580,11 @@
     "mli": "_file_ocaml",
     "cmx": "_file_ocaml",
     "js.map": "_file_jsmap",
-    "css.map": "_file_cssmap"
+    "css.map": "_file_cssmap",
+    "tmTheme": "_file_markup"
   },
   "fileNames": {
+    "gruntfile.js": "_file_grunt",
     "bower.json": "_file_bower",
     "webpack.js": "_file_webpack",
     "webpack.config.js": "_file_webpack",
@@ -544,25 +602,21 @@
     ".jscsrc": "_file_json",
     ".jshintrc": "_file_json",
     ".jshintignore": "_file_settings",
-    ".npmignore": "_file_nodejs",
+    ".npmignore": "_file_npm",
     "tsconfig.json": "_file_json",
     "tslint.json": "_file_json",
     "androidmanifest.xml": "_file_android",
     "gradle-wrapper.properties": "_file_gradle",
     ".editorconfig": "_file_settings",
-    "procfile": "_file_settings",
+    "procfile": "_file_procfile",
     ".env": "_file_tune",
     "dockerfile": "_file_docker",
-    "license": "_file_certificate",
-    "license.md": "_file_certificate",
-    "license.md.rendered": "_file_certificate",
-    "license.txt": "_file_certificate",
-    "licence": "_file_certificate",
-    "licence.md": "_file_certificate",
-    "licence.md.rendered": "_file_certificate",
-    "licence.txt": "_file_certificate",
+    "license": "_file_license",
+    "license.md": "_file_license",
+    "license.md.rendered": "_file_license",
+    "license.txt": "_file_license",
     ".babelrc": "_file_json",
-    ".eslintrc": "_file_json",
+    ".eslintrc": "_file_yaml",
     ".buildignore": "_file_settings",
     ".htaccess": "_file_xml",
     "composer.lock": "_file_json",
@@ -597,7 +651,17 @@
   },
   "folderNames": {
     "node_modules": "_file_nodejs",
-    ".gulp": "_file_gulp"
+    ".git": "_file_git",
+    ".github": "_file_github",
+    ".gulp": "_file_gulp",
+    "bower_components": "_file_bower"
+  },
+  "folderNamesExpanded": {
+    "node_modules": "_file_nodejs",
+    ".git": "_file_git",
+    ".github": "_file_github",
+    ".gulp": "_file_gulp",
+    "bower_components": "_file_bower"
   },
   "languageIds": {
     "git": "_file_git"
