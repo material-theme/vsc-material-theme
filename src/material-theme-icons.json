@@ -1,5 +1,23 @@
 {
   "iconDefinitions": {
+    "_file_license": {
+      "iconPath": "./icons/license.svg"
+    },
+    "_file_markup": {
+      "iconPath": "./icons/markup.svg"
+    },
+    "_file_sublime": {
+      "iconPath": "./icons/sublime.svg"
+    },
+    "_file_grunt": {
+      "iconPath": "./icons/grunt.svg"
+    },
+    "_file_ai": {
+      "iconPath": "./icons/ai.svg"
+    },
+    "_file_svg": {
+      "iconPath": "./icons/svg.svg"
+    },
     "_file_bower": {
       "iconPath": "./icons/bower.svg"
     },
@@ -284,6 +302,10 @@
   "folder": "_folder_dark",
   "file": "_file_dark",
   "fileExtensions": {
+    "sublime-settings": "_file_sublime",
+    "sublime-theme": "_file_sublime",
+    "sublime-commands": "_file_sublime",
+    "sublime-menu": "_file_sublime",
     "html": "_file_html",
     "jade": "_file_pug",
     "pug": "_file_pug",
@@ -313,7 +335,9 @@
     "jpeg": "_file_image",
     "jpg": "_file_image",
     "gif": "_file_image",
-    "svg": "_file_image",
+    "svg": "_file_svg",
+    "eps": "_file_svg",
+    "ai": "_file_ai",
     "ico": "_file_image",
     "tif": "_file_image",
     "tiff": "_file_image",
@@ -527,6 +551,8 @@
     "css.map": "_file_cssmap"
   },
   "fileNames": {
+    "tmTheme": "_file_markup",
+    "gruntfile.js": "_file_grunt",
     "bower.json": "_file_bower",
     "webpack.js": "_file_webpack",
     "webpack.config.js": "_file_webpack",
@@ -553,14 +579,10 @@
     "procfile": "_file_settings",
     ".env": "_file_tune",
     "dockerfile": "_file_docker",
-    "license": "_file_certificate",
-    "license.md": "_file_certificate",
-    "license.md.rendered": "_file_certificate",
-    "license.txt": "_file_certificate",
-    "licence": "_file_certificate",
-    "licence.md": "_file_certificate",
-    "licence.md.rendered": "_file_certificate",
-    "licence.txt": "_file_certificate",
+    "license": "_file_license",
+    "license.md": "_file_license",
+    "license.md.rendered": "_file_license",
+    "license.txt": "_file_license",
     ".babelrc": "_file_json",
     ".eslintrc": "_file_json",
     ".buildignore": "_file_settings",
