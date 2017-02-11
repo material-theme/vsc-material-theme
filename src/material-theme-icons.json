@@ -580,10 +580,10 @@
     "mli": "_file_ocaml",
     "cmx": "_file_ocaml",
     "js.map": "_file_jsmap",
-    "css.map": "_file_cssmap"
+    "css.map": "_file_cssmap",
+    "tmTheme": "_file_markup"
   },
   "fileNames": {
-    "tmTheme": "_file_markup",
     "gruntfile.js": "_file_grunt",
     "bower.json": "_file_bower",
     "webpack.js": "_file_webpack",
