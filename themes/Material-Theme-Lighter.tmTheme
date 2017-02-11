@@ -18,17 +18,17 @@
 					<key>background</key>
 					<string>#F3F3F3</string>
 					<key>foreground</key>
-					<string>#90A4AE</string>
+					<string>#80CBC4</string>
 					<key>caret</key>
-					<string>#FFCC00</string>
+					<string>#27272790</string>
 					<key>lineHighlight</key>
-					<string>#00000050</string>
+					<string>#90A4AE20</string>
 					<key>selection</key>
-					<string>#61616150</string>
+					<string>#80CBC440</string>
+					<key>inactiveSelection</key>
+					<string>#80CBC440</string>
 					<key>selectionHighlight</key>
 					<string>#61616190</string>
-					<key>inactiveSelection</key>
-					<string>#61616130</string>
 					<key>rangeHighlight</key>
 					<string>#80CBC440</string>
 					<key>wordHighlight</key>
@@ -44,13 +44,13 @@
 					<key>activeLinkForeground</key>
 					<string>#00FFFF</string>
 					<key>hoverHighlight</key>
-					<string>#FFFFFF30</string>
+					<string>#00000010</string>
 					<key>referenceHighlight</key>
 					<string>#00FFFF</string>
 					<key>guide</key>
-					<string>#42424240</string>
+					<string>#B0BEC570</string>
 					<key>invisibles</key>
-					<string>#65737e30</string>
+					<string>#E7EAEC</string>
 			</dict>
 		</dict>
 		<dict>
