@@ -1,5 +1,20 @@
 {
   "iconDefinitions": {
+    "_file_stylus": {
+      "iconPath": "./icons/stylus.svg"
+    },
+    "_file_swig": {
+      "iconPath": "./icons/swig.svg"
+    },
+    "_file_twig": {
+      "iconPath": "./icons/twig.svg"
+    },
+    "_file_sketch": {
+      "iconPath": "./icons/sketch.svg"
+    },
+    "_file_procfile": {
+      "iconPath": "./icons/procfile.svg"
+    },
     "_file_todo": {
       "iconPath": "./icons/todo.svg"
     },
@@ -50,6 +65,9 @@
     },
     "_file_git": {
       "iconPath": "./icons/git.svg"
+    },
+    "_file_github": {
+      "iconPath": "./icons/github.svg"
     },
     "_file_image": {
       "iconPath": "./icons/image.svg"
@@ -288,23 +306,28 @@
     "_folder_dark": {
       "iconPath": "./icons/folder.svg"
     },
-    "_folder_open_dark": {
-      "iconPath": "./icons/folder-outline.svg"
-    },
     "_folder_light": {
-      "iconPath": "./icons/folder.svg"
+      "iconPath": "./icons/folder-light.svg"
     },
-    "_folder_open_light": {
+    "_folder_open": {
       "iconPath": "./icons/folder-outline.svg"
     },
     "_file_npm": {
       "iconPath": "./icons/npm.svg"
     }
   },
-  "folderExpanded": "_folder_open_dark",
+  "folderExpanded": "_folder_open",
   "folder": "_folder_dark",
+  "light": {
+    "folderExpanded": "_folder_open",
+    "folder": "_folder_light"
+  },
   "file": "_file_dark",
   "fileExtensions": {
+    "styl": "_file_stylus",
+    "twig": "_file_twig",
+    "swig": "_file_swig",
+    "sketch": "_file_sketch",
     "do": "_file_todo",
     "sublime-settings": "_file_sublime",
     "sublime-theme": "_file_sublime",
@@ -423,6 +446,8 @@
     "sh": "_file_console",
     "bat": "_file_console",
     "ps1": "_file_console",
+    "fish": "_file_console",
+    "bash": "_file_console",
     "gradle": "_file_gradle",
     "doc": "_file_word",
     "docx": "_file_word",
@@ -577,13 +602,13 @@
     ".jscsrc": "_file_json",
     ".jshintrc": "_file_json",
     ".jshintignore": "_file_settings",
-    ".npmignore": "_file_nodejs",
+    ".npmignore": "_file_npm",
     "tsconfig.json": "_file_json",
     "tslint.json": "_file_json",
     "androidmanifest.xml": "_file_android",
     "gradle-wrapper.properties": "_file_gradle",
     ".editorconfig": "_file_settings",
-    "procfile": "_file_settings",
+    "procfile": "_file_procfile",
     ".env": "_file_tune",
     "dockerfile": "_file_docker",
     "license": "_file_license",
@@ -626,7 +651,17 @@
   },
   "folderNames": {
     "node_modules": "_file_nodejs",
-    ".gulp": "_file_gulp"
+    ".git": "_file_git",
+    ".github": "_file_github",
+    ".gulp": "_file_gulp",
+    "bower_components": "_file_bower"
+  },
+  "folderNamesExpanded": {
+    "node_modules": "_file_nodejs",
+    ".git": "_file_git",
+    ".github": "_file_github",
+    ".gulp": "_file_gulp",
+    "bower_components": "_file_bower"
   },
   "languageIds": {
     "git": "_file_git"
