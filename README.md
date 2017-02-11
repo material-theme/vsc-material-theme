@@ -1,5 +1,5 @@
 
-<p align="center"><img src="http://i.imgur.com/iISgP7Z.png"/></p>
+<p align="center"><img width="800px" src="http://i.imgur.com/D6RO4s1.jpg"/></p>
 
 ### Beta (β) release
 
