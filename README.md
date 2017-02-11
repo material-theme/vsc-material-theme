@@ -1,5 +1,5 @@
 
-<p align="center"><img width="620px" src="http://i.imgur.com/wV04oxa.jpg"/></p>
+<p align="center"><img width="620px" src="http://i.imgur.com/CiYI98A.jpg"/></p>
 
 ### Beta (β) release
 
@@ -18,8 +18,12 @@ You can install this awesome theme through the [Visual Studio Code Marketplace](
 # Activate the theme
 
 1. Press <kbd>cmd/ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and type `color`, then select **Color Theme**
-2. Select `Material Theme Darker` or `Material Theme Lighter` fromt the list, then press **Enter**
+2. Select `Material Theme Darker` or `Material Theme Lighter` from the list, then press **Enter**
 
+# Activate File Icons Theme
+
+1. Press <kbd>cmd/ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and type `icon theme`, then select **File Icon Theme**
+2. Select `Material Theme Icons` from the list, then press **Enter**
 
 # Recommended settings for a better experience:
 
