@@ -22,10 +22,12 @@
     "vscode": "^1.5.0"
   },
   "scripts": {
-    "start": "npm run remove-min && npm run minimize-icons && npm run minimize-json",
-    "minimize-icons": "svgo -f src/icons -o dist/icons",
-    "minimize-json": "json-minify src/material-theme-icons.json > dist/material-theme-icons.json",
-    "remove-min": "rimraf min",
+    "start": "npm run remove-icons && npm run minimize-icons && npm run buildicons && npm run minimize-json",
+    "minimize-icons": "svgo -f src/icons/svgs -o icons",
+    "minimize-json": "json-minify .material-theme-icons.tmp > material-theme-icons.json && npm run remove-icons-tmp",
+    "remove-icons": "rimraf icons && rimraf material-theme-icons.json",
+    "remove-icons-tmp": "rimraf .material-theme-icons.tmp",
+    "buildicons": "gulp build:icons",
     "release": "npm run bump && npm run changelog",
     "changelog": "gulp changelog",
     "bump": "gulp bump"
@@ -51,7 +53,7 @@
       {
         "id": "material-theme-icons",
         "label": "Material Theme Icons",
-        "path": "./dist/material-theme-icons.json"
+        "path": "./material-theme-icons.json"
       }
     ]
   },
@@ -66,8 +68,13 @@
     "gulp": "^3.9.1",
     "gulp-bump": "^2.6.1",
     "gulp-conventional-changelog": "^1.1.0",
+    "gulp-data": "^1.2.1",
+    "gulp-filelist": "^1.0.0",
     "gulp-if": "^2.0.2",
+    "gulp-include": "^2.3.1",
+    "gulp-rename": "^1.2.2",
     "gulp-stats": "^0.0.4",
+    "gulp-template": "^4.0.0",
     "gulp-watch": "^4.3.8",
     "json-minify": "^1.0.0",
     "rimraf": "^2.5.4",
