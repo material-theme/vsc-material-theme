@@ -16,6 +16,7 @@
   "markdown": "_file_markdown",
   "markdown.rendered": "_file_markdown",
   "css": "_file_css",
+  "postcss": "_file_postcss",
   "scss": "_file_sass",
   "sass": "_file_sass",
   "less": "_file_less",

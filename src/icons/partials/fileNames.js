@@ -1,6 +1,7 @@
 "fileNames": {
   "gruntfile.js": "_file_grunt",
   "bower.json": "_file_bower",
+  ".bowerrc": "_file_bower",
   "webpack.js": "_file_webpack",
   "webpack.config.js": "_file_webpack",
   "webpack.dev.js": "_file_webpack",
