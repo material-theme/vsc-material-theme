@@ -6,7 +6,7 @@
 
 The most epic theme meet Visual Studio Code. Please note that this theme is still in Beta (β) release. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
 
-<img width="620px" src="https://cdn.rawgit.com/equinusocio/vsc-material-theme/develop/assets/screens.jpg">
+<img width="650px" src="https://cdn.rawgit.com/equinusocio/vsc-material-theme/develop/assets/screens.jpg">
 
 # Easy installation
 You can install this awesome theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
