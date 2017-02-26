@@ -1,4 +1,7 @@
 "fileExtensions": {
+  "cmd": "_file_cmd",
+  "mustache": "_file_mustache",
+  "rails": "_file_rails",
   "styl": "_file_stylus",
   "twig": "_file_twig",
   "swig": "_file_swig",
