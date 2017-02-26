@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "icon": "logo.png",
