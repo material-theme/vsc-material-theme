@@ -16,8 +16,8 @@ Please read the [Known Issues](https://github.com/equinusocio/material-theme#kno
 # Easy installation
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
 
-1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
-2. Type *"install package"* and press enter. Then search for *"Material Theme"*
+1. Press ⌘/Ctrl + ⇧ + P to open the command palette.
+2. Type `Package Control: Install Package` and press enter. Then search for `Material Theme`.
 
 
 # Manual installation
@@ -29,9 +29,9 @@ You can install this awesome theme through the [Package Control](https://package
 # Activate the theme
 
 You can active this theme from:
-- Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd> + <kbd>↑</kbd> + <kbd>p</kbd>) by typing `Material Theme: Activate theme`.
-- Context menu (Right click on the editor) and choose `Material Theme > Activate Material Theme`
-- `Preferences > Packages Settings` and choose `Material Theme > Activate Material Theme`
+- Command palette `Tools > Command Palette` (⌘/Ctrl + ⇧ + P) by typing `Material Theme: Activate theme`.
+- Context menu (Right click on the editor) and choose `Material Theme > Activate`
+- `Preferences > Packages Settings` and choose `Material Theme > Activate`
 
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
@@ -43,7 +43,7 @@ You can also manually activate this theme by adding these lines to your user set
 **NOTE:** Restart Sublime Text after activating the theme.
 
 # Configuration
-This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup. Just right click in your editor and choose `Material Theme > Material Theme Config`. You can also open the configurator from the command palette by searching `Material Theme > Configuration`
+This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup. Just right click in your editor and choose `Material Theme > Configuration`. You can also open the configurator from the command palette by searching `Material Theme > Configuration`.
 
 #### Advanced configuration
 If you like the advanced text text-configuration you can use it by the `Material Theme > Advanced configuration` command both from context menu and command palette.
@@ -56,7 +56,7 @@ Please see the issue [#67](https://github.com/equinusocio/material-theme/issues/
 # Addons
 
 #### File icons
-From release 4.0.0 this theme use [zz File Icons](https://github.com/oivva/st-file-icons) package to display file icons. Please install the package and restart Sublime Text.
+From release 4.0.0 this theme use [A File Icon](https://github.com/ihodev/a-file-icon) package to display file icons. Please install the package and restart Sublime Text.
 
 #### App Bar
 
