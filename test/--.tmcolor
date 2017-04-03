@@ -1,0 +1,78 @@
+comment                     — for comments.
+comment.line                    — line comments, we specialize further so that the type of comment start character(s) can be extracted from the scope.
+comment.line.double-slash           — // comment
+comment.line.double-dash            — -- comment
+comment.line.number-sign            — # comment
+comment.line.percentage             — % comment
+comment.line.character              — other types of line comments.
+comment.block               — multi-line comments like /* … */ and <!-- … -->.
+comment.block.documentation     — embedded documentation.
+
+constant            — various forms of constants.
+constant.numeric        — those which represent numbers, e.g. 42, 1.3f, 0x4AB1U.
+constant.character      — those which represent characters, e.g. &lt;, \e, \031.
+constant.escape         — escape sequences like \e would be constant.character.escape.
+constant.language       — constants (generally) provided by the language which are “special” like true, false, nil, YES, NO, etc.
+constant.other          — other constants, e.g. colors in CSS.
+
+entity                  — an entity refers to a larger part of the document, for example a chapter, class, function, or tag. We do not scope the entire entity as entity.* (we use meta.* for that). But we do use entity.* for the “placeholders” in the larger entity, e.g. if the entity is a chapter, we would use entity.name.section for the chapter title.
+entity.name                 — we are naming the larger entity.
+entity.name.function            — the name of a function.
+entity.name.type                — the name of a type declaration or class.
+entity.name.tag                 — a tag name.
+entity.name.section             — the name is the name of a section/heading.
+entity.other                — other entities.
+entity.other.inherited-class    — the superclass/baseclass name.
+entity.other.attribute-name     — the name of an attribute (mainly in tags).
+
+invalid             — stuff which is “invalid”.
+invalid.illegal         — illegal, e.g. an ampersand or lower-than character in HTML (which is not part of an entity/tag).
+invalid.deprecated      — for deprecated stuff e.g. using an API function which is deprecated or using styling with strict HTML.
+
+keyword             — keywords (when these do not fall into the other groups).
+keyword.control         — mainly related to flow control like continue, while, return, etc.
+keyword.operator        — operators can either be textual (e.g. or) or be characters.
+keyword.other           — other keywords.
+
+markup              — this is for markup languages and generally applies to larger subsets of the text.
+markup.underline        — underlined text.
+markup.underline.link       — this is for links, as a convenience this is derived from markup.underline so that if there is no theme rule which specifically targets markup.underline.link then it will inherit the underline style.
+markup.bold             — bold text (text which is strong and similar should preferably be derived from this name).
+markup.heading          — a section header. Optionally provide the heading level as the next element, for example markup.heading.2.html for <h2>…</h2> in HTML.
+markup.italic           — italic text (text which is emphasized and similar should preferably be derived from this name).
+markup.list             — list items.
+markup.list.numbered        — numbered list items.
+markup.list.unnumbered      — unnumbered list items.
+markup.quote            — quoted (sometimes block quoted) text.
+markup.raw              — text which is verbatim, e.g. code listings. Normally spell checking is disabled for markup.raw.
+markup.other            — other markup constructs.
+
+meta - the meta scope is generally used to markup larger parts of the document. For example the entire line which declares a function would be meta.function and the subsets would be storage.type, entity.name.function, variable.parameter etc. and only the latter would be styled. Sometimes the meta part of the scope will be used only to limit the more general element that is styled, most of the time meta scopes are however used in scope selectors for activation of bundle items. For example in Objective-C there is a meta scope for the interface declaration of a class and the implementation, allowing the same tab-triggers to expand differently, depending on context.
+
+storage         — things relating to “storage”.
+storage.type        — the type of something, class, function, int, var, etc.
+storage.modifier    — a storage modifier like static, final, abstract, etc.
+
+string              — strings.
+string.quoted           — quoted strings.
+string.quoted.single        — single quoted strings: 'foo'.
+string.quoted.double        — double quoted strings: "foo".
+string.quoted.triple        — triple quoted strings: """Python""".
+string.quoted.other         — other types of quoting: $'shell', %s{...}.
+string.unquoted         — for things like here-docs and here-strings.
+string.interpolated     — strings which are “evaluated”: `date`, $(pwd).
+string.regexp           — regular expressions: /(\w+)/.
+string.other            — other types of strings (should rarely be used).
+
+support         — things provided by a framework or library should be below support.
+support.function    — functions provided by the framework/library. For example NSLog in Objective-C is support.function.
+support.class       — when the framework/library provides classes.
+support.type        — types provided by the framework/library, this is probably only used for languages derived from C, which has typedef (and struct). Most other languages would introduce new types as classes.
+support.constant    — constants (magic values) provided by the framework/library.
+support.variable    — variables provided by the framework/library. For example NSApp in AppKit.
+support.other       — the above should be exhaustive, but for everything else use support.other.
+
+variable            — variables. Not all languages allow easy identification (and thus markup) of these.
+variable.parameter      — when the variable is declared as the parameter.
+variable.language       — reserved language variables like this, super, self, etc.
+variable.other          — other variables, like $some_variables.
