@@ -1,0 +1,156 @@
+{
+  "author": "Mattia Astorino",
+  "comment": "The most epic theme now for Visual Studio Code",
+  "accents": [
+    {
+      "id": "lime",
+      "name": "Lime",
+      "hex": "#7CB342",
+      "rgb": "124, 179, 66",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "purple",
+      "name": "Purple",
+      "hex": "#AB47BC",
+      "rgb": "171, 71, 188",
+      "foreground": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      }
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "hex": "#E57373",
+      "rgb": "229, 115, 115",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "hex": "#FF7042",
+      "rgb": "255, 112, 66",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow",
+      "hex": "#FFA000",
+      "rgb": "255, 160, 0",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "indigo",
+      "name": "Indigo",
+      "hex": "#5C6BC0",
+      "rgb": "92, 107, 192",
+      "foreground": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      }
+    },
+    {
+      "id": "pink",
+      "name": "Pink",
+      "hex": "#FF4081",
+      "rgb": "255, 64, 129",
+      "foreground": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      }
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "hex": "#2979FF",
+      "rgb": "41, 121, 255",
+      "foreground": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      }
+    },
+    {
+      "id": "cyan",
+      "name": "Cyan",
+      "hex": "#00BCD4",
+      "rgb": "0, 188, 212",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "bright-teal",
+      "name": "Bright Teal",
+      "hex": "#64FFDA",
+      "rgb": "100, 255, 218",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "acid-lime",
+      "name": "Acid Lime",
+      "hex": "#C6FF00",
+      "rgb": "198, 255, 0",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "hex": "#616161",
+      "rgb": "97, 97, 97",
+      "foreground": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      }
+    },
+    {
+      "id": "brba",
+      "name": "Breaking Bad",
+      "hex": "#388E3C",
+      "rgb": "56, 142, 60",
+      "foreground": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      }
+    },
+    {
+      "id": "sky",
+      "name": "Sky",
+      "hex": "#84FFFF",
+      "rgb": "132, 255, 255",
+      "foreground": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "hex": "#F44336",
+      "rgb": "244, 67, 54",
+      "foreground": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255"
+      }
+    }
+  ]
+}

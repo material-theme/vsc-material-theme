@@ -1,0 +1,100 @@
+{
+  "name": "Material Theme Darker",
+  "tokenColors": [
+    {
+      "settings": {
+        "background": "#252526",
+        "foreground": "#FFFFFF",
+        "caret": "#FFCC00",
+        "lineHighlight": "#00000050",
+        "selection": "#61616150",
+        "selectionHighlight": "#61616190",
+        "inactiveSelection": "#61616130",
+        "rangeHighlight": "#80CBC440",
+        "wordHighlight": "#80CBC440",
+        "wordHighlightStrong": "#80CBC440",
+        "currentFindMatchHighlight": "#D28445",
+        "findMatchHighlight": "#FFFFFF40",
+        "findRangeHighlight": "#FFFFFF40",
+        "activeLinkForeground": "#00FFFF",
+        "hoverHighlight": "#FFFFFF30",
+        "referenceHighlight": "#00FFFF",
+        "guide": "#42424240",
+        "invisibles": "#65737E30"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#4A4A4A"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "#EEFFFFFF"
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": [
+        "constant.other.color"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal",
+        "invalid.broken"
+      ],
+      "settings": {
+        "background": "#FF5370",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Invalid unimplemented",
+      "scope": [
+        "invalid.unimplemented"
+      ],
+      "settings": {
+        "background": "#C3E88D",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": [
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "background": "#C792EA",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    }
+  ]
+}
