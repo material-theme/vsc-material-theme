@@ -77,9 +77,11 @@
     "gulp-template": "^4.0.0",
     "gulp-watch": "^4.3.8",
     "json-minify": "^1.0.0",
+    "mustache": "^2.3.0",
     "rimraf": "^2.6.1",
     "run-sequence": "^1.2.2",
     "svgo": "^0.7.1",
+    "yamljs": "^0.2.9",
     "yargs": "^7.0.2"
   }
 }

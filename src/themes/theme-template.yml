@@ -9,7 +9,7 @@ tokenColors:
       - punctuation.definition.comment
     settings:
       fontStyle: italic
-      foreground: '#4A4A4A'
+      foreground: '{{variant.scheme.comments}}'
   - name: Variables
     scope:
       - variable
