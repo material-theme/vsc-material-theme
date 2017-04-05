@@ -1,7 +1,6 @@
 {
   "name": "Material-Theme-Lighter",
   "semanticClass": "material.theme.lighter",
-  "uuid": "133d1250-19c6-4565-bc93-b37fd36f7fc9",
   "ui": {
     "id": "material-theme",
     "variant": {
@@ -12,10 +11,6 @@
       "primary": {
         "hex": "#FAFAFA",
         "rgb": "250, 250, 250"
-      },
-      "scrollbar": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
       }
     },
     "foreground": {
@@ -65,13 +60,6 @@
       "brown": "#C17E70",
       "pink": "#FF5370",
       "violet": "#945EB8"
-    }
-  },
-  "extras": {
-    "plainTasks": {
-      "name": "Plain Tasks",
-      "semanticClass": "material.theme.lighter.plain.tasks",
-      "uuid": "adbb93d6-d3d2-4a08-82aa-8a5d163a83f9"
     }
   }
 }

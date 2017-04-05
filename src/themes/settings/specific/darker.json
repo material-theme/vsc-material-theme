@@ -1,7 +1,6 @@
 {
   "name": "Material-Theme-Darker",
   "semanticClass": "material.theme.darker",
-  "uuid": "4F44C0F5-1F8D-4C52-8BAB-F0951904C1EC",
   "ui": {
     "id": "material-theme",
     "variant": {
@@ -12,10 +11,6 @@
       "primary": {
         "hex": "#212121",
         "rgb": "33, 33, 33"
-      },
-      "scrollbar": {
-        "hex": "#ffffff",
-        "rgb": "255, 255, 255"
       }
     },
     "foreground": {
@@ -65,13 +60,6 @@
       "brown": "#C17E70",
       "pink": "#f07178",
       "violet": "#bb80b3"
-    }
-  },
-  "extras": {
-    "plainTasks": {
-      "name": "Plain Tasks",
-      "semanticClass": "material.theme.darker.plain.tasks",
-      "uuid": "2c08ecfd-e69c-4cf3-8b6d-ec07a83c30ab"
     }
   }
 }
