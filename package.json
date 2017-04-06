@@ -28,6 +28,7 @@
     "remove-icons": "rimraf icons && rimraf material-theme-icons.json",
     "remove-icons-tmp": "rimraf .material-theme-icons.tmp",
     "buildicons": "gulp build:icons",
+    "build-themes": "gulp build:themes",
     "release": "npm run bump && npm run changelog",
     "changelog": "gulp changelog",
     "bump": "gulp bump"
@@ -75,6 +76,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-stats": "^0.0.4",
     "gulp-template": "^4.0.0",
+    "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.8",
     "json-minify": "^1.0.0",
     "mustache": "^2.3.0",

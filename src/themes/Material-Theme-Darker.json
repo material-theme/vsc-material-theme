@@ -4,7 +4,7 @@
     {
       "settings": {
         "background": "#252526",
-        "foreground": "#FFFFFF"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -25,7 +25,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#EEFFFFFF"
+        "foreground": "#eeffffff"
       }
     },
     {
@@ -34,7 +34,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -46,7 +46,7 @@
       ],
       "settings": {
         "background": "#FF5370",
-        "foreground": "#FFFFFF"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -56,7 +56,7 @@
       ],
       "settings": {
         "background": "#C3E88D",
-        "foreground": "#FFFFFF"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -66,7 +66,7 @@
       ],
       "settings": {
         "background": "#C792EA",
-        "foreground": "#FFFFFF"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -118,7 +118,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#F07178"
+        "foreground": "#f07178"
       }
     },
     {
@@ -142,7 +142,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#F07178"
+        "foreground": "#f07178"
       }
     },
     {
@@ -447,7 +447,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFFFF"
+        "foreground": "#eeffffff"
       }
     },
     {
@@ -495,7 +495,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#F07178"
+        "foreground": "#f07178"
       }
     },
     {
@@ -506,7 +506,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#F07178"
+        "foreground": "#f07178"
       }
     },
     {
@@ -521,7 +521,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#F07178"
+        "foreground": "#f07178"
       }
     },
     {
@@ -567,7 +567,7 @@
   ],
   "colors": {
     "editorBackground": "#252526",
-    "editorForeground": "#FFFFFF",
+    "editorForeground": "#ffffff",
     "statusBarBackground": "#252526"
   }
 }
