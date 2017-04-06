@@ -1,33 +1,6 @@
 {
+  "id": "material.theme.darker",
   "name": "Material-Theme-Darker",
-  "semanticClass": "material.theme.darker",
-  "ui": {
-    "id": "material-theme",
-    "variant": {
-      "id": "darker",
-      "name": "Darker"
-    },
-    "background": {
-      "primary": {
-        "hex": "#212121",
-        "rgb": "33, 33, 33"
-      }
-    },
-    "foreground": {
-      "primary": {
-        "hex": "#616161",
-        "rgb": "97, 97, 97"
-      },
-      "secondary": {
-        "hex": "#6f7a7f",
-        "rgb": "111, 122, 127"
-      },
-      "selected": {
-        "hex": "#dddfe1",
-        "rgb": "221, 223, 225"
-      }
-    }
-  },
   "scheme": {
     "background": "#212121",
     "comments": "#4A4A4A",

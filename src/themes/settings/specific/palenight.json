@@ -1,29 +1,6 @@
 {
+  "id": "material.theme.palenight",
   "name": "Material-Theme-Palenight",
-  "semanticClass": "material.theme.palenight",
-  "ui": {
-    "id": "material-theme",
-    "variant": {
-      "id": "palenight",
-      "name": "Palenight"
-    },
-    "background": {
-      "primary": {
-        "hex": "#292D3E",
-        "rgb": "41, 45, 62"
-      }
-    },
-    "foreground": {
-      "primary": {
-        "hex": "#676E95",
-        "rgb": "103, 110, 149"
-      },
-      "selected": {
-        "hex": "#dddfe1",
-        "rgb": "221, 223, 225"
-      }
-    }
-  },
   "scheme": {
     "background": "#292D3E",
     "comments": "#676E95",

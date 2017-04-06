@@ -1,33 +1,6 @@
 {
+  "id": "material.theme.lighter",
   "name": "Material-Theme-Lighter",
-  "semanticClass": "material.theme.lighter",
-  "ui": {
-    "id": "material-theme",
-    "variant": {
-      "id": "lighter",
-      "name": "Lighter"
-    },
-    "background": {
-      "primary": {
-        "hex": "#FAFAFA",
-        "rgb": "250, 250, 250"
-      }
-    },
-    "foreground": {
-      "primary": {
-        "hex": "#a7adb0",
-        "rgb": "167, 173, 176"
-      },
-      "secondary": {
-        "hex": "#6f7a7f",
-        "rgb": "111, 122, 127"
-      },
-      "selected": {
-        "hex": "#dddfe1",
-        "rgb": "221, 223, 225"
-      }
-    }
-  },
   "scheme": {
     "background": "#fafafa",
     "comments": "#CCD7DA",

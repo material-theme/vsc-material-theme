@@ -1,29 +1,6 @@
 {
+  "id": "material.theme.default",
   "name": "Material-Theme",
-  "semanticClass": "material.theme.default",
-  "ui": {
-    "id": "material-theme",
-    "variant": {
-      "id": "default",
-      "name": "Default"
-    },
-    "background": {
-      "primary": {
-        "hex": "#263238",
-        "rgb": "38, 50, 56"
-      }
-    },
-    "foreground": {
-      "primary": {
-        "hex": "#394E59",
-        "rgb": "96, 125, 139"
-      },
-      "selected": {
-        "hex": "#dddfe1",
-        "rgb": "221, 223, 225"
-      }
-    }
-  },
   "scheme": {
     "background": "#263238",
     "comments": "#546E7A",
