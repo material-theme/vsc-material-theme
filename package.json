@@ -19,7 +19,7 @@
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
   },
   "engines": {
-    "vscode": "^1.5.0"
+    "vscode": "^1.11.0"
   },
   "scripts": {
     "start": "npm run remove-icons && npm run minimize-icons && npm run buildicons && npm run minimize-json",
