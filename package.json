@@ -41,7 +41,7 @@
       {
         "label": "Material Theme Darker",
         "uiTheme": "vs-dark",
-        "path": "./themes/Material-Theme-Darker.tmTheme"
+        "path": "./themes/Material-Theme-Darker.json"
       },
       {
         "label": "Material Theme Lighter",

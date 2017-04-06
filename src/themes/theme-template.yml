@@ -408,3 +408,4 @@ colors:
   editorBackground: '#252526'
   editorForeground: '#FFFFFF'
   statusBarBackground: '#252526'
+  activityBarBackground: '#252526'
