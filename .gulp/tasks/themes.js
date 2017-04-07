@@ -1,3 +1,7 @@
+/*
+ * > Build Themes
+ */
+
 import fs from 'fs';
 import gulp from 'gulp';
 import gutil from 'gulp-util';

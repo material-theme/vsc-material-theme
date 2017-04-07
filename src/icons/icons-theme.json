@@ -1,9 +1,8 @@
 {
-  //=include "partials/iconDefinitions.js"
-  //=include "partials/fileExtensions.js"
-  //=include "partials/fileNames.js"
-  //=include "partials/fileFolders.js"
-  //=include "partials/folderNames.js"
-  //=include "partials/light.js"
-  //=include "partials/languageIds.js"
+  {{> iconDefinitions}}
+  {{> fileNames}}
+  {{> fileFolders}}
+  {{> folderNames}}
+  {{> light}}
+  {{> languageIds}}
 }
