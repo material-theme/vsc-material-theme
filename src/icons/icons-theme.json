@@ -1,5 +1,6 @@
 {
   {{> iconDefinitions}}
+  {{> fileExtensions}}
   {{> fileNames}}
   {{> fileFolders}}
   {{> folderNames}}
