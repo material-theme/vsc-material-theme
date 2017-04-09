@@ -243,7 +243,7 @@ tokenColors:
     scope:
       - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
-      foreground: '{{variant.scheme.base.yellow}}'
+      foreground: '{{variant.scheme.base.orange}}'
   - name: JSON Key - Level 3
     scope:
       - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
