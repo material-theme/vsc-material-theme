@@ -1,4 +1,4 @@
-name: Material Theme Darker
+name: '{{variant.name}}'
 tokenColors:
   - settings:
       background: '{{variant.scheme.background}}'
@@ -411,3 +411,6 @@ colors:
   activityBarBackground: '{{variant.scheme.background}}'
   titleBarActiveBackground: '{{variant.scheme.background}}'
   titleBarInactiveBackground: '{{variant.scheme.background}}'
+  sideBarBackground: '{{variant.scheme.background}}'
+  tabsContainerBackground: '{{variant.scheme.background}}'
+  inactiveTabBackground: '{{variant.scheme.background}}'
