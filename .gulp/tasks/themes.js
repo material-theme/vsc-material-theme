@@ -10,19 +10,19 @@ import YAML from 'yamljs';
 
 import Paths from '../paths';
 
-const themeCommons = require('../../src/themes/settings/commons.json');
+const themeCommons = require(`../../src/themes/settings/commons.json`);
 const themeVariants = [];
 const themeTemplateFile = fs.readFileSync(
-  `${Paths.themes}/theme-template.yml`,
+  `${Paths.src}/themes/theme-template.yml`,
   'utf-8'
 );
 
-const files = fs.readdirSync(`${Paths.themes}/settings/specific`);
+const files = fs.readdirSync(`${Paths.src}/themes/settings/specific`);
 
 // build theme variants for later use in templating
 files.forEach(file => {
   const name = file.split('.')[0];
-  const filepath = `${Paths.themes}/settings/specific/${file}`;
+  const filepath = `${Paths.src}/themes/settings/specific/${file}`;
   const contents = fs.readFileSync(filepath, 'utf-8');
 
   try {

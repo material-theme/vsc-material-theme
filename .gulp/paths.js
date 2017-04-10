@@ -3,7 +3,7 @@ import infos from '../package.json';
 const today = new Date()
   , paths = {
     'icons': './icons',
-    'themes': './src/themes',
+    'themes': './themes',
     'src': './src',
     'dist': './dist'
   };
