@@ -62,7 +62,6 @@
     "babel-core": "^6.24.0",
     "babel-preset-es2015": "^6.24.0",
     "babel-root-import": "^4.1.8",
-    "colors": "^1.1.2",
     "cpx": "^1.5.0",
     "eslint": "^3.19.0",
     "eslint-plugin-standard": "^2.1.1",

@@ -6,7 +6,7 @@
 
 import gulp from 'gulp';
 import runSequence from 'run-sequence';
-import colors from 'colors';
+import gutil from 'gulp-util';
 import yrgv from 'yargs';
 import bump from 'gulp-bump';
 import gulpif from 'gulp-if';
@@ -18,9 +18,9 @@ gulp.task('bump', (cb) => {
     'bump-pkg-version',
     (error) => {
       if (error) {
-        console.log('[bump]'.bold.magenta + ' There was an issue bumping version:\n'.bold.red + error.message);
+        console.log(gutil.colors.magenta.bold('[bump]'), gutil.colors.red.bold(' There was an issue bumping version:\n'), error.message);
       } else {
-        console.log('[bump]'.bold.magenta + ' Finished successfully'.bold.green);
+        console.log(gutil.colors.magenta.bold('[bump]'), gutil.colors.green.bold(' Finished successfully'));
       }
       cb(error);
     }
