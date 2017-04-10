@@ -2,7 +2,7 @@
   "id": "material.theme.lighter",
   "name": "Material-Theme-Lighter",
   "scheme": {
-    "background": "#fafafa",
+    "background": "#FAFAFA",
     "comments": "#CCD7DA",
     "caret": "#27272790",
     "findHighlight": "#F8E71C",
@@ -20,7 +20,7 @@
     "string": "#F9355A",
     "constantEscape": "#FFC400",
     "base": {
-      "white": "#ffffff",
+      "white": "#FFFFFF",
       "black": "#000000",
       "red": "#E53935",
       "orange": "#F76D47",
