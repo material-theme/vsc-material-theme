@@ -666,6 +666,9 @@
     "statusBarBackground": "#212121",
     "activityBarBackground": "#212121",
     "titleBarActiveBackground": "#212121",
-    "titleBarInactiveBackground": "#212121"
+    "titleBarInactiveBackground": "#212121",
+    "sideBarBackground": "#212121",
+    "tabsContainerBackground": "#212121",
+    "inactiveTabBackground": "#212121"
   }
 }
