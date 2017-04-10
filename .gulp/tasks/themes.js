@@ -10,7 +10,7 @@ import YAML from 'yamljs';
 
 import Paths from '../paths';
 
-const themeCommons = require(`../../src/themes/settings/commons.json`);
+const themeCommons = require('../../src/themes/settings/commons.json');
 const themeVariants = [];
 const themeTemplateFile = fs.readFileSync(
   `${Paths.src}/themes/theme-template.yml`,
