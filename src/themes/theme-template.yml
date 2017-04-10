@@ -1,407 +1,407 @@
 name: Material Theme Darker
 tokenColors:
-  - settings:
+  settings:
       background: '{{variant.scheme.background}}'
       foreground: '{{variant.scheme.base.white}}'
-  - name: Comment
+  name: Comment
     scope:
-      - comment
-      - punctuation.definition.comment
+      comment
+      punctuation.definition.comment
     settings:
       fontStyle: italic
       foreground: '{{variant.scheme.comments}}'
-  - name: Variables
+  name: Variables
     scope:
-      - variable
-      - string constant.other.placeholder
+      variable
+      string constant.other.placeholder
     settings:
       foreground: '{{variant.scheme.foreground}}'
-  - name: Colors
+  name: Colors
     scope:
-      - constant.other.color
+      constant.other.color
     settings:
       foreground: '{{variant.scheme.base.white}}'
-  - name: Invalid
+  name: Invalid
     scope:
-      - invalid
-      - invalid.illegal
-      - invalid.broken
+      invalid
+      invalid.illegal
+      invalid.broken
     settings:
       background: '{{variant.scheme.base.red}}'
       foreground: '{{variant.scheme.base.white}}'
-  - name: Invalid unimplemented
+  name: Invalid unimplemented
     scope:
-      - invalid.unimplemented
+      invalid.unimplemented
     settings:
       background: '{{variant.scheme.base.green}}'
       foreground: '{{variant.scheme.base.white}}'
-  - name: Invalid deprecated
+  name: Invalid deprecated
     scope:
-      - invalid.deprecated
+      invalid.deprecated
     settings:
       background: '{{variant.scheme.base.purple}}'
       foreground: '{{variant.scheme.base.white}}'
-  - name: 'Keyword, Storage'
+  name: 'Keyword, Storage'
     scope:
-      - keyword
-      - storage.type
-      - storage.modifier
+      keyword
+      storage.type
+      storage.modifier
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: 'Keyword, Storage'
+  name: 'Keyword, Storage'
     scope:
-      - Keyword
-      - Storage
+      Keyword
+      Storage
     settings:
       fontStyle: italic
-  - name: 'Operator, Misc'
+  name: 'Operator, Misc'
     scope:
-      - keyword.operator
-      - constant.other.color
-      - punctuation
-      - meta.tag
-      - punctuation.definition.tag
-      - punctuation.separator.inheritance.php
-      - punctuation.definition.tag.html
-      - punctuation.definition.tag.begin.html
-      - punctuation.definition.tag.end.html
-      - punctuation.section.embedded
-      - keyword.other.template
-      - keyword.other.substitution
+      keyword.operator
+      constant.other.color
+      punctuation
+      meta.tag
+      punctuation.definition.tag
+      punctuation.separator.inheritance.php
+      punctuation.definition.tag.html
+      punctuation.definition.tag.begin.html
+      punctuation.definition.tag.end.html
+      punctuation.section.embedded
+      keyword.other.template
+      keyword.other.substitution
     settings:
       foreground: '{{variant.scheme.base.cyan}}'
-  - name: Tag
+  name: Tag
     scope:
-      - entity.name.tag
-      - meta.tag.sgml
-      - markup.deleted.git_gutter
+      entity.name.tag
+      meta.tag.sgml
+      markup.deleted.git_gutter
     settings:
       foreground: '{{variant.scheme.base.pink}}'
-  - name: 'Function, Special Method, Block Level'
+  name: 'Function, Special Method, Block Level'
     scope:
-      - entity.name.function
-      - meta.function-call
-      - variable.function
-      - support.function
-      - keyword.other.special-method
-      - meta.block-level
+      entity.name.function
+      meta.function-call
+      variable.function
+      support.function
+      keyword.other.special-method
+      meta.block-level
     settings:
       foreground: '{{variant.scheme.base.blue}}'
-  - name: 'Other Variable, String Link'
+  name: 'Other Variable, String Link'
     scope:
-      - support.other.variable
-      - string.other.link
+      support.other.variable
+      string.other.link
     settings:
       foreground: '{{variant.scheme.base.pink}}'
-  - name: 'Number, Constant, Function Argument, Tag Attribute, Embedded'
+  name: 'Number, Constant, Function Argument, Tag Attribute, Embedded'
     scope:
-      - constant.numeric
-      - constant.language
-      - support.constant
-      - constant.character
-      - variable.parameter
-      - keyword.other.unit
+      constant.numeric
+      constant.language
+      support.constant
+      constant.character
+      variable.parameter
+      keyword.other.unit
     settings:
       foreground: '{{variant.scheme.base.orange}}'
-  - name: 'String, Symbols, Inherited Class, Markup Heading'
+  name: 'String, Symbols, Inherited Class, Markup Heading'
     scope:
-      - string
-      - constant.other.symbol
-      - constant.other.key
-      - entity.other.inherited-class
-      - markup.heading
-      - markup.inserted.git_gutter
-      - meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
+      string
+      constant.other.symbol
+      constant.other.key
+      entity.other.inherited-class
+      markup.heading
+      markup.inserted.git_gutter
+      meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js
     settings:
       fontStyle: normal
       foreground: '{{variant.scheme.base.green}}'
-  - name: 'Class, Support'
+  name: 'Class, Support'
     scope:
-      - entity.name.class
-      - entity.name.type.class
-      - support.type
-      - support.class
-      - support.orther.namespace.use.php
-      - meta.use.php
-      - support.other.namespace.php
-      - markup.changed.git_gutter
-      - support.type.sys-types
+      entity.name.class
+      entity.name.type.class
+      support.type
+      support.class
+      support.orther.namespace.use.php
+      meta.use.php
+      support.other.namespace.php
+      markup.changed.git_gutter
+      support.type.sys-types
     settings:
       foreground: '{{variant.scheme.base.yellow}}'
-  - name: CSS Class and Support
+  name: CSS Class and Support
     scope:
-      - source.css support.type
-      - source.sass support.type
-      - source.scss support.type
-      - source.less support.type
-      - source.stylus support.type
+      source.css support.type
+      source.sass support.type
+      source.scss support.type
+      source.less support.type
+      source.stylus support.type
     settings:
       foreground: '{{variant.scheme.base.paleblue}}'
-  - name: Sub-methods
+  name: Sub-methods
     scope:
-      - entity.name.module.js
-      - variable.import.parameter.js
-      - variable.other.class.js
+      entity.name.module.js
+      variable.import.parameter.js
+      variable.other.class.js
     settings:
       foreground: '{{variant.scheme.base.red}}'
-  - name: Language methods
+  name: Language methods
     scope:
-      - variable.language
+      variable.language
     settings:
       fontStyle: italic
       foreground: '{{variant.scheme.base.red}}'
-  - name: entity.name.method.js
+  name: entity.name.method.js
     scope:
-      - entity.name.method.js
+      entity.name.method.js
     settings:
       fontStyle: italic
       foreground: '{{variant.scheme.base.blue}}'
-  - name: meta.method.js
+  name: meta.method.js
     scope:
-      - meta.class-method.js entity.name.function.js
-      - variable.function.constructor
+      meta.class-method.js entity.name.function.js
+      variable.function.constructor
     settings:
       foreground: '{{variant.scheme.base.blue}}'
-  - name: Attributes
+  name: Attributes
     scope:
-      - entity.other.attribute-name
+      entity.other.attribute-name
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: HTML Attributes
+  name: HTML Attributes
     scope:
-      - text.html.basic entity.other.attribute-name.html
-      - text.html.basic entity.other.attribute-name
+      text.html.basic entity.other.attribute-name.html
+      text.html.basic entity.other.attribute-name
     settings:
       fontStyle: italic
       foreground: '{{variant.scheme.base.yellow}}'
-  - name: CSS Classes
+  name: CSS Classes
     scope:
-      - entity.other.attribute-name.class
+      entity.other.attribute-name.class
     settings:
       foreground: '{{variant.scheme.base.yellow}}'
-  - name: "CSS ID's"
+  name: "CSS ID's"
     scope:
-      - source.sass keyword.control
+      source.sass keyword.control
     settings:
       foreground: '{{variant.scheme.base.blue}}'
-  - name: Inserted
+  name: Inserted
     scope:
-      - markup.inserted
+      markup.inserted
     settings:
       foreground: '{{variant.scheme.base.green}}'
-  - name: Deleted
+  name: Deleted
     scope:
-      - markup.deleted
+      markup.deleted
     settings:
       foreground: '{{variant.scheme.base.red}}'
-  - name: Changed
+  name: Changed
     scope:
-      - markup.changed
+      markup.changed
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: Regular Expressions
+  name: Regular Expressions
     scope:
-      - string.regexp
+      string.regexp
     settings:
       foreground: '{{variant.scheme.base.cyan}}'
-  - name: Escape Characters
+  name: Escape Characters
     scope:
-      - constant.character.escape
+      constant.character.escape
     settings:
       foreground: '{{variant.scheme.base.cyan}}'
-  - name: URL
+  name: URL
     scope:
-      - '*url*'
-      - '*link*'
-      - '*uri*'
+      '*url*'
+      '*link*'
+      '*uri*'
     settings:
       fontStyle: underline
-  - name: Decorators
+  name: Decorators
     scope:
-      - tag.decorator.js entity.name.tag.js
-      - tag.decorator.js punctuation.definition.tag.js
+      tag.decorator.js entity.name.tag.js
+      tag.decorator.js punctuation.definition.tag.js
     settings:
       fontStyle: italic
       foreground: '{{variant.scheme.base.blue}}'
-  - name: ES7 Bind Operator
+  name: ES7 Bind Operator
     scope:
-      - source.js constant.other.object.key.js string.unquoted.label.js
+      source.js constant.other.object.key.js string.unquoted.label.js
     settings:
       fontStyle: italic
       foreground: '{{variant.scheme.base.red}}'
-  - name: JSON Key - Level 0
+  name: JSON Key - Level 0
     scope:
-      - source.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: JSON Key - Level 1
+  name: JSON Key - Level 1
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.yellow}}'
-  - name: JSON Key - Level 2
+  name: JSON Key - Level 2
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.orange}}'
-  - name: JSON Key - Level 3
+  name: JSON Key - Level 3
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.red}}'
-  - name: JSON Key - Level 4
+  name: JSON Key - Level 4
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.brown}}'
-  - name: JSON Key - Level 5
+  name: JSON Key - Level 5
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.blue}}'
-  - name: JSON Key - Level 6
+  name: JSON Key - Level 6
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.pink}}'
-  - name: JSON Key - Level 7
+  name: JSON Key - Level 7
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: JSON Key - Level 8
+  name: JSON Key - Level 8
     scope:
-      - source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
+      source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json
     settings:
       foreground: '{{variant.scheme.base.green}}'
-  - name: Markdown - Plain
+  name: Markdown - Plain
     scope:
-      - text.html.markdown
-      - punctuation.definition.list_item.markdown
+      text.html.markdown
+      punctuation.definition.list_item.markdown
     settings:
       foreground: '{{variant.scheme.foreground}}'
-  - name: Markdown - Markup Raw Inline
+  name: Markdown - Markup Raw Inline
     scope:
-      - text.html.markdown markup.inline.raw.markdown
+      text.html.markdown markup.inline.raw.markdown
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: Markdown - Markup Raw Inline Punctuation
+  name: Markdown - Markup Raw Inline Punctuation
     scope:
-      - text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown
+      text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown
     settings:
       foreground: '{{variant.scheme.invisibles}}'
-  - name: Markdown - Line Break
+  name: Markdown - Line Break
     scope:
-      - text.html.markdown meta.dummy.line-break
+      text.html.markdown meta.dummy.line-break
     settings:
       foreground: ''
-  - name: Markdown - Heading
+  name: Markdown - Heading
     scope:
-      - markdown.heading
-      - 'markup.heading | markup.heading entity.name'
-      - markup.heading.markdown punctuation.definition.heading.markdown
+      markdown.heading
+      'markup.heading | markup.heading entity.name'
+      markup.heading.markdown punctuation.definition.heading.markdown
     settings:
       foreground: '{{variant.scheme.base.green}}'
-  - name: Markup - Italic
+  name: Markup - Italic
     scope:
-      - markup.italic
+      markup.italic
     settings:
       fontStyle: italic
       foreground: '{{variant.scheme.base.pink}}'
-  - name: Markup - Bold
+  name: Markup - Bold
     scope:
-      - markup.bold
-      - markup.bold string
+      markup.bold
+      markup.bold string
     settings:
       fontStyle: bold
       foreground: '{{variant.scheme.base.pink}}'
-  - name: Markup - Bold-Italic
+  name: Markup - Bold-Italic
     scope:
-      - markup.bold markup.italic
-      - markup.italic markup.bold
-      - markup.quote markup.bold
-      - markup.bold markup.italic string
-      - markup.italic markup.bold string
-      - markup.quote markup.bold string
+      markup.bold markup.italic
+      markup.italic markup.bold
+      markup.quote markup.bold
+      markup.bold markup.italic string
+      markup.italic markup.bold string
+      markup.quote markup.bold string
     settings:
       fontStyle: bold
       foreground: '{{variant.scheme.base.pink}}'
-  - name: Markup - Underline
+  name: Markup - Underline
     scope:
-      - markup.underline
+      markup.underline
     settings:
       fontStyle: underline
       foreground: '{{variant.scheme.base.orange}}'
-  - name: Markup - Strike
+  name: Markup - Strike
     scope:
-      - markup.strike
+      markup.strike
     settings:
       fontStyle: strike
       foreground: ''
-  - name: Markdown - Blockquote
+  name: Markdown - Blockquote
     scope:
-      - markup.quote punctuation.definition.blockquote.markdown
+      markup.quote punctuation.definition.blockquote.markdown
     settings:
       background: '{{variant.scheme.invisibles}}'
       foreground: '{{variant.scheme.invisibles}}'
-  - name: Markup - Quote
+  name: Markup - Quote
     scope:
-      - markup.quote
+      markup.quote
     settings:
       fontStyle: italic
       foreground: ''
-  - name: Markdown - Link
+  name: Markdown - Link
     scope:
-      - string.other.link.title.markdown
+      string.other.link.title.markdown
     settings:
       foreground: '{{variant.scheme.base.blue}}'
-  - name: Markdown - Link Description
+  name: Markdown - Link Description
     scope:
-      - string.other.link.description.title.markdown
+      string.other.link.description.title.markdown
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: Markdown - Link Anchor
+  name: Markdown - Link Anchor
     scope:
-      - constant.other.reference.link.markdown
+      constant.other.reference.link.markdown
     settings:
       foreground: '{{variant.scheme.base.yellow}}'
-  - name: Markup - Raw Block
+  name: Markup - Raw Block
     scope:
-      - markup.raw.block
+      markup.raw.block
     settings:
       foreground: '{{variant.scheme.base.purple}}'
-  - name: Markdown - Raw Block Fenced
+  name: Markdown - Raw Block Fenced
     scope:
-      - markup.raw.block.fenced.markdown
+      markup.raw.block.fenced.markdown
     settings:
       foreground: '#00000050'
-  - name: Markdown - Fenced Bode Block
+  name: Markdown - Fenced Bode Block
     scope:
-      - punctuation.definition.fenced.markdown
+      punctuation.definition.fenced.markdown
     settings:
       foreground: '#00000050'
-  - name: Markdown - Fenced Bode Block Variable
+  name: Markdown - Fenced Bode Block Variable
     scope:
-      - markup.raw.block.fenced.markdown
-      - variable.language.fenced.markdown
-      - punctuation.section.class.end
+      markup.raw.block.fenced.markdown
+      variable.language.fenced.markdown
+      punctuation.section.class.end
     settings:
       foreground: '{{variant.scheme.foreground}}'
-  - name: Markdown - Fenced Language
+  name: Markdown - Fenced Language
     scope:
-      - variable.language.fenced.markdown
+      variable.language.fenced.markdown
     settings:
       foreground: '{{variant.scheme.invisibles}}'
-  - name: Markdown - Separator
+  name: Markdown - Separator
     scope:
-      - meta.separator
+      meta.separator
     settings:
       fontStyle: bold
       background: '#00000050'
       foreground: '{{variant.scheme.invisibles}}'
-  - name: Markup - Table
+  name: Markup - Table
     scope:
-      - markup.table
+      markup.table
     settings:
       foreground: '{{variant.scheme.foreground}'
 colors:
