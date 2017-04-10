@@ -20,7 +20,7 @@ gulp.task('bump', (cb) => {
       if (error) {
         console.log(gutil.colors.magenta.bold('[bump]'), gutil.colors.red.bold(' There was an issue bumping version:\n'), error.message);
       } else {
-        console.log(gutil.colors.magenta.bold('[bump]'), gutil.colors.green.bold(' Finished successfully'));
+        console.log(gutil.colors.magenta.bold('\n[bump]'), gutil.colors.green.bold(' Finished successfully\n'));
       }
       cb(error);
     }
