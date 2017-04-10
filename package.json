@@ -40,14 +40,24 @@
   "contributes": {
     "themes": [
       {
+        "label": "Material Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Default.json"
+      },
+      {
         "label": "Material Theme Darker",
         "uiTheme": "vs-dark",
         "path": "./themes/Material-Theme-Darker.json"
       },
       {
+        "label": "Material Theme Palenight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Palenight.json"
+      },
+      {
         "label": "Material Theme Lighter",
         "uiTheme": "vs",
-        "path": "./themes/Material-Theme-Lighter.tmTheme"
+        "path": "./themes/Material-Theme-Lighter.json"
       }
     ],
     "iconThemes": [
