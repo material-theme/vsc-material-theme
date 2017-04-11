@@ -1,5 +1,5 @@
-<a name="0.0.7"></a>
-## 0.0.7 (2017-02-26)
+<a name="0.0.8"></a>
+## 0.0.8 (2017-04-11)
 
 
 ### Bug Fixes
@@ -12,6 +12,7 @@
 * Fix var hover background ([a471a2a](https://github.com/equinusocio/vsc-material-theme/commit/a471a2a))
 * Update json icon ([2793178](https://github.com/equinusocio/vsc-material-theme/commit/2793178))
 * Update some file icons ([88b4739](https://github.com/equinusocio/vsc-material-theme/commit/88b4739))
+* **Icons:** Fix .ts and def ts icons ([e8e9b49](https://github.com/equinusocio/vsc-material-theme/commit/e8e9b49)), closes [#10](https://github.com/equinusocio/vsc-material-theme/issues/10)
 
 
 ### Features
@@ -21,6 +22,7 @@
 * first beta release ([262097f](https://github.com/equinusocio/vsc-material-theme/commit/262097f))
 * **Icons:** Add new filetype icons ([50debfe](https://github.com/equinusocio/vsc-material-theme/commit/50debfe))
 * **Icons:** Add new icons ([d02f2fe](https://github.com/equinusocio/vsc-material-theme/commit/d02f2fe))
+* first full theme implementation (wip) ([6434f44](https://github.com/equinusocio/vsc-material-theme/commit/6434f44))
 
 
 
