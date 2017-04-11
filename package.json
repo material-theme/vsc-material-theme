@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "icon": "logo.png",
@@ -19,15 +19,17 @@
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
   },
   "engines": {
-    "vscode": "^1.5.0"
+    "vscode": "^1.11.0"
   },
   "scripts": {
-    "start": "npm run remove-icons && npm run minimize-icons && npm run buildicons && npm run minimize-json",
+    "build": "npm run ricons && build-themes",
+    "icons": "npm run remove-icons && npm run minimize-icons && npm run build-icons && npm run minimize-json",
     "minimize-icons": "svgo -f src/icons/svgs -o icons",
     "minimize-json": "json-minify .material-theme-icons.tmp > material-theme-icons.json && npm run remove-icons-tmp",
     "remove-icons": "rimraf icons && rimraf material-theme-icons.json",
     "remove-icons-tmp": "rimraf .material-theme-icons.tmp",
-    "buildicons": "gulp build:icons",
+    "build-icons": "gulp build:icons",
+    "build-themes": "gulp build:themes",
     "release": "npm run bump && npm run changelog",
     "changelog": "gulp changelog",
     "bump": "gulp bump"
@@ -39,14 +41,24 @@
   "contributes": {
     "themes": [
       {
+        "label": "Material Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Default.json"
+      },
+      {
         "label": "Material Theme Darker",
         "uiTheme": "vs-dark",
-        "path": "./themes/Material-Theme-Darker.tmTheme"
+        "path": "./themes/Material-Theme-Darker.json"
+      },
+      {
+        "label": "Material Theme Palenight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Material-Theme-Palenight.json"
       },
       {
         "label": "Material Theme Lighter",
         "uiTheme": "vs",
-        "path": "./themes/Material-Theme-Lighter.tmTheme"
+        "path": "./themes/Material-Theme-Lighter.json"
       }
     ],
     "iconThemes": [
@@ -58,28 +70,25 @@
     ]
   },
   "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-root-import": "^4.1.5",
-    "colors": "^1.1.2",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-root-import": "^4.1.8",
     "cpx": "^1.5.0",
-    "eslint": "^3.11.0",
-    "eslint-plugin-standard": "^2.0.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-standard": "^2.1.1",
     "gulp": "^3.9.1",
-    "gulp-bump": "^2.6.1",
-    "gulp-conventional-changelog": "^1.1.0",
-    "gulp-data": "^1.2.1",
-    "gulp-filelist": "^1.0.0",
+    "gulp-bump": "^2.7.0",
+    "gulp-conventional-changelog": "^1.1.3",
     "gulp-if": "^2.0.2",
-    "gulp-include": "^2.3.1",
-    "gulp-rename": "^1.2.2",
     "gulp-stats": "^0.0.4",
-    "gulp-template": "^4.0.0",
+    "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.8",
     "json-minify": "^1.0.0",
-    "rimraf": "^2.5.4",
+    "mustache": "^2.3.0",
+    "rimraf": "^2.6.1",
     "run-sequence": "^1.2.2",
     "svgo": "^0.7.1",
-    "yargs": "^6.6.0"
+    "yamljs": "^0.2.9",
+    "yargs": "^7.0.2"
   }
 }

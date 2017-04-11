@@ -1,56 +1,47 @@
-'use strict';
-
 /*
  * > Build Icons
  */
 
-import Gulp from 'gulp';
-import runSequence from 'run-sequence';
-import Template from 'gulp-template';
-import Rename from 'gulp-rename';
-import FileList from 'gulp-filelist';
-import Include from 'gulp-include';
-import Data from 'gulp-data';
+import fs from 'fs';
+import gulp from 'gulp';
+import Mustache from 'mustache';
+import gutil from 'gulp-util';
 import Paths from '../paths';
 
-import iconList from '../../iconlist.json';
+gulp.task('build:icons', cb => {
+  const partials = fs.readdirSync(`${Paths.src}/icons/partials`);
+  const partialData = {};
+  const files = fs.readdirSync(`${Paths.src}/icons/svgs`);
+  const icons = files.map(file => ({ name: file.split('.')[0], last: false }));
+  icons[icons.length - 1].last = true;
 
+  partials.forEach(partial => {
+    partialData[partial.split('.')[0]] = fs.readFileSync(
+      `${Paths.src}/icons/partials/${partial}`,
+      'utf-8'
+    );
+  });
 
-Gulp.task('build:icons', (cb) => {
-  runSequence(
-    'build:iconslist',
-    'build:templateicons',
-    (error) => {
-      if (error) {
-        console.log('\n[Build Icons]'.bold.magenta + ' There was an issue building icons:\n'.bold.red + error.message);
-      } else {
-        console.log('\n[Build Icons]'.bold.magenta + ' Finished successfully\n'.bold.green);
-      }
-      cb(error);
-    }
+  let contents = Mustache.render(
+    fs.readFileSync(`${Paths.src}/icons/icons-theme.json`, 'utf-8'),
+    { icons },
+    partialData
   );
-});
 
+  try {
+    contents = JSON.stringify(JSON.parse(contents), null, 2);
+  } catch (err) {
+    gutil.log(
+      gutil.colors.red('There is an error with JSON generated for icons'),
+      err
+    );
+    cb(err);
+    return;
+  }
 
-Gulp.task('build:iconslist', () => {
-  Gulp.src(`${Paths.src}/icons/svgs/*.svg`)
-    .pipe(FileList('iconlist.json', {
-      flatten: true,
-      removeExtensions: true
-    }))
-    .pipe(Gulp.dest('./'));
-});
+  const path = './.material-theme-icons.tmp';
+  fs.writeFileSync(path, contents, 'utf-8');
+  gutil.log('Generated', gutil.colors.green(path));
 
-
-Gulp.task('build:templateicons', () => {
-  Gulp.src(`${Paths.src}/icons/icons-theme.json`)
-    .pipe(Include())
-      .on('error', console.log)
-    .pipe(Data(() => ({ icons: iconList })))
-    .pipe(Template())
-    .pipe(Rename({
-      basename: ".material-theme-icons",
-      extname: ".tmp"
-    }))
-    .pipe(Gulp.dest('./'));
+  cb();
 });

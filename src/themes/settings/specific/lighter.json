@@ -1,0 +1,36 @@
+{
+  "id": "material.theme.lighter",
+  "name": "Material-Theme-Lighter",
+  "scheme": {
+    "background": "#FAFAFA",
+    "comments": "#CCD7DA",
+    "caret": "#27272790",
+    "findHighlight": "#F8E71C",
+    "foreground": "#80CBC4",
+    "guides": "#B0BEC570",
+    "lineNumbers": "#CFD8DC",
+    "invisibles": "#E7EAEC",
+    "lineHighlight": "#90A4AE20",
+    "selection": "#80CBC440",
+    "shadow": "#90A4AE50",
+    "keywords": "#AAB3B5",
+    "constant": "#80CBC4",
+    "string": "#F9355A",
+    "constantEscape": "#FFC400",
+    "base": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "red": "#E53935",
+      "orange": "#F76D47",
+      "yellow": "#FFB62C",
+      "green": "#91B859",
+      "cyan": "#39ADB5",
+      "blue": "#6182B8",
+      "paleblue": "#8796B0",
+      "purple": "#7C4DFF",
+      "brown": "#C17E70",
+      "pink": "#FF5370",
+      "violet": "#945EB8"
+    }
+  }
+}

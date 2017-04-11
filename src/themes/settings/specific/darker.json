@@ -1,0 +1,36 @@
+{
+  "id": "material.theme.darker",
+  "name": "Material-Theme-Darker",
+  "scheme": {
+    "background": "#212121",
+    "comments": "#4A4A4A",
+    "caret": "#FFCC00",
+    "findHighlight": "#F8E71C",
+    "foreground": "#eeffffff",
+    "guides": "#42424270",
+    "lineNumbers": "#424242",
+    "invisibles": "#65737e",
+    "lineHighlight": "#00000050",
+    "selection": "#61616150",
+    "shadow": "#00000010",
+    "keywords": "#cfd8dc",
+    "constant": "#80CBC4",
+    "string": "#F9355A",
+    "constantEscape": "#FFC400",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#FF5370",
+      "orange": "#F78C6C",
+      "yellow": "#FFCB6B",
+      "green": "#C3E88D",
+      "cyan": "#89DDFF",
+      "blue": "#82AAFF",
+      "paleblue": "#B2CCD6",
+      "purple": "#C792EA",
+      "brown": "#C17E70",
+      "pink": "#f07178",
+      "violet": "#bb80b3"
+    }
+  }
+}
