@@ -22,12 +22,13 @@
     "vscode": "^1.11.0"
   },
   "scripts": {
-    "start": "npm run remove-icons && npm run minimize-icons && npm run buildicons && npm run minimize-json",
+    "build": "npm run ricons && build-themes",
+    "icons": "npm run remove-icons && npm run minimize-icons && npm run build-icons && npm run minimize-json",
     "minimize-icons": "svgo -f src/icons/svgs -o icons",
     "minimize-json": "json-minify .material-theme-icons.tmp > material-theme-icons.json && npm run remove-icons-tmp",
     "remove-icons": "rimraf icons && rimraf material-theme-icons.json",
     "remove-icons-tmp": "rimraf .material-theme-icons.tmp",
-    "buildicons": "gulp build:icons",
+    "build-icons": "gulp build:icons",
     "build-themes": "gulp build:themes",
     "release": "npm run bump && npm run changelog",
     "changelog": "gulp changelog",
