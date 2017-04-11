@@ -670,6 +670,13 @@
     "titleBarInactiveBackground": "#212121",
     "sideBarBackground": "#212121",
     "tabsContainerBackground": "#212121",
-    "inactiveTabBackground": "#212121"
+    "inactiveTabBackground": "#212121",
+    "editorLineNumbers": "#424242",
+    "editorLineHighlight": "#00000050",
+    "editorSelection": "#61616150",
+    "editorIndentGuides": "#42424270",
+    "inputBoxBackground": "#212121",
+    "dropdownBackground": "#212121",
+    "editorFindWidgetBackground": "#212121"
   }
 }
