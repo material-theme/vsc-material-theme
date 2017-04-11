@@ -17,7 +17,7 @@ You can install this awesome theme through the [Visual Studio Code Marketplace](
 # Activate the theme
 
 1. Press <kbd>cmd/ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and type `color`, then select **Color Theme**
-2. Select `Material Theme Darker` or `Material Theme Lighter` from the list, then press **Enter**
+2. Type `Material Theme` and select one of the theme color from the list, then press **Enter**
 
 # Activate File Icons Theme
 
@@ -34,3 +34,6 @@ You can install this awesome theme through the [Visual Studio Code Marketplace](
     // Enables font ligatures
     "editor.fontLigatures": true,
 ```
+
+# Thanks
+Thanks to @balanceiskey for the theme builder.
