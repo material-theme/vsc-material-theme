@@ -26,6 +26,16 @@
       "border_color": [32, 34, 48]
     },
   
+  // @TITLE BAR
+  // App title bar
+  // =========================================================================
+  
+    {
+      "class": "title_bar",
+      "fg": [103, 110, 149],
+      "bg": [41, 45, 62]
+    },
+  
   
   // @ DIALOG POPUP
   // Dialog popup style and progressbar
