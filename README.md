@@ -177,6 +177,7 @@ Material Theme was also ported to:
 Color             | Default / Darker |  Lighter   |
 ---               | ---              |  ---       |
 Red               | `#FF5370`        |  `#E53935` |
+Tomato            | `#F44336`        |  `#F44336` |
 Pink              | `#f07178`        |  `#FF5370` |
 Orange            | `#F78C6C`        |  `#F76D47` |
 Yellow            | `#FFCB6B`        |  `#FFB62C` |
