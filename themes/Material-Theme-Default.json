@@ -195,11 +195,12 @@
     {
       "name": "CSS Class and Support",
       "scope": [
-        "source.css support.type",
-        "source.sass support.type",
-        "source.scss support.type",
-        "source.less support.type",
-        "source.stylus support.type"
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
       ],
       "settings": {
         "foreground": "#B2CCD6"
@@ -665,6 +666,7 @@
     "editorBackground": "#263238",
     "editorForeground": "#eeffff",
     "statusBarBackground": "#263238",
+    "statusBarForeground": "#546E7A",
     "activityBarBackground": "#263238",
     "titleBarActiveBackground": "#263238",
     "titleBarInactiveBackground": "#263238",
@@ -677,6 +679,8 @@
     "editorIndentGuides": "#37474F80",
     "inputBoxBackground": "#263238",
     "dropdownBackground": "#263238",
-    "editorFindWidgetBackground": "#263238"
+    "editorFindWidgetBackground": "#263238",
+    "inactiveTabActiveGroupForeground": "#546E7A",
+    "focusedElementOutline": "#263238"
   }
 }

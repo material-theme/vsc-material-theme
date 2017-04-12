@@ -130,11 +130,12 @@ tokenColors:
       foreground: '{{variant.scheme.base.yellow}}'
   - name: CSS Class and Support
     scope:
-      - source.css support.type
-      - source.sass support.type
-      - source.scss support.type
-      - source.less support.type
-      - source.stylus support.type
+      - source.css support.type.property-name
+      - source.sass support.type.property-name
+      - source.scss support.type.property-name
+      - source.less support.type.property-name
+      - source.stylus support.type.property-name
+      - source.postcss support.type.property-name
     settings:
       foreground: '{{variant.scheme.base.paleblue}}'
   - name: 'Sub-methods'
@@ -408,6 +409,7 @@ colors:
   editorBackground: '{{variant.scheme.background}}'
   editorForeground: '{{variant.scheme.foreground}}'
   statusBarBackground: '{{variant.scheme.background}}'
+  statusBarForeground: '{{variant.scheme.comments}}'
   activityBarBackground: '{{variant.scheme.background}}'
   titleBarActiveBackground: '{{variant.scheme.background}}'
   titleBarInactiveBackground: '{{variant.scheme.background}}'
@@ -421,3 +423,5 @@ colors:
   inputBoxBackground: '{{variant.scheme.background}}'
   dropdownBackground: '{{variant.scheme.background}}'
   editorFindWidgetBackground: '{{variant.scheme.background}}'
+  inactiveTabActiveGroupForeground: '{{variant.scheme.comments}}'
+  focusedElementOutline: '{{variant.scheme.background}}'
