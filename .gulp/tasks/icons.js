@@ -39,7 +39,7 @@ gulp.task('build:icons', cb => {
     return;
   }
 
-  const path = './.material-theme-icons.tmp';
+  const path = './themes/.material-theme-icons.tmp';
   fs.writeFileSync(path, contents, 'utf-8');
   gutil.log('Generated', gutil.colors.green(path));
 
