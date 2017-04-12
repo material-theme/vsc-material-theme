@@ -669,7 +669,9 @@
     "statusBarForeground": "#4A4A4A",
     "activityBarBackground": "#212121",
     "titleBarActiveBackground": "#212121",
+    "titleBarActiveForeground": "#4A4A4A",
     "titleBarInactiveBackground": "#212121",
+    "titleBarInactiveForeground": "#4A4A4A",
     "sideBarBackground": "#212121",
     "tabsContainerBackground": "#212121",
     "inactiveTabBackground": "#212121",
@@ -681,6 +683,7 @@
     "dropdownBackground": "#212121",
     "editorFindWidgetBackground": "#212121",
     "inactiveTabActiveGroupForeground": "#4A4A4A",
-    "focusedElementOutline": "#212121"
+    "focusedElementOutline": "#212121",
+    "sideBarTitleForeground": "#eeffffff"
   }
 }

@@ -25,7 +25,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#959DCB"
+        "foreground": "#A6ACCD"
       }
     },
     {
@@ -450,7 +450,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#959DCB"
+        "foreground": "#A6ACCD"
       }
     },
     {
@@ -629,7 +629,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#959DCB"
+        "foreground": "#A6ACCD"
       }
     },
     {
@@ -658,18 +658,20 @@
         "markup.table"
       ],
       "settings": {
-        "foreground": "#959DCB"
+        "foreground": "#A6ACCD"
       }
     }
   ],
   "colors": {
     "editorBackground": "#292D3E",
-    "editorForeground": "#959DCB",
+    "editorForeground": "#A6ACCD",
     "statusBarBackground": "#292D3E",
     "statusBarForeground": "#676E95",
     "activityBarBackground": "#292D3E",
     "titleBarActiveBackground": "#292D3E",
+    "titleBarActiveForeground": "#676E95",
     "titleBarInactiveBackground": "#292D3E",
+    "titleBarInactiveForeground": "#676E95",
     "sideBarBackground": "#292D3E",
     "tabsContainerBackground": "#292D3E",
     "inactiveTabBackground": "#292D3E",
@@ -681,6 +683,7 @@
     "dropdownBackground": "#292D3E",
     "editorFindWidgetBackground": "#292D3E",
     "inactiveTabActiveGroupForeground": "#676E95",
-    "focusedElementOutline": "#292D3E"
+    "focusedElementOutline": "#292D3E",
+    "sideBarTitleForeground": "#A6ACCD"
   }
 }
