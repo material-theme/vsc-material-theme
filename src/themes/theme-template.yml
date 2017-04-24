@@ -56,7 +56,7 @@ tokenColors:
       fontStyle: italic
   - name: 'Operator, Misc'
     scope:
-      - keyword.operator
+      - keyword.control
       - constant.other.color
       - punctuation
       - meta.tag
