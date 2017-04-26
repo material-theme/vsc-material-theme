@@ -22,7 +22,7 @@
     "vscode": "^1.11.0"
   },
   "scripts": {
-    "build": "npm run icons && build-themes",
+    "build": "npm run icons && npm run build-themes",
     "icons": "npm run remove-icons && npm run minimize-icons && npm run build-icons && npm run minimize-json",
     "minimize-icons": "svgo -f src/icons/svgs -o icons",
     "minimize-json": "json-minify themes/.material-theme-icons.tmp > themes/Material-Theme-Icons.json && npm run remove-icons-tmp",
@@ -70,12 +70,12 @@
     ]
   },
   "devDependencies": {
-    "babel-core": "^6.24.0",
-    "babel-preset-es2015": "^6.24.0",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "babel-root-import": "^4.1.8",
     "cpx": "^1.5.0",
     "eslint": "^3.19.0",
-    "eslint-plugin-standard": "^2.1.1",
+    "eslint-plugin-standard": "^3.0.1",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
     "gulp-conventional-changelog": "^1.1.3",
@@ -88,7 +88,7 @@
     "rimraf": "^2.6.1",
     "run-sequence": "^1.2.2",
     "svgo": "^0.7.1",
-    "yamljs": "^0.2.9",
-    "yargs": "^7.0.2"
+    "yamljs": "^0.2.10",
+    "yargs": "^7.1.0"
   }
 }
