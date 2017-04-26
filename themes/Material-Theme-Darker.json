@@ -663,8 +663,14 @@
     }
   ],
   "colors": {
+    "focusedElementOutline": "#212121",
     "editorBackground": "#212121",
     "editorForeground": "#eeffffff",
+    "editorLineNumbers": "#424242",
+    "editorLineHighlight": "#00000050",
+    "editorSelection": "#61616150",
+    "editorIndentGuides": "#42424270",
+    "editorFindWidgetBackground": "#212121",
     "statusBarBackground": "#212121",
     "statusBarForeground": "#4A4A4A",
     "activityBarBackground": "#212121",
@@ -673,17 +679,11 @@
     "titleBarInactiveBackground": "#212121",
     "titleBarInactiveForeground": "#4A4A4A",
     "sideBarBackground": "#212121",
+    "sideBarTitleForeground": "#eeffffff",
     "tabsContainerBackground": "#212121",
     "inactiveTabBackground": "#212121",
-    "editorLineNumbers": "#424242",
-    "editorLineHighlight": "#00000050",
-    "editorSelection": "#61616150",
-    "editorIndentGuides": "#42424270",
-    "inputBoxBackground": "#212121",
-    "dropdownBackground": "#212121",
-    "editorFindWidgetBackground": "#212121",
     "inactiveTabActiveGroupForeground": "#4A4A4A",
-    "focusedElementOutline": "#212121",
-    "sideBarTitleForeground": "#eeffffff"
+    "dropdownBackground": "#212121",
+    "inputBoxBackground": "#212121"
   }
 }

@@ -663,8 +663,14 @@
     }
   ],
   "colors": {
+    "focusedElementOutline": "#FAFAFA",
     "editorBackground": "#FAFAFA",
     "editorForeground": "#80CBC4",
+    "editorLineNumbers": "#CFD8DC",
+    "editorLineHighlight": "#90A4AE20",
+    "editorSelection": "#80CBC440",
+    "editorIndentGuides": "#B0BEC570",
+    "editorFindWidgetBackground": "#FAFAFA",
     "statusBarBackground": "#FAFAFA",
     "statusBarForeground": "#CCD7DA",
     "activityBarBackground": "#FAFAFA",
@@ -673,17 +679,11 @@
     "titleBarInactiveBackground": "#FAFAFA",
     "titleBarInactiveForeground": "#CCD7DA",
     "sideBarBackground": "#FAFAFA",
+    "sideBarTitleForeground": "#80CBC4",
     "tabsContainerBackground": "#FAFAFA",
     "inactiveTabBackground": "#FAFAFA",
-    "editorLineNumbers": "#CFD8DC",
-    "editorLineHighlight": "#90A4AE20",
-    "editorSelection": "#80CBC440",
-    "editorIndentGuides": "#B0BEC570",
-    "inputBoxBackground": "#FAFAFA",
-    "dropdownBackground": "#FAFAFA",
-    "editorFindWidgetBackground": "#FAFAFA",
     "inactiveTabActiveGroupForeground": "#CCD7DA",
-    "focusedElementOutline": "#FAFAFA",
-    "sideBarTitleForeground": "#80CBC4"
+    "dropdownBackground": "#FAFAFA",
+    "inputBoxBackground": "#FAFAFA"
   }
 }
