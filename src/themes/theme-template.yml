@@ -406,25 +406,40 @@ tokenColors:
     settings:
       foreground: '{{variant.scheme.foreground}}'
 colors:
+  # Abstract
+  focusedElementOutline: '{{variant.scheme.background}}'
+
+  # Editor
   editorBackground: '{{variant.scheme.background}}'
   editorForeground: '{{variant.scheme.foreground}}'
-  statusBarBackground: '{{variant.scheme.background}}'
-  statusBarForeground: '{{variant.scheme.comments}}'
-  activityBarBackground: '{{variant.scheme.background}}'
-  titleBarActiveBackground: '{{variant.scheme.background}}'
-  titleBarActiveForeground: '{{variant.scheme.comments}}'
-  titleBarInactiveBackground: '{{variant.scheme.background}}'
-  titleBarInactiveForeground: '{{variant.scheme.comments}}'
-  sideBarBackground: '{{variant.scheme.background}}'
-  tabsContainerBackground: '{{variant.scheme.background}}'
-  inactiveTabBackground: '{{variant.scheme.background}}'
   editorLineNumbers: '{{variant.scheme.lineNumbers}}'
   editorLineHighlight: '{{variant.scheme.lineHighlight}}'
   editorSelection: '{{variant.scheme.selection}}'
   editorIndentGuides: '{{variant.scheme.guides}}'
-  inputBoxBackground: '{{variant.scheme.background}}'
-  dropdownBackground: '{{variant.scheme.background}}'
   editorFindWidgetBackground: '{{variant.scheme.background}}'
-  inactiveTabActiveGroupForeground: '{{variant.scheme.comments}}'
-  focusedElementOutline: '{{variant.scheme.background}}'
+
+  # Status bar
+  statusBarBackground: '{{variant.scheme.background}}'
+  statusBarForeground: '{{variant.scheme.comments}}'
+
+  # Activity bar
+  activityBarBackground: '{{variant.scheme.background}}'
+
+  # Title bar
+  titleBarActiveBackground: '{{variant.scheme.background}}'
+  titleBarActiveForeground: '{{variant.scheme.comments}}'
+  titleBarInactiveBackground: '{{variant.scheme.background}}'
+  titleBarInactiveForeground: '{{variant.scheme.comments}}'
+
+  # Sidebar
+  sideBarBackground: '{{variant.scheme.background}}'
   sideBarTitleForeground: '{{variant.scheme.foreground}}'
+
+  # Tabs
+  tabsContainerBackground: '{{variant.scheme.background}}'
+  inactiveTabBackground: '{{variant.scheme.background}}'
+  inactiveTabActiveGroupForeground: '{{variant.scheme.comments}}'
+
+  # Inputs
+  dropdownBackground: '{{variant.scheme.background}}'
+  inputBoxBackground: '{{variant.scheme.background}}'
