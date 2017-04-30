@@ -407,39 +407,42 @@ tokenColors:
       foreground: '{{variant.scheme.foreground}}'
 colors:
   # Abstract
-  focusedElementOutline: '{{variant.scheme.background}}'
+  focusBorder: '{{variant.scheme.background}}'
 
   # Editor
-  editorBackground: '{{variant.scheme.background}}'
-  editorForeground: '{{variant.scheme.foreground}}'
-  editorLineNumbers: '{{variant.scheme.lineNumbers}}'
-  editorLineHighlight: '{{variant.scheme.lineHighlight}}'
-  editorSelection: '{{variant.scheme.selection}}'
-  editorIndentGuides: '{{variant.scheme.guides}}'
-  editorFindWidgetBackground: '{{variant.scheme.background}}'
+  editor.background: '{{variant.scheme.background}}'
+  editor.foreground: '{{variant.scheme.foreground}}'
+  editorLineNumber.foreground: '{{variant.scheme.lineNumbers}}'
+  editor.lineHighlightBackground: '{{variant.scheme.lineHighlight}}'
+  editor.selectionBackground: '{{variant.scheme.selection}}'
+
+  # Editor Indents
+  editorIndentGuide.background: '{{variant.scheme.guides}}'
+
+  # Editor Tabs
+  editorGroupHeader.tabsBackground: '{{variant.scheme.background}}'
 
   # Status bar
-  statusBarBackground: '{{variant.scheme.background}}'
-  statusBarForeground: '{{variant.scheme.comments}}'
+  statusBar.background: '{{variant.scheme.background}}'
+  statusBar.foreground: '{{variant.scheme.comments}}'
 
   # Activity bar
-  activityBarBackground: '{{variant.scheme.background}}'
+  activityBar.background: '{{variant.scheme.background}}'
 
   # Title bar
-  titleBarActiveBackground: '{{variant.scheme.background}}'
-  titleBarActiveForeground: '{{variant.scheme.comments}}'
-  titleBarInactiveBackground: '{{variant.scheme.background}}'
-  titleBarInactiveForeground: '{{variant.scheme.comments}}'
+  titleBar.activeBackground: '{{variant.scheme.background}}'
+  titleBar.activeForeground: '{{variant.scheme.comments}}'
+  titleBar.inactiveBackground: '{{variant.scheme.background}}'
+  titleBar.inactiveForeground: '{{variant.scheme.comments}}'
 
   # Sidebar
-  sideBarBackground: '{{variant.scheme.background}}'
-  sideBarTitleForeground: '{{variant.scheme.foreground}}'
+  sideBar.background: '{{variant.scheme.background}}'
+  sideBarTitle.foreground: '{{variant.scheme.foreground}}'
 
   # Tabs
-  tabsContainerBackground: '{{variant.scheme.background}}'
-  inactiveTabBackground: '{{variant.scheme.background}}'
-  inactiveTabActiveGroupForeground: '{{variant.scheme.comments}}'
+  tab.inactiveBackground: '{{variant.scheme.background}}'
+  tab.inactiveForeground: '{{variant.scheme.comments}}'
 
-  # Inputs
-  dropdownBackground: '{{variant.scheme.background}}'
-  inputBoxBackground: '{{variant.scheme.background}}'
+  # Inputs and triggers
+  dropdown.background: '{{variant.scheme.background}}'
+  input.background: '{{variant.scheme.background}}'
