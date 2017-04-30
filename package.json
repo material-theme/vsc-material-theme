@@ -23,12 +23,11 @@
   },
   "scripts": {
     "build": "npm run icons && npm run build-themes",
-    "icons": "npm run remove-icons && npm run minimize-icons && npm run build-icons && npm run minimize-json",
     "minimize-icons": "svgo -f src/icons/svgs -o icons",
     "minimize-json": "json-minify themes/.material-theme-icons.tmp > themes/Material-Theme-Icons.json && npm run remove-icons-tmp",
     "remove-icons": "rimraf icons && rimraf themes/Material-Theme-Icons.json",
     "remove-icons-tmp": "rimraf themes/.material-theme-icons.tmp",
-    "build-icons": "gulp build:icons",
+    "build-icons": "npm run remove-icons && npm run minimize-icons && gulp build:icons && npm run minimize-json",
     "build-themes": "gulp build:themes",
     "release": "npm run bump && npm run changelog",
     "changelog": "gulp changelog",
