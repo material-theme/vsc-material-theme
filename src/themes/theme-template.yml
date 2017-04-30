@@ -407,7 +407,10 @@ tokenColors:
       foreground: '{{variant.scheme.foreground}}'
 colors:
   # Abstract
-  focusBorder: '{{variant.scheme.background}}'
+  focusBorder: '{{variant.scheme.focusBorder}}'
+  editorCursor.foreground: '{{variant.scheme.caret}}'
+  scrollbar.shadow: '{{variant.scheme.shadow}}'
+  widget.shadow: '{{variant.scheme.shadow}}'
 
   # Editor
   editor.background: '{{variant.scheme.background}}'
@@ -415,12 +418,18 @@ colors:
   editorLineNumber.foreground: '{{variant.scheme.lineNumbers}}'
   editor.lineHighlightBackground: '{{variant.scheme.lineHighlight}}'
   editor.selectionBackground: '{{variant.scheme.selection}}'
+  editorHoverWidget.background: '{{variant.scheme.background}}'
 
   # Editor Indents
   editorIndentGuide.background: '{{variant.scheme.guides}}'
 
-  # Editor Tabs
+  # Editor Group and GroupHeader
   editorGroupHeader.tabsBackground: '{{variant.scheme.background}}'
+  editorGroup.border: '{{variant.scheme.shadow}}'
+
+  # Tabs
+  tab.inactiveBackground: '{{variant.scheme.background}}'
+  tab.inactiveForeground: '{{variant.scheme.comments}}'
 
   # Status bar
   statusBar.background: '{{variant.scheme.background}}'
@@ -428,6 +437,7 @@ colors:
 
   # Activity bar
   activityBar.background: '{{variant.scheme.background}}'
+  activityBar.foreground: '{{variant.scheme.foreground}}'
 
   # Title bar
   titleBar.activeBackground: '{{variant.scheme.background}}'
@@ -439,10 +449,32 @@ colors:
   sideBar.background: '{{variant.scheme.background}}'
   sideBarTitle.foreground: '{{variant.scheme.foreground}}'
 
-  # Tabs
-  tab.inactiveBackground: '{{variant.scheme.background}}'
-  tab.inactiveForeground: '{{variant.scheme.comments}}'
-
   # Inputs and triggers
   dropdown.background: '{{variant.scheme.background}}'
-  input.background: '{{variant.scheme.background}}'
+  input.background: '{{variant.scheme.inputBackground}}'
+  input.foreground: '{{variant.scheme.inputForeground}}'
+  input.border: '{{variant.scheme.inputBorder}}'
+
+  # Lists
+  list.hoverBackground: '{{variant.scheme.background}}'
+  list.activeSelectionBackground: '{{variant.scheme.lineHighlight}}'
+  list.activeSelectionForeground: '{{variant.scheme.accents.teal}}'
+  list.inactiveSelectionBackground: '{{variant.scheme.lineHighlight}}'
+  list.highlightForeground: '{{variant.scheme.accents.teal}}'
+  list.focusBackground: '{{variant.scheme.lineNumbers}}'
+
+  # Terminal colors
+  terminal.ansiWhite: '{{variant.scheme.base.white}}'
+  terminal.ansiBlack: '{{variant.scheme.base.black}}'
+  terminal.ansiBlue: '{{variant.scheme.base.blue}}'
+  terminal.ansiCyan: '{{variant.scheme.base.cyan}}'
+  terminal.ansiGreen: '{{variant.scheme.base.green}}'
+  terminal.ansiMagenta: '{{variant.scheme.base.purple}}'
+  terminal.ansiRed: '{{variant.scheme.base.red}}'
+  terminal.ansiYellow: '{{variant.scheme.base.yellow}}'
+
+  # Scrollbars
+  scrollbarSlider.background: '{{variant.scheme.scrollbars}}'
+  scrollbarSlider.hoverBackground: '{{variant.scheme.scrollbarsHover}}'
+
+  # Peekview
