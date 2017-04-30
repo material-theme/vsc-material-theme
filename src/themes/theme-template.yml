@@ -476,5 +476,6 @@ colors:
   # Scrollbars
   scrollbarSlider.background: '{{variant.scheme.scrollbars}}'
   scrollbarSlider.hoverBackground: '{{variant.scheme.scrollbarsHover}}'
+  scrollbarSlider.activeBackground: '{{variant.scheme.accents.teal}}'
 
   # Peekview

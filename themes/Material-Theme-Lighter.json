@@ -707,6 +707,7 @@
     "terminal.ansiRed": "#E53935",
     "terminal.ansiYellow": "#FFB62C",
     "scrollbarSlider.background": "#00000050",
-    "scrollbarSlider.hoverBackground": "#00000030"
+    "scrollbarSlider.hoverBackground": "#00000030",
+    "scrollbarSlider.activeBackground": "#80CBC4"
   }
 }
