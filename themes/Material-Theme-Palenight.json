@@ -25,7 +25,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#A6ACCD"
       }
     },
     {
@@ -450,7 +450,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#A6ACCD"
       }
     },
     {
@@ -629,7 +629,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#A6ACCD"
       }
     },
     {
@@ -658,7 +658,7 @@
         "markup.table"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#A6ACCD"
       }
     }
   ],
@@ -668,7 +668,7 @@
     "scrollbar.shadow": "#00000050",
     "widget.shadow": "#00000050",
     "editor.background": "#292D3E",
-    "editor.foreground": "#EEFFFF",
+    "editor.foreground": "#A6ACCD",
     "editorLineNumber.foreground": "#3A3F58",
     "editor.lineHighlightBackground": "#00000030",
     "editor.selectionBackground": "#717CB440",
@@ -678,16 +678,17 @@
     "editorGroup.border": "#00000050",
     "tab.inactiveBackground": "#292D3E",
     "tab.inactiveForeground": "#676E95",
+    "tab.border": "#292D3E",
     "statusBar.background": "#292D3E",
     "statusBar.foreground": "#676E95",
     "activityBar.background": "#292D3E",
-    "activityBar.foreground": "#EEFFFF",
+    "activityBar.foreground": "#A6ACCD",
     "titleBar.activeBackground": "#292D3E",
     "titleBar.activeForeground": "#676E95",
     "titleBar.inactiveBackground": "#292D3E",
     "titleBar.inactiveForeground": "#676E95",
     "sideBar.background": "#292D3E",
-    "sideBarTitle.foreground": "#EEFFFF",
+    "sideBarTitle.foreground": "#A6ACCD",
     "dropdown.background": "#292D3E",
     "input.background": "#FFFFFF05",
     "input.foreground": "#EEFFFF",
@@ -708,6 +709,16 @@
     "terminal.ansiYellow": "#FFCB6B",
     "scrollbarSlider.background": "#00000050",
     "scrollbarSlider.hoverBackground": "#00000030",
-    "scrollbarSlider.activeBackground": "#80CBC4"
+    "scrollbarSlider.activeBackground": "#80CBC4",
+    "editorSuggestWidget.background": "#292D3E",
+    "editorSuggestWidget.foreground": "#A6ACCD",
+    "editorSuggestWidget.highlightForeground": "#80CBC4",
+    "editorSuggestWidget.selectedBackground": "#00000030",
+    "editorSuggestWidget.border": "#FFFFFF10",
+    "activityBarBadge.background": "#80CBC4",
+    "activityBarBadge.foreground": "#000000",
+    "button.background": "#80CBC4",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#80CBC4"
   }
 }

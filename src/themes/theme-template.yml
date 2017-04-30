@@ -430,6 +430,7 @@ colors:
   # Tabs
   tab.inactiveBackground: '{{variant.scheme.background}}'
   tab.inactiveForeground: '{{variant.scheme.comments}}'
+  tab.border: '{{variant.scheme.background}}'
 
   # Status bar
   statusBar.background: '{{variant.scheme.background}}'
@@ -478,4 +479,18 @@ colors:
   scrollbarSlider.hoverBackground: '{{variant.scheme.scrollbarsHover}}'
   scrollbarSlider.activeBackground: '{{variant.scheme.accents.teal}}'
 
-  # Peekview
+  # Autocomplete / Suggest
+  editorSuggestWidget.background: '{{variant.scheme.background}}'
+  editorSuggestWidget.foreground: '{{variant.scheme.foreground}}'
+  editorSuggestWidget.highlightForeground: '{{variant.scheme.accents.teal}}'
+  editorSuggestWidget.selectedBackground: '{{variant.scheme.lineHighlight}}'
+  editorSuggestWidget.border: '{{variant.scheme.inputBorder}}'
+
+  # Badge
+  activityBarBadge.background: '{{variant.scheme.accents.teal}}'
+  activityBarBadge.foreground: '{{variant.scheme.base.black}}'
+
+  # Buttons
+  #button.background: '{{variant.scheme.accents.teal}}'
+  #button.foreground: '{{variant.scheme.base.black}}'
+  #button.hoverBackground: '{{variant.scheme.accents.teal}}'
