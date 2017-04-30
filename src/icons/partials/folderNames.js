@@ -11,4 +11,4 @@
   ".github": "_file_github",
   ".gulp": "_file_gulp",
   "bower_components": "_file_bower"
-},
+}

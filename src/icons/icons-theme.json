@@ -3,7 +3,7 @@
   {{> fileExtensions}}
   {{> fileNames}}
   {{> fileFolders}}
-  {{> folderNames}}
-  {{> light}}
   {{> languageIds}}
+  {{> light}}
+  {{> folderNames}}
 }
