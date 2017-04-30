@@ -1,5 +1,23 @@
+<a name="0.0.9"></a>
+## [0.0.9](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.8...v0.0.9) (2017-04-30)
+
+
+### Bug Fixes
+
+* Fix folder icon color ([13058b6](https://github.com/equinusocio/vsc-material-theme/commit/13058b6))
+* Update workbench theme ([10cfbb8](https://github.com/equinusocio/vsc-material-theme/commit/10cfbb8))
+
+
+### Features
+
+* Add graphql file icon ([ec8525f](https://github.com/equinusocio/vsc-material-theme/commit/ec8525f))
+* Improve workbench theme ([5d642fe](https://github.com/equinusocio/vsc-material-theme/commit/5d642fe))
+* Update workbench theme ([64a13e0](https://github.com/equinusocio/vsc-material-theme/commit/64a13e0))
+
+
+
 <a name="0.0.8"></a>
-## 0.0.8 (2017-04-11)
+## [0.0.8](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.7...v0.0.8) (2017-04-11)
 
 
 ### Bug Fixes
