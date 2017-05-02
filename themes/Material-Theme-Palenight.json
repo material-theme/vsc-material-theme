@@ -717,8 +717,6 @@
     "editorSuggestWidget.border": "#FFFFFF10",
     "activityBarBadge.background": "#80CBC4",
     "activityBarBadge.foreground": "#000000",
-    "button.background": "#80CBC4",
-    "button.foreground": "#000000",
-    "button.hoverBackground": "#80CBC4"
+    "panel.border": "#292D3E"
   }
 }

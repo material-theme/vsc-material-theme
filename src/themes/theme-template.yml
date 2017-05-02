@@ -490,6 +490,9 @@ colors:
   activityBarBadge.background: '{{variant.scheme.accents.teal}}'
   activityBarBadge.foreground: '{{variant.scheme.base.black}}'
 
+  # Panels
+  panel.border: '{{variant.scheme.background}}'
+
   # Buttons
   #button.background: '{{variant.scheme.accents.teal}}'
   #button.foreground: '{{variant.scheme.base.black}}'
