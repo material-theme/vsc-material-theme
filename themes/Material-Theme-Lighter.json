@@ -666,7 +666,6 @@
     "focusBorder": "#FFFFFF00",
     "editorCursor.foreground": "#27272790",
     "scrollbar.shadow": "#00000030",
-    "widget.shadow": "#00000030",
     "editor.background": "#FAFAFA",
     "editor.foreground": "#90A4AE",
     "editorLineNumber.foreground": "#CFD8DC",
@@ -693,6 +692,9 @@
     "input.background": "#00000005",
     "input.foreground": "#90A4AE",
     "input.border": "#00000010",
+    "inputValidation.errorBorder": "#E53935",
+    "inputValidation.infoBorder": "#6182B8",
+    "inputValidation.warningBorder": "#FFB62C",
     "list.hoverBackground": "#FAFAFA",
     "list.activeSelectionBackground": "#90A4AE20",
     "list.activeSelectionForeground": "#80CBC4",
@@ -715,8 +717,12 @@
     "editorSuggestWidget.highlightForeground": "#80CBC4",
     "editorSuggestWidget.selectedBackground": "#90A4AE20",
     "editorSuggestWidget.border": "#00000010",
+    "widget.shadow": "#00000030",
+    "editorWidget.background": "#FAFAFA",
     "activityBarBadge.background": "#80CBC4",
     "activityBarBadge.foreground": "#000000",
-    "panel.border": "#FAFAFA"
+    "panel.border": "#FAFAFA",
+    "diffEditor.insertedTextBackground": "#91B85915",
+    "diffEditor.removedTextBackground": "#E5393520"
   }
 }

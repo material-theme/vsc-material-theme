@@ -410,7 +410,6 @@ colors:
   focusBorder: '{{variant.scheme.focusBorder}}'
   editorCursor.foreground: '{{variant.scheme.caret}}'
   scrollbar.shadow: '{{variant.scheme.shadow}}'
-  widget.shadow: '{{variant.scheme.shadow}}'
 
   # Editor
   editor.background: '{{variant.scheme.background}}'
@@ -455,6 +454,9 @@ colors:
   input.background: '{{variant.scheme.inputBackground}}'
   input.foreground: '{{variant.scheme.inputForeground}}'
   input.border: '{{variant.scheme.inputBorder}}'
+  inputValidation.errorBorder: '{{variant.scheme.base.red}}'
+  inputValidation.infoBorder: '{{variant.scheme.base.blue}}'
+  inputValidation.warningBorder: '{{variant.scheme.base.yellow}}'
 
   # Lists
   list.hoverBackground: '{{variant.scheme.background}}'
@@ -486,12 +488,20 @@ colors:
   editorSuggestWidget.selectedBackground: '{{variant.scheme.lineHighlight}}'
   editorSuggestWidget.border: '{{variant.scheme.inputBorder}}'
 
+  # Find & Replace Widgets
+  widget.shadow: '{{variant.scheme.shadow}}'
+  editorWidget.background: '{{variant.scheme.background}}'
+
   # Badge
   activityBarBadge.background: '{{variant.scheme.accents.teal}}'
   activityBarBadge.foreground: '{{variant.scheme.base.black}}'
 
   # Panels
   panel.border: '{{variant.scheme.background}}'
+
+  # Diff tool
+  diffEditor.insertedTextBackground: '{{variant.scheme.base.green}}15'
+  diffEditor.removedTextBackground: '{{variant.scheme.base.red}}20'
 
   # Buttons
   #button.background: '{{variant.scheme.accents.teal}}'
