@@ -468,13 +468,21 @@ colors:
 
   # Terminal colors
   terminal.ansiWhite: '{{variant.scheme.base.white}}'
-  terminal.ansiBlack: '{{variant.scheme.base.black}}'
+  terminal.ansiBlack: '{{variant.scheme.comments}}'
   terminal.ansiBlue: '{{variant.scheme.base.blue}}'
   terminal.ansiCyan: '{{variant.scheme.base.cyan}}'
   terminal.ansiGreen: '{{variant.scheme.base.green}}'
   terminal.ansiMagenta: '{{variant.scheme.base.purple}}'
   terminal.ansiRed: '{{variant.scheme.base.red}}'
   terminal.ansiYellow: '{{variant.scheme.base.yellow}}'
+  terminal.ansiBrightWhite: '{{variant.scheme.base.white}}'
+  terminal.ansiBrightBlack: '{{variant.scheme.comments}}'
+  terminal.ansiBrightBlue: '{{variant.scheme.base.blue}}'
+  terminal.ansiBrightCyan: '{{variant.scheme.base.cyan}}'
+  terminal.ansiBrightGreen: '{{variant.scheme.base.green}}'
+  terminal.ansiBrightMagenta: '{{variant.scheme.base.purple}}'
+  terminal.ansiBrightRed: '{{variant.scheme.base.red}}'
+  terminal.ansiBrightYellow: '{{variant.scheme.base.yellow}}'
 
   # Scrollbars
   scrollbarSlider.background: '{{variant.scheme.scrollbars}}'
