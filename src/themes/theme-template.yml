@@ -518,7 +518,7 @@ colors:
 
   # Notification bar
   notification.background: '{{variant.scheme.background}}'
-  notification.foreground: '{{variant.scheme.foreground}}'
+  notification.foreground: '{{variant.scheme.base.white}}'
 
   # Buttons
   #button.background: '{{variant.scheme.accents.teal}}'

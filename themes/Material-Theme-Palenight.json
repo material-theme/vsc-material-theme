@@ -736,6 +736,6 @@
     "diffEditor.insertedTextBackground": "#C3E88D15",
     "diffEditor.removedTextBackground": "#FF537020",
     "notification.background": "#292D3E",
-    "notification.foreground": "#A6ACCD"
+    "notification.foreground": "#ffffff"
   }
 }
