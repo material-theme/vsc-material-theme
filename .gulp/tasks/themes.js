@@ -13,7 +13,7 @@ import Paths from '../paths';
 const themeCommons = require('../../src/themes/settings/commons.json');
 const themeVariants = [];
 const themeTemplateFile = fs.readFileSync(
-  `${Paths.src}/themes/theme-template.yml`,
+  `${Paths.src}/themes/theme-template.json`,
   'utf-8'
 );
 
@@ -39,7 +39,7 @@ gulp.task('build:themes', cb => {
       variant,
     };
 
-    const templateJson = YAML.parse(
+    const templateJson = JSON.parse(
       Mustache.render(themeTemplateFile, templateData)
     );
 
