@@ -13,7 +13,7 @@ import Paths from '../paths';
 const themeCommons = require('../../src/themes/settings/commons.json');
 const themeVariants = [];
 const themeTemplateFile = fs.readFileSync(
-  `${Paths.src}/themes/theme-template.json`,
+  `${Paths.src}/themes/theme-template-color-theme.json`,
   'utf-8'
 );
 
