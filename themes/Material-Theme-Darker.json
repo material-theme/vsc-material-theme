@@ -688,13 +688,15 @@
     "titleBar.inactiveForeground": "#4A4A4A",
     "sideBar.background": "#212121",
     "sideBarTitle.foreground": "#EEFFFF",
-    "dropdown.background": "#212121",
+    "sideBarSectionHeader.background": "#212121",
     "input.background": "#FFFFFF05",
     "input.foreground": "#EEFFFF",
     "input.border": "#FFFFFF10",
     "inputValidation.errorBorder": "#FF5370",
     "inputValidation.infoBorder": "#82AAFF",
     "inputValidation.warningBorder": "#FFCB6B",
+    "dropdown.background": "#212121",
+    "dropdown.border": "#FFFFFF10",
     "list.hoverBackground": "#212121",
     "list.activeSelectionBackground": "#00000050",
     "list.activeSelectionForeground": "#80CBC4",
@@ -730,7 +732,10 @@
     "activityBarBadge.background": "#80CBC4",
     "activityBarBadge.foreground": "#000000",
     "panel.border": "#212121",
+    "panelTitle.activeForeground": "#EEFFFF",
     "diffEditor.insertedTextBackground": "#C3E88D15",
-    "diffEditor.removedTextBackground": "#FF537020"
+    "diffEditor.removedTextBackground": "#FF537020",
+    "notification.background": "#212121",
+    "notification.foreground": "#EEFFFF"
   }
 }

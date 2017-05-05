@@ -415,7 +415,7 @@ colors:
   editor.background: '{{variant.scheme.background}}'
   editor.foreground: '{{variant.scheme.foreground}}'
   editorLineNumber.foreground: '{{variant.scheme.lineNumbers}}'
-  editor.lineHighlightBackground: '{{variant.scheme.lineHighlight}}'
+  editor.lineHighlightBackground: '{{variant.scheme.lineHighlight}}50'
   editor.selectionBackground: '{{variant.scheme.selection}}'
   editorHoverWidget.background: '{{variant.scheme.background}}'
 
@@ -448,9 +448,9 @@ colors:
   # Sidebar
   sideBar.background: '{{variant.scheme.background}}'
   sideBarTitle.foreground: '{{variant.scheme.foreground}}'
+  sideBarSectionHeader.background: '{{variant.scheme.background}}'
 
   # Inputs and triggers
-  dropdown.background: '{{variant.scheme.background}}'
   input.background: '{{variant.scheme.inputBackground}}'
   input.foreground: '{{variant.scheme.inputForeground}}'
   input.border: '{{variant.scheme.inputBorder}}'
@@ -458,11 +458,15 @@ colors:
   inputValidation.infoBorder: '{{variant.scheme.base.blue}}'
   inputValidation.warningBorder: '{{variant.scheme.base.yellow}}'
 
+  # Dropdown
+  dropdown.background: '{{variant.scheme.background}}'
+  dropdown.border: '{{variant.scheme.inputBorder}}'
+
   # Lists
   list.hoverBackground: '{{variant.scheme.background}}'
-  list.activeSelectionBackground: '{{variant.scheme.lineHighlight}}'
+  list.activeSelectionBackground: '{{variant.scheme.lineHighlight}}50'
   list.activeSelectionForeground: '{{variant.scheme.accents.teal}}'
-  list.inactiveSelectionBackground: '{{variant.scheme.lineHighlight}}'
+  list.inactiveSelectionBackground: '{{variant.scheme.lineHighlight}}50'
   list.highlightForeground: '{{variant.scheme.accents.teal}}'
   list.focusBackground: '{{variant.scheme.lineNumbers}}'
 
@@ -493,7 +497,7 @@ colors:
   editorSuggestWidget.background: '{{variant.scheme.background}}'
   editorSuggestWidget.foreground: '{{variant.scheme.foreground}}'
   editorSuggestWidget.highlightForeground: '{{variant.scheme.accents.teal}}'
-  editorSuggestWidget.selectedBackground: '{{variant.scheme.lineHighlight}}'
+  editorSuggestWidget.selectedBackground: '{{variant.scheme.lineHighlight}}50'
   editorSuggestWidget.border: '{{variant.scheme.inputBorder}}'
 
   # Find & Replace Widgets
@@ -506,10 +510,15 @@ colors:
 
   # Panels
   panel.border: '{{variant.scheme.background}}'
+  panelTitle.activeForeground: '{{variant.scheme.foreground}}'
 
   # Diff tool
   diffEditor.insertedTextBackground: '{{variant.scheme.base.green}}15'
   diffEditor.removedTextBackground: '{{variant.scheme.base.red}}20'
+
+  # Notification bar
+  notification.background: '{{variant.scheme.background}}'
+  notification.foreground: '{{variant.scheme.foreground}}'
 
   # Buttons
   #button.background: '{{variant.scheme.accents.teal}}'
