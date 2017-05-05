@@ -33,6 +33,12 @@ files.forEach(file => {
 });
 
 gulp.task('build:themes', cb => {
+  gutil.log(
+    gutil.colors.magenta('\n--------------'),
+    gutil.colors.blue('---------------'),
+    gutil.colors.red('---------------'),
+    gutil.colors.yellow('---------------'
+  ));
   themeVariants.forEach(variant => {
     const templateData = {
       'commons': themeCommons,
@@ -51,6 +57,14 @@ gulp.task('build:themes', cb => {
       'utf-8'
     );
 
-    gutil.log('Generated', gutil.colors.green(path));
+    gutil.log('Generate', gutil.colors.green(path));
   });
+
+  gutil.log(
+    'Build completed ✔',
+    gutil.colors.magenta('\n--------------'),
+    gutil.colors.blue('---------------'),
+    gutil.colors.red('---------------'),
+    gutil.colors.yellow('---------------'
+  ));
 });
