@@ -1,9 +1,5 @@
 {
-  "accents": [{
-    "teal": {
-      "id": "teal",
-      "name": "Teal",
-      "hex": "#80CBC4"
-    }
-  }]
+  "accents": {
+    "teal": "#80CBC4"
+  }
 }

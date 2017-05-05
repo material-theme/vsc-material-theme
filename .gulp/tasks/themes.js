@@ -36,7 +36,7 @@ gulp.task('build:themes', cb => {
   themeVariants.forEach(variant => {
     const templateData = {
       'commons': themeCommons,
-      variant,
+      variant
     };
 
     const templateJson = JSON.parse(
