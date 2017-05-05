@@ -19,9 +19,6 @@
     "inputBorder": "#FFFFFF10",
     "scrollbars": "#00000050",
     "scrollbarsHover": "#00000030",
-    "accents": {
-      "teal": "#80CBC4"
-    },
     "base": {
       "white": "#ffffff",
       "black": "#000000",

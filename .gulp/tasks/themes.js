@@ -35,7 +35,7 @@ files.forEach(file => {
 gulp.task('build:themes', cb => {
   themeVariants.forEach(variant => {
     const templateData = {
-      commons: themeCommons,
+      'commons': themeCommons,
       variant,
     };
 
