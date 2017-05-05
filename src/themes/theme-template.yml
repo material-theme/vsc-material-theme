@@ -522,5 +522,5 @@ colors:
 
   # Buttons
   #button.background: '{{variant.scheme.accents.teal}}'
-  #button.foreground: '{{variant.scheme.base.black}}'
   #button.hoverBackground: '{{variant.scheme.accents.teal}}'
+  #button.foreground: '{{variant.scheme.base.black}}'
