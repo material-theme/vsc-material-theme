@@ -679,6 +679,7 @@
     "tab.inactiveForeground": "{{variant.scheme.comments}}",
     "tab.border": "{{variant.scheme.background}}",
     "statusBar.background": "{{variant.scheme.background}}",
+    "statusBar.noFolderBackground": "{{variant.scheme.background}}",
     "statusBar.foreground": "{{variant.scheme.comments}}",
     "activityBar.background": "{{variant.scheme.background}}",
     "activityBar.foreground": "{{variant.scheme.foreground}}",
