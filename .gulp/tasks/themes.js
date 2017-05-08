@@ -33,12 +33,12 @@ files.forEach(file => {
 });
 
 gulp.task('build:themes', cb => {
+    gutil.log()
+})
+gulp.task('build:themes', cb => {
   gutil.log(
-    gutil.colors.magenta('\n--------------'),
-    gutil.colors.blue('---------------'),
-    gutil.colors.red('---------------'),
-    gutil.colors.yellow('---------------'
-  ));
+    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+  );
   themeVariants.forEach(variant => {
     const templateData = {
       'commons': themeCommons,
@@ -61,10 +61,6 @@ gulp.task('build:themes', cb => {
   });
 
   gutil.log(
-    'Build completed ✔',
-    gutil.colors.magenta('\n--------------'),
-    gutil.colors.blue('---------------'),
-    gutil.colors.red('---------------'),
-    gutil.colors.yellow('---------------'
-  ));
+    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+  );
 });

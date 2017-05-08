@@ -663,7 +663,7 @@
     }
   ],
   "colors": {
-    "focusBorder": "{{variant.scheme.focusBorder}}",
+    "focusBorder": "{{variant.scheme.focusBorder}}00",
     "editorCursor.foreground": "{{variant.scheme.caret}}",
     "scrollbar.shadow": "{{variant.scheme.shadow}}",
     "editor.background": "{{variant.scheme.background}}",

@@ -7,7 +7,7 @@
     "caret": "#FFCC00",
     "findHighlight": "#FFCC00",
     "foreground": "#EEFFFF",
-    "focusBorder": "#FFFFFF00",
+    "focusBorder": "#FFFFFF",
     "guides": "#42424270",
     "lineNumbers": "#424242",
     "invisibles": "#65737E",

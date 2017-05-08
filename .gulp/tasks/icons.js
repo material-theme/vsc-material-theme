@@ -42,19 +42,12 @@ gulp.task('build:icons', cb => {
   const path = './themes/.material-theme-icons.tmp';
   fs.writeFileSync(path, contents, 'utf-8');
   gutil.log(
-    gutil.colors.magenta('\n--------------'),
-    gutil.colors.blue('---------------'),
-    gutil.colors.red('---------------'),
-    gutil.colors.yellow('---------------'
-  ));
+    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+  );
   gutil.log('Generated', gutil.colors.green(path));
   gutil.log(
-    'Build completed ✔',
-    gutil.colors.magenta('\n--------------'),
-    gutil.colors.blue('---------------'),
-    gutil.colors.red('---------------'),
-    gutil.colors.yellow('---------------'
-  ));
+    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+  );
 
   cb();
 });
