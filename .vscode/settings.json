@@ -1,0 +1,6 @@
+{
+  "vsicons.presets.angular": false,
+  "files.associations": {
+    "*.template": "json"
+  }
+}
