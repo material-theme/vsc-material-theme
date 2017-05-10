@@ -1,6 +1,6 @@
 
 <p align="center"><img width="620px" src="http://i.imgur.com/77xXWrA.jpg"/></p>
-<p align="center"><img width="650px" src="http://i.imgur.com/JXb5aRO.jpg"></p>
+<p align="center"><img width="450px" src="http://i.imgur.com/JXb5aRO.jpg"></p>
 
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/vsc-material-theme.svg?style=flat-square)](https://github.com/equinusocio/vsc-material-theme/releases)   [![GitHub tag](https://img.shields.io/github/issues/equinusocio/vsc-material-theme.svg?style=flat-square)](https://github.com/equinusocio/vsc-material-theme/issues)   [![Beerpay](https://beerpay.io/equinusocio/vsc-material-theme/badge.svg?style=beer)](https://beerpay.io/equinusocio/vsc-material-theme)
 
