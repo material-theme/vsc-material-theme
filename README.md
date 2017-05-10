@@ -7,11 +7,22 @@ The most epic theme meet Visual Studio Code. Please note that this theme is stil
 
 <p align="center"><img width="650px" src="http://i.imgur.com/JXb5aRO.jpg"></p>
 
-# Easy installation
+
+<!-- TOC -->
+
+- [Installation](#installation)
+- [Activate the theme](#activate-the-theme)
+- [Activate File Icons Theme](#activate-file-icons-theme)
+- [Recommended settings for a better experience:](#recommended-settings-for-a-better-experience)
+- [Other resources](#other-resources)
+- [Thanks](#thanks)
+
+<!-- /TOC -->
+
+# Installation
 You can install this awesome theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
 1. Press <kbd>cmd/ctrl</kbd> + <kbd>P</kbd>
 2. Type `ext install vsc-material-theme`
-
 
 
 # Activate the theme
@@ -34,6 +45,9 @@ You can install this awesome theme through the [Visual Studio Code Marketplace](
     // Enables font ligatures
     "editor.fontLigatures": true,
 ```
+
+# Other resources
+- **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 # Thanks
 Thanks to @balanceiskey for the theme builder.
