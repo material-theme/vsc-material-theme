@@ -1,5 +1,22 @@
-<a name="0.0.10"></a>
-## [0.0.10](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.9...v0.0.10) (2017-04-30)
+<a name="0.0.13"></a>
+## [0.0.13](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.12...v0.0.13) (2017-05-10)
+
+
+### Bug Fixes
+
+* Fix statusbar background when no project opened ([c15d054](https://github.com/equinusocio/vsc-material-theme/commit/c15d054)), closes [#27](https://github.com/equinusocio/vsc-material-theme/issues/27)
+* Improve ansi colors (integrated terminal) ([45d6486](https://github.com/equinusocio/vsc-material-theme/commit/45d6486))
+
+
+### Features
+
+* Add build/dist folder icon ([3c8cfe9](https://github.com/equinusocio/vsc-material-theme/commit/3c8cfe9)), closes [#6](https://github.com/equinusocio/vsc-material-theme/issues/6)
+* Improve worckbench theme ([6c19542](https://github.com/equinusocio/vsc-material-theme/commit/6c19542))
+
+
+
+<a name="0.0.12"></a>
+## [0.0.12](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.9...v0.0.12) (2017-05-04)
 
 
 

@@ -29,9 +29,9 @@ Gulp.task('bump', (cb) => {
 
 Gulp.task('bump-pkg-version', () => {
   return Gulp.src(['./package.json'])
-    .pipe(gulpif((Object.keys(argv).length === 2), bump()))
-    .pipe(gulpif(argv.patch, bump()))
-    .pipe(gulpif(argv.minor, bump({ type: 'minor' })))
-    .pipe(gulpif(argv.major, bump({ type: 'major' })))
+    .pipe(Gulpif((Object.keys(argv).length === 2), bump()))
+    .pipe(Gulpif(argv.patch, bump()))
+    .pipe(Gulpif(argv.minor, bump({ type: 'minor' })))
+    .pipe(Gulpif(argv.major, bump({ type: 'major' })))
     .pipe(Gulp.dest('./'));
 });
