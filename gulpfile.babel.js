@@ -1,9 +1,9 @@
-import gulp from 'gulp';
-import gulpStats from 'gulp-stats';
+import Gulp from 'gulp';
+import GulpStats from 'gulp-stats';
 import tasks from './.gulp';
 
 // Use gulp-stats
-gulpStats(gulp);
+GulpStats(Gulp);
 
 // set default task
-gulp.task('default', tasks);
+Gulp.task('default', tasks);

@@ -3,6 +3,7 @@ import './tasks/changelog';
 import './tasks/bump';
 import './tasks/icons';
 import './tasks/themes';
+import './tasks/watcher';
 
 // export default script
-export default ['build'];
+export default ['build:themes'];

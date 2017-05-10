@@ -4,15 +4,15 @@
  * > Changelog
  */
 
-import gulp from 'gulp';
+import Gulp from 'gulp';
 import conventionalChangelog from 'gulp-conventional-changelog';
 
 
-gulp.task('changelog', () => {
-  return gulp.src('CHANGELOG.md')
+Gulp.task('changelog', () => {
+  return Gulp.src('CHANGELOG.md')
     .pipe(conventionalChangelog({
       preset: 'angular',
       releaseCount: 0
     }))
-    .pipe(gulp.dest('./'));
+    .pipe(Gulp.dest('./'));
 });

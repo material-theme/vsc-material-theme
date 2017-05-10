@@ -81,7 +81,6 @@
     "gulp-if": "^2.0.2",
     "gulp-stats": "^0.0.4",
     "gulp-util": "^3.0.8",
-    "gulp-watch": "^4.3.8",
     "json-minify": "^1.0.0",
     "mustache": "^2.3.0",
     "rimraf": "^2.6.1",

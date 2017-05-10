@@ -1,9 +1,11 @@
+'use strict';
+
 /*
  * > Build Themes
  */
 
 import fs from 'fs';
-import gulp from 'gulp';
+import Gulp from 'gulp';
 import gutil from 'gulp-util';
 import Mustache from 'mustache';
 import YAML from 'yamljs';
@@ -32,10 +34,7 @@ files.forEach(file => {
   }
 });
 
-gulp.task('build:themes', cb => {
-    gutil.log()
-})
-gulp.task('build:themes', cb => {
+Gulp.task('build:themes', cb => {
   gutil.log(
     gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
   );

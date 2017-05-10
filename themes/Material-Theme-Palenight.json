@@ -3,8 +3,7 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#292D3E",
-        "foreground": "#ffffff"
+        "background": "#292D3E"
       }
     },
     {
@@ -683,6 +682,8 @@
     "statusBar.foreground": "#676E95",
     "activityBar.background": "#292D3E",
     "activityBar.foreground": "#A6ACCD",
+    "activityBarBadge.background": "#80CBC4",
+    "activityBarBadge.foreground": "#000000",
     "titleBar.activeBackground": "#292D3E",
     "titleBar.activeForeground": "#676E95",
     "titleBar.inactiveBackground": "#292D3E",
@@ -731,8 +732,6 @@
     "editorSuggestWidget.border": "#FFFFFF10",
     "widget.shadow": "#00000030",
     "editorWidget.background": "#292D3E",
-    "activityBarBadge.background": "#80CBC4",
-    "activityBarBadge.foreground": "#000000",
     "panel.border": "#292D3E",
     "panelTitle.activeForeground": "#A6ACCD",
     "diffEditor.insertedTextBackground": "#C3E88D15",

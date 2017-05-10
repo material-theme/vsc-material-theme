@@ -1,14 +1,16 @@
+'use strict';
+
 /*
  * > Build Icons
  */
 
 import fs from 'fs';
-import gulp from 'gulp';
+import Gulp from 'gulp';
 import Mustache from 'mustache';
 import gutil from 'gulp-util';
 import Paths from '../paths';
 
-gulp.task('build:icons', cb => {
+Gulp.task('build:icons', cb => {
   const partials = fs.readdirSync(`${Paths.src}/icons/partials`);
   const partialData = {};
   const files = fs.readdirSync(`${Paths.src}/icons/svgs`);
