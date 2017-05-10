@@ -48,4 +48,5 @@ You can install this awesome theme through the [Visual Studio Code Marketplace](
 - **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 # Thanks
-Thanks to @balanceiskey for the theme builder.
+Thanks to:
+- [@balanceiskey](https://github.com/balanceiskey) for the theme builder.
