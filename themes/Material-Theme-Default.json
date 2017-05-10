@@ -692,6 +692,7 @@
     "sideBarSectionHeader.background": "#263238",
     "input.background": "#FFFFFF05",
     "input.foreground": "#EEFFFF",
+    "input.placeholderForeground": "#EEFFFF",
     "input.border": "#FFFFFF10",
     "inputValidation.errorBorder": "#FF5370",
     "inputValidation.infoBorder": "#82AAFF",
@@ -737,6 +738,10 @@
     "diffEditor.insertedTextBackground": "#C3E88D15",
     "diffEditor.removedTextBackground": "#FF537020",
     "notification.background": "#263238",
-    "notification.foreground": "#ffffff"
+    "notification.foreground": "#ffffff",
+    "badge.background": "#00000030",
+    "badge.foreground": "#546E7A",
+    "editorLink.activeForeground": "#EEFFFF",
+    "selection.background": "#EEFFFF"
   }
 }
