@@ -3,6 +3,7 @@
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
   "version": "0.0.12",
+  "preview": true,
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "icon": "logo.png",
@@ -68,6 +69,13 @@
       }
     ]
   },
+  "badges": [
+    {
+      "url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
+      "href": "https://github.com/equinusocio/vsc-material-theme/issues",
+      "description": "Open issues"
+    }
+  ],
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
