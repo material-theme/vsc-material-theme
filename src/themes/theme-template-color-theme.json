@@ -665,7 +665,7 @@
   "colors": {
     "focusBorder": "{{variant.scheme.focusBorder}}00",
     "editorCursor.foreground": "{{variant.scheme.caret}}",
-    "scrollbar.shadow": "{{variant.scheme.shadow}}",
+    "scrollbar.shadow": "{{variant.scheme.background}}",
     "editor.background": "{{variant.scheme.background}}",
     "editor.foreground": "{{variant.scheme.foreground}}",
     "editorLineNumber.foreground": "{{variant.scheme.lineNumbers}}",

@@ -3,7 +3,8 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#212121"
+        "background": "#212121",
+        "foreground": "#ffffff"
       }
     },
     {
@@ -664,7 +665,7 @@
   "colors": {
     "focusBorder": "#FFFFFF00",
     "editorCursor.foreground": "#FFCC00",
-    "scrollbar.shadow": "#00000030",
+    "scrollbar.shadow": "#212121",
     "editor.background": "#212121",
     "editor.foreground": "#EEFFFF",
     "editorLineNumber.foreground": "#424242",
