@@ -618,8 +618,8 @@ babel-types@^6.19.0, babel-types@^6.24.1:
     to-fast-properties "^1.0.1"
 
 babylon@^6.11.0, babylon@^6.15.0:
-  version "6.17.0"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.17.0.tgz#37da948878488b9c4e3c4038893fa3314b3fc932"
+  version "6.17.1"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.17.1.tgz#17f14fddf361b695981fe679385e4f1c01ebd86f"
 
 balanced-match@^0.4.1:
   version "0.4.2"
@@ -3513,10 +3513,10 @@ which@^1.2.12:
     isexe "^2.0.0"
 
 wide-align@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/wide-align/-/wide-align-1.1.0.tgz#40edde802a71fea1f070da3e62dcda2e7add96ad"
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/wide-align/-/wide-align-1.1.1.tgz#d2ea8aa2db2e66467e8b60cc3e897de3bc4429e6"
   dependencies:
-    string-width "^1.0.1"
+    string-width "^2.0.0"
 
 window-size@0.1.0:
   version "0.1.0"
