@@ -666,6 +666,8 @@
     "focusBorder": "#FFFFFF00",
     "editorCursor.foreground": "#FFCC00",
     "scrollbar.shadow": "#263238",
+    "editorLink.activeForeground": "#EEFFFF",
+    "selection.background": "#EEFFFF",
     "editor.background": "#263238",
     "editor.foreground": "#EEFFFF",
     "editorLineNumber.foreground": "#37474F",
@@ -725,7 +727,7 @@
     "terminal.ansiBrightYellow": "#FFCB6B",
     "scrollbarSlider.background": "#00000050",
     "scrollbarSlider.hoverBackground": "#00000030",
-    "scrollbarSlider.activeBackground": "#80CBC4",
+    "scrollbarSlider.activeBackground": "#80CBC450",
     "editorSuggestWidget.background": "#263238",
     "editorSuggestWidget.foreground": "#EEFFFF",
     "editorSuggestWidget.highlightForeground": "#80CBC4",
@@ -740,8 +742,6 @@
     "notification.background": "#263238",
     "notification.foreground": "#ffffff",
     "badge.background": "#00000030",
-    "badge.foreground": "#546E7A",
-    "editorLink.activeForeground": "#EEFFFF",
-    "selection.background": "#EEFFFF"
+    "badge.foreground": "#546E7A"
   }
 }

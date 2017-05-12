@@ -666,6 +666,8 @@
     "focusBorder": "{{variant.scheme.focusBorder}}00",
     "editorCursor.foreground": "{{variant.scheme.caret}}",
     "scrollbar.shadow": "{{variant.scheme.background}}",
+    "editorLink.activeForeground": "{{variant.scheme.foreground}}",
+    "selection.background": "{{variant.scheme.foreground}}",
     "editor.background": "{{variant.scheme.background}}",
     "editor.foreground": "{{variant.scheme.foreground}}",
     "editorLineNumber.foreground": "{{variant.scheme.lineNumbers}}",
@@ -725,7 +727,7 @@
     "terminal.ansiBrightYellow": "{{variant.scheme.base.yellow}}",
     "scrollbarSlider.background": "{{variant.scheme.scrollbars}}",
     "scrollbarSlider.hoverBackground": "{{variant.scheme.scrollbarsHover}}",
-    "scrollbarSlider.activeBackground": "{{commons.accents.teal}}",
+    "scrollbarSlider.activeBackground": "{{commons.accents.teal}}50",
     "editorSuggestWidget.background": "{{variant.scheme.background}}",
     "editorSuggestWidget.foreground": "{{variant.scheme.foreground}}",
     "editorSuggestWidget.highlightForeground": "{{commons.accents.teal}}",
@@ -740,8 +742,6 @@
     "notification.background": "{{variant.scheme.background}}",
     "notification.foreground": "{{variant.scheme.base.white}}",
     "badge.background": "{{variant.scheme.lineHighlight}}30",
-    "badge.foreground": "{{variant.scheme.comments}}",
-    "editorLink.activeForeground": "{{variant.scheme.foreground}}",
-    "selection.background": "{{variant.scheme.foreground}}"
+    "badge.foreground": "{{variant.scheme.comments}}"
   }
 }
