@@ -678,6 +678,7 @@
     "editorLineNumber.foreground": "#CFD8DC",
     "editor.lineHighlightBackground": "#CCD7DA50",
     "editor.selectionBackground": "#80CBC440",
+    "editor.selectionHighlightBackground": "#27272720",
     "editorHoverWidget.background": "#FAFAFA",
     "editorIndentGuide.background": "#B0BEC570",
     "editorGroupHeader.tabsBackground": "#FAFAFA",
