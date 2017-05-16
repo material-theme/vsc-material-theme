@@ -122,17 +122,25 @@
       }
     },
     {
-      "name": "Function, Special Method, Block Level",
+      "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
         "meta.function-call",
         "variable.function",
         "support.function",
-        "keyword.other.special-method",
-        "meta.block-level"
+        "keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#6182B8"
+      }
+    },
+    {
+      "name": "Block Level Variables",
+      "scope": [
+        "meta.block variable.other"
+      ],
+      "settings": {
+        "foreground": "#FF5370"
       }
     },
     {

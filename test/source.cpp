@@ -8,6 +8,15 @@
 #ifdef USE_OPENMP
 #include <omp.h>
 #endif
+const ;
+
+finitario crear_finitario(info_t i) {
+  finitario nuevo = new rep_finitario;
+  nuevo->dato = i;
+  nuevo->primerio = NULL;
+  return nuevo;
+}
+
 
 const ccv_bbf_param_t ccv_bbf_default_params = {
     .interval = 5,
