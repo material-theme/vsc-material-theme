@@ -1,3 +1,19 @@
+<a name="0.0.14"></a>
+## [0.0.14](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.13...v0.0.14) (2017-05-16)
+
+
+### Bug Fixes
+
+* Fix bracket match border color ([8d5dd52](https://github.com/equinusocio/vsc-material-theme/commit/8d5dd52))
+* Fix invalids color highlight ([b296323](https://github.com/equinusocio/vsc-material-theme/commit/b296323)), closes [#40](https://github.com/equinusocio/vsc-material-theme/issues/40)
+* Fix notification bar foreground on Lighter ([e421292](https://github.com/equinusocio/vsc-material-theme/commit/e421292)), closes [#34](https://github.com/equinusocio/vsc-material-theme/issues/34)
+* Fix selectionHighlightBackground color ([4471e8a](https://github.com/equinusocio/vsc-material-theme/commit/4471e8a)), closes [#38](https://github.com/equinusocio/vsc-material-theme/issues/38)
+* improve C# highlight ([2729ae4](https://github.com/equinusocio/vsc-material-theme/commit/2729ae4)), closes [#26](https://github.com/equinusocio/vsc-material-theme/issues/26)
+* Improve c++ syntax highlight ([cd7415e](https://github.com/equinusocio/vsc-material-theme/commit/cd7415e))
+* Temporary fix buttons background ([1b5534f](https://github.com/equinusocio/vsc-material-theme/commit/1b5534f)), closes [#37](https://github.com/equinusocio/vsc-material-theme/issues/37)
+
+
+
 <a name="0.0.13"></a>
 ## [0.0.13](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.12...v0.0.13) (2017-05-10)
 
