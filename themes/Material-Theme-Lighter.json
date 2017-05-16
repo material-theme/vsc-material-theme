@@ -665,7 +665,7 @@
   "colors": {
     "focusBorder": "#FFFFFF00",
     "editorCursor.foreground": "#272727",
-    "scrollbar.shadow": "#FAFAFA",
+    "scrollbar.shadow": "#FAFAFA00",
     "editorLink.activeForeground": "#90A4AE",
     "selection.background": "#90A4AE",
     "editor.background": "#FAFAFA",
