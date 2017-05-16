@@ -1,5 +1,6 @@
 {
   "name": "Material-Theme-Default",
+  "type": "dark",
   "tokenColors": [
     {
       "settings": {
@@ -748,6 +749,7 @@
     "notification.background": "#263238",
     "notification.foreground": "#EEFFFF",
     "badge.background": "#00000030",
-    "badge.foreground": "#546E7A"
+    "badge.foreground": "#546E7A",
+    "button.background": "#80CBC420"
   }
 }

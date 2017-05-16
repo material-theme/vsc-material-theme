@@ -1,5 +1,6 @@
 {
   "name": "Material-Theme-Palenight",
+  "type": "dark",
   "tokenColors": [
     {
       "settings": {
@@ -746,8 +747,9 @@
     "diffEditor.insertedTextBackground": "#C3E88D15",
     "diffEditor.removedTextBackground": "#FF537020",
     "notification.background": "#292D3E",
-    "notification.foreground": "#ffffff",
+    "notification.foreground": "#A6ACCD",
     "badge.background": "#00000030",
-    "badge.foreground": "#676E95"
+    "badge.foreground": "#676E95",
+    "button.background": "#717CB450"
   }
 }

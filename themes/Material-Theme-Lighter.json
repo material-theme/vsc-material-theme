@@ -1,5 +1,6 @@
 {
   "name": "Material-Theme-Lighter",
+  "type": "light",
   "tokenColors": [
     {
       "settings": {
@@ -748,6 +749,7 @@
     "notification.background": "#FAFAFA",
     "notification.foreground": "#90A4AE",
     "badge.background": "#CCD7DA30",
-    "badge.foreground": "#90A4AE90"
+    "badge.foreground": "#90A4AE90",
+    "button.background": "#80CBC440"
   }
 }

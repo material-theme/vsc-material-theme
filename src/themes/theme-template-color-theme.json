@@ -749,6 +749,7 @@
     "notification.background": "{{variant.scheme.background}}",
     "notification.foreground": "{{variant.scheme.foreground}}",
     "badge.background": "{{variant.scheme.lineHighlight}}30",
-    "badge.foreground": "{{variant.scheme.comments}}"
+    "badge.foreground": "{{variant.scheme.comments}}",
+    "button.background": "{{variant.scheme.selection}}"
   }
 }
