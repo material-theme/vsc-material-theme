@@ -20,6 +20,7 @@
     "inputBorder": "#FFFFFF10",
     "scrollbars": "#00000050",
     "scrollbarsHover": "#00000030",
+    "statusbarForeground": "#676E95",
     "base": {
       "white": "#ffffff",
       "black": "#000000",
