@@ -710,7 +710,7 @@
     "inputValidation.warningBorder": "#FFCB6B",
     "dropdown.background": "#263238",
     "dropdown.border": "#FFFFFF10",
-    "list.hoverBackground": "#263238",
+    "list.hoverBackground": "#EEFFFF10",
     "list.activeSelectionBackground": "#00000050",
     "list.activeSelectionForeground": "#80CBC4",
     "list.inactiveSelectionBackground": "#00000050",

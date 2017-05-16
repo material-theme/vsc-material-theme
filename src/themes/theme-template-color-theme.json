@@ -710,7 +710,7 @@
     "inputValidation.warningBorder": "{{variant.scheme.base.yellow}}",
     "dropdown.background": "{{variant.scheme.background}}",
     "dropdown.border": "{{variant.scheme.inputBorder}}",
-    "list.hoverBackground": "{{variant.scheme.background}}",
+    "list.hoverBackground": "{{variant.scheme.foreground}}10",
     "list.activeSelectionBackground": "{{variant.scheme.lineHighlight}}50",
     "list.activeSelectionForeground": "{{commons.accents.teal}}",
     "list.inactiveSelectionBackground": "{{variant.scheme.lineHighlight}}50",
