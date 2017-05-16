@@ -1,6 +1,7 @@
 {
   "id": "material.theme.lighter",
   "name": "Material-Theme-Lighter",
+  "type": "light",
   "scheme": {
     "background": "#FAFAFA",
     "comments": "#90A4AE90",

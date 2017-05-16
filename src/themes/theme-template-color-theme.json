@@ -1,5 +1,6 @@
 {
   "name": "{{variant.name}}",
+  "type": "{{variant.type}}",
   "tokenColors": [
     {
       "settings": {

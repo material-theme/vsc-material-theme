@@ -1,6 +1,7 @@
 {
   "id": "material.theme.default",
   "name": "Material-Theme-Default",
+  "type": "dark",
   "scheme": {
     "background": "#263238",
     "comments": "#546E7A",
