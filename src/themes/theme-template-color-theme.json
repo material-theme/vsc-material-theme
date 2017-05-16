@@ -160,8 +160,10 @@
         "constant.language",
         "support.constant",
         "constant.character",
+        "constant.escape",
         "variable.parameter",
         "keyword.other.unit"
+        "keyword.other"
       ],
       "settings": {
         "foreground": "{{variant.scheme.base.orange}}"
@@ -186,8 +188,7 @@
     {
       "name": "Class, Support",
       "scope": [
-        "entity.name.class",
-        "entity.name.type.class",
+        "entity.name",
         "support.type",
         "support.class",
         "support.orther.namespace.use.php",
@@ -198,6 +199,15 @@
       ],
       "settings": {
         "foreground": "{{variant.scheme.base.yellow}}"
+      }
+    },
+    {
+      "name": "Entity Types",
+      "scope": [
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "{{variant.scheme.base.paleblue}}"
       }
     },
     {

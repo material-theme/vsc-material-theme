@@ -186,8 +186,8 @@
     {
       "name": "Class, Support",
       "scope": [
-        "entity.name.class",
-        "entity.name.type.class",
+        "entity.name",
+        "entity.name.type",
         "support.type",
         "support.class",
         "support.orther.namespace.use.php",
