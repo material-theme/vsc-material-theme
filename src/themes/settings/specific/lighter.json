@@ -3,7 +3,7 @@
   "name": "Material-Theme-Lighter",
   "scheme": {
     "background": "#FAFAFA",
-    "comments": "#CCD7DA",
+    "comments": "#90A4AE90",
     "caret": "#272727",
     "findHighlight": "#FFCC00",
     "foreground": "#90A4AE",
@@ -13,7 +13,7 @@
     "invisibles": "#E7EAEC",
     "lineHighlight": "#CCD7DA",
     "selection": "#80CBC440",
-    "shadow": "#00000030",
+    "shadow": "#00000020",
     "inputBackground": "#00000005",
     "inputForeground": "#90A4AE",
     "inputBorder": "#00000010",

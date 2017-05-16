@@ -18,7 +18,7 @@
     "inputForeground": "#EEFFFF",
     "inputBorder": "#FFFFFF10",
     "scrollbars": "#00000050",
-    "scrollbarsHover": "#00000030",
+    "scrollbarsHover": "#00000030"
     "base": {
       "white": "#ffffff",
       "black": "#000000",

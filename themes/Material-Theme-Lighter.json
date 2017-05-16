@@ -15,7 +15,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#CCD7DA"
+        "foreground": "#90A4AE90"
       }
     },
     {
@@ -682,21 +682,21 @@
     "editorHoverWidget.background": "#FAFAFA",
     "editorIndentGuide.background": "#B0BEC570",
     "editorGroupHeader.tabsBackground": "#FAFAFA",
-    "editorGroup.border": "#00000030",
+    "editorGroup.border": "#00000020",
     "tab.inactiveBackground": "#FAFAFA",
-    "tab.inactiveForeground": "#CCD7DA",
+    "tab.inactiveForeground": "#90A4AE90",
     "tab.border": "#FAFAFA",
     "statusBar.background": "#FAFAFA",
     "statusBar.noFolderBackground": "#FAFAFA",
-    "statusBar.foreground": "#CCD7DA",
+    "statusBar.foreground": "#90A4AE90",
     "activityBar.background": "#FAFAFA",
     "activityBar.foreground": "#90A4AE",
     "activityBarBadge.background": "#80CBC4",
     "activityBarBadge.foreground": "#000000",
     "titleBar.activeBackground": "#FAFAFA",
-    "titleBar.activeForeground": "#CCD7DA",
+    "titleBar.activeForeground": "#90A4AE90",
     "titleBar.inactiveBackground": "#FAFAFA",
-    "titleBar.inactiveForeground": "#CCD7DA",
+    "titleBar.inactiveForeground": "#90A4AE90",
     "sideBar.background": "#FAFAFA",
     "sideBarTitle.foreground": "#90A4AE",
     "sideBarSectionHeader.background": "#FAFAFA",
@@ -716,7 +716,7 @@
     "list.highlightForeground": "#80CBC4",
     "list.focusBackground": "#CFD8DC",
     "terminal.ansiWhite": "#FFFFFF",
-    "terminal.ansiBlack": "#CCD7DA",
+    "terminal.ansiBlack": "#90A4AE90",
     "terminal.ansiBlue": "#6182B8",
     "terminal.ansiCyan": "#39ADB5",
     "terminal.ansiGreen": "#91B859",
@@ -724,7 +724,7 @@
     "terminal.ansiRed": "#E53935",
     "terminal.ansiYellow": "#FFB62C",
     "terminal.ansiBrightWhite": "#FFFFFF",
-    "terminal.ansiBrightBlack": "#CCD7DA",
+    "terminal.ansiBrightBlack": "#90A4AE90",
     "terminal.ansiBrightBlue": "#6182B8",
     "terminal.ansiBrightCyan": "#39ADB5",
     "terminal.ansiBrightGreen": "#91B859",
@@ -739,15 +739,15 @@
     "editorSuggestWidget.highlightForeground": "#80CBC4",
     "editorSuggestWidget.selectedBackground": "#CCD7DA50",
     "editorSuggestWidget.border": "#00000010",
-    "widget.shadow": "#00000030",
+    "widget.shadow": "#00000020",
     "editorWidget.background": "#FAFAFA",
     "panel.border": "#FAFAFA",
     "panelTitle.activeForeground": "#90A4AE",
     "diffEditor.insertedTextBackground": "#91B85915",
     "diffEditor.removedTextBackground": "#E5393520",
     "notification.background": "#FAFAFA",
-    "notification.foreground": "#FFFFFF",
+    "notification.foreground": "#90A4AE",
     "badge.background": "#CCD7DA30",
-    "badge.foreground": "#CCD7DA"
+    "badge.foreground": "#90A4AE90"
   }
 }

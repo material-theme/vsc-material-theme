@@ -746,7 +746,7 @@
     "diffEditor.insertedTextBackground": "{{variant.scheme.base.green}}15",
     "diffEditor.removedTextBackground": "{{variant.scheme.base.red}}20",
     "notification.background": "{{variant.scheme.background}}",
-    "notification.foreground": "{{variant.scheme.base.white}}",
+    "notification.foreground": "{{variant.scheme.foreground}}",
     "badge.background": "{{variant.scheme.lineHighlight}}30",
     "badge.foreground": "{{variant.scheme.comments}}"
   }
