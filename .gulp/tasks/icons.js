@@ -44,11 +44,11 @@ Gulp.task('build:icons', cb => {
   const path = './themes/.material-theme-icons.tmp';
   fs.writeFileSync(path, contents, 'utf-8');
   gutil.log(
-    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+    gutil.colors.gray('\n———————————————————————————————————————————————————————————————\n')
   );
   gutil.log('Generated', gutil.colors.green(path));
   gutil.log(
-    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+    gutil.colors.gray('\n———————————————————————————————————————————————————————————————\n')
   );
 
   cb();

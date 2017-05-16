@@ -36,7 +36,7 @@ files.forEach(file => {
 
 Gulp.task('build:themes', cb => {
   gutil.log(
-    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+    gutil.colors.gray('\n———————————————————————————————————————————————————————————————\n')
   );
   themeVariants.forEach(variant => {
     const templateData = {
@@ -60,6 +60,6 @@ Gulp.task('build:themes', cb => {
   });
 
   gutil.log(
-    gutil.colors.gray('\n████████████████████████████████████████████████████████\n')
+    gutil.colors.gray('\n———————————————————————————————————————————————————————————————\n')
   );
 });
