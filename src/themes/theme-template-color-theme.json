@@ -41,22 +41,10 @@
       "name": "Invalid",
       "scope": [
         "invalid",
-        "invalid.illegal",
-        "invalid.broken"
+        "invalid.illegal"
       ],
       "settings": {
-        "background": "{{variant.scheme.base.red}}",
-        "foreground": "{{variant.scheme.base.white}}"
-      }
-    },
-    {
-      "name": "Invalid unimplemented",
-      "scope": [
-        "invalid.unimplemented"
-      ],
-      "settings": {
-        "background": "{{variant.scheme.base.green}}",
-        "foreground": "{{variant.scheme.base.white}}"
+        "foreground": "{{variant.scheme.base.red}}"
       }
     },
     {
@@ -65,8 +53,7 @@
         "invalid.deprecated"
       ],
       "settings": {
-        "background": "{{variant.scheme.base.purple}}",
-        "foreground": "{{variant.scheme.base.white}}"
+        "foreground": "{{variant.scheme.base.purple}}"
       }
     },
     {
@@ -162,7 +149,7 @@
         "constant.character",
         "constant.escape",
         "variable.parameter",
-        "keyword.other.unit"
+        "keyword.other.unit",
         "keyword.other"
       ],
       "settings": {

@@ -41,22 +41,10 @@
       "name": "Invalid",
       "scope": [
         "invalid",
-        "invalid.illegal",
-        "invalid.broken"
+        "invalid.illegal"
       ],
       "settings": {
-        "background": "#FF5370",
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "Invalid unimplemented",
-      "scope": [
-        "invalid.unimplemented"
-      ],
-      "settings": {
-        "background": "#C3E88D",
-        "foreground": "#ffffff"
+        "foreground": "#FF5370"
       }
     },
     {
@@ -65,8 +53,7 @@
         "invalid.deprecated"
       ],
       "settings": {
-        "background": "#C792EA",
-        "foreground": "#ffffff"
+        "foreground": "#C792EA"
       }
     },
     {
@@ -160,8 +147,10 @@
         "constant.language",
         "support.constant",
         "constant.character",
+        "constant.escape",
         "variable.parameter",
-        "keyword.other.unit"
+        "keyword.other.unit",
+        "keyword.other"
       ],
       "settings": {
         "foreground": "#F78C6C"
@@ -187,7 +176,6 @@
       "name": "Class, Support",
       "scope": [
         "entity.name",
-        "entity.name.type",
         "support.type",
         "support.class",
         "support.orther.namespace.use.php",
@@ -198,6 +186,15 @@
       ],
       "settings": {
         "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Entity Types",
+      "scope": [
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#B2CCD6"
       }
     },
     {
