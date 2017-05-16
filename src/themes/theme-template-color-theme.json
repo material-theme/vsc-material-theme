@@ -689,7 +689,7 @@
     "tab.border": "{{variant.scheme.background}}",
     "statusBar.background": "{{variant.scheme.background}}",
     "statusBar.noFolderBackground": "{{variant.scheme.background}}",
-    "statusBar.foreground": "{{variant.scheme.comments}}",
+    "statusBar.foreground": "{{variant.scheme.foreground}}",
     "activityBar.background": "{{variant.scheme.background}}",
     "activityBar.foreground": "{{variant.scheme.foreground}}",
     "activityBarBadge.background": "{{commons.accents.teal}}",

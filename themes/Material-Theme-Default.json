@@ -689,7 +689,7 @@
     "tab.border": "#263238",
     "statusBar.background": "#263238",
     "statusBar.noFolderBackground": "#263238",
-    "statusBar.foreground": "#546E7A",
+    "statusBar.foreground": "#EEFFFF",
     "activityBar.background": "#263238",
     "activityBar.foreground": "#EEFFFF",
     "activityBarBadge.background": "#80CBC4",
