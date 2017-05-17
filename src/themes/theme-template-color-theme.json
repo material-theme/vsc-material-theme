@@ -682,6 +682,7 @@
     "editor.selectionBackground": "{{variant.scheme.selection}}",
     "editor.selectionHighlightBackground": "{{variant.scheme.caret}}20",
     "editorHoverWidget.background": "{{variant.scheme.background}}",
+    "editorHoverWidget.border": "{{variant.scheme.inputBorder}}",
     "editorIndentGuide.background": "{{variant.scheme.guides}}",
     "editorGroupHeader.tabsBackground": "{{variant.scheme.background}}",
     "editorGroup.border": "{{variant.scheme.shadow}}",
@@ -741,6 +742,7 @@
     "editorSuggestWidget.highlightForeground": "{{commons.accents.teal}}",
     "editorSuggestWidget.selectedBackground": "{{variant.scheme.lineHighlight}}50",
     "editorSuggestWidget.border": "{{variant.scheme.inputBorder}}",
+
     "widget.shadow": "{{variant.scheme.shadow}}",
     "editorWidget.background": "{{variant.scheme.background}}",
     "panel.border": "{{variant.scheme.background}}",

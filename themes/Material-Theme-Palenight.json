@@ -682,6 +682,7 @@
     "editor.selectionBackground": "#717CB450",
     "editor.selectionHighlightBackground": "#FFCC0020",
     "editorHoverWidget.background": "#292D3E",
+    "editorHoverWidget.border": "#FFFFFF10",
     "editorIndentGuide.background": "#4E557980",
     "editorGroupHeader.tabsBackground": "#292D3E",
     "editorGroup.border": "#00000030",
