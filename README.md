@@ -8,20 +8,6 @@
 
 The most epic theme meet Visual Studio Code. Please note that this theme is still in Beta (β) release. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
 
-<!-- TOC -->
-
-- [Getting started](#getting-started)
-  - [Installation](#installation)
-      - [Packaged VSIX Extension](#packaged-vsix-extension)
-        - [GitHub Repository Clone](#github-repository-clone)
-  - [Activate theme](#activate-theme)
-  - [Activate File Icons](#activate-file-icons)
-- [Recommended settings for a better experience:](#recommended-settings-for-a-better-experience)
-- [Other resources](#other-resources)
-- [Acknowledgements](#acknowledgements)
-
-<!-- /TOC -->
-
 # Getting started
 You can install this awesome theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
 
@@ -53,7 +39,7 @@ Depending on your platform it is located in the following folders:
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> **macOs** `~/.vscode/extensions`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> **Windows** `%USERPROFILE%\.vscode\extensions`
 
-Clone the Nord repository as `nord-visual-studio-code`:
+Clone the Material Theme repository as `Equinusocio.vsc-material-theme`:
 ```shell
 git clone https://github.com/equinusocio/vsc-material-theme.git Equinusocio.vsc-material-theme
 ```
@@ -99,3 +85,5 @@ run the `icon theme` command and select `Material Theme Icons` from the drop-dow
 
 
 <p align="center"> <img src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/0.0.14/1494970083238/Microsoft.VisualStudio.Services.Icons.Default" width=16 height=16/> Copyright &copy; 2017 Mattia Astorino</p>
+
+<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.svg?style=flat-square"/></a></p>
