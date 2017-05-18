@@ -132,6 +132,15 @@
       }
     },
     {
+      "name": "Variables constant",
+      "scope": [
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#f07178"
+      }
+    },
+    {
       "name": "Other Variable, String Link",
       "scope": [
         "support.other.variable",
