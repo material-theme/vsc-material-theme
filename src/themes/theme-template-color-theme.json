@@ -123,9 +123,9 @@
       }
     },
     {
-      "name": "Block Level Variables",
+      "name": "C-related Block Level Variables",
       "scope": [
-        "meta.block variable.other"
+        "source.cpp meta.block variable.other"
       ],
       "settings": {
         "foreground": "{{variant.scheme.base.pink}}"
