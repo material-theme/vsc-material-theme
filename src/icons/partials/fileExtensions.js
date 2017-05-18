@@ -120,8 +120,6 @@
   "hpp": "_file_cpp",
   "mm": "_file_cpp",
   "cxx": "_file_cpp",
-  "c": "_file_cpp",
-  "cc": "_file_cpp",
   "go": "_file_go",
   "py": "_file_python",
   "url": "_file_url",
