@@ -21,6 +21,8 @@
     "scrollbars": "#00000050",
     "scrollbarsHover": "#00000030",
     "statusbarForeground": "#90A4AE",
+    "sidebarForeground": "#7E939E",
+    "listHoverForeground": "#B1C7D3",
     "base": {
       "white": "#FFFFFF",
       "black": "#000000",
