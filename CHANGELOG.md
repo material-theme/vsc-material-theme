@@ -1,3 +1,38 @@
+<a name="0.0.17"></a>
+## [0.0.17](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.16...v0.0.17) (2017-05-22)
+
+
+### Bug Fixes
+
+* Fix inactive group inactive tab foreground ([cc2a376](https://github.com/equinusocio/vsc-material-theme/commit/cc2a376)), closes [#47](https://github.com/equinusocio/vsc-material-theme/issues/47)
+* Improve sidebar colorization ([9ce89ab](https://github.com/equinusocio/vsc-material-theme/commit/9ce89ab))
+
+
+### Features
+
+* Add puppet (.pp) file icon ([e2a04a8](https://github.com/equinusocio/vsc-material-theme/commit/e2a04a8))
+
+
+
+<a name="0.0.16"></a>
+## [0.0.16](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.15...v0.0.16) (2017-05-18)
+
+
+### Bug Fixes
+
+* Fix C file icon ([150e7df](https://github.com/equinusocio/vsc-material-theme/commit/150e7df)), closes [#46](https://github.com/equinusocio/vsc-material-theme/issues/46)
+* Fix the waterfall of bleed words ([df893af](https://github.com/equinusocio/vsc-material-theme/commit/df893af)), closes [#44](https://github.com/equinusocio/vsc-material-theme/issues/44)
+* Fix the waterfall of blooding words ([938fb73](https://github.com/equinusocio/vsc-material-theme/commit/938fb73)), closes [#44](https://github.com/equinusocio/vsc-material-theme/issues/44)
+* Improve tree colors (wip) ([7e7980c](https://github.com/equinusocio/vsc-material-theme/commit/7e7980c))
+* Panel hover borders ([55b07cf](https://github.com/equinusocio/vsc-material-theme/commit/55b07cf))
+
+
+
+<a name="0.0.15"></a>
+## [0.0.15](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.14...v0.0.15) (2017-05-17)
+
+
+
 <a name="0.0.14"></a>
 ## [0.0.14](https://github.com/equinusocio/vsc-material-theme/compare/v0.0.13...v0.0.14) (2017-05-16)
 
