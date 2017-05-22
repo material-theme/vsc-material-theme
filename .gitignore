@@ -1,2 +1,4 @@
-node_modules/
+*.log
+*.~lock
 dist/
+node_modules/
