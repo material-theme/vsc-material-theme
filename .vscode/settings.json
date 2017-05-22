@@ -1,6 +1,29 @@
 {
-  "vsicons.presets.angular": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
   "files.associations": {
     "*.template": "json"
+  },
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
   }
 }
