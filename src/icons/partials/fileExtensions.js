@@ -262,5 +262,6 @@
   "cmx": "_file_ocaml",
   "js.map": "_file_jsmap",
   "css.map": "_file_cssmap",
-  "tmTheme": "_file_markup"
+  "tmTheme": "_file_markup",
+  "pp": "_file_pp"
 },
