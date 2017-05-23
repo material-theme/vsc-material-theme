@@ -1,6 +1,7 @@
 *.log
 *.~lock
 *.js
+**/*.map
 *.gulp/**.js
 dist/
 node_modules/
