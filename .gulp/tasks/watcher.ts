@@ -1,11 +1,12 @@
+import * as gulp from "gulp";
+import * as path from "path";
+
+import Paths from "../consts/paths";
+
 /*
  * > Watcher
+ * Watches files and build the themes
  */
-
-import * as Gulp from 'gulp';
-
-import Paths from '../paths';
-
-export var taskWatch = Gulp.task('watch', () => {
-  Gulp.watch(`${Paths.src}/themes/**/*.json`, ['build:themes']);
+export default gulp.task('watch', () => {
+  gulp.watch(path.join(Paths.SRC, `./themes/**/*.json`), ['build:themes']);
 });

@@ -1,35 +1,35 @@
-/*
- * > Bump
- */
-
-import * as Gulp from 'gulp';
-import * as Gulpif from 'gulp-if';
 import * as bump from 'gulp-bump';
-import * as gutil from 'gulp-util';
+import * as gulp from 'gulp';
+import * as gulpIf from 'gulp-if';
+import * as gulpUtil from 'gulp-util';
 import * as runSequence from 'run-sequence';
-import * as yrgv from 'yargs';
+import * as yargs from 'yargs';
 
-var argv = (yrgv as any).argv;
+import { MESSAGE_BUMP_ERROR, MESSAGE_BUMP_SUCCESS } from "../consts/log";
 
-export var taskBump = Gulp.task('bump', (cb) => {
+var argv = yargs.argv;
+
+export var taskBump = gulp.task('bump', (cb) => {
   runSequence(
     'bump-pkg-version',
-    (error) => {
+    error => {
       if (error) {
-        console.log(gutil.colors.magenta.bold('[bump]'), gutil.colors.red.bold(' There was an issue bumping version:\n'), error);
+        console.log(gulpUtil.colors.magenta.bold('[bump]'), gulpUtil.colors.red.bold(MESSAGE_BUMP_ERROR), error);
       } else {
-        console.log(gutil.colors.magenta.bold('\n[bump]'), gutil.colors.green.bold(' Finished successfully\n'));
+        console.log(gulpUtil.colors.magenta.bold('\n[bump]'), gulpUtil.colors.green.bold(MESSAGE_BUMP_SUCCESS));
       }
       cb(error);
     }
   );
 });
 
-export var taskVersioning = Gulp.task('bump-pkg-version', () => {
-  return Gulp.src(['./package.json'])
-    .pipe(Gulpif((Object.keys(argv).length === 2), bump()))
-    .pipe(Gulpif(argv.patch, bump()))
-    .pipe(Gulpif(argv.minor, bump({ type: 'minor' })))
-    .pipe(Gulpif(argv.major, bump({ type: 'major' })))
-    .pipe(Gulp.dest('./'));
+export var taskVersioning = gulp.task('bump-pkg-version', () => {
+  return gulp.src(['./package.json'])
+    .pipe(gulpIf((Object.keys(argv).length === 2), bump()))
+    .pipe(gulpIf(argv.patch, bump()))
+    .pipe(gulpIf(argv.minor, bump({ type: 'minor' })))
+    .pipe(gulpIf(argv.major, bump({ type: 'major' })))
+    .pipe(gulp.dest('./'));
 });
+
+export default { taskBump, taskVersioning };

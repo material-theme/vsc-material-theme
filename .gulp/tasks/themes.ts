@@ -1,63 +1,51 @@
-import * as Gulp from 'gulp';
-import * as Mustache from 'mustache';
-// import * as YAML from 'yamljs';
-/*
- * > Build Themes
- */
 import * as fs from 'fs';
-import * as gutil from 'gulp-util';
+import * as gulp from 'gulp';
+import * as gulpUtil from 'gulp-util';
+import * as mustache from 'mustache';
+import * as path from 'path';
 
-import { CHARSET } from "../consts/files";
-import Paths from '../paths';
+import { HR, MESSAGE_GENERATED, MESSAGE_THEME_VARIANT_PARSE_ERROR } from './../consts/log';
 
-const themeCommons = require('../../src/themes/settings/commons.json');
-const themeVariants: any[] = [];
-const themeTemplateFile = fs.readFileSync(
-  `${Paths.src}/themes/theme-template-color-theme.json`,
-  CHARSET
-);
+import { CHARSET } from '../consts/files';
+import { IThemeVariant } from './../interfaces/itheme-variant';
+import paths from '../consts/paths';
 
-const files = fs.readdirSync(`${Paths.src}/themes/settings/specific`);
+let commons = require('../../src/themes/settings/commons.json');
+
+let themeTemplateFileContent: string = fs.readFileSync(path.join(paths.SRC, `/themes/theme-template-color-theme.json`), CHARSET);
+let themeVariants: IThemeVariant[] = [];
+
+let fileNames: string[] = fs.readdirSync(path.join(paths.SRC, `./themes/settings/specific`));
 
 // build theme variants for later use in templating
-files.forEach(file => {
-  // const name: string = file.split('.')[0];
-  const filepath = `${Paths.src}/themes/settings/specific/${file}`;
-  const contents = fs.readFileSync(filepath, 'utf-8');
+fileNames.forEach(fileName => {
+  let filePath: string = path.join(paths.SRC, `./themes/settings/specific`, `./${fileName}`);
+  let contents: string = fs.readFileSync(filePath, CHARSET);
 
   try {
     themeVariants.push(JSON.parse(contents));
-  } catch (err) {
-    gutil.log('Error when parsing json for theme variants', err);
+  } catch (error) {
+    gulpUtil.log(MESSAGE_THEME_VARIANT_PARSE_ERROR, error);
   }
 });
 
-export var taskThemes = Gulp.task('build:themes', () => {
-  gutil.log(
-    gutil.colors.gray('\n———————————————————————————————————————————————————————————————\n')
-  );
+/**
+ * Themes task
+ * Builds Themes
+ */
+export default gulp.task('build:themes', () => {
+  gulpUtil.log(gulpUtil.colors.gray(HR));
+
   themeVariants.forEach(variant => {
-    const templateData = {
-      'commons': themeCommons,
-      variant
-    };
+    let filePath = path.join(paths.THEMES, `./${variant.name}.json`);
+    let templateData = { commons, variant };
+    let templateJSON: any = JSON.parse(mustache.render(themeTemplateFileContent, templateData));
+    let templateJSONStringified: string = JSON.stringify(templateJSON, null, 2);
 
-    const templateJson = JSON.parse(
-      Mustache.render(themeTemplateFile, templateData)
-    );
+    fs.writeFileSync(filePath, templateJSONStringified, CHARSET);
 
-    const path = `${Paths.themes}/${variant.name}.json`;
-
-    fs.writeFileSync(
-      path,
-      JSON.stringify(templateJson, null, 2),
-      CHARSET
-    );
-
-    gutil.log('Generate', gutil.colors['green'](path));
+    gulpUtil.log(MESSAGE_GENERATED, gulpUtil.colors.green(filePath));
   });
 
-  gutil.log(
-    gutil.colors.gray('\n———————————————————————————————————————————————————————————————\n')
-  );
+  gulpUtil.log(gulpUtil.colors.gray(HR));
 });

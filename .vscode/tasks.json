@@ -23,6 +23,53 @@
       "taskName": "build"
     },
     {
+      "linux": {
+        "args": [
+          "."
+        , "-name"
+        , "\"*.js\""
+        , "-not"
+        , "-path"
+        , "\"./node_modules/*\""
+        , "-not"
+        , "-path"
+        , "\"./src/*\""
+        , "-not"
+        , "-path"
+        , "\"./test/*\""
+        , "-type"
+        , "f"
+        , "-delete"
+        ],
+        "command": "find",
+        "isShellCommand": true
+      },
+      "osx": {
+        "args": [
+          "."
+        , "-name"
+        , "\"*.js\""
+        , "-not"
+        , "-path"
+        , "\"./node_modules/*\""
+        , "-not"
+        , "-path"
+        , "\"./src/*\""
+        , "-not"
+        , "-path"
+        , "\"./test/*\""
+        , "-type"
+        , "f"
+        , "-delete"
+        ],
+        "command": "find",
+        "isShellCommand": true
+      },
+      "command": "",
+      "echoCommand": true,
+      "taskName": "clean project"
+    },
+    {
       "args": [
         "run"
       , "changelog"
@@ -38,6 +85,7 @@
       , "."
       ],
       "command": "tsc",
+      "dependsOn": "clean project",
       "echoCommand": true,
       "isShellCommand": true,
       "taskName": "tsc"

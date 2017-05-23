@@ -1,4 +1,4 @@
-// import the tasks
+// export the tasks
 export * from './tasks/changelog';
 export * from './tasks/bump';
 export * from './tasks/icons';
