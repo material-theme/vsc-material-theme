@@ -716,7 +716,7 @@
     "sideBarSectionHeader.background": "{{variant.scheme.background}}",
     "input.background": "{{variant.scheme.inputBackground}}",
     "input.foreground": "{{variant.scheme.inputForeground}}",
-    "input.placeholderForeground": "{{variant.scheme.foreground}}",
+    "input.placeholderForeground": "{{variant.scheme.foreground}}60",
     "input.border": "{{variant.scheme.inputBorder}}",
     "inputValidation.errorBorder": "{{variant.scheme.base.red}}",
     "inputValidation.infoBorder": "{{variant.scheme.base.blue}}",

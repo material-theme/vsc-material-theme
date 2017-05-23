@@ -716,7 +716,7 @@
     "sideBarSectionHeader.background": "#212121",
     "input.background": "#FFFFFF05",
     "input.foreground": "#EEFFFF",
-    "input.placeholderForeground": "#EEFFFF",
+    "input.placeholderForeground": "#EEFFFF60",
     "input.border": "#FFFFFF10",
     "inputValidation.errorBorder": "#FF5370",
     "inputValidation.infoBorder": "#82AAFF",
