@@ -10,7 +10,8 @@
     "node_modules": true,
     "**/*.js": {
       "when": "$(basename).ts"
-    }
+    },
+    "**/*.js.map": true
   },
   "files.associations": {
     "*.template": "json"

@@ -8,6 +8,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitAny": true,
+    "sourceMap": true,
     "target": "es6"
   },
   "include": [
