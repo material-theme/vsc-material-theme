@@ -1,4 +1,5 @@
 *.log
 *.~lock
+*.js
 dist/
 node_modules/
