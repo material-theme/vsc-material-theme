@@ -727,6 +727,7 @@
     "list.hoverBackground": "{{variant.scheme.background}}",
     "list.activeSelectionBackground": "{{variant.scheme.background}}",
     "list.activeSelectionForeground": "{{commons.accents.teal}}",
+    "list.inactiveSelectionForeground": "{{commons.accents.teal}}",
     "list.inactiveSelectionBackground": "{{variant.scheme.background}}",
     "list.focusBackground": "{{variant.scheme.foreground}}10",
     "list.focusForeground": "{{variant.scheme.foreground}}",
