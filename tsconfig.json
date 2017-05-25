@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2015"
+    ],
+    "module": "commonjs",
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "include": [
+    "./**/*",
+    "./.gulp/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "out"
+  ]
+}

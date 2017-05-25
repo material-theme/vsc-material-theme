@@ -7,22 +7,88 @@
 // ${cwd}: the current working directory of the spawned process
 // A task runner that calls a custom npm script that compiles the extension.
 {
-  "version": "0.1.0",
-  // we want to run npm
-  "command": "npm",
-  // the command is a shell script
-  "isShellCommand": true,
-  // show the output window only if unrecognized errors occur.
-  "showOutput": "silent",
-  // we run the custom script "compile" as defined in package.json
-  "args": [
-    "run",
-    "compile",
-    "--loglevel",
-    "silent"
-  ],
-  // The tsc compiler is started in watching mode
-  "isWatching": true,
-  // use the standard tsc in watch mode problem matcher to find compile problems in the output.
-  "problemMatcher": "$tsc-watch"
+  "version": "2.0.0",
+  // tasks list (build, build-theme, semver etc)
+  "tasks": [
+    {
+      "args": [
+        "run"
+      , "build"
+      ],
+      "isBuildCommand": true,
+      "command": "npm",
+      "dependsOn": "tsc",
+      "echoCommand": true,
+      "isShellCommand": true,
+      "taskName": "build"
+    },
+    {
+      "linux": {
+        "args": [
+          "."
+        , "-name"
+        , "\"*.js\""
+        , "-not"
+        , "-path"
+        , "\"./node_modules/*\""
+        , "-not"
+        , "-path"
+        , "\"./src/*\""
+        , "-not"
+        , "-path"
+        , "\"./test/*\""
+        , "-type"
+        , "f"
+        , "-delete"
+        ],
+        "command": "find",
+        "isShellCommand": true
+      },
+      "osx": {
+        "args": [
+          "."
+        , "-name"
+        , "\"*.js\""
+        , "-not"
+        , "-path"
+        , "\"./node_modules/*\""
+        , "-not"
+        , "-path"
+        , "\"./src/*\""
+        , "-not"
+        , "-path"
+        , "\"./test/*\""
+        , "-type"
+        , "f"
+        , "-delete"
+        ],
+        "command": "find",
+        "isShellCommand": true
+      },
+      "command": "",
+      "echoCommand": true,
+      "taskName": "clean project"
+    },
+    {
+      "args": [
+        "run"
+      , "changelog"
+      ],
+      "command": "npm",
+      "echoCommand": true,
+      "isShellCommand": true,
+      "taskName": "changelog"
+    },
+    {
+      "args": [
+        "-p"
+      , "."
+      ],
+      "command": "tsc",
+      "dependsOn": "clean project",
+      "echoCommand": true,
+      "isShellCommand": true,
+      "taskName": "tsc"
+    }
+  ]
 }
