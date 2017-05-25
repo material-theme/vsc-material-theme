@@ -695,7 +695,7 @@
     "editorIndentGuide.background": "{{variant.scheme.guides}}",
     "editorGroupHeader.tabsBackground": "{{variant.scheme.background}}",
     "editorGroup.border": "{{variant.scheme.shadow}}",
-    "tab.activeForeground": "{{variant.scheme.foreground}}",
+    "tab.activeForeground": "{{variant.scheme.tabActiveForeground}}",
     "tab.inactiveForeground": "{{variant.scheme.comments}}",
     "tab.inactiveBackground": "{{variant.scheme.background}}",
     "tab.border": "{{variant.scheme.background}}",

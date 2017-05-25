@@ -695,7 +695,7 @@
     "editorIndentGuide.background": "#B0BEC570",
     "editorGroupHeader.tabsBackground": "#FAFAFA",
     "editorGroup.border": "#00000020",
-    "tab.activeForeground": "#90A4AE",
+    "tab.activeForeground": "#000000",
     "tab.inactiveForeground": "#90A4AE90",
     "tab.inactiveBackground": "#FAFAFA",
     "tab.border": "#FAFAFA",

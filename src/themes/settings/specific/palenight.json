@@ -21,8 +21,9 @@
     "scrollbars": "#00000050",
     "scrollbarsHover": "#00000030",
     "statusbarForeground": "#676E95",
-    "sidebarForeground": "#A6ACCD80",
+    "sidebarForeground": "#676E95",
     "listHoverForeground": "#FFFFFF",
+    "tabActiveForeground": "#FFFFFF",
     "base": {
       "white": "#ffffff",
       "black": "#000000",

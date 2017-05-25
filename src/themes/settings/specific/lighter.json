@@ -23,6 +23,7 @@
     "statusbarForeground": "#90A4AE",
     "sidebarForeground": "#7E939E",
     "listHoverForeground": "#B1C7D3",
+    "tabActiveForeground": "#000000",
     "base": {
       "white": "#FFFFFF",
       "black": "#000000",
