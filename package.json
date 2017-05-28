@@ -31,6 +31,7 @@
     "build-icons": "npm run remove-icons && npm run minimize-icons && gulp build:icons && npm run minimize-json",
     "build-themes": "gulp build:themes",
     "release": "npm run bump && npm run changelog",
+    "postinstall": "node ./node_modules/vscode/bin/instal",
     "changelog": "gulp changelog",
     "bump": "gulp bump"
   },
@@ -38,7 +39,18 @@
     "Themes",
     "Other"
   ],
+  "activationEvents": [
+    "onCommand:material.theme.config"
+  ],
+  "main": "./extensions/material.theme.config",
   "contributes": {
+    "commands": [
+      {
+        "category": "Material theme",
+        "command": "material.theme.config",
+        "title": "Material theme settings"
+      }
+    ],
     "themes": [
       {
         "label": "Material Theme",
@@ -104,6 +116,7 @@
     "run-sequence": "^1.2.2",
     "svgo": "^0.7.1",
     "typescript": "2.3.3",
+    "vscode": "^1.1.0",
     "yamljs": "^0.2.10",
     "yargs": "^7.1.0"
   }
