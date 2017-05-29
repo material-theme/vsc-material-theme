@@ -31,7 +31,7 @@
     "build-icons": "npm run remove-icons && npm run minimize-icons && gulp build:icons && npm run minimize-json",
     "build-themes": "gulp build:themes",
     "release": "npm run bump && npm run changelog",
-    "postinstall": "node ./node_modules/vscode/bin/instal",
+    "postinstall": "node ./node_modules/vscode/bin/install",
     "changelog": "gulp changelog",
     "bump": "gulp bump"
   },
