@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
-import { COMMAND_THEME_SETTER } from "./theme-setter/index";
 import { IGenericObject } from "./interfaces/igeneric-object";
+import { THEME_ACCENTS_SETTER } from "./accents-setter/index";
 
 enum Commands {
   ACCENTS,
@@ -9,8 +9,7 @@ enum Commands {
 }
 
 const OPTIONS: IGenericObject<number> = {
-  'Change accents': Commands.ACCENTS,
-  'Change color scheme': Commands.COLOR_THEME
+  'Change accents': Commands.ACCENTS
 }
 
 export function activate(context: vscode.ExtensionContext) {
@@ -20,11 +19,8 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.window.showQuickPick(Object.keys(OPTIONS)).then(response => {
       // switching selected option
       switch(OPTIONS[response]) {
-        // case Commands.ACCENTS:
-
-        // break;
-        case Commands.COLOR_THEME:
-          COMMAND_THEME_SETTER();
+        case Commands.ACCENTS:
+          THEME_ACCENTS_SETTER();
         break;
       }
     });

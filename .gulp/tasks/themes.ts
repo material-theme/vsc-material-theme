@@ -10,7 +10,7 @@ import { CHARSET } from '../consts/files';
 import { IThemeVariant } from './../interfaces/itheme-variant';
 import paths from '../consts/paths';
 
-let commons = require('../../src/themes/settings/commons.json');
+let commons = require('../../extensions/accents-setter/commons.json');
 
 let themeTemplateFileContent: string = fs.readFileSync(path.join(paths.SRC, `/themes/theme-template-color-theme.json`), CHARSET);
 let themeVariants: IThemeVariant[] = [];
