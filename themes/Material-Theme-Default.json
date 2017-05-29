@@ -683,6 +683,7 @@
     "scrollbar.shadow": "#26323800",
     "editorLink.activeForeground": "#EEFFFF",
     "selection.background": "#EEFFFF",
+    "textLink.foreground": "#80CBC4",
     "editorLineNumber.foreground": "#37474F",
     "editorBracketMatch.border": "#FFCC00",
     "editor.background": "#263238",

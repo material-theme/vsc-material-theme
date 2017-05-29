@@ -683,6 +683,7 @@
     "scrollbar.shadow": "{{variant.scheme.background}}00",
     "editorLink.activeForeground": "{{variant.scheme.foreground}}",
     "selection.background": "{{variant.scheme.foreground}}",
+    "textLink.foreground": "{{commons.accents.teal}}",
     "editorLineNumber.foreground": "{{variant.scheme.lineNumbers}}",
     "editorBracketMatch.border": "{{variant.scheme.caret}}",
     "editor.background": "{{variant.scheme.background}}",
@@ -756,7 +757,6 @@
     "editorSuggestWidget.highlightForeground": "{{commons.accents.teal}}",
     "editorSuggestWidget.selectedBackground": "{{variant.scheme.lineHighlight}}50",
     "editorSuggestWidget.border": "{{variant.scheme.inputBorder}}",
-
     "widget.shadow": "{{variant.scheme.shadow}}",
     "editorWidget.background": "{{variant.scheme.background}}",
     "panel.border": "{{variant.scheme.background}}",
