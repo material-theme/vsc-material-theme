@@ -11,6 +11,7 @@ let accentsProperties: IGenericObject<string> = {
   "list.highlightForeground": undefined,
   "scrollbarSlider.activeBackground": undefined,
   "editorSuggestWidget.highlightForeground": undefined,
+  "textLink.foreground": undefined,
 }
 
 /**
