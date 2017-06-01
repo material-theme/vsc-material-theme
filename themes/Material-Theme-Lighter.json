@@ -684,6 +684,7 @@
     "editorLink.activeForeground": "#90A4AE",
     "selection.background": "#90A4AE",
     "textLink.foreground": "#80CBC4",
+    "textLink.activeForeground": "#90A4AE",
     "editorLineNumber.foreground": "#CFD8DC",
     "editorBracketMatch.border": "#272727",
     "editor.background": "#FAFAFA",
