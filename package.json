@@ -48,7 +48,7 @@
       {
         "category": "Material theme",
         "command": "material.theme.config",
-        "title": "Material theme settings"
+        "title": "Settings"
       }
     ],
     "themes": [
@@ -115,7 +115,7 @@
     "rimraf": "^2.6.1",
     "run-sequence": "^1.2.2",
     "svgo": "^0.7.1",
-    "typescript": "2.3.3",
+    "typescript": "2.3.4",
     "vscode": "^1.1.0",
     "yamljs": "^0.2.10",
     "yargs": "^7.1.0"
