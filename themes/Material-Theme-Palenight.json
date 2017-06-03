@@ -700,6 +700,7 @@
     "tab.activeForeground": "#FFFFFF",
     "tab.inactiveForeground": "#676E95",
     "tab.inactiveBackground": "#292D3E",
+    "tab.unfocusedActiveForeground": "#A6ACCD",
     "tab.border": "#292D3E",
     "statusBar.background": "#292D3E",
     "statusBar.noFolderBackground": "#292D3E",

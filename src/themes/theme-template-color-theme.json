@@ -700,6 +700,7 @@
     "tab.activeForeground": "{{variant.scheme.tabActiveForeground}}",
     "tab.inactiveForeground": "{{variant.scheme.comments}}",
     "tab.inactiveBackground": "{{variant.scheme.background}}",
+    "tab.unfocusedActiveForeground": "{{variant.scheme.foreground}}",
     "tab.border": "{{variant.scheme.background}}",
     "statusBar.background": "{{variant.scheme.background}}",
     "statusBar.noFolderBackground": "{{variant.scheme.background}}",
