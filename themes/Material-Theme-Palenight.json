@@ -768,6 +768,8 @@
     "notification.foreground": "#A6ACCD",
     "badge.background": "#00000030",
     "badge.foreground": "#676E95",
-    "button.background": "#717CB450"
+    "button.background": "#717CB450",
+    "extensionButton.prominentBackground": "#C3E88D90",
+    "extensionButton.prominentHoverBackground": "#C3E88D"
   }
 }

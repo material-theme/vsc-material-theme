@@ -768,6 +768,8 @@
     "notification.foreground": "{{variant.scheme.foreground}}",
     "badge.background": "{{variant.scheme.lineHighlight}}30",
     "badge.foreground": "{{variant.scheme.comments}}",
-    "button.background": "{{variant.scheme.selection}}"
+    "button.background": "{{variant.scheme.selection}}",
+    "extensionButton.prominentBackground": "{{variant.scheme.base.green}}90",
+    "extensionButton.prominentHoverBackground": "{{variant.scheme.base.green}}"
   }
 }
