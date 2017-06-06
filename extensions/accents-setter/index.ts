@@ -25,7 +25,7 @@ let accentsProperties: IGenericObject<IAccentCustomProperty> = {
     value: undefined
   },
   "scrollbarSlider.activeBackground": {
-    alpha: 100,
+    alpha: 50,
     value: undefined
   },
   "editorSuggestWidget.highlightForeground": {
@@ -33,7 +33,7 @@ let accentsProperties: IGenericObject<IAccentCustomProperty> = {
     value: undefined
   },
   "textLink.foreground": {
-    alpha: 50,
+    alpha: 100,
     value: undefined
   },
 }
