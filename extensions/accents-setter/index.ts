@@ -1,17 +1,41 @@
 import * as vscode from 'vscode';
 
+import { IAccentCustomProperty } from "../interfaces/iaccent-custom-property";
 import { IGenericObject } from "../interfaces/igeneric-object";
 import { IThemeConfigCommons } from "../interfaces/icommons";
 
+const REGEXP_HEX: RegExp = /^#([0-9A-F]{6}|[0-9A-F]{8})$/i;
+
 let themeConfigCommon: IThemeConfigCommons = require('./commons.json');
-let accentsProperties: IGenericObject<string> = {
-  "activityBarBadge.background": undefined,
-  "list.activeSelectionForeground": undefined,
-  "list.inactiveSelectionForeground": undefined,
-  "list.highlightForeground": undefined,
-  "scrollbarSlider.activeBackground": undefined,
-  "editorSuggestWidget.highlightForeground": undefined,
-  "textLink.foreground": undefined,
+let accentsProperties: IGenericObject<IAccentCustomProperty> = {
+  "activityBarBadge.background": {
+    alpha: 100,
+    value: undefined
+  },
+  "list.activeSelectionForeground": {
+    alpha: 100,
+    value: undefined
+  },
+  "list.inactiveSelectionForeground": {
+    alpha: 100,
+    value: undefined
+  },
+  "list.highlightForeground": {
+    alpha: 100,
+    value: undefined
+  },
+  "scrollbarSlider.activeBackground": {
+    alpha: 100,
+    value: undefined
+  },
+  "editorSuggestWidget.highlightForeground": {
+    alpha: 100,
+    value: undefined
+  },
+  "textLink.foreground": {
+    alpha: 50,
+    value: undefined
+  },
 }
 
 /**
@@ -21,8 +45,32 @@ let accentsProperties: IGenericObject<string> = {
  */
 function assignColorCustomizations(colour: string, config: any): void {
   Object.keys(accentsProperties).forEach(propertyName => {
-    config[propertyName] = colour;
+    let accent: IAccentCustomProperty = accentsProperties[propertyName];
+
+    if (!isValidColour(colour)) {
+      colour = undefined;
+    }
+
+    if (colour && accent.alpha < 100) {
+      colour = `${ colour }${ accent.alpha > 10 ? accent.alpha : `0${ accent.alpha }` }`;
+    }
+
+    if (accent) {
+      config[propertyName] = colour;
+    }
   });
+}
+
+/**
+ * Determines if a string is a valid colour
+ * @param {(string | null | undefined)} colour
+ * @returns {boolean}
+ */
+function isValidColour(colour: string | null | undefined): boolean {
+  if (typeof colour === 'string' && REGEXP_HEX.test(colour)) {
+    return true;
+  }
+  return false;
 }
 
 /**
@@ -59,6 +107,11 @@ export const THEME_ACCENTS_SETTER = () => {
       case customColourKey:
         vscode.window.showInputBox().then(colourCode => {
           if (colourCode === null || colourCode === undefined) return;
+
+          if (colourCode && !isValidColour(colourCode)) {
+            vscode.window.showWarningMessage('Invalid colour set, aborting.');
+            return;
+          }
 
           assignColorCustomizations(colourCode, config);
           setWorkbenchOptions(accentSelected, config);
