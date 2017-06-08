@@ -44,19 +44,20 @@ let accentsProperties: IGenericObject<IAccentCustomProperty> = {
  * @param {*} config
  */
 function assignColorCustomizations(colour: string, config: any): void {
+  if (!isValidColour(colour)) {
+    colour = undefined;
+  }
+
   Object.keys(accentsProperties).forEach(propertyName => {
     let accent: IAccentCustomProperty = accentsProperties[propertyName];
-
-    if (!isValidColour(colour)) {
-      colour = undefined;
-    }
+    let _colour = colour;
 
     if (colour && accent.alpha < 100) {
-      colour = `${ colour }${ accent.alpha > 10 ? accent.alpha : `0${ accent.alpha }` }`;
+      _colour = `${ colour }${ accent.alpha > 10 ? accent.alpha : `0${ accent.alpha }` }`;
     }
 
     if (accent) {
-      config[propertyName] = colour;
+      config[propertyName] = _colour;
     }
   });
 }
