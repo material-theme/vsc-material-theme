@@ -63,6 +63,39 @@ function assignColorCustomizations(colour: string, config: any): void {
 }
 
 /**
+ * Gets the accented icon theme name
+ * @param accentName
+ */
+function accentedThemeName(accentName: string): string {
+  return `material-theme-icons-${ accentName.replace(/\s+/g, '-').toLowerCase() }`;
+}
+
+/**
+ * Assigns related icons theme name by accent name
+ * @param accentName
+ */
+function assignIconTheme(accentName: string | undefined): void {
+  let cacheKey: string = 'materialTheme.cache.workbench.iconTheme';
+  let cache: any = vscode.workspace.getConfiguration().inspect(cacheKey);
+  let accentValue: string;
+
+  if (!cache.globalValue && accentName !== undefined) {
+    vscode.workspace.getConfiguration().update(cacheKey, vscode.workspace.getConfiguration().get('workbench.iconTheme'), true).then(() => {}, reason => vscode.window.showErrorMessage(reason));
+  }
+
+  if (accentName === undefined && cache.globalValue) {
+    accentValue = vscode.workspace.getConfiguration().get<string>(cacheKey);
+    vscode.workspace.getConfiguration().update(cacheKey, undefined, true);
+  } else if (accentName !== undefined) {
+    accentValue = accentedThemeName(accentName);
+  }
+
+  vscode.workspace.getConfiguration().update('workbench.iconTheme', accentValue, true).then(() => {}, reason => {
+    vscode.window.showErrorMessage(reason);
+  });
+}
+
+/**
  * Determines if a string is a valid colour
  * @param {(string | null | undefined)} colour
  * @returns {boolean}
@@ -121,10 +154,12 @@ export const THEME_ACCENTS_SETTER = () => {
       case purgeColourKey:
         assignColorCustomizations(undefined, config);
         setWorkbenchOptions(accentSelected, config);
+        assignIconTheme(undefined);
       break;
       default:
         assignColorCustomizations(themeConfigCommon.accents[accentSelected], config);
         setWorkbenchOptions(accentSelected, config);
+        assignIconTheme(accentSelected);
       break;
     }
   });

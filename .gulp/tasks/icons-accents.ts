@@ -10,7 +10,6 @@ import { CHARSET } from "../consts/files";
 import { IThemeConfigCommons } from '../../extensions/interfaces/icommons';
 import { IThemeIconsAccents } from "../interfaces/itheme-icons-accents";
 import PATHS from '../../extensions/consts/paths'
-import accentedThemeName from "../../extensions/accents-setter/accented-theme-name";
 
 const BASE_ICON_THEME_PATH: string = path.join(process.cwd(), PATHS.THEMES, './Material-Theme-Icons.json');
 const THEME_COMMONS: IThemeConfigCommons = require('../../extensions/accents-setter/commons.json');
@@ -49,7 +48,16 @@ function replaceNameWithAccent(name: string, accentName: string): string {
  * @returns {string}
  */
 function replaceSVGColour(filecontent: string, colour: string): string {
-  return filecontent.replace(/\.st0\s{0,}\{fill:#([a-zA-Z0-9]{6});\}/, ($0, $1) => $0.replace($1, colour));
+  return filecontent.replace(new RegExp('.st0\{fill:#([a-zA-Z0-9]{6})\}|path fill="#([a-zA-Z0-9]{6})"'), ($0, $1, $2) => {
+
+    colour = colour.replace('#', '');
+
+    if (!$2) {
+      return $0.replace($1, colour);
+    } else {
+      return $0.replace($2, colour);
+    }
+  });
 }
 
 /**
@@ -69,7 +77,7 @@ function replaceWhiteSpaces(input: string): string {
  */
 function writeSVGIcon(fromFile: string, toFile: string, accent: string): void {
   let fileContent: string = fs.readFileSync(normalizeIconPath(fromFile), CHARSET);
-  let content: string = replaceSVGColour(normalizeIconPath(fileContent), THEME_COMMONS.accents[accent]);
+  let content: string = replaceSVGColour(fileContent, THEME_COMMONS.accents[accent]);
   toFile = normalizeIconPath(toFile);
 
   fs.writeFileSync(toFile, content);
@@ -87,21 +95,21 @@ export default gulp.task('build:icons.accents', cb => {
     Object.keys(THEME_COMMONS.accents).forEach(key => {
       let iconName = replaceWhiteSpaces(key);
       let themecopy: IThemeIconsAccents = JSON.parse(JSON.stringify(basetheme));
-      let themePath: string = accentedThemeName(key);
+      let themePath: string = path.join(PATHS.THEMES, `./Material-Theme-Icons-${ key }.json`);
 
       let id: string = `${ PACKAGE_JSON_ICON_THEME.id }-${ key.replace(/\s+/g, '-').toLowerCase() }`;
       let label: string = `${ PACKAGE_JSON_ICON_THEME.label } - ${ key } accent`;
-      let path: string = `./${ themePath }`;
+      let themepathJSON: string = `./${ themePath }`;
 
       themecopy.iconDefinitions._folder_open.iconPath = replaceNameWithAccent(basetheme.iconDefinitions._folder_open.iconPath, iconName);
       themecopy.iconDefinitions._folder_open_build.iconPath = replaceNameWithAccent(basetheme.iconDefinitions._folder_open_build.iconPath, iconName);
 
-      writeSVGIcon(basetheme.iconDefinitions._folder_open.iconPath, themecopy.iconDefinitions._folder_open.iconPath, THEME_COMMONS.accents[key]);
-      writeSVGIcon(basetheme.iconDefinitions._folder_open_build.iconPath, themecopy.iconDefinitions._folder_open_build.iconPath, THEME_COMMONS.accents[key]);
+      writeSVGIcon(basetheme.iconDefinitions._folder_open.iconPath, themecopy.iconDefinitions._folder_open.iconPath, key);
+      writeSVGIcon(basetheme.iconDefinitions._folder_open_build.iconPath, themecopy.iconDefinitions._folder_open_build.iconPath, key);
 
       fs.writeFileSync(themePath, JSON.stringify(themecopy));
 
-      PACKAGE_JSON.contributes.iconThemes.push({ id, label, path });
+      PACKAGE_JSON.contributes.iconThemes.push({ id, label, path: themepathJSON });
 
       gutil.log(gutil.colors.green(MESSAGE_GENERATED, themePath));
     });
