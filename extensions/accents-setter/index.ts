@@ -93,10 +93,10 @@ function setWorkbenchOptions(accentSelected: string, config: any): void {
 export const THEME_ACCENTS_SETTER = () => {
   // shows the quick pick dropdown
   let options: string[] = Object.keys(themeConfigCommon.accents);
-  let customColourKey: string = 'Custom colour';
+  // let customColourKey: string = 'Custom colour';
   let purgeColourKey: string = 'Remove accents';
 
-  options.push(customColourKey);
+  // options.push(customColourKey);
   options.push(purgeColourKey);
 
   vscode.window.showQuickPick(options).then(accentSelected => {
@@ -105,19 +105,19 @@ export const THEME_ACCENTS_SETTER = () => {
     let config: any = vscode.workspace.getConfiguration().get('workbench.colorCustomizations');
 
     switch(accentSelected) {
-      case customColourKey:
-        vscode.window.showInputBox().then(colourCode => {
-          if (colourCode === null || colourCode === undefined) return;
+      // case customColourKey:
+      //   vscode.window.showInputBox().then(colourCode => {
+      //     if (colourCode === null || colourCode === undefined) return;
 
-          if (colourCode && !isValidColour(colourCode)) {
-            vscode.window.showWarningMessage('Invalid colour set, aborting.');
-            return;
-          }
+      //     if (colourCode && !isValidColour(colourCode)) {
+      //       vscode.window.showWarningMessage('Invalid colour set, aborting.');
+      //       return;
+      //     }
 
-          assignColorCustomizations(colourCode, config);
-          setWorkbenchOptions(accentSelected, config);
-        });
-      break;
+      //     assignColorCustomizations(colourCode, config);
+      //     setWorkbenchOptions(accentSelected, config);
+      //   });
+      // break;
       case purgeColourKey:
         assignColorCustomizations(undefined, config);
         setWorkbenchOptions(accentSelected, config);

@@ -5,6 +5,15 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "node",
+      "request": "launch",
+      "name": "Gulp build-icons",
+      "program": "${workspaceRoot}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "build:icons.accents"
+      ]
+    },
+    {
       "name": "Launch Extension",
       "type": "extensionHost",
       "request": "launch",
