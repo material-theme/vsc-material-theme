@@ -9,7 +9,8 @@ import { MESSAGE_GENERATED, MESSAGE_ICON_ACCENTS_ERROR } from "../consts/log";
 import { CHARSET } from "../consts/files";
 import { IThemeConfigCommons } from '../../extensions/interfaces/icommons';
 import { IThemeIconsAccents } from "../interfaces/itheme-icons-accents";
-import PATHS from '../consts/paths'
+import PATHS from '../../extensions/consts/paths'
+import accentedThemeName from "../../extensions/accents-setter/accented-theme-name";
 
 const BASE_ICON_THEME_PATH: string = path.join(process.cwd(), PATHS.THEMES, './Material-Theme-Icons.json');
 const THEME_COMMONS: IThemeConfigCommons = require('../../extensions/accents-setter/commons.json');
@@ -19,24 +20,6 @@ const PACKAGE_JSON_ICON_THEME: IPackageJSONThemeIcons = {
   id: "material-theme-icons",
   label: "Material Theme Icons",
   path: "./themes/Material-Theme-Icons.json"
-}
-
-/**
- * Gets file path
- * @param {string} filename
- * @returns {string}
- */
-function getFilepath(filename: string): string {
-  return path.join(PATHS.THEMES, filename);
-}
-
-/**
- * Icon theme name
- * @param {string} accentName
- * @returns {string}
- */
-function makefileName(accentName: string): string {
-  return `./Material-Theme-Icons-${ accentName }.json`;
 }
 
 /**
@@ -104,7 +87,11 @@ export default gulp.task('build:icons.accents', cb => {
     Object.keys(THEME_COMMONS.accents).forEach(key => {
       let iconName = replaceWhiteSpaces(key);
       let themecopy: IThemeIconsAccents = JSON.parse(JSON.stringify(basetheme));
-      let themePath: string = getFilepath(makefileName(key));
+      let themePath: string = accentedThemeName(key);
+
+      let id: string = `${ PACKAGE_JSON_ICON_THEME.id }-${ key.replace(/\s+/g, '-').toLowerCase() }`;
+      let label: string = `${ PACKAGE_JSON_ICON_THEME.label } - ${ key } accent`;
+      let path: string = `./${ themePath }`;
 
       themecopy.iconDefinitions._folder_open.iconPath = replaceNameWithAccent(basetheme.iconDefinitions._folder_open.iconPath, iconName);
       themecopy.iconDefinitions._folder_open_build.iconPath = replaceNameWithAccent(basetheme.iconDefinitions._folder_open_build.iconPath, iconName);
@@ -114,12 +101,12 @@ export default gulp.task('build:icons.accents', cb => {
 
       fs.writeFileSync(themePath, JSON.stringify(themecopy));
 
-      PACKAGE_JSON
+      PACKAGE_JSON.contributes.iconThemes.push({ id, label, path });
 
       gutil.log(gutil.colors.green(MESSAGE_GENERATED, themePath));
     });
 
-    fs.writeFileSync(path.join(process.cwd(), './package.test.json'), JSON.stringify(PACKAGE_JSON, null, 2), CHARSET);
+    fs.writeFileSync(path.join(process.cwd(), './package.json'), JSON.stringify(PACKAGE_JSON, null, 2), CHARSET);
 
   } catch (error) {
     // http://ragefaces.memesoftware.com/faces/large/misc-le-fu-l.png

@@ -8,7 +8,7 @@ import { HR, MESSAGE_GENERATED, MESSAGE_THEME_VARIANT_PARSE_ERROR } from './../c
 
 import { CHARSET } from '../consts/files';
 import { IThemeVariant } from './../interfaces/itheme-variant';
-import paths from '../consts/paths';
+import paths from '../../extensions/consts/paths';
 
 let commons = require('../../extensions/accents-setter/commons.json');
 

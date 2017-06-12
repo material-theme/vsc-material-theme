@@ -1,7 +1,7 @@
 import * as gulp from "gulp";
 import * as path from "path";
 
-import Paths from "../consts/paths";
+import Paths from "../../extensions/consts/paths";
 
 /*
  * > Watcher
