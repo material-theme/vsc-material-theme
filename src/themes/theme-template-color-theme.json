@@ -771,6 +771,9 @@
     "badge.foreground": "{{variant.scheme.comments}}",
     "button.background": "{{variant.scheme.selection}}",
     "extensionButton.prominentBackground": "{{variant.scheme.base.green}}90",
-    "extensionButton.prominentHoverBackground": "{{variant.scheme.base.green}}"
+    "extensionButton.prominentHoverBackground": "{{variant.scheme.base.green}}",
+    "peekView.border": "{{variant.scheme.shadow}}",
+    "peekViewEditor.background": "{{variant.scheme.foreground}}10",
+    "peekViewEditorGutter.background": "{{variant.scheme.foreground}}10"
   }
 }
