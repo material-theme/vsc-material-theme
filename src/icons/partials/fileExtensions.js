@@ -93,6 +93,7 @@
   "sln": "_file_vs",
   "pdb": "_file_database",
   "cs": "_file_csharp",
+  "csx": "_file_csharp",
   "csproj": "_file_vs",
   "zip": "_file_zip",
   "tar": "_file_zip",
@@ -263,5 +264,7 @@
   "js.map": "_file_jsmap",
   "css.map": "_file_cssmap",
   "tmTheme": "_file_markup",
-  "pp": "_file_pp"
+  "pp": "_file_pp",
+  "applescript": "_file_applescript",
+  "haml": "_file_haml"
 },
