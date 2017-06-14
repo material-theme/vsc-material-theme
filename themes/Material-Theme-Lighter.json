@@ -773,7 +773,10 @@
     "extensionButton.prominentBackground": "#91B85990",
     "extensionButton.prominentHoverBackground": "#91B859",
     "peekView.border": "#00000020",
-    "peekViewEditor.background": "#90A4AE10",
-    "peekViewEditorGutter.background": "#90A4AE10"
+    "peekViewEditor.background": "#90A4AE05",
+    "peekViewTitle.background": "#90A4AE05",
+    "peekViewResult.background": "#90A4AE05",
+    "peekViewEditorGutter.background": "#90A4AE05",
+    "peekViewTitleDescription.foreground": "#90A4AE60"
   }
 }

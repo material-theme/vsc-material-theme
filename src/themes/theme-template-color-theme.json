@@ -773,7 +773,10 @@
     "extensionButton.prominentBackground": "{{variant.scheme.base.green}}90",
     "extensionButton.prominentHoverBackground": "{{variant.scheme.base.green}}",
     "peekView.border": "{{variant.scheme.shadow}}",
-    "peekViewEditor.background": "{{variant.scheme.foreground}}10",
-    "peekViewEditorGutter.background": "{{variant.scheme.foreground}}10"
+    "peekViewEditor.background": "{{variant.scheme.foreground}}05",
+    "peekViewTitle.background": "{{variant.scheme.foreground}}05",
+    "peekViewResult.background": "{{variant.scheme.foreground}}05",
+    "peekViewEditorGutter.background": "{{variant.scheme.foreground}}05",
+    "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60"
   }
 }
