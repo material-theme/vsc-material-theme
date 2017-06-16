@@ -75,9 +75,11 @@ function accentedThemeName(accentName: string): string {
  * @param accentName
  */
 function assignIconTheme(accentName: string | undefined): void {
+  let accentValue: string;
   let cacheKey: string = 'materialTheme.cache.workbench.iconTheme';
   let cache: any = vscode.workspace.getConfiguration().inspect(cacheKey);
-  let accentValue: string;
+  let currentTheme: any = vscode.workspace.getConfiguration().inspect('workbench.colorTheme');
+  let materialThemeName: string = 'Material Theme';
 
   if (!cache.globalValue && accentName !== undefined) {
     vscode.workspace.getConfiguration().update(cacheKey, vscode.workspace.getConfiguration().get('workbench.iconTheme'), true).then(() => {}, reason => vscode.window.showErrorMessage(reason));
@@ -88,6 +90,12 @@ function assignIconTheme(accentName: string | undefined): void {
     vscode.workspace.getConfiguration().update(cacheKey, undefined, true);
   } else if (accentName !== undefined) {
     accentValue = accentedThemeName(accentName);
+
+    if (!!currentTheme.globalValue && currentTheme.globalValue.indexOf(materialThemeName) >= 0) {
+      let variantName: string | undefined = currentTheme.globalValue.split(materialThemeName)[1];
+
+      accentValue = `${ accentValue }-${ !!variantName ? variantName.trim().toLowerCase() : 'default' }`;
+    }
   }
 
   vscode.workspace.getConfiguration().update('workbench.iconTheme', accentValue, true).then(() => {}, reason => {

@@ -5,6 +5,7 @@ import * as path from 'path';
 
 import { IPackageJSON, IPackageJSONThemeIcons } from "../interfaces/ipackage.json";
 import { MESSAGE_GENERATED, MESSAGE_ICON_ACCENTS_ERROR } from "../consts/log";
+import { addContributeIconTheme, writePackageJSON } from "../helpers/contribute-icon-theme";
 
 import { CHARSET } from "../consts/files";
 import { IThemeConfigCommons } from '../../extensions/interfaces/icommons';
@@ -47,7 +48,7 @@ function replaceNameWithAccent(name: string, accentName: string): string {
  * @param {string} colour
  * @returns {string}
  */
-function replaceSVGColour(filecontent: string, colour: string): string {
+export function replaceSVGColour(filecontent: string, colour: string): string {
   return filecontent.replace(new RegExp('.st0\{fill:#([a-zA-Z0-9]{6})\}|path fill="#([a-zA-Z0-9]{6})"'), ($0, $1, $2) => {
 
     colour = colour.replace('#', '');
@@ -109,12 +110,12 @@ export default gulp.task('build:icons.accents', cb => {
 
       fs.writeFileSync(themePath, JSON.stringify(themecopy));
 
-      PACKAGE_JSON.contributes.iconThemes.push({ id, label, path: themepathJSON });
+      addContributeIconTheme(id, label, themepathJSON, PACKAGE_JSON);
 
       gutil.log(gutil.colors.green(MESSAGE_GENERATED, themePath));
     });
 
-    fs.writeFileSync(path.join(process.cwd(), './package.json'), JSON.stringify(PACKAGE_JSON, null, 2), CHARSET);
+    writePackageJSON(PACKAGE_JSON);
 
   } catch (error) {
     // http://ragefaces.memesoftware.com/faces/large/misc-le-fu-l.png
