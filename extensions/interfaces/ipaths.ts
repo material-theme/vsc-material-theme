@@ -23,4 +23,10 @@ export interface IPaths {
    * @memberof IPaths
    */
   THEMES: string;
+  /**
+   * Extension directory
+   * @type {string}
+   * @memberof IPaths
+   */
+  VSIX_DIR: string;
 }

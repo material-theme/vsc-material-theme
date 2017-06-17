@@ -1,0 +1,29 @@
+{
+  "icons": {
+    "theme": {
+      "iconDefinitions": {
+        "_folder_dark": {
+          "iconPath": "../icons/folder.svg"
+        },
+        "_file_folder": {
+          "iconPath": "../icons/folder.svg"
+        },
+        "_file_folder-build": {
+          "iconPath": "../icons/folder-build.svg"
+        },
+        "_folder_open": {
+          "iconPath": "../icons/folder-outline.svg"
+        },
+        "_folder_open_build": {
+          "iconPath": "../icons/folder-outline-build.svg"
+        }
+      }
+    }
+  },
+  "themeVariants": {
+    "Darker": "#424242",
+    "Default": "#4A616C",
+    "Light": "#90A4AE",
+    "Palenight": "#4E5579"
+  }
+}

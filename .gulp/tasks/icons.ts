@@ -6,7 +6,7 @@ import * as path from 'path';
 
 import { HR, MESSAGE_GENERATED, MESSAGE_ICON_ERROR } from './../consts/log';
 
-import { CHARSET } from '../consts/files';
+import { CHARSET } from "../../extensions/consts/files";
 import { IIcon } from './../interfaces/iicon';
 import { IPlainObject } from '../interfaces/iplain-object';
 import paths from '../../extensions/consts/paths';

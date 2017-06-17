@@ -3,24 +3,25 @@ import * as gulp from 'gulp';
 import * as gutil from 'gulp-util';
 import * as path from 'path';
 
-import { IPackageJSON, IPackageJSONThemeIcons } from "../interfaces/ipackage.json";
 import { MESSAGE_GENERATED, MESSAGE_ICON_ACCENTS_ERROR } from "../consts/log";
-import { addContributeIconTheme, writePackageJSON } from "../helpers/contribute-icon-theme";
 
-import { CHARSET } from "../consts/files";
+import { CHARSET } from "../../extensions/consts/files";
 import { IThemeConfigCommons } from '../../extensions/interfaces/icommons';
 import { IThemeIconsAccents } from "../interfaces/itheme-icons-accents";
 import PATHS from '../../extensions/consts/paths'
 
-const BASE_ICON_THEME_PATH: string = path.join(process.cwd(), PATHS.THEMES, './Material-Theme-Icons.json');
-const THEME_COMMONS: IThemeConfigCommons = require('../../extensions/accents-setter/commons.json');
-const PACKAGE_JSON: IPackageJSON = require('../../package.json');
+// import { IPackageJSON } from "../../extensions/interfaces/ipackage.json";
+// import { writePackageJSON } from "../helpers/contribute-icon-theme";
 
-const PACKAGE_JSON_ICON_THEME: IPackageJSONThemeIcons = {
-  id: "material-theme-icons",
-  label: "Material Theme Icons",
-  path: "./themes/Material-Theme-Icons.json"
-}
+const BASE_ICON_THEME_PATH: string = path.join(process.cwd(), PATHS.THEMES, './Material-Theme-Icons.json');
+const THEME_COMMONS: IThemeConfigCommons = require('../../extensions/commands/accents-setter/commons.json');
+// const PACKAGE_JSON: IPackageJSON = require('../../package.json');
+
+// const PACKAGE_JSON_ICON_THEME: IPackageJSONThemeIcons = {
+//   id: "material-theme-icons",
+//   label: "Material Theme Icons",
+//   path: "./themes/Material-Theme-Icons.json"
+// }
 
 /**
  * Normalizes icon path
@@ -88,7 +89,7 @@ function writeSVGIcon(fromFile: string, toFile: string, accent: string): void {
 export default gulp.task('build:icons.accents', cb => {
   let basetheme: IThemeIconsAccents;
 
-  PACKAGE_JSON.contributes.iconThemes = [ PACKAGE_JSON_ICON_THEME ];
+  // PACKAGE_JSON.contributes.iconThemes = [ PACKAGE_JSON_ICON_THEME ];
 
   try {
     basetheme = require(BASE_ICON_THEME_PATH);
@@ -98,9 +99,9 @@ export default gulp.task('build:icons.accents', cb => {
       let themecopy: IThemeIconsAccents = JSON.parse(JSON.stringify(basetheme));
       let themePath: string = path.join(PATHS.THEMES, `./Material-Theme-Icons-${ key }.json`);
 
-      let id: string = `${ PACKAGE_JSON_ICON_THEME.id }-${ key.replace(/\s+/g, '-').toLowerCase() }`;
-      let label: string = `${ PACKAGE_JSON_ICON_THEME.label } - ${ key } accent`;
-      let themepathJSON: string = `./${ themePath }`;
+      // let id: string = `${ PACKAGE_JSON_ICON_THEME.id }-${ key.replace(/\s+/g, '-').toLowerCase() }`;
+      // let label: string = `${ PACKAGE_JSON_ICON_THEME.label } - ${ key } accent`;
+      // let themepathJSON: string = `./${ themePath }`;
 
       themecopy.iconDefinitions._folder_open.iconPath = replaceNameWithAccent(basetheme.iconDefinitions._folder_open.iconPath, iconName);
       themecopy.iconDefinitions._folder_open_build.iconPath = replaceNameWithAccent(basetheme.iconDefinitions._folder_open_build.iconPath, iconName);
@@ -108,14 +109,14 @@ export default gulp.task('build:icons.accents', cb => {
       writeSVGIcon(basetheme.iconDefinitions._folder_open.iconPath, themecopy.iconDefinitions._folder_open.iconPath, key);
       writeSVGIcon(basetheme.iconDefinitions._folder_open_build.iconPath, themecopy.iconDefinitions._folder_open_build.iconPath, key);
 
-      fs.writeFileSync(themePath, JSON.stringify(themecopy));
+      // fs.writeFileSync(themePath, JSON.stringify(themecopy));
 
-      addContributeIconTheme(id, label, themepathJSON, PACKAGE_JSON);
+      // addContributeIconTheme(id, label, themepathJSON, PACKAGE_JSON);
 
       gutil.log(gutil.colors.green(MESSAGE_GENERATED, themePath));
     });
 
-    writePackageJSON(PACKAGE_JSON);
+    // writePackageJSON(PACKAGE_JSON);
 
   } catch (error) {
     // http://ragefaces.memesoftware.com/faces/large/misc-le-fu-l.png

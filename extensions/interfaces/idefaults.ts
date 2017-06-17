@@ -1,0 +1,33 @@
+export interface IDefaults {
+  icons: IDefaultsThemeIcons;
+  themeVariants: IDefaultsThemeVariant;
+}
+
+export interface IDefaultsThemeIcons {
+  theme: {
+    iconDefinitions: {
+      _folder_open: {
+        iconPath: string;
+      }
+      _folder_open_build: {
+        iconPath: string;
+      }
+      _folder_dark: {
+        iconPath: string;
+      }
+      "_file_folder-build": {
+        iconPath: string;
+      }
+      _file_folder: {
+        iconPath: string;
+      }
+    }
+  }
+}
+
+export interface IDefaultsThemeVariant {
+  Darker: string;
+  Default: string;
+  Light: string;
+  Palenight: string;
+}

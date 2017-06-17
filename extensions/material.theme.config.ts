@@ -1,7 +1,8 @@
 import * as vscode from 'vscode';
 
 import { IGenericObject } from "./interfaces/igeneric-object";
-import { THEME_ACCENTS_SETTER } from "./accents-setter/index";
+import { THEME_ACCENTS_SETTER } from "./commands/accents-setter/index";
+import { THEME_CHANGE_LISTENER } from "./commands/theme-icons/index";
 
 enum Commands {
   ACCENTS,
@@ -25,5 +26,8 @@ export function activate(context: vscode.ExtensionContext) {
       }
     });
   });
+
+  THEME_CHANGE_LISTENER();
+
   context.subscriptions.push(command);
 }

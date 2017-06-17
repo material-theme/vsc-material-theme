@@ -42,7 +42,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:material.theme.config"
+    "*"
   ],
   "main": "./extensions/material.theme.config",
   "contributes": {
@@ -55,17 +55,17 @@
     ],
     "configuration": {
       "properties": {
+        "materialTheme.cache.workbench.accent": {
+          "default": "",
+          "type": "string",
+          "title": "Accent selected",
+          "description": "Theme's current accent."
+        },
         "materialTheme.cache.workbench.colorCustomizations": {
           "default": {},
           "type": "object",
           "title": "Previous color customizations",
           "description": "Keeps in cache your previous color customizations."
-        },
-        "materialTheme.cache.workbench.iconTheme": {
-          "default": "",
-          "type": "string",
-          "title": "Previous icon theme",
-          "description": "Keeps in cache your previous icon theme."
         }
       }
     },
@@ -93,89 +93,9 @@
     ],
     "iconThemes": [
       {
-        "id": "material-theme-icons",
+        "id": "eq-material-theme-icons",
         "label": "Material Theme Icons",
         "path": "./themes/Material-Theme-Icons.json"
-      },
-      {
-        "id": "material-theme-icons-acid-lime",
-        "label": "Material Theme Icons - Acid Lime accent",
-        "path": "./themes/Material-Theme-Icons-Acid Lime.json"
-      },
-      {
-        "id": "material-theme-icons-blue",
-        "label": "Material Theme Icons - Blue accent",
-        "path": "./themes/Material-Theme-Icons-Blue.json"
-      },
-      {
-        "id": "material-theme-icons-breaking-bad",
-        "label": "Material Theme Icons - Breaking Bad accent",
-        "path": "./themes/Material-Theme-Icons-Breaking Bad.json"
-      },
-      {
-        "id": "material-theme-icons-bright-teal",
-        "label": "Material Theme Icons - Bright Teal accent",
-        "path": "./themes/Material-Theme-Icons-Bright Teal.json"
-      },
-      {
-        "id": "material-theme-icons-cyan",
-        "label": "Material Theme Icons - Cyan accent",
-        "path": "./themes/Material-Theme-Icons-Cyan.json"
-      },
-      {
-        "id": "material-theme-icons-graphite",
-        "label": "Material Theme Icons - Graphite accent",
-        "path": "./themes/Material-Theme-Icons-Graphite.json"
-      },
-      {
-        "id": "material-theme-icons-indigo",
-        "label": "Material Theme Icons - Indigo accent",
-        "path": "./themes/Material-Theme-Icons-Indigo.json"
-      },
-      {
-        "id": "material-theme-icons-lime",
-        "label": "Material Theme Icons - Lime accent",
-        "path": "./themes/Material-Theme-Icons-Lime.json"
-      },
-      {
-        "id": "material-theme-icons-orange",
-        "label": "Material Theme Icons - Orange accent",
-        "path": "./themes/Material-Theme-Icons-Orange.json"
-      },
-      {
-        "id": "material-theme-icons-pink",
-        "label": "Material Theme Icons - Pink accent",
-        "path": "./themes/Material-Theme-Icons-Pink.json"
-      },
-      {
-        "id": "material-theme-icons-purple",
-        "label": "Material Theme Icons - Purple accent",
-        "path": "./themes/Material-Theme-Icons-Purple.json"
-      },
-      {
-        "id": "material-theme-icons-red",
-        "label": "Material Theme Icons - Red accent",
-        "path": "./themes/Material-Theme-Icons-Red.json"
-      },
-      {
-        "id": "material-theme-icons-sky",
-        "label": "Material Theme Icons - Sky accent",
-        "path": "./themes/Material-Theme-Icons-Sky.json"
-      },
-      {
-        "id": "material-theme-icons-tomato",
-        "label": "Material Theme Icons - Tomato accent",
-        "path": "./themes/Material-Theme-Icons-Tomato.json"
-      },
-      {
-        "id": "material-theme-icons-teal",
-        "label": "Material Theme Icons - Teal accent",
-        "path": "./themes/Material-Theme-Icons-Teal.json"
-      },
-      {
-        "id": "material-theme-icons-yellow",
-        "label": "Material Theme Icons - Yellow accent",
-        "path": "./themes/Material-Theme-Icons-Yellow.json"
       }
     ]
   },
