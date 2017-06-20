@@ -683,6 +683,7 @@
     "scrollbar.shadow": "{{variant.scheme.background}}00",
     "editorLink.activeForeground": "{{variant.scheme.foreground}}",
     "selection.background": "{{variant.scheme.foreground}}",
+    "progressBar.background": "{{commons.accents.Teal}}",
     "textLink.foreground": "{{commons.accents.Teal}}",
     "textLink.activeForeground": "{{variant.scheme.foreground}}",
     "editorLineNumber.foreground": "{{variant.scheme.lineNumbers}}",
