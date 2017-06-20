@@ -42,7 +42,7 @@ let accentsProperties: IGenericObject<IAccentCustomProperty> = {
   "selection.background": {
     alpha: 100,
     value: undefined
-  },
+  }
 }
 
 /**
