@@ -766,6 +766,7 @@
     "editorError.foreground": "{{variant.scheme.base.red}}50",
     "editorWarning.foreground": "{{variant.scheme.base.green}}50",
     "editorWidget.background": "{{variant.scheme.background}}",
+    "editorMarkerNavigation.background": "{{variant.scheme.foreground}}05",
     "widget.shadow": "{{variant.scheme.shadow}}",
     "panel.border": "{{variant.scheme.background}}",
     "panelTitle.activeForeground": "{{variant.scheme.foreground}}",
@@ -788,5 +789,6 @@
     "peekViewResult.background": "{{variant.scheme.foreground}}05",
     "peekViewEditorGutter.background": "{{variant.scheme.foreground}}05",
     "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60"
+
   }
 }

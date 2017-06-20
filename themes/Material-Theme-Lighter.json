@@ -765,6 +765,7 @@
     "editorError.foreground": "#E5393550",
     "editorWarning.foreground": "#91B85950",
     "editorWidget.background": "#FAFAFA",
+    "editorMarkerNavigation.background": "#90A4AE05",
     "widget.shadow": "#00000020",
     "panel.border": "#FAFAFA",
     "panelTitle.activeForeground": "#90A4AE",
