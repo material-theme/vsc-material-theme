@@ -1,7 +1,8 @@
 import * as vscode from 'vscode';
 
-import { getCurrentThemeID, getCurrentThemeIconsID, reloadWindow } from "../../helpers/vscode";
-import { getDefaultValues, getPackageJSON, getThemeIconsByContributeID, getThemeIconsContribute, writeFile } from "../../helpers/fs";
+import { getCurrentThemeIconsID, reloadWindow } from "../../helpers/vscode";
+import { getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute, writeFile } from "../../helpers/fs";
+import { hasAccentChanged, isMaterialThemeIcons, updateAccent } from "../../helpers/settings";
 
 import {IAccentCustomProperty} from '../../interfaces/iaccent-custom-property';
 import {IGenericObject} from '../../interfaces/igeneric-object';
@@ -75,12 +76,9 @@ function assignColorCustomizations(colour: string, config: any): void {
  */
 export function assignIconTheme(accentName: string | undefined): void {
   // let accentValue: string;
-  let cacheKey: string = 'materialTheme.cache.workbench.accent';
   let themeIconsID: string = getCurrentThemeIconsID();
-  let themeID: string = getCurrentThemeID();
-  let packageJSON = getPackageJSON();
 
-  if (packageJSON.contributes.iconThemes.filter(contribute => contribute.id === themeIconsID).length > 0) {
+  if (isMaterialThemeIcons(themeIconsID)) {
     let defaults = getDefaultValues();
     let theme = getThemeIconsByContributeID(themeIconsID);
     let themeContribute = getThemeIconsContribute(themeIconsID);
@@ -96,17 +94,16 @@ export function assignIconTheme(accentName: string | undefined): void {
 
     writeFile(themeContribute.path, JSON.stringify(theme));
 
-    vscode.workspace.getConfiguration().update(cacheKey, accentName, true);
+    // updateAccent(accentName);
 
-    vscode.workspace.getConfiguration().update('workbench.iconTheme', themeIconsID, true).then(() => {
+    if (hasAccentChanged(accentName)) {
+      reloadWindow();
+    }
+    // vscode.workspace.getConfiguration().update('workbench.iconTheme', themeIconsID, true).then(() => {
       // In order to load modified icons we will have to reload the whole window.
-      if (packageJSON.contributes.themes.filter(theme => theme.label === themeID).length > 0 && packageJSON.contributes.iconThemes.filter(theme => theme.id === themeIconsID).length > 0) {
-        reloadWindow();
-      }
-    });
-  } else {
-    vscode.workspace.getConfiguration().update(cacheKey, accentName, true);
+    // });
   }
+  updateAccent(accentName);
 }
 
 /**

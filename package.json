@@ -65,6 +65,12 @@
           "type": "object",
           "title": "Previous color customizations",
           "description": "Keeps in cache your previous color customizations."
+        },
+        "materialTheme.cache.workbench.settings": {
+          "default": {},
+          "type": "object",
+          "title": "Custom material theme settings",
+          "description": "Keeps in cache your previous color customizations."
         }
       }
     },

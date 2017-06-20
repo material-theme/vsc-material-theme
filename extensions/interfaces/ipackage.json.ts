@@ -8,8 +8,15 @@ export interface IPackageJSONBadge {
 
 export interface IPackageJSONContributes {
   commands: IPackageJSONCommand[];
+  configuration: IPackageJSONConfiguration;
   iconThemes: IPackageJSONThemeIcons[];
   themes: IPackageJSONTheme[];
+}
+
+export interface IPackageJSONConfiguration {
+  properties: {
+
+  }
 }
 
 export interface IPackageJSONCommand {
