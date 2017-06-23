@@ -18,7 +18,6 @@ You can also manually activate this theme by adding these lines to your user set
 "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 "theme": "Material-Theme.sublime-theme",
 ```
-```
 
 ## File icons
 To enable file type icons you have to install an additional package, search for `zz File Icons` on Package Control, after install restart Sublime Text.
@@ -27,7 +26,7 @@ To enable file type icons you have to install an additional package, search for 
 
 ### Other available theme options:
 
-```json
+```
 "material_theme_accent_acid-lime"         : true , // Set acid-lime accent color
 "material_theme_accent_blue"              : true , // Set blue accent color
 "material_theme_accent_brba"              : true , // Set Breaking Bad green accent color
@@ -69,7 +68,7 @@ To enable file type icons you have to install an additional package, search for 
 
 ### Recommended UI and font settings for a better experience:
 
-```json
+```
 {
   "overlay_scroll_bars": "enabled",
   "line_padding_top": 3,
