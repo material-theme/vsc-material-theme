@@ -35,6 +35,7 @@ export const THEME_CHANGE_LISTENER = () => {
 
       theme.iconDefinitions._folder_dark.iconPath = defaults.icons.theme.iconDefinitions._folder_dark.iconPath.replace('.svg', `${ variantName }.svg`);
       theme.iconDefinitions._file_folder.iconPath = defaults.icons.theme.iconDefinitions._file_folder.iconPath.replace('.svg', `${ variantName }.svg`);
+      theme.iconDefinitions._folder_dark_build.iconPath = defaults.icons.theme.iconDefinitions._folder_dark_build.iconPath.replace('.svg', `${ variantName }.svg`);
       theme.iconDefinitions["_file_folder-build"].iconPath = defaults.icons.theme.iconDefinitions["_file_folder-build"].iconPath.replace('.svg', `${ variantName }.svg`);
 
       fs.writeFile(themepath, JSON.stringify(theme), { encoding: CHARSET }, (error) => {
@@ -42,9 +43,16 @@ export const THEME_CHANGE_LISTENER = () => {
           console.trace(error);
           return;
         }
+
+        const PROMPT_MESSAGE: string = 'Material Theme requires VS Code reload in order to display icons correctly.';
+        const PROMPT_MESSAGE_CONFIRM: string = 'Ok, reload';
+        const PROMPT_MESSAGE_CANCEL: string = 'I will do it later';
+
         if (shouldReloadWindow(themeID, themeIconsID)) {
-          vscode.window.showInformationMessage('Material theme requires VS Code reload in order to look very good').then(() => {
-            reloadWindow();
+          vscode.window.showInformationMessage(PROMPT_MESSAGE, PROMPT_MESSAGE_CONFIRM, PROMPT_MESSAGE_CANCEL).then((response) => {
+            if (response === PROMPT_MESSAGE_CONFIRM) {
+              reloadWindow();
+            }
           }, (error) => {
             console.log(error);
           });

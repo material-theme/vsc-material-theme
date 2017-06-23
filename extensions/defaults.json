@@ -26,6 +26,9 @@
         "_file_folder": {
           "iconPath": "../icons/folder.svg"
         },
+        "_folder_dark_build": {
+          "iconPath": "../icons/folder-build.svg"
+        },
         "_file_folder-build": {
           "iconPath": "../icons/folder-build.svg"
         },

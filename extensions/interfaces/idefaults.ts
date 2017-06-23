@@ -21,6 +21,9 @@ export interface IDefaultsThemeIcons {
       _folder_dark: {
         iconPath: string;
       }
+      _folder_dark_build: {
+        iconPath: string;
+      }
       "_file_folder-build": {
         iconPath: string;
       }
