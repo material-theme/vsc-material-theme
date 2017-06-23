@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 
+import { IDefaults } from "../interfaces/idefaults";
 import { IThemeCustomProperties } from "../interfaces/itheme-custom-properties";
 import { getPackageJSON } from "./fs";
 
@@ -8,8 +9,8 @@ import { getPackageJSON } from "./fs";
  * @export
  * @returns {(string | null)}
  */
-export function getAccent(): string | null {
-  return vscode.workspace.getConfiguration().get<string>('materialTheme.cache.workbench.accent', null);
+export function getAccent(): string | undefined {
+  return getCustomSettings().accent;
 }
 
 /**
@@ -22,13 +23,14 @@ export function getCustomSettings(): IThemeCustomProperties {
 }
 
 /**
- * Determines if the accent name has changed
+ * Checks if a given string could be an accent
+ *
  * @export
  * @param {string} accentName
  * @returns {boolean}
  */
-export function hasAccentChanged(accentName: string): boolean {
-  return accentName !== getAccent();
+export function isAccent(accentName: string, defaults: IDefaults): boolean {
+  return Object.keys(defaults.accents).filter(name => name === accentName).length > 0;
 }
 
 /**
@@ -54,15 +56,29 @@ export function isMaterialThemeIcons(themeIconsName: string): boolean {
 }
 
 /**
- * Sets custom properties in custom settings
+ * Sets a custom property in custom settings
  * @export
  * @param {string} settingname
  * @param {*} value
  */
-export function setCustomSetting(settingname: string, value: any): void {
+export function setCustomSetting(settingname: string, value: any): Thenable<void> {
   let settings: any = getCustomSettings();
   settings[settingname] = value;
-  vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.settings', settings, true);
+  return vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.settings', settings, true);
+}
+
+/**
+ * Sets custom properties in custom settings
+ * @export
+ * @param {*} settingsObject
+ * @returns {Thenable<void>}
+ */
+export function setCustomSettings(settingsObject: IThemeCustomProperties): Thenable<void> {
+  let settings: any = getCustomSettings();
+
+  Object.keys(settingsObject).forEach(key => settings[key] = (settingsObject as any)[key]);
+
+  return vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.settings', settings, true);
 }
 
 /**
@@ -80,7 +96,7 @@ export function shouldReloadWindow(themeColour: string, themeIcons: string): boo
 
   let customSettings = getCustomSettings();
 
-  return customSettings.themeColours !== themeColour || customSettings.themeIcons !== themeIcons;
+  return customSettings.themeColours !== themeColour || customSettings.themeIcons !== themeIcons || customSettings.accent !== customSettings.accentPrevious;
 }
 
 /**
@@ -88,24 +104,17 @@ export function shouldReloadWindow(themeColour: string, themeIcons: string): boo
  * @export
  * @param {string} accentName
  */
-export function updateAccent(accentName: string): void {
-  vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.accent', accentName, true);
-}
+export function updateAccent(accentName: string): Thenable<void> {
+  let config: IThemeCustomProperties = {};
+  let prevaccent = getAccent();
 
-/**
- * Updates theme name to custom settings
- * @export
- * @param {string} themeName
- */
-export function updateSettingsTheme(themeName: string): void {
-  setCustomSetting('themeColours', themeName);
-}
+  if (prevaccent !== undefined && prevaccent !== accentName) {
+    config.accentPrevious = prevaccent;
+  } else if (accentName === undefined) {
+    config.accentPrevious = undefined;
+  }
 
-/**
- * Updates icons theme name to custom settings
- * @export
- * @param {string} themeName
- */
-export function updateSettingsThemeIcons(themeName: string): void {
-  setCustomSetting('themeIcons', themeName);
+  config.accent = accentName;
+
+  return setCustomSettings(config);
 }

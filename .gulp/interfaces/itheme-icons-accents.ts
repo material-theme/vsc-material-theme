@@ -1,10 +1,8 @@
-interface IIconObject {
-  iconPath: string
-}
+import { IThemeIconsItem } from "./itheme-icons-item";
 
 export interface IThemeIconsAccents {
   iconDefinitions: {
-    _folder_open: IIconObject;
-    _folder_open_build: IIconObject;
+    _folder_open: IThemeIconsItem;
+    _folder_open_build: IThemeIconsItem;
   }
 }

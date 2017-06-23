@@ -1,6 +1,12 @@
 export interface IDefaults {
+  accents: IAccents;
   icons: IDefaultsThemeIcons;
   themeVariants: IDefaultsThemeVariant;
+}
+
+export interface IAccents {
+  teal: string;
+  [index: string]: string;
 }
 
 export interface IDefaultsThemeIcons {

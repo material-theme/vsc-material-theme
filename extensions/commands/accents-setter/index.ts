@@ -1,16 +1,13 @@
 import * as vscode from 'vscode';
 
-import { getCurrentThemeIconsID, reloadWindow } from "../../helpers/vscode";
-import { getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute, writeFile } from "../../helpers/fs";
-import { hasAccentChanged, isMaterialThemeIcons, updateAccent } from "../../helpers/settings";
-
 import {IAccentCustomProperty} from '../../interfaces/iaccent-custom-property';
+import { IDefaults } from "../../interfaces/idefaults";
 import {IGenericObject} from '../../interfaces/igeneric-object';
-import {IThemeConfigCommons} from '../../interfaces/icommons';
+import { updateAccent } from "../../helpers/settings";
 
 const REGEXP_HEX: RegExp = /^#([0-9A-F]{6}|[0-9A-F]{8})$/i;
 
-let themeConfigCommon: IThemeConfigCommons = require('./commons.json');
+let themeConfigCommon: IDefaults = require('../../defaults.json');
 let accentsProperties: IGenericObject<IAccentCustomProperty> = {
   "activityBarBadge.background": {
     alpha: 100,
@@ -71,42 +68,6 @@ function assignColorCustomizations(colour: string, config: any): void {
 }
 
 /**
- * Assigns related icons theme name by accent name
- * @param accentName
- */
-export function assignIconTheme(accentName: string | undefined): void {
-  // let accentValue: string;
-  let themeIconsID: string = getCurrentThemeIconsID();
-
-  if (isMaterialThemeIcons(themeIconsID)) {
-    let defaults = getDefaultValues();
-    let theme = getThemeIconsByContributeID(themeIconsID);
-    let themeContribute = getThemeIconsContribute(themeIconsID);
-
-    if (accentName !== undefined) {
-      accentName = accentName.replace(/\s+/, '-');
-      theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath.replace('.svg', `.accent.${ accentName }.svg`);
-      theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath.replace('.svg', `.accent.${ accentName }.svg`);
-    } else {
-      theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath;
-      theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath;
-    }
-
-    writeFile(themeContribute.path, JSON.stringify(theme));
-
-    // updateAccent(accentName);
-
-    if (hasAccentChanged(accentName)) {
-      reloadWindow();
-    }
-    // vscode.workspace.getConfiguration().update('workbench.iconTheme', themeIconsID, true).then(() => {
-      // In order to load modified icons we will have to reload the whole window.
-    // });
-  }
-  updateAccent(accentName);
-}
-
-/**
  * Determines if a string is a valid colour
  * @param {(string | null | undefined)} colour
  * @returns {boolean}
@@ -123,9 +84,12 @@ function isValidColour(colour: string | null | undefined): boolean {
  * @param {string} accentSelected
  * @param {*} config
  */
-function setWorkbenchOptions(accentSelected: string, config: any): void {
+function setWorkbenchOptions(accentSelected: string | undefined, config: any): void {
   vscode.workspace.getConfiguration().update('workbench.colorCustomizations', config, true).then(() => {
-    vscode.window.showInformationMessage(`${ accentSelected } set`);
+    // let message: string = accentSelected !== undefined ? `${ accentSelected } set` : `Accents removed`;
+    updateAccent(accentSelected);
+    // vscode.window.showInformationMessage(message).then(() => {
+    // });
   }, reason => {
     vscode.window.showErrorMessage(reason);
   });
@@ -164,13 +128,12 @@ export const THEME_ACCENTS_SETTER = () => {
       // break;
       case purgeColourKey:
         assignColorCustomizations(undefined, config);
-        setWorkbenchOptions(accentSelected, config);
-        assignIconTheme(undefined);
+        setWorkbenchOptions(undefined, config);
       break;
       default:
         assignColorCustomizations(themeConfigCommon.accents[accentSelected], config);
         setWorkbenchOptions(accentSelected, config);
-        assignIconTheme(accentSelected);
+        // assignIconTheme(accentSelected);
       break;
     }
   });

@@ -54,23 +54,11 @@
     ],
     "configuration": {
       "properties": {
-        "materialTheme.cache.workbench.accent": {
-          "default": "",
-          "type": "string",
-          "title": "Accent selected",
-          "description": "Theme's current accent."
-        },
-        "materialTheme.cache.workbench.colorCustomizations": {
-          "default": {},
-          "type": "object",
-          "title": "Previous color customizations",
-          "description": "Keeps in cache your previous color customizations."
-        },
         "materialTheme.cache.workbench.settings": {
           "default": {},
           "type": "object",
           "title": "Custom material theme settings",
-          "description": "Keeps in cache your previous color customizations."
+          "description": "Material theme settings object."
         }
       }
     },

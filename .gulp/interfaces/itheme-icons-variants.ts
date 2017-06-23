@@ -1,12 +1,10 @@
-export interface IThemeIconsVariantsItem {
-  iconPath: string;
-}
+import { IThemeIconsItem } from "./itheme-icons-item";
 
 export interface IThemeIconsVariants {
   iconDefinitions: {
-    "_folder_dark": IThemeIconsVariantsItem;
-    "_folder_dark-build": IThemeIconsVariantsItem;
-    "_file_folder": IThemeIconsVariantsItem;
-    "_file_folder-build": IThemeIconsVariantsItem;
+    "_folder_dark": IThemeIconsItem;
+    "_folder_dark-build": IThemeIconsItem;
+    "_file_folder": IThemeIconsItem;
+    "_file_folder-build": IThemeIconsItem;
   }
 }

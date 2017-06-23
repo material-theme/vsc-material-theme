@@ -3,50 +3,51 @@ import * as vscode from 'vscode';
 
 import { getAbsolutePath, getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute } from "../../helpers/fs";
 import { getCurrentThemeID, getCurrentThemeIconsID, reloadWindow } from "../../helpers/vscode";
-import { shouldReloadWindow, updateSettingsTheme, updateSettingsThemeIcons } from "../../helpers/settings";
+import { getCustomSettings, isAccent, shouldReloadWindow } from "../../helpers/settings";
 
 import { CHARSET } from "../../consts/files";
 import { IPackageJSONThemeIcons } from "../../interfaces/ipackage.json";
 import { IThemeIcons } from "../../interfaces/itheme-icons";
-import { assignIconTheme } from "../accents-setter/index";
 
 export const THEME_CHANGE_LISTENER = () => {
   vscode.workspace.onDidChangeConfiguration(() => {
-    let cacheKey: string = 'materialTheme.cache.workbench.accent';
-    let cache = vscode.workspace.getConfiguration().get<any>(cacheKey);
     let themeID: string = getCurrentThemeID();
     let themeIconsID: string = getCurrentThemeIconsID();
 
     if (themeIconsID && /material-theme/i.test(themeIconsID)) {
+      let customSettings = getCustomSettings();
       let defaults = getDefaultValues();
+      let accentName = customSettings.accent;
       let variantNames: string[] = themeID.split('Material Theme');
       let variantName: string = variantNames[1] === undefined ? '' : variantNames[1].trim();
       let themeContribute: IPackageJSONThemeIcons = getThemeIconsContribute(themeIconsID);
       let theme: IThemeIcons = getThemeIconsByContributeID(themeIconsID);
       let themepath: string = getAbsolutePath(themeContribute.path);
-      let shouldReload: boolean = shouldReloadWindow(themeID, themeIconsID);
+
+      if (isAccent(accentName, defaults)) {
+        let _accentName = accentName.replace(/\s+/, '-');
+        theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath.replace('.svg', `.accent.${ _accentName }.svg`);
+        theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath.replace('.svg', `.accent.${ _accentName }.svg`);
+      } else {
+        theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath;
+        theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath;
+      }
 
       theme.iconDefinitions._folder_dark.iconPath = defaults.icons.theme.iconDefinitions._folder_dark.iconPath.replace('.svg', `${ variantName }.svg`);
       theme.iconDefinitions._file_folder.iconPath = defaults.icons.theme.iconDefinitions._file_folder.iconPath.replace('.svg', `${ variantName }.svg`);
       theme.iconDefinitions["_file_folder-build"].iconPath = defaults.icons.theme.iconDefinitions["_file_folder-build"].iconPath.replace('.svg', `${ variantName }.svg`);
 
-      if (!!cache && cache.globalValue) {
-        assignIconTheme(cacheKey);
-      }
-
-      updateSettingsTheme(themeID);
-      updateSettingsThemeIcons(themeIconsID);
-
-      console.log(
-        theme.iconDefinitions._folder_dark.iconPath
-      , theme.iconDefinitions._file_folder.iconPath
-      )
-
-      fs.writeFileSync(themepath, JSON.stringify(theme), CHARSET);
-
-      vscode.workspace.getConfiguration().update('workbench.iconTheme', themeIconsID, true).then(() => {
-        if (shouldReload) {
-          reloadWindow();
+      fs.writeFile(themepath, JSON.stringify(theme), { encoding: CHARSET }, (error) => {
+        if (error) {
+          console.trace(error);
+          return;
+        }
+        if (shouldReloadWindow(themeID, themeIconsID)) {
+          vscode.window.showInformationMessage('Material theme requires VS Code reload in order to look very good').then(() => {
+            reloadWindow();
+          }, (error) => {
+            console.log(error);
+          });
         }
       });
     }

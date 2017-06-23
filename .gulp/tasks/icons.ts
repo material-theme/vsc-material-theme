@@ -7,8 +7,8 @@ import * as path from 'path';
 import { HR, MESSAGE_GENERATED, MESSAGE_ICON_ERROR } from './../consts/log';
 
 import { CHARSET } from "../../extensions/consts/files";
+import { IGenericObject } from "../../extensions/interfaces/igeneric-object";
 import { IIcon } from './../interfaces/iicon';
-import { IPlainObject } from '../interfaces/iplain-object';
 import paths from '../../extensions/consts/paths';
 
 /**
@@ -32,7 +32,7 @@ export default gulp.task('build:icons', cb => {
   let fileNames: string[] = fs.readdirSync(path.join(paths.SRC, `./icons/svgs`));
   let icons: IIcon[] = fileNames.map(fileName => iconFactory(fileName));
   let partials: string[] = fs.readdirSync(path.join(paths.SRC, `./icons/partials`));
-  let partialsData: IPlainObject = {};
+  let partialsData: IGenericObject<any> = {};
   let pathTemp: string = './themes/.material-theme-icons.tmp';
 
   icons[icons.length - 1].last = true;

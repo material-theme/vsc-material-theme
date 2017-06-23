@@ -7,10 +7,11 @@ import * as path from 'path';
 import { HR, MESSAGE_GENERATED, MESSAGE_THEME_VARIANT_PARSE_ERROR } from './../consts/log';
 
 import { CHARSET } from "../../extensions/consts/files";
+import { IDefaults } from "../../extensions/interfaces/idefaults";
 import { IThemeVariant } from './../interfaces/itheme-variant';
 import paths from '../../extensions/consts/paths';
 
-let commons = require('../../extensions/commands/accents-setter/commons.json');
+let commons: IDefaults = require('../../extensions/defaults.json');
 
 let themeTemplateFileContent: string = fs.readFileSync(path.join(paths.SRC, `/themes/theme-template-color-theme.json`), CHARSET);
 let themeVariants: IThemeVariant[] = [];

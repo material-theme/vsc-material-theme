@@ -6,7 +6,7 @@ import * as path from 'path';
 import { MESSAGE_GENERATED, MESSAGE_ICON_ACCENTS_ERROR } from "../consts/log";
 
 import { CHARSET } from "../../extensions/consts/files";
-import { IThemeConfigCommons } from '../../extensions/interfaces/icommons';
+import { IDefaults } from "../../extensions/interfaces/idefaults";
 import { IThemeIconsAccents } from "../interfaces/itheme-icons-accents";
 import PATHS from '../../extensions/consts/paths'
 
@@ -14,7 +14,7 @@ import PATHS from '../../extensions/consts/paths'
 // import { writePackageJSON } from "../helpers/contribute-icon-theme";
 
 const BASE_ICON_THEME_PATH: string = path.join(process.cwd(), PATHS.THEMES, './Material-Theme-Icons.json');
-const THEME_COMMONS: IThemeConfigCommons = require('../../extensions/commands/accents-setter/commons.json');
+const DEFAULTS: IDefaults = require('../../extensions/defaults.json');
 // const PACKAGE_JSON: IPackageJSON = require('../../package.json');
 
 // const PACKAGE_JSON_ICON_THEME: IPackageJSONThemeIcons = {
@@ -79,7 +79,7 @@ function replaceWhiteSpaces(input: string): string {
  */
 function writeSVGIcon(fromFile: string, toFile: string, accent: string): void {
   let fileContent: string = fs.readFileSync(normalizeIconPath(fromFile), CHARSET);
-  let content: string = replaceSVGColour(fileContent, THEME_COMMONS.accents[accent]);
+  let content: string = replaceSVGColour(fileContent, DEFAULTS.accents[accent]);
   toFile = normalizeIconPath(toFile);
 
   fs.writeFileSync(toFile, content);
@@ -94,7 +94,7 @@ export default gulp.task('build:icons.accents', cb => {
   try {
     basetheme = require(BASE_ICON_THEME_PATH);
 
-    Object.keys(THEME_COMMONS.accents).forEach(key => {
+    Object.keys(DEFAULTS.accents).forEach(key => {
       let iconName = replaceWhiteSpaces(key);
       let themecopy: IThemeIconsAccents = JSON.parse(JSON.stringify(basetheme));
       let themePath: string = path.join(PATHS.THEMES, `./Material-Theme-Icons-${ key }.json`);
