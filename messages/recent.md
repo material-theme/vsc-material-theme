@@ -1,9 +1,9 @@
 #### Material Theme for Sublime Text 3
 
-## Version 4.0.6
+## Version 4.0.7
 
-📣 **FEATURES**:
-  * Add title bar theme (build 3128+) ([431b28c](https://github.com/equinusocio/material-theme/commit/431b28c))
+📣 **FIX**:
+* Fix folder icon background color ([49460b9](https://github.com/equinusocio/material-theme/commit/49460b9)), closes [#1144](https://github.com/equinusocio/material-theme/issues/1144)
 
 
 
