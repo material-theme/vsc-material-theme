@@ -11,10 +11,9 @@ addons:
     packages:
       - g++-4.8
 install:
-  - curl https://raw.githubusercontent.com/twolfson/sublime-installer/0.1.3/install.sh | sh -s 3
+  - curl --location https://raw.githubusercontent.com/twolfson/sublime-installer/master/install.sh | sh -s 3
   - subl --version
-install:
-  - npm install
   - npm install -g gulp
+  - npm install
 script:
   - gulp
