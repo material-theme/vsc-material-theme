@@ -167,6 +167,15 @@
       }
     },
     {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "variable.parameter.function.language.special"
+      ],
+      "settings": {
+        "foreground": "#E53935"
+      }
+    },
+    {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
