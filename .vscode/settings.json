@@ -18,9 +18,6 @@
   },
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
-  "[python]": {
-    "editor.tabSize": 4
-  },
   "[markdown]": {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.tabSize": 4,
