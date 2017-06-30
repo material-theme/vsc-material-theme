@@ -687,7 +687,9 @@
     "textLink.foreground": "{{commons.accents.Teal}}",
     "textLink.activeForeground": "{{variant.scheme.foreground}}",
     "editorLineNumber.foreground": "{{variant.scheme.lineNumbers}}",
-    "editorBracketMatch.border": "{{variant.scheme.caret}}",
+    "editorBracketMatch.border": "{{variant.scheme.caret}}50",
+    "editorBracketMatch.background": "{{variant.scheme.background}}",
+    "editorWhitespace.foreground": "{{variant.scheme.foreground}}10",
     "editor.background": "{{variant.scheme.background}}",
     "editor.foreground": "{{variant.scheme.foreground}}",
     "editor.lineHighlightBackground": "{{variant.scheme.lineHighlight}}50",
@@ -706,9 +708,11 @@
     "tab.inactiveBackground": "{{variant.scheme.background}}",
     "tab.unfocusedActiveForeground": "{{variant.scheme.foreground}}",
     "tab.border": "{{variant.scheme.background}}",
-    "statusBar.background": "{{variant.scheme.background}}",
     "statusBar.noFolderBackground": "{{variant.scheme.background}}",
+    "statusBar.background": "{{variant.scheme.background}}",
     "statusBar.foreground": "{{variant.scheme.statusbarForeground}}",
+    "statusBar.debuggingBackground": "{{variant.scheme.base.purple}}",
+    "statusBar.debuggingForeground": "{{variant.scheme.base.white}}",
     "activityBar.background": "{{variant.scheme.background}}",
     "activityBar.foreground": "{{variant.scheme.foreground}}",
     "activityBarBadge.background": "{{commons.accents.Teal}}",
@@ -736,7 +740,7 @@
     "list.activeSelectionForeground": "{{commons.accents.Teal}}",
     "list.inactiveSelectionForeground": "{{commons.accents.Teal}}",
     "list.inactiveSelectionBackground": "{{variant.scheme.background}}",
-    "list.focusBackground": "{{variant.scheme.foreground}}10",
+    "list.focusBackground": "{{variant.scheme.foreground}}20",
     "list.focusForeground": "{{variant.scheme.foreground}}",
     "list.highlightForeground": "{{commons.accents.Teal}}",
     "terminal.ansiWhite": "{{variant.scheme.base.white}}",
@@ -788,7 +792,8 @@
     "peekViewTitle.background": "{{variant.scheme.foreground}}05",
     "peekViewResult.background": "{{variant.scheme.foreground}}05",
     "peekViewEditorGutter.background": "{{variant.scheme.foreground}}05",
-    "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60"
-
+    "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60",
+    "debugToolBar.background": "{{variant.scheme.background}}",
+    "pickerGroup.foreground": "{{commons.accents.Teal}}"
   }
 }

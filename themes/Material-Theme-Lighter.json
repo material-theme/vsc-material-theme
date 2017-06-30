@@ -687,7 +687,9 @@
     "textLink.foreground": "#80CBC4",
     "textLink.activeForeground": "#90A4AE",
     "editorLineNumber.foreground": "#CFD8DC",
-    "editorBracketMatch.border": "#272727",
+    "editorBracketMatch.border": "#27272750",
+    "editorBracketMatch.background": "#FAFAFA",
+    "editorWhitespace.foreground": "#90A4AE10",
     "editor.background": "#FAFAFA",
     "editor.foreground": "#90A4AE",
     "editor.lineHighlightBackground": "#CCD7DA50",
@@ -705,9 +707,11 @@
     "tab.inactiveBackground": "#FAFAFA",
     "tab.unfocusedActiveForeground": "#90A4AE",
     "tab.border": "#FAFAFA",
-    "statusBar.background": "#FAFAFA",
     "statusBar.noFolderBackground": "#FAFAFA",
-    "statusBar.foreground": "#90A4AE",
+    "statusBar.background": "#FAFAFA",
+    "statusBar.foreground": "#7E939E",
+    "statusBar.debuggingBackground": "#7C4DFF",
+    "statusBar.debuggingForeground": "#FFFFFF",
     "activityBar.background": "#FAFAFA",
     "activityBar.foreground": "#90A4AE",
     "activityBarBadge.background": "#80CBC4",
@@ -735,7 +739,7 @@
     "list.activeSelectionForeground": "#80CBC4",
     "list.inactiveSelectionForeground": "#80CBC4",
     "list.inactiveSelectionBackground": "#FAFAFA",
-    "list.focusBackground": "#90A4AE10",
+    "list.focusBackground": "#90A4AE20",
     "list.focusForeground": "#90A4AE",
     "list.highlightForeground": "#80CBC4",
     "terminal.ansiWhite": "#FFFFFF",
@@ -787,6 +791,8 @@
     "peekViewTitle.background": "#90A4AE05",
     "peekViewResult.background": "#90A4AE05",
     "peekViewEditorGutter.background": "#90A4AE05",
-    "peekViewTitleDescription.foreground": "#90A4AE60"
+    "peekViewTitleDescription.foreground": "#90A4AE60",
+    "debugToolBar.background": "#FAFAFA",
+    "pickerGroup.foreground": "#80CBC4"
   }
 }

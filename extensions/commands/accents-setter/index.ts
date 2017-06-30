@@ -40,6 +40,10 @@ let accentsProperties: IGenericObject<IAccentCustomProperty> = {
   "progressBar.background": {
     alpha: 100,
     value: undefined
+  },
+  "pickerGroup.foreground": {
+    alpha: 100,
+    value: undefined
   }
 }
 
