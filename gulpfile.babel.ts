@@ -6,4 +6,4 @@ import * as tasks from './.gulp';
 GulpStats(Gulp);
 
 // set default task
-Gulp.task('default', tasks.default);
+Gulp.task('default', tasks.default as any);
