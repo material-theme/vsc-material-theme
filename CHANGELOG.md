@@ -1,3 +1,8 @@
+<a name="4.0.8"></a>
+## [4.0.8](https://github.com/equinusocio/material-theme/compare/v4.0.7...v4.0.8) (2017-07-05)
+
+
+
 <a name="4.0.7"></a>
 ## [4.0.7](https://github.com/equinusocio/material-theme/compare/v4.0.6...v4.0.7) (2017-06-28)
 
