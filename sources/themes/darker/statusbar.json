@@ -26,10 +26,10 @@
 
   {
     "class": "status_bar",
-    "content_margin": [0, 0],
+    "content_margin": [8, 0, 0, 0],
 
     // Layer 0 base
-    "layer0.tint": [33, 33, 33],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [2, 2],
 
@@ -45,7 +45,7 @@
 
   {
     "class": "status_button",
-    "layer0.tint": [33, 33, 33],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 1.0,
     "layer0.draw_center": false,
     "layer0.inner_margin": [1, 0, 0, 0],
@@ -55,7 +55,7 @@
 
   {
     "class": "status_button",
-    "layer0.tint": [33, 33, 33],
+    "layer0.tint": [<%= ui.background.primary.rgb %>],
     "layer0.opacity": 1.0,
     "layer0.draw_center": false,
     "layer0.inner_margin": [1, 0, 0, 0],
