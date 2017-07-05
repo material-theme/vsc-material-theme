@@ -1910,6 +1910,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_lime"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-lime/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_lime"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-lime/folder_dup--hover.png"
+    },
+  
   // Purple Accent Color
   // ===========================================================================
   
@@ -2308,6 +2325,23 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_purple"],
       "layer1.texture": "Material Theme/assets/accent-purple/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+  
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_purple"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-purple/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_purple"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-purple/folder_dup--hover.png"
     },
   
   // Red Accent Color
@@ -2710,6 +2744,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_red"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-red/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_red"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-red/folder_dup--hover.png"
+    },
+  
   // Orange Accent Color
   // ===========================================================================
   
@@ -3108,6 +3159,23 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_orange"],
       "layer1.texture": "Material Theme/assets/accent-orange/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+  
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_orange"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-orange/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_orange"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-orange/folder_dup--hover.png"
     },
   
   // Yellow Accent Color
@@ -3510,6 +3578,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_yellow"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-yellow/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_yellow"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-yellow/folder_dup--hover.png"
+    },
+  
   // Indigo Accent Color
   // ===========================================================================
   
@@ -3908,6 +3993,23 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_indigo"],
       "layer1.texture": "Material Theme/assets/accent-indigo/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+  
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_indigo"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-indigo/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_indigo"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-indigo/folder_dup--hover.png"
     },
   
   // Pink Accent Color
@@ -4310,6 +4412,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_pink"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-pink/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_pink"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-pink/folder_dup--hover.png"
+    },
+  
   // Blue Accent Color
   // ===========================================================================
   
@@ -4708,6 +4827,23 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_blue"],
       "layer1.texture": "Material Theme/assets/accent-blue/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+  
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_blue"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-blue/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_blue"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-blue/folder_dup--hover.png"
     },
   
   // Cyan Accent Color
@@ -5110,6 +5246,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_cyan"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-cyan/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_cyan"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-cyan/folder_dup--hover.png"
+    },
+  
   // Bright Teal Accent Color
   // ===========================================================================
   
@@ -5508,6 +5661,23 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_bright-teal"],
       "layer1.texture": "Material Theme/assets/accent-bright-teal/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+  
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_bright-teal"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_bright-teal"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-bright-teal/folder_dup--hover.png"
     },
   
   // Acid Lime Accent Color
@@ -5910,6 +6080,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_acid-lime"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_acid-lime"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-acid-lime/folder_dup--hover.png"
+    },
+  
   // Graphite Accent Color
   // ===========================================================================
   
@@ -6308,6 +6495,23 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_graphite"],
       "layer1.texture": "Material Theme/assets/accent-graphite/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+  
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_graphite"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-graphite/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_graphite"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-graphite/folder_dup--hover.png"
     },
   
   // Breaking Bad Accent Color
@@ -6710,6 +6914,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_brba"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-brba/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_brba"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-brba/folder_dup--hover.png"
+    },
+  
   // Sky Accent Color
   // ===========================================================================
   
@@ -7110,6 +7331,23 @@
       "layer1.opacity": 0.8
     },
   
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_sky"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-sky/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_sky"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-sky/folder_dup--hover.png"
+    },
+  
   // Tomato Accent Color
   // ===========================================================================
   
@@ -7508,6 +7746,23 @@
       "settings": ["material_theme_accent_scrollbars", "material_theme_accent_tomato"],
       "layer1.texture": "Material Theme/assets/accent-tomato/thumb_horizontal.png",
       "layer1.opacity": 0.8
+    },
+  
+    // Symlink folder icon
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_tomato"],
+      "parents":
+      [{ "class": "tree_row", "attributes": ["hover"] }],
+      "layer0.texture": "Material Theme/assets/accent-tomato/folder_dup--hover.png"
+    },
+  
+    {
+      "class": "icon_folder_dup",
+      "settings": ["material_theme_accent_tomato"],
+      "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+      "layer0.texture": "Material Theme/assets/accent-tomato/folder_dup--hover.png"
     },
   
   
