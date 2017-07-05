@@ -12,55 +12,56 @@
   "tasks": [
     {
       "args": [
-        "run"
-      , "build"
+        "run",
+        "build"
       ],
       "isBuildCommand": true,
       "command": "npm",
       "dependsOn": "tsc",
       "echoCommand": true,
       "isShellCommand": true,
-      "taskName": "build"
+      "taskName": "build",
+      "problemMatcher": []
     },
     {
       "linux": {
         "args": [
-          "."
-        , "-name"
-        , "\"*.js\""
-        , "-not"
-        , "-path"
-        , "\"./node_modules/*\""
-        , "-not"
-        , "-path"
-        , "\"./src/*\""
-        , "-not"
-        , "-path"
-        , "\"./test/*\""
-        , "-type"
-        , "f"
-        , "-delete"
+          ".",
+          "-name",
+          "\"*.js\"",
+          "-not",
+          "-path",
+          "\"./node_modules/*\"",
+          "-not",
+          "-path",
+          "\"./src/*\"",
+          "-not",
+          "-path",
+          "\"./test/*\"",
+          "-type",
+          "f",
+          "-delete"
         ],
         "command": "find",
         "isShellCommand": true
       },
       "osx": {
         "args": [
-          "."
-        , "-name"
-        , "\"*.js\""
-        , "-not"
-        , "-path"
-        , "\"./node_modules/*\""
-        , "-not"
-        , "-path"
-        , "\"./src/*\""
-        , "-not"
-        , "-path"
-        , "\"./test/*\""
-        , "-type"
-        , "f"
-        , "-delete"
+          ".",
+          "-name",
+          "\"*.js\"",
+          "-not",
+          "-path",
+          "\"./node_modules/*\"",
+          "-not",
+          "-path",
+          "\"./src/*\"",
+          "-not",
+          "-path",
+          "\"./test/*\"",
+          "-type",
+          "f",
+          "-delete"
         ],
         "command": "find",
         "isShellCommand": true
@@ -71,8 +72,8 @@
     },
     {
       "args": [
-        "run"
-      , "changelog"
+        "run",
+        "changelog"
       ],
       "command": "npm",
       "echoCommand": true,
@@ -81,8 +82,8 @@
     },
     {
       "args": [
-        "-p"
-      , "."
+        "-p",
+        "."
       ],
       "command": "tsc",
       "dependsOn": "clean project",
