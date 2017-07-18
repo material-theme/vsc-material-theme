@@ -8,5 +8,7 @@ import Paths from "../../extensions/consts/paths";
  * Watches files and build the themes
  */
 export default gulp.task('watch', () => {
-  gulp.watch(path.join(Paths.SRC, `./themes/**/*.json`), ['build:themes']);
+  // Commented due
+  // gulp.watch(path.join(Paths.SRC, `./themes/**/*.json`), ['build:themes']);
+  gulp.watch(path.join(Paths.SRC, `./themes/**/*.json`));
 });
