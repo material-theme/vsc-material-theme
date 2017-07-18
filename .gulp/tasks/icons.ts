@@ -55,7 +55,7 @@ export default gulp.task('build:icons', cb => {
     return;
   }
 
-  fs.writeFileSync(pathTemp, contents, CHARSET);
+  fs.writeFileSync(pathTemp, contents, { encoding: CHARSET });
 
   gutil.log(gutil.colors.gray(HR));
   gutil.log(MESSAGE_GENERATED, gutil.colors.green(pathTemp));

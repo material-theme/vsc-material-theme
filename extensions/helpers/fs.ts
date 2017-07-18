@@ -76,5 +76,5 @@ export function getPackageJSON(): IPackageJSON {
 export function writeFile(filename: string, filecontent: string): void {
   filename = path.join(PATHS.VSIX_DIR, filename);
   console.log(arguments)
-  fs.writeFileSync(filename, filecontent, CHARSET);
+  fs.writeFileSync(filename, filecontent, { encoding: CHARSET });
 }

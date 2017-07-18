@@ -43,7 +43,7 @@ export default gulp.task('build:themes', () => {
     let templateJSON: any = JSON.parse(mustache.render(themeTemplateFileContent, templateData));
     let templateJSONStringified: string = JSON.stringify(templateJSON, null, 2);
 
-    fs.writeFileSync(filePath, templateJSONStringified, CHARSET);
+    fs.writeFileSync(filePath, templateJSONStringified, { encoding: CHARSET });
 
     gulpUtil.log(MESSAGE_GENERATED, gulpUtil.colors.green(filePath));
   });

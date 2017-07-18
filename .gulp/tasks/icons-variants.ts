@@ -22,7 +22,7 @@ function writeIconVariant(filepath: string, destpath: string, colour: string): v
 
   filepath = path.join(process.cwd(), PATHS.ICONS, filepath);
   destpath = path.join(process.cwd(), PATHS.ICONS, destpath);
-  fs.writeFileSync(destpath, fs.readFileSync(filepath, CHARSET).replace(regexp, ($0, $1) => $0.replace($1, colour)), CHARSET) ;
+  fs.writeFileSync(destpath, fs.readFileSync(filepath, CHARSET).replace(regexp, ($0, $1) => $0.replace($1, colour)), { encoding: CHARSET }) ;
 }
 
 

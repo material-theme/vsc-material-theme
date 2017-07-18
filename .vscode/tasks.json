@@ -15,12 +15,13 @@
         "run",
         "build"
       ],
-      "isBuildCommand": true,
       "command": "npm",
       "dependsOn": "tsc",
-      "echoCommand": true,
-      "isShellCommand": true,
       "taskName": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
       "problemMatcher": []
     },
     {
@@ -42,8 +43,7 @@
           "f",
           "-delete"
         ],
-        "command": "find",
-        "isShellCommand": true
+        "command": "find"
       },
       "osx": {
         "args": [
@@ -63,11 +63,9 @@
           "f",
           "-delete"
         ],
-        "command": "find",
-        "isShellCommand": true
+        "command": "find"
       },
       "command": "",
-      "echoCommand": true,
       "taskName": "clean project"
     },
     {
@@ -76,8 +74,6 @@
         "changelog"
       ],
       "command": "npm",
-      "echoCommand": true,
-      "isShellCommand": true,
       "taskName": "changelog"
     },
     {
@@ -87,8 +83,6 @@
       ],
       "command": "tsc",
       "dependsOn": "clean project",
-      "echoCommand": true,
-      "isShellCommand": true,
       "taskName": "tsc"
     }
   ]
