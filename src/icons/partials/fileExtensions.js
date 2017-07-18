@@ -266,5 +266,6 @@
   "tmTheme": "_file_markup",
   "pp": "_file_pp",
   "applescript": "_file_applescript",
-  "haml": "_file_haml"
+  "haml": "_file_haml",
+  "ex": "_file_ex"
 },
