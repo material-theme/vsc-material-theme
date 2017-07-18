@@ -90,7 +90,7 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
 - **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 # Acknowledgements
-- [@OctoD](https://github.com/balanceiskey) for the first theme builder.
+- [@OctoD](https://github.com/balanceiskey) for the typescript theme builder.
 
 
 <p align="center"> <img src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/0.0.14/1494970083238/Microsoft.VisualStudio.Services.Icons.Default" width=16 height=16/> Copyright &copy; 2017 Mattia Astorino and Paolo Roth</p>
