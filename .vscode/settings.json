@@ -23,5 +23,7 @@
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "editor.quickSuggestions": false
-  }
+  },
+  "gulp.autoDetect": "off",
+  "npm.autoDetect": "off"
 }
