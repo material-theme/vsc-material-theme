@@ -2,6 +2,8 @@ export interface IDefaults {
   accents: IAccents;
   icons: IDefaultsThemeIcons;
   themeVariants: IDefaultsThemeVariant;
+  themeVariantsColours: IDefaultsThemeVariantColours;
+  themeVariantsUITheme: IDefaultsThemeVariantUITheme;
 }
 
 export interface IAccents {
@@ -35,8 +37,17 @@ export interface IDefaultsThemeIcons {
 }
 
 export interface IDefaultsThemeVariant {
+  [index: string]: string;
   Darker: string;
   Default: string;
   Light: string;
   Palenight: string;
+}
+
+export interface IDefaultsThemeVariantColours extends IDefaultsThemeVariant {
+
+}
+
+export interface IDefaultsThemeVariantUITheme extends IDefaultsThemeVariant {
+
 }

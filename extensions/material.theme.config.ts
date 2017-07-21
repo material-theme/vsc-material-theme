@@ -2,15 +2,16 @@ import * as vscode from 'vscode';
 
 import { IGenericObject } from "./interfaces/igeneric-object";
 import { THEME_ACCENTS_SETTER } from "./commands/accents-setter/index";
-import { THEME_CHANGE_LISTENER } from "./commands/theme-icons/index";
+import { THEME_VARIANT } from "./commands/theme-variant/index";
 
 enum Commands {
   ACCENTS,
-  COLOR_THEME
+  COLOUR_VARIANT
 }
 
 const OPTIONS: IGenericObject<number> = {
-  'Change accent color': Commands.ACCENTS
+  'Change accent color': Commands.ACCENTS,
+  'Change color variant': Commands.COLOUR_VARIANT
 }
 
 export function activate(context: vscode.ExtensionContext) {
@@ -23,11 +24,12 @@ export function activate(context: vscode.ExtensionContext) {
         case Commands.ACCENTS:
           THEME_ACCENTS_SETTER();
         break;
+        case Commands.COLOUR_VARIANT:
+          THEME_VARIANT();
+        break;
       }
     });
   });
-
-  THEME_CHANGE_LISTENER();
 
   context.subscriptions.push(command);
 }

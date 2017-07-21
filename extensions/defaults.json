@@ -42,9 +42,21 @@
     }
   },
   "themeVariants": {
+    "Darker": "./themes/Material-Theme-Darker.json",
+    "Default": "./themes/Material-Theme-Default.json",
+    "Light": "./themes/Material-Theme-Lighter.json",
+    "Palenight": "./themes/Material-Theme-Palenight.json"
+  },
+  "themeVariantsColours": {
     "Darker": "#424242",
     "Default": "#4A616C",
     "Light": "#90A4AE",
     "Palenight": "#4E5579"
+  },
+  "themeVariantsUITheme": {
+    "Darker": "vs-dark",
+    "Default": "vs-dark",
+    "Light": "vs",
+    "Palenight": "vs-dark"
   }
 }

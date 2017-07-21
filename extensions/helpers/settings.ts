@@ -96,7 +96,7 @@ export function shouldReloadWindow(themeColour: string, themeIcons: string): boo
 
   let customSettings = getCustomSettings();
 
-  return customSettings.themeColours !== themeColour || customSettings.themeIcons !== themeIcons || customSettings.accent !== customSettings.accentPrevious;
+  return customSettings.accent !== customSettings.accentPrevious;
 }
 
 /**
@@ -105,7 +105,7 @@ export function shouldReloadWindow(themeColour: string, themeIcons: string): boo
  * @param {string} accentName
  */
 export function updateAccent(accentName: string): Thenable<void> {
-  let config: IThemeCustomProperties = {};
+  let config: IThemeCustomProperties = getCustomSettings();
   let prevaccent = getAccent();
 
   if (prevaccent !== undefined && prevaccent !== accentName) {
