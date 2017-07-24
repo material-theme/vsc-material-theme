@@ -54,6 +54,11 @@
     ],
     "configuration": {
       "properties": {
+        "materialTheme.cache.workbench.accent": {
+          "type": "string",
+          "title": "[DEPRECATED] This is an old property.",
+          "description": "This property is intended only for migrating old settings system to a new one. It will be removed in new versions. Don't use it, use \"materialTheme.cache.workbench.settings\" instead."
+        },
         "materialTheme.cache.workbench.settings": {
           "default": {},
           "type": "object",

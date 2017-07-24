@@ -15,6 +15,10 @@ const OPTIONS: IGenericObject<number> = {
 }
 
 export function activate(context: vscode.ExtensionContext) {
+  if (vscode.workspace.getConfiguration().has('materialTheme.cache.workbench.accent')) {
+    vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.accent', undefined, true);
+  }
+
   // registering the command
   let command = vscode.commands.registerCommand('material.theme.config', () => {
     // the user is going to choose what aspect of theme to config
