@@ -48,7 +48,7 @@ export const THEME_ICONS = () => {
       deferred.resolve();
     });
   } else {
-    deferred.reject();
+    deferred.resolve();
   }
 
   return promise;
