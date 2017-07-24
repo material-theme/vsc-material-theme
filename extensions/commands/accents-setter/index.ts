@@ -4,7 +4,7 @@ import {IAccentCustomProperty} from '../../interfaces/iaccent-custom-property';
 import { IDefaults } from "../../interfaces/idefaults";
 import {IGenericObject} from '../../interfaces/igeneric-object';
 import { updateAccent, isMaterialTheme, isMaterialThemeIcons } from "../../helpers/settings";
-import { getCurrentThemeID, getCurrentThemeIconsID, askForWindowReload } from "../../helpers/vscode";
+import { getCurrentThemeID, getCurrentThemeIconsID, reloadWindow } from "../../helpers/vscode";
 import { THEME_ICONS } from "../theme-icons/index";
 
 const REGEXP_HEX: RegExp = /^#([0-9A-F]{6}|[0-9A-F]{8})$/i;
@@ -98,7 +98,7 @@ function setWorkbenchOptions(accentSelected: string | undefined, config: any): v
     updateAccent(accentSelected);
 
     if (isMaterialTheme(themeID) && isMaterialThemeIcons(themeIconsID)) {
-      THEME_ICONS().then(() => askForWindowReload());
+      THEME_ICONS().then(() => reloadWindow());
     }
   }, reason => {
     vscode.window.showErrorMessage(reason);
