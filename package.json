@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "icon": "logo.png",
@@ -66,7 +66,7 @@
       {
         "label": "Material Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Material-Theme-Darker.json"
+        "path": "./themes/Material-Theme-Default.json"
       }
     ],
     "iconThemes": [
