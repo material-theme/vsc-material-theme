@@ -1,3 +1,14 @@
+<a name="4.0.10"></a>
+## [4.0.10](https://github.com/equinusocio/material-theme/compare/v4.0.9...v4.0.10) (2017-07-24)
+
+
+### Bug Fixes
+
+* Fix editors popup style ([c45960f](https://github.com/equinusocio/material-theme/commit/c45960f)), closes [#1156](https://github.com/equinusocio/material-theme/issues/1156)
+* Remove Material Theme context menu item ([d9b88db](https://github.com/equinusocio/material-theme/commit/d9b88db)), closes [#1148](https://github.com/equinusocio/material-theme/issues/1148)
+
+
+
 <a name="4.0.9"></a>
 ## [4.0.9](https://github.com/equinusocio/material-theme/compare/v4.0.8...v4.0.9) (2017-07-05)
 
