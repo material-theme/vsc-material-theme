@@ -791,6 +791,7 @@
     "notification.infoForeground": "{{variant.scheme.base.white}}",
     "notification.warningBackground": "{{variant.scheme.base.red}}",
     "notification.warningForeground": "{{variant.scheme.base.white}}",
+    "notification.buttonBackground": "{{variant.scheme.selection}}",
     "badge.background": "{{variant.scheme.lineHighlight}}30",
     "badge.foreground": "{{variant.scheme.comments}}",
     "button.background": "{{variant.scheme.selection}}",

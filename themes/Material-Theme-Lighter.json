@@ -790,6 +790,7 @@
     "notification.infoForeground": "#FFFFFF",
     "notification.warningBackground": "#E53935",
     "notification.warningForeground": "#FFFFFF",
+    "notification.buttonBackground": "#80CBC440",
     "badge.background": "#CCD7DA30",
     "badge.foreground": "#90A4AE90",
     "button.background": "#80CBC440",
