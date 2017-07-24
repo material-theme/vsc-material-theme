@@ -23,7 +23,7 @@ settings:
     selection: '<%= scheme.selection %>'
     selectionBorder: '<%= scheme.selection %>'
     shadow: '<%= scheme.shadow %>'
-    popupCss: "<![CDATA[
+    phantomCss: "<![CDATA[
     html {
       background-color: <%= scheme.background %>;
       color: <%= scheme.foreground %>;
