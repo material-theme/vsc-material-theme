@@ -1,9 +1,11 @@
-import * as vscode from 'vscode';
-import { getDefaultValues, getPackageJSON, getAbsolutePath } from "../../helpers/fs";
-import { setCustomSettings, getCustomSettings } from "../../helpers/settings";
-import { THEME_ICONS } from "../theme-icons/index";
 import * as fs from "fs";
+import * as vscode from 'vscode';
+
+import { getAbsolutePath, getDefaultValues, getPackageJSON } from "../../helpers/fs";
+import { getCustomSettings, setCustomSettings } from "../../helpers/settings";
+
 import { CHARSET } from "../../consts/files";
+import { THEME_ICONS } from "../theme-icons/index";
 import { reloadWindow } from "../../helpers/vscode";
 
 export const THEME_VARIANT = () => {
@@ -14,6 +16,8 @@ export const THEME_VARIANT = () => {
   options = options.filter(i => i !== packageJSON.contributes.themes[0].path);
 
   vscode.window.showQuickPick(options).then((response: string) => {
+    if (!response) return;
+
     let customSettings = getCustomSettings();
     let themepath: string = defaults.themeVariants[response];
     let themeUITheme: string = defaults.themeVariantsUITheme[response];
