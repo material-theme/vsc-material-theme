@@ -1,3 +1,15 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.1...v1.0.2) (2017-07-25)
+
+
+### Bug Fixes
+
+* Fix squiggles visibility ([328832a](https://github.com/equinusocio/vsc-material-theme/commit/328832a)), closes [#70](https://github.com/equinusocio/vsc-material-theme/issues/70)
+* Fixes an issues with the old settings "materialTheme.cache.workbench.accent". ([1eb3645](https://github.com/equinusocio/vsc-material-theme/commit/1eb3645))
+* Fixes an unhandled undefined, which causes theme to break (issue [#69](https://github.com/equinusocio/vsc-material-theme/issues/69)). ([d7320fb](https://github.com/equinusocio/vsc-material-theme/commit/d7320fb))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.0...v1.0.1) (2017-07-24)
 
@@ -10,6 +22,7 @@
 * Fix editor marker navigation color ([02020bb](https://github.com/equinusocio/vsc-material-theme/commit/02020bb))
 * Fix notification bar badge colors ([317289a](https://github.com/equinusocio/vsc-material-theme/commit/317289a))
 * Fix python special var parameter color ([5d3c9ec](https://github.com/equinusocio/vsc-material-theme/commit/5d3c9ec)), closes [#57](https://github.com/equinusocio/vsc-material-theme/issues/57)
+* Fix theme variants and settings reload ([1d91938](https://github.com/equinusocio/vsc-material-theme/commit/1d91938))
 * Improve workbench theme and colors ([7be85e6](https://github.com/equinusocio/vsc-material-theme/commit/7be85e6))
 
 
