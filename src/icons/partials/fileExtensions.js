@@ -267,5 +267,6 @@
   "pp": "_file_pp",
   "applescript": "_file_applescript",
   "haml": "_file_haml",
-  "ex": "_file_ex"
+  "ex": "_file_ex",
+  "exs": "_file_ex"
 },
