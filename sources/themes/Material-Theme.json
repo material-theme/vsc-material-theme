@@ -1,0 +1,24 @@
+// >
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most epic theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  //=include "default/app.json"
+  //=include "default/dialog.json"
+  //=include "default/code_folding.json"
+  //=include "default/autocomplete.json"
+  //=include "default/tooltip.json"
+  //=include "default/overlay_panels.json"
+  //=include "default/tabs.json"
+  //=include "default/sidebar.json"
+  //=include "default/scrollbars.json"
+  //=include "default/minimap.json"
+  //=include "default/statusbar.json"
+  //=include "default/widgets.json"
+  //=include "default/buttons.json"
+  //=include "commons/accent.json"
+  //=include "commons/options.json"
+  //
+]

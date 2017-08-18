@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>&lt;%= author %&gt;</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>name</key>
+	<string>&lt;%= name %&gt; &lt;%= extras.plainTasks.name %&gt;</string>
+	<key>semanticClass</key>
+	<string>&lt;%= extras.plainTasks.semanticClass %&gt;</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>activeGuide</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+				<key>background</key>
+				<string>&lt;%= scheme.background %&gt;</string>
+				<key>caret</key>
+				<string>&lt;%= scheme.caret %&gt;</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.foreground %&gt;</string>
+				<key>guide</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+				<key>gutter</key>
+				<string>&lt;%= scheme.background %&gt;</string>
+				<key>invisibles</key>
+				<string>&lt;%= scheme.comment %&gt;</string>
+				<key>lineHighlight</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+				<key>selection</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+				<key>selectionBorder</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+				<key>stackGuide</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.comment %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tags</string>
+			<key>scope</key>
+			<string>meta.tag.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.violet %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Notes</string>
+			<key>scope</key>
+			<string>notes.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>&lt;%= scheme.comment %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta</string>
+			<key>scope</key>
+			<string>meta</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Done Bullet</string>
+			<key>scope</key>
+			<string>punctuation.definition.bullet.completed</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.green %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pending Bullet</string>
+			<key>scope</key>
+			<string>punctuation.definition.bullet.pending</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>&lt;%= scheme.foreground %&gt;aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cancelled Bullet</string>
+			<key>scope</key>
+			<string>punctuation.definition.bullet.cancelled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.red %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cancelled Task</string>
+			<key>scope</key>
+			<string>meta.item.todo.cancelled</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.comment %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta Info</string>
+			<key>scope</key>
+			<string>meta.tag.todo.completed, meta.tag.todo.cancelled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>&lt;%= scheme.comment %&gt;aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.foreground %&gt;dd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Separator</string>
+			<key>scope</key>
+			<string>meta.punctuation.archive.todo, meta.punctuation.separator.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.comment %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Font Style Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.italic, punctuation.definition.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.comment %&gt;aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic</string>
+			<key>scope</key>
+			<string>todo.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold</string>
+			<key>scope</key>
+			<string>todo.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>URL</string>
+			<key>scope</key>
+			<string>todo.url</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.blue %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.yellow %&gt;bf</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.black %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.green %&gt;bf</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.black %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant</string>
+			<key>scope</key>
+			<string>constant.language, constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.blue %&gt;bf</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.black %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable.language, variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.cyan %&gt;bf</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.black %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>constant.character.entity</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.green %&gt;bf</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.black %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.comment %&gt;bf</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.black %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class Name</string>
+			<key>scope</key>
+			<string>entity.name.type.class, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.blue %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag Name</string>
+			<key>scope</key>
+			<string>entity.name.tag, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.pink %&gt;bf</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.black %&gt;bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.red %&gt;</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.white %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Today</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.today</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.blue %&gt;</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.white %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Low</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.low</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.highlight %&gt;</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.foreground %&gt;cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>High</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.high</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.orange %&gt;</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.white %&gt;</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Critical</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.critical</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>&lt;%= scheme.base.red %&gt;</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>&lt;%= scheme.base.white %&gt;</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>&lt;%= extras.plainTasks.uuid %&gt;</string>
+</dict>
+</plist>

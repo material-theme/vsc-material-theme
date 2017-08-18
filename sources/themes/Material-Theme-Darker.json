@@ -1,0 +1,24 @@
+// > DARKER
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most epic theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  //=include "darker/app.json"
+  //=include "darker/dialog.json"
+  //=include "darker/code_folding.json"
+  //=include "darker/autocomplete.json"
+  //=include "darker/tooltip.json"
+  //=include "darker/overlay_panels.json"
+  //=include "darker/tabs.json"
+  //=include "darker/sidebar.json"
+  //=include "darker/scrollbars.json"
+  //=include "darker/minimap.json"
+  //=include "darker/statusbar.json"
+  //=include "darker/widgets.json"
+  //=include "darker/buttons.json"
+  //=include "commons/accent.json"
+  //=include "commons/options.json"
+  //
+]

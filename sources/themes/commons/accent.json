@@ -1,0 +1,418 @@
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+// <%= ui.accents[i].name %> Accent Color
+// ===========================================================================
+
+  {
+    "class": "panel_button_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "attributes": ["hover"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/overflow_menu--hover.png"
+  },
+
+  // tooltip
+
+  {
+    "class": "tool_tip_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.tint": [<%= ui.accents[i].rgb %>],
+  },
+
+  {
+    "class": "progress_gauge_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.tint": [<%= ui.accents[i].rgb %>],
+  },
+
+  {
+    "class": "auto_complete_label",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "match_fg": [<%= ui.accents[i].rgb %>],
+    "selected_match_fg": [<%= ui.accents[i].rgb %>]
+  },
+
+  {
+    "class": "tool_tip_label_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "color": [<%= ui.accents[i].foreground.rgb %>, 255]
+  },
+
+    // Sidebar tree highlight
+
+  {
+    "class": "tree_row",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/tree_highlight.png",
+  },
+
+  {
+    "class": "tree_row",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>", "material_theme_bullet_tree_indicator"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/tree_highlight--bullet.png",
+    "layer1.inner_margin": [22, 16, 0, 0]
+  },
+
+    // Tabs
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/tab_current.png",
+  },
+
+    // Tabs close button
+
+  {
+    "class": "tab_close_button",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/close_icon--hover.png",
+    "layer3.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/dirty_icon--hover.png"
+  },
+
+    // Opened files
+
+  {
+    "class": "close_button",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/close_icon--hover.png",
+  },
+
+    // Dirty opened files
+
+  {
+    "class": "close_button",
+    "attributes": ["dirty"],
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/dirty_icon--hover.png",
+  },
+
+  {
+    "class": "sidebar_label",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "color": [<%= ui.accents[i].rgb %>]
+  },
+
+  {
+    "class": "sidebar_label",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "color": [<%= ui.accents[i].rgb %>]
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer2.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder--hover.png",
+    "layer3.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover.png",
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer3.texture":
+    {
+      "keyframes":
+      [
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-0.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-1.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-2.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-3.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-4.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-5.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-5.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-5.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-6.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_opened--hover-7.png",
+      ],
+      "loop": false,
+      "frame_time": 0.020,
+    }
+  },
+
+    // Folder loading
+
+  {
+    "class": "icon_folder_loading",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture":
+    {
+      "keyframes":
+      [
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner7.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner6.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner5.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner4.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner3.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner2.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner1.png",
+        "Material Theme/assets/accent-<%= ui.accents[i].id %>/spinner.png",
+      ],
+      "loop": true,
+      "frame_time": 0.075,
+    },
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["selected"] }
+    ],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder--hover.png",
+  },
+
+    // Arrow icon folder
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer2.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/arrow_folder--hover.png",
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/arrow_folder--opened.png",
+    "layer3.opacity": 0.0
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [{ "class": "tree_row", "attributes": ["expanded"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.opacity": 1.0
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [ { "class": "tree_row", "attributes": ["hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 1.0,
+    "layer3.opacity": 0.0
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [ { "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.opacity": 1.0
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_arrow_folders", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [
+      { "class": "tree_row", "attributes": ["selected"] }
+    ],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/arrow_folder--hover.png",
+  },
+
+    // tab set scroll left | scroll right
+
+  {
+    "class": "scroll_tabs_left_button",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/arrow_left--hover.png",
+  },
+
+  {
+    "class": "scroll_tabs_right_button",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/arrow_right--hover.png",
+  },
+
+
+  {
+    "class": "fold_button_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/fold_right--hover.png",
+  },
+
+  {
+    "class": "fold_button_control",
+    "attributes": ["expanded"],
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/fold_down--hover.png"
+  },
+
+    // Panel labels
+
+  {
+    "class": "quick_panel_label",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "match_fg": [<%= ui.accents[i].rgb %>],
+    "selected_fg": [<%= ui.base.white.rgb %>, 255],
+    "selected_match_fg": [<%= ui.accents[i].rgb %>]
+  },
+
+    // Panel labels
+
+  {
+    "class": "quick_panel_label",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{"class": "overlay_control"}],
+    "match_fg": [<%= ui.accents[i].rgb %>],
+    "selected_fg": [<%= ui.base.white.rgb %>, 255],
+    "selected_match_fg": [<%= ui.accents[i].rgb %>]
+  },
+
+    // Panels sublabels
+
+  {
+    "class": "quick_panel_path_label",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "match_fg": [<%= ui.accents[i].rgb %>],
+    "selected_fg": [<%= ui.base.white.rgb %>, 255],
+    "selected_match_fg": [<%= ui.accents[i].rgb %>]
+  },
+
+    // Panels data / score
+
+  {
+    "class": "show_tabs_dropdown_button",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/overflow_menu--hover.png",
+  },
+
+    // Textline input oveflow menu
+
+  {
+    "class": "dropdown_button_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/overflow_menu--hover.png",
+  },
+
+  // Buttons icons settings
+  // =====================================================================
+
+    // Regex Icon
+  {
+    "class": "icon_regex",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_regex--hover.png",
+  },
+
+    // Preserve case sensitive
+
+  {
+    "class": "icon_case",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_case--hover.png",
+  },
+
+    // Wholeword
+
+  {
+    "class": "icon_whole_word",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_word--hover.png",
+  },
+
+    // Wrap
+
+  {
+    "class": "icon_wrap",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_wrap--hover.png",
+  },
+
+    // In selection
+
+  {
+    "class": "icon_in_selection",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_inselection--hover.png",
+  },
+
+
+    // Highlight Result
+
+  {
+    "class": "icon_highlight",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_highlight--hover.png",
+  },
+
+    // Preserve Case
+
+  {
+    "class": "icon_preserve_case",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/replace_preserve_case--hover.png",
+  },
+
+    // Show context
+
+  {
+    "class": "icon_context",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_context--hover.png",
+  },
+
+    // Use buffer
+
+  {
+    "class": "icon_use_buffer",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/use_buffer--hover.png",
+  },
+
+    // Reverse direction
+
+  {
+    "class": "icon_reverse",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/find_reverse--hover.png",
+  },
+
+    // Minimap
+
+  {
+    "class": "minimap_control",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "viewport_color": [<%= ui.accents[i].rgb %>, 60]
+  },
+
+    // Scrollbars
+
+  {
+    "class": "puck_control",
+    "settings": ["material_theme_accent_scrollbars", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/thumb_vertical.png",
+    "layer1.opacity": 0.8
+  },
+
+  {
+    "class": "puck_control",
+    "attributes": ["horizontal"],
+    "settings": ["material_theme_accent_scrollbars", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "layer1.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/thumb_horizontal.png",
+    "layer1.opacity": 0.8
+  },
+
+  // Symlink folder icon
+
+  {
+    "class": "icon_folder_dup",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents":
+    [{ "class": "tree_row", "attributes": ["hover"] }],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_dup--hover.png"
+  },
+
+  {
+    "class": "icon_folder_dup",
+    "settings": ["material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
+    "layer0.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder_dup--hover.png"
+  },
+<% } %>

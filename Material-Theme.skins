@@ -1,0 +1,34 @@
+{
+  "Material Theme":
+  {
+    "Preferences":
+    {
+      "theme": "Material-Theme.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+    }
+  },
+  "Material Theme - Darker":
+  {
+    "Preferences":
+    {
+      "theme": "Material-Theme-Darker.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+    }
+  },
+  "Material Theme - Lighter":
+  {
+    "Preferences":
+    {
+      "theme": "Material-Theme-Lighter.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
+    }
+  },
+  "Material Theme - Palenight":
+  {
+    "Preferences":
+    {
+      "theme": "Material-Theme-Palenight.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+    }
+  }
+}

@@ -1,0 +1,195 @@
+
+// @ THEME OPTIONS
+// Options override
+// =========================================================================
+
+  // Tabs size Settings
+
+  {
+    "class": "tabset_control",
+    "settings": ["material_theme_small_tab"],
+    "tab_height": 36,
+    "content_margin": [12, 0, 8, 0]
+  },
+
+  {
+    "class": "tabset_control",
+    "settings": ["material_theme_tabs_autowidth"],
+    "tab_width": 0
+  },
+
+  {
+    "class": "tabset_control",
+    "settings": ["!enable_tab_scrolling"],
+    "content_margin": [0, 0, 8, 0],
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_small_tab"],
+    "content_margin": [12, 8, 6, 4],
+  },
+
+  // Tabs separator
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_tabs_separator"],
+    "layer3.texture": "Material Theme/assets/commons/tab_separator.png",
+    "layer3.inner_margin": [1, 1],
+    "layer3.opacity": 1.0,
+  },
+
+    // Tab Labels
+
+  {
+    "class": "tab_label",
+    "settings": ["material_theme_bold_tab"],
+    "font.bold": true
+  },
+
+    // Disable Folder animation
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/commons/folder--hover.png",
+  },
+
+    // Disable Folder animation
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/commons/arrow_folder--opened.png",
+  },
+
+    // Folder hover no animation
+
+  <% for (var i = 0; i < ui.accents.length; i++) { %>
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/folder--hover.png",
+  },
+
+  {
+    "class": "icon_folder",
+    "settings": ["material_theme_disable_folder_animation", "material_theme_arrow_folders", "material_theme_accent_<%= ui.accents[i].id %>"],
+    "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
+    "layer1.opacity": 0.0,
+    "layer2.opacity": 0.0,
+    "layer3.texture": "Material Theme/assets/accent-<%= ui.accents[i].id %>/arrow_folder--opened.png",
+  },
+
+  <% } %>
+
+    // Small status bar
+
+  {
+    "class": "status_container",
+    "settings": ["material_theme_small_statusbar"],
+    "content_margin": [12, 6, 12, 6],
+  },
+
+    // Tree Indicator
+
+  {
+    "class": "tree_row",
+    "settings": ["material_theme_disable_tree_indicator"],
+    "attributes": ["selected"],
+    "layer1.opacity": 0.0
+  },
+
+  // Status bar panel
+  {
+    "class": "panel_control",
+    "settings": ["material_theme_panel_separator"],
+    "layer1.texture": "Material Theme/assets/commons/panel_separator.png",
+    "layer1.opacity": 0.2,
+    "layer1.inner_margin": [2, 2, 2, 2],
+  },
+
+    // Contrast mode
+
+  {
+    "class": "sidebar_container",
+    "settings": ["material_theme_contrast_mode"],
+    "layer1.opacity": 0.2
+  },
+
+  {
+    "class": "sidebar_tree",
+    "settings": ["material_theme_contrast_mode"],
+    "layer1.opacity": 0.2
+  },
+
+  {
+    "class": "status_bar",
+    "settings": ["material_theme_contrast_mode"],
+    "layer1.opacity": 0.2
+  },
+
+    // Compact mode
+
+  {
+    "class": "sidebar_tree",
+    "settings": ["material_theme_compact_sidebar"],
+    "row_padding": [24, 5]
+  },
+
+  {
+    "class": "panel_control",
+    "settings": ["material_theme_compact_panel"],
+    "content_margin": [0, 0, 0, 0],
+  },
+
+    // Filetype icons in sidebar
+
+  {
+    "class": "icon_file_type",
+    "settings": ["material_theme_disable_fileicons"],
+    "layer0.opacity": 0,
+    "content_margin": [0, 0]
+  },
+
+    // Bigger file_type icons
+
+  {
+    "class": "icon_file_type",
+    "settings": ["material_theme_big_fileicons"],
+    "content_margin": [11, 11]
+  },
+
+  {
+    "class": "icon_file_type",
+    "settings": ["material_theme_big_fileicons"],
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "content_margin": [11, 11]
+  },
+
+      // Bright scrollbars
+
+  {
+    "class": "puck_control",
+    "settings": ["material_theme_bright_scrollbars"],
+    "layer1.texture": "Material Theme/assets/commons/thumb_vertical.png",
+    "layer1.opacity": 0.2
+  },
+
+  {
+    "class": "puck_control",
+    "attributes": ["horizontal"],
+    "settings": ["material_theme_bright_scrollbars"],
+    "layer1.texture": "Material Theme/assets/commons/thumb_horizontal.png",
+    "layer1.opacity": 0.2
+  },

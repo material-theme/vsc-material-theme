@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Material-Theme</string>
 	<key>semanticClass</key>
-	<string>material.theme.dark</string>
+	<string>material.theme.default</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -33,8 +33,8 @@
 				<string>#65737e</string>
 				<key>lineHighlight</key>
 				<string>#00000050</string>
-				<key>popupCss</key>
-				<string><![CDATA[ html { background-color: #263238; color: #eeffff; padding: 16px; } a { color: #B2CCD6; line-height: 16px; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } ]]></string>
+				<key>phantomCss</key>
+				<string>&lt;![CDATA[ html { background-color: #263238; color: #eeffff; padding: 16px; } a { color: #B2CCD6; line-height: 16px; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } .type { color: #89DDFF; font-style: italic; } .param { color: #F78C6C; } .current { text-decoration: underline; } ]]&gt;</string>
 				<key>selection</key>
 				<string>#80CBC420</string>
 				<key>selectionBorder</key>
@@ -126,10 +126,19 @@
 			<string>keyword, storage.type, storage.modifier</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#C792EA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword, Storage</string>
+			<key>scope</key>
+			<string>storage.type, keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -545,7 +554,18 @@
 			<string>text.html.markdown markup.raw.inline</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
+				<key>foreground</key>
+				<string>#C792EA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Markup Raw Inline Punctuation</string>
+			<key>scope</key>
+			<string>text.html.markdown punctuation.definition.raw.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
 				<string>#65737e</string>
 			</dict>
 		</dict>

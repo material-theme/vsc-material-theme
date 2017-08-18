@@ -8,6 +8,10 @@
         "command": "mt_config"
     },
     {
+      "caption": "Material Theme: Extras",
+      "command": "mt_extras"
+    },
+    {
       "caption": "Material Theme: Advanced configuration",
       "command": "edit_settings", "args":
       {
