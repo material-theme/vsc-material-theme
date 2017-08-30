@@ -71,7 +71,7 @@
       {
         "label": "Material Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Material-Theme-Default.json"
+        "path": "./themes/Material-Theme-Darker.json"
       }
     ],
     "iconThemes": [
