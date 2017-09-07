@@ -17,6 +17,10 @@
     "Teal": "#80CBC4",
     "Yellow": "#FFA000"
   },
+  "changelog": {
+    "lastversion": "",
+    "stopShowingChangelog": false
+  },
   "icons": {
     "theme": {
       "iconDefinitions": {

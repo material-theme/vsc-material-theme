@@ -1,5 +1,6 @@
 export interface IDefaults {
   accents: IAccents;
+  changelog: IChangelog;
   icons: IDefaultsThemeIcons;
   themeVariants: IDefaultsThemeVariant;
   themeVariantsColours: IDefaultsThemeVariantColours;
@@ -9,6 +10,11 @@ export interface IDefaults {
 export interface IAccents {
   teal: string;
   [index: string]: string;
+}
+
+export interface IChangelog {
+  lastversion: string;
+  stopShowingChangelog: boolean;
 }
 
 export interface IDefaultsThemeIcons {

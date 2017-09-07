@@ -3,6 +3,7 @@ import * as vscode from 'vscode';
 import { IGenericObject } from "./interfaces/igeneric-object";
 import { THEME_ACCENTS_SETTER } from "./commands/accents-setter/index";
 import { THEME_VARIANT } from "./commands/theme-variant/index";
+import { shouldShowChangelog, showChangelog } from './helpers/changelog';
 
 enum Commands {
   ACCENTS,
@@ -17,6 +18,10 @@ const OPTIONS: IGenericObject<number> = {
 export function activate(context: vscode.ExtensionContext) {
   if (vscode.workspace.getConfiguration().has('materialTheme.cache.workbench.accent')) {
     vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.accent', undefined, true);
+  }
+
+  if (shouldShowChangelog()) {
+    showChangelog();
   }
 
   // registering the command
