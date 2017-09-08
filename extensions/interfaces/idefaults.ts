@@ -14,7 +14,6 @@ export interface IAccents {
 
 export interface IChangelog {
   lastversion: string;
-  stopShowingChangelog: boolean;
 }
 
 export interface IDefaultsThemeIcons {
