@@ -7,12 +7,14 @@ import { shouldShowChangelog, showChangelog } from './helpers/changelog';
 
 enum Commands {
   ACCENTS,
+  CHANGELOG,
   COLOUR_VARIANT
 }
 
 const OPTIONS: IGenericObject<number> = {
   'Change accent color': Commands.ACCENTS,
-  'Change color variant': Commands.COLOUR_VARIANT
+  'Change color variant': Commands.COLOUR_VARIANT,
+  'Read the changelog': Commands.CHANGELOG
 }
 
 export function activate(context: vscode.ExtensionContext) {
@@ -32,6 +34,9 @@ export function activate(context: vscode.ExtensionContext) {
       switch(OPTIONS[response]) {
         case Commands.ACCENTS:
           THEME_ACCENTS_SETTER();
+        break;
+        case Commands.CHANGELOG:
+          showChangelog();
         break;
         case Commands.COLOUR_VARIANT:
           THEME_VARIANT();
