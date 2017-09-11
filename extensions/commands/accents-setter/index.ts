@@ -46,6 +46,10 @@ let accentsProperties: IGenericObject<IAccentCustomProperty> = {
   "pickerGroup.foreground": {
     alpha: 100,
     value: undefined
+  },
+  "tab.activeBorder": {
+    alpha: 100,
+    value: undefined
   }
 }
 
