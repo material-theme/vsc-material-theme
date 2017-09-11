@@ -711,6 +711,8 @@
     "editorGutter.modifiedBackground": "#6182B860",
     "editorGutter.addedBackground": "#91B85960",
     "editorGutter.deletedBackground": "#E5393560",
+    "tab.activeBorder": "#80CBC4",
+    "tab.unfocusedActiveBorder": "#90A4AE90",
     "tab.activeForeground": "#000000",
     "tab.inactiveForeground": "#90A4AE90",
     "tab.inactiveBackground": "#FAFAFA",
