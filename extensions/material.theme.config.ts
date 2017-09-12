@@ -14,7 +14,7 @@ enum Commands {
 const OPTIONS: IGenericObject<number> = {
   'Change accent color': Commands.ACCENTS,
   'Change color variant': Commands.COLOUR_VARIANT,
-  'Read the changelog': Commands.CHANGELOG
+  'Show changelog': Commands.CHANGELOG
 }
 
 export function activate(context: vscode.ExtensionContext) {
