@@ -156,6 +156,10 @@ You can now edit the source files under `./sources` folder that will be compiled
 
 **App icon**: [Download](https://github.com/equinusocio/material-theme/files/396220/Material-Theme-Icon.zip) the official Material Theme icon.
 
+**Sublime Material Icon Pack**
+Sublime Material Icon Pack is heavily inspired by this theme and developed by @halacoglu 
+[Download ](https://github.com/halacoglu/sublime-material-icon-pack) it and enjoy a full Material Theme experience.
+
 # Official Portings
 Material Theme was also ported to:
 
