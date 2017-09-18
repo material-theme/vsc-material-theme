@@ -177,19 +177,20 @@ Material Theme was also ported to:
 
 # Color Schemes palettes
 
-Color             | Default / Darker |  Lighter   |
----               | ---              |  ---       |
-Red               | `#FF5370`        |  `#E53935` |
-Pink              | `#f07178`        |  `#FF5370` |
-Orange            | `#F78C6C`        |  `#F76D47` |
-Yellow            | `#FFCB6B`        |  `#FFB62C` |
-Green             | `#C3E88D`        |  `#91B859` |
-Pale Blue         | `#B2CCD6`        |  `#8796B0` |
-Cyan              | `#89DDFF`        |  `#39ADB5` |
-Blue              | `#82AAFF`        |  `#6182B8` |
-Purple            | `#C792EA`        |  `#7C4DFF` |
-Violet            | `#bb80b3`        |  `#945EB8` |
-Brown             | `#ab7967`        |  `#ab7967` |
+Color      | Default / Lighter |  Darker    |
+---        | ---               |  ---       |
+Red        | `#FF5370`         |  `#E53935` |
+Pink       | `#F07178`         |  `#FF5370` |
+Orange     | `#F78C6C`         |  `#F76D47` |
+Yellow     | `#FFCB6B`         |  `#FFB62C` |
+Green      | `#C3E88D`         |  `#91B859` |
+Pale Blue  | `#B2CCD6`         |  `#8796B0` |
+Cyan       | `#89DDFF`         |  `#39ADB5` |
+Blue       | `#82AAFF`         |  `#6182B8` |
+Purple     | `#C792EA`         |  `#7C4DFF` |
+Violet     | `#BB80B3`         |  `#945EB8` |
+Brown      | `#AB7967`         |  `#AB7967` |
+
 
 
 
