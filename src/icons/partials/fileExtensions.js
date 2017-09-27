@@ -1,4 +1,7 @@
 "fileExtensions": {
+  "asp": "_file_dotnet",
+  "aspx": "_file_dotnet",
+  "ascx": "_file_dotnet",
   "cmd": "_file_cmd",
   "mustache": "_file_mustache",
   "rails": "_file_rails",
