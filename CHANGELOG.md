@@ -1,3 +1,21 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.2...v1.0.3) (2017-09-27)
+
+
+### Bug Fixes
+
+* Fix brackets color (punctuation.class...). Fix [#76](https://github.com/equinusocio/vsc-material-theme/issues/76) ([767ea73](https://github.com/equinusocio/vsc-material-theme/commit/767ea73))
+* Fix wrong gutter indicator for add line. Close 89 ([a605ec9](https://github.com/equinusocio/vsc-material-theme/commit/a605ec9))
+* Update gutter line colors. Fix [#79](https://github.com/equinusocio/vsc-material-theme/issues/79) ([6cf67be](https://github.com/equinusocio/vsc-material-theme/commit/6cf67be))
+
+
+### Features
+
+* Add tab active bottom border ([a5a392a](https://github.com/equinusocio/vsc-material-theme/commit/a5a392a)), closes [#88](https://github.com/equinusocio/vsc-material-theme/issues/88)
+* Adds "show changelog" command. ([840d174](https://github.com/equinusocio/vsc-material-theme/commit/840d174))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.1...v1.0.2) (2017-07-25)
 
