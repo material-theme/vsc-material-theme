@@ -649,8 +649,7 @@
       "name": "Markdown - Fenced Bode Block Variable",
       "scope": [
         "markup.raw.block.fenced.markdown",
-        "variable.language.fenced.markdown",
-        "punctuation.section.class.end"
+        "variable.language.fenced.markdown"
       ],
       "settings": {
         "foreground": "{{variant.scheme.foreground}}"
@@ -709,9 +708,11 @@
     "editorIndentGuide.background": "{{variant.scheme.guides}}",
     "editorGroupHeader.tabsBackground": "{{variant.scheme.background}}",
     "editorGroup.border": "{{variant.scheme.shadow}}",
-    "editorGutter.modifiedBackground": "{{variant.scheme.base.yellow}}40",
-    "editorGutter.addedBackground": "{{variant.scheme.base.green}40",
-    "editorGutter.deletedBackground": "{{variant.scheme.base.red}}40",
+    "editorGutter.modifiedBackground": "{{variant.scheme.base.blue}}60",
+    "editorGutter.addedBackground": "{{variant.scheme.base.green}}60",
+    "editorGutter.deletedBackground": "{{variant.scheme.base.red}}60",
+    "tab.activeBorder": "{{commons.accents.Teal}}",
+    "tab.unfocusedActiveBorder": "{{variant.scheme.comments}}",
     "tab.activeForeground": "{{variant.scheme.tabActiveForeground}}",
     "tab.inactiveForeground": "{{variant.scheme.comments}}",
     "tab.inactiveBackground": "{{variant.scheme.background}}",

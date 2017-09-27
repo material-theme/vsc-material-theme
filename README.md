@@ -52,7 +52,9 @@ Launch *Quick Open*,
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Shift+⌘+P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
 
-Type `Material Theme` and choose `Material Theme: Settings`, then select `Change color variant` and pick one theme from the list.
+Type `theme` anc choose `Preferences: Color Theme`, then select Material Theme from the list.
+
+This theme provide differents color variants, to change the active theme variant type `Material Theme` and choose `Material Theme: Settings`, then select `Change color variant` and pick one theme from the list.
 
 ## Activate File Icons
 
