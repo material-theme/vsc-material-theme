@@ -5,7 +5,7 @@
   "version": "1.0.3",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
-  "icon": "logo.svg",
+  "icon": "logo.png",
   "galleryBanner": {
     "color": "#263238",
     "theme": "dark"
@@ -19,7 +19,7 @@
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
   },
   "engines": {
-    "vscode": "^1.12.0"
+    "vscode": "^1.17.0"
   },
   "scripts": {
     "build": "npm run build-icons && npm run build-themes && npm run build-icons-accents && npm run build-icons-variants",
