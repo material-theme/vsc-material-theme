@@ -714,7 +714,7 @@
     "tab.activeBorder": "#80CBC4",
     "tab.unfocusedActiveBorder": "#4A4A4A",
     "tab.activeForeground": "#FFFFFF",
-    "tab.inactiveForeground": "#4A4A4A",
+    "tab.inactiveForeground": "#616161",
     "tab.inactiveBackground": "#212121",
     "tab.unfocusedActiveForeground": "#EEFFFF",
     "tab.border": "#212121",
