@@ -714,7 +714,7 @@
     "tab.activeBorder": "{{commons.accents.Teal}}",
     "tab.unfocusedActiveBorder": "{{variant.scheme.comments}}",
     "tab.activeForeground": "{{variant.scheme.tabActiveForeground}}",
-    "tab.inactiveForeground": "{{variant.scheme.comments}}",
+    "tab.inactiveForeground": "{{variant.scheme.sidebarForeground}}",
     "tab.inactiveBackground": "{{variant.scheme.background}}",
     "tab.unfocusedActiveForeground": "{{variant.scheme.foreground}}",
     "tab.border": "{{variant.scheme.background}}",
