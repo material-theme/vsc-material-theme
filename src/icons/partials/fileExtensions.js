@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "mjs": "_file_node",
   "asp": "_file_dotnet",
   "aspx": "_file_dotnet",
   "ascx": "_file_dotnet",
