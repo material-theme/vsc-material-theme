@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <style>
+    .MT-Circle {
+      animation: BackgroundAccent 30s infinite;
+    }
+
+    .MT-Logo {
+      animation: Pulse 5s infinite cubic-bezier(0.0, 0.0, 0.2, 1);
+      transform-origin: 50% 50%;
+    }
+
+    @keyframes Pulse {
+      0% { transform:; }
+      50% { transform: scale(0.9); }
+      100% { transform: none; }
+    }
+
+    @keyframes BackgroundAccent {
+      7% { fill: #7CB342; }
+      14% { fill: #2979FF; }
+      21% { fill: #64FFDA; }
+      35% { fill: #00BCD4; }
+      42% { fill: #5C6BC0; }
+      49% { fill: #616161; }
+      56% { fill: #FF4081; }
+      63% { fill: #AB47BC; }
+      63% { fill: #E57373; }
+      70% { fill: #F44336; }
+      77% { fill: #80CBC4; }
+      84% { fill: #FFA000; }
+      100% { fill: #864BFF; }
+    }
+  </style>
+  <g fill="none" fill-rule="evenodd">
+    <circle class="MT-Circle" cx="60" cy="60" r="60" fill="#864BFF"/>
+    <path class="MT-Logo" fill="#FFFFFF" fill-rule="nonzero" d="M93.9938159,32.3429636 L94,87.6817446 L77.8110306,94 L49.4613614,67.1273394 L32.4452657,79.778023 L26,76.6201548 L26.0064755,43.4168848 L32.4820627,40.2361541 L49.5120974,52.8973674 L77.7922029,26 L93.9938159,32.3429636 Z M75.9937441,48 L60,59.9531397 L76,72 L75.9937441,48 Z M34,53 L34.0096057,67 L42,59.952687 L34,53 Z"/>
+  </g>
+</svg>
