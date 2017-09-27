@@ -61,7 +61,8 @@ OPTIONS = OrderedDict(
             'material_theme_panel_separator',
             'material_theme_contrast_mode',
             'material_theme_bright_scrollbars',
-            'material_theme_accent_scrollbars'
+            'material_theme_accent_scrollbars',
+            'material_theme_accent_titlebar'
           ],
         )
     )
