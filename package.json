@@ -5,7 +5,7 @@
   "version": "1.0.3",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
-  "icon": "logo.png",
+  "icon": "logo.svg",
   "galleryBanner": {
     "color": "#263238",
     "theme": "dark"
