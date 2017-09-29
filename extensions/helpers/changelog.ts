@@ -5,7 +5,7 @@ import { getDefaultValues, getPackageJSON, writeFile } from "./fs";
 import { PATHS } from '../consts/paths';
 
 function previewFile(): void {
-  let uri = vscode.Uri.parse(path.join('file:///', PATHS.VSIX_DIR, './CHANGELOG.md'));
+  let uri = vscode.Uri.file(path.join(PATHS.VSIX_DIR, './CHANGELOG.md'));
 
   vscode.commands.executeCommand('markdown.showPreview', uri);
 
