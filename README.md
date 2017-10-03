@@ -113,7 +113,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_tabs_separator"           : true, // Show tabs separator, this disables tab hover animation
 
 // If you use Material Theme - Appbar addon you can use additional settings:
-"material_theme_tree_headings"            : true , // Show sidebar headings
+"material_theme_tree_headings"            : true, // Show sidebar headings
 ```
 
 # Recommended settings for a better experience:
