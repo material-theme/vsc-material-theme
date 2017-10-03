@@ -25,6 +25,6 @@
 
   {
     "class": "title_bar",
-    "fg": [<%= ui.foreground.primary.rgb %>],
+    "fg": [166, 172, 205],
     "bg": [<%= ui.background.primary.rgb %>]
   },
