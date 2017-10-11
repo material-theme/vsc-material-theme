@@ -805,6 +805,8 @@
     "peekViewEditorGutter.background": "{{variant.scheme.foreground}}05",
     "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60",
     "debugToolBar.background": "{{variant.scheme.background}}",
-    "pickerGroup.foreground": "{{commons.accents.Teal}}"
+    "pickerGroup.foreground": "{{commons.accents.Teal}}",
+    "git.color.modified": "{{variant.scheme.base.yellow}}90",
+    "git.color.untracked": "{{variant.scheme.base.green}}90"
   }
 }

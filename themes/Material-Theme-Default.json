@@ -805,6 +805,8 @@
     "peekViewEditorGutter.background": "#EEFFFF05",
     "peekViewTitleDescription.foreground": "#EEFFFF60",
     "debugToolBar.background": "#263238",
-    "pickerGroup.foreground": "#80CBC4"
+    "pickerGroup.foreground": "#80CBC4",
+    "git.color.modified": "#FFCB6B90",
+    "git.color.untracked": "#C3E88D90"
   }
 }
