@@ -1,5 +1,5 @@
-<a name="1.0.4"></a>
-## [1.0.4](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.3...v1.0.4) (2017-10-11)
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.4...v1.0.5) (2017-10-12)
 
 
 ### Bug Fixes
@@ -13,6 +13,7 @@
 * Add .asp, .aspx and .ascx file icon ([144276a](https://github.com/equinusocio/vsc-material-theme/commit/144276a)), closes [#96](https://github.com/equinusocio/vsc-material-theme/issues/96)
 * Add .mjs file icon ([4b6430e](https://github.com/equinusocio/vsc-material-theme/commit/4b6430e)), closes [#93](https://github.com/equinusocio/vsc-material-theme/issues/93)
 * Add .yarnrc and .npmrc file icon ([7ea401c](https://github.com/equinusocio/vsc-material-theme/commit/7ea401c))
+* Add colors for sidebar git.untracked and git.modified files ([081558c](https://github.com/equinusocio/vsc-material-theme/commit/081558c))
 
 
 
