@@ -1,4 +1,5 @@
 {
+  "hidesExplorerArrows": true,
   {{> iconDefinitions}}
   {{> fileExtensions}}
   {{> fileNames}}
