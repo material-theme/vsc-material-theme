@@ -731,7 +731,7 @@
     "titleBar.activeForeground": "{{variant.scheme.comments}}",
     "titleBar.inactiveBackground": "{{variant.scheme.background}}",
     "titleBar.inactiveForeground": "{{variant.scheme.comments}}",
-    "sideBar.background": "{{variant.scheme.background}}",
+    "sideBar.background": "{{variant.scheme.sidebarBackground}}",
     "sideBar.foreground": "{{variant.scheme.sidebarForeground}}",
     "sideBarTitle.foreground": "{{variant.scheme.foreground}}",
     "sideBarSectionHeader.background": "{{variant.scheme.background}}",
