@@ -5,6 +5,7 @@
   "scheme": {
     "background": "#FAFAFA",
     "backgroundAlt": "#FAFAFA",
+    "contrastBorder": "#FAFAFA",
     "comments": "#90A4AE90",
     "caret": "#272727",
     "findHighlight": "#FFCC00",
