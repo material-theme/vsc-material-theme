@@ -44,9 +44,12 @@ export interface IDefaultsThemeIcons {
 export interface IDefaultsThemeVariant {
   [index: string]: string;
   Darker: string;
+  DarkerHighContrast: string;
   Default: string;
+  DefaultHighContrast: string;
   Light: string;
-  Palenight: string;
+  LightHighContrast: string;
+  PalenightHighContrast: string;
 }
 
 export interface IDefaultsThemeVariantColours extends IDefaultsThemeVariant {

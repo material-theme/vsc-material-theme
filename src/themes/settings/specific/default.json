@@ -4,6 +4,7 @@
   "type": "dark",
   "scheme": {
     "background": "#263238",
+    "backgroundAlt": "#263238",
     "comments": "#546E7A",
     "caret": "#FFCC00",
     "findHighlight": "#FFCC00",
@@ -24,6 +25,7 @@
     "sidebarBackground": "#263238",
     "sidebarForeground": "#546E7A",
     "listHoverForeground": "#FFFFFF",
+    "listHoverBackground": "#263238",
     "tabActiveForeground": "#FFFFFF",
     "base": {
       "white": "#ffffff",

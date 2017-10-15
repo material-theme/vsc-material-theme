@@ -1,10 +1,10 @@
 {
-  "id": "material.theme.darker",
-  "name": "Material-Theme-Darker",
+  "id": "material.theme.darker.hc",
+  "name": "Material-Theme-Darker-High-Contrast",
   "type": "dark",
   "scheme": {
     "background": "#212121",
-    "backgroundAlt": "#212121",
+    "backgroundAlt": "#1a1a1a",
     "comments": "#4A4A4A",
     "caret": "#FFCC00",
     "findHighlight": "#FFCC00",
@@ -22,10 +22,8 @@
     "scrollbars": "#00000050",
     "scrollbarsHover": "#00000030",
     "statusbarForeground": "#616161",
-    "sidebarBackground": "#212121",
     "sidebarForeground": "#616161",
     "listHoverForeground": "#FFFFFF",
-    "listHoverBackground": "#212121",
     "tabActiveForeground": "#FFFFFF",
     "base": {
       "white": "#ffffff",

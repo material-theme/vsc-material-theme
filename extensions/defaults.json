@@ -46,20 +46,32 @@
   },
   "themeVariants": {
     "Darker": "./themes/Material-Theme-Darker.json",
+    "Darker High Contrast": "./themes/Material-Theme-Darker-High-Contrast.json",
     "Default": "./themes/Material-Theme-Default.json",
+    "Default High Contrast": "./themes/Material-Theme-Default-High-Contrast.json",
     "Light": "./themes/Material-Theme-Lighter.json",
-    "Palenight": "./themes/Material-Theme-Palenight.json"
+    "Light High Contrast": "./themes/Material-Theme-Lighter-High-Contrast.json",
+    "Palenight": "./themes/Material-Theme-Palenight.json",
+    "Palenight High Contrast": "./themes/Material-Theme-Palenight-High-Contrast.json"
   },
   "themeVariantsColours": {
     "Darker": "#424242",
+    "Darker High Contrast": "#424242",
     "Default": "#4A616C",
+    "Default High Contrast": "#4A616C",
     "Light": "#90A4AE",
-    "Palenight": "#4E5579"
+    "Light High Contrast": "#90A4AE",
+    "Palenight": "#4E5579",
+    "Palenight High Contrast": "#4E5579"
   },
   "themeVariantsUITheme": {
     "Darker": "vs-dark",
+    "Darker High Contrast": "vs-dark",
     "Default": "vs-dark",
+    "Default High Contrast": "vs-dark",
     "Light": "vs",
-    "Palenight": "vs-dark"
+    "Light High Contrast": "vs",
+    "Palenight": "vs-dark",
+    "Palenight High Contrast": "vs-dark"
   }
 }

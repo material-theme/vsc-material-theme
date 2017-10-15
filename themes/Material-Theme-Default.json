@@ -783,6 +783,7 @@
     "editorMarkerNavigation.background": "#EEFFFF05",
     "widget.shadow": "#00000030",
     "panel.border": "#263238",
+    "panel.background": "#263238",
     "panelTitle.activeForeground": "#EEFFFF",
     "diffEditor.insertedTextBackground": "#C3E88D15",
     "diffEditor.removedTextBackground": "#FF537020",

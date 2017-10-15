@@ -70,8 +70,8 @@
     "themes": [
       {
         "label": "Material Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Material-Theme-Darker.json"
+        "path": "./themes/Material-Theme-Darker-High-Contrast.json",
+        "uiTheme": "vs-dark"
       }
     ],
     "iconThemes": [
