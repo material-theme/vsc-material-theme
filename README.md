@@ -93,6 +93,8 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
     "editor.lineHeight": 24,
     // Enables font ligatures
     "editor.fontLigatures": true,
+    // Controls if file decorations should use badges.
+    "explorer.decorations.badges": false,
 ```
 
 # Other resources
