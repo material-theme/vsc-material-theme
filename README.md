@@ -6,7 +6,7 @@
 <a href="https://code.visualstudio.com/updates/v1_17"><img src="https://img.shields.io/badge/VS_Code-v1.17+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs/Equinusocio.vsc-material-theme.svg?style=flat-square"/></a>
 
 
-The most epic theme meets Visual Studio Code. Please note that this theme is still in Beta (β) release. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
+The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
 
 # Getting started
 
