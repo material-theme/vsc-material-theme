@@ -4,10 +4,10 @@
   "type": "dark",
   "scheme": {
     "background": "#263238",
-    "backgroundAlt": "#1F2529",
+    "backgroundAlt": "#192227",
     "contrastBorder": "#000000",
-    "sidebarForeground": "#78909C",
-    "scrollbars": "#00000050",
+    "scrollbars": "#00000070",
+    "sidebarForeground": "#5f7a87",
     "comments": "#546E7A",
     "caret": "#FFCC00",
     "findHighlight": "#FFCC00",
