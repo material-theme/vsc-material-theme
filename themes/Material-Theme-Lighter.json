@@ -812,6 +812,7 @@
     "debugToolBar.background": "#FAFAFA",
     "pickerGroup.foreground": "#80CBC4",
     "git.color.modified": "#FFB62C90",
-    "git.color.untracked": "#91B85990"
+    "git.color.untracked": "#91B85990",
+    "git.color.ignored": "#7E939E90"
   }
 }

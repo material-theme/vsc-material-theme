@@ -7,7 +7,6 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "node_modules": true,
     "**/*.js": {
       "when": "$(basename).ts"
     },

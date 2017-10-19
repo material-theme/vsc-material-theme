@@ -812,6 +812,7 @@
     "debugToolBar.background": "{{variant.scheme.background}}",
     "pickerGroup.foreground": "{{commons.accents.Teal}}",
     "git.color.modified": "{{variant.scheme.base.yellow}}90",
-    "git.color.untracked": "{{variant.scheme.base.green}}90"
+    "git.color.untracked": "{{variant.scheme.base.green}}90",
+    "git.color.ignored": "{{variant.scheme.sidebarForeground}}90"
   }
 }
