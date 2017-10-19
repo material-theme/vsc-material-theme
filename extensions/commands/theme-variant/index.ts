@@ -33,9 +33,9 @@ export const THEME_VARIANT = () => {
         return;
       }
 
-      setCustomSettings(customSettings);
-
-      THEME_ICONS().then(() => reloadWindow()).catch(error => console.trace(error));
+      setCustomSettings(customSettings).then(() => {
+        THEME_ICONS().then(() => reloadWindow()).catch(error => console.trace(error))
+      });
     });
   });
 }
