@@ -99,6 +99,15 @@
       }
     },
     {
+      "name": "Keyword Control",
+      "scope": [
+        "keyword.control"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Tag",
       "scope": [
         "entity.name.tag",
