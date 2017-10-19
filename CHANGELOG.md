@@ -1,3 +1,13 @@
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/equinusocio/material-theme/compare/v4.0.10...v4.1.0) (2017-10-19)
+
+
+### Bug Fixes
+
+* Remove app title bar style to fix high CPU issue ([ddc7703](https://github.com/equinusocio/material-theme/commit/ddc7703)), closes [#1180](https://github.com/equinusocio/material-theme/issues/1180) [#1190](https://github.com/equinusocio/material-theme/issues/1190)
+
+
+
 <a name="4.0.10"></a>
 ## [4.0.10](https://github.com/equinusocio/material-theme/compare/v4.0.9...v4.0.10) (2017-07-24)
 

@@ -61,7 +61,8 @@ OPTIONS = OrderedDict(
             'material_theme_panel_separator',
             'material_theme_contrast_mode',
             'material_theme_bright_scrollbars',
-            'material_theme_accent_scrollbars'
+            'material_theme_accent_scrollbars',
+            'material_theme_accent_titlebar'
           ],
         )
     )
@@ -70,14 +71,14 @@ OPTIONS = OrderedDict(
 
 BACK = '[← BACK](back){: .mt-config .ui-backlink }'
 SECTIONS = '[• %(section)s](::%(section)s){: .mt-config .ui-control }\n'
-SECTION_LABEL = '\n\n## Material Theme - %s\n\n'
-SECTIONS_LABEL = '\n\n## Config - Material Theme\n\n'
+SECTION_LABEL = '\n\n## %s\n\n'
+SECTIONS_LABEL = '\n\n## MATERIAL THEME - CONFIG\n\n'
 GENERAL_SETTING = '''[**%(status)s**{: .mt-config %(class)s} %(name)s](%(name)s:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
 SCHEME = '''[**%(status)s**{: .mt-config %(class)s} %(name)s](color_scheme:%(set)s:%(section)s)\
 {: .mt-config .ui-control }\n'''
-THEME_LABEL = '\n\n## Themes - Material Theme\n\n'
-SCHEME_LABEL = '\n\n## Schemes - Material Theme\n\n'
+THEME_LABEL = '\n\n## Theme\n\n'
+SCHEME_LABEL = '\n\n## Color Scheme\n\n'
 OTHER_SCHEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} Other: %(name)s]\
 (color_scheme:%(set)s:%(section)s){: .mt-config .ui-control }\n'''
 THEME = '''[**%(status)s**{: .mt-config .ui-control %(class)s} %(name)s](theme:%(set)s:%(section)s)\

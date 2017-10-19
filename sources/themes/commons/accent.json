@@ -399,6 +399,15 @@
     "layer1.opacity": 0.8
   },
 
+    // Title Bar
+
+  // {
+  //   "class": "title_bar",
+  //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_<%= ui.accents[i].id %>"],
+  //   "bg": [<%= ui.accents[i].rgb %>],
+  //   "fg": [<%= ui.accents[i].foreground.rgb %>]
+  // },
+
   // Symlink folder icon
 
   {
