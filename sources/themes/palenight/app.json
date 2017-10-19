@@ -23,8 +23,8 @@
 // App title bar
 // =========================================================================
 
-  {
-    "class": "title_bar",
-    "fg": [<%= ui.foreground.primary.rgb %>],
-    "bg": [<%= ui.background.primary.rgb %>]
-  },
+  // {
+  //   "class": "title_bar",
+  //   "fg": [<%= ui.foreground.primary.rgb %>],
+  //   "bg": [<%= ui.background.primary.rgb %>]
+  // },
