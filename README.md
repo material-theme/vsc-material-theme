@@ -90,12 +90,12 @@ If you want to enable the white panels and inputs you can install the addon pack
 
 // Panels
 "material_theme_accent_scrollbars"        : true, // Enable accent color for scrollbars
-"material_theme_accent_titlebar"          : true, // Enable accent color for title bar
 "material_theme_bright_scrollbars"        : true, // Bright scrollbars puck color
 "material_theme_compact_panel"            : true, // Set minimal padding for the search panel
 "material_theme_contrast_mode"            : true, // Enable sidebar and panels contrast mode
 "material_theme_panel_separator"          : true, // Show bottom panel separator
 "material_theme_small_statusbar"          : true, // Set small status bar
+"material_theme_titlebar"                 : true, // Enable title bar (OS X 10.10+)
 
 // Sidebar
 "material_theme_arrow_folders"            : true, // Replace folder icons with arrows

@@ -18,13 +18,3 @@
     "border_size": 1,
     "border_color": [27, 27, 27]
   },
-
-// @TITLE BAR
-// App title bar
-// =========================================================================
-
-  {
-    "class": "title_bar",
-    "fg": [175, 189, 196],
-    "bg": [<%= ui.background.primary.rgb %>]
-  },
