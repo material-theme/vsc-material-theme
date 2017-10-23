@@ -35,6 +35,15 @@ export function getAbsolutePath(input: string): string {
 }
 
 /**
+ * @export
+ * @returns {string[]}
+ */
+export function getAccentableIcons(): string[] {
+  return getDefaultValues().accentableIcons;
+}
+
+
+/**
  * Gets a theme content by a given contribute ID
  *
  * @export

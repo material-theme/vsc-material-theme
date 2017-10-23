@@ -70,7 +70,7 @@
     "themes": [
       {
         "label": "Material Theme",
-        "path": "./themes/Material-Theme-Default.json",
+        "path": "./themes/Material-Theme-Darker.json",
         "uiTheme": "vs-dark"
       }
     ],
@@ -117,7 +117,7 @@
     "run-sequence": "1.2.2",
     "svgo": "0.7.1",
     "typescript": "2.4.1",
-    "vscode": "1.1.1",
+    "vscode": "1.1.6",
     "yamljs": "0.3.0",
     "yargs": "8.0.2"
   }

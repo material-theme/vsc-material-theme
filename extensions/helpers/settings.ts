@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 
 import { IDefaults } from "../interfaces/idefaults";
 import { IThemeCustomProperties } from "../interfaces/itheme-custom-properties";
-import { getPackageJSON } from "./fs";
+import {getPackageJSON} from './fs';
 
 /**
  * Gets saved accent

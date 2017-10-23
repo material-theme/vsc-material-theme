@@ -34,19 +34,24 @@ fileNames.forEach(fileName => {
  * Themes task
  * Builds Themes
  */
-export default gulp.task('build:themes', () => {
+export default gulp.task('build:themes', cb => {
   gulpUtil.log(gulpUtil.colors.gray(HR));
 
-  themeVariants.forEach(variant => {
-    let filePath = path.join(paths.THEMES, `./${variant.name}.json`);
-    let templateData = { commons, variant };
-    let templateJSON: any = JSON.parse(mustache.render(themeTemplateFileContent, templateData));
-    let templateJSONStringified: string = JSON.stringify(templateJSON, null, 2);
+  try {
+    themeVariants.forEach(variant => {
+      let filePath = path.join(paths.THEMES, `./${variant.name}.json`);
+      let templateData = { commons, variant };
+      let templateJSON: any = JSON.parse(mustache.render(themeTemplateFileContent, templateData));
+      let templateJSONStringified: string = JSON.stringify(templateJSON, null, 2);
 
-    fs.writeFileSync(filePath, templateJSONStringified, { encoding: CHARSET });
+      fs.writeFileSync(filePath, templateJSONStringified, { encoding: CHARSET });
 
-    gulpUtil.log(MESSAGE_GENERATED, gulpUtil.colors.green(filePath));
-  });
+      gulpUtil.log(MESSAGE_GENERATED, gulpUtil.colors.green(filePath));
+    });
+  } catch (exception) {
+    gulpUtil.log(exception);
+    cb(exception);
+  }
 
   gulpUtil.log(gulpUtil.colors.gray(HR));
 });

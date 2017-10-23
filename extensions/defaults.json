@@ -17,29 +17,40 @@
     "Teal": "#80CBC4",
     "Yellow": "#FFA000"
   },
+  "accentableIcons": [
+    "_folder_open",
+    "_folder_open_build",
+    "_folder_vscode_open"
+  ],
   "changelog": {
     "lastversion": "1.0.5"
   },
   "icons": {
     "theme": {
       "iconDefinitions": {
-        "_folder_dark": {
-          "iconPath": "../icons/folder.svg"
+        "_folder_vscode": {
+          "iconPath": "../icons/_folder_vscode.svg"
         },
-        "_file_folder": {
-          "iconPath": "../icons/folder.svg"
+        "_folder_vscode_open": {
+          "iconPath": "../icons/_folder_vscode_open.svg"
+        },
+        "_folder_dark": {
+          "iconPath": "../icons/_folder_dark.svg"
         },
         "_folder_dark_build": {
-          "iconPath": "../icons/folder-build.svg"
+          "iconPath": "../icons/_folder_dark_build.svg"
         },
-        "_file_folder-build": {
-          "iconPath": "../icons/folder-build.svg"
+        "_file_folder": {
+          "iconPath": "../icons/_file_folder.svg"
+        },
+        "_file_folder_build": {
+          "iconPath": "../icons/_file_folder_build.svg"
         },
         "_folder_open": {
-          "iconPath": "../icons/folder-outline.svg"
+          "iconPath": "../icons/_folder_open.svg"
         },
         "_folder_open_build": {
-          "iconPath": "../icons/folder-outline-build.svg"
+          "iconPath": "../icons/_folder_open_build.svg"
         }
       }
     }

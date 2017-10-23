@@ -17,10 +17,24 @@ import paths from '../../extensions/consts/paths';
  * @returns {IIcon}
  */
 function iconFactory(fileName: string): IIcon {
+  gutil.log(gutil.colors.gray(`Processing icon ${ fileName }`))
   let name: string = path.basename(fileName, path.extname(fileName));
+  let filename: string = name;
   let last: boolean = false;
 
-  return { name, last } as IIcon;
+  // renaming icon for vscode
+  // if the icon filename starts with a folder prefix,
+  // the resulting name will be prefixed only by an underscore,
+  // otherwise the icon will be prefixed by a _file_ prefix
+  if (name.indexOf('folder')) {
+    name = name.indexOf('file') ? `_file_${ name }` : `_${ name }`;
+  } else {
+    name = `_${ name }`;
+  }
+
+  gutil.log(gutil.colors.gray(`VSCode icon name ${ name } with filename ${ filename }`));
+
+  return { filename, name, last } as IIcon;
 }
 
 /**
