@@ -30,11 +30,11 @@
   // App title bar
   // =========================================================================
   
-    {
-      "class": "title_bar",
-      "fg": [96, 125, 139],
-      "bg": [38, 50, 56]
-    },
+    // {
+    //   "class": "title_bar",
+    //   "fg": [96, 125, 139],
+    //   "bg": [38, 50, 56]
+    // },
   
   
   // @ DIALOG POPUP
@@ -1925,6 +1925,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_lime"],
+    //   "bg": [124, 179, 66],
+    //   "fg": [0, 0, 0]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -2341,6 +2350,15 @@
       "layer1.texture": "Material Theme/assets/accent-purple/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
+  
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_purple"],
+    //   "bg": [171, 71, 188],
+    //   "fg": [255, 255, 255]
+    // },
   
     // Symlink folder icon
   
@@ -2759,6 +2777,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_red"],
+    //   "bg": [229, 115, 115],
+    //   "fg": [0, 0, 0]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -3175,6 +3202,15 @@
       "layer1.texture": "Material Theme/assets/accent-orange/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
+  
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_orange"],
+    //   "bg": [255, 112, 66],
+    //   "fg": [0, 0, 0]
+    // },
   
     // Symlink folder icon
   
@@ -3593,6 +3629,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_yellow"],
+    //   "bg": [255, 160, 0],
+    //   "fg": [0, 0, 0]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -4009,6 +4054,15 @@
       "layer1.texture": "Material Theme/assets/accent-indigo/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
+  
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_indigo"],
+    //   "bg": [92, 107, 192],
+    //   "fg": [255, 255, 255]
+    // },
   
     // Symlink folder icon
   
@@ -4427,6 +4481,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_pink"],
+    //   "bg": [255, 64, 129],
+    //   "fg": [255, 255, 255]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -4843,6 +4906,15 @@
       "layer1.texture": "Material Theme/assets/accent-blue/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
+  
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_blue"],
+    //   "bg": [41, 121, 255],
+    //   "fg": [255, 255, 255]
+    // },
   
     // Symlink folder icon
   
@@ -5261,6 +5333,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_cyan"],
+    //   "bg": [0, 188, 212],
+    //   "fg": [0, 0, 0]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -5677,6 +5758,15 @@
       "layer1.texture": "Material Theme/assets/accent-bright-teal/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
+  
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_bright-teal"],
+    //   "bg": [100, 255, 218],
+    //   "fg": [0, 0, 0]
+    // },
   
     // Symlink folder icon
   
@@ -6095,6 +6185,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_acid-lime"],
+    //   "bg": [198, 255, 0],
+    //   "fg": [0, 0, 0]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -6511,6 +6610,15 @@
       "layer1.texture": "Material Theme/assets/accent-graphite/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
+  
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_graphite"],
+    //   "bg": [97, 97, 97],
+    //   "fg": [255, 255, 255]
+    // },
   
     // Symlink folder icon
   
@@ -6929,6 +7037,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_brba"],
+    //   "bg": [56, 142, 60],
+    //   "fg": [255, 255, 255]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -7346,6 +7463,15 @@
       "layer1.opacity": 0.8
     },
   
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_sky"],
+    //   "bg": [132, 255, 255],
+    //   "fg": [0, 0, 0]
+    // },
+  
     // Symlink folder icon
   
     {
@@ -7762,6 +7888,15 @@
       "layer1.texture": "Material Theme/assets/accent-tomato/thumb_horizontal.png",
       "layer1.opacity": 0.8
     },
+  
+      // Title Bar
+  
+    // {
+    //   "class": "title_bar",
+    //   "settings": ["material_theme_accent_titlebar", "material_theme_accent_tomato"],
+    //   "bg": [244, 67, 54],
+    //   "fg": [255, 255, 255]
+    // },
   
     // Symlink folder icon
   
