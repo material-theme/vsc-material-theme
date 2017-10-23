@@ -193,3 +193,30 @@
     "layer1.texture": "Material Theme/assets/commons/thumb_horizontal.png",
     "layer1.opacity": 0.2
   },
+
+    // Title bar (OS X 10.10+)
+
+  {
+    "class": "title_bar",
+    "settings": ["material_theme_titlebar"],
+    "platforms": ["osx"],
+    "fg": [<%= ui.foreground.primary.rgb %>],
+    "bg": [<%= ui.background.primary.rgb %>]
+  },
+
+  {
+    "class": "title_bar",
+    "settings": ["material_theme_titlebar", "material_theme_contrast_mode"],
+    "platforms": ["osx"],
+    "fg": [<%= ui.foreground.primary.rgb %>],
+    "bg":
+      <% if (ui.variant.id == "darker") { %>
+        [26, 26, 26]
+      <% } else if (ui.variant.id == "lighter") { %>
+        [245, 245, 245]
+      <% } else if (ui.variant.id == "palenight") { %>
+        [33, 36, 50]
+      <% } else { %>
+        [30, 40, 45]
+      <% } %>
+  },
