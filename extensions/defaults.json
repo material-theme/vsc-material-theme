@@ -29,28 +29,34 @@
     "theme": {
       "iconDefinitions": {
         "_folder_vscode": {
-          "iconPath": "../icons/_folder_vscode.svg"
+          "iconPath": "../icons/folder_vscode.svg"
         },
         "_folder_vscode_open": {
-          "iconPath": "../icons/_folder_vscode_open.svg"
+          "iconPath": "../icons/folder_vscode_open.svg"
         },
         "_folder_dark": {
-          "iconPath": "../icons/_folder_dark.svg"
+          "iconPath": "../icons/folder_dark.svg"
         },
         "_folder_dark_build": {
-          "iconPath": "../icons/_folder_dark_build.svg"
+          "iconPath": "../icons/folder_dark_build.svg"
+        },
+        "_folder_light": {
+          "iconPath": "../icons/folder_light.svg"
+        },
+        "_folder_light_build": {
+          "iconPath": "../icons/folder_light_build.svg"
         },
         "_file_folder": {
-          "iconPath": "../icons/_file_folder.svg"
+          "iconPath": "../icons/file_folder.svg"
         },
         "_file_folder_build": {
-          "iconPath": "../icons/_file_folder_build.svg"
+          "iconPath": "../icons/file_folder_build.svg"
         },
         "_folder_open": {
-          "iconPath": "../icons/_folder_open.svg"
+          "iconPath": "../icons/folder_open.svg"
         },
         "_folder_open_build": {
-          "iconPath": "../icons/_folder_open_build.svg"
+          "iconPath": "../icons/folder_open_build.svg"
         }
       }
     }

@@ -99,11 +99,11 @@ function setWorkbenchOptions(accentSelected: string | undefined, config: any): v
     let themeID = getCurrentThemeID()
     let themeIconsID = getCurrentThemeIconsID()
 
-    updateAccent(accentSelected);
-
-    if (isMaterialTheme(themeID) && isMaterialThemeIcons(themeIconsID)) {
-      THEME_ICONS().then(() => reloadWindow());
-    }
+    updateAccent(accentSelected).then(() => {
+      if (isMaterialTheme(themeID) && isMaterialThemeIcons(themeIconsID)) {
+        THEME_ICONS().then(() => reloadWindow());
+      }
+    });
   }, reason => {
     vscode.window.showErrorMessage(reason);
   });

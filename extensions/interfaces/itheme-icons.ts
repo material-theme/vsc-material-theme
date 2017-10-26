@@ -6,6 +6,7 @@ export interface IThemeIcons {
   "iconDefinitions":
   {
     "_folder_dark": IThemeIconsIconPath;
+    "_file_folder": IThemeIconsIconPath;
     "_folder_dark_build": IThemeIconsIconPath;
     "_folder_light": IThemeIconsIconPath;
     "_folder_light_build": IThemeIconsIconPath;

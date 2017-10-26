@@ -6,5 +6,6 @@ export interface IThemeIconsVariants {
     "_folder_dark_build": IThemeIconsItem;
     "_folder_light": IThemeIconsItem;
     "_folder_light_build": IThemeIconsItem;
+    "_folder_vscode": IThemeIconsItem;
   }
 }
