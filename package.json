@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
@@ -71,7 +70,7 @@
     "themes": [
       {
         "label": "Material Theme",
-        "path": "./themes/Material-Theme-Palenight-High-Contrast.json",
+        "path": "./themes/Material-Theme-Darker.json",
         "uiTheme": "vs-dark"
       }
     ],
@@ -118,137 +117,13 @@
     "run-sequence": "1.2.2",
     "svgo": "0.7.1",
     "typescript": "2.4.1",
-    "vscode": "1.1.6",
+    "vscode": "1.1.1",
     "yamljs": "0.3.0",
     "yargs": "8.0.2"
+  },
+  "__metadata": {
+    "id": "dffaf5a1-2219-434b-9d87-cb586fd59260",
+    "publisherDisplayName": "Mattia Astorino",
+    "publisherId": "e41388a1-a892-4c1e-940b-1e7c1bf43c97"
   }
-=======
-	"name": "vsc-material-theme",
-	"displayName": "Material Theme",
-	"description": "The most epic theme now for Visual Studio Code",
-	"version": "1.0.5",
-	"publisher": "Equinusocio",
-	"license": "Apache-2.0",
-	"icon": "logo.png",
-	"galleryBanner": {
-		"color": "#263238",
-		"theme": "dark"
-	},
-	"homepage": "https://github.com/equinusocio/vsc-material-theme",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/equinusocio/vsc-material-theme.git"
-	},
-	"bugs": {
-		"url": "https://github.com/equinusocio/vsc-material-theme/issues"
-	},
-	"engines": {
-		"vscode": "^1.17.0"
-	},
-	"scripts": {
-		"build": "npm run build-icons && npm run build-themes && npm run build-icons-accents && npm run build-icons-variants",
-		"minimize-icons": "svgo -f src/icons/svgs -o icons",
-		"minimize-json": "json-minify themes/.material-theme-icons.tmp > themes/Material-Theme-Icons.json && npm run remove-icons-tmp",
-		"remove-icons": "rimraf icons && rimraf themes/Material-Theme-Icons.json",
-		"remove-icons-tmp": "rimraf themes/.material-theme-icons.tmp",
-		"build-icons": "npm run remove-icons && npm run minimize-icons && gulp build:icons && npm run minimize-json",
-		"build-icons-accents": "gulp build:icons.accents",
-		"build-icons-variants": "gulp build:icons.variants",
-		"build-themes": "gulp build:themes",
-		"release": "npm run bump && npm run changelog",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"changelog": "gulp changelog",
-		"bump": "gulp bump"
-	},
-	"categories": [
-		"Themes",
-		"Other"
-	],
-	"activationEvents": [
-		"*"
-	],
-	"main": "./extensions/material.theme.config",
-	"contributes": {
-		"commands": [
-			{
-				"category": "Material theme",
-				"command": "material.theme.config",
-				"title": "Settings"
-			}
-		],
-		"configuration": {
-			"properties": {
-				"materialTheme.cache.workbench.accent": {
-					"type": "string",
-					"title": "[DEPRECATED] This is an old property.",
-					"description": "This property is intended only for migrating old settings system to a new one. It will be removed in new versions. Don't use it, use \"materialTheme.cache.workbench.settings\" instead."
-				},
-				"materialTheme.cache.workbench.settings": {
-					"default": {},
-					"type": "object",
-					"title": "Custom material theme settings",
-					"description": "Material theme settings object."
-				}
-			}
-		},
-		"themes": [
-			{
-				"label": "Material Theme",
-				"path": "./themes/Material-Theme-Default.json",
-				"uiTheme": "vs-dark"
-			}
-		],
-		"iconThemes": [
-			{
-				"id": "eq-material-theme-icons",
-				"label": "Material Theme Icons",
-				"path": "./themes/Material-Theme-Icons.json"
-			}
-		]
-	},
-	"badges": [
-		{
-			"url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
-			"href": "https://github.com/equinusocio/vsc-material-theme/issues",
-			"description": "Open issues"
-		}
-	],
-	"devDependencies": {
-		"@types/chalk": "0.4.31",
-		"@types/gulp": "4.0.4",
-		"@types/gulp-if": "0.0.31",
-		"@types/gulp-util": "3.0.31",
-		"@types/mustache": "0.8.29",
-		"@types/run-sequence": "0.0.29",
-		"@types/through2": "2.0.33",
-		"@types/yamljs": "0.2.30",
-		"@types/yargs": "6.6.0",
-		"babel-core": "6.25.0",
-		"babel-preset-es2015": "6.24.1",
-		"babel-root-import": "4.1.8",
-		"cpx": "1.5.0",
-		"eslint": "4.1.1",
-		"eslint-plugin-standard": "3.0.1",
-		"gulp": "3.9.1",
-		"gulp-bump": "2.7.0",
-		"gulp-conventional-changelog": "1.1.3",
-		"gulp-if": "2.0.2",
-		"gulp-stats": "0.0.4",
-		"gulp-util": "3.0.8",
-		"json-minify": "1.0.0",
-		"mustache": "2.3.0",
-		"rimraf": "2.6.1",
-		"run-sequence": "1.2.2",
-		"svgo": "0.7.1",
-		"typescript": "2.4.1",
-		"vscode": "1.1.1",
-		"yamljs": "0.3.0",
-		"yargs": "8.0.2"
-	},
-	"__metadata": {
-		"id": "dffaf5a1-2219-434b-9d87-cb586fd59260",
-		"publisherDisplayName": "Mattia Astorino",
-		"publisherId": "e41388a1-a892-4c1e-940b-1e7c1bf43c97"
-	}
->>>>>>> develop
 }
