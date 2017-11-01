@@ -52,6 +52,13 @@ export function getAccentableIcons(): string[] {
   return getDefaultValues().accentableIcons;
 }
 
+/**
+ * @export
+ * @returns {string[]}
+ */
+export function getVariantIcons(): string[] {
+  return getDefaultValues().variantsIcons;
+}
 
 /**
  * Gets a theme content by a given contribute ID

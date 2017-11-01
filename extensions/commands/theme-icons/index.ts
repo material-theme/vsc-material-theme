@@ -1,13 +1,18 @@
 import {getAccentableIcons} from '../../helpers/fs';
 import * as fs from 'fs';
 
-import { getAbsolutePath, getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute } from "../../helpers/fs";
+import { getAbsolutePath, getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute, getVariantIcons } from "../../helpers/fs";
 import { getCurrentThemeIconsID } from "../../helpers/vscode";
 import { getCustomSettings, isAccent, isMaterialThemeIcons } from "../../helpers/settings";
 
 import { CHARSET } from "../../consts/files";
 import { IPackageJSONThemeIcons } from "../../interfaces/ipackage.json";
-import { IThemeIcons } from "../../interfaces/itheme-icons";
+import {IThemeIconsIconPath, IThemeIcons} from '../../interfaces/itheme-icons';
+
+
+function getIconDefinition(definitions: any, iconname: string): IThemeIconsIconPath {
+  return (definitions as any)[iconname];
+}
 
 /**
  * Replaces icon path with the accented one.
@@ -40,33 +45,42 @@ export const THEME_ICONS = () => {
       let _accentName = accentName.replace(/\s+/, '-');
 
       getAccentableIcons().forEach(iconname => {
-        let distIcon = (theme.iconDefinitions as any)[iconname];
-        let outIcon = (defaults.icons.theme.iconDefinitions as any)[iconname];
+        let distIcon = getIconDefinition(theme.iconDefinitions, iconname);
+        let outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
 
         if (typeof distIcon === 'object' && typeof outIcon === 'object') {
           distIcon.iconPath = replaceIconPathWithAccent(outIcon.iconPath, _accentName)
         }
       })
 
-      theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath.replace('.svg', `.accent.${ _accentName }.svg`);
-      theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath.replace('.svg', `.accent.${ _accentName }.svg`);
+      // theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath.replace('.svg', `.accent.${ _accentName }.svg`);
+      // theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath.replace('.svg', `.accent.${ _accentName }.svg`);
     } else {
 
       getAccentableIcons().forEach(iconname => {
-        let distIcon = (theme.iconDefinitions as any)[iconname];
-        let outIcon = (defaults.icons.theme.iconDefinitions as any)[iconname];
+        let distIcon = getIconDefinition(theme.iconDefinitions, iconname);
+        let outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
 
         distIcon.iconPath = outIcon.iconPath;
       });
-      theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath;
-      theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath;
+      // theme.iconDefinitions._folder_open.iconPath = defaults.icons.theme.iconDefinitions._folder_open.iconPath;
+      // theme.iconDefinitions._folder_open_build.iconPath = defaults.icons.theme.iconDefinitions._folder_open_build.iconPath;
     }
 
-    theme.iconDefinitions._folder_dark.iconPath = defaults.icons.theme.iconDefinitions._folder_dark.iconPath.replace('.svg', `${ variantName }.svg`);
-    theme.iconDefinitions._folder_dark_build.iconPath = defaults.icons.theme.iconDefinitions._folder_dark_build.iconPath.replace('.svg', `${ variantName }.svg`);
+    getVariantIcons().forEach(iconname => {
+      let distIcon = getIconDefinition(theme.iconDefinitions, iconname);
+      let outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
 
-    theme.iconDefinitions._folder_light.iconPath = defaults.icons.theme.iconDefinitions._folder_light.iconPath.replace('.svg', `${ variantName }.svg`);
-    theme.iconDefinitions["_folder_light_build"].iconPath = defaults.icons.theme.iconDefinitions["_folder_light_build"].iconPath.replace('.svg', `${ variantName }.svg`);
+      if (!!distIcon && !!outIcon) {
+        distIcon.iconPath = outIcon.iconPath.replace('.svg', `${ variantName }.svg`);
+      }
+    })
+
+    // theme.iconDefinitions._folder_dark.iconPath = defaults.icons.theme.iconDefinitions._folder_dark.iconPath.replace('.svg', `${ variantName }.svg`);
+    // theme.iconDefinitions._folder_dark_build.iconPath = defaults.icons.theme.iconDefinitions._folder_dark_build.iconPath.replace('.svg', `${ variantName }.svg`);
+
+    // theme.iconDefinitions._folder_light.iconPath = defaults.icons.theme.iconDefinitions._folder_light.iconPath.replace('.svg', `${ variantName }.svg`);
+    // theme.iconDefinitions["_folder_light_build"].iconPath = defaults.icons.theme.iconDefinitions["_folder_light_build"].iconPath.replace('.svg', `${ variantName }.svg`);
 
     fs.writeFile(themepath, JSON.stringify(theme), { encoding: CHARSET }, (error) => {
       if (error) {

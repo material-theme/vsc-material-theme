@@ -90,5 +90,12 @@
     "Light High Contrast": "vs",
     "Palenight": "vs-dark",
     "Palenight High Contrast": "vs-dark"
-  }
+  },
+  "variantsIcons": [
+    "_folder_dark_build",
+    "_folder_dark",
+    "_folder_light_build",
+    "_folder_light",
+    "_folder_vscode"
+  ]
 }

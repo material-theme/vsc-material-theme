@@ -42,7 +42,7 @@ function replaceNameWithAccent(name: string, accentName: string): string {
  * @returns {string}
  */
 export function replaceSVGColour(filecontent: string, colour: string): string {
-  return filecontent.replace(new RegExp('.st0\{fill:#([a-zA-Z0-9]{6})\}|path fill="#([a-zA-Z0-9]{6})"'), ($0, $1, $2) => {
+  return filecontent.replace(new RegExp('.st0\{fill:\s{0,}#([a-zA-Z0-9]{6})\}|path fill="#([a-zA-Z0-9]{6})"'), ($0, $1, $2) => {
 
     colour = colour.replace('#', '');
 
@@ -73,6 +73,8 @@ function writeSVGIcon(fromFile: string, toFile: string, accent: string): void {
   let fileContent: string = fs.readFileSync(normalizeIconPath(fromFile), CHARSET);
   let content: string = replaceSVGColour(fileContent, DEFAULTS.accents[accent]);
   toFile = normalizeIconPath(toFile);
+
+  gutil.log(gutil.colors.gray(`Accented icon ${toFile} created with colour ${ accent } (${ DEFAULTS.accents[accent] })`));
 
   fs.writeFileSync(toFile, content);
 }

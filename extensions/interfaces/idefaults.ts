@@ -6,6 +6,7 @@ export interface IDefaults {
   themeVariants: IDefaultsThemeVariant;
   themeVariantsColours: IDefaultsThemeVariantColours;
   themeVariantsUITheme: IDefaultsThemeVariantUITheme;
+  variantsIcons: string[];
 }
 
 export interface IAccents {
