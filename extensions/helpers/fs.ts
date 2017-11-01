@@ -9,6 +9,16 @@ import { IThemeIcons } from "../interfaces/itheme-icons";
 import { PATHS } from "../consts/paths";
 
 /**
+ * @export
+ * @param {string} dirname
+ */
+export function ensureDir(dirname: string): void {
+  if (!fs.existsSync(dirname)) {
+    fs.mkdirSync(dirname);
+  }
+}
+
+/**
  * Gets default value
  * @export
  * @returns {IDefaults}

@@ -10,6 +10,7 @@ import { CHARSET } from "../../extensions/consts/files";
 import { IGenericObject } from "../../extensions/interfaces/igeneric-object";
 import { IIcon } from './../interfaces/iicon';
 import paths from '../../extensions/consts/paths';
+import { ensureDir } from '../../extensions/helpers/fs';
 
 /**
  * Returns an object implementing the IIcon interface
@@ -48,6 +49,8 @@ export default gulp.task('build:icons', cb => {
   let partials: string[] = fs.readdirSync(path.join(paths.SRC, `./icons/partials`));
   let partialsData: IGenericObject<any> = {};
   let pathTemp: string = './themes/.material-theme-icons.tmp';
+
+  ensureDir(path.join(paths.THEMES));
 
   icons[icons.length - 1].last = true;
 

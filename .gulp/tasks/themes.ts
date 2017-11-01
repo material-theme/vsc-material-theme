@@ -10,6 +10,7 @@ import { CHARSET } from "../../extensions/consts/files";
 import { IDefaults } from "../../extensions/interfaces/idefaults";
 import { IThemeVariant } from './../interfaces/itheme-variant';
 import paths from '../../extensions/consts/paths';
+import { ensureDir } from '../../extensions/helpers/fs';
 
 let commons: IDefaults = require('../../extensions/defaults.json');
 
@@ -36,6 +37,8 @@ fileNames.forEach(fileName => {
  */
 export default gulp.task('build:themes', cb => {
   gulpUtil.log(gulpUtil.colors.gray(HR));
+
+  ensureDir(path.join(paths.THEMES));
 
   try {
     themeVariants.forEach(variant => {
