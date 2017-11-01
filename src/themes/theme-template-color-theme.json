@@ -820,8 +820,8 @@
     "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60",
     "debugToolBar.background": "{{variant.scheme.background}}",
     "pickerGroup.foreground": "{{commons.accents.Teal}}",
-    "git.color.modified": "{{variant.scheme.base.yellow}}90",
-    "git.color.untracked": "{{variant.scheme.base.green}}90",
-    "git.color.ignored": "{{variant.scheme.sidebarForeground}}90"
+    "git.modifiedForeground": "{{variant.scheme.base.yellow}}90",
+    "git.untrackedForeground": "{{variant.scheme.base.green}}90",
+    "git.ignoredForeground": "{{variant.scheme.sidebarForeground}}90"
   }
 }
