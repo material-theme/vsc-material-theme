@@ -1,10 +1,27 @@
-<a name="4.1.0"></a>
-# [4.1.0](https://github.com/equinusocio/material-theme/compare/v4.0.10...v4.1.0) (2017-10-19)
+<a name="4.1.2"></a>
+## [4.1.2](https://github.com/equinusocio/material-theme/compare/v4.1.1...v4.1.2) (2017-11-01)
 
 
 ### Bug Fixes
 
+* Add title bar theme as a custom setting material_theme_titlebar ([5bd3290](https://github.com/equinusocio/material-theme/commit/5bd3290))
+
+
+### Features
+
+* add titlebar configuration option ([03c9929](https://github.com/equinusocio/material-theme/commit/03c9929))
+
+
+
+<a name="4.1.1"></a>
+## [4.1.1](https://github.com/equinusocio/material-theme/compare/v4.1.0...v4.1.1) (2017-10-19)
+
+
+### Bug Fixes
+
+* change default title bar text color for all themes ([e19fe6c](https://github.com/equinusocio/material-theme/commit/e19fe6c))
 * Remove app title bar style to fix high CPU issue ([ddc7703](https://github.com/equinusocio/material-theme/commit/ddc7703)), closes [#1180](https://github.com/equinusocio/material-theme/issues/1180) [#1190](https://github.com/equinusocio/material-theme/issues/1190)
+* remove extra space in readme settings ([72c7986](https://github.com/equinusocio/material-theme/commit/72c7986))
 
 
 
@@ -56,22 +73,22 @@
 ### Bug Fixes
 
 * Fix A File Icons package support ([c39d939](https://github.com/equinusocio/material-theme/commit/c39d939))
-* Fix PlainTasks and PlainNotes support ([4e3d7d9](https://github.com/equinusocio/material-theme/commit/4e3d7d9))
-* Fix Raw markdown background color ([14a4fcf](https://github.com/equinusocio/material-theme/commit/14a4fcf)), closes [#1027](https://github.com/equinusocio/material-theme/issues/1027)
 * Fix accent-teal missing assets ([d959813](https://github.com/equinusocio/material-theme/commit/d959813))
 * Fix code folding arrows color ([afe682c](https://github.com/equinusocio/material-theme/commit/afe682c))
 * Fix color schemes names inside configuration popup ([2e703d7](https://github.com/equinusocio/material-theme/commit/2e703d7))
 * Fix folder icon to fit the pixel grid ([ba25d37](https://github.com/equinusocio/material-theme/commit/ba25d37)), closes [#958](https://github.com/equinusocio/material-theme/issues/958)
 * Fix minimap viewport opacity ([a82b6b3](https://github.com/equinusocio/material-theme/commit/a82b6b3))
 * Fix minor color schemes highlights ([664ce96](https://github.com/equinusocio/material-theme/commit/664ce96))
+* Fix PlainTasks and PlainNotes support ([4e3d7d9](https://github.com/equinusocio/material-theme/commit/4e3d7d9))
+* Fix Raw markdown background color ([14a4fcf](https://github.com/equinusocio/material-theme/commit/14a4fcf)), closes [#1027](https://github.com/equinusocio/material-theme/issues/1027)
 * Fix scrollbars black border with "overlay_scroll_bars": "disabled" ([c3f53b2](https://github.com/equinusocio/material-theme/commit/c3f53b2)), closes [#1012](https://github.com/equinusocio/material-theme/issues/1012)
 * Fix selected folder/arrow icon ([955b400](https://github.com/equinusocio/material-theme/commit/955b400)), closes [#1073](https://github.com/equinusocio/material-theme/issues/1073)
 * Fix sidebar heading color with Appbar Package ([27bf47b](https://github.com/equinusocio/material-theme/commit/27bf47b)), closes [#991](https://github.com/equinusocio/material-theme/issues/991)
 * Fix tabset spacing ([1364e5c](https://github.com/equinusocio/material-theme/commit/1364e5c)), closes [#1008](https://github.com/equinusocio/material-theme/issues/1008)
 * Fix theme commands (grey menu) ([733b4bb](https://github.com/equinusocio/material-theme/commit/733b4bb))
 * IMPORTANT: Old color schemes are not more available ([ee830a9](https://github.com/equinusocio/material-theme/commit/ee830a9))
-* Improve Get Info popup ([1a1f297](https://github.com/equinusocio/material-theme/commit/1a1f297))
 * Improve buttons and sidebar colors ([26bd93f](https://github.com/equinusocio/material-theme/commit/26bd93f))
+* Improve Get Info popup ([1a1f297](https://github.com/equinusocio/material-theme/commit/1a1f297))
 * Improve icon file type hover transition ([a84d6cc](https://github.com/equinusocio/material-theme/commit/a84d6cc))
 * Improve minimap viewport visibility ([b1951db](https://github.com/equinusocio/material-theme/commit/b1951db))
 * Improve tree folder/arrow hover animation ([37879c9](https://github.com/equinusocio/material-theme/commit/37879c9))
@@ -84,16 +101,16 @@
 ### Features
 
 * Add "material_theme_big_fileicons" setting ([4da341b](https://github.com/equinusocio/material-theme/commit/4da341b)), closes [#997](https://github.com/equinusocio/material-theme/issues/997)
+* Add new icons for zz File Icons Support ([b17159b](https://github.com/equinusocio/material-theme/commit/b17159b))
 * Add PlainTasks support ([b420ec0](https://github.com/equinusocio/material-theme/commit/b420ec0))
 * Add Skins package support. ([4d49774](https://github.com/equinusocio/material-theme/commit/4d49774))
-* Add new icons for zz File Icons Support ([b17159b](https://github.com/equinusocio/material-theme/commit/b17159b))
 * Add support for "zz-file-icons" package. ([e493311](https://github.com/equinusocio/material-theme/commit/e493311))
 * Add support to zz-file icons and update icons. Please check the readme file. ([8224e68](https://github.com/equinusocio/material-theme/commit/8224e68))
 * Add title bar theme ([431b28c](https://github.com/equinusocio/material-theme/commit/431b28c)), closes [#1119](https://github.com/equinusocio/material-theme/issues/1119)
 * Brand new theme variant: Palenight ([113b313](https://github.com/equinusocio/material-theme/commit/113b313))
+* New "material_theme_bright_scrollbars" and "material_theme_accent_scrollbars" ([0038542](https://github.com/equinusocio/material-theme/commit/0038542)), closes [#1016](https://github.com/equinusocio/material-theme/issues/1016)
 * New “material_theme_arrow_folders” setting ([4c22ee0](https://github.com/equinusocio/material-theme/commit/4c22ee0)), closes [#998](https://github.com/equinusocio/material-theme/issues/998)
 * New “material_theme_bullet_tree_indicator” setting ([cf0f513](https://github.com/equinusocio/material-theme/commit/cf0f513))
-* New "material_theme_bright_scrollbars" and "material_theme_accent_scrollbars" ([0038542](https://github.com/equinusocio/material-theme/commit/0038542)), closes [#1016](https://github.com/equinusocio/material-theme/issues/1016)
 * Now the minimap viewport use the current accent color ([0aa5b69](https://github.com/equinusocio/material-theme/commit/0aa5b69))
 
 
@@ -110,10 +127,11 @@ display file type icons. Please install it and restart Sublime Text.
 
 ### Bug Fixes
 
-* Fix ColorHelper integration ([dc661bb](https://github.com/equinusocio/material-theme/commit/dc661bb)), closes [#939](https://github.com/equinusocio/material-theme/issues/939)
+* configurator when it's running right after installation ([ad8d345](https://github.com/equinusocio/material-theme/commit/ad8d345))
 * Fix active guide color ([b875899](https://github.com/equinusocio/material-theme/commit/b875899))
 * Fix changelog links ([7fd8117](https://github.com/equinusocio/material-theme/commit/7fd8117))
 * Fix changelog visual glitches ([cdfe22f](https://github.com/equinusocio/material-theme/commit/cdfe22f))
+* Fix ColorHelper integration ([dc661bb](https://github.com/equinusocio/material-theme/commit/dc661bb)), closes [#939](https://github.com/equinusocio/material-theme/issues/939)
 * Fix dependencies on sublime text before build 3118 ([7c34dfc](https://github.com/equinusocio/material-theme/commit/7c34dfc))
 * Fix folder animation with some settings ([b7446c2](https://github.com/equinusocio/material-theme/commit/b7446c2)), closes [#943](https://github.com/equinusocio/material-theme/issues/943)
 * Fix json filetype icon ([b0e97b8](https://github.com/equinusocio/material-theme/commit/b0e97b8))
@@ -125,44 +143,43 @@ display file type icons. Please install it and restart Sublime Text.
 * Fix spinner loader ([21ce73e](https://github.com/equinusocio/material-theme/commit/21ce73e)), closes [#950](https://github.com/equinusocio/material-theme/issues/950)
 * Fix tooltip foreground color ([50511ef](https://github.com/equinusocio/material-theme/commit/50511ef))
 * Improve Lighter contrast ([9ef73de](https://github.com/equinusocio/material-theme/commit/9ef73de)), closes [#676](https://github.com/equinusocio/material-theme/issues/676)
+* improve markdown highlighting ([d96c70a](https://github.com/equinusocio/material-theme/commit/d96c70a))
+* improve markdown highlighting ([865a736](https://github.com/equinusocio/material-theme/commit/865a736))
 * Improve markdown highlighting ([02f1930](https://github.com/equinusocio/material-theme/commit/02f1930))
 * Improved theme configurator for ST < 3119 ([f7764fd](https://github.com/equinusocio/material-theme/commit/f7764fd))
+* popup styling in ST < 3119 ([66586db](https://github.com/equinusocio/material-theme/commit/66586db))
 * R file type icon ([5e2ee0d](https://github.com/equinusocio/material-theme/commit/5e2ee0d))
 * Remove GitHub Repo command (duplicate of Issues) ([d1dfe74](https://github.com/equinusocio/material-theme/commit/d1dfe74))
+* restore >=3114 dependencies ([72d80e9](https://github.com/equinusocio/material-theme/commit/72d80e9))
 * Restore custom find highlight color ([8dc4ab3](https://github.com/equinusocio/material-theme/commit/8dc4ab3))
 * Set italic for storage.type scopes ([e9534c4](https://github.com/equinusocio/material-theme/commit/e9534c4)), closes [#960](https://github.com/equinusocio/material-theme/issues/960)
 * Theme configurator style ([0c17f0a](https://github.com/equinusocio/material-theme/commit/0c17f0a))
 * Theme dependencies and add a new Info command ([dadd824](https://github.com/equinusocio/material-theme/commit/dadd824))
-* Update json and ruby file icons ([72713c4](https://github.com/equinusocio/material-theme/commit/72713c4))
-* configurator when it's running right after installation ([ad8d345](https://github.com/equinusocio/material-theme/commit/ad8d345))
-* improve markdown highlighting ([d96c70a](https://github.com/equinusocio/material-theme/commit/d96c70a))
-* improve markdown highlighting ([865a736](https://github.com/equinusocio/material-theme/commit/865a736))
-* popup styling in ST < 3119 ([66586db](https://github.com/equinusocio/material-theme/commit/66586db))
-* restore >=3114 dependencies ([72d80e9](https://github.com/equinusocio/material-theme/commit/72d80e9))
 * update configurator styles to support the latest mdpopups ([ac03484](https://github.com/equinusocio/material-theme/commit/ac03484))
+* Update json and ruby file icons ([72713c4](https://github.com/equinusocio/material-theme/commit/72713c4))
 
 
 ### Features
 
 * Add "material_theme_contrast_fileicon" option ([50fdb53](https://github.com/equinusocio/material-theme/commit/50fdb53))
-* Add Advanced Config menu action ([f98f00e](https://github.com/equinusocio/material-theme/commit/f98f00e))
-* Add Archive/zip file icon ([6217090](https://github.com/equinusocio/material-theme/commit/6217090))
-* Add Material Theme to Preferences > Package Settings ([4b5af86](https://github.com/equinusocio/material-theme/commit/4b5af86))
 * Add `.ini` file icon ([dcb1484](https://github.com/equinusocio/material-theme/commit/dcb1484))
 * Add a new Settings command ([aaef00c](https://github.com/equinusocio/material-theme/commit/aaef00c))
+* Add Advanced Config menu action ([f98f00e](https://github.com/equinusocio/material-theme/commit/f98f00e))
+* Add Archive/zip file icon ([6217090](https://github.com/equinusocio/material-theme/commit/6217090))
 * Add bright-teal accent ([a78a942](https://github.com/equinusocio/material-theme/commit/a78a942))
+* Add Material Theme to Preferences > Package Settings ([4b5af86](https://github.com/equinusocio/material-theme/commit/4b5af86))
 * Add sublime-commands file icon ([97ac304](https://github.com/equinusocio/material-theme/commit/97ac304))
-* New Breaking Bad color ([66e3ea7](https://github.com/equinusocio/material-theme/commit/66e3ea7))
-* New Sky accent color ([3e6639a](https://github.com/equinusocio/material-theme/commit/3e6639a))
-* New Tomato accent color ([196dcce](https://github.com/equinusocio/material-theme/commit/196dcce))
+* add TypeScript popup styles ([66ac683](https://github.com/equinusocio/material-theme/commit/66ac683))
 * New acid-lime accent color ([7626f89](https://github.com/equinusocio/material-theme/commit/7626f89))
+* New Breaking Bad color ([66e3ea7](https://github.com/equinusocio/material-theme/commit/66e3ea7))
 * New changelog command ([b6da997](https://github.com/equinusocio/material-theme/commit/b6da997))
 * New graphite accent color ([643f09d](https://github.com/equinusocio/material-theme/commit/643f09d))
+* New Sky accent color ([3e6639a](https://github.com/equinusocio/material-theme/commit/3e6639a))
 * New theme activator ([9d0c61a](https://github.com/equinusocio/material-theme/commit/9d0c61a))
 * New theme configurator popup and menu ([2a9599e](https://github.com/equinusocio/material-theme/commit/2a9599e))
 * New theme icon for your Sublime Text ([d0e076c](https://github.com/equinusocio/material-theme/commit/d0e076c)), closes [#844](https://github.com/equinusocio/material-theme/issues/844)
+* New Tomato accent color ([196dcce](https://github.com/equinusocio/material-theme/commit/196dcce))
 * Revisited contrast mode and code refactoring ([ffd375f](https://github.com/equinusocio/material-theme/commit/ffd375f))
-* add TypeScript popup styles ([66ac683](https://github.com/equinusocio/material-theme/commit/66ac683))
 
 
 
@@ -200,18 +217,18 @@ display file type icons. Please install it and restart Sublime Text.
 ### Bug Fixes
 
 * .stata to .do ([9eb7d27](https://github.com/equinusocio/material-theme/commit/9eb7d27))
+* add highlighting of the invalid scope ([a1c7ed5](https://github.com/equinusocio/material-theme/commit/a1c7ed5))
 * Add widgets watcher ([c95dab2](https://github.com/equinusocio/material-theme/commit/c95dab2))
+* default line highlight color ([c75ac15](https://github.com/equinusocio/material-theme/commit/c75ac15))
+* default scheme comments color ([dcf0ebd](https://github.com/equinusocio/material-theme/commit/dcf0ebd))
 * Fix gutter colors and themes ([bb4fd2a](https://github.com/equinusocio/material-theme/commit/bb4fd2a)), closes [#887](https://github.com/equinusocio/material-theme/issues/887)
 * Optimize image assets ([fe31c02](https://github.com/equinusocio/material-theme/commit/fe31c02))
+* remove hexbgr reverse conversion ([842f8c5](https://github.com/equinusocio/material-theme/commit/842f8c5))
 * Scheme compiler and add new scheme vars ([fb7545d](https://github.com/equinusocio/material-theme/commit/fb7545d))
 * Schemes color ([d2c5cf1](https://github.com/equinusocio/material-theme/commit/d2c5cf1))
 * Selected item tree indicator ([58a82fc](https://github.com/equinusocio/material-theme/commit/58a82fc))
-* SublimeLinter gutter colors ([f696f89](https://github.com/equinusocio/material-theme/commit/f696f89)), closes [#880](https://github.com/equinusocio/material-theme/issues/880)
-* add highlighting of the invalid scope ([a1c7ed5](https://github.com/equinusocio/material-theme/commit/a1c7ed5))
-* default line highlight color ([c75ac15](https://github.com/equinusocio/material-theme/commit/c75ac15))
-* default scheme comments color ([dcf0ebd](https://github.com/equinusocio/material-theme/commit/dcf0ebd))
-* remove hexbgr reverse conversion ([842f8c5](https://github.com/equinusocio/material-theme/commit/842f8c5))
 * sublimelinter error foreground color ([71ce945](https://github.com/equinusocio/material-theme/commit/71ce945))
+* SublimeLinter gutter colors ([f696f89](https://github.com/equinusocio/material-theme/commit/f696f89)), closes [#880](https://github.com/equinusocio/material-theme/issues/880)
 
 
 ### Features

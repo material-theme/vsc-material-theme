@@ -1,6 +1,6 @@
 {
   "name": "material-theme",
-  "version": "4.1.0",
+  "version": "4.1.2",
   "description": "Material Theme for Sublime Text 3",
   "main": "gulpfile.babel.js",
   "scripts": {
