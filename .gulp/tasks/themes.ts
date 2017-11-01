@@ -10,6 +10,7 @@ import { CHARSET } from "../../extensions/consts/files";
 import { IDefaults } from "../../extensions/interfaces/idefaults";
 import { IThemeVariant } from './../interfaces/itheme-variant';
 import paths from '../../extensions/consts/paths';
+import { ensureDir } from '../../extensions/helpers/fs';
 
 let commons: IDefaults = require('../../extensions/defaults.json');
 
@@ -34,19 +35,26 @@ fileNames.forEach(fileName => {
  * Themes task
  * Builds Themes
  */
-export default gulp.task('build:themes', () => {
+export default gulp.task('build:themes', cb => {
   gulpUtil.log(gulpUtil.colors.gray(HR));
 
-  themeVariants.forEach(variant => {
-    let filePath = path.join(paths.THEMES, `./${variant.name}.json`);
-    let templateData = { commons, variant };
-    let templateJSON: any = JSON.parse(mustache.render(themeTemplateFileContent, templateData));
-    let templateJSONStringified: string = JSON.stringify(templateJSON, null, 2);
+  ensureDir(path.join(paths.THEMES));
 
-    fs.writeFileSync(filePath, templateJSONStringified, { encoding: CHARSET });
+  try {
+    themeVariants.forEach(variant => {
+      let filePath = path.join(paths.THEMES, `./${variant.name}.json`);
+      let templateData = { commons, variant };
+      let templateJSON: any = JSON.parse(mustache.render(themeTemplateFileContent, templateData));
+      let templateJSONStringified: string = JSON.stringify(templateJSON, null, 2);
 
-    gulpUtil.log(MESSAGE_GENERATED, gulpUtil.colors.green(filePath));
-  });
+      fs.writeFileSync(filePath, templateJSONStringified, { encoding: CHARSET });
+
+      gulpUtil.log(MESSAGE_GENERATED, gulpUtil.colors.green(filePath));
+    });
+  } catch (exception) {
+    gulpUtil.log(exception);
+    cb(exception);
+  }
 
   gulpUtil.log(gulpUtil.colors.gray(HR));
 });

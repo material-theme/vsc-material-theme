@@ -1,10 +1,12 @@
 export interface IDefaults {
   accents: IAccents;
+  accentableIcons: string[];
   changelog: IChangelog;
   icons: IDefaultsThemeIcons;
   themeVariants: IDefaultsThemeVariant;
   themeVariantsColours: IDefaultsThemeVariantColours;
   themeVariantsUITheme: IDefaultsThemeVariantUITheme;
+  variantsIcons: string[];
 }
 
 export interface IAccents {
@@ -31,10 +33,10 @@ export interface IDefaultsThemeIcons {
       _folder_dark_build: {
         iconPath: string;
       }
-      "_file_folder-build": {
+      "_folder_light_build": {
         iconPath: string;
       }
-      _file_folder: {
+      _folder_light: {
         iconPath: string;
       }
     }

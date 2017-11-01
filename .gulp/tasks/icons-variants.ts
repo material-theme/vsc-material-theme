@@ -36,12 +36,18 @@ export default gulp.task('build:icons.variants', callback => {
         let variant = variants[variantName];
 
         theme.iconDefinitions._folder_dark.iconPath = theme.iconDefinitions._folder_dark.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._file_folder.iconPath = theme.iconDefinitions._file_folder.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions["_file_folder-build"].iconPath = theme.iconDefinitions["_file_folder-build"].iconPath.replace('.svg', `${ variantName }.svg`);
+        theme.iconDefinitions._folder_dark_build.iconPath = theme.iconDefinitions._folder_dark_build.iconPath.replace('.svg', `${ variantName }.svg`);
+        theme.iconDefinitions._folder_vscode.iconPath = theme.iconDefinitions._folder_vscode.iconPath.replace('.svg', `${ variantName }.svg`);
+        // theme.iconDefinitions._file_folder.iconPath = theme.iconDefinitions._file_folder.iconPath.replace('.svg', `${ variantName }.svg`);
+        // theme.iconDefinitions["_file_folder_build"].iconPath = theme.iconDefinitions["_file_folder_build"].iconPath.replace('.svg', `${ variantName }.svg`);
+        theme.iconDefinitions._folder_light.iconPath = theme.iconDefinitions._folder_light.iconPath.replace('.svg', `${ variantName }.svg`);
+        theme.iconDefinitions["_folder_light_build"].iconPath = theme.iconDefinitions["_folder_light_build"].iconPath.replace('.svg', `${ variantName }.svg`);
 
         writeIconVariant(basetheme.iconDefinitions._folder_dark.iconPath, theme.iconDefinitions._folder_dark.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._file_folder.iconPath, theme.iconDefinitions._file_folder.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions["_file_folder-build"].iconPath, theme.iconDefinitions["_file_folder-build"].iconPath, variant);
+        writeIconVariant(basetheme.iconDefinitions._folder_dark_build.iconPath, theme.iconDefinitions._folder_dark_build.iconPath, variant);
+        writeIconVariant(basetheme.iconDefinitions._folder_light.iconPath, theme.iconDefinitions._folder_light.iconPath, variant);
+        writeIconVariant(basetheme.iconDefinitions._folder_vscode.iconPath, theme.iconDefinitions._folder_vscode.iconPath, variant);
+        writeIconVariant(basetheme.iconDefinitions["_folder_light_build"].iconPath, theme.iconDefinitions["_folder_light_build"].iconPath, variant);
       });
     });
 

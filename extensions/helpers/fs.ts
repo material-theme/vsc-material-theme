@@ -9,6 +9,16 @@ import { IThemeIcons } from "../interfaces/itheme-icons";
 import { PATHS } from "../consts/paths";
 
 /**
+ * @export
+ * @param {string} dirname
+ */
+export function ensureDir(dirname: string): void {
+  if (!fs.existsSync(dirname)) {
+    fs.mkdirSync(dirname);
+  }
+}
+
+/**
  * Gets default value
  * @export
  * @returns {IDefaults}
@@ -32,6 +42,22 @@ export function getDefaultValues(): IDefaults {
  */
 export function getAbsolutePath(input: string): string {
   return path.join(PATHS.VSIX_DIR, input);
+}
+
+/**
+ * @export
+ * @returns {string[]}
+ */
+export function getAccentableIcons(): string[] {
+  return getDefaultValues().accentableIcons;
+}
+
+/**
+ * @export
+ * @returns {string[]}
+ */
+export function getVariantIcons(): string[] {
+  return getDefaultValues().variantsIcons;
 }
 
 /**

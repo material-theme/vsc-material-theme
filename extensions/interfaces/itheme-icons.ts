@@ -6,6 +6,7 @@ export interface IThemeIcons {
   "iconDefinitions":
   {
     "_folder_dark": IThemeIconsIconPath;
+    "_file_folder": IThemeIconsIconPath;
     "_folder_dark_build": IThemeIconsIconPath;
     "_folder_light": IThemeIconsIconPath;
     "_folder_light_build": IThemeIconsIconPath;
@@ -51,7 +52,6 @@ export interface IThemeIcons {
     "_file_folder-light": IThemeIconsIconPath;
     "_file_folder-outline-build": IThemeIconsIconPath;
     "_file_folder-outline": IThemeIconsIconPath;
-    "_file_folder": IThemeIconsIconPath;
     "_file_font": IThemeIconsIconPath;
     "_file_fsharp": IThemeIconsIconPath;
     "_file_git": IThemeIconsIconPath;
