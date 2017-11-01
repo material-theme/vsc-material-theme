@@ -9,6 +9,12 @@ import { CHARSET } from "../../consts/files";
 import { IPackageJSONThemeIcons } from "../../interfaces/ipackage.json";
 import { IThemeIcons } from "../../interfaces/itheme-icons";
 
+/**
+ * Replaces icon path with the accented one.
+ * @param {string} iconPath
+ * @param {string} accentName
+ * @returns {string}
+ */
 function replaceIconPathWithAccent(iconPath: string, accentName: string): string {
   return iconPath.replace('.svg', `.accent.${ accentName }.svg`);
 }
