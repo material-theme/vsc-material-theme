@@ -20,7 +20,8 @@
   "accentableIcons": [
     "_folder_open",
     "_folder_open_build",
-    "_folder_vscode_open"
+    "_folder_vscode_open",
+    "_folder_gulp_open"
   ],
   "changelog": {
     "lastversion": "1.0.5"
@@ -28,6 +29,12 @@
   "icons": {
     "theme": {
       "iconDefinitions": {
+        "_folder_gulp": {
+          "iconPath": "../icons/folder_gulp.svg"
+        },
+        "_folder_gulp_open": {
+          "iconPath": "../icons/folder_gulp_open.svg"
+        },
         "_folder_vscode": {
           "iconPath": "../icons/folder_vscode.svg"
         },
@@ -96,6 +103,7 @@
     "_folder_dark",
     "_folder_light_build",
     "_folder_light",
-    "_folder_vscode"
+    "_folder_vscode",
+    "_folder_gulp"
   ]
 }

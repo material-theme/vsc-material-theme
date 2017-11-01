@@ -2,8 +2,8 @@
   "node_modules": "_file_nodejs",
   ".git": "_file_git",
   ".github": "_file_github",
-  ".gulp": "_file_gulp",
   ".vscode": "_folder_vscode",
+  ".gulp": "_folder_gulp",
   "bower_components": "_file_bower",
   "build": "_folder_dark_build",
   "dist": "_folder_dark_build"
@@ -12,7 +12,7 @@
   "node_modules": "_file_nodejs",
   ".git": "_file_git",
   ".github": "_file_github",
-  ".gulp": "_file_gulp",
+  ".gulp": "_folder_gulp_open",
   "bower_components": "_file_bower",
   ".vscode": "_folder_vscode_open",
   "build": "_folder_open_build",
