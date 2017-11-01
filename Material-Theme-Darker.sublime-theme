@@ -26,16 +26,6 @@
       "border_color": [27, 27, 27]
     },
   
-  // @TITLE BAR
-  // App title bar
-  // =========================================================================
-  
-    // {
-    //   "class": "title_bar",
-    //   "fg": [97, 97, 97],
-    //   "bg": [33, 33, 33]
-    // },
-  
   
   /* @DIALOG POPUP
    * Dialog popup style and progressbar
@@ -8375,6 +8365,27 @@
       "settings": ["material_theme_bright_scrollbars"],
       "layer1.texture": "Material Theme/assets/commons/thumb_horizontal.png",
       "layer1.opacity": 0.2
+    },
+  
+      // Title bar (OS X 10.10+)
+  
+    {
+      "class": "title_bar",
+      "settings": ["material_theme_titlebar"],
+      "platforms": ["osx"],
+      "fg": [97, 97, 97],
+      "bg": [33, 33, 33]
+    },
+  
+    {
+      "class": "title_bar",
+      "settings": ["material_theme_titlebar", "material_theme_contrast_mode"],
+      "platforms": ["osx"],
+      "fg": [97, 97, 97],
+      "bg":
+        
+          [26, 26, 26]
+        
     },
   
   //
