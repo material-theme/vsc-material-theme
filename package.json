@@ -70,7 +70,11 @@
 		"themes": [
 			{
 				"label": "Material Theme",
+<<<<<<< HEAD
 				"path": "./themes/Material-Theme-Palenight.json",
+=======
+				"path": "./themes/Material-Theme-Default.json",
+>>>>>>> 65fc2cae16345c34c34e2475d767d9f5ab18f50b
 				"uiTheme": "vs-dark"
 			}
 		],
