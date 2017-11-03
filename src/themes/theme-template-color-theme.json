@@ -820,8 +820,10 @@
     "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60",
     "debugToolBar.background": "{{variant.scheme.background}}",
     "pickerGroup.foreground": "{{commons.accents.Teal}}",
-    "git.modifiedForeground": "{{variant.scheme.base.yellow}}90",
-    "git.untrackedForeground": "{{variant.scheme.base.green}}90",
-    "git.ignoredForeground": "{{variant.scheme.sidebarForeground}}90"
+    "gitDecoration.deletedResourceForeground": "{{variant.scheme.base.red}}90",
+    "gitDecoration.conflictingResourceForeground": "{{variant.scheme.base.yellow}}90",
+    "gitDecoration.modifiedResourceForeground": "{{variant.scheme.base.blue}}90",
+    "gitDecoration.untrackedResourceForeground": "{{variant.scheme.base.green}}90",
+    "gitDecoration.ignoredResourceForeground": "{{variant.scheme.sidebarForeground}}90"
   }
 }
