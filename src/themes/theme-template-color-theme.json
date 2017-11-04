@@ -712,6 +712,7 @@
     "editor.lineHighlightBackground": "{{variant.scheme.lineHighlight}}50",
     "editor.selectionBackground": "{{variant.scheme.selection}}",
     "editor.selectionHighlightBackground": "{{variant.scheme.caret}}20",
+    "editorOverviewRuler.border": "{{variant.scheme.background}}",
     "editorHoverWidget.background": "{{variant.scheme.background}}",
     "editorHoverWidget.border": "{{variant.scheme.inputBorder}}",
     "editorIndentGuide.background": "{{variant.scheme.guides}}",
