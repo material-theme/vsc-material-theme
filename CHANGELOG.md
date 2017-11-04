@@ -1,19 +1,40 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.5...v1.1.0) (2017-11-04)
+
+
+### Bug Fixes
+
+* Add babel icon to .babelrc files ([f2a64ab](https://github.com/equinusocio/vsc-material-theme/commit/f2a64ab)), closes [#101](https://github.com/equinusocio/vsc-material-theme/issues/101)
+* Add postcss icon to .pcss files ([9eac9c4](https://github.com/equinusocio/vsc-material-theme/commit/9eac9c4)), closes [#107](https://github.com/equinusocio/vsc-material-theme/issues/107)
+* Minor UI fixes ([65a18e8](https://github.com/equinusocio/vsc-material-theme/commit/65a18e8))
+
+
+### Features
+
+* Add set italic style for keyword operators ([ea9b755](https://github.com/equinusocio/vsc-material-theme/commit/ea9b755)), closes [#99](https://github.com/equinusocio/vsc-material-theme/issues/99)
+* Add sidebar git colors support  ([0cf2007](https://github.com/equinusocio/vsc-material-theme/commit/0cf2007))
+* New folder icons ([2dfbaaa](https://github.com/equinusocio/vsc-material-theme/commit/2dfbaaa))
+* New High Contrast theme variants. ([79d68b3](https://github.com/equinusocio/vsc-material-theme/commit/79d68b3))
+* Remove arrow icons beside folders in explorer view ([28006e5](https://github.com/equinusocio/vsc-material-theme/commit/28006e5))
+
+
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.4...v1.0.5) (2017-10-12)
 
 
 ### Bug Fixes
 
-* Fix show changelog command ([95e6c96](https://github.com/equinusocio/vsc-material-theme/commit/95e6c96))
-* Improve tab inactive foreground contrast ([5ca17f5](https://github.com/equinusocio/vsc-material-theme/commit/5ca17f5))
+* Fix show changelog command ([370a4d9](https://github.com/equinusocio/vsc-material-theme/commit/370a4d9))
+* Improve tab inactive foreground contrast ([c3d0b82](https://github.com/equinusocio/vsc-material-theme/commit/c3d0b82))
 
 
 ### Features
 
-* Add .asp, .aspx and .ascx file icon ([144276a](https://github.com/equinusocio/vsc-material-theme/commit/144276a)), closes [#96](https://github.com/equinusocio/vsc-material-theme/issues/96)
-* Add .mjs file icon ([4b6430e](https://github.com/equinusocio/vsc-material-theme/commit/4b6430e)), closes [#93](https://github.com/equinusocio/vsc-material-theme/issues/93)
-* Add .yarnrc and .npmrc file icon ([7ea401c](https://github.com/equinusocio/vsc-material-theme/commit/7ea401c))
-* Add colors for sidebar git.untracked and git.modified files ([081558c](https://github.com/equinusocio/vsc-material-theme/commit/081558c))
+* Add .asp, .aspx and .ascx file icon ([f7d4af0](https://github.com/equinusocio/vsc-material-theme/commit/f7d4af0)), closes [#96](https://github.com/equinusocio/vsc-material-theme/issues/96)
+* Add .mjs file icon ([605b8bf](https://github.com/equinusocio/vsc-material-theme/commit/605b8bf)), closes [#93](https://github.com/equinusocio/vsc-material-theme/issues/93)
+* Add .yarnrc and .npmrc file icon ([f715cd0](https://github.com/equinusocio/vsc-material-theme/commit/f715cd0))
+* Add colors for sidebar git.untracked and git.modified files ([3f1077d](https://github.com/equinusocio/vsc-material-theme/commit/3f1077d))
 
 
 
@@ -23,15 +44,15 @@
 
 ### Bug Fixes
 
-* Fix brackets color (punctuation.class...). Fix [#76](https://github.com/equinusocio/vsc-material-theme/issues/76) ([767ea73](https://github.com/equinusocio/vsc-material-theme/commit/767ea73))
-* Fix wrong gutter indicator for add line. Close 89 ([a605ec9](https://github.com/equinusocio/vsc-material-theme/commit/a605ec9))
-* Update gutter line colors. Fix [#79](https://github.com/equinusocio/vsc-material-theme/issues/79) ([6cf67be](https://github.com/equinusocio/vsc-material-theme/commit/6cf67be))
+* Fix brackets color (punctuation.class...). Fix [#76](https://github.com/equinusocio/vsc-material-theme/issues/76) ([02d20b7](https://github.com/equinusocio/vsc-material-theme/commit/02d20b7))
+* Fix wrong gutter indicator for add line. Close 89 ([83df9f9](https://github.com/equinusocio/vsc-material-theme/commit/83df9f9))
+* Update gutter line colors. Fix [#79](https://github.com/equinusocio/vsc-material-theme/issues/79) ([0298a59](https://github.com/equinusocio/vsc-material-theme/commit/0298a59))
 
 
 ### Features
 
-* Add tab active bottom border ([a5a392a](https://github.com/equinusocio/vsc-material-theme/commit/a5a392a)), closes [#88](https://github.com/equinusocio/vsc-material-theme/issues/88)
-* Adds "show changelog" command. ([840d174](https://github.com/equinusocio/vsc-material-theme/commit/840d174))
+* Add tab active bottom border ([5bd1934](https://github.com/equinusocio/vsc-material-theme/commit/5bd1934)), closes [#88](https://github.com/equinusocio/vsc-material-theme/issues/88)
+* Adds "show changelog" command. ([038ded7](https://github.com/equinusocio/vsc-material-theme/commit/038ded7))
 
 
 
@@ -41,9 +62,9 @@
 
 ### Bug Fixes
 
-* Fix squiggles visibility ([328832a](https://github.com/equinusocio/vsc-material-theme/commit/328832a)), closes [#70](https://github.com/equinusocio/vsc-material-theme/issues/70)
-* Fixes an issues with the old settings "materialTheme.cache.workbench.accent". ([1eb3645](https://github.com/equinusocio/vsc-material-theme/commit/1eb3645))
-* Fixes an unhandled undefined, which causes theme to break (issue [#69](https://github.com/equinusocio/vsc-material-theme/issues/69)). ([d7320fb](https://github.com/equinusocio/vsc-material-theme/commit/d7320fb))
+* Fix squiggles visibility ([0900c30](https://github.com/equinusocio/vsc-material-theme/commit/0900c30)), closes [#70](https://github.com/equinusocio/vsc-material-theme/issues/70)
+* Fixes an issues with the old settings "materialTheme.cache.workbench.accent". ([6c2ce83](https://github.com/equinusocio/vsc-material-theme/commit/6c2ce83))
+* Fixes an unhandled undefined, which causes theme to break (issue [#69](https://github.com/equinusocio/vsc-material-theme/issues/69)). ([14a471f](https://github.com/equinusocio/vsc-material-theme/commit/14a471f))
 
 
 
@@ -53,14 +74,14 @@
 
 ### Bug Fixes
 
-* Add .ex file icon ([e93cc74](https://github.com/equinusocio/vsc-material-theme/commit/e93cc74)), closes [#60](https://github.com/equinusocio/vsc-material-theme/issues/60)
-* Add accent color to progressbar ([744db4f](https://github.com/equinusocio/vsc-material-theme/commit/744db4f))
-* Add squigglies color ([702f891](https://github.com/equinusocio/vsc-material-theme/commit/702f891))
-* Fix editor marker navigation color ([02020bb](https://github.com/equinusocio/vsc-material-theme/commit/02020bb))
-* Fix notification bar badge colors ([317289a](https://github.com/equinusocio/vsc-material-theme/commit/317289a))
-* Fix python special var parameter color ([5d3c9ec](https://github.com/equinusocio/vsc-material-theme/commit/5d3c9ec)), closes [#57](https://github.com/equinusocio/vsc-material-theme/issues/57)
-* Fix theme variants and settings reload ([1d91938](https://github.com/equinusocio/vsc-material-theme/commit/1d91938))
-* Improve workbench theme and colors ([7be85e6](https://github.com/equinusocio/vsc-material-theme/commit/7be85e6))
+* Add .ex file icon ([b6eb130](https://github.com/equinusocio/vsc-material-theme/commit/b6eb130)), closes [#60](https://github.com/equinusocio/vsc-material-theme/issues/60)
+* Add accent color to progressbar ([4758c45](https://github.com/equinusocio/vsc-material-theme/commit/4758c45))
+* Add squigglies color ([8502a39](https://github.com/equinusocio/vsc-material-theme/commit/8502a39))
+* Fix editor marker navigation color ([16230f2](https://github.com/equinusocio/vsc-material-theme/commit/16230f2))
+* Fix notification bar badge colors ([a3428ab](https://github.com/equinusocio/vsc-material-theme/commit/a3428ab))
+* Fix python special var parameter color ([027b342](https://github.com/equinusocio/vsc-material-theme/commit/027b342)), closes [#57](https://github.com/equinusocio/vsc-material-theme/issues/57)
+* Fix theme variants and settings reload ([ada03ed](https://github.com/equinusocio/vsc-material-theme/commit/ada03ed))
+* Improve workbench theme and colors ([4798102](https://github.com/equinusocio/vsc-material-theme/commit/4798102))
 
 
 
@@ -70,17 +91,17 @@
 
 ### Bug Fixes
 
-* Add and update file icons ([15c3429](https://github.com/equinusocio/vsc-material-theme/commit/15c3429))
-* Fix inputs placeholder color ([cb7b823](https://github.com/equinusocio/vsc-material-theme/commit/cb7b823))
-* Fix tree selected foreground when sidebar is inactive ([4191508](https://github.com/equinusocio/vsc-material-theme/commit/4191508))
-* Improve sidebar tree coloring ([a40a384](https://github.com/equinusocio/vsc-material-theme/commit/a40a384))
-* Style welcome page links ([82676b5](https://github.com/equinusocio/vsc-material-theme/commit/82676b5))
+* Add and update file icons ([ef9abab](https://github.com/equinusocio/vsc-material-theme/commit/ef9abab))
+* Fix inputs placeholder color ([6d5cef6](https://github.com/equinusocio/vsc-material-theme/commit/6d5cef6))
+* Fix tree selected foreground when sidebar is inactive ([351cd20](https://github.com/equinusocio/vsc-material-theme/commit/351cd20))
+* Improve sidebar tree coloring ([4993587](https://github.com/equinusocio/vsc-material-theme/commit/4993587))
+* Style welcome page links ([e873530](https://github.com/equinusocio/vsc-material-theme/commit/e873530))
 
 
 ### Features
 
-* adds theme accents config. ([f264542](https://github.com/equinusocio/vsc-material-theme/commit/f264542))
-* Adds theme changer command ([7cf5e6e](https://github.com/equinusocio/vsc-material-theme/commit/7cf5e6e))
+* adds theme accents config. ([c648ab8](https://github.com/equinusocio/vsc-material-theme/commit/c648ab8))
+* Adds theme changer command ([cb68fdc](https://github.com/equinusocio/vsc-material-theme/commit/cb68fdc))
 
 
 
@@ -90,13 +111,13 @@
 
 ### Bug Fixes
 
-* Fix inactive group inactive tab foreground ([cc2a376](https://github.com/equinusocio/vsc-material-theme/commit/cc2a376)), closes [#47](https://github.com/equinusocio/vsc-material-theme/issues/47)
-* Improve sidebar colorization ([9ce89ab](https://github.com/equinusocio/vsc-material-theme/commit/9ce89ab))
+* Fix inactive group inactive tab foreground ([2d52311](https://github.com/equinusocio/vsc-material-theme/commit/2d52311)), closes [#47](https://github.com/equinusocio/vsc-material-theme/issues/47)
+* Improve sidebar colorization ([9cf9f34](https://github.com/equinusocio/vsc-material-theme/commit/9cf9f34))
 
 
 ### Features
 
-* Add puppet (.pp) file icon ([e2a04a8](https://github.com/equinusocio/vsc-material-theme/commit/e2a04a8))
+* Add puppet (.pp) file icon ([d2dc180](https://github.com/equinusocio/vsc-material-theme/commit/d2dc180))
 
 
 
@@ -106,11 +127,11 @@
 
 ### Bug Fixes
 
-* Fix C file icon ([150e7df](https://github.com/equinusocio/vsc-material-theme/commit/150e7df)), closes [#46](https://github.com/equinusocio/vsc-material-theme/issues/46)
-* Fix the waterfall of bleed words ([df893af](https://github.com/equinusocio/vsc-material-theme/commit/df893af)), closes [#44](https://github.com/equinusocio/vsc-material-theme/issues/44)
-* Fix the waterfall of blooding words ([938fb73](https://github.com/equinusocio/vsc-material-theme/commit/938fb73)), closes [#44](https://github.com/equinusocio/vsc-material-theme/issues/44)
-* Improve tree colors (wip) ([7e7980c](https://github.com/equinusocio/vsc-material-theme/commit/7e7980c))
-* Panel hover borders ([55b07cf](https://github.com/equinusocio/vsc-material-theme/commit/55b07cf))
+* Fix C file icon ([8a5a331](https://github.com/equinusocio/vsc-material-theme/commit/8a5a331)), closes [#46](https://github.com/equinusocio/vsc-material-theme/issues/46)
+* Fix the waterfall of bleed words ([6d001c4](https://github.com/equinusocio/vsc-material-theme/commit/6d001c4)), closes [#44](https://github.com/equinusocio/vsc-material-theme/issues/44)
+* Fix the waterfall of blooding words ([8b62470](https://github.com/equinusocio/vsc-material-theme/commit/8b62470)), closes [#44](https://github.com/equinusocio/vsc-material-theme/issues/44)
+* Improve tree colors (wip) ([d9a1f2c](https://github.com/equinusocio/vsc-material-theme/commit/d9a1f2c))
+* Panel hover borders ([a83dfcb](https://github.com/equinusocio/vsc-material-theme/commit/a83dfcb))
 
 
 
@@ -125,13 +146,13 @@
 
 ### Bug Fixes
 
-* Fix bracket match border color ([8d5dd52](https://github.com/equinusocio/vsc-material-theme/commit/8d5dd52))
-* Fix invalids color highlight ([b296323](https://github.com/equinusocio/vsc-material-theme/commit/b296323)), closes [#40](https://github.com/equinusocio/vsc-material-theme/issues/40)
-* Fix notification bar foreground on Lighter ([e421292](https://github.com/equinusocio/vsc-material-theme/commit/e421292)), closes [#34](https://github.com/equinusocio/vsc-material-theme/issues/34)
-* Fix selectionHighlightBackground color ([4471e8a](https://github.com/equinusocio/vsc-material-theme/commit/4471e8a)), closes [#38](https://github.com/equinusocio/vsc-material-theme/issues/38)
-* improve C# highlight ([2729ae4](https://github.com/equinusocio/vsc-material-theme/commit/2729ae4)), closes [#26](https://github.com/equinusocio/vsc-material-theme/issues/26)
-* Improve c++ syntax highlight ([cd7415e](https://github.com/equinusocio/vsc-material-theme/commit/cd7415e))
-* Temporary fix buttons background ([1b5534f](https://github.com/equinusocio/vsc-material-theme/commit/1b5534f)), closes [#37](https://github.com/equinusocio/vsc-material-theme/issues/37)
+* Fix bracket match border color ([4f778f1](https://github.com/equinusocio/vsc-material-theme/commit/4f778f1))
+* Fix invalids color highlight ([100397c](https://github.com/equinusocio/vsc-material-theme/commit/100397c)), closes [#40](https://github.com/equinusocio/vsc-material-theme/issues/40)
+* Fix notification bar foreground on Lighter ([c177e46](https://github.com/equinusocio/vsc-material-theme/commit/c177e46)), closes [#34](https://github.com/equinusocio/vsc-material-theme/issues/34)
+* Fix selectionHighlightBackground color ([9578f38](https://github.com/equinusocio/vsc-material-theme/commit/9578f38)), closes [#38](https://github.com/equinusocio/vsc-material-theme/issues/38)
+* improve C# highlight ([c72c314](https://github.com/equinusocio/vsc-material-theme/commit/c72c314)), closes [#26](https://github.com/equinusocio/vsc-material-theme/issues/26)
+* Improve c++ syntax highlight ([1a927d6](https://github.com/equinusocio/vsc-material-theme/commit/1a927d6))
+* Temporary fix buttons background ([f97d06a](https://github.com/equinusocio/vsc-material-theme/commit/f97d06a)), closes [#37](https://github.com/equinusocio/vsc-material-theme/issues/37)
 
 
 
@@ -141,14 +162,14 @@
 
 ### Bug Fixes
 
-* Fix statusbar background when no project opened ([c15d054](https://github.com/equinusocio/vsc-material-theme/commit/c15d054)), closes [#27](https://github.com/equinusocio/vsc-material-theme/issues/27)
-* Improve ansi colors (integrated terminal) ([45d6486](https://github.com/equinusocio/vsc-material-theme/commit/45d6486))
+* Fix statusbar background when no project opened ([d0a7cbc](https://github.com/equinusocio/vsc-material-theme/commit/d0a7cbc)), closes [#27](https://github.com/equinusocio/vsc-material-theme/issues/27)
+* Improve ansi colors (integrated terminal) ([d1fa94f](https://github.com/equinusocio/vsc-material-theme/commit/d1fa94f))
 
 
 ### Features
 
-* Add build/dist folder icon ([3c8cfe9](https://github.com/equinusocio/vsc-material-theme/commit/3c8cfe9)), closes [#6](https://github.com/equinusocio/vsc-material-theme/issues/6)
-* Improve worckbench theme ([6c19542](https://github.com/equinusocio/vsc-material-theme/commit/6c19542))
+* Add build/dist folder icon ([668db44](https://github.com/equinusocio/vsc-material-theme/commit/668db44)), closes [#6](https://github.com/equinusocio/vsc-material-theme/issues/6)
+* Improve worckbench theme ([caff8ce](https://github.com/equinusocio/vsc-material-theme/commit/caff8ce))
 
 
 
@@ -158,15 +179,15 @@
 
 ### Bug Fixes
 
-* Fix folder icon color ([13058b6](https://github.com/equinusocio/vsc-material-theme/commit/13058b6))
-* Update workbench theme ([10cfbb8](https://github.com/equinusocio/vsc-material-theme/commit/10cfbb8))
+* Fix folder icon color ([81c03e6](https://github.com/equinusocio/vsc-material-theme/commit/81c03e6))
+* Update workbench theme ([232d1e3](https://github.com/equinusocio/vsc-material-theme/commit/232d1e3))
 
 
 ### Features
 
-* Add graphql file icon ([ec8525f](https://github.com/equinusocio/vsc-material-theme/commit/ec8525f))
-* Improve workbench theme ([5d642fe](https://github.com/equinusocio/vsc-material-theme/commit/5d642fe))
-* Update workbench theme ([64a13e0](https://github.com/equinusocio/vsc-material-theme/commit/64a13e0))
+* Add graphql file icon ([ba18877](https://github.com/equinusocio/vsc-material-theme/commit/ba18877))
+* Improve workbench theme ([c7c8038](https://github.com/equinusocio/vsc-material-theme/commit/c7c8038))
+* Update workbench theme ([6ddfaa9](https://github.com/equinusocio/vsc-material-theme/commit/6ddfaa9))
 
 
 
@@ -176,25 +197,25 @@
 
 ### Bug Fixes
 
-* Add bower icon ([b326f26](https://github.com/equinusocio/vsc-material-theme/commit/b326f26))
-* Fix background color for highlighted searched string ([fc94c09](https://github.com/equinusocio/vsc-material-theme/commit/fc94c09)), closes [#4](https://github.com/equinusocio/vsc-material-theme/issues/4)
-* fix lighter scheme colors ([100c02c](https://github.com/equinusocio/vsc-material-theme/commit/100c02c))
-* Fix opened folder icon ([b21c04f](https://github.com/equinusocio/vsc-material-theme/commit/b21c04f)), closes [#1](https://github.com/equinusocio/vsc-material-theme/issues/1)
-* Fix some file and folder icons  ([5526e62](https://github.com/equinusocio/vsc-material-theme/commit/5526e62))
-* Fix var hover background ([a471a2a](https://github.com/equinusocio/vsc-material-theme/commit/a471a2a))
-* Update json icon ([2793178](https://github.com/equinusocio/vsc-material-theme/commit/2793178))
-* Update some file icons ([88b4739](https://github.com/equinusocio/vsc-material-theme/commit/88b4739))
-* **Icons:** Fix .ts and def ts icons ([e8e9b49](https://github.com/equinusocio/vsc-material-theme/commit/e8e9b49)), closes [#10](https://github.com/equinusocio/vsc-material-theme/issues/10)
+* Add bower icon ([3e73e1f](https://github.com/equinusocio/vsc-material-theme/commit/3e73e1f))
+* Fix background color for highlighted searched string ([060d24d](https://github.com/equinusocio/vsc-material-theme/commit/060d24d)), closes [#4](https://github.com/equinusocio/vsc-material-theme/issues/4)
+* fix lighter scheme colors ([2ba1c0d](https://github.com/equinusocio/vsc-material-theme/commit/2ba1c0d))
+* Fix opened folder icon ([40700ca](https://github.com/equinusocio/vsc-material-theme/commit/40700ca)), closes [#1](https://github.com/equinusocio/vsc-material-theme/issues/1)
+* Fix some file and folder icons  ([b927646](https://github.com/equinusocio/vsc-material-theme/commit/b927646))
+* Fix var hover background ([a8fee8c](https://github.com/equinusocio/vsc-material-theme/commit/a8fee8c))
+* Update json icon ([ce30ff7](https://github.com/equinusocio/vsc-material-theme/commit/ce30ff7))
+* Update some file icons ([cf2a1ee](https://github.com/equinusocio/vsc-material-theme/commit/cf2a1ee))
+* **Icons:** Fix .ts and def ts icons ([4c0cf00](https://github.com/equinusocio/vsc-material-theme/commit/4c0cf00)), closes [#10](https://github.com/equinusocio/vsc-material-theme/issues/10)
 
 
 ### Features
 
-* Add lighter theme (wip) ([8827f12](https://github.com/equinusocio/vsc-material-theme/commit/8827f12))
-* Add Material Theme icon-theme ([8defc56](https://github.com/equinusocio/vsc-material-theme/commit/8defc56))
-* first beta release ([262097f](https://github.com/equinusocio/vsc-material-theme/commit/262097f))
-* **Icons:** Add new filetype icons ([50debfe](https://github.com/equinusocio/vsc-material-theme/commit/50debfe))
-* **Icons:** Add new icons ([d02f2fe](https://github.com/equinusocio/vsc-material-theme/commit/d02f2fe))
-* first full theme implementation (wip) ([6434f44](https://github.com/equinusocio/vsc-material-theme/commit/6434f44))
+* Add lighter theme (wip) ([0f7d3c2](https://github.com/equinusocio/vsc-material-theme/commit/0f7d3c2))
+* Add Material Theme icon-theme ([7d3b7bd](https://github.com/equinusocio/vsc-material-theme/commit/7d3b7bd))
+* first beta release ([b4dead1](https://github.com/equinusocio/vsc-material-theme/commit/b4dead1))
+* **Icons:** Add new filetype icons ([5bc8002](https://github.com/equinusocio/vsc-material-theme/commit/5bc8002))
+* **Icons:** Add new icons ([3921218](https://github.com/equinusocio/vsc-material-theme/commit/3921218))
+* first full theme implementation (wip) ([c3c42d4](https://github.com/equinusocio/vsc-material-theme/commit/c3c42d4))
 
 
 
