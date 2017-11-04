@@ -1,5 +1,6 @@
 "fileExtensions": {
   "mjs": "_file_node",
+  "scala": "_file_scala",
   "asp": "_file_dotnet",
   "aspx": "_file_dotnet",
   "ascx": "_file_dotnet",

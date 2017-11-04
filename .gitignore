@@ -6,5 +6,5 @@
 dist/
 node_modules/
 .DS_Store
-themes/
-icons/
+/themes
+/icons
