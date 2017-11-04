@@ -14,7 +14,7 @@ const PACKAGE_JSON: IPackageJSON = require(path.join(process.cwd(), './package.j
 let variants: IDefaultsThemeVariantColours = getDefaultValues().themeVariantsColours;
 
 function writeIconVariant(filepath: string, destpath: string, colour: string): void {
-  let regexp = new RegExp('.st0\{fill:(#[a-zA-Z0-9]{3,6})')
+  let regexp = new RegExp('(#[a-zA-Z0-9]{3,6})')
 
   filepath = path.join(process.cwd(), PATHS.ICONS, filepath);
   destpath = path.join(process.cwd(), PATHS.ICONS, destpath);
