@@ -32,7 +32,7 @@
   "license.md": "_file_license",
   "license.md.rendered": "_file_license",
   "license.txt": "_file_license",
-  ".babelrc": "_file_json",
+  ".babelrc": "_file_babel",
   ".eslintrc": "_file_eslint",
   ".eslintrc.js": "_file_eslint",
   ".eslintrc.json": "_file_eslint",
