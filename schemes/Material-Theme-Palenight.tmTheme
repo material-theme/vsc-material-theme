@@ -33,8 +33,36 @@
 				<string>#4E5579</string>
 				<key>lineHighlight</key>
 				<string>#00000030</string>
-				<key>phantomCss</key>
-				<string>&lt;![CDATA[ html { background-color: #292D3E; color: #959DCB; padding: 16px; } a { color: #B2CCD6; line-height: 16px; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } .type { color: #89DDFF; font-style: italic; } .param { color: #F78C6C; } .current { text-decoration: underline; } ]]&gt;</string>
+				<key>popupCss</key>
+				<string>html {
+  background-color: #292D3E;
+  color: #959DCB;
+  padding: 16px;
+}
+a {
+  color: #B2CCD6;
+  line-height: 16px;
+}
+.error, .deleted {
+  color: #FF5370;
+}
+.success, .inserted {
+  color: #C3E88D;
+}
+.warning, .modified {
+  color: #FFCB6B;
+}
+.type {
+  color: #89DDFF;
+  font-style: italic;
+}
+.param {
+  color: #F78C6C;
+}
+.current {
+  text-decoration: underline;
+}
+</string>
 				<key>selection</key>
 				<string>#717CB440</string>
 				<key>selectionBorder</key>
