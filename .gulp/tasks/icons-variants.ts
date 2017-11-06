@@ -1,6 +1,7 @@
-import * as fs from 'fs';
+import {getVariantIcons} from '../../extensions/helpers/fs';
 import * as gulp from 'gulp';
 import * as path from 'path';
+import * as fs from 'fs';
 
 import { CHARSET } from "../../extensions/consts/files";
 import { IPackageJSON } from "../../extensions/interfaces/ipackage.json";
@@ -8,6 +9,7 @@ import { IThemeIconsVariants } from "../interfaces/itheme-icons-variants";
 import PATHS from '../../extensions/consts/paths'
 import { getDefaultValues } from "../../extensions/helpers/fs";
 import { IDefaultsThemeVariantColours } from "../../extensions/interfaces/idefaults";
+import { IThemeIconsItem } from '../interfaces/itheme-icons-item';
 
 const PACKAGE_JSON: IPackageJSON = require(path.join(process.cwd(), './package.json'));
 
@@ -35,31 +37,18 @@ export default gulp.task('build:icons.variants', callback => {
         let theme: IThemeIconsVariants = JSON.parse(JSON.stringify(basetheme));
         let variant = variants[variantName];
 
-        theme.iconDefinitions._folder_dark.iconPath = theme.iconDefinitions._folder_dark.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_dark_build.iconPath = theme.iconDefinitions._folder_dark_build.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_vscode.iconPath = theme.iconDefinitions._folder_vscode.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_gulp.iconPath = theme.iconDefinitions._folder_gulp.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_node.iconPath = theme.iconDefinitions._folder_node.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_images.iconPath = theme.iconDefinitions._folder_images.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_js.iconPath = theme.iconDefinitions._folder_js.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_src.iconPath = theme.iconDefinitions._folder_src.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_assets.iconPath = theme.iconDefinitions._folder_assets.iconPath.replace('.svg', `${ variantName }.svg`);
-        // theme.iconDefinitions._file_folder.iconPath = theme.iconDefinitions._file_folder.iconPath.replace('.svg', `${ variantName }.svg`);
-        // theme.iconDefinitions["_file_folder_build"].iconPath = theme.iconDefinitions["_file_folder_build"].iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions._folder_light.iconPath = theme.iconDefinitions._folder_light.iconPath.replace('.svg', `${ variantName }.svg`);
-        theme.iconDefinitions["_folder_light_build"].iconPath = theme.iconDefinitions["_folder_light_build"].iconPath.replace('.svg', `${ variantName }.svg`);
+        getVariantIcons().forEach(_iconName => {
+          let basethemeIcon: IThemeIconsItem = (basetheme.iconDefinitions as any)[_iconName];
+          let themeIcon: IThemeIconsItem = (theme.iconDefinitions as any)[_iconName];
 
-        writeIconVariant(basetheme.iconDefinitions._folder_dark.iconPath, theme.iconDefinitions._folder_dark.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_dark_build.iconPath, theme.iconDefinitions._folder_dark_build.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_light.iconPath, theme.iconDefinitions._folder_light.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_vscode.iconPath, theme.iconDefinitions._folder_vscode.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_gulp.iconPath, theme.iconDefinitions._folder_gulp.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_node.iconPath, theme.iconDefinitions._folder_node.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_images.iconPath, theme.iconDefinitions._folder_images.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_js.iconPath, theme.iconDefinitions._folder_js.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_src.iconPath, theme.iconDefinitions._folder_src.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions._folder_assets.iconPath, theme.iconDefinitions._folder_assets.iconPath, variant);
-        writeIconVariant(basetheme.iconDefinitions["_folder_light_build"].iconPath, theme.iconDefinitions["_folder_light_build"].iconPath, variant);
+          if (themeIcon !== undefined) {
+            themeIcon.iconPath = themeIcon.iconPath.replace('.svg', `${ variantName }.svg`);
+          }
+
+          if (basethemeIcon !== undefined && themeIcon !== undefined) {
+            writeIconVariant(basethemeIcon.iconPath, themeIcon.iconPath, variant);
+          }
+        });
       });
     });
 
