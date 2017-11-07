@@ -23,36 +23,35 @@ settings:
     selection: '<%= scheme.selection %>'
     selectionBorder: '<%= scheme.selection %>'
     shadow: '<%= scheme.shadow %>'
-    phantomCss: "<![CDATA[
-    html {
-      background-color: <%= scheme.background %>;
-      color: <%= scheme.foreground %>;
-      padding: 16px;
-    }
-    a {
-      color: <%= scheme.base.paleblue %>;
-      line-height: 16px;
-    }
-    .error, .deleted {
-      color: <%= scheme.base.red %>;
-    }
-    .success, .inserted {
-      color: <%= scheme.base.green %>;
-    }
-    .warning, .modified {
-      color: <%= scheme.base.yellow %>;
-    }
-    .type {
-      color: <%= scheme.base.cyan %>;
-      font-style: italic;
-    }
-    .param {
-      color: <%= scheme.base.orange %>;
-    }
-    .current {
-      text-decoration: underline;
-    }
-    ]]>"
+    popupCss: |
+      html {
+        background-color: <%= scheme.background %>;
+        color: <%= scheme.foreground %>;
+        padding: 16px;
+      }
+      a {
+        color: <%= scheme.base.paleblue %>;
+        line-height: 16px;
+      }
+      .error, .deleted {
+        color: <%= scheme.base.red %>;
+      }
+      .success, .inserted {
+        color: <%= scheme.base.green %>;
+      }
+      .warning, .modified {
+        color: <%= scheme.base.yellow %>;
+      }
+      .type {
+        color: <%= scheme.base.cyan %>;
+        font-style: italic;
+      }
+      .param {
+        color: <%= scheme.base.orange %>;
+      }
+      .current {
+        text-decoration: underline;
+      }
 
 # >> General
 
