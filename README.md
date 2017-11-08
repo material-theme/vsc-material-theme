@@ -25,7 +25,7 @@ Paste the following command and press `Enter`:
 ext install vsc-material-theme
 ```
 
-#### Packaged VSIX Extension
+#### Packaged VSIX Extension <sup>[↑](#getting-started)</sup>
 
 [Download the latest .vsix release](https://github.com/equinusocio/vsc-material-theme/releases/latest) file from the GitHub repository and install it from the command line
 
@@ -35,7 +35,7 @@ code --install-extension vsc-material-theme-*.*.*.vsix
 
 or from within VS Code by launching *Quick Open* and running the *Install from VSIX...* command.
 
-##### GitHub Repository Clone
+##### GitHub Repository Clone <sup>[↑](#getting-started)</sup>
 
 Change to your `.vscode/extensions` [VS Code extensions directory](https://code.visualstudio.com/docs/extensions/install-extension#_side-loading).
 Depending on your platform it is located in the following folders:
@@ -51,7 +51,7 @@ git clone https://github.com/equinusocio/vsc-material-theme.git Equinusocio.vsc-
 ```
 
 
-## Activate theme
+## Activate theme <sup>[↑](#getting-started)</sup>
 
 Launch *Quick Open*,
 
@@ -63,7 +63,7 @@ Type `theme` and choose `Preferences: Color Theme`, then select Material Theme f
 
 This theme provides different color variants, to change the active theme variant type `Material Theme` and choose `Material Theme: Settings`, then select `Change color variant` and pick one theme from the list.
 
-## Activate File Icons
+## Activate File Icons <sup>[↑](#getting-started)</sup>
 
 Launch *Quick Open*,
 
@@ -84,7 +84,7 @@ Launch *Quick Open*,
 Type `Material Theme` and choose `Material Theme: Settings`, then select `Change accent color` and pick one color from the list.
 
 
-# Recommended settings for a better experience:
+# Recommended settings for a better experience <sup>[↑](#getting-started)</sup>
 
 ```json
     // Controls the font family.
@@ -97,10 +97,10 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
     "explorer.decorations.badges": false,
 ```
 
-# Other resources
+# Other resources <sup>[↑](#getting-started)</sup>
 - **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
-# Acknowledgements
+# Acknowledgements <sup>[↑](#getting-started)</sup>
 - [@OctoD](https://github.com/OctoD) for the typescript theme builder.
 
 
