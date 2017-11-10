@@ -5,6 +5,9 @@
   "version": "1.1.1",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
+  "contributors": [
+    "Paolo Roth [@OctoD]"
+  ],
   "icon": "logo.png",
   "galleryBanner": {
     "color": "#263238",
