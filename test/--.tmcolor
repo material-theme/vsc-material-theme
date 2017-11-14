@@ -45,6 +45,7 @@ markup.list.numbered        — numbered list items.
 markup.list.unnumbered      — unnumbered list items.
 markup.quote                — quoted (sometimes block quoted) text.
 markup.raw                  — text which is verbatim, e.g. code listings. Normally spell checking is disabled for markup.raw.
+markup.inline.raw
 markup.other                — other markup constructs.
 
 meta - the meta scope is generally used to markup larger parts of the document. For example the entire line which declares a function would be meta.function and the subsets would be storage.type, entity.name.function, variable.parameter etc. and only the latter would be styled. Sometimes the meta part of the scope will be used only to limit the more general element that is styled, most of the time meta scopes are however used in scope selectors for activation of bundle items. For example in Objective-C there is a meta scope for the interface declaration of a class and the implementation, allowing the same tab-triggers to expand differently, depending on context.
