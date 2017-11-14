@@ -1,0 +1,2 @@
+src/*.ts filter=git-crypt diff=git-crypt
+src/*.json filter=git-crypt diff=git-crypt
