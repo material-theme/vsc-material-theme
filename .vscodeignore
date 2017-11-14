@@ -5,7 +5,7 @@
 .gulp
 .vscode/**
 assets/
-gulpfile.babel.json
+gulpfile.babel.ts
 node_modules
 out/test/**
 src/**
