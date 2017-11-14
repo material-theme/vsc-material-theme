@@ -2,8 +2,8 @@
   "folderExpanded": "_folder_open",
   "folder": "_folder_light",
   "folderNames": {
-    "node_modules": "_folder_node",
     "test": "_folder_test",
+    "node_modules": "_folder_node",
     "assets": "_folder_assets",
     "bower_components": "_folder_bower",
     "js": "_folder_js",
@@ -14,11 +14,11 @@
     ".vscode": "_folder_vscode",
     ".gulp": "_folder_gulp",
     "build": "_folder_dark_build",
-    "dist": "_folder_dark_build"
+    "dist": "_folder_dist"
   },
   "folderNamesExpanded": {
-    "node_modules": "_folder_node_open",
     "test": "_folder_test_open",
+    "node_modules": "_folder_node_open",
     "bower_components": "_folder_bower_open",
     "assets": "_folder_assets_open",
     "src": "_folder_src_open",
@@ -29,6 +29,6 @@
     ".gulp": "_folder_gulp_open",
     ".vscode": "_folder_vscode_open",
     "build": "_folder_open_build",
-    "dist": "_folder_open_build"
+    "dist": "_folder_dist_open"
   }
 },

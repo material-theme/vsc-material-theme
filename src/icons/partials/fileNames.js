@@ -1,5 +1,6 @@
 "fileNames": {
   "gruntfile.js": "_file_grunt",
+  "package-lock.json": "_file_package-lock",
   "bower.json": "_file_bower",
   ".bowerrc": "_file_bower",
   "webpack.js": "_file_webpack",
@@ -50,7 +51,7 @@
   ".gitattributes": "_file_git",
   ".gitmodules": "_file_git",
   ".gitkeep": "_file_git",
-  "yarn.lock": "_file_yarn",
+  "yarn.lock": "_file_yarn-lock",
   ".yarnrc": "_file_yarn",
   ".yarnclean": "_file_yarn",
   ".yarn-integrity": "_file_yarn",
