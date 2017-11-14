@@ -1,3 +1,25 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/equinusocio/vsc-material-theme/compare/v1.1.0...v1.1.2) (2017-11-14)
+
+
+### Bug Fixes
+
+* Add dist folder icon ([a6600d2](https://github.com/equinusocio/vsc-material-theme/commit/a6600d2))
+* Add test folder icon ([0a73ce4](https://github.com/equinusocio/vsc-material-theme/commit/0a73ce4))
+* Improve markdown highlight ([dc9a6fa](https://github.com/equinusocio/vsc-material-theme/commit/dc9a6fa)), closes [#113](https://github.com/equinusocio/vsc-material-theme/issues/113)
+* Improve src folder icon ([e06b881](https://github.com/equinusocio/vsc-material-theme/commit/e06b881))
+* New bower_components folder icon ([adcb304](https://github.com/equinusocio/vsc-material-theme/commit/adcb304))
+* Update .git folder icon ([2f37966](https://github.com/equinusocio/vsc-material-theme/commit/2f37966))
+* Update .github folder icon ([d371804](https://github.com/equinusocio/vsc-material-theme/commit/d371804))
+* Update package-lock.json and yarn.lock file icons ([7136700](https://github.com/equinusocio/vsc-material-theme/commit/7136700)), closes [#108](https://github.com/equinusocio/vsc-material-theme/issues/108)
+
+
+### Features
+
+* Add Rollup js file icon ([5755813](https://github.com/equinusocio/vsc-material-theme/commit/5755813))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.0.5...v1.1.0) (2017-11-04)
 
