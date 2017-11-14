@@ -28,7 +28,8 @@
     "_folder_src_open",
     "_folder_assets_open",
     "_folder_bower_open",
-    "_folder_git_open"
+    "_folder_git_open",
+    "_folder_github_open"
   ],
   "changelog": {
     "lastversion": "1.1.1"
@@ -36,6 +37,12 @@
   "icons": {
     "theme": {
       "iconDefinitions": {
+        "_folder_github": {
+          "iconPath": "../icons/folder_github.svg"
+        },
+        "_folder_github_open": {
+          "iconPath": "../icons/folder_github_open.svg"
+        },
         "_folder_git": {
           "iconPath": "../icons/folder_git.svg"
         },
@@ -160,6 +167,7 @@
     "_folder_src",
     "_folder_assets",
     "_folder_bower",
-    "_folder_git"
+    "_folder_git",
+    "_folder_github"
   ]
 }
