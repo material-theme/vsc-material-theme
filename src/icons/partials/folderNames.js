@@ -11,7 +11,7 @@
   ".vscode": "_folder_vscode",
   ".gulp": "_folder_gulp",
   "build": "_folder_dark_build",
-  "dist": "_folder_dark_build"
+  "dist": "_folder_dist"
 },
 "folderNamesExpanded": {
   "test": "_folder_test_open",
@@ -26,5 +26,5 @@
   ".gulp": "_folder_gulp_open",
   ".vscode": "_folder_vscode_open",
   "build": "_folder_open_build",
-  "dist": "_folder_open_build"
+  "dist": "_folder_dist_open"
 }
