@@ -1,4 +1,5 @@
 *.log
+*.ts
 **/*.map
 .github
 .gitignore
