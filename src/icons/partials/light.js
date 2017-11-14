@@ -3,6 +3,7 @@
   "folder": "_folder_light",
   "folderNames": {
     "node_modules": "_folder_node",
+    "test": "_folder_test",
     "assets": "_folder_assets",
     "bower_components": "_folder_bower",
     "js": "_folder_js",
@@ -17,6 +18,7 @@
   },
   "folderNamesExpanded": {
     "node_modules": "_folder_node_open",
+    "test": "_folder_test_open",
     "bower_components": "_folder_bower_open",
     "assets": "_folder_assets_open",
     "src": "_folder_src_open",

@@ -1,4 +1,5 @@
 "folderNames": {
+  "test": "_folder_test",
   "node_modules": "_folder_node",
   "assets": "_folder_assets",
   "bower_components": "_folder_bower",
@@ -13,6 +14,7 @@
   "dist": "_folder_dark_build"
 },
 "folderNamesExpanded": {
+  "test": "_folder_test_open",
   "node_modules": "_folder_node_open",
   "bower_components": "_folder_bower_open",
   "assets": "_folder_assets_open",
