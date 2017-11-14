@@ -26,7 +26,8 @@
     "_folder_images_open",
     "_folder_js_open",
     "_folder_src_open",
-    "_folder_assets_open"
+    "_folder_assets_open",
+    "_folder_bower_open"
   ],
   "changelog": {
     "lastversion": "1.1.1"
@@ -34,6 +35,12 @@
   "icons": {
     "theme": {
       "iconDefinitions": {
+        "_folder_bower": {
+          "iconPath": "../icons/folder_bower.svg"
+        },
+        "_folder_bower_open": {
+          "iconPath": "../icons/folder_bower_open.svg"
+        },
         "_folder_assets": {
           "iconPath": "../icons/folder_assets.svg"
         },
@@ -144,6 +151,7 @@
     "_folder_images",
     "_folder_js",
     "_folder_src",
-    "_folder_assets"
+    "_folder_assets",
+    "_folder_bower"
   ]
 }
