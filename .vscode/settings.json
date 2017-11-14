@@ -3,6 +3,7 @@
   "editor.insertSpaces": true,
   "files.exclude": {
     "**/.git": true,
+    ".git-crypt": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
