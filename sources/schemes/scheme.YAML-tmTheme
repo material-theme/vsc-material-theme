@@ -499,19 +499,47 @@ settings:
 
 # >> Bracket Highlighter theme
 
-- name: Bracket Curly
+- name: Bracket Default
   scope: brackethighlighter.default
   settings:
     foreground: '<%= scheme.base.paleblue %>'
 
+- name: Bracket Curly
+  scope: brackethighlighter.curly
+  settings:
+    foreground: '<%= scheme.base.cyan %>'
+
+- name: Bracket Round
+  scope: brackethighlighter.round
+  settings:
+    foreground: '<%= scheme.base.cyan %>'
+
+- name: Bracket Square
+  scope: brackethighlighter.square
+  settings:
+    foreground: '<%= scheme.base.cyan %>'
+
+- name: Bracket Angle
+  scope: brackethighlighter.angle
+  settings:
+    foreground: '<%= scheme.base.cyan %>'
+
+- name: Bracket Tag
+  scope: brackethighlighter.tag
+  settings:
+    foreground: '<%= scheme.base.cyan %>'
+
+- name: Bracket C Define
+  scope: brackethighlighter.c_define
+  settings:
+    foreground: '<%= scheme.base.purple %>'
+
 - name: Bracket Quote
   scope: brackethighlighter.quote
   settings:
-    foreground: '<%= scheme.base.green %>'
+    foreground: '<%= scheme.base.cyan %>'
 
 - name: Bracket Unmatched
   scope: brackethighlighter.unmatched
   settings:
     foreground: '<%= scheme.base.red %>'
-
-
