@@ -98,6 +98,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 
 // Panels
 "material_theme_accent_scrollbars"        : true, // Enable accent color for scrollbars
+"material_theme_accent_titlebar"		  : true, // Enable accent color for titlebar
 "material_theme_bright_scrollbars"        : true, // Bright scrollbars puck color
 "material_theme_compact_panel"            : true, // Set minimal padding for the search panel
 "material_theme_contrast_mode"            : true, // Enable sidebar and panels contrast mode
