@@ -3,40 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>&lt;%= author %&gt;</string>
+	<string>Mattia Astorino</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>&lt;%= name %&gt; &lt;%= extras.plainTasks.name %&gt;</string>
+	<string>Material-Theme Plain Tasks</string>
 	<key>semanticClass</key>
-	<string>&lt;%= extras.plainTasks.semanticClass %&gt;</string>
+	<string>material.theme.default.plain.tasks</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 				<key>background</key>
-				<string>&lt;%= scheme.background %&gt;</string>
+				<string>#263238</string>
 				<key>caret</key>
-				<string>&lt;%= scheme.caret %&gt;</string>
+				<string>#FFCC00</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.foreground %&gt;</string>
+				<string>#EEFFFF</string>
 				<key>guide</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 				<key>gutter</key>
-				<string>&lt;%= scheme.background %&gt;</string>
+				<string>#263238</string>
 				<key>invisibles</key>
-				<string>&lt;%= scheme.comment %&gt;</string>
+				<string></string>
 				<key>lineHighlight</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 				<key>selection</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 				<key>selectionBorder</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 				<key>stackGuide</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 			</dict>
 		</dict>
 		<dict>
@@ -49,7 +49,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.comment %&gt;</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -62,7 +62,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.violet %&gt;</string>
+				<string>#BB80B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -73,7 +73,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>&lt;%= scheme.comment %&gt;</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,7 +97,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.green %&gt;</string>
+				<string>#C3E88D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -108,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>&lt;%= scheme.foreground %&gt;aa</string>
+				<string>#EEFFFFaa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -119,7 +119,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.red %&gt;</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -132,7 +132,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.comment %&gt;</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -143,7 +143,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>&lt;%= scheme.comment %&gt;aa</string>
+				<string>aa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,11 +154,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.foreground %&gt;dd</string>
+				<string>#EEFFFFdd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -171,7 +171,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.comment %&gt;</string>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -184,7 +184,7 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.comment %&gt;aa</string>
+				<string>aa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -219,7 +219,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.blue %&gt;</string>
+				<string>#82AAFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -230,9 +230,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.yellow %&gt;bf</string>
+				<string>#FFCB6Bbf</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.black %&gt;bf</string>
+				<string>#000000bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -243,9 +243,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.green %&gt;bf</string>
+				<string>#C3E88Dbf</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.black %&gt;bf</string>
+				<string>#000000bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -256,9 +256,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.blue %&gt;bf</string>
+				<string>#82AAFFbf</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.black %&gt;bf</string>
+				<string>#000000bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -269,11 +269,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.cyan %&gt;bf</string>
+				<string>#89DDFFbf</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.black %&gt;bf</string>
+				<string>#000000bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -284,9 +284,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.green %&gt;bf</string>
+				<string>#C3E88Dbf</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.black %&gt;bf</string>
+				<string>#000000bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -297,9 +297,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.comment %&gt;bf</string>
+				<string>bf</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.black %&gt;bf</string>
+				<string>#000000bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -312,7 +312,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.blue %&gt;bf</string>
+				<string>#82AAFFbf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -323,9 +323,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.pink %&gt;bf</string>
+				<string>#F07178bf</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.black %&gt;bf</string>
+				<string>#000000bf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -336,9 +336,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.red %&gt;</string>
+				<string>#FF5370</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.white %&gt;</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -349,11 +349,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.blue %&gt;</string>
+				<string>#82AAFF</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.white %&gt;</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -364,11 +364,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.highlight %&gt;</string>
+				<string>#00000050</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.foreground %&gt;cc</string>
+				<string>#EEFFFFcc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -379,11 +379,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.orange %&gt;</string>
+				<string>#F78C6C</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.white %&gt;</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -394,15 +394,15 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>&lt;%= scheme.base.red %&gt;</string>
+				<string>#FF5370</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>&lt;%= scheme.base.white %&gt;</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>&lt;%= extras.plainTasks.uuid %&gt;</string>
+	<string>f38cc8d3-7cff-4418-a6e2-54c6c4e5f5cc</string>
 </dict>
 </plist>

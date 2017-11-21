@@ -14,27 +14,27 @@
         "rgb": "250, 250, 250"
       },
       "scrollbar": {
-        "hex": "#ffffff",
+        "hex": "#FFFFFF",
         "rgb": "255, 255, 255"
       }
     },
     "foreground": {
       "primary": {
-        "hex": "#a7adb0",
+        "hex": "#A7ADB0",
         "rgb": "167, 173, 176"
       },
       "secondary": {
-        "hex": "#6f7a7f",
+        "hex": "#6F7A7F",
         "rgb": "111, 122, 127"
       },
       "selected": {
-        "hex": "#dddfe1",
+        "hex": "#DDDFE1",
         "rgb": "221, 223, 225"
       }
     }
   },
   "scheme": {
-    "background": "#fafafa",
+    "background": "#FAFAFA",
     "comments": "#CCD7DA",
     "caret": "#27272790",
     "findHighlight": "#F8E71C",
@@ -52,7 +52,7 @@
     "string": "#F9355A",
     "constantEscape": "#FFC400",
     "base": {
-      "white": "#ffffff",
+      "white": "#FFFFFF",
       "black": "#000000",
       "red": "#E53935",
       "orange": "#F76D47",

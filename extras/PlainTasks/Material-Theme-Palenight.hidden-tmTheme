@@ -7,36 +7,36 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Material-Theme-Darker Plain Tasks</string>
+	<string>Material-Theme-Palenight Plain Tasks</string>
 	<key>semanticClass</key>
-	<string>material.theme.darker.plain.tasks</string>
+	<string>material.theme.palenight.plain.tasks</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 				<key>background</key>
-				<string>#212121</string>
+				<string>#292D3E</string>
 				<key>caret</key>
 				<string>#FFCC00</string>
 				<key>foreground</key>
-				<string>#EEFFFFFF</string>
+				<string>#959DCB</string>
 				<key>guide</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 				<key>gutter</key>
-				<string>#212121</string>
+				<string>#292D3E</string>
 				<key>invisibles</key>
 				<string></string>
 				<key>lineHighlight</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 				<key>selection</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 				<key>selectionBorder</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 				<key>stackGuide</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 			</dict>
 		</dict>
 		<dict>
@@ -108,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EEFFFFFFaa</string>
+				<string>#959DCBaa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,11 +154,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#EEFFFFFFdd</string>
+				<string>#959DCBdd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -364,11 +364,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000050</string>
+				<string>#00000030</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#EEFFFFFFcc</string>
+				<string>#959DCBcc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -403,6 +403,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>2c08ecfd-e69c-4cf3-8b6d-ec07a83c30ab</string>
+	<string>093a4339-743f-47a3-9323-6ae03adc1fed</string>
 </dict>
 </plist>
