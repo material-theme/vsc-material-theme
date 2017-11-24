@@ -101,20 +101,20 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
 - **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 
-# Contributors
+## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
 <a href="graphs/contributors"><img src="https://opencollective.com/vsc-material-theme/contributors.svg?width=890" /></a>
 
 
-# Backers
+## Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/vsc-material-theme#backer)]
 
 <a href="https://opencollective.com/vsc-material-theme#backers" target="_blank"><img src="https://opencollective.com/vsc-material-theme/backers.svg?width=890"></a>
 
 
-# Sponsors
+## Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/vsc-material-theme#sponsor)]
 
