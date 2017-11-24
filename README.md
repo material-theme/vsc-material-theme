@@ -108,20 +108,20 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
 
 <p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.png?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.png?style=flat-square"/></a></p>
 
-## Contributors
+# Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
 <a href="graphs/contributors"><img src="https://opencollective.com/vsc-material-theme/contributors.svg?width=890" /></a>
 
 
-## Backers
+# Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/vsc-material-theme#backer)]
 
 <a href="https://opencollective.com/vsc-material-theme#backers" target="_blank"><img src="https://opencollective.com/vsc-material-theme/backers.svg?width=890"></a>
 
 
-## Sponsors
+# Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/vsc-material-theme#sponsor)]
 
