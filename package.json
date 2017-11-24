@@ -35,7 +35,7 @@
     "build-icons-variants": "gulp build:icons.variants",
     "build-themes": "gulp build:themes",
     "release": "npm run bump && npm run changelog",
-    "postinstall": "node ./node_modules/vscode/bin/install",
+    "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall",
     "changelog": "gulp changelog",
     "bump": "gulp bump"
   },
@@ -128,5 +128,13 @@
     "id": "dffaf5a1-2219-434b-9d87-cb586fd59260",
     "publisherDisplayName": "Mattia Astorino",
     "publisherId": "e41388a1-a892-4c1e-940b-1e7c1bf43c97"
+  },
+  "dependencies": {
+    "opencollective": "1.0.3"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/vsc-material-theme",
+    "logo": "https://opencollective.com/opencollective/logo.txt"
   }
 }
