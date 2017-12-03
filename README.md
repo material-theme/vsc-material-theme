@@ -21,6 +21,8 @@ Please read the [Known Issues](https://github.com/equinusocio/material-theme#kno
 
 
 # Easy installation
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/equinusocio/material-theme.svg)](https://greenkeeper.io/)
 You can install this awesome theme through the [Package Control](https://packagecontrol.io/installation).
 
 1. Press ⌘/Ctrl + ⇧ + P to open the command palette.
