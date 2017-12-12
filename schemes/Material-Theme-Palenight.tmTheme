@@ -105,7 +105,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -118,7 +118,7 @@ a {
 				<key>background</key>
 				<string>#FF5370</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -131,7 +131,7 @@ a {
 				<key>background</key>
 				<string>#C3E88D</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -144,7 +144,7 @@ a {
 				<key>background</key>
 				<string>#C792EA</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -188,7 +188,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f07178</string>
+				<string>#F07178</string>
 			</dict>
 		</dict>
 		<dict>
@@ -210,7 +210,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f07178</string>
+				<string>#F07178</string>
 			</dict>
 		</dict>
 		<dict>
@@ -495,7 +495,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f07178</string>
+				<string>#F07178</string>
 			</dict>
 		</dict>
 		<dict>
@@ -629,7 +629,7 @@ a {
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#f07178</string>
+				<string>#F07178</string>
 			</dict>
 		</dict>
 		<dict>
@@ -642,7 +642,7 @@ a {
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#f07178</string>
+				<string>#F07178</string>
 			</dict>
 		</dict>
 		<dict>
@@ -858,7 +858,7 @@ a {
 				<key>background</key>
 				<string>#82AAFF</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -871,7 +871,7 @@ a {
 				<key>background</key>
 				<string>#C3E88D</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -884,7 +884,7 @@ a {
 				<key>background</key>
 				<string>#F78C6C</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -897,7 +897,7 @@ a {
 				<key>background</key>
 				<string>#C792EA</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -919,7 +919,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1001,13 +1001,79 @@ a {
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Bracket Curly</string>
+			<string>Bracket Default</string>
 			<key>scope</key>
 			<string>brackethighlighter.default</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B2CCD6</string>
+				<string>#B2CCD64C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Curly</string>
+			<key>scope</key>
+			<string>brackethighlighter.curly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#89DDFF4C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Round</string>
+			<key>scope</key>
+			<string>brackethighlighter.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#89DDFF4C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Square</string>
+			<key>scope</key>
+			<string>brackethighlighter.square</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#89DDFF4C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Angle</string>
+			<key>scope</key>
+			<string>brackethighlighter.angle</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#89DDFF4C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Tag</string>
+			<key>scope</key>
+			<string>brackethighlighter.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#89DDFF4C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket C Define</string>
+			<key>scope</key>
+			<string>brackethighlighter.c_define</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C792EA4C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1018,7 +1084,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C3E88D</string>
+				<string>#89DDFF4C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1029,7 +1095,7 @@ a {
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#FF53704C</string>
 			</dict>
 		</dict>
 	</array>
