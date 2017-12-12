@@ -502,44 +502,44 @@ settings:
 - name: Bracket Default
   scope: brackethighlighter.default
   settings:
-    foreground: '<%= scheme.base.paleblue %>'
+    foreground: '<%= scheme.base.paleblue + "4C" %>'
 
 - name: Bracket Curly
   scope: brackethighlighter.curly
   settings:
-    foreground: '<%= scheme.base.cyan %>'
+    foreground: '<%= scheme.base.cyan + "4C" %>'
 
 - name: Bracket Round
   scope: brackethighlighter.round
   settings:
-    foreground: '<%= scheme.base.cyan %>'
+    foreground: '<%= scheme.base.cyan + "4C" %>'
 
 - name: Bracket Square
   scope: brackethighlighter.square
   settings:
-    foreground: '<%= scheme.base.cyan %>'
+    foreground: '<%= scheme.base.cyan + "4C" %>'
 
 - name: Bracket Angle
   scope: brackethighlighter.angle
   settings:
-    foreground: '<%= scheme.base.cyan %>'
+    foreground: '<%= scheme.base.cyan + "4C" %>'
 
 - name: Bracket Tag
   scope: brackethighlighter.tag
   settings:
-    foreground: '<%= scheme.base.cyan %>'
+    foreground: '<%= scheme.base.cyan + "4C" %>'
 
 - name: Bracket C Define
   scope: brackethighlighter.c_define
   settings:
-    foreground: '<%= scheme.base.purple %>'
+    foreground: '<%= scheme.base.purple + "4C" %>'
 
 - name: Bracket Quote
   scope: brackethighlighter.quote
   settings:
-    foreground: '<%= scheme.base.cyan %>'
+    foreground: '<%= scheme.base.cyan + "4C" %>'
 
 - name: Bracket Unmatched
   scope: brackethighlighter.unmatched
   settings:
-    foreground: '<%= scheme.base.red %>'
+    foreground: '<%= scheme.base.red + "4C" %>'
