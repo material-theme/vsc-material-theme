@@ -6,7 +6,8 @@
   "scripts": {
     "build": "gulp",
     "bt": "gulp build:themes",
-    "bs": "gulp build:schemes"
+    "bs": "gulp build:schemes",
+    "bump": "gulp bump"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
