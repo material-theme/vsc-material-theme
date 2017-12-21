@@ -220,3 +220,20 @@
         [30, 40, 45]
       <% } %>
   },
+
+  <% for (var i = 0; i < ui.accents.length; i++) { %>
+
+  {
+    "class": "title_bar",
+    "settings": ["material_theme_accent_titlebar", "material_theme_accent_<%= ui.accents[i].id %>", "material_theme_titlebar"],
+    "platforms": ["osx"],
+    "bg": [<%= ui.accents[i].rgb %>],
+    "fg":
+      <% if (ui.accents[i].id == "acid-lime" || ui.accents[i].id == "bright-teal" || ui.accents[i].id == "sky") { %>
+        [0, 0, 0]
+      <% } else { %>
+        [255, 255, 255]
+      <% } %>
+  },
+
+  <% } %>

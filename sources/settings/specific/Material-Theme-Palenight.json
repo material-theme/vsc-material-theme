@@ -14,7 +14,7 @@
         "rgb": "41, 45, 62"
       },
       "scrollbar": {
-        "hex": "#ffffff",
+        "hex": "#FFFFFF",
         "rgb": "255, 255, 255"
       }
     },
@@ -24,7 +24,7 @@
         "rgb": "103, 110, 149"
       },
       "selected": {
-        "hex": "#dddfe1",
+        "hex": "#DDDFE1",
         "rgb": "221, 223, 225"
       }
     }
@@ -43,12 +43,12 @@
     "highlight": "#00000030",
     "selection": "#717CB440",
     "shadow": "#00000010",
-    "keywords": "#cfd8dc",
+    "keywords": "#CFD8DC",
     "constant": "#80CBC4",
     "string": "#F9355A",
     "constantEscape": "#FFC400",
     "base": {
-      "white": "#ffffff",
+      "white": "#FFFFFF",
       "black": "#000000",
       "red": "#FF5370",
       "orange": "#F78C6C",
@@ -59,8 +59,8 @@
       "paleblue": "#B2CCD6",
       "purple": "#C792EA",
       "brown": "#C17E70",
-      "pink": "#f07178",
-      "violet": "#bb80b3"
+      "pink": "#F07178",
+      "violet": "#BB80B3"
     }
   },
   "extras": {

@@ -14,7 +14,7 @@
         "rgb": "33, 33, 33"
       },
       "scrollbar": {
-        "hex": "#ffffff",
+        "hex": "#FFFFFF",
         "rgb": "255, 255, 255"
       }
     },
@@ -24,11 +24,11 @@
         "rgb": "97, 97, 97"
       },
       "secondary": {
-        "hex": "#6f7a7f",
+        "hex": "#6F7A7F",
         "rgb": "111, 122, 127"
       },
       "selected": {
-        "hex": "#dddfe1",
+        "hex": "#DDDFE1",
         "rgb": "221, 223, 225"
       }
     }
@@ -38,21 +38,21 @@
     "comments": "#4A4A4A",
     "caret": "#FFCC00",
     "findHighlight": "#F8E71C",
-    "foreground": "#eeffffff",
+    "foreground": "#EEFFFFFF",
     "guides": "#42424270",
     "activeGuide": "#FFFFFF50",
     "stackGuides": "#42424280",
     "gutter": "#424242",
-    "invisibles": "#65737e",
+    "invisibles": "#65737E",
     "highlight": "#00000050",
     "selection": "#61616150",
     "shadow": "#00000010",
-    "keywords": "#cfd8dc",
+    "keywords": "#CFD8DC",
     "constant": "#80CBC4",
     "string": "#F9355A",
     "constantEscape": "#FFC400",
     "base": {
-      "white": "#ffffff",
+      "white": "#FFFFFF",
       "black": "#000000",
       "red": "#FF5370",
       "orange": "#F78C6C",
@@ -63,8 +63,8 @@
       "paleblue": "#B2CCD6",
       "purple": "#C792EA",
       "brown": "#C17E70",
-      "pink": "#f07178",
-      "violet": "#bb80b3"
+      "pink": "#F07178",
+      "violet": "#BB80B3"
     }
   },
   "extras": {

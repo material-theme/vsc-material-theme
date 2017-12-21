@@ -1,9 +1,9 @@
 <p align="center">
   <h3>
-      This project is not more under active development. Since Sublime Text is an obsolete software compared to other editors please consider <a href="https://github.com/equinusocio/vsc-material-theme">Material Theme</a> for <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
+      This project is no longer under active development. Since Sublime Text is an obsolete software compared to other editors, please consider <a href="https://github.com/equinusocio/vsc-material-theme">Material Theme</a> for <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
   <h3>
-      
-  <h5>This repo will will keep approving fixing PR from contributors, if there is one.</h5>
+
+  <h5>This repo will keep approving PRs from contributors.</h5>
 </p>
 
 ![Material Theme](http://i.imgur.com/9PyxJMN.gif)
@@ -98,6 +98,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 
 // Panels
 "material_theme_accent_scrollbars"        : true, // Enable accent color for scrollbars
+"material_theme_accent_titlebar"          : true, // Enable accent color for titlebar
 "material_theme_bright_scrollbars"        : true, // Bright scrollbars puck color
 "material_theme_compact_panel"            : true, // Set minimal padding for the search panel
 "material_theme_contrast_mode"            : true, // Enable sidebar and panels contrast mode
