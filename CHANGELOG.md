@@ -1,3 +1,18 @@
+<a name="4.1.3"></a>
+## [4.1.3](https://github.com/equinusocio/material-theme/compare/v4.1.2...v4.1.3) (2017-12-21)
+
+
+### Bug Fixes
+
+* minor typo fixes in readme headings ([17af9bf](https://github.com/equinusocio/material-theme/commit/17af9bf))
+* repair accent_titlebar spacing in readme ([6fc8b2c](https://github.com/equinusocio/material-theme/commit/6fc8b2c))
+* repair bracket highlighter styles ([e6304a0](https://github.com/equinusocio/material-theme/commit/e6304a0))
+* repair bump tasks not updating version number ([a06b58b](https://github.com/equinusocio/material-theme/commit/a06b58b))
+* repair some plain tasks scheme settings ([f7c0f4b](https://github.com/equinusocio/material-theme/commit/f7c0f4b))
+* revert to popupcss to repair latex math preview and popup styles ([9f6caac](https://github.com/equinusocio/material-theme/commit/9f6caac))
+
+
+
 <a name="4.1.2"></a>
 ## [4.1.2](https://github.com/equinusocio/material-theme/compare/v4.1.1...v4.1.2) (2017-11-01)
 
@@ -102,7 +117,7 @@
 
 * Add "material_theme_big_fileicons" setting ([4da341b](https://github.com/equinusocio/material-theme/commit/4da341b)), closes [#997](https://github.com/equinusocio/material-theme/issues/997)
 * Add new icons for zz File Icons Support ([b17159b](https://github.com/equinusocio/material-theme/commit/b17159b))
-* Add PlainTasks support ([b420ec0](https://github.com/equinusocio/material-theme/commit/b420ec0))
+* Add PlainTasks support ([b420ec0](https://github.com/equinusocio/material-theme/commit/b420ec0)), closes [#999](https://github.com/equinusocio/material-theme/issues/999)
 * Add Skins package support. ([4d49774](https://github.com/equinusocio/material-theme/commit/4d49774))
 * Add support for "zz-file-icons" package. ([e493311](https://github.com/equinusocio/material-theme/commit/e493311))
 * Add support to zz-file icons and update icons. Please check the readme file. ([8224e68](https://github.com/equinusocio/material-theme/commit/8224e68))
@@ -226,7 +241,7 @@ display file type icons. Please install it and restart Sublime Text.
 * remove hexbgr reverse conversion ([842f8c5](https://github.com/equinusocio/material-theme/commit/842f8c5))
 * Scheme compiler and add new scheme vars ([fb7545d](https://github.com/equinusocio/material-theme/commit/fb7545d))
 * Schemes color ([d2c5cf1](https://github.com/equinusocio/material-theme/commit/d2c5cf1))
-* Selected item tree indicator ([58a82fc](https://github.com/equinusocio/material-theme/commit/58a82fc))
+* Selected item tree indicator ([58a82fc](https://github.com/equinusocio/material-theme/commit/58a82fc)), closes [#873](https://github.com/equinusocio/material-theme/issues/873)
 * sublimelinter error foreground color ([71ce945](https://github.com/equinusocio/material-theme/commit/71ce945))
 * SublimeLinter gutter colors ([f696f89](https://github.com/equinusocio/material-theme/commit/f696f89)), closes [#880](https://github.com/equinusocio/material-theme/issues/880)
 
