@@ -12,6 +12,11 @@
 * revert to popupcss to repair latex math preview and popup styles ([9f6caac](https://github.com/equinusocio/material-theme/commit/9f6caac))
 
 
+### Breaking Change
+
+* enable "material_theme_accent_titlebar" setting ([479bf1b](https://github.com/equinusocio/material-theme/commit/479bf1b))
+
+
 
 <a name="4.1.2"></a>
 ## [4.1.2](https://github.com/equinusocio/material-theme/compare/v4.1.1...v4.1.2) (2017-11-01)
