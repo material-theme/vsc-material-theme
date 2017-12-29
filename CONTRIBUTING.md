@@ -7,6 +7,24 @@ Contributing guidelines
 
 * Nodejs ^6.x
 * Visual Studio Code
+* GPG Tool
+
+<!-- TOC -->
+
+        - [Requirements:](#requirements)
+        - [Decrypt content](#decrypt-content)
+- [or](#or)
+
+<!-- /TOC -->
+### Decrypt content
+We use git-crypt to encrypt compiler files. To contribute you need a GPG key public/private associated with your github email.
+
+1. Export your public key by running
+
+```gpg --output PATH/FILENAME.gpg --export ASSOCIATEDEMAIL```
+
+2. Send the exported `.gpg` file to a contributor that will add you to the trusted people.
+3. Fetch and pull then decrypt files with `git-crypt unlock` entering your key password.
 
 ### Installing and compiling source
 
