@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.1.2...v1.2.0) (2017-12-29)
+
+
+### Features
+
+* Add ci folder icon ([a2ba7f8](https://github.com/equinusocio/vsc-material-theme/commit/a2ba7f8)), closes [#119](https://github.com/equinusocio/vsc-material-theme/issues/119)
+* Add laravel blade file icon ([f7070f4](https://github.com/equinusocio/vsc-material-theme/commit/f7070f4)), closes [#114](https://github.com/equinusocio/vsc-material-theme/issues/114)
+* Add reason (.re, .rei) file icon ([384d8d2](https://github.com/equinusocio/vsc-material-theme/commit/384d8d2))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/equinusocio/vsc-material-theme/compare/v1.1.0...v1.1.2) (2017-11-14)
 
@@ -238,6 +254,3 @@
 * **Icons:** Add new filetype icons ([5bc8002](https://github.com/equinusocio/vsc-material-theme/commit/5bc8002))
 * **Icons:** Add new icons ([3921218](https://github.com/equinusocio/vsc-material-theme/commit/3921218))
 * first full theme implementation (wip) ([c3c42d4](https://github.com/equinusocio/vsc-material-theme/commit/c3c42d4))
-
-
-
