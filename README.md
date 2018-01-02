@@ -1,7 +1,8 @@
 <p align="center">
   <h3>
-      This project is no longer under active development. Since Sublime Text is an obsolete software compared to other editors, please consider <a href="https://github.com/equinusocio/vsc-material-theme">Material Theme</a> for <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
+      This project is no longer under active development. Since Sublime Text is an obsolete software (for me) compared to other editors, please consider <a href="https://github.com/equinusocio/vsc-material-theme">Material Theme</a> for <a href="https://code.visualstudio.com/">Visual Studio Code</a>. Read the <a href="#deprecation-note">deprecation note.</a>
   <h3>
+
 
   <h5>This repo will keep approving PRs from contributors.</h5>
 </p>
@@ -18,6 +19,37 @@
 This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report a [new one](https://github.com/equinusocio/material-theme/issues).
 
 Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that does not use the issue template and any issue related to the [known issues section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
+
+
+# Deprecation note
+
+I was a Sublime Text user for years. For years sublime text 2 has not received updates, it was totally abandoned by is author, until wbond and others start working on it. After 3 years of v3 beta and only bugfixing i can consider it an obsolete commercial software. Now v3 is out and there are not new features, out of the bos ST is like a commercial Nodepad++ . Is not hard to think:
+
+- a 80$ commercial software that is 80% cracked or used in free mode.
+- No modern languages integrations built-in. You have to hope that some developer build an extension.
+- No linters integrations
+- No automplete across files for css, html, js, typescript etc (without some RAM-eater extensions)
+- Lack of functionalities, like markdown preview, svg preview, tasks, git..
+- Theme engine obsolete and very hard to manage.
+- Closed community with not support.
+- And many other issues
+
+Visual studio code, atom or IntelliJ have a lot of built-in features, and **vsc and atom are free, open source with a huge community and monthly USEFUL updates**. **With vsc or intellij, you need extension to EXTEND the software, not to build it.** With ST you install the basic text editor and you have to install a lot of extensions to make it a bit useful,  It is fast, yes, but because it does not have anything.
+
+VSC:
+- Free
+- Open source and followed community
+- Lot of improvements and features released every month
+- A lot of integrations with modern languages out of the box
+- Fast
+- Git integration
+- Tasks integration
+- Debug integration
+- Many others
+
+You think that sublime text is a good editor? ok, you can still pay 80$ for it (or use it as a free editor) and think what you want, it is not offensive for me.
+
+I was the only contributor to this project until last days and yes, i'm the only one that can take actions on this project. Do you want to fix and rewrite this theme for an obsolete text editor? I'm open to new real contributors. :)
 
 
 # Easy installation

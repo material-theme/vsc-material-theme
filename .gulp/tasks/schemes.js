@@ -37,7 +37,7 @@ gulp.task('process:schemes', function() {
     .pipe($.flatmap( (stream, file) => {
       var basename = path.basename(file.path, path.extname(file.path));
 
-      return gulp.src( `${paths.src}/schemes/scheme.YAML-tmTheme` )
+      return gulp.src( `${paths.src}/schemes/scheme.yml` )
         .pipe($.data( () => {
           var specific = require(file.path);
 
@@ -52,7 +52,7 @@ gulp.task('process:schemes', function() {
 });
 
 gulp.task('convert:schemes', function() {
-  return gulp.src(`${paths.schemes}/*.YAML-tmTheme`)
+  return gulp.src(`${paths.schemes}/*.yml`)
     .pipe($.plumber( (error) => {
       console.log('\n[convert:schemes]'.bold.magenta + ' There was an issue converting color schemes:\n'.bold.red + error.message +
                   'To fix this error:\nAdd Sublime Text to the `PATH` and then install "PackageDev" via "Package Control.\nOpen Sublime Text before running the task. "'.bold.blue);
