@@ -1,6 +1,6 @@
 <p align="center">
   <h3>
-      This project is no longer under active development. Since Sublime Text is an obsolete software compared to other editors, please consider <a href="https://github.com/equinusocio/vsc-material-theme">Material Theme</a> for <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
+      This project is no longer under active development. Interested in Visual Studio Code? Please consider <a href="https://github.com/equinusocio/vsc-material-theme">Material Theme</a> for <a href="https://code.visualstudio.com/">Visual Studio Code</a>.
   <h3>
 
   <h5>This repo will keep approving PRs from contributors.</h5>
