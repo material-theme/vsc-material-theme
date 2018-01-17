@@ -44,7 +44,7 @@
   "activationEvents": [
     "*"
   ],
-  "main": "./extensions/material.theme.config",
+  "main": "./extensions/material.theme.config.js",
   "contributes": {
     "commands": [
       {

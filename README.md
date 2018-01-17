@@ -2,7 +2,7 @@
 <p align="center"><img width="620px" src="https://i.imgur.com/77xXWrA.jpg"/></p>
 <p align="center"><img width="450px" src="https://i.imgur.com/JXb5aRO.jpg"></p>
 
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/vsc-material-theme.svg?style=social&style=for-the-badge)](https://twitter.com/intent/tweet?text=This%20is%20the%20most%20epic%20theme:&url=https%3A%2F%2Fgithub.com%2Fequinusocio%2Fvsc-material-theme)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/vsc-material-theme.svg?style=flat-square)](https://twitter.com/intent/tweet?text=This%20is%20the%20most%20epic%20theme:&url=https%3A%2F%2Fgithub.com%2Fequinusocio%2Fvsc-material-theme)
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/vsc-material-theme.svg?style=flat-square)](https://github.com/equinusocio/vsc-material-theme/releases)
 <a href="https://code.visualstudio.com/updates/v1_19"><img src="https://img.shields.io/badge/VS_Code-v1.19+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs/Equinusocio.vsc-material-theme.svg?style=flat-square"/></a>
 
@@ -134,4 +134,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 <p align="center"> <img src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/0.0.14/1494970083238/Microsoft.VisualStudio.Services.Icons.Default" width=16 height=16/> Copyright &copy; 2017 Mattia Astorino and Paolo Roth</p>
 
-<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.png?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.png?style=flat-square"/></a></p>
+<p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.svg?style=flat-square"/></a></p>
