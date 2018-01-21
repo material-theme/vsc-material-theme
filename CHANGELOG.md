@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.2.0...v1.3.0) (2018-01-21)
+
+
+### Bug Fixes
+
+* Fix editor rule color ([2732da4](https://github.com/equinusocio/vsc-material-theme/commit/2732da4))
+* Fix highlight backgrounds in PeekView ([b66e88e](https://github.com/equinusocio/vsc-material-theme/commit/b66e88e))
+* Temporary fix to git edited file background when list is inactive ([6b1925e](https://github.com/equinusocio/vsc-material-theme/commit/6b1925e))
+* Update main field of package.json ([#130](https://github.com/equinusocio/vsc-material-theme/issues/130)) ([40dd529](https://github.com/equinusocio/vsc-material-theme/commit/40dd529))
+
+
+### Features
+
+* Add gulp icon to gulp-config.js files ([83c058f](https://github.com/equinusocio/vsc-material-theme/commit/83c058f)), closes [#128](https://github.com/equinusocio/vsc-material-theme/issues/128)
+* Add zephyr file icon ([9e64343](https://github.com/equinusocio/vsc-material-theme/commit/9e64343)), closes [#124](https://github.com/equinusocio/vsc-material-theme/issues/124)
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.1.2...v1.2.0) (2017-12-29)
 
