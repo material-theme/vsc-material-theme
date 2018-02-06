@@ -13,7 +13,7 @@ gulp.task('clean:themes', function() {
 });
 
 gulp.task('clean:schemes', function() {
-  return del([`${paths.schemes}/*.tmTheme`, `${paths.schemes}/*.YAML-tmTheme`]);
+  return del([`${paths.schemes}/*.tmTheme`, `${paths.schemes}/*.yml`]);
 });
 
 gulp.task('clean:widgets', function() {
@@ -21,5 +21,5 @@ gulp.task('clean:widgets', function() {
 });
 
 gulp.task('clean:extras', function() {
-  return del([`${paths.extras}/**/*.hidden-tmTheme`, `${paths.extras}/**/*.YAML-tmTheme`]);
+  return del([`${paths.extras}/**/*.hidden-tmTheme`, `${paths.extras}/**/*.yml`]);
 });

@@ -241,7 +241,7 @@ a {
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types</string>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
