@@ -25,12 +25,12 @@
     "vscode": "^1.19.0"
   },
   "scripts": {
-    "build": "npm run build-icons && npm run build-themes && npm run build-icons-accents && npm run build-icons-variants",
-    "minimize-icons": "svgo -f src/icons/svgs",
-    "minimize-json": "json-minify themes/.material-theme-icons.tmp > themes/Material-Theme-Icons.json && npm run remove-icons-tmp",
-    "remove-icons": "rimraf icons && rimraf themes/Material-Theme-Icons.json",
+    "build": "yarn build-icons && yarn build-themes && yarn build-icons-accents && yarn build-icons-variants",
+    "minimize-icons": "svgo -f src/icons/svgs -o icons/",
+    "minimize-json": "json-minify themes/.material-theme-icons.tmp > themes/Material-Theme-Icons.json && yarn remove-icons-tmp",
+    "remove-icons": "rimraf icons/* && rimraf themes/Material-Theme-Icons.json",
     "remove-icons-tmp": "rimraf themes/.material-theme-icons.tmp",
-    "build-icons": "npm run remove-icons && npm run minimize-icons && yarn gulp build:icons && npm run minimize-json",
+    "build-icons": "yarn remove-icons && yarn minimize-icons && yarn gulp build:icons && yarn minimize-json",
     "build-icons-accents": "yarn gulp build:icons.accents",
     "build-icons-variants": "yarn gulp build:icons.variants",
     "build-themes": "yarn gulp build:themes",
@@ -71,7 +71,7 @@
     "themes": [
       {
         "label": "Material Theme",
-        "path": "./themes/Material-Theme-Darker.json",
+        "path": "./themes/Material-Theme-Palenight.json",
         "uiTheme": "vs-dark"
       }
     ],
