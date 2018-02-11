@@ -9,6 +9,24 @@
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
 
+<!-- TOC -->
+
+- [Getting started](#getting-started)
+    - [Installation](#installation)
+            - [Packaged VSIX Extension](#packaged-vsix-extension)
+                - [GitHub Repository Clone](#github-repository-clone)
+    - [Activate theme](#activate-theme)
+    - [Activate File Icons](#activate-file-icons)
+    - [Set the accent color](#set-the-accent-color)
+    - [Override theme colors](#override-theme-colors)
+- [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
+- [Other resources](#other-resources)
+    - [Contributors](#contributors)
+    - [Backers](#backers)
+    - [Sponsors](#sponsors)
+
+<!-- /TOC -->
+
 # Getting started
 
 You can install this awesome theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
@@ -26,7 +44,7 @@ Paste the following command and press `Enter`:
 ext install vsc-material-theme
 ```
 
-#### Packaged VSIX Extension <sup>[↑](#getting-started)</sup>
+#### Packaged VSIX Extension
 
 [Download the latest .vsix release](https://github.com/equinusocio/vsc-material-theme/releases/latest) file from the GitHub repository and install it from the command line
 
@@ -36,7 +54,7 @@ code --install-extension vsc-material-theme-*.*.*.vsix
 
 or from within VS Code by launching *Quick Open* and running the *Install from VSIX...* command.
 
-##### GitHub Repository Clone <sup>[↑](#getting-started)</sup>
+##### GitHub Repository Clone
 
 Change to your `.vscode/extensions` [VS Code extensions directory](https://code.visualstudio.com/docs/extensions/install-extension#_side-loading).
 Depending on your platform it is located in the following folders:
@@ -52,7 +70,7 @@ git clone https://github.com/equinusocio/vsc-material-theme.git Equinusocio.vsc-
 ```
 
 
-## Activate theme <sup>[↑](#getting-started)</sup>
+## Activate theme
 
 Launch *Quick Open*,
 
@@ -64,7 +82,7 @@ Type `theme` and choose `Preferences: Color Theme`, then select Material Theme f
 
 This theme provides different color variants, to change the active theme variant type `Material Theme` and choose `Material Theme: Settings`, then select `Change color variant` and pick one theme from the list.
 
-## Activate File Icons <sup>[↑](#getting-started)</sup>
+## Activate File Icons
 
 Launch *Quick Open*,
 
@@ -84,8 +102,25 @@ Launch *Quick Open*,
 
 Type `Material Theme` and choose `Material Theme: Settings`, then select `Change accent color` and pick one color from the list.
 
+## Override theme colors
+You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration.
 
-# Recommended settings for a better experience <sup>[↑](#getting-started)</sup>
+```json
+"editor.tokenColorCustomizations": {
+    "[Material Theme]": {
+        "comments": "#229977"
+    },
+    "..."
+},
+"workbench.colorCustomizations": {
+    "[Material Theme]": {
+        "sideBar.background": "#347890"
+    },
+    "..."
+}
+```
+
+# Recommended settings for a better experience
 
 ```json
     // Controls the font family.
@@ -98,7 +133,7 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
     "explorer.decorations.badges": false,
 ```
 
-# Other resources <sup>[↑](#getting-started)</sup>
+# Other resources
 - **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 
