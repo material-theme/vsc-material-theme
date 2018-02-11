@@ -105,7 +105,7 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
 ## Override theme colors
 You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration.
 
-```json
+```js
 "editor.tokenColorCustomizations": {
     "[Material Theme]": {
         "comments": "#229977"
@@ -122,7 +122,8 @@ You can override the material theme ui and schemes colors by adding these theme-
 
 # Recommended settings for a better experience
 
-```json
+```js
+{
     // Controls the font family.
     "editor.fontFamily": "Operator Mono",
     // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
@@ -130,7 +131,8 @@ You can override the material theme ui and schemes colors by adding these theme-
     // Enables font ligatures
     "editor.fontLigatures": true,
     // Controls if file decorations should use badges.
-    "explorer.decorations.badges": false,
+    "explorer.decorations.badges": false
+}
 ```
 
 # Other resources
