@@ -1,3 +1,16 @@
+<a name="4.1.4"></a>
+## [4.1.4](https://github.com/equinusocio/material-theme/compare/v4.1.3...v4.1.4) (2018-02-13)
+
+
+### Bug Fixes
+
+* fix some tasks not converting all schemes to .yml files ([364c912](https://github.com/equinusocio/material-theme/commit/364c912))
+* minor fixes in scheme file and convert plaintasks file to .yml ([129d114](https://github.com/equinusocio/material-theme/commit/129d114))
+* remove unnecessary .yml files in schemes folder ([2b371af](https://github.com/equinusocio/material-theme/commit/2b371af))
+* remove unnecessary json file in schemes folder ([7374d56](https://github.com/equinusocio/material-theme/commit/7374d56))
+
+
+
 <a name="4.1.3"></a>
 ## [4.1.3](https://github.com/equinusocio/material-theme/compare/v4.1.2...v4.1.3) (2017-12-21)
 
