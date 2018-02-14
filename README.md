@@ -142,7 +142,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_arrow_folders"            : true, // Replace folder icons with arrows
 "material_theme_big_fileicons"            : true, // Show bigger file type icons
 "material_theme_bullet_tree_indicator"    : true, // Set a bullet as active tree indicator
-"material_theme_compact_sidebar"          : true, // Set compact side bar
+"material_theme_compact_sidebar"          : true, // Set compact sidebar
 "material_theme_disable_fileicons"        : true, // Hide sidebar file type icons
 "material_theme_disable_folder_animation" : true, // Disable folder animation
 "material_theme_disable_tree_indicator"   : true, // Disable sidebar file indicator
@@ -153,7 +153,7 @@ If you want to enable the white panels and inputs you can install the addon pack
 "material_theme_tabs_autowidth"           : true, // Enable autowidth for tabs
 "material_theme_tabs_separator"           : true, // Show tabs separator, this disables tab hover animation
 
-// If you use Material Theme - Appbar addon you can use additional settings:
+// If you use Material Theme - Appbar addon, you can use this setting:
 "material_theme_tree_headings"            : true, // Show sidebar headings
 ```
 

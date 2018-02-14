@@ -17,9 +17,9 @@
 
 //  1 Global
 //    1.1 Accent
-//    1.2 Tabs
+//    1.2 Panels
 //    1.3 Sidebar
-//    1.4 Panels
+//    1.4 Tabs
 
 {
   // > 1 Global
@@ -29,117 +29,123 @@
   // Generally, there are four kinds of global options which you can use:
 
   //
-  // >> 2.1 Accents
+  // >> 1.1 Accent
   // Choose one option from this section
-
-  // Set lime accent color
-  "material_theme_accent_lime": false,
-
-  // Set purple accent color
-  "material_theme_accent_purple": false,
-
-  // Set red accent color
-  "material_theme_accent_red": false,
-
-  // Set orange accent color
-  "material_theme_accent_orange": false,
-
-  // Set yellow accent color
-  "material_theme_accent_yellow": false,
-
-  // Set indigo accent color
-  "material_theme_accent_indigo": false,
-
-  // Set pink accent color
-  "material_theme_accent_pink": false,
-
-  // Set blue accent color
-  "material_theme_accent_blue": false,
-
-  // Set cyan accent color
-  "material_theme_accent_cyan": false,
-
-  // Set bright-teal accent color
-  "material_theme_accent_bright-teal": false,
 
   // Set acid-lime accent color
   "material_theme_accent_acid-lime": false,
 
+  // Set blue accent color
+  "material_theme_accent_blue": false,
+
+  // Set Breaking Bad green accent color
+  "material_theme_accent_brba": false,
+
+  // Set bright-teal accent color
+  "material_theme_accent_bright-teal": false,
+
+  // Set cyan accent color
+  "material_theme_accent_cyan": false,
+
   // Set graphite accent color
   "material_theme_accent_graphite": false,
 
- // Set brba (dark green) accent color
-  "material_theme_accent_brba": false,
+  // Set indigo accent color
+  "material_theme_accent_indigo": false,
 
-  // Set sky (light cyan) accent color
+  // Set lime green accent color
+  "material_theme_accent_lime": false,
+
+  // Set orange accent color
+  "material_theme_accent_orange": false,
+
+  // Set pink accent color
+  "material_theme_accent_pink": false,
+
+  // Set purple accent color
+  "material_theme_accent_purple": false,
+
+  // Set pale red accent color
+  "material_theme_accent_red": false,
+
+  // Set bright-cyan accent color
   "material_theme_accent_sky": false,
 
-  // Set tomato accent color
+  // Set tomato red accent color
   "material_theme_accent_tomato": false,
 
+  // Set yellow accent color
+  "material_theme_accent_yellow": false,
+
   //
-  // >> 1.2 Tabs
+  // >> 1.2 Panels
   // Choose one option from this section
 
-  // Enable tabs fixed width
-  "material_theme_tabs_autowidth": false,
+  // Enable accent color for scrollbars
+  "material_theme_accent_scrollbars": false,
 
-  // Enable the vertical tab separator
-  "material_theme_tabs_separator": false,
+  // Enable accent color for titlebar
+  "material_theme_accent_titlebar": false,
 
-  // Enable bold tab labels
-  "material_theme_bold_tab": false,
+  // Enable bright scrollbars puck color
+  "material_theme_bright_scrollbars": false,
 
-  // Reduce the size of the tab bar
-  "material_theme_small_tab": false,
+  // Set minimal padding for the search panel
+  "material_theme_compact_panel": false,
+
+  // Enable sidebar and panels contrast mode
+  "material_theme_contrast_mode": false,
+
+  // Show bottom panel separator
+  "material_theme_panel_separator": false,
+
+  // Set small status bar
+  "material_theme_small_statusbar": false,
+
+  // Enable title bar (OS X 10.10+)
+  "material_theme_titlebar": false,
 
   //
   // >> 1.3 Sidebar
   // Choose one option from this section
 
-  // Hide the tree file icons
-  "material_theme_disable_fileicons": false,
+  // Replace folder icons with arrows
+  "material_theme_arrow_folders": false,
 
   // Show bigger file type icons
   "material_theme_big_fileicons": false,
 
-  // Disable the folder animation inside the tree view
-  "material_theme_disable_folder_animation": false,
-
-  // Replace folder icons with arrows
-  "material_theme_arrow_folders": false,
-
-  // Reduce the size of the sidebar/tree
-  "material_theme_compact_sidebar": false,
-
   // Set a bullet as active tree indicator
   "material_theme_bullet_tree_indicator": false,
 
-  // Disable the current file tree indicator
+  // Set compact sidebar
+  "material_theme_compact_sidebar": false,
+
+  // Hide sidebar file type icons
+  "material_theme_disable_fileicons": false,
+
+  // Disable folder animation
+  "material_theme_disable_folder_animation": false,
+
+  // Disable sidebar file indicator
   "material_theme_disable_tree_indicator": false,
 
-  // Hide heading titles from the sidebar (only with Material Theme Appbar)
+  // Show sidebar headings (only with Material Theme - Appbar)
   "material_theme_tree_headings": false,
 
   //
-  // >> 1.4 Panels
+  // >> 1.4 Tabs
   // Choose one option from this section
 
-  // Set minimal padding for the search panel
-  "material_theme_compact_panel": false,
+  // Make the tab labels bolder
+  "material_theme_bold_tab": false,
 
-  // Set small status bar
-  "material_theme_small_statusbar": false,
+  // Set small tabs
+  "material_theme_small_tab": false,
 
-  // show bottom panel separator
-  "material_theme_panel_separator": false,
+  // Enable autowidth for tabs
+  "material_theme_tabs_autowidth": false,
 
-  // Enable sidebar and panels contrast mode
-  "material_theme_contrast_mode": false,
-
-  // Enable bright scrollbars puck color
-  "material_theme_bright_scrollbars": false,
-
-  // Enable accent scrollbars
-  "material_theme_accent_scrollbars": false
+  // Show tabs separator, this disables tab hover animation
+  "material_theme_tabs_separator": false
 }

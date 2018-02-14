@@ -1,16 +1,12 @@
 # Development
 # =============================
 
+*.cache
 *.sublime-project
 *.sublime-workspace
-*.cache
 node_modules/
-
-images.cache
-schemes/*.YAML-tmTheme
-sources/schemes/scheme.tmTheme
-build/
-
+schemes/*.yml
+extras/**/*.yml
 
 # OS
 # =============================

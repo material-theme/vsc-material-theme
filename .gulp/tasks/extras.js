@@ -19,7 +19,7 @@ gulp.task('process:extras', () => {
     .pipe($.flatmap( (stream, file) => {
       var basename = path.basename(file.path, path.extname(file.path));
 
-      return gulp.src(`${paths.src}/extras/**/*.YAML-tmTheme`)
+      return gulp.src(`${paths.src}/extras/**/*.yml`)
         .pipe($.data( () => {
           var specific = require(file.path);
 
@@ -34,7 +34,7 @@ gulp.task('process:extras', () => {
 });
 
 gulp.task('convert:extras', () => {
-  return gulp.src(`${paths.extras}/**/*.YAML-tmTheme`)
+  return gulp.src(`${paths.extras}/**/*.yml`)
     .pipe($.flatmap( (stream) => {
       return stream
         .pipe($.plumber( (error) => {

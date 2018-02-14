@@ -138,7 +138,7 @@ settings:
     fontStyle: 'normal'
 
 - name: Class, Support
-  scope: entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php,
+  scope: entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php,
     meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types
   settings:
     foreground: '<%= scheme.base.yellow %>'
@@ -499,19 +499,47 @@ settings:
 
 # >> Bracket Highlighter theme
 
-- name: Bracket Curly
+- name: Bracket Default
   scope: brackethighlighter.default
   settings:
-    foreground: '<%= scheme.base.paleblue %>'
+    foreground: '<%= scheme.base.paleblue + "4C" %>'
+
+- name: Bracket Curly
+  scope: brackethighlighter.curly
+  settings:
+    foreground: '<%= scheme.base.cyan + "4C" %>'
+
+- name: Bracket Round
+  scope: brackethighlighter.round
+  settings:
+    foreground: '<%= scheme.base.cyan + "4C" %>'
+
+- name: Bracket Square
+  scope: brackethighlighter.square
+  settings:
+    foreground: '<%= scheme.base.cyan + "4C" %>'
+
+- name: Bracket Angle
+  scope: brackethighlighter.angle
+  settings:
+    foreground: '<%= scheme.base.cyan + "4C" %>'
+
+- name: Bracket Tag
+  scope: brackethighlighter.tag
+  settings:
+    foreground: '<%= scheme.base.cyan + "4C" %>'
+
+- name: Bracket C Define
+  scope: brackethighlighter.c_define
+  settings:
+    foreground: '<%= scheme.base.purple + "4C" %>'
 
 - name: Bracket Quote
   scope: brackethighlighter.quote
   settings:
-    foreground: '<%= scheme.base.green %>'
+    foreground: '<%= scheme.base.cyan + "4C" %>'
 
 - name: Bracket Unmatched
   scope: brackethighlighter.unmatched
   settings:
-    foreground: '<%= scheme.base.red %>'
-
-
+    foreground: '<%= scheme.base.red + "4C" %>'

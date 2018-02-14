@@ -24,7 +24,7 @@ gulp.task('bump-env-version', () => {
 
 
 gulp.task('bump-pkg-version', () => {
-  return gulp.src('./package.json')
+  return gulp.src(['./package.json', './package-lock.json'])
     .pipe($.if((Object.keys(argv).length === 4), $.bump()))
     .pipe($.if(argv.minor, $.bump({ type: 'minor' })))
     .pipe($.if(argv.major, $.bump({ type: 'major' })))
