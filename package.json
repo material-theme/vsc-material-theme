@@ -22,7 +22,7 @@
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
   },
   "engines": {
-    "vscode": "^1.20.0"
+    "vscode": "^1.19.0"
   },
   "scripts": {
     "build": "yarn build-icons && yarn build-themes && yarn build-icons-accents && yarn build-icons-variants",
@@ -50,7 +50,8 @@
       {
         "category": "Material theme",
         "command": "material.theme.config",
-        "title": "Settings"
+        "title": "Settings",
+        "icon": "./icons/ai.svg"
       }
     ],
     "configuration": {
