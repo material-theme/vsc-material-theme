@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.3.0...v1.4.0) (2018-02-19)
+
+
+### Bug Fixes
+
+* Fix constants color in php language ([444cf9a](https://github.com/equinusocio/vsc-material-theme/commit/444cf9a)), closes [#138](https://github.com/equinusocio/vsc-material-theme/issues/138)
+* Fix input validation colors contrast ([30df0a6](https://github.com/equinusocio/vsc-material-theme/commit/30df0a6))
+
+
+### Features
+
+* Add a subtle highlight  on tab hover ([405000e](https://github.com/equinusocio/vsc-material-theme/commit/405000e))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.2.0...v1.3.0) (2018-01-21)
 
