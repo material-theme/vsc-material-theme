@@ -1,18 +1,17 @@
-Contributing guidelines
-=======================
+# Contributing guidelines
 
 > Note: this document is intended as a draft, it will be updated soon
 
-### Requirements:
+## Requirements:
 
 * Nodejs ^6.x
 * Visual Studio Code
 * GPG Tool
 
 - [Contributing guidelines](#contributing-guidelines)
-        - [Requirements:](#requirements)
-        - [Decrypt content](#decrypt-content)
-        - [Installing and compiling source](#installing-and-compiling-source)
+    - [Requirements:](#requirements)
+    - [Decrypt content](#decrypt-content)
+    - [Installing and compiling source](#installing-and-compiling-source)
         - [Testing the theme](#testing-the-theme)
         - [Adding new Material Theme commands](#adding-new-material-theme-commands)
         - [Adding new icons](#adding-new-icons)
@@ -22,18 +21,17 @@ Contributing guidelines
         - [Backers](#backers)
         - [Sponsors](#sponsors)
 
-### Decrypt content
+## Decrypt content
 We use git-crypt to encrypt compiler files. To contribute you need a GPG key public/private associated with your github email.
 
-1. Exp
-t your public key by running
+1. Export your public key by running
 
 ```gpg --output PATH/FILENAME.gpg --export ASSOCIATEDEMAIL```
 
 2. Send the exported `.gpg` file to a contributor that will add you to the trusted people.
 3. Fetch and pull then decrypt files with `git-crypt unlock` entering your key password.
 
-### Installing and compiling source
+## Installing and compiling source
 
 First you will have to install node_modules through npm or yarn
 
