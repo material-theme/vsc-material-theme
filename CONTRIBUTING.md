@@ -9,17 +9,24 @@ Contributing guidelines
 * Visual Studio Code
 * GPG Tool
 
-<!-- TOC -->
+- [Contributing guidelines](#contributing-guidelines)
+                - [Requirements:](#requirements)
+                - [Decrypt content](#decrypt-content)
+                - [Installing and compiling source](#installing-and-compiling-source)
+                - [Testing the theme](#testing-the-theme)
+                - [Adding new Material Theme commands](#adding-new-material-theme-commands)
+                - [Adding new icons](#adding-new-icons)
+        - [Financial contributions](#financial-contributions)
+        - [Credits](#credits)
+                - [Contributors](#contributors)
+                - [Backers](#backers)
+                - [Sponsors](#sponsors)
 
-        - [Requirements:](#requirements)
-        - [Decrypt content](#decrypt-content)
-- [or](#or)
-
-<!-- /TOC -->
 ### Decrypt content
 We use git-crypt to encrypt compiler files. To contribute you need a GPG key public/private associated with your github email.
 
-1. Export your public key by running
+1. Exp
+t your public key by running
 
 ```gpg --output PATH/FILENAME.gpg --export ASSOCIATEDEMAIL```
 
