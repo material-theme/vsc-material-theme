@@ -1,5 +1,5 @@
 
-<p align="center"><img width="980px" src="https://image.ibb.co/kp1ptS/Screen_Flow.gif"/></p>
+<p align="center"><img width="980px" src="https://image.ibb.co/mGCtnn/Material_Theme.gif"></p>
 
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/vsc-material-theme.svg?style=flat-square)](https://twitter.com/intent/tweet?text=This%20is%20the%20most%20epic%20theme:&url=https%3A%2F%2Fgithub.com%2Fequinusocio%2Fvsc-material-theme)
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/vsc-material-theme.svg?style=flat-square)](https://github.com/equinusocio/vsc-material-theme/releases)
@@ -25,6 +25,16 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
     - [Sponsors](#sponsors)
 
 <!-- /TOC -->
+
+<details>
+    <summary>Screenshots</summary>
+    <p align="center">
+    <img src="https://image.ibb.co/jUrdnn/material_theme_lighter.png" border="0">
+    <img src="https://image.ibb.co/gF6dnn/material_theme_default.png" border="0">
+    <img src="https://image.ibb.co/gSW007/material_theme_darker.png" border="0">
+    <img src="https://image.ibb.co/jnBdnn/material_theme_palenight.png" border="0">
+    </p>
+</details>
 
 # Getting started
 
