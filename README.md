@@ -1,6 +1,5 @@
 
-<p align="center"><img width="620px" src="https://i.imgur.com/77xXWrA.jpg"/></p>
-<p align="center"><img width="450px" src="https://i.imgur.com/JXb5aRO.jpg"></p>
+<p align="center"><img width="980px" src="https://image.ibb.co/kp1ptS/Screen_Flow.gif"/></p>
 
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/vsc-material-theme.svg?style=flat-square)](https://twitter.com/intent/tweet?text=This%20is%20the%20most%20epic%20theme:&url=https%3A%2F%2Fgithub.com%2Fequinusocio%2Fvsc-material-theme)
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/vsc-material-theme.svg?style=flat-square)](https://github.com/equinusocio/vsc-material-theme/releases)
