@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/equinusocio/vsc-material-theme/compare/v1.5.0...v1.5.1) (2018-03-10)
+
+
+### Bug Fixes
+
+* Fix notifications background. Close [#143](https://github.com/equinusocio/vsc-material-theme/issues/143) ([8981088](https://github.com/equinusocio/vsc-material-theme/commit/8981088)), closes [#142](https://github.com/equinusocio/vsc-material-theme/issues/142)
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.4.0...v1.5.0) (2018-03-08)
 
