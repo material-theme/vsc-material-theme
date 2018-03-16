@@ -2,10 +2,12 @@
   "*": {
     ">=3114": [
       "markupsafe",
-      "python-jinja2",
       "mdpopups",
+      "pygments",
+      "pymdownx",
+      "python-jinja2",
       "python-markdown",
-      "pygments"
+      "pyyaml"
     ]
   }
 }
