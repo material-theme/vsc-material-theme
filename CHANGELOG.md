@@ -1,3 +1,13 @@
+<a name="4.1.5"></a>
+## [4.1.5](https://github.com/equinusocio/material-theme/compare/v4.1.4...v4.1.5) (2018-03-17)
+
+
+### Bug Fixes
+
+* fix theme not activating after installation ([#1230](https://github.com/equinusocio/material-theme/issues/1230)) ([1e8ffa5](https://github.com/equinusocio/material-theme/commit/1e8ffa5))
+
+
+
 <a name="4.1.4"></a>
 ## [4.1.4](https://github.com/equinusocio/material-theme/compare/v4.1.3...v4.1.4) (2018-02-13)
 
