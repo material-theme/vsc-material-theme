@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.5.1...v1.6.0) (2018-04-15)
+
+
+### Bug Fixes
+
+* Add babel icon to .babelrc.json files ([41fe77c](https://github.com/equinusocio/vsc-material-theme/commit/41fe77c)), closes [#154](https://github.com/equinusocio/vsc-material-theme/issues/154)
+
+
+### Features
+
+* Add .gitlab-ci.yml file icon ([5b5c9ec](https://github.com/equinusocio/vsc-material-theme/commit/5b5c9ec)), closes [#155](https://github.com/equinusocio/vsc-material-theme/issues/155)
+
+
+
 <a name="1.5.1"></a>
 ## [1.5.1](https://github.com/equinusocio/vsc-material-theme/compare/v1.5.0...v1.5.1) (2018-03-10)
 
