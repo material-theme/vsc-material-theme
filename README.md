@@ -118,10 +118,14 @@ You can override the material theme ui and schemes colors by adding these theme-
 
 ```js
 "editor.tokenColorCustomizations": {
-    "[Material Theme]": {
-        "comments": "#229977"
-    },
-    "..."
+    "textMateRules": [
+        {
+            "scope": "ELEMENT_SCOPE",
+            "settings": {
+                "foreground": "HEX COLOR"
+            }
+        }
+    ]    
 },
 "workbench.colorCustomizations": {
     "[Material Theme]": {
@@ -130,6 +134,8 @@ You can override the material theme ui and schemes colors by adding these theme-
     "..."
 }
 ```
+
+You can read more about this VSC feature on the [official doc](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
 
 # Recommended settings for a better experience
 
