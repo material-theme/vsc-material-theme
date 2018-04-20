@@ -1,6 +1,7 @@
 *.log
 *.~lock
 *.js
+!src/icons/partials/*
 **/*.map
 *.gulp/**.js
 dist/
