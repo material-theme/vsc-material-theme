@@ -2,18 +2,19 @@ import * as vscode from 'vscode';
 
 import { IGenericObject } from "./interfaces/igeneric-object";
 import { THEME_ACCENTS_SETTER } from "./commands/accents-setter/index";
-import { THEME_VARIANT } from "./commands/theme-variant/index";
+import { THEME_ICONS } from "./commands/theme-icons/index";
 import { shouldShowChangelog, showChangelog } from './helpers/changelog';
+import { reloadWindow } from "./helpers/vscode";
 
 enum Commands {
   ACCENTS,
   CHANGELOG,
-  COLOUR_VARIANT
+  THEME_ICONS
 }
 
 const OPTIONS: IGenericObject<number> = {
   '🖍 Change accent color': Commands.ACCENTS,
-  '🎨 Change color variant': Commands.COLOUR_VARIANT,
+  '🎨 Adapt icons': Commands.THEME_ICONS,
   '🚧 Show changelog': Commands.CHANGELOG
 }
 
@@ -38,8 +39,8 @@ export function activate(context: vscode.ExtensionContext) {
         case Commands.CHANGELOG:
           showChangelog();
         break;
-        case Commands.COLOUR_VARIANT:
-          THEME_VARIANT();
+        case Commands.THEME_ICONS:
+          THEME_ICONS().then(() => reloadWindow()).catch(error => console.trace(error));
         break;
       }
     });
