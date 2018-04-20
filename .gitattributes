@@ -1,0 +1,9 @@
+# Default for those who don't have core.autocrlf set
+* text=auto
+
+src/**/*.*         filter=git-crypt diff=git-crypt
+.gulp/**/*.*       filter=git-crypt diff=git-crypt
+extensions/**/*.ts filter=git-crypt diff=git-crypt
+
+# Fix for GitHub Linguist to avoid treating this project as C++ repo
+test/*             linguist-vendored

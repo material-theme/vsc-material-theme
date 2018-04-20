@@ -1,0 +1,10 @@
+*.log
+*.~lock
+*.js
+**/*.map
+*.gulp/**.js
+dist/
+node_modules/
+.DS_Store
+/themes
+/icons
