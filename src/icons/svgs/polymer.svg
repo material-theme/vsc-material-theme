@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32">
+  <g fill="none" transform="translate(2 6)">
+    <polygon fill="#FFFFFF" points="11.613 .039 5.853 .039 .092 10 5.853 19.961 11.613 19.961 20.26 5.013 23.147 10 17.387 19.961 23.147 19.961 28.908 10 23.147 .039 17.387 .039 8.74 14.987 5.853 10"/>
+    <polygon fill="#AA759F" points="14.5 5.013 17.374 .039 20.26 5.013"/>
+    <polygon fill="#AA759F" points="14.5 5.013 17.374 10 20.26 5.013"/>
+    <polygon fill="#AA759F" points="11.613 10 14.5 5.013 17.374 10"/>
+    <polygon fill="#6A9FB5" points="5.853 .039 8.74 5.013 11.613 .039"/>
+    <polygon fill="#6A9FB5" points="2.979 5.013 5.853 .039 8.74 5.013"/>
+    <polygon fill="#6A9FB5" points="2.979 5.013 5.853 10 8.74 5.013"/>
+    <polygon fill="#6A9FB5" points=".092 10 2.979 5.013 5.853 10"/>
+    <polygon fill="#AA759F" points="11.613 10 14.5 14.987 17.374 10"/>
+    <polygon fill="#AA759F" points="8.74 14.987 11.613 10 14.5 14.987"/>
+    <polygon fill="#AA759F" points="8.74 14.987 11.613 19.961 14.5 14.987"/>
+    <polygon fill="#AA759F" points="5.853 19.961 8.74 14.987 11.613 19.961"/>
+    <polygon fill="#6A9FB5" points=".092 10 2.979 14.987 5.853 10"/>
+    <polygon fill="#6A9FB5" points="23.147 19.961 20.26 14.987 17.387 19.961"/>
+    <polygon fill="#6A9FB5" points="26.021 14.987 23.147 19.961 20.26 14.987"/>
+    <polygon fill="#6A9FB5" points="26.021 14.987 23.147 10 20.26 14.987"/>
+    <polygon fill="#6A9FB5" points="28.908 10 26.021 14.987 23.147 10"/>
+    <polygon fill="#6A9FB5" points="28.908 10 26.021 5.013 23.147 10"/>
+    <polygon fill="#6A9FB5" points="8.74 14.987 5.853 10 2.979 14.987"/>
+    <polygon fill="#6A9FB5" points="8.74 14.987 5.853 19.961 2.979 14.987"/>
+    <polygon fill="#AA759F" points="17.374 .039 20.26 5.013 23.147 .039"/>
+    <polygon fill="#6A9FB5" points="26.021 5.013 23.147 .039 20.26 5.013"/>
+    <polygon fill="#6A9FB5" points="26.021 5.013 23.147 10 20.26 5.013"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.exclude": {
+    "**/.git": true,
+    ".git-crypt": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": true
+  },
+  "files.associations": {
+    "*.template": "json"
+  },
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+  "gulp.autoDetect": "off",
+  "npm.autoDetect": "off"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="clojure.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview6"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="19.666667"
+     inkscape:cx="15.322523"
+     inkscape:cy="13.110078"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#6A9FB5;fill-opacity:1;stroke:none;stroke-opacity:1"
+     d="M 3.3554688 1.7792969 C 2.5103841 1.7792969 1.8300781 2.4596028 1.8300781 3.3046875 L 1.8300781 20.746094 C 1.8300781 21.591178 2.5103841 22.271484 3.3554688 22.271484 L 20.796875 22.271484 C 21.64196 22.271484 22.322266 21.591178 22.322266 20.746094 L 22.322266 3.3046875 C 22.322266 2.4596028 21.64196 1.7792969 20.796875 1.7792969 L 3.3554688 1.7792969 z M 9.5234375 4.3515625 L 11.486328 4.3515625 L 17.853516 19.283203 L 15.929688 19.283203 L 12.550781 11.197266 L 9.2011719 19.283203 L 7.2089844 19.283203 L 11.554688 8.9023438 L 9.5234375 4.3515625 z "
+     id="rect4150" />
+</svg>

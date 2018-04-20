@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" inkscape:version="0.91 r13725" sodipodi:docname="docker.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500"
+	 style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);fill:#6A9FB5;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" id="namedview4" inkscape:current-layer="svg2" inkscape:cx="250" inkscape:cy="247.88136" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="480" inkscape:window-maximized="0" inkscape:window-width="729" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="0.472" objecttolerance="10" pagecolor="#ffffff" showgrid="false">
+	</sodipodi:namedview>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M156.6,308.9c-6.1,0-11,5-11,11.1c0,6.1,4.9,11.1,11,11.1c6.1,0,11-5,11-11.1
+			C167.6,313.9,162.7,308.9,156.6,308.9z M257.2,203.7L257.2,203.7v40.2H297v-40.2H257.2z M211.2,111v40.2H251V111H211.2z
+			 M211.2,157.3v40.2H251v-40.2H211.2z M211.2,203.7v40.2H251v-40.2H211.2z M165.2,157.3v40.2h39.8v-40.2H165.2z M165.2,203.7v40.2
+			h39.8v-40.2H165.2z M119.3,203.7v40.2h39.8v-40.2H119.3z M119.3,157.3v40.2h39.8v-40.2H119.3z M73.3,203.7v40.2h39.8v-40.2H73.3z
+			 M185.8,388.7c-27.2-13-42.2-30.7-50.5-50c-10.1,2.9-22.3,4.8-36.4,5.6c-5.3,0.3-10.9,0.5-16.8,0.5c-6.8,0-13.9-0.2-21.4-0.6
+			c25,25.1,55.7,44.5,112.5,44.9C177.5,389,181.7,388.9,185.8,388.7z M304.7,195.9v47.4h23.2c10.7,0,21.8-1.9,31.9-5.4
+			c5-1.7,10.6-4.1,15.5-7.1c-6.5-8.5-9.8-19.3-10.8-29.9c-1.3-14.5,1.6-33.3,11.3-44.6l4.8-5.6l5.8,4.7
+			c14.5,11.7,26.7,28.1,28.8,46.8c17.5-5.2,38-4,53.3,5l6.3,3.7l-3.3,6.5c-13,25.6-40.2,33.5-66.8,32.1
+			C365,349.4,278.4,396.7,173.3,396.7c-54.3,0-104.1-20.4-132.4-69l-4.6-9.3c-9.6-21.4-12.8-44.8-10.6-68.1l0.6-7h39.3V196h46v-46.3
+			h91.9v-46.3h55.2v92.7H304.7z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<defs>
+			<rect id="SVGID_3_" x="-73.4" y="-14.4" width="626.8" height="626.8"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect x="-72.9" y="5.4" class="st1" width="645.9" height="489.3"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+env:
+  node: true
+  shared-node-browser: true
+extends: 'eslint:recommended'
+rules:
+  indent:
+    - warn
+    - 2
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  no-console: 0
+  no-unused-vars:
+    - warn
+plugins:
+  - standard

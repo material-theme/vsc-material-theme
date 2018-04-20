@@ -1,0 +1,10 @@
+{
+  "hidesExplorerArrows": true,
+  {{> iconDefinitions}}
+  {{> fileExtensions}}
+  {{> fileNames}}
+  {{> fileFolders}}
+  {{> languageIds}}
+  {{> light}}
+  {{> folderNames}}
+}
