@@ -76,6 +76,11 @@
         "label": "Material Theme",
         "path": "./themes/Material-Theme-Palenight.json",
         "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Material Theme Darker",
+        "path": "./themes/Material-Theme-Darker.json",
+        "uiTheme": "vs-dark"
       }
     ],
     "iconThemes": [
