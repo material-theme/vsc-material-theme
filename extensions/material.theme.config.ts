@@ -4,7 +4,7 @@ import { IGenericObject } from "./interfaces/igeneric-object";
 import { THEME_ACCENTS_SETTER } from "./commands/accents-setter/index";
 import { THEME_ICONS } from "./commands/theme-icons/index";
 import { shouldShowChangelog, showChangelog } from './helpers/changelog';
-import { reloadWindow } from "./helpers/vscode";
+import { reloadWindow, getCurrentThemeID, setIconsID } from "./helpers/vscode";
 
 enum Commands {
   ACCENTS,
@@ -18,10 +18,23 @@ const OPTIONS: IGenericObject<number> = {
   '🚧 Show changelog': Commands.CHANGELOG
 }
 
+const isMaterialTheme = (currentTheme: string): boolean =>
+  currentTheme.includes('Material Theme');
+
 export function activate(context: vscode.ExtensionContext) {
   if (vscode.workspace.getConfiguration().has('materialTheme.cache.workbench.accent')) {
     vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.accent', undefined, true);
   }
+
+  vscode.workspace.onDidChangeConfiguration(async event => {
+    const isColorTheme = event.affectsConfiguration('workbench.colorTheme');
+    const currentTheme = getCurrentThemeID();
+    if (isColorTheme && isMaterialTheme(currentTheme)) {
+      await setIconsID('eq-material-theme-icons');
+      await THEME_ICONS().catch(error => console.trace(error));
+      reloadWindow();
+    }
+  });
 
   if (shouldShowChangelog()) {
     showChangelog();
