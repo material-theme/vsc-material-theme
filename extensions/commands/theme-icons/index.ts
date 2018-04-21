@@ -3,7 +3,7 @@ import * as fs from 'fs';
 
 import { getAbsolutePath, getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute, getVariantIcons } from "../../helpers/fs";
 import { getCurrentThemeIconsID } from "../../helpers/vscode";
-import { getCustomSettings, isAccent, isMaterialThemeIcons } from "../../helpers/settings";
+import { isAccent, isMaterialThemeIcons, getThemeSettings, getCustomSettings } from "../../helpers/settings";
 
 import { CHARSET } from "../../consts/files";
 import { IPackageJSONThemeIcons } from "../../interfaces/ipackage.json";
@@ -24,6 +24,17 @@ function replaceIconPathWithAccent(iconPath: string, accentName: string): string
   return iconPath.replace('.svg', `.accent.${ accentName }.svg`);
 }
 
+function getVariantFromColor(color: string): string {
+  switch (color) {
+    case undefined || 'Material Theme':
+      return 'Default';
+    case 'Material Theme High Contrast':
+      return 'Default High Contrast';
+    default:
+      return color.replace(/Material Theme /gi, '');
+  }
+}
+
 export const THEME_ICONS = () => {
   let deferred: any = {};
   let promise = new Promise((resolve, reject) => {
@@ -33,10 +44,12 @@ export const THEME_ICONS = () => {
   let themeIconsID: string = getCurrentThemeIconsID();
 
   if (isMaterialThemeIcons(themeIconsID)) {
+    let themeSettings = getThemeSettings();
     let customSettings = getCustomSettings();
     let defaults = getDefaultValues();
     let accentName = customSettings.accent;
-    let variantName: string = customSettings.themeColours === undefined ? '' : customSettings.themeColours;
+    let variantName: string = getVariantFromColor(themeSettings.colorTheme);
+
     let themeContribute: IPackageJSONThemeIcons = getThemeIconsContribute(themeIconsID);
     let theme: IThemeIcons = getThemeIconsByContributeID(themeIconsID);
     let themepath: string = getAbsolutePath(themeContribute.path);

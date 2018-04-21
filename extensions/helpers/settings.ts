@@ -2,7 +2,17 @@ import * as vscode from 'vscode';
 
 import { IDefaults } from "../interfaces/idefaults";
 import { IThemeCustomProperties } from "../interfaces/itheme-custom-properties";
+import { IThemeSettings } from "../interfaces/itheme-settings";
 import {getPackageJSON} from './fs';
+
+/**
+ * Gets theme settings
+ * @export
+ * @returns {*}
+ */
+export function getThemeSettings(): IThemeSettings {
+  return vscode.workspace.getConfiguration().get<IThemeSettings>('workbench', {});
+}
 
 /**
  * Gets saved accent

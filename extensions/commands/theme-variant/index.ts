@@ -22,7 +22,7 @@ export const THEME_VARIANT = () => {
     let themepath: string = defaults.themeVariants[response];
     let themeUITheme: string = defaults.themeVariantsUITheme[response];
 
-    customSettings.themeColours = response;
+    // customSettings.themeColours = response;
 
     packageJSON.contributes.themes[0].path = themepath;
     packageJSON.contributes.themes[0].uiTheme = themeUITheme;
