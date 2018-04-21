@@ -34,6 +34,15 @@ export function getCurrentThemeIconsID(): string {
 }
 
 /**
+ * Set a specific id for icons
+ * @export
+ * @returns {Thenable}
+ */
+export function setIconsID(id: string): Thenable<void> {
+  return vscode.workspace.getConfiguration().update('workbench.iconTheme', id, true);
+}
+
+/**
  * Reloads current vscode window.
  * @export
  */
