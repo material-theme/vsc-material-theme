@@ -2,8 +2,8 @@ import {getAccentableIcons} from '../../helpers/fs';
 import * as fs from 'fs';
 
 import { getAbsolutePath, getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute, getVariantIcons } from "../../helpers/fs";
-import { getCurrentThemeIconsID } from "../../helpers/vscode";
-import { isAccent, isMaterialThemeIcons, getThemeSettings, getCustomSettings } from "../../helpers/settings";
+import { getCurrentThemeIconsID, getCurrentThemeID } from "../../helpers/vscode";
+import { isAccent, isMaterialThemeIcons, getCustomSettings } from "../../helpers/settings";
 
 import { CHARSET } from "../../consts/files";
 import { IPackageJSONThemeIcons } from "../../interfaces/ipackage.json";
@@ -44,11 +44,11 @@ export const THEME_ICONS = () => {
   let themeIconsID: string = getCurrentThemeIconsID();
 
   if (isMaterialThemeIcons(themeIconsID)) {
-    let themeSettings = getThemeSettings();
+    let themeID = getCurrentThemeID();
     let customSettings = getCustomSettings();
     let defaults = getDefaultValues();
     let accentName = customSettings.accent;
-    let variantName: string = getVariantFromColor(themeSettings.colorTheme);
+    let variantName: string = getVariantFromColor(themeID);
 
     let themeContribute: IPackageJSONThemeIcons = getThemeIconsContribute(themeIconsID);
     let theme: IThemeIcons = getThemeIconsByContributeID(themeIconsID);
