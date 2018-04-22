@@ -8,11 +8,13 @@ import { reloadWindow, getCurrentThemeID, setIconsID } from "./helpers/vscode";
 
 enum Commands {
   ACCENTS,
-  CHANGELOG
+  CHANGELOG,
+  THEME_ICONS
 }
 
 const OPTIONS: IGenericObject<number> = {
   '🎨 Change accent color': Commands.ACCENTS,
+  '🛠 Fix file icons': Commands.THEME_ICONS,
   '🚧 Show changelog': Commands.CHANGELOG
 }
 
@@ -49,6 +51,9 @@ export function activate(context: vscode.ExtensionContext) {
         break;
         case Commands.CHANGELOG:
           showChangelog();
+        break;
+        case Commands.THEME_ICONS:
+          THEME_ICONS().then(() => reloadWindow()).catch(error => console.trace(error))
         break;
       }
     });
