@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.6.0...v1.7.0) (2018-04-22)
+
+
+### Bug Fixes
+
+* **build:** first build icons folder ([#161](https://github.com/equinusocio/vsc-material-theme/issues/161)) ([761f426](https://github.com/equinusocio/vsc-material-theme/commit/761f426))
+* **changelog-command:** fixing ext name for markdown ([#164](https://github.com/equinusocio/vsc-material-theme/issues/164)) ([974ce25](https://github.com/equinusocio/vsc-material-theme/commit/974ce25))
+* **update-icons:** added command for update icons ([3d11191](https://github.com/equinusocio/vsc-material-theme/commit/3d11191))
+* **update-icons:** set icons when choose or activate material theme ([5d8bfa7](https://github.com/equinusocio/vsc-material-theme/commit/5d8bfa7))
+
+
+### Features
+
+* A lot of new file icons and some old icons fixed ([014b76d](https://github.com/equinusocio/vsc-material-theme/commit/014b76d))
+* New variants available: Ocean and Ocean High Contrast ([36333ad](https://github.com/equinusocio/vsc-material-theme/commit/36333ad))
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.5.1...v1.6.0) (2018-04-15)
 
