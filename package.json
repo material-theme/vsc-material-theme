@@ -51,9 +51,9 @@
   "contributes": {
     "commands": [
       {
-        "category": "🎨 Material theme",
+        "category": "Material Theme",
         "command": "material.theme.config",
-        "title": "Settings"
+        "title": "Configuration"
       }
     ],
     "configuration": {

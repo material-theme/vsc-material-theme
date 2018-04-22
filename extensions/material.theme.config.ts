@@ -12,7 +12,7 @@ enum Commands {
 }
 
 const OPTIONS: IGenericObject<number> = {
-  '🖍 Change accent color': Commands.ACCENTS,
+  '🎨 Change accent color': Commands.ACCENTS,
   '🚧 Show changelog': Commands.CHANGELOG
 }
 
