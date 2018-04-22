@@ -786,7 +786,7 @@
     "editorSuggestWidget.border": "{{variant.scheme.inputBorder}}",
     "editorError.foreground": "{{variant.scheme.base.red}}70",
     "editorWarning.foreground": "{{variant.scheme.base.green}}70",
-    "editorWidget.background": "{{variant.scheme.background}}",
+    "editorWidget.background": "{{variant.scheme.backgroundAlt}}",
     "editorMarkerNavigation.background": "{{variant.scheme.foreground}}05",
     "widget.shadow": "{{variant.scheme.shadow}}",
     "panel.border": "{{variant.scheme.contrastBorder}}60",

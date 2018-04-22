@@ -17,7 +17,7 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
             - [Packaged VSIX Extension](#packaged-vsix-extension)
                 - [GitHub Repository Clone](#github-repository-clone)
     - [Activate theme](#activate-theme)
-    - [Activate File Icons](#activate-file-icons)
+    - [Fix File Icons](#fix-file-icons)
     - [Set the accent color](#set-the-accent-color)
     - [Override theme colors](#override-theme-colors)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
@@ -90,11 +90,11 @@ Launch *Quick Open*,
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `theme` and choose `Preferences: Color Theme`, then select Material Theme from the list.
+Type `theme` and choose `Preferences: Color Theme`, then select one of the Material Theme variant from the list. After the activation the theme will set the correct icons theme for you, based on your picked theme variant.
 
-This theme provides different color variants, to change the active theme variant type `Material Theme` and choose `Material Theme: Settings`, then select `Change color variant` and pick one theme from the list.
+## Fix File Icons
 
-## Activate File Icons
+If you notice that the folder icons does not match the material theme active variant you can fix it with just a command.
 
 Launch *Quick Open*,
 
@@ -102,7 +102,7 @@ Launch *Quick Open*,
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-type `icon theme` and select `Material Theme Icons` from the drop-down menu.
+type `material theme` and select `Material Theme: Settings` from the drop-down menu. Here you will find the `Fix file icons` command that will set the correct icons theme based on your active material theme variant.
 
 ## Set the accent color
 

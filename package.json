@@ -103,6 +103,11 @@
         "uiTheme": "vs-dark"
       },
       {
+        "label": "Material Theme Ocean High Contrast",
+        "path": "./themes/Material-Theme-Ocean-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
         "label": "Material Theme Lighter",
         "path": "./themes/Material-Theme-Lighter.json",
         "uiTheme": "vs"
