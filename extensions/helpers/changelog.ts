@@ -17,7 +17,7 @@ function splitVersion(input: string): { major: number, minor: number, patch: num
 }
 
 export function showChangelog(): void {
-  let extname: string = 'Microsoft.vscode-markdown';
+  let extname: string = 'vscode.markdown';
   let md = vscode.extensions.getExtension<any>(extname);
 
   if (md === undefined) {
