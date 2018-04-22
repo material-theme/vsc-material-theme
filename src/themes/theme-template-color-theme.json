@@ -817,5 +817,6 @@
     "gitDecoration.modifiedResourceForeground": "{{variant.scheme.base.blue}}90",
     "gitDecoration.untrackedResourceForeground": "{{variant.scheme.base.green}}90",
     "gitDecoration.ignoredResourceForeground": "{{variant.scheme.sidebarForeground}}90",
+    "peekViewResult.selectionBackground": "{{variant.scheme.sidebarForeground}}70"
   }
 }
