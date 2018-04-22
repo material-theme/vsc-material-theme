@@ -6,11 +6,6 @@ All notable changes to this project will be documented in this file. See [standa
 # [2.0.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.7.0...v2.0.0) (2018-04-22)
 
 
-
-<a name="1.7.0"></a>
-# [1.7.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.6.0...v1.7.0) (2018-04-22)
-
-
 ### Bug Fixes
 
 * **build:** first build icons folder ([#161](https://github.com/equinusocio/vsc-material-theme/issues/161)) ([761f426](https://github.com/equinusocio/vsc-material-theme/commit/761f426))
