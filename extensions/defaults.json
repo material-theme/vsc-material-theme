@@ -153,7 +153,8 @@
     "Light": "./themes/Material-Theme-Lighter.json",
     "Light High Contrast": "./themes/Material-Theme-Lighter-High-Contrast.json",
     "Palenight": "./themes/Material-Theme-Palenight.json",
-    "Palenight High Contrast": "./themes/Material-Theme-Palenight-High-Contrast.json"
+    "Palenight High Contrast": "./themes/Material-Theme-Palenight-High-Contrast.json",
+    "Ocean": "./themes/Material-Theme-Ocean.json"
   },
   "themeVariantsColours": {
     "Darker": "#424242",
@@ -163,7 +164,8 @@
     "Light": "#90A4AE",
     "Light High Contrast": "#90A4AE",
     "Palenight": "#4E5579",
-    "Palenight High Contrast": "#4E5579"
+    "Palenight High Contrast": "#4E5579",
+    "Ocean": "#3C425D"
   },
   "themeVariantsUITheme": {
     "Darker": "vs-dark",
@@ -173,7 +175,8 @@
     "Light": "vs",
     "Light High Contrast": "vs",
     "Palenight": "vs-dark",
-    "Palenight High Contrast": "vs-dark"
+    "Palenight High Contrast": "vs-dark",
+    "Ocean": "vs-dark"
   },
   "variantsIcons": [
     "_folder_dark_build",

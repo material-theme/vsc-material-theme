@@ -98,6 +98,11 @@
         "uiTheme": "vs-dark"
       },
       {
+        "label": "Material Theme Ocean",
+        "path": "./themes/Material-Theme-Ocean.json",
+        "uiTheme": "vs-dark"
+      },
+      {
         "label": "Material Theme Lighter",
         "path": "./themes/Material-Theme-Lighter.json",
         "uiTheme": "vs"
