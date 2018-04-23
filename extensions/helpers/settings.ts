@@ -82,39 +82,12 @@ export function setCustomSettings(settingsObject: IThemeCustomProperties): Thena
 }
 
 /**
- * Determines if the window should reload
- * @export
- * @param {string} themeColour
- * @param {string} themeIcons
- * @returns {boolean}
- */
-export function shouldReloadWindow(themeColour: string, themeIcons: string): boolean {
-  let isTheme: boolean = isMaterialTheme(themeColour);
-  let isThemeIcons: boolean = isMaterialThemeIcons(themeIcons);
-
-  if (!isTheme && !isThemeIcons) return false;
-
-  let customSettings = getCustomSettings();
-
-  return customSettings.accent !== customSettings.accentPrevious;
-}
-
-/**
  * Updates accent name
  * @export
  * @param {string} accentName
  */
 export function updateAccent(accentName: string): Thenable<void> {
-  let config: IThemeCustomProperties = getCustomSettings();
-  let prevaccent = getAccent();
-
-  if (prevaccent !== undefined && prevaccent !== accentName) {
-    config.accentPrevious = prevaccent;
-  } else if (accentName === undefined) {
-    config.accentPrevious = undefined;
-  }
-
-  config.accent = accentName;
-
-  return setCustomSettings(config);
+  const prevaccent = getAccent();
+  return setCustomSetting('accentPrevious', prevaccent)
+    .then(() => setCustomSetting('accent', accentName));
 }
