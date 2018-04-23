@@ -595,7 +595,6 @@
         "markup.quote punctuation.definition.blockquote.markdown"
       ],
       "settings": {
-        "background": "{{variant.scheme.invisibles}}",
         "foreground": "{{variant.scheme.invisibles}}"
       }
     },
@@ -671,7 +670,6 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "background": "#00000050",
         "foreground": "{{variant.scheme.invisibles}}"
       }
     },
@@ -699,7 +697,7 @@
     "editorLineNumber.activeForeground": "{{variant.scheme.sidebarForeground}}",
     "editorBracketMatch.border": "{{variant.scheme.caret}}50",
     "editorBracketMatch.background": "{{variant.scheme.background}}",
-    "editorWhitespace.foreground": "{{variant.scheme.foreground}}10",
+    "editorWhitespace.foreground": "{{variant.scheme.foreground}}40",
     "editor.background": "{{variant.scheme.background}}",
     "editor.foreground": "{{variant.scheme.foreground}}",
     "editor.lineHighlightBackground": "{{variant.scheme.lineHighlight}}50",

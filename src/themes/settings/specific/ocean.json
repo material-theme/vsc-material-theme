@@ -13,7 +13,7 @@
     "focusBorder": "#FFFFFF",
     "guides": "#3B3F5150",
     "lineNumbers": "#3B3F5180",
-    "invisibles": "#80869E50",
+    "invisibles": "#FF00FF",
     "lineHighlight": "#000000",
     "selection": "#717CB450",
     "shadow": "#00000030",
