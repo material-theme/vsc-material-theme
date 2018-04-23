@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/equinusocio/vsc-material-theme/compare/v2.0.0...v2.0.1) (2018-04-23)
+
+
+### Bug Fixes
+
+* **folder-accent:** removed useless method and fix accent custom conf ([#169](https://github.com/equinusocio/vsc-material-theme/issues/169)) ([6992a38](https://github.com/equinusocio/vsc-material-theme/commit/6992a38))
+* Fix whitespace characters visibility ([43357ce](https://github.com/equinusocio/vsc-material-theme/commit/43357ce)), closes [#167](https://github.com/equinusocio/vsc-material-theme/issues/167)
+* Improve Ocean colors contrast ([f10cf31](https://github.com/equinusocio/vsc-material-theme/commit/f10cf31))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/equinusocio/vsc-material-theme/compare/v1.7.0...v2.0.0) (2018-04-22)
 
