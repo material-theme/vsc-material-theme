@@ -20,8 +20,8 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
     - [Fix File Icons](#fix-file-icons)
     - [Set the accent color](#set-the-accent-color)
     - [Override theme colors](#override-theme-colors)
-            - [Color Scheme override](#color-scheme-override)
-            - [UI Overrides](#ui-overrides)
+        - [Color Scheme override](#color-scheme-override)
+        - [UI Overrides](#ui-overrides)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
@@ -109,7 +109,7 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
 ## Override theme colors
 You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the vs code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
 
-#### Color Scheme override
+### Color Scheme override
 
 **Basic example**
 ```js
@@ -142,7 +142,7 @@ You can override the material theme ui and schemes colors by adding these theme-
 },
 ```
 
-#### UI Overrides
+### UI Overrides
 
 ```js
 "workbench.colorCustomizations": {
