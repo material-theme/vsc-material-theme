@@ -20,6 +20,8 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
     - [Fix File Icons](#fix-file-icons)
     - [Set the accent color](#set-the-accent-color)
     - [Override theme colors](#override-theme-colors)
+            - [Color Scheme override](#color-scheme-override)
+            - [UI Overrides](#ui-overrides)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
@@ -105,15 +107,43 @@ Launch *Quick Open*,
 Type `Material Theme` and choose `Material Theme: Settings`, then select `Change accent color` and pick one color from the list.
 
 ## Override theme colors
-You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration.
+You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the vs code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
 
+#### Color Scheme override
+**Basic:**
 ```js
 "editor.tokenColorCustomizations": {
     "[Material Theme]": {
         "comments": "#229977"
-    },
-    "..."
+    }
 },
+```
+
+**Advanced:**
+
+```js
+   "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation.definition.comment",
+                        "comment.block",
+                        "comment.line",
+                        "comment.block.documentation"
+                    ],
+                    "settings": {
+                        "foreground": "#FF0000"
+                    }
+                }
+            ]
+        },
+    },
+```
+
+#### UI Overrides
+
+```js
 "workbench.colorCustomizations": {
     "[Material Theme]": {
         "sideBar.background": "#347890"
