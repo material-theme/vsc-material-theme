@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "hx": "_file_haxe",
   "zep": "_file_zephyr",
   "mjs": "_file_node",
   "mjml": "_file_mjml",
