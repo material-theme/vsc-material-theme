@@ -110,7 +110,8 @@ Type `Material Theme` and choose `Material Theme: Settings`, then select `Change
 You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the vs code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
 
 #### Color Scheme override
-**Basic:**
+
+**Basic example**
 ```js
 "editor.tokenColorCustomizations": {
     "[Material Theme]": {
@@ -119,26 +120,26 @@ You can override the material theme ui and schemes colors by adding these theme-
 },
 ```
 
-**Advanced:**
+**Advanced example**
 
 ```js
-   "editor.tokenColorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
-            "textMateRules": [
-                {
-                    "scope": [
-                        "punctuation.definition.comment",
-                        "comment.block",
-                        "comment.line",
-                        "comment.block.documentation"
-                    ],
-                    "settings": {
-                        "foreground": "#FF0000"
-                    }
+"editor.tokenColorCustomizations": {
+    "[Material Theme VARIANT]": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.definition.comment",
+                    "comment.block",
+                    "comment.line",
+                    "comment.block.documentation"
+                ],
+                "settings": {
+                    "foreground": "#FF0000"
                 }
-            ]
-        },
+            }
+        ]
     },
+},
 ```
 
 #### UI Overrides
