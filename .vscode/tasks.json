@@ -17,7 +17,7 @@
       ],
       "command": "npm",
       "dependsOn": "tsc",
-      "taskName": "build",
+      "label": "build",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -66,7 +66,7 @@
         "command": "find"
       },
       "command": "",
-      "taskName": "clean project"
+      "label": "clean project"
     },
     {
       "args": [
@@ -74,16 +74,7 @@
         "changelog"
       ],
       "command": "npm",
-      "taskName": "changelog"
-    },
-    {
-      "args": [
-        "-p",
-        "."
-      ],
-      "command": "tsc",
-      "dependsOn": "clean project",
-      "taskName": "tsc"
+      "label": "changelog"
     }
   ]
 }
