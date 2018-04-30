@@ -55,12 +55,12 @@
     "commands": [
       {
         "command": "materialTheme.setAccent",
-        "title": "Set accent color for Material Theme",
+        "title": "Set the accent color",
         "category": "🎨 Material Theme"
       },
       {
         "command": "materialTheme.fixIcons",
-        "title": "Fix icons color when needed",
+        "title": "Fix file icons",
         "category": "🎨 Material Theme"
       },
       {
