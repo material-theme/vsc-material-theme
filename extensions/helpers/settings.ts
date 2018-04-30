@@ -19,7 +19,7 @@ export function getAccent(): string | undefined {
  * @returns {*}
  */
 export function getCustomSettings(): IThemeCustomProperties {
-  return vscode.workspace.getConfiguration().get<IThemeCustomProperties>('materialTheme.cache.workbench.settings', {});
+  return vscode.workspace.getConfiguration().get<IThemeCustomProperties>('materialTheme', {});
 }
 
 /**
@@ -58,27 +58,11 @@ export function isMaterialThemeIcons(themeIconsName: string): boolean {
 /**
  * Sets a custom property in custom settings
  * @export
- * @param {string} settingname
+ * @param {string} settingName
  * @param {*} value
  */
-export function setCustomSetting(settingname: string, value: any): Thenable<void> {
-  let settings: any = getCustomSettings();
-  settings[settingname] = value;
-  return vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.settings', settings, true);
-}
-
-/**
- * Sets custom properties in custom settings
- * @export
- * @param {*} settingsObject
- * @returns {Thenable<void>}
- */
-export function setCustomSettings(settingsObject: IThemeCustomProperties): Thenable<void> {
-  let settings: any = getCustomSettings();
-
-  Object.keys(settingsObject).forEach(key => settings[key] = (settingsObject as any)[key]);
-
-  return vscode.workspace.getConfiguration().update('materialTheme.cache.workbench.settings', settings, true);
+export function setCustomSetting(settingName: string, value: any): Thenable<void> {
+  return vscode.workspace.getConfiguration().update(`materialTheme.${settingName}`, value, true);
 }
 
 /**
@@ -87,7 +71,7 @@ export function setCustomSettings(settingsObject: IThemeCustomProperties): Thena
  * @param {string} accentName
  */
 export function updateAccent(accentName: string): Thenable<void> {
-  const prevaccent = getAccent();
-  return setCustomSetting('accentPrevious', prevaccent)
-    .then(() => setCustomSetting('accent', accentName));
+  const prevAccent = getAccent();
+  return setCustomSetting('accentPrevious', prevAccent)
+    .then(() => setCustomSetting('accent', accentName))
 }

@@ -45,24 +45,40 @@
     "Other"
   ],
   "activationEvents": [
-    "*"
+    "onCommand:materialTheme.setAccent",
+    "onCommand:materialTheme.fixIcons",
+    "onCommand:materialTheme.showChangelog"
   ],
   "main": "./extensions/material.theme.config.js",
   "contributes": {
     "commands": [
-      {
-        "category": "🎨 Material Theme",
-        "command": "material.theme.config",
-        "title": "Configuration"
-      }
+        {
+          "command": "materialTheme.setAccent",
+          "title": "Set accent color for Material Theme",
+          "category": "🎨 Material Theme"
+        },
+        {
+          "command": "materialTheme.fixIcons",
+          "title": "Fix icons color when needed",
+          "category": "🎨 Material Theme"
+        },
+        {
+          "command": "materialTheme.showChangelog",
+          "title": "Show changelog",
+          "category": "🎨 Material Theme"
+        }
     ],
     "configuration": {
+      "type": "object",
+      "title": "Material Theme configuration",
       "properties": {
-        "materialTheme.cache.workbench.settings": {
-          "default": {},
-          "type": "object",
-          "title": "Custom material theme settings",
-          "description": "Material theme settings object."
+        "materialTheme.accent": {
+          "type": "string",
+          "description": "Current accent color selected"
+        },
+        "materialTheme.accentPrevious": {
+          "type": "string",
+          "description": "Previous accent color selected"
         }
       }
     },
