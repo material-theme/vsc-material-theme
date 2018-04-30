@@ -149,7 +149,6 @@ You can override the material theme ui and schemes colors by adding these theme-
     "[Material Theme]": {
         "sideBar.background": "#347890"
     },
-    "..."
 }
 ```
 
