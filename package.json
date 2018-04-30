@@ -11,7 +11,7 @@
     "color": "#11131C",
     "theme": "dark"
   },
-  "homepage": "https://github.com/equinusocio/vsc-material-theme",
+  "homepage": "https://equinsuocha.io/projects/material-theme/",
   "repository": {
     "type": "git",
     "url": "https://github.com/equinusocio/vsc-material-theme.git"
@@ -55,7 +55,7 @@
     "commands": [
       {
         "command": "materialTheme.setAccent",
-        "title": "Set the accent color",
+        "title": "Set accent color",
         "category": "🎨 Material Theme"
       },
       {
