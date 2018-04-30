@@ -75,6 +75,15 @@
       ],
       "command": "npm",
       "label": "changelog"
+    },
+    {
+      "args": [
+        "run",
+        "build-ts"
+      ],
+      "command": "npm",
+      "dependsOn": "clean project",
+      "label": "tsc"
     }
   ]
 }

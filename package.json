@@ -37,6 +37,7 @@
     "build-icons-accents": "yarn gulp build:icons.accents",
     "build-icons-variants": "yarn gulp build:icons.variants",
     "build-themes": "yarn gulp build:themes",
+    "build-ts": "tsc -p ./tsconfig.json",
     "release": "standard-version",
     "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall && tsc -p tsconfig.json"
   },
