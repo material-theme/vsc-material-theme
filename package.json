@@ -53,21 +53,21 @@
   "main": "./extensions/material.theme.config.js",
   "contributes": {
     "commands": [
-        {
-          "command": "materialTheme.setAccent",
-          "title": "Set accent color for Material Theme",
-          "category": "🎨 Material Theme"
-        },
-        {
-          "command": "materialTheme.fixIcons",
-          "title": "Fix icons color when needed",
-          "category": "🎨 Material Theme"
-        },
-        {
-          "command": "materialTheme.showChangelog",
-          "title": "Show changelog",
-          "category": "🎨 Material Theme"
-        }
+      {
+        "command": "materialTheme.setAccent",
+        "title": "Set accent color for Material Theme",
+        "category": "🎨 Material Theme"
+      },
+      {
+        "command": "materialTheme.fixIcons",
+        "title": "Fix icons color when needed",
+        "category": "🎨 Material Theme"
+      },
+      {
+        "command": "materialTheme.showChangelog",
+        "title": "Show changelog",
+        "category": "🎨 Material Theme"
+      }
     ],
     "configuration": {
       "type": "object",
@@ -172,6 +172,7 @@
     "gulp-if": "2.0.2",
     "gulp-stats": "0.0.4",
     "gulp-util": "3.0.8",
+    "hoek": "5.0.3",
     "json-minify": "1.0.0",
     "mustache": "2.3.0",
     "rimraf": "2.6.2",
