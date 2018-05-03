@@ -1,7 +1,7 @@
-import * as gulp from "gulp";
-import * as path from "path";
+import * as gulp from 'gulp';
+import * as path from 'path';
 
-import Paths from "../../extensions/consts/paths";
+import Paths from './../../extensions/consts/paths';
 
 /*
  * > Watcher
@@ -10,5 +10,5 @@ import Paths from "../../extensions/consts/paths";
 export default gulp.task('watch', () => {
   // Commented due
   // gulp.watch(path.join(Paths.SRC, `./themes/**/*.json`), ['build:themes']);
-  gulp.watch(path.join(Paths.SRC, `./themes/**/*.json`));
+  gulp.watch(path.join(Paths.SRC, './themes/**/*.json'));
 });

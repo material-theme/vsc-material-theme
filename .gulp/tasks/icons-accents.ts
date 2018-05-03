@@ -3,22 +3,19 @@ import * as gulp from 'gulp';
 import * as gutil from 'gulp-util';
 import * as path from 'path';
 
-import { MESSAGE_GENERATED, MESSAGE_ICON_ACCENTS_ERROR } from "../consts/log";
+import {MESSAGE_GENERATED, MESSAGE_ICON_ACCENTS_ERROR} from './../consts/log';
 
-import { CHARSET } from "../../extensions/consts/files";
-import { IDefaults } from "../../extensions/interfaces/idefaults";
-import { IThemeIconsAccents } from "../interfaces/itheme-icons-accents";
-import PATHS from '../../extensions/consts/paths'
-import { IThemeIconsItem } from '../interfaces/itheme-icons-item';
-import { getAccentableIcons } from '../../extensions/helpers/fs';
+import {CHARSET} from './../../extensions/consts/files';
+import {IThemeIconsAccents} from './../interfaces/itheme-icons-accents';
+import PATHS from './../../extensions/consts/paths';
+import {IThemeIconsItem} from './../interfaces/itheme-icons-item';
+import {getAccentableIcons, getDefaultValues} from './../../extensions/helpers/fs';
 
 const BASE_ICON_THEME_PATH: string = path.join(process.cwd(), PATHS.THEMES, './Material-Theme-Icons.json');
-const DEFAULTS: IDefaults = require('../../extensions/defaults.json');
+const DEFAULTS = getDefaultValues();
 
 /**
  * Normalizes icon path
- * @param {string} iconPath
- * @returns {string}
  */
 function normalizeIconPath(iconPath: string): string {
   return path.join(process.cwd(), PATHS.ICONS, iconPath);
@@ -26,9 +23,6 @@ function normalizeIconPath(iconPath: string): string {
 
 /**
  * Replaces a file name with the accented filename
- * @param {string} name
- * @param {string} accentName
- * @returns {string}
  */
 function replaceNameWithAccent(name: string, accentName: string): string {
   return name.replace('.svg', `.accent.${ accentName }.svg`);
@@ -36,24 +30,17 @@ function replaceNameWithAccent(name: string, accentName: string): string {
 
 /**
  * Replaces a SVG colour
- *
- * @param {string} filecontent
- * @param {string} colour
- * @returns {string}
  */
 export function replaceSVGColour(filecontent: string, colour: string): string {
   return filecontent.replace(new RegExp('#(80CBC4)', 'i'), ($0, $1) => {
-
-    colour = colour.replace('#', '');
-    console.log(`Replacing colour ${ $1 } with ${ colour }`)
-    return $0.replace($1, colour);
+    const newColour = colour.replace('#', '');
+    console.log(`Replacing colour ${ $1 } with ${ newColour }`);
+    return $0.replace($1, newColour);
   });
 }
 
 /**
  * Replaces white spaces in accents' names
- * @param {string} input
- * @returns {string}
  */
 function replaceWhiteSpaces(input: string): string {
   return input.replace(/\s+/g, '-');
@@ -61,18 +48,15 @@ function replaceWhiteSpaces(input: string): string {
 
 /**
  * Writes a new svg file
- * @param {string} fromFile
- * @param {string} toFile
- * @param {string} accentColour
  */
 function writeSVGIcon(fromFile: string, toFile: string, accent: string): void {
-  let fileContent: string = fs.readFileSync(normalizeIconPath(fromFile), CHARSET);
-  let content: string = replaceSVGColour(fileContent, DEFAULTS.accents[accent]);
-  toFile = normalizeIconPath(toFile);
+  const fileContent: string = fs.readFileSync(normalizeIconPath(fromFile), CHARSET);
+  const content: string = replaceSVGColour(fileContent, DEFAULTS.accents[accent]);
+  const pathToFile = normalizeIconPath(toFile);
 
-  gutil.log(gutil.colors.gray(`Accented icon ${toFile} created with colour ${ accent } (${ DEFAULTS.accents[accent] })`));
+  gutil.log(gutil.colors.gray(`Accented icon ${pathToFile} created with colour ${ accent } (${ DEFAULTS.accents[accent] })`));
 
-  fs.writeFileSync(toFile, content);
+  fs.writeFileSync(pathToFile, content);
 }
 
 // Exports task to index.ts
@@ -83,21 +67,21 @@ export default gulp.task('build:icons.accents', cb => {
     basetheme = require(BASE_ICON_THEME_PATH);
 
     Object.keys(DEFAULTS.accents).forEach(key => {
-      let iconName = replaceWhiteSpaces(key);
-      let themecopy: IThemeIconsAccents = JSON.parse(JSON.stringify(basetheme));
-      let themePath: string = path.join(PATHS.THEMES, `./Material-Theme-Icons-${ key }.json`);
+      const iconName = replaceWhiteSpaces(key);
+      const themecopy: IThemeIconsAccents = JSON.parse(JSON.stringify(basetheme));
+      const themePath: string = path.join(PATHS.THEMES, `./Material-Theme-Icons-${ key }.json`);
 
       getAccentableIcons().forEach(accentableIconName => {
         gutil.log(gutil.colors.gray(`Preparing ${ accentableIconName } accented icon`));
 
-        let iconOriginDefinition: IThemeIconsItem = (basetheme.iconDefinitions as any)[accentableIconName];
-        let iconCopyDefinition: IThemeIconsItem = (themecopy.iconDefinitions as any)[accentableIconName];
+        const iconOriginDefinition: IThemeIconsItem = (basetheme.iconDefinitions as any)[accentableIconName];
+        const iconCopyDefinition: IThemeIconsItem = (themecopy.iconDefinitions as any)[accentableIconName];
 
         if (iconOriginDefinition !== undefined && typeof iconOriginDefinition.iconPath === 'string' && iconCopyDefinition !== undefined && typeof iconCopyDefinition.iconPath === 'string') {
           iconCopyDefinition.iconPath = replaceNameWithAccent(iconOriginDefinition.iconPath, iconName);
           writeSVGIcon(iconOriginDefinition.iconPath, iconCopyDefinition.iconPath, key);
         } else {
-          gutil.log(gutil.colors.yellow(`Icon ${ accentableIconName } not found`))
+          gutil.log(gutil.colors.yellow(`Icon ${ accentableIconName } not found`));
         }
       });
 

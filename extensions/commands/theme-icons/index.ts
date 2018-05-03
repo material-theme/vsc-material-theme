@@ -1,30 +1,35 @@
-import {getAccentableIcons} from '../../helpers/fs';
 import * as fs from 'fs';
 
-import { getAbsolutePath, getDefaultValues, getThemeIconsByContributeID, getThemeIconsContribute, getVariantIcons } from "../../helpers/fs";
-import { getCurrentThemeIconsID, getCurrentThemeID } from "../../helpers/vscode";
-import { isAccent, isMaterialThemeIcons, getCustomSettings } from "../../helpers/settings";
+import {
+  getAccentableIcons,
+  getAbsolutePath,
+  getDefaultValues,
+  getThemeIconsByContributeID,
+  getThemeIconsContribute,
+  getVariantIcons
+} from './../../helpers/fs';
+import {
+  isAccent,
+  isMaterialThemeIcons,
+  getCustomSettings
+} from './../../helpers/settings';
+import {getCurrentThemeIconsID, getCurrentThemeID} from './../../helpers/vscode';
+import {CHARSET} from './../../consts/files';
+import {IPackageJSONThemeIcons} from './../../interfaces/ipackage.json';
+import {IThemeIconsIconPath, IThemeIcons} from './../../interfaces/itheme-icons';
 
-import { CHARSET } from "../../consts/files";
-import { IPackageJSONThemeIcons } from "../../interfaces/ipackage.json";
-import {IThemeIconsIconPath, IThemeIcons} from '../../interfaces/itheme-icons';
-
-
-function getIconDefinition(definitions: any, iconname: string): IThemeIconsIconPath {
+const getIconDefinition = (definitions: any, iconname: string): IThemeIconsIconPath => {
   return (definitions as any)[iconname];
-}
+};
 
 /**
  * Replaces icon path with the accented one.
- * @param {string} iconPath
- * @param {string} accentName
- * @returns {string}
  */
-function replaceIconPathWithAccent(iconPath: string, accentName: string): string {
+const replaceIconPathWithAccent = (iconPath: string, accentName: string): string => {
   return iconPath.replace('.svg', `.accent.${ accentName }.svg`);
-}
+};
 
-function getVariantFromColor(color: string): string {
+const getVariantFromColor = (color: string): string => {
   switch (color) {
     case undefined || 'Material Theme':
       return 'Default';
@@ -33,61 +38,61 @@ function getVariantFromColor(color: string): string {
     default:
       return color.replace(/Material Theme /gi, '');
   }
-}
+};
 
 export const THEME_ICONS = () => {
-  let deferred: any = {};
-  let promise = new Promise((resolve, reject) => {
+  const deferred: any = {};
+  const promise = new Promise((resolve, reject) => {
     deferred.resolve = resolve;
     deferred.reject = reject;
   });
-  let themeIconsID: string = getCurrentThemeIconsID();
+  const themeIconsID: string = getCurrentThemeIconsID();
 
   if (isMaterialThemeIcons(themeIconsID)) {
-    let themeID = getCurrentThemeID();
-    let customSettings = getCustomSettings();
-    let defaults = getDefaultValues();
-    let accentName = customSettings.accent;
-    let variantName: string = getVariantFromColor(themeID);
+    const themeID = getCurrentThemeID();
+    const customSettings = getCustomSettings();
+    const defaults = getDefaultValues();
+    const accentName = customSettings.accent;
+    const variantName: string = getVariantFromColor(themeID);
 
-    let themeContribute: IPackageJSONThemeIcons = getThemeIconsContribute(themeIconsID);
-    let theme: IThemeIcons = getThemeIconsByContributeID(themeIconsID);
-    let themepath: string = getAbsolutePath(themeContribute.path);
+    const themeContribute: IPackageJSONThemeIcons = getThemeIconsContribute(themeIconsID);
+    const theme: IThemeIcons = getThemeIconsByContributeID(themeIconsID);
+    const themepath: string = getAbsolutePath(themeContribute.path);
 
     if (isAccent(accentName, defaults)) {
-      let _accentName = accentName.replace(/\s+/, '-');
-
+      const realAccentName = accentName.replace(/\s+/, '-');
       getAccentableIcons().forEach(iconname => {
-        let distIcon = getIconDefinition(theme.iconDefinitions, iconname);
-        let outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
+        const distIcon = getIconDefinition(theme.iconDefinitions, iconname);
+        const outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
 
         if (typeof distIcon === 'object' && typeof outIcon === 'object') {
-          distIcon.iconPath = replaceIconPathWithAccent(outIcon.iconPath, _accentName)
+          distIcon.iconPath = replaceIconPathWithAccent(outIcon.iconPath, realAccentName);
         }
-      })
+      });
 
     } else {
-
       getAccentableIcons().forEach(iconname => {
-        let distIcon = getIconDefinition(theme.iconDefinitions, iconname);
-        let outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
+        const distIcon = getIconDefinition(theme.iconDefinitions, iconname);
+        const outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
 
         distIcon.iconPath = outIcon.iconPath;
       });
     }
 
     getVariantIcons().forEach(iconname => {
-      let distIcon = getIconDefinition(theme.iconDefinitions, iconname);
-      let outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
+      const distIcon = getIconDefinition(theme.iconDefinitions, iconname);
+      const outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
 
-      if (!!distIcon && !!outIcon) {
+      if (distIcon && outIcon) {
         distIcon.iconPath = outIcon.iconPath.replace('.svg', `${ variantName }.svg`);
       }
-    })
+    });
 
-    fs.writeFile(themepath, JSON.stringify(theme), { encoding: CHARSET }, (error) => {
-      if (error) {
-        deferred.reject(error);
+    fs.writeFile(themepath, JSON.stringify(theme), {
+      encoding: CHARSET
+    }, err => {
+      if (err) {
+        deferred.reject(err);
         return;
       }
 
@@ -98,4 +103,4 @@ export const THEME_ICONS = () => {
   }
 
   return promise;
-}
+};

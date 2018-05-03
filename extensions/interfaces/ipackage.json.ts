@@ -1,4 +1,4 @@
-import { IGenericObject } from '../../extensions/interfaces/igeneric-object';
+import {IGenericObject} from './../../extensions/interfaces/igeneric-object';
 
 export interface IPackageJSONBadge {
   description: string;
@@ -14,9 +14,7 @@ export interface IPackageJSONContributes {
 }
 
 export interface IPackageJSONConfiguration {
-  properties: {
-
-  }
+  properties: {};
 }
 
 export interface IPackageJSONCommand {
@@ -38,24 +36,24 @@ export interface IPackageJSONThemeIcons {
 }
 
 export interface IPackageJSON {
-  "activationEvents": string[]
-  "badges": IPackageJSONBadge[];
-  "contributes": IPackageJSONContributes;
-  "bugs": IGenericObject<string>;
-  "categories": string[];
-  "description": string;
-  "displayName": string;
-  "engines": IGenericObject<string>;
-  "galleryBanner": IGenericObject<string>;
-  "homepage": string;
-  "icon": string;
-  "license": string;
-  "main": string;
-  "name": string;
-  "preview": boolean;
-  "publisher": string;
-  "repository": IGenericObject<string>;
-  "scripts": IGenericObject<string>;
-  "version": string;
-  "devDependencies": IGenericObject<string>;
+  activationEvents: string[];
+  badges: IPackageJSONBadge[];
+  contributes: IPackageJSONContributes;
+  bugs: IGenericObject<string>;
+  categories: string[];
+  description: string;
+  displayName: string;
+  engines: IGenericObject<string>;
+  galleryBanner: IGenericObject<string>;
+  homepage: string;
+  icon: string;
+  license: string;
+  main: string;
+  name: string;
+  preview: boolean;
+  publisher: string;
+  repository: IGenericObject<string>;
+  scripts: IGenericObject<string>;
+  version: string;
+  devDependencies: IGenericObject<string>;
 }
