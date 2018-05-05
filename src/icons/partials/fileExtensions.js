@@ -94,6 +94,7 @@
   "ts": "_file_typescript",
   "tsx": "_file_react",
   "d.ts": "_file_typescript_def",
+  "spec.ts": "_file_typescript_def",
   "pdf": "_file_pdf",
   "xlsx": "_file_table",
   "xls": "_file_table",
