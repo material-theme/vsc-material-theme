@@ -24,16 +24,18 @@ function replaceIconPathWithAccent(iconPath: string, accentName: string): string
   return iconPath.replace('.svg', `.accent.${ accentName }.svg`);
 }
 
-function getVariantFromColor(color: string): string {
-  switch (color) {
-    case undefined || 'Material Theme':
+const getVariantFromColor = (color: string): string => {
+  switch (true) {
+    case color === undefined || color === 'Material Theme':
       return 'Default';
-    case 'Material Theme High Contrast':
+    case color === 'Material Theme High Contrast':
       return 'Default High Contrast';
+    case color.includes('Material Theme Lighter'):
+      return 'Light';
     default:
       return color.replace(/Material Theme /gi, '');
   }
-}
+};
 
 export const THEME_ICONS = () => {
   let deferred: any = {};

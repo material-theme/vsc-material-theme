@@ -54,6 +54,14 @@ let accentsProperties: IGenericObject<IAccentCustomProperty> = {
   "notificationLink.foreground": {
     alpha: 100,
     value: undefined
+  },
+  "editor.findWidgetResizeBorder": {
+    alpha: 100,
+    value: undefined
+  },
+  "editorWidget.border": {
+    alpha: 100,
+    value: undefined
   }
 }
 
