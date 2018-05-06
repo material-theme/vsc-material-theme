@@ -1,24 +1,22 @@
-import * as vscode from 'vscode'
-
+import * as vscode from 'vscode';
 
 export function askForWindowReload(): Thenable<void> {
   const PROMPT_MESSAGE: string = 'Material Theme requires VS Code reload in order to display icons correctly.';
   const PROMPT_MESSAGE_CONFIRM: string = 'Ok, reload';
   const PROMPT_MESSAGE_CANCEL: string = 'I will do it later';
 
-  return vscode.window.showInformationMessage(PROMPT_MESSAGE, PROMPT_MESSAGE_CONFIRM, PROMPT_MESSAGE_CANCEL).then((response) => {
-    if (response === PROMPT_MESSAGE_CONFIRM) {
-      reloadWindow();
-    }
-  }, (error) => {
-    console.log(error);
-  });
+  return vscode.window.showInformationMessage(PROMPT_MESSAGE, PROMPT_MESSAGE_CONFIRM, PROMPT_MESSAGE_CANCEL)
+    .then(response => {
+      if (response === PROMPT_MESSAGE_CONFIRM) {
+        reloadWindow();
+      }
+    }, err => {
+      console.log(err);
+    });
 }
 
 /**
  * Gets your current theme ID
- * @export
- * @returns {string}
  */
 export function getCurrentThemeID(): string {
   return vscode.workspace.getConfiguration().get<string>('workbench.colorTheme');
@@ -26,8 +24,6 @@ export function getCurrentThemeID(): string {
 
 /**
  * Gets your current icons theme ID
- * @export
- * @returns {string}
  */
 export function getCurrentThemeIconsID(): string {
   return vscode.workspace.getConfiguration().get<string>('workbench.iconTheme');
@@ -35,8 +31,6 @@ export function getCurrentThemeIconsID(): string {
 
 /**
  * Set a specific id for icons
- * @export
- * @returns {Thenable}
  */
 export function setIconsID(id: string): Thenable<void> {
   return vscode.workspace.getConfiguration().update('workbench.iconTheme', id, true);
@@ -44,7 +38,6 @@ export function setIconsID(id: string): Thenable<void> {
 
 /**
  * Reloads current vscode window.
- * @export
  */
 export function reloadWindow(): void {
   vscode.commands.executeCommand('workbench.action.reloadWindow');

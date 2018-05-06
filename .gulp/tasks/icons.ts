@@ -4,24 +4,22 @@ import * as gutil from 'gulp-util';
 import * as mustache from 'mustache';
 import * as path from 'path';
 
-import { HR, MESSAGE_GENERATED, MESSAGE_ICON_ERROR } from './../consts/log';
+import {HR, MESSAGE_GENERATED, MESSAGE_ICON_ERROR} from './../consts/log';
 
-import { CHARSET } from "../../extensions/consts/files";
-import { IGenericObject } from "../../extensions/interfaces/igeneric-object";
-import { IIcon } from './../interfaces/iicon';
-import paths from '../../extensions/consts/paths';
-import { ensureDir } from '../../extensions/helpers/fs';
+import {CHARSET} from './../../extensions/consts/files';
+import {IGenericObject} from './../../extensions/interfaces/igeneric-object';
+import {IIcon} from './../interfaces/iicon';
+import paths from './../../extensions/consts/paths';
+import {ensureDir} from './../../extensions/helpers/fs';
 
 /**
  * Returns an object implementing the IIcon interface
- * @param {string} fileName
- * @returns {IIcon}
  */
-function iconFactory(fileName: string): IIcon {
-  gutil.log(gutil.colors.gray(`Processing icon ${ fileName }`))
+const iconFactory = (fileName: string): IIcon => {
+  gutil.log(gutil.colors.gray(`Processing icon ${ fileName }`));
   let name: string = path.basename(fileName, path.extname(fileName));
-  let filename: string = name;
-  let last: boolean = false;
+  const filename: string = name;
+  const last: boolean = false;
 
   // renaming icon for vscode
   // if the icon filename starts with a folder prefix,
@@ -35,8 +33,8 @@ function iconFactory(fileName: string): IIcon {
 
   gutil.log(gutil.colors.gray(`VSCode icon name ${ name } with filename ${ filename }`));
 
-  return { filename, name, last } as IIcon;
-}
+  return {filename, name, last} as IIcon;
+};
 
 /**
  * > Build Icons
@@ -44,24 +42,26 @@ function iconFactory(fileName: string): IIcon {
  */
 export default gulp.task('build:icons', cb => {
   let contents: string;
-  let fileNames: string[] = fs.readdirSync(path.join(paths.SRC, `./icons/svgs`));
-  let icons: IIcon[] = fileNames.map(fileName => iconFactory(fileName));
-  let partials: string[] = fs.readdirSync(path.join(paths.SRC, `./icons/partials`));
-  let partialsData: IGenericObject<any> = {};
-  let pathTemp: string = './themes/.material-theme-icons.tmp';
+  const fileNames: string[] = fs.readdirSync(path.join(paths.SRC, './icons/svgs'));
+  const icons: IIcon[] = fileNames.map(fileName => iconFactory(fileName));
+  const partials: string[] = fs.readdirSync(path.join(paths.SRC, './icons/partials'));
+  const partialsData: IGenericObject<any> = {};
+  const pathTemp: string = './themes/.material-theme-icons.tmp';
 
   ensureDir(path.join(paths.THEMES));
 
   icons[icons.length - 1].last = true;
 
   partials.forEach(partial => {
-    partialsData[path.basename(partial, path.extname(partial))] = fs.readFileSync(path.join(paths.SRC, `./icons/partials`, `./${partial}`), CHARSET);
+    partialsData[path.basename(partial, path.extname(partial))] = fs.readFileSync(
+      path.join(paths.SRC, './icons/partials', `./${partial}`
+    ), CHARSET);
   });
 
   contents = mustache.render(
-    fs.readFileSync(path.join(paths.SRC, `./icons/icons-theme.json`), CHARSET)
-  , { icons }
-  , partialsData
+    fs.readFileSync(path.join(paths.SRC, './icons/icons-theme.json'), CHARSET),
+    {icons},
+    partialsData
   );
 
   try {
@@ -72,7 +72,7 @@ export default gulp.task('build:icons', cb => {
     return;
   }
 
-  fs.writeFileSync(pathTemp, contents, { encoding: CHARSET });
+  fs.writeFileSync(pathTemp, contents, {encoding: CHARSET});
 
   gutil.log(gutil.colors.gray(HR));
   gutil.log(MESSAGE_GENERATED, gutil.colors.green(pathTemp));

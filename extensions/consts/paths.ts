@@ -1,6 +1,6 @@
 import * as path from 'path';
 
-import { IPaths } from '../interfaces/ipaths';
+import {IPaths} from '../interfaces/ipaths';
 
 export const PATHS: IPaths = {
   DIST: './dist',

@@ -4,9 +4,10 @@ export interface IDefaults {
   changelog: IChangelog;
   icons: IDefaultsThemeIcons;
   themeVariants: IDefaultsThemeVariant;
-  themeVariantsColours: IDefaultsThemeVariantColours;
-  themeVariantsUITheme: IDefaultsThemeVariantUITheme;
+  themeVariantsColours: IDefaultsThemeVariant;
+  themeVariantsUITheme: IDefaultsThemeVariant;
   variantsIcons: string[];
+  [Symbol.iterator](): IterableIterator<IDefaults>;
 }
 
 export interface IAccents {
@@ -16,6 +17,7 @@ export interface IAccents {
 
 export interface IChangelog {
   lastversion: string;
+  [Symbol.iterator](): IterableIterator<IChangelog>;
 }
 
 export interface IDefaultsThemeIcons {
@@ -23,24 +25,24 @@ export interface IDefaultsThemeIcons {
     iconDefinitions: {
       _folder_open: {
         iconPath: string;
-      }
+      };
       _folder_open_build: {
         iconPath: string;
-      }
+      };
       _folder_dark: {
         iconPath: string;
-      }
+      };
       _folder_dark_build: {
         iconPath: string;
-      }
-      "_folder_light_build": {
+      };
+      _folder_light_build: {
         iconPath: string;
-      }
+      };
       _folder_light: {
         iconPath: string;
-      }
-    }
-  }
+      };
+    };
+  };
 }
 
 export interface IDefaultsThemeVariant {
@@ -52,12 +54,4 @@ export interface IDefaultsThemeVariant {
   Light: string;
   LightHighContrast: string;
   PalenightHighContrast: string;
-}
-
-export interface IDefaultsThemeVariantColours extends IDefaultsThemeVariant {
-
-}
-
-export interface IDefaultsThemeVariantUITheme extends IDefaultsThemeVariant {
-
 }
