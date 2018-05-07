@@ -1,0 +1,7 @@
+{
+	"extends": "tslint-xo",
+	"rules": {
+		"comment-format": false,
+		"indent": [true, "spaces"]
+	}
+}

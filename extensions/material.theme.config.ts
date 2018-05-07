@@ -3,10 +3,10 @@ import {
   commands as Commands
 } from 'vscode';
 
-import { THEME_ACCENTS_SETTER } from "./commands/accents-setter/index";
-import { THEME_ICONS } from "./commands/theme-icons/index";
-import { shouldShowChangelog, showChangelog } from './helpers/changelog';
-import { reloadWindow, getCurrentThemeID, setIconsID } from "./helpers/vscode";
+import {THEME_ACCENTS_SETTER} from './commands/accents-setter/index';
+import {THEME_ICONS} from './commands/theme-icons/index';
+import {shouldShowChangelog, showChangelog} from './helpers/changelog';
+import {reloadWindow, getCurrentThemeID, setIconsID} from './helpers/vscode';
 
 const isMaterialTheme = (currentTheme: string): boolean =>
   currentTheme.includes('Material Theme');
@@ -18,6 +18,7 @@ export function activate() {
   Workspace.onDidChangeConfiguration(event => {
     const isColorTheme = event.affectsConfiguration('workbench.colorTheme');
     const currentTheme = getCurrentThemeID();
+    // tslint:disable-next-line:early-exit
     if (isColorTheme && isMaterialTheme(currentTheme)) {
       setIconsID('eq-material-theme-icons')
         .then(() => THEME_ICONS().catch(error => console.trace(error)))

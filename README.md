@@ -94,7 +94,7 @@ Launch *Quick Open*,
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-type `material theme` and select `Material Theme: Settings` from the drop-down menu. Here you will find the `Fix file icons` command that will set the correct icons theme based on your active material theme variant.
+type `material theme` and select `Material Theme: Fix file icons` from the drop-down menu, this command will set the correct icon theme based on your active material theme variant.
 
 ## Set the accent color
 
@@ -104,7 +104,7 @@ Launch *Quick Open*,
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `Material Theme` and choose `Material Theme: Settings`, then select `Change accent color` and pick one color from the list.
+Type `material theme` and choose `Material Theme: Set accent color` and pick one color from the list.
 
 ## Override theme colors
 You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the vs code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
@@ -149,7 +149,6 @@ You can override the material theme ui and schemes colors by adding these theme-
     "[Material Theme]": {
         "sideBar.background": "#347890"
     },
-    "..."
 }
 ```
 
