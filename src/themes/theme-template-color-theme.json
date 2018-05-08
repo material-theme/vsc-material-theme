@@ -760,7 +760,7 @@
     "list.focusForeground": "{{variant.scheme.foreground}}",
     "list.highlightForeground": "{{commons.accents.Teal}}",
     "terminal.ansiWhite": "{{variant.scheme.base.white}}",
-    "terminal.ansiBlack": "{{variant.scheme.comments}}",
+    "terminal.ansiBlack": "{{variant.scheme.base.black}}",
     "terminal.ansiBlue": "{{variant.scheme.base.blue}}",
     "terminal.ansiCyan": "{{variant.scheme.base.cyan}}",
     "terminal.ansiGreen": "{{variant.scheme.base.green}}",
