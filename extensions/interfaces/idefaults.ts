@@ -4,6 +4,7 @@ export interface IDefaults {
   changelog: IChangelog;
   icons: IDefaultsThemeIcons;
   themeVariants: IDefaultsThemeVariant;
+  themeIconVariants: IDefaultsThemeIconVariant;
   themeVariantsColours: IDefaultsThemeVariant;
   themeVariantsUITheme: IDefaultsThemeVariant;
   variantsIcons: string[];
@@ -54,4 +55,14 @@ export interface IDefaultsThemeVariant {
   Light: string;
   LightHighContrast: string;
   PalenightHighContrast: string;
+  Ocean: string;
+  OceanHighContrast: string;
+}
+
+export interface IDefaultsThemeIconVariant {
+  [index: string]: string;
+  Darker: string;
+  Light: string;
+  Palenight: string;
+  Ocean: string;
 }

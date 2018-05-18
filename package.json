@@ -28,7 +28,7 @@
     }
   },
   "scripts": {
-    "build": "yarn build-icons && yarn build-themes && yarn build-icons-accents && yarn build-icons-variants",
+    "build": "yarn build-icons && yarn build-themes && yarn build-icons-accents && yarn build-icons-variants && yarn build-icons-variants-json",
     "minimize-icons": "mkdir icons && svgo -f src/icons/svgs -o icons/",
     "minimize-json": "json-minify themes/.material-theme-icons.tmp > themes/Material-Theme-Icons.json && yarn remove-icons-tmp",
     "remove-icons": "rimraf icons && rimraf themes/Material-Theme-Icons.json",
@@ -36,6 +36,7 @@
     "build-icons": "yarn remove-icons && yarn minimize-icons && yarn gulp build:icons && yarn minimize-json",
     "build-icons-accents": "yarn gulp build:icons.accents",
     "build-icons-variants": "yarn gulp build:icons.variants",
+    "build-icons-variants-json": "yarn gulp build:icons.variants-json",
     "build-themes": "yarn gulp build:themes",
     "build-ts": "tsc -p ./tsconfig.json",
     "test": "tslint **.ts",
@@ -52,6 +53,11 @@
   "main": "./extensions/material.theme.config.js",
   "contributes": {
     "commands": [
+      {
+        "command": "materialTheme.toggleApplyIcons",
+        "title": "Toggle icons auto-apply ",
+        "category": "🎨 Material Theme"
+      },
       {
         "command": "materialTheme.setAccent",
         "title": "Set accent color",
@@ -79,6 +85,16 @@
         "materialTheme.accentPrevious": {
           "type": "string",
           "description": "Previous accent color selected"
+        },
+        "materialTheme.autoApplyIcons": {
+          "type": "boolean",
+          "description": "Enable/disable auto-apply of Material Theme icons",
+          "default": true
+        },
+        "materialTheme.fixIconsRunning": {
+          "type": "boolean",
+          "description": "For checking if the command is currently acting",
+          "default": false
         }
       }
     },
@@ -139,6 +155,26 @@
         "id": "eq-material-theme-icons",
         "label": "Material Theme Icons",
         "path": "./themes/Material-Theme-Icons.json"
+      },
+      {
+        "id": "eq-material-theme-icons-darker",
+        "label": "Material Theme Icons Darker",
+        "path": "./themes/Material-Theme-Icons-Darker.json"
+      },
+      {
+        "id": "eq-material-theme-icons-palenight",
+        "label": "Material Theme Icons Palenight",
+        "path": "./themes/Material-Theme-Icons-Palenight.json"
+      },
+      {
+        "id": "eq-material-theme-icons-ocean",
+        "label": "Material Theme Icons Ocean",
+        "path": "./themes/Material-Theme-Icons-Ocean.json"
+      },
+      {
+        "id": "eq-material-theme-icons-light",
+        "label": "Material Theme Icons Light",
+        "path": "./themes/Material-Theme-Icons-Light.json"
       }
     ]
   },

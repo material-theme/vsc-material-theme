@@ -53,6 +53,15 @@ export function getThemeIconsContribute(ID: string): IPackageJSONThemeIcons {
 }
 
 /**
+ * Icon variant name from theme name
+ */
+export function getIconVariantFromTheme(theme: string): string {
+  const {themeIconVariants} = getDefaultValues();
+  const found = Object.keys(themeIconVariants).find(variant => theme.includes(variant));
+  return found ? found.toLowerCase() : null;
+}
+
+/**
  * Gets package JSON
  */
 export function getPackageJSON(): IPackageJSON {

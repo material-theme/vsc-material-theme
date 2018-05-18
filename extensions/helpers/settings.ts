@@ -19,10 +19,17 @@ export function getCustomSettings(): IThemeCustomProperties {
 }
 
 /**
+ * Get autoApplyIcons
+ */
+export function isAutoApplyEnable(): boolean {
+  return vscode.workspace.getConfiguration().get<boolean>('materialTheme.autoApplyIcons', true);
+}
+
+/**
  * Checks if a given string could be an accent
  */
 export function isAccent(accentName: string, defaults: IDefaults): boolean {
-  return Object.keys(defaults.accents).filter(name => name === accentName).length > 0;
+  return Boolean(Object.keys(defaults.accents).find(name => name === accentName));
 }
 
 /**
@@ -30,7 +37,7 @@ export function isAccent(accentName: string, defaults: IDefaults): boolean {
  */
 export function isMaterialTheme(themeName: string): boolean {
   const packageJSON = getPackageJSON();
-  return packageJSON.contributes.themes.filter(contrib => contrib.label === themeName).length > 0;
+  return Boolean(packageJSON.contributes.themes.find(contrib => contrib.label === themeName));
 }
 
 /**
@@ -38,20 +45,20 @@ export function isMaterialTheme(themeName: string): boolean {
  */
 export function isMaterialThemeIcons(themeIconsName: string): boolean {
   const packageJSON = getPackageJSON();
-  return packageJSON.contributes.iconThemes.filter(contribute => contribute.id === themeIconsName).length > 0;
+  return Boolean(packageJSON.contributes.iconThemes.find(contribute => contribute.id === themeIconsName));
 }
 
 /**
  * Sets a custom property in custom settings
  */
-export function setCustomSetting(settingName: string, value: any): Thenable<void> {
-  return vscode.workspace.getConfiguration().update(`materialTheme.${settingName}`, value, true);
+export function setCustomSetting(settingName: string, value: any): Thenable<string> {
+  return vscode.workspace.getConfiguration().update(`materialTheme.${settingName}`, value, true).then(() => settingName);
 }
 
 /**
  * Updates accent name
  */
-export function updateAccent(accentName: string): Thenable<void> {
+export function updateAccent(accentName: string): Thenable<string> {
   const prevAccent = getAccent();
   return setCustomSetting('accentPrevious', prevAccent)
     .then(() => setCustomSetting('accent', accentName));

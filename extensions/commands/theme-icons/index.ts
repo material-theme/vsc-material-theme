@@ -6,20 +6,21 @@ import {
   getDefaultValues,
   getThemeIconsByContributeID,
   getThemeIconsContribute,
-  getVariantIcons
+  getIconVariantFromTheme
 } from './../../helpers/fs';
 import {
   isAccent,
-  isMaterialThemeIcons,
-  getCustomSettings
+  getCustomSettings,
+  isMaterialTheme,
+  setCustomSetting
 } from './../../helpers/settings';
-import {getCurrentThemeIconsID, getCurrentThemeID} from './../../helpers/vscode';
+import {getCurrentThemeID, setIconsID, getCurrentThemeIconsID, reloadWindow} from './../../helpers/vscode';
 import {CHARSET} from './../../consts/files';
 import {IPackageJSONThemeIcons} from './../../interfaces/ipackage.json';
 import {IThemeIconsIconPath, IThemeIcons} from './../../interfaces/itheme-icons';
 
-const getIconDefinition = (definitions: any, iconname: string): IThemeIconsIconPath => {
-  return (definitions as any)[iconname];
+const getIconDefinition = (definitions: any, iconName: string): IThemeIconsIconPath => {
+  return (definitions as any)[iconName];
 };
 
 /**
@@ -29,80 +30,73 @@ const replaceIconPathWithAccent = (iconPath: string, accentName: string): string
   return iconPath.replace('.svg', `.accent.${ accentName }.svg`);
 };
 
-const getVariantFromColor = (color: string): string => {
-  switch (true) {
-    case color === undefined || color === 'Material Theme':
-      return 'Default';
-    case color === 'Material Theme High Contrast':
-      return 'Default High Contrast';
-    case color.includes('Material Theme Lighter'):
-      return 'Light';
-    default:
-      return color.replace(/Material Theme /gi, '');
-  }
-};
-
-export const THEME_ICONS = () => {
+/**
+ * Fix icons when flag auto-fix is active and current theme is Material
+ */
+export default async () => {
   const deferred: any = {};
   const promise = new Promise((resolve, reject) => {
     deferred.resolve = resolve;
     deferred.reject = reject;
   });
-  const themeIconsID: string = getCurrentThemeIconsID();
 
-  if (isMaterialThemeIcons(themeIconsID)) {
-    const themeID = getCurrentThemeID();
-    const customSettings = getCustomSettings();
-    const defaults = getDefaultValues();
-    const accentName = customSettings.accent;
-    const variantName: string = getVariantFromColor(themeID);
+  // Current theme id set on VSCode ("label" of the package.json)
+  const themeLabel = getCurrentThemeID();
 
-    const themeContribute: IPackageJSONThemeIcons = getThemeIconsContribute(themeIconsID);
-    const theme: IThemeIcons = getThemeIconsByContributeID(themeIconsID);
-    const themepath: string = getAbsolutePath(themeContribute.path);
-
-    if (isAccent(accentName, defaults)) {
-      const realAccentName = accentName.replace(/\s+/, '-');
-      getAccentableIcons().forEach(iconname => {
-        const distIcon = getIconDefinition(theme.iconDefinitions, iconname);
-        const outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
-
-        if (typeof distIcon === 'object' && typeof outIcon === 'object') {
-          distIcon.iconPath = replaceIconPathWithAccent(outIcon.iconPath, realAccentName);
-        }
-      });
-
-    } else {
-      getAccentableIcons().forEach(iconname => {
-        const distIcon = getIconDefinition(theme.iconDefinitions, iconname);
-        const outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
-
-        distIcon.iconPath = outIcon.iconPath;
-      });
-    }
-
-    getVariantIcons().forEach(iconname => {
-      const distIcon = getIconDefinition(theme.iconDefinitions, iconname);
-      const outIcon = getIconDefinition(defaults.icons.theme.iconDefinitions, iconname);
-
-      if (distIcon && outIcon) {
-        distIcon.iconPath = outIcon.iconPath.replace('.svg', `${ variantName }.svg`);
-      }
-    });
-
-    fs.writeFile(themepath, JSON.stringify(theme), {
-      encoding: CHARSET
-    }, err => {
-      if (err) {
-        deferred.reject(err);
-        return;
-      }
-
-      deferred.resolve();
-    });
-  } else {
-    deferred.resolve();
+  // If this method was called without Material Theme set, just return
+  if (!isMaterialTheme(themeLabel)) {
+    return deferred.resolve();
   }
 
-  return promise;
+  await setCustomSetting('fixIconsRunning', true);
+
+  const DEFAULTS = getDefaultValues();
+  const CUSTOM_SETTINGS = getCustomSettings();
+
+  const materialIconVariantID: string | null = getIconVariantFromTheme(themeLabel);
+  const currentThemeIconsID: string = getCurrentThemeIconsID();
+  const newThemeIconsID = materialIconVariantID ?
+    `eq-material-theme-icons-${materialIconVariantID}` : 'eq-material-theme-icons';
+
+  // Just set the correct Material Theme icons variant if wasn't
+  // Or also change the current icons set to the Material Theme icons variant
+  // (this is intended: this command was called directly or `autoFix` flag was already checked by other code)
+  if (currentThemeIconsID !== newThemeIconsID) {
+    await setIconsID(newThemeIconsID);
+  }
+
+  // package.json iconThemes object for the current icons set
+  const themeIconsContribute: IPackageJSONThemeIcons = getThemeIconsContribute(newThemeIconsID);
+  // Actual json file of the icons theme (eg. Material-Theme-Icons-Darker.json)
+  const theme: IThemeIcons = getThemeIconsByContributeID(newThemeIconsID);
+
+  const newIconPath = (outIcon: IThemeIconsIconPath) => isAccent(CUSTOM_SETTINGS.accent, DEFAULTS) ?
+    replaceIconPathWithAccent(outIcon.iconPath, CUSTOM_SETTINGS.accent.replace(/\s+/, '-')) : outIcon.iconPath;
+
+  getAccentableIcons().forEach(iconName => {
+    const distIcon = getIconDefinition(theme.iconDefinitions, iconName);
+    const outIcon = getIconDefinition(DEFAULTS.icons.theme.iconDefinitions, iconName);
+
+    if (typeof distIcon === 'object' && typeof outIcon === 'object') {
+      distIcon.iconPath = newIconPath(outIcon);
+    }
+  });
+
+  // Path of the icons theme .json
+  const themePath: string = getAbsolutePath(themeIconsContribute.path);
+  fs.writeFile(themePath, JSON.stringify(theme), {
+    encoding: CHARSET
+  }, async err => {
+    if (err) {
+      deferred.reject(err);
+      return;
+    }
+
+    await setCustomSetting('fixIconsRunning', false);
+    deferred.resolve();
+  });
+
+  return promise
+    .then(() => reloadWindow())
+    .catch((error: NodeJS.ErrnoException) => console.trace(error));
 };
