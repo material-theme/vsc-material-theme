@@ -1,4 +1,11 @@
 "fileNames": {
+  ".prettierrc": "_file_prettier",
+  "prettier.config.js": "_file_prettier",
+  ".prettierrc.js": "_file_prettier",
+  ".prettierrc.json": "_file_prettier",
+  ".prettierrc.yaml": "_file_prettier",
+  ".prettierrc.yml": "_file_prettier",
+  ".prettierignore": "_file_prettier",
   "code_of_conduct.md": "_file_conduct",
   "jest.config.js": "_file_jest",
   "jest.config.ts": "_file_jest",
