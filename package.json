@@ -56,7 +56,7 @@
     "commands": [
       {
         "command": "materialTheme.toggleApplyIcons",
-        "title": "Toggle icons auto-apply ",
+        "title": "Enable or disable icons auto-applying",
         "category": "🎨 Material Theme"
       },
       {
