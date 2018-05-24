@@ -9,3 +9,5 @@ node_modules/
 .DS_Store
 /themes
 /icons
+/src/icons/svgs/*
+.tmp-output-remote-icons
