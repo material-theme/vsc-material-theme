@@ -4,16 +4,8 @@ import {IAccentCustomProperty} from './../../interfaces/iaccent-custom-property'
 import {IGenericObject} from './../../interfaces/igeneric-object';
 import {
   updateAccent,
-  isMaterialTheme,
-  isMaterialThemeIcons
 } from './../../helpers/settings';
-import {
-  getCurrentThemeID,
-  getCurrentThemeIconsID,
-  reloadWindow
-} from './../../helpers/vscode';
 import {getDefaultValues} from './../../helpers/fs';
-import {THEME_ICONS} from './../theme-icons/index';
 
 const REGEXP_HEX: RegExp = /^#([0-9A-F]{6}|[0-9A-F]{8})$/i;
 
@@ -62,11 +54,11 @@ const accentsProperties: IGenericObject <IAccentCustomProperty> = {
     alpha: 100,
     value: undefined
   },
-  "editor.findWidgetResizeBorder": {
+  'editor.findWidgetResizeBorder': {
     alpha: 100,
     value: undefined
   },
-  "editorWidget.border": {
+  'editorWidget.border': {
     alpha: 100,
     value: undefined
   }
@@ -101,47 +93,37 @@ const isValidColour = (colour: string | null | undefined): boolean =>
 /**
  * Sets workbench options
  */
-const setWorkbenchOptions = (accentSelected: string | undefined, config: any): void => {
-  vscode.workspace.getConfiguration().update('workbench.colorCustomizations', config, true).then(() => {
-    const themeID = getCurrentThemeID();
-    const themeIconsID = getCurrentThemeIconsID();
-
-    updateAccent(accentSelected).then(() => {
-      if (isMaterialTheme(themeID) && isMaterialThemeIcons(themeIconsID)) {
-        THEME_ICONS().then(() => reloadWindow());
-      }
-    });
-  }, reason => {
-    vscode.window.showErrorMessage(reason);
-  });
-};
+const setWorkbenchOptions = (accentSelected: string | undefined, config: any): Thenable<string> =>
+  vscode.workspace.getConfiguration().update('workbench.colorCustomizations', config, true)
+    .then(() => updateAccent(accentSelected),
+    reason => vscode.window.showErrorMessage(reason));
 
 /**
  * VSCode command
  */
-export const THEME_ACCENTS_SETTER = () => {
+export default async (): Promise<boolean> => {
   const themeConfigCommon = getDefaultValues();
-  // shows the quick pick dropdown
-  const options: string[] = Object.keys(themeConfigCommon.accents);
   const purgeColourKey: string = 'Remove accents';
+  const options: string[] = Object.keys(themeConfigCommon.accents).concat(purgeColourKey);
 
-  options.push(purgeColourKey);
+  // shows the quick pick dropdown and wait response
+  const accentSelected = await vscode.window.showQuickPick(options);
 
-  vscode.window.showQuickPick(options).then(accentSelected => {
-    if (accentSelected === null || accentSelected === undefined) {
-      return;
-    }
+  if (accentSelected === null || accentSelected === undefined) {
+    Promise.resolve(null);
+  }
 
-    const config: any = vscode.workspace.getConfiguration().get('workbench.colorCustomizations');
+  const config: any = vscode.workspace.getConfiguration().get('workbench.colorCustomizations');
 
-    switch (accentSelected) {
-      case purgeColourKey:
-        assignColorCustomizations(undefined, config);
-        setWorkbenchOptions(undefined, config);
-        break;
-      default:
-        assignColorCustomizations(themeConfigCommon.accents[accentSelected], config);
-        setWorkbenchOptions(accentSelected, config);
-    }
-  });
+  switch (accentSelected) {
+    case purgeColourKey:
+      assignColorCustomizations(undefined, config);
+      await setWorkbenchOptions(undefined, config);
+      return Promise.resolve(true);
+    default:
+      assignColorCustomizations(themeConfigCommon.accents[accentSelected], config);
+      await setWorkbenchOptions(accentSelected, config);
+      return Promise.resolve(true);
+  }
+
 };
