@@ -51,7 +51,7 @@ ext install vsc-material-theme
 
 #### Packaged VSIX Extension
 
-[Download the latest .vsix release](https://github.com/equinusocio/vsc-material-theme/releases/latest) file from the GitHub repository and install it from the command line
+[Download the latest .vsix release](https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Equinusocio/vsextensions/vsc-material-theme/latest/vspackage) file from the marketplace and install it from the command line
 
 ```shell
 code --install-extension vsc-material-theme-*.*.*.vsix
