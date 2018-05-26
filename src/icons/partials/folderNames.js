@@ -11,6 +11,7 @@
   ".github": "_folder_github",
   ".vscode": "_folder_vscode",
   ".gulp": "_folder_gulp",
+  "gulp": "_folder_gulp",
   "build": "_folder_dark_build",
   "dist": "_folder_dist"
 },
