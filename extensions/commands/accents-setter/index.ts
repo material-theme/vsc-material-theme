@@ -61,6 +61,10 @@ const accentsProperties: IGenericObject <IAccentCustomProperty> = {
   'editorWidget.border': {
     alpha: 100,
     value: undefined
+  },
+  'settings.modifiedItemForeground': {
+    alpha: 100,
+    value: undefined
   }
 };
 
