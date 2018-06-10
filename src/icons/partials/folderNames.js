@@ -12,7 +12,7 @@
   ".vscode": "_folder_vscode",
   ".gulp": "_folder_gulp",
   "gulp": "_folder_gulp",
-  "build": "_folder_dark_build",
+  "build": "_folder_dark_dist",
   "dist": "_folder_dist"
 },
 "folderNamesExpanded": {
@@ -28,6 +28,6 @@
   ".github": "_folder_github_open",
   ".gulp": "_folder_gulp_open",
   ".vscode": "_folder_vscode_open",
-  "build": "_folder_open_build",
+  "build": "_folder_open_dist",
   "dist": "_folder_dist_open"
 }

@@ -121,14 +121,8 @@
         "_folder_dark": {
           "iconPath": "../icons/folder_dark.svg"
         },
-        "_folder_dark_build": {
-          "iconPath": "../icons/folder_dark_build.svg"
-        },
         "_folder_light": {
           "iconPath": "../icons/folder_light.svg"
-        },
-        "_folder_light_build": {
-          "iconPath": "../icons/folder_light_build.svg"
         },
         "_file_folder": {
           "iconPath": "../icons/file_folder.svg"
