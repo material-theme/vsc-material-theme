@@ -214,7 +214,6 @@
     "json-minify": "1.0.0",
     "mustache": "2.3.0",
     "ncp": "2.0.0",
-    "rimraf": "2.6.2",
     "run-sequence": "2.2.1",
     "standard-version": "4.3.0",
     "svgo": "1.0.4",
