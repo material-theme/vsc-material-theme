@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "lnk": "_file_lnk",
   "pm": "_file_perl",
   "pl": "_file_perl",
   "sql": "_file_sql",
