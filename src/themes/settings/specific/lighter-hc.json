@@ -28,6 +28,7 @@
     "listHoverForeground": "#B1C7D3",
     "listHoverBackground": "#FAFAFA",
     "tabActiveForeground": "#000000",
+    "inactiveSelectionBackground": "#CCD7DA50",
     "base": {
       "white": "#FFFFFF",
       "black": "#000000",

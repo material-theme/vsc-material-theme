@@ -756,7 +756,7 @@
     "list.activeSelectionBackground": "{{variant.scheme.backgroundAlt}}",
     "list.activeSelectionForeground": "{{commons.accents.Teal}}",
     "list.inactiveSelectionForeground": "{{commons.accents.Teal}}",
-    "list.inactiveSelectionBackground": "#00000030",
+    "list.inactiveSelectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
     "list.focusBackground": "{{variant.scheme.foreground}}20",
     "list.focusForeground": "{{variant.scheme.foreground}}",
     "list.highlightForeground": "{{commons.accents.Teal}}",
