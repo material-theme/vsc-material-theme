@@ -10,7 +10,6 @@
 
 - [Contributing guidelines](#contributing-guidelines)
     - [Requirements:](#requirements)
-    - [Decrypt content](#decrypt-content)
     - [Installing and compiling source](#installing-and-compiling-source)
         - [Testing the theme](#testing-the-theme)
         - [Adding new Material Theme commands](#adding-new-material-theme-commands)
@@ -20,16 +19,6 @@
         - [Contributors](#contributors)
         - [Backers](#backers)
         - [Sponsors](#sponsors)
-
-## Decrypt content
-We use git-crypt to encrypt compiler files. To contribute you need a GPG key public/private associated with your github email.
-
-1. Export your public key by running
-
-```gpg --output PATH/FILENAME.gpg --export ASSOCIATEDEMAIL```
-
-2. Send the exported `.gpg` file to a contributor that will add you to the trusted people.
-3. Fetch and pull then decrypt files with `git-crypt unlock` entering your key password.
 
 ## Installing and compiling source
 
