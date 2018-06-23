@@ -10,8 +10,6 @@
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
 
-<!-- TOC -->
-
 - [Getting started](#getting-started)
     - [Installation](#installation)
             - [Packaged VSIX Extension](#packaged-vsix-extension)
@@ -19,10 +17,9 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
     - [Activate theme](#activate-theme)
     - [Fix File Icons](#fix-file-icons)
     - [Set the accent color](#set-the-accent-color)
-    - [Disabling/enabling file icons auto-applying](#disabling-enabling-file-icons-auto-applying)
+    - [Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
     - [Override theme colors](#override-theme-colors)
         - [Color Scheme override](#color-scheme-override)
-        - [UI Overrides](#ui-overrides)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
@@ -30,7 +27,6 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
     - [Backers](#backers)
     - [Sponsors](#sponsors)
 
-<!-- /TOC -->
 
 # Getting started
 
@@ -138,6 +134,7 @@ You can override the material theme ui and schemes colors by adding these theme-
 ```js
 "editor.tokenColorCustomizations": {
     "[Material Theme VARIANT]": {
+        "sideBar.background": "#347890",
         "textMateRules": [
             {
                 "scope": [
@@ -153,16 +150,6 @@ You can override the material theme ui and schemes colors by adding these theme-
         ]
     },
 },
-```
-
-### UI Overrides
-
-```js
-"workbench.colorCustomizations": {
-    "[Material Theme]": {
-        "sideBar.background": "#347890"
-    },
-}
 ```
 
 # Recommended settings for a better experience
