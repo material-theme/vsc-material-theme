@@ -65,6 +65,10 @@ const accentsProperties: IGenericObject <IAccentCustomProperty> = {
   'settings.modifiedItemForeground': {
     alpha: 100,
     value: undefined
+  },
+  'panelTitle.activeBorder': {
+    alpha: 100,
+    value: undefined
   }
 };
 
