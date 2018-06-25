@@ -143,6 +143,8 @@
   "cpp": "_file_cpp",
   "c++": "_file_cpp",
   "hpp": "_file_cpp",
+  "hxx": "_file_cpp",
+  "hh": "_file_cpp",
   "mm": "_file_cpp",
   "cxx": "_file_cpp",
   "go": "_file_go",
