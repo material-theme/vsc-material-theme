@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "mdx": "_file_mdx",
   "lnk": "_file_lnk",
   "pm": "_file_perl",
   "pl": "_file_perl",
