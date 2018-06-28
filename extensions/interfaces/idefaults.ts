@@ -1,5 +1,9 @@
+import {IGenericObject} from './igeneric-object';
+import {IAccentCustomProperty} from './iaccent-custom-property';
+
 export interface IDefaults {
   accents: IAccents;
+  accentsProperties: IGenericObject <IAccentCustomProperty>;
   accentableIcons: string[];
   changelog: IChangelog;
   icons: IDefaultsThemeIcons;

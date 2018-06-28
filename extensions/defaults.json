@@ -36,8 +36,70 @@
     "_folder_dist_open",
     "_folder_ci_open"
   ],
+  "accentsProperties": {
+    "activityBarBadge.background": {
+      "alpha": 100,
+      "value": null
+    },
+    "list.activeSelectionForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "list.inactiveSelectionForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "list.highlightForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "scrollbarSlider.activeBackground": {
+      "alpha": 50,
+      "value": null
+    },
+    "editorSuggestWidget.highlightForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "textLink.foreground": {
+      "alpha": 100,
+      "value": null
+    },
+    "progressBar.background": {
+      "alpha": 100,
+      "value": null
+    },
+    "pickerGroup.foreground": {
+      "alpha": 100,
+      "value": null
+    },
+    "tab.activeBorder": {
+      "alpha": 100,
+      "value": null
+    },
+    "notificationLink.foreground": {
+      "alpha": 100,
+      "value": null
+    },
+    "editor.findWidgetResizeBorder": {
+      "alpha": 100,
+      "value": null
+    },
+    "editorWidget.border": {
+      "alpha": 100,
+      "value": null
+    },
+    "settings.modifiedItemForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "panelTitle.activeBorder": {
+      "alpha": 100,
+      "value": null
+    }
+  },
   "changelog": {
-    "lastversion": "2.0.1"
+    "lastversion": "2.1.0"
   },
   "icons": {
     "theme": {
