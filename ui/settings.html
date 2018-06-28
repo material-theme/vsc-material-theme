@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Material Theme Settings Editor</title>
+
+  <link rel="stylesheet" href="{{root}}/ui/settings/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@native-elements/native-elements/dist/native-elements.css">
+</head>
+<body>
+  <header>
+    <h1>Material Theme Settings Editor (preview)</h1>
+  </header>
+
+  <main>
+    <button ne-button tabindex="2" autofocus>Button</button>
+
+    <div class="SettingsContainer">
+      <div>
+        <label>Fix file icons</label>
+        <input id="fixIconsCTA" type="submit" value="Fix">
+      </div>
+
+      <div class="AccentsRadioContainer" data-setting="accentSelector">
+        <!-- Populated by js -->
+      </div>
+    </div>
+  </main>
+
+  <input value="Example input">
+
+  <script type="text/javascript">
+    window.bootstrap = '{{bootstrap}}';
+  </script>
+  <script type="text/javascript" src="{{root}}/ui/settings.js"></script>
+</body>
+</html>
