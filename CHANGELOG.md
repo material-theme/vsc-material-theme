@@ -25,8 +25,8 @@ All notable changes to this project will be documented in this file. See [standa
 * Add .lnk file icon ([8aaabe8](https://github.com/equinusocio/vsc-material-theme/commit/8aaabe8)), closes [#201](https://github.com/equinusocio/vsc-material-theme/issues/201)
 * Add mdx file icon ([d191329](https://github.com/equinusocio/vsc-material-theme/commit/d191329)), closes [#211](https://github.com/equinusocio/vsc-material-theme/issues/211)
 * Add support to the new settings view ([1e6150b](https://github.com/equinusocio/vsc-material-theme/commit/1e6150b))
-* New command to disabling/disabling icons auto-applaying ([0fa2ac0](https://github.com/equinusocio/vsc-material-theme/commit/0fa2ac0))
-* New redesigned icons for folders and add new scss, sass and css folder icon ([a293a6f](https://github.com/equinusocio/vsc-material-theme/commit/a293a6f))
+* New command to enabling/disabling icons auto-applaying ([0fa2ac0](https://github.com/equinusocio/vsc-material-theme/commit/0fa2ac0))
+* New redesigned icons for folders and add new scs and css folder icon ([a293a6f](https://github.com/equinusocio/vsc-material-theme/commit/a293a6f))
 * New set of file icons with new and redesigned icons ([eb1c2ed](https://github.com/equinusocio/vsc-material-theme/commit/eb1c2ed))
 
 
