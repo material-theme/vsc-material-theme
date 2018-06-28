@@ -36,6 +36,10 @@ export function getVariantIcons(): string[] {
   return getDefaultValues().variantsIcons;
 }
 
+export function getAccentsProperties() {
+  return getDefaultValues().accentsProperties;
+}
+
 /**
  * Gets a theme content by a given contribute ID
  */

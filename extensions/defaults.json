@@ -25,6 +25,8 @@
     "_folder_node_open",
     "_folder_images_open",
     "_folder_js_open",
+    "_folder_css_open",
+    "_folder_sass_open",
     "_folder_src_open",
     "_folder_assets_open",
     "_folder_bower_open",
@@ -34,12 +36,86 @@
     "_folder_dist_open",
     "_folder_ci_open"
   ],
+  "accentsProperties": {
+    "activityBarBadge.background": {
+      "alpha": 100,
+      "value": null
+    },
+    "list.activeSelectionForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "list.inactiveSelectionForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "list.highlightForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "scrollbarSlider.activeBackground": {
+      "alpha": 50,
+      "value": null
+    },
+    "editorSuggestWidget.highlightForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "textLink.foreground": {
+      "alpha": 100,
+      "value": null
+    },
+    "progressBar.background": {
+      "alpha": 100,
+      "value": null
+    },
+    "pickerGroup.foreground": {
+      "alpha": 100,
+      "value": null
+    },
+    "tab.activeBorder": {
+      "alpha": 100,
+      "value": null
+    },
+    "notificationLink.foreground": {
+      "alpha": 100,
+      "value": null
+    },
+    "editor.findWidgetResizeBorder": {
+      "alpha": 100,
+      "value": null
+    },
+    "editorWidget.border": {
+      "alpha": 100,
+      "value": null
+    },
+    "settings.modifiedItemForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "panelTitle.activeBorder": {
+      "alpha": 100,
+      "value": null
+    }
+  },
   "changelog": {
     "lastversion": "2.1.0"
   },
   "icons": {
     "theme": {
       "iconDefinitions": {
+        "_folder_sass": {
+          "iconPath": "../icons/folder_sass.svg"
+        },
+        "_folder_sass_open": {
+          "iconPath": "../icons/folder_sass_open.svg"
+        },
+        "_folder_css": {
+          "iconPath": "../icons/folder_css.svg"
+        },
+        "_folder_css_open": {
+          "iconPath": "../icons/folder_css_open.svg"
+        },
         "_folder_ci": {
           "iconPath": "../icons/folder_ci.svg"
         },
@@ -121,14 +197,8 @@
         "_folder_dark": {
           "iconPath": "../icons/folder_dark.svg"
         },
-        "_folder_dark_build": {
-          "iconPath": "../icons/folder_dark_build.svg"
-        },
         "_folder_light": {
           "iconPath": "../icons/folder_light.svg"
-        },
-        "_folder_light_build": {
-          "iconPath": "../icons/folder_light_build.svg"
         },
         "_file_folder": {
           "iconPath": "../icons/file_folder.svg"
@@ -188,22 +258,22 @@
     "Ocean High Contrast": "vs-dark"
   },
   "variantsIcons": [
-    "_folder_dark_build",
-    "_folder_dark",
-    "_folder_light_build",
-    "_folder_light",
-    "_folder_vscode",
+    "_folder_sass",
+    "_folder_css",
+    "_folder_ci",
+    "_folder_dist",
+    "_folder_test",
+    "_folder_github",
+    "_folder_git",
+    "_folder_bower",
+    "_folder_assets",
+    "_folder_src",
+    "_folder_js",
+    "_folder_images",
     "_folder_gulp",
     "_folder_node",
-    "_folder_images",
-    "_folder_js",
-    "_folder_src",
-    "_folder_assets",
-    "_folder_bower",
-    "_folder_git",
-    "_folder_github",
-    "_folder_test",
-    "_folder_dist",
-    "_folder_ci"
+    "_folder_vscode",
+    "_folder_dark",
+    "_folder_light"
   ]
 }

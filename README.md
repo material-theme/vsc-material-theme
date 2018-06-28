@@ -4,13 +4,10 @@
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/vsc-material-theme.svg?style=flat-square)](https://twitter.com/intent/tweet?text=This%20is%20the%20most%20epic%20theme:&url=https%3A%2F%2Fgithub.com%2Fequinusocio%2Fvsc-material-theme)
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/vsc-material-theme.svg?style=flat-square)](https://github.com/equinusocio/vsc-material-theme/releases)
 <a href="https://code.visualstudio.com/updates/v1_19"><img src="https://img.shields.io/badge/VS_Code-v1.19+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs/Equinusocio.vsc-material-theme.svg?style=flat-square"/></a>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9RSHP5RSLKH64&lc=GB&item_name=Material%20Theme%20for%20Visual%20Studio%20Code&item_number=material%2dtheme%2ddonation&no_note=0&cn=Aggiungi%20istruzioni%20speciali%20per%20il%20venditore%3a&no_shipping=2&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
-"><img src="https://img.shields.io/badge/Support%20this%20project-%F0%9F%92%80-ff69b4.svg?style=flat-square"/></a>
+<a href="https://opencollective.com/vsc-material-theme"><img src="https://img.shields.io/badge/Support%20this%20project-%F0%9F%92%96%EF%B8%8F-green.svg?style=flat-square"/></a>
 
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
-
-<!-- TOC -->
 
 - [Getting started](#getting-started)
     - [Installation](#installation)
@@ -19,10 +16,9 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
     - [Activate theme](#activate-theme)
     - [Fix File Icons](#fix-file-icons)
     - [Set the accent color](#set-the-accent-color)
-    - [Disabling/enabling file icons auto-applying](#disabling-enabling-file-icons-auto-applying)
+    - [Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
     - [Override theme colors](#override-theme-colors)
         - [Color Scheme override](#color-scheme-override)
-        - [UI Overrides](#ui-overrides)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
@@ -30,7 +26,6 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
     - [Backers](#backers)
     - [Sponsors](#sponsors)
 
-<!-- /TOC -->
 
 # Getting started
 
@@ -138,6 +133,7 @@ You can override the material theme ui and schemes colors by adding these theme-
 ```js
 "editor.tokenColorCustomizations": {
     "[Material Theme VARIANT]": {
+        "sideBar.background": "#347890",
         "textMateRules": [
             {
                 "scope": [
@@ -153,16 +149,6 @@ You can override the material theme ui and schemes colors by adding these theme-
         ]
     },
 },
-```
-
-### UI Overrides
-
-```js
-"workbench.colorCustomizations": {
-    "[Material Theme]": {
-        "sideBar.background": "#347890"
-    },
-}
 ```
 
 # Recommended settings for a better experience

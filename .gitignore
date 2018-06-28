@@ -11,3 +11,4 @@ node_modules/
 /icons
 /src/icons/svgs/*.svg
 .tmp-output-remote-icons
+_tmp-output-remote-icons

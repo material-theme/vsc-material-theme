@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "author": "Mattia Astorino [@equinusocio]",
@@ -28,7 +28,7 @@
     }
   },
   "scripts": {
-    "build": "yarn get-remote-icons && yarn build-icons && yarn build-themes && yarn build-icons-accents && yarn build-icons-variants && yarn build-icons-variants-json",
+    "build": "rimraf _tmp-output-remote-icons/ && yarn get-remote-icons && yarn build-icons && yarn build-themes && yarn build-icons-accents && yarn build-icons-variants && yarn build-icons-variants-json",
     "minimize-icons": "mkdir icons && svgo -f src/icons/svgs -o icons/",
     "minimize-json": "json-minify themes/.material-theme-icons.tmp > themes/Material-Theme-Icons.json && yarn remove-icons-tmp",
     "remove-icons": "rimraf icons && rimraf themes/Material-Theme-Icons.json",
@@ -214,7 +214,6 @@
     "json-minify": "1.0.0",
     "mustache": "2.3.0",
     "ncp": "2.0.0",
-    "rimraf": "2.6.2",
     "run-sequence": "2.2.1",
     "standard-version": "4.3.0",
     "svgo": "1.0.4",

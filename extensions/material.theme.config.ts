@@ -6,10 +6,10 @@ import {
 import * as ThemeCommands from './commands';
 import {isAutoApplyEnable} from './helpers/settings';
 import {onChangeConfiguration} from './helpers/configuration-change';
-import {infoMessage} from './helpers/messages';
+import {infoMessage, changelogMessage} from './helpers/messages';
 import shouldShowChangelog from './helpers/should-show-changelog';
 
-export function activate() {
+export async function activate() {
   const config = Workspace.getConfiguration();
 
   // Listen on set theme: when the theme is Material Theme, just adjust icon and accent.
@@ -21,7 +21,10 @@ export function activate() {
   }
 
   if (shouldShowChangelog()) {
-    ThemeCommands.showChangelog();
+    const show = await changelogMessage();
+    if (show) {
+      ThemeCommands.showChangelog();
+    }
   }
 
   // Registering commands
