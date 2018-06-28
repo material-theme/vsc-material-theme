@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.0.1...v2.2.0) (2018-06-28)
+
+
+### Bug Fixes
+
+* Fix rust file icon association ([c4e1dbe](https://github.com/equinusocio/vsc-material-theme/commit/c4e1dbe))
+* Fix some icon colors and add haxe file icon ([04e7db8](https://github.com/equinusocio/vsc-material-theme/commit/04e7db8))
+* **Icons:** Add icon to .spec.ts files ([fad5e29](https://github.com/equinusocio/vsc-material-theme/commit/fad5e29))
+* **Lighter:** Fix folders icon association ([b2c8be8](https://github.com/equinusocio/vsc-material-theme/commit/b2c8be8))
+* Fix statubar item hover background ([c19ab43](https://github.com/equinusocio/vsc-material-theme/commit/c19ab43))
+* Fix status bar hover item background on Lighter variant. ([27624fa](https://github.com/equinusocio/vsc-material-theme/commit/27624fa))
+* Fix terminal.ansiBlack color ([86def00](https://github.com/equinusocio/vsc-material-theme/commit/86def00)), closes [#180](https://github.com/equinusocio/vsc-material-theme/issues/180)
+* Fix titlebar contrast color ([74e0456](https://github.com/equinusocio/vsc-material-theme/commit/74e0456))
+* Fix ts icon color ([4c851ea](https://github.com/equinusocio/vsc-material-theme/commit/4c851ea)), closes [#172](https://github.com/equinusocio/vsc-material-theme/issues/172)
+* Improve panels titles ([905e99a](https://github.com/equinusocio/vsc-material-theme/commit/905e99a)), closes [#208](https://github.com/equinusocio/vsc-material-theme/issues/208)
+
+
+### Features
+
+* Add .lnk file icon ([8aaabe8](https://github.com/equinusocio/vsc-material-theme/commit/8aaabe8)), closes [#201](https://github.com/equinusocio/vsc-material-theme/issues/201)
+* Add mdx file icon ([d191329](https://github.com/equinusocio/vsc-material-theme/commit/d191329)), closes [#211](https://github.com/equinusocio/vsc-material-theme/issues/211)
+* Add support to the new settings view ([1e6150b](https://github.com/equinusocio/vsc-material-theme/commit/1e6150b))
+* New command to disabling/disabling icons auto-applaying ([0fa2ac0](https://github.com/equinusocio/vsc-material-theme/commit/0fa2ac0))
+* New redesigned icons for folders and add new scss, sass and css folder icon ([a293a6f](https://github.com/equinusocio/vsc-material-theme/commit/a293a6f))
+* New set of file icons with new and redesigned icons ([eb1c2ed](https://github.com/equinusocio/vsc-material-theme/commit/eb1c2ed))
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.0.1...v2.1.0) (2018-05-24)
 
