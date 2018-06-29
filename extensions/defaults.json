@@ -81,7 +81,7 @@
       "alpha": 100,
       "value": null
     },
-    "editor.findWidgetResizeBorder": {
+    "editorWidget.resizeBorder": {
       "alpha": 100,
       "value": null
     },
