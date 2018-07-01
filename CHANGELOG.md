@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.3.0"></a>
+# [2.3.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.2.0...v2.3.0) (2018-07-01)
+
+
+### Bug Fixes
+
+* Fix find widget border color ([bcd9667](https://github.com/equinusocio/vsc-material-theme/commit/bcd9667)), closes [#218](https://github.com/equinusocio/vsc-material-theme/issues/218)
+
+
+### Features
+
+* Add icon to source folders ([8cfc0a5](https://github.com/equinusocio/vsc-material-theme/commit/8cfc0a5))
+
+
+
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.0.1...v2.1.0) (2018-05-24)
+
+
+
 <a name="2.2.0"></a>
 # [2.2.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.0.1...v2.2.0) (2018-06-28)
 
