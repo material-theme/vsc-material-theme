@@ -6,12 +6,12 @@ import * as ThemeCommands from './../commands';
 
 const MESSAGES = {
   INFO: {
-    message: 'You should reload the window for full activate the Material Theme.',
-    options: {ok: 'Reload now', cancel: 'Cancel'}
+    message: 'Do you want to reload to apply Material Theme Icons to enjoy the full experience?',
+    options: {ok: 'Yeah, releoad', cancel: 'No, thank you'}
   },
   CHANGELOG: {
-    message: 'Material Theme was updated. Check the changelog for more details!',
-    options: {ok: 'Show changelog', cancel: 'Maybe later'}
+    message: 'Material Theme was updated. Check the release notes for more details.',
+    options: {ok: 'Show me', cancel: 'Maybe later'}
   }
 };
 
