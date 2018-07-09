@@ -1,4 +1,6 @@
 "fileExtensions": {
+  "cfc": "_file_coldfusion",
+  "cfm": "_file_coldfusion",
   "mdx": "_file_mdx",
   "lnk": "_file_lnk",
   "pm": "_file_perl",
