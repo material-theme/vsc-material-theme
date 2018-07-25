@@ -48,6 +48,10 @@
     "Themes",
     "Other"
   ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
   "activationEvents": [
     "*"
   ],
