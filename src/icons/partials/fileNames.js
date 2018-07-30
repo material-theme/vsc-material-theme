@@ -1,4 +1,6 @@
 "fileNames": {
+  ".graphqlconfig.yml": "_file_graphql",
+  ".graphqlconfig.yaml": "_file_graphql",
   "prettier.config.js": "_file_prettier",
   ".prettierrc.js": "_file_prettier",
   ".prettierrc.json": "_file_prettier",

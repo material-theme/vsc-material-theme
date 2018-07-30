@@ -252,6 +252,7 @@
   "txt": "_file_document",
   "sqlite": "_file_database",
   "graphql": "_file_graphql",
+  "graphqlconfig": "_file_graphql",
   "gql": "_file_graphql",
   "props": "_file_settings",
   "toml": "_file_settings",
