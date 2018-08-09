@@ -1,4 +1,6 @@
 "fileExtensions": {
+  "cfc": "_file_coldfusion",
+  "cfm": "_file_coldfusion",
   "mdx": "_file_mdx",
   "lnk": "_file_lnk",
   "pm": "_file_perl",
@@ -250,6 +252,7 @@
   "txt": "_file_document",
   "sqlite": "_file_database",
   "graphql": "_file_graphql",
+  "graphqlconfig": "_file_graphql",
   "gql": "_file_graphql",
   "props": "_file_settings",
   "toml": "_file_settings",

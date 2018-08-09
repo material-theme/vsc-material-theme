@@ -20,7 +20,7 @@
     "url": "https://github.com/equinusocio/vsc-material-theme/issues"
   },
   "engines": {
-    "vscode": "^1.19.0"
+    "vscode": "^1.24.0"
   },
   "standard-version": {
     "scripts": {
@@ -47,6 +47,10 @@
   "categories": [
     "Themes",
     "Other"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
   ],
   "activationEvents": [
     "*"
@@ -77,7 +81,7 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "Material Theme configuration",
+      "title": "Material Theme",
       "properties": {
         "materialTheme.accent": {
           "type": "string",

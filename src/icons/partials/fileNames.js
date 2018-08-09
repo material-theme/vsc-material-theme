@@ -1,4 +1,6 @@
 "fileNames": {
+  ".graphqlconfig.yml": "_file_graphql",
+  ".graphqlconfig.yaml": "_file_graphql",
   "prettier.config.js": "_file_prettier",
   ".prettierrc.js": "_file_prettier",
   ".prettierrc.json": "_file_prettier",
@@ -66,6 +68,10 @@
   ".editorconfig": "_file_settings",
   "procfile": "_file_procfile",
   ".env": "_file_tune",
+  ".env.development": "_file_tune",
+  ".env.testing": "_file_tune",
+  ".env.staging": "_file_tune",
+  ".env.production": "_file_tune",
   "dockerfile": "_file_docker",
   "license": "_file_license",
   "license.md": "_file_license",
