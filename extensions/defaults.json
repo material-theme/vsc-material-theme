@@ -96,6 +96,18 @@
     "panelTitle.activeBorder": {
       "alpha": 100,
       "value": null
+    },
+    "breadcrumb.activeSelectionForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "menu.selectionForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "menubar.selectionForeground": {
+      "alpha": 100,
+      "value": null
     }
   },
   "changelog": {

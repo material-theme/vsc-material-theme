@@ -823,6 +823,18 @@
     "gitDecoration.untrackedResourceForeground": "{{variant.scheme.base.green}}90",
     "gitDecoration.ignoredResourceForeground": "{{variant.scheme.sidebarForeground}}90",
     "peekViewResult.selectionBackground": "{{variant.scheme.sidebarForeground}}70",
-    "settings.modifiedItemForeground": "{{commons.accents.Teal}}"
+    "settings.modifiedItemForeground": "{{commons.accents.Teal}}",
+    "breadcrumb.foreground": "{{variant.scheme.sidebarForeground}}",
+    "breadcrumb.focusForeground": "{{variant.scheme.foreground}}",
+    "breadcrumb.activeSelectionForeground": "{{commons.accents.Teal}}",
+    "breadcrumbPicker.background": "{{variant.scheme.backgroundAlt}}",
+    "menu.background": "{{variant.scheme.background}}",
+    "menu.foreground": "{{variant.scheme.sidebarForeground}}",
+    "menu.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
+    "menu.selectionForeground": "{{commons.accents.Teal}}",
+    "menu.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
+    "menubar.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
+    "menubar.selectionForeground": "{{commons.accents.Teal}}",
+    "menubar.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}"
   }
 }
