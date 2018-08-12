@@ -7,10 +7,14 @@ import * as ThemeCommands from './commands';
 import {isAutoApplyEnable} from './helpers/settings';
 import {onChangeConfiguration} from './helpers/configuration-change';
 import {infoMessage, changelogMessage} from './helpers/messages';
-import shouldShowChangelog from './helpers/should-show-changelog';
+import checkInstallation from './helpers/check-installation';
+import writeChangelog from './helpers/write-changelog';
 
 export async function activate() {
   const config = Workspace.getConfiguration();
+  const installationType = checkInstallation();
+
+  writeChangelog();
 
   // Listen on set theme: when the theme is Material Theme, just adjust icon and accent.
   Workspace.onDidChangeConfiguration(onChangeConfiguration);
@@ -20,17 +24,14 @@ export async function activate() {
     config.update('materialTheme.cache.workbench', undefined, true);
   }
 
-  if (shouldShowChangelog()) {
-    const show = await changelogMessage();
-    if (show) {
-      ThemeCommands.showChangelog();
-    }
+  const shouldShowChangelog = (installationType.isFirstInstall || installationType.isUpdate) && await changelogMessage();
+  if (shouldShowChangelog) {
+    ThemeCommands.showChangelog();
   }
 
   // Registering commands
   Commands.registerCommand('materialTheme.setAccent', async () => {
     const wasSet = await ThemeCommands.accentsSetter();
-
     if (wasSet) {
       return isAutoApplyEnable() ? ThemeCommands.fixIcons() : infoMessage();
     }
