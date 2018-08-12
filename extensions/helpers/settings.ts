@@ -22,7 +22,14 @@ export function getCustomSettings(): IThemeCustomProperties {
  * Get autoApplyIcons
  */
 export function isAutoApplyEnable(): boolean {
-  return vscode.workspace.getConfiguration().get<boolean>('materialTheme.autoApplyIcons', true);
+  return vscode.workspace.getConfiguration().get<boolean>('materialTheme.autoApplyIcons');
+}
+
+/**
+ * Get showReloadNotification
+ */
+export function isReloadNotificationEnable(): boolean {
+  return vscode.workspace.getConfiguration().get<boolean>('materialTheme.showReloadNotification');
 }
 
 /**
