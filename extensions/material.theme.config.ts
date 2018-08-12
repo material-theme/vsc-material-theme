@@ -4,11 +4,12 @@ import {
 } from 'vscode';
 
 import * as ThemeCommands from './commands';
-import {isAutoApplyEnable, setCustomSetting} from './helpers/settings';
+import {setCustomSetting} from './helpers/settings';
 import {onChangeConfiguration} from './helpers/configuration-change';
-import {infoMessage, changelogMessage, installationMessage} from './helpers/messages';
+import {changelogMessage, installationMessage} from './helpers/messages';
 import checkInstallation from './helpers/check-installation';
 import writeChangelog from './helpers/write-changelog';
+import handleAutoapply from './helpers/handle-autoapply';
 
 export async function activate() {
   const config = Workspace.getConfiguration();
@@ -39,9 +40,7 @@ export async function activate() {
   // Registering commands
   Commands.registerCommand('materialTheme.setAccent', async () => {
     const wasSet = await ThemeCommands.accentsSetter();
-    if (wasSet) {
-      return isAutoApplyEnable() ? ThemeCommands.fixIcons() : infoMessage();
-    }
+    handleAutoapply(wasSet);
   });
   Commands.registerCommand('materialTheme.fixIcons', () => ThemeCommands.fixIcons());
   Commands.registerCommand('materialTheme.toggleApplyIcons', () => ThemeCommands.toggleApplyIcons());
