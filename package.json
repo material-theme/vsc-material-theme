@@ -93,7 +93,12 @@
         },
         "materialTheme.autoApplyIcons": {
           "type": "boolean",
-          "description": "Enable/disable auto-apply of Material Theme icons",
+          "description": "Enable/disable auto-apply of Material Theme icons with window reload when needed",
+          "default": false
+        },
+        "materialTheme.showReloadNotification": {
+          "type": "boolean",
+          "description": "Useful when autoApplyIcons is false and you want to be asked to reload the window when needed",
           "default": true
         },
         "materialTheme.fixIconsRunning": {

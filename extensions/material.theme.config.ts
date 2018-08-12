@@ -4,9 +4,9 @@ import {
 } from 'vscode';
 
 import * as ThemeCommands from './commands';
-import {isAutoApplyEnable} from './helpers/settings';
+import {isAutoApplyEnable, setCustomSetting} from './helpers/settings';
 import {onChangeConfiguration} from './helpers/configuration-change';
-import {infoMessage, changelogMessage} from './helpers/messages';
+import {infoMessage, changelogMessage, installationMessage} from './helpers/messages';
 import checkInstallation from './helpers/check-installation';
 import writeChangelog from './helpers/write-changelog';
 
@@ -22,6 +22,13 @@ export async function activate() {
   // Delete old configuration, must remove with next major release
   if (config.has('materialTheme.cache.workbench')) {
     config.update('materialTheme.cache.workbench', undefined, true);
+  }
+
+  if (installationType.isFirstInstall) {
+    const enableAutoApply = await installationMessage();
+    await setCustomSetting('autoApplyIcons', enableAutoApply);
+    // Set true always on new installation
+    await setCustomSetting('showReloadNotification', true);
   }
 
   const shouldShowChangelog = (installationType.isFirstInstall || installationType.isUpdate) && await changelogMessage();
