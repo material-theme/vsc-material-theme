@@ -108,6 +108,10 @@
     "menubar.selectionForeground": {
       "alpha": 100,
       "value": null
+    },
+    "settings.headerForeground": {
+      "alpha": 100,
+      "value": null
     }
   },
   "changelog": {
