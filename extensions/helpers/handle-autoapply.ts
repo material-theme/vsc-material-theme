@@ -17,14 +17,6 @@ export default async (doubleCheck: boolean) => {
 
   const result = await infoMessage();
 
-  if (result.nomore) {
-    return setCustomSetting('showReloadNotification', false);
-  }
-
-  if (result.autoreload) {
-    setCustomSetting('autoApplyIcons', true);
-  }
-
   if (result.reload) {
     return fixIcons();
   }

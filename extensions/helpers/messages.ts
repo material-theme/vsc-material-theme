@@ -5,7 +5,7 @@ import {
 const MESSAGES = {
   INFO: {
     message: 'Do you want to reload to apply Material Theme Icons to enjoy the full experience?',
-    options: {ok: 'Yeah, reload', autoreload: 'Yes and enable auto-reload', cancel: 'No, thank you', nomore: 'Never show again'}
+    options: {ok: 'Yeah, reload', cancel: 'No, thank you'}
   },
   CHANGELOG: {
     message: 'Material Theme was updated. Check the release notes for more details.',
@@ -21,18 +21,12 @@ export const infoMessage = async () => {
   const result = await Window.showInformationMessage(
     MESSAGES.INFO.message,
     MESSAGES.INFO.options.ok,
-    MESSAGES.INFO.options.autoreload,
-    MESSAGES.INFO.options.cancel,
-    MESSAGES.INFO.options.nomore
+    MESSAGES.INFO.options.cancel
   );
 
   switch (result) {
     case MESSAGES.INFO.options.ok:
       return {reload: true};
-    case MESSAGES.INFO.options.autoreload:
-      return {reload: true, autoreload: true};
-    case MESSAGES.INFO.options.nomore:
-      return {nomore: true};
     default:
       return {};
   }
