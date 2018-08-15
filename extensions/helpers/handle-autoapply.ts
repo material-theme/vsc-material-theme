@@ -1,4 +1,4 @@
-import {isAutoApplyEnable, isReloadNotificationEnable, setCustomSetting} from './settings';
+import {isAutoApplyEnable, isReloadNotificationEnable} from './settings';
 import {infoMessage} from './messages';
 import {fixIcons} from '../commands';
 
