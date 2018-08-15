@@ -835,6 +835,13 @@
     "menu.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
     "menubar.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
     "menubar.selectionForeground": "{{commons.accents.Teal}}",
-    "menubar.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}"
+    "menubar.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
+    "settings.dropdownForeground": "{{variant.scheme.foreground}}",
+    "settings.dropdownBackground": "{{variant.scheme.backgroundAlt}}",
+    "settings.numberInputForeground": "{{variant.scheme.foreground}}",
+    "settings.numberInputBackground": "{{variant.scheme.backgroundAlt}}",
+    "settings.textInputForeground": "{{variant.scheme.foreground}}",
+    "settings.textInputBackground": "{{variant.scheme.backgroundAlt}}",
+    "settings.headerForeground": "{{commons.accents.Teal}}"
   }
 }
