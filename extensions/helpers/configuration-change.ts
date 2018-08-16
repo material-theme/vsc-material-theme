@@ -1,17 +1,12 @@
 import {
   ConfigurationChangeEvent
 } from 'vscode';
-import {getCustomSettings, isMaterialThemeIcons, isMaterialTheme} from './settings';
+import {isMaterialThemeIcons, isMaterialTheme} from './settings';
 import {getCurrentThemeIconsID, getCurrentThemeID} from './vscode';
 
 import handleAutoapply from './handle-autoapply';
 
 const onIconsChanged = () => {
-  const customSettings = getCustomSettings();
-  if (customSettings.fixIconsRunning) {
-    return;
-  }
-
   const currentIconsTheme = getCurrentThemeIconsID();
   return handleAutoapply(isMaterialThemeIcons(currentIconsTheme));
 };
