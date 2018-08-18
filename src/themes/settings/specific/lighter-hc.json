@@ -19,7 +19,7 @@
     "lineHighlight": "#CCD7DA",
     "selection": "#80CBC440",
     "shadow": "#00000020",
-    "inputBackground": "#00000005",
+    "inputBackground": "#EEEEEE",
     "inputForeground": "#90A4AE",
     "inputBorder": "#00000010",
     "scrollbarsHover": "#00000030",
