@@ -11,8 +11,7 @@ import {
 import {
   isAccent,
   getCustomSettings,
-  isMaterialTheme,
-  setCustomSetting
+  isMaterialTheme
 } from './../../helpers/settings';
 import {getCurrentThemeID, setIconsID, getCurrentThemeIconsID, reloadWindow} from './../../helpers/vscode';
 import {CHARSET} from './../../consts/files';
@@ -30,6 +29,8 @@ const replaceIconPathWithAccent = (iconPath: string, accentName: string): string
   return iconPath.replace('.svg', `.accent.${ accentName }.svg`);
 };
 
+let fixIconsRunning: boolean = false;
+
 /**
  * Fix icons when flag auto-fix is active and current theme is Material
  */
@@ -40,6 +41,10 @@ export default async () => {
     deferred.reject = reject;
   });
 
+  if (fixIconsRunning) {
+    return deferred.resolve();
+  }
+
   // Current theme id set on VSCode ("label" of the package.json)
   const themeLabel = getCurrentThemeID();
 
@@ -48,7 +53,7 @@ export default async () => {
     return deferred.resolve();
   }
 
-  await setCustomSetting('fixIconsRunning', true);
+  fixIconsRunning = true;
 
   const DEFAULTS = getDefaultValues();
   const CUSTOM_SETTINGS = getCustomSettings();
@@ -92,7 +97,7 @@ export default async () => {
       return;
     }
 
-    await setCustomSetting('fixIconsRunning', false);
+    fixIconsRunning = false;
     deferred.resolve();
   });
 

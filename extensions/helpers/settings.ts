@@ -22,7 +22,14 @@ export function getCustomSettings(): IThemeCustomProperties {
  * Get autoApplyIcons
  */
 export function isAutoApplyEnable(): boolean {
-  return vscode.workspace.getConfiguration().get<boolean>('materialTheme.autoApplyIcons', true);
+  return vscode.workspace.getConfiguration().get<boolean>('materialTheme.autoApplyIcons');
+}
+
+/**
+ * Get showReloadNotification
+ */
+export function isReloadNotificationEnable(): boolean {
+  return vscode.workspace.getConfiguration().get<boolean>('materialTheme.showReloadNotification');
 }
 
 /**
@@ -59,7 +66,5 @@ export function setCustomSetting(settingName: string, value: any): Thenable<stri
  * Updates accent name
  */
 export function updateAccent(accentName: string): Thenable<string> {
-  const prevAccent = getAccent();
-  return setCustomSetting('accentPrevious', prevAccent)
-    .then(() => setCustomSetting('accent', accentName));
+    return setCustomSetting('accent', accentName);
 }

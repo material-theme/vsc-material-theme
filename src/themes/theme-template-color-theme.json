@@ -829,12 +829,19 @@
     "breadcrumb.activeSelectionForeground": "{{commons.accents.Teal}}",
     "breadcrumbPicker.background": "{{variant.scheme.backgroundAlt}}",
     "menu.background": "{{variant.scheme.background}}",
-    "menu.foreground": "{{variant.scheme.sidebarForeground}}",
+    "menu.foreground": "{{variant.scheme.foreground}}",
     "menu.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
     "menu.selectionForeground": "{{commons.accents.Teal}}",
     "menu.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
     "menubar.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
     "menubar.selectionForeground": "{{commons.accents.Teal}}",
-    "menubar.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}"
+    "menubar.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
+    "settings.dropdownForeground": "{{variant.scheme.foreground}}",
+    "settings.dropdownBackground": "{{variant.scheme.backgroundAlt}}",
+    "settings.numberInputForeground": "{{variant.scheme.foreground}}",
+    "settings.numberInputBackground": "{{variant.scheme.backgroundAlt}}",
+    "settings.textInputForeground": "{{variant.scheme.foreground}}",
+    "settings.textInputBackground": "{{variant.scheme.backgroundAlt}}",
+    "settings.headerForeground": "{{commons.accents.Teal}}"
   }
 }
