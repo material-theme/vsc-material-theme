@@ -829,7 +829,7 @@
     "breadcrumb.activeSelectionForeground": "{{commons.accents.Teal}}",
     "breadcrumbPicker.background": "{{variant.scheme.backgroundAlt}}",
     "menu.background": "{{variant.scheme.background}}",
-    "menu.foreground": "{{variant.scheme.sidebarForeground}}",
+    "menu.foreground": "{{variant.scheme.foreground}}",
     "menu.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
     "menu.selectionForeground": "{{commons.accents.Teal}}",
     "menu.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
