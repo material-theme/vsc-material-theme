@@ -2,13 +2,16 @@ import {isAutoApplyEnable, isReloadNotificationEnable} from './settings';
 import {infoMessage} from './messages';
 import {fixIcons} from '../commands';
 
+let fixIconsRunning: boolean = false;
+
 export default async (doubleCheck: boolean) => {
-  if (!doubleCheck) {
+  if (!doubleCheck || fixIconsRunning) {
     return;
   }
 
   if (isAutoApplyEnable()) {
-    return fixIcons();
+    fixIconsRunning = true;
+    return fixIcons().then(() => fixIconsRunning = false);
   }
 
   if (!isReloadNotificationEnable()) {
@@ -18,6 +21,7 @@ export default async (doubleCheck: boolean) => {
   const result = await infoMessage();
 
   if (result.reload) {
-    return fixIcons();
+    fixIconsRunning = true;
+    return fixIcons().then(() => fixIconsRunning = false);
   }
 };
