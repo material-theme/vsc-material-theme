@@ -1,6 +1,7 @@
 "folderNames": {
   "ci": "_folder_ci",
   "test": "_folder_test",
+  "tests": "_folder_test",
   "node_modules": "_folder_node",
   "assets": "_folder_assets",
   "bower_components": "_folder_bower",
@@ -23,6 +24,7 @@
 "folderNamesExpanded": {
   "ci": "_folder_ci_open",
   "test": "_folder_test_open",
+  "tests": "_folder_test_open",
   "node_modules": "_folder_node_open",
   "bower_components": "_folder_bower_open",
   "assets": "_folder_assets_open",
