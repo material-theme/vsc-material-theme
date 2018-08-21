@@ -89,7 +89,7 @@
       "alpha": 100,
       "value": null
     },
-    "settings.modifiedItemForeground": {
+    "settings.modifiedItemIndicator": {
       "alpha": 100,
       "value": null
     },
@@ -111,7 +111,7 @@
     }
   },
   "changelog": {
-    "lastversion": "2.2.0"
+    "lastversion": "2.3.0"
   },
   "icons": {
     "theme": {
