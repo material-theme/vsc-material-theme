@@ -1,6 +1,8 @@
 "light": {
   "folderExpanded": "_folder_open",
   "folder": "_folder_light",
+  "rootFolder": "_folder_root_light",
+  "rootFolderExpanded": "_folder_root_open",
   "folderNames": {
     "test": "_folder_test",
     "node_modules": "_folder_node",
