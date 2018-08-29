@@ -1,6 +1,7 @@
 import {
   workspace as Workspace,
-  commands as Commands
+  commands as Commands,
+  ExtensionContext
 } from 'vscode';
 
 import * as ThemeCommands from './commands';
@@ -9,11 +10,13 @@ import {onChangeConfiguration} from './helpers/configuration-change';
 import {changelogMessage, installationMessage} from './helpers/messages';
 import checkInstallation from './helpers/check-installation';
 import writeChangelog from './helpers/write-changelog';
+import {ReleaseNotesWebview} from '../src/webviews/ReleaseNotes';
 import handleAutoapply from './helpers/handle-autoapply';
 
-export async function activate() {
+export async function activate(context: ExtensionContext) {
   const config = Workspace.getConfiguration();
   const installationType = checkInstallation();
+  const releaseNotesView = new ReleaseNotesWebview(context);
 
   writeChangelog();
 
@@ -34,7 +37,7 @@ export async function activate() {
 
   const shouldShowChangelog = (installationType.isFirstInstall || installationType.isUpdate) && await changelogMessage();
   if (shouldShowChangelog) {
-    ThemeCommands.showChangelog();
+    releaseNotesView.show();
   }
 
   // Registering commands
@@ -44,5 +47,6 @@ export async function activate() {
   });
   Commands.registerCommand('materialTheme.fixIcons', () => ThemeCommands.fixIcons());
   Commands.registerCommand('materialTheme.toggleApplyIcons', () => ThemeCommands.toggleApplyIcons());
-  Commands.registerCommand('materialTheme.showChangelog', () => ThemeCommands.showChangelog());
+
+  Commands.registerCommand('materialTheme.showReleaseNotes', () => releaseNotesView.show());
 }

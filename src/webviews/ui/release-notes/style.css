@@ -1,0 +1,137 @@
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+
+.Container {
+  max-width: 900px;
+  min-width: 500px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+
+.Release {
+  padding: 40px 0;
+  position: relative;
+}
+
+
+.Release:first-of-type::before {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0),
+      rgba(255,255,255,0.1)
+      50px
+    );
+}
+
+.Release:last-of-type::before,
+.Release:only-of-type::before {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.1),
+      rgba(255,255,255,0)
+    );
+}
+
+.Release::before {
+  content: "";
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+  width: 3px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(65px / 2);
+  z-index: -1;
+}
+
+
+.Release__Header {
+  display: flex;
+  align-items: center;
+}
+
+
+.Release__Number {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;
+  padding: 4px;
+  width: 65px;
+  margin-right: 16px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  border-radius: 4px;
+  cursor: default;
+  -webkit-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+
+.Release__Title {
+  margin-top: 0;
+  line-height: 1;
+  margin-bottom: 0;
+  font-weight: 400;
+  cursor: default;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+.Release-List {
+  list-style: none;
+  padding-left: 80px;
+}
+
+.Release-List li {
+  line-height: 1.5;
+  display: flex;
+  font-size: 14px;
+  margin: 8px 0;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  white
+}
+
+.Release-List li::before {
+  content: attr(data-type);
+  display: inline-block;
+  font-size: 10px;
+  line-height: 1;
+  box-sizing: border-box;
+  width: 64px;
+  height: 16px;
+  border-radius: 3px;
+  margin-right: 8px;
+  padding: 4px 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+}
+
+
+[data-type="fixed"]::before {
+  background-color: #4242f4;
+}
+
+[data-type="improved"]::before {
+  background-color: #6f42c1;
+}
+
+[data-type="new"]::before {
+  background-color: #05a87a;
+}
+
+[data-type="breaking"]::before {
+  background-color: #ba0935;
+}

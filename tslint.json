@@ -2,6 +2,7 @@
 	"extends": "tslint-xo",
 	"rules": {
 		"comment-format": false,
-		"indent": [true, "spaces"]
+		"indent": [true, "spaces"],
+		"no-inner-html": false
 	}
 }
