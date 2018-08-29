@@ -94,6 +94,14 @@
       "alpha": 100,
       "value": null
     },
+    "settings.modifiedItemForeground": {
+      "alpha": 100,
+      "value": null
+    },
+    "settings.headerForeground": {
+      "alpha": 100,
+      "value": null
+    },
     "panelTitle.activeBorder": {
       "alpha": 100,
       "value": null
@@ -112,7 +120,7 @@
     }
   },
   "changelog": {
-    "lastversion": "2.3.0"
+    "lastversion": "2.4.0"
   },
   "icons": {
     "theme": {
