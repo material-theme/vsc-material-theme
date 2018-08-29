@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.4.1"></a>
+## [2.4.1](https://github.com/equinusocio/vsc-material-theme/compare/v2.4.0...v2.4.1) (2018-08-29)
+
+
+### Bug Fixes
+
+* Fix settings colors ([e325007](https://github.com/equinusocio/vsc-material-theme/commit/e325007))
+
+
+
 <a name="2.4.0"></a>
 # [2.4.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.2.0...v2.4.0) (2018-08-29)
 
