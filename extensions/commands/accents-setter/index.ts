@@ -35,37 +35,46 @@ const isValidColour = (colour: string | null | undefined): boolean =>
 /**
  * Sets workbench options
  */
-const setWorkbenchOptions = (accentSelected: string | undefined, config: any): Thenable<string> =>
+const setWorkbenchOptions = (config: any): Thenable<boolean> =>
   vscode.workspace.getConfiguration().update('workbench.colorCustomizations', config, true)
-    .then(() => updateAccent(accentSelected),
-    reason => vscode.window.showErrorMessage(reason));
+    .then(() => true, reason => vscode.window.showErrorMessage(reason));
 
 /**
  * VSCode command
  */
-export default async (): Promise<boolean> => {
+export default async (accent?: string): Promise<boolean> => {
   const themeConfigCommon = getDefaultValues();
   const purgeColourKey: string = 'Remove accents';
-  const options: string[] = Object.keys(themeConfigCommon.accents).concat(purgeColourKey);
+  const shouldUpdateAccent = Boolean(!accent);
+  let accentToSelect = accent;
 
-  // shows the quick pick dropdown and wait response
-  const accentSelected = await vscode.window.showQuickPick(options);
+  // If called without accent shows the quick pick dropdown and wait response
+  if (!accentToSelect) {
+    const options: string[] = Object.keys(themeConfigCommon.accents).concat(purgeColourKey);
+    const accentSelected = await vscode.window.showQuickPick(options);
 
-  if (accentSelected === null || accentSelected === undefined) {
-    return Promise.resolve(null);
+    if (accentSelected === null || accentSelected === undefined) {
+      return Promise.resolve(null);
+    }
+
+    accentToSelect = accentSelected;
   }
 
   const config: any = vscode.workspace.getConfiguration().get('workbench.colorCustomizations');
 
-  switch (accentSelected) {
+  switch (accentToSelect) {
     case purgeColourKey:
       assignColorCustomizations(undefined, config);
-      await setWorkbenchOptions(undefined, config);
-      return Promise.resolve(true);
+      return setWorkbenchOptions(config)
+        .then(() => updateAccent(undefined))
+        .then(() => Promise.resolve(true));
     default:
-      assignColorCustomizations(themeConfigCommon.accents[accentSelected], config);
-      await setWorkbenchOptions(accentSelected, config);
-      return Promise.resolve(true);
+      assignColorCustomizations(themeConfigCommon.accents[accentToSelect], config);
+      return setWorkbenchOptions(config)
+        .then(() =>
+          shouldUpdateAccent ? updateAccent(accentToSelect) : Promise.resolve(accentToSelect)
+        )
+        .then(() => Promise.resolve(true));
   }
 
 };

@@ -1,9 +1,9 @@
 
 <p align="center"><img width="980px" src="https://i.imgur.com/qvxc7OA.jpg"></p>
 
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/vsc-material-theme.svg?style=flat-square)](https://twitter.com/intent/tweet?text=This%20is%20the%20most%20epic%20theme:&url=https%3A%2F%2Fgithub.com%2Fequinusocio%2Fvsc-material-theme)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/vsc-material-theme.svg?style=flat-square)](https://twitter.com/intent/tweet?text=Check%20the%20most%20epic%20theme%20for%20Visual%20Studio%20Code:&url=https%3A%2F%2Fgithub.com%2Fequinusocio%2Fvsc-material-theme)
 [![GitHub tag](https://img.shields.io/github/release/equinusocio/vsc-material-theme.svg?style=flat-square)](https://github.com/equinusocio/vsc-material-theme/releases)
-<a href="https://code.visualstudio.com/updates/v1_19"><img src="https://img.shields.io/badge/VS_Code-v1.19+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs/Equinusocio.vsc-material-theme.svg?style=flat-square"/></a>
+<a href="https://code.visualstudio.com/updates/v1_25"><img src="https://img.shields.io/badge/VS_Code-v1.25+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs/Equinusocio.vsc-material-theme.svg?style=flat-square"/></a>
 <a href="https://opencollective.com/vsc-material-theme"><img src="https://img.shields.io/badge/Support%20this%20project-%F0%9F%92%96%EF%B8%8F-green.svg?style=flat-square"/></a>
 
 

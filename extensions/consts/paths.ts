@@ -7,6 +7,7 @@ export const PATHS: IPaths = {
   ICONS: './icons',
   SRC: './src',
   THEMES: './themes',
+  UI: './ui',
   VSIX_DIR: path.join(__dirname, '../../'),
 };
 

@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 import {IDefaults} from './../interfaces/idefaults';
-import {IThemeCustomProperties} from './../interfaces/itheme-custom-properties';
+import {IThemeCustomSettings} from './../interfaces/itheme-custom-properties';
 import {getPackageJSON} from './fs';
 
 /**
@@ -14,8 +14,8 @@ export function getAccent(): string | undefined {
 /**
  * Gets custom settings
  */
-export function getCustomSettings(): IThemeCustomProperties {
-  return vscode.workspace.getConfiguration().get<IThemeCustomProperties>('materialTheme', {});
+export function getCustomSettings(): IThemeCustomSettings {
+  return vscode.workspace.getConfiguration().get<IThemeCustomSettings>('materialTheme', {});
 }
 
 /**

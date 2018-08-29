@@ -29,8 +29,6 @@ const replaceIconPathWithAccent = (iconPath: string, accentName: string): string
   return iconPath.replace('.svg', `.accent.${ accentName }.svg`);
 };
 
-let fixIconsRunning: boolean = false;
-
 /**
  * Fix icons when flag auto-fix is active and current theme is Material
  */
@@ -41,10 +39,6 @@ export default async () => {
     deferred.reject = reject;
   });
 
-  if (fixIconsRunning) {
-    return deferred.resolve();
-  }
-
   // Current theme id set on VSCode ("label" of the package.json)
   const themeLabel = getCurrentThemeID();
 
@@ -52,8 +46,6 @@ export default async () => {
   if (!isMaterialTheme(themeLabel)) {
     return deferred.resolve();
   }
-
-  fixIconsRunning = true;
 
   const DEFAULTS = getDefaultValues();
   const CUSTOM_SETTINGS = getCustomSettings();
@@ -96,8 +88,6 @@ export default async () => {
       deferred.reject(err);
       return;
     }
-
-    fixIconsRunning = false;
     deferred.resolve();
   });
 

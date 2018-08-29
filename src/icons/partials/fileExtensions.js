@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "cabal": "_file_cabal",
   "cfc": "_file_coldfusion",
   "cfm": "_file_coldfusion",
   "mdx": "_file_mdx",

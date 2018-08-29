@@ -19,4 +19,8 @@ export interface IPaths {
    * Extension directory
    */
   VSIX_DIR: string;
+  /**
+   * UI directory
+   */
+  UI: string;
 }

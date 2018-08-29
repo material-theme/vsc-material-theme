@@ -84,6 +84,15 @@
       "command": "npm",
       "dependsOn": "clean project",
       "label": "tsc"
+    },
+    {
+      "args": [
+        "run",
+        "build-ui-only"
+      ],
+      "command": "npm",
+      "label": "UI: build UI only",
+      "problemMatcher": []
     }
   ]
 }

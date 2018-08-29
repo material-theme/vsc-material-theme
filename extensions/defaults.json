@@ -19,6 +19,7 @@
   },
   "accentableIcons": [
     "_folder_open",
+    "_folder_root_open",
     "_folder_open_build",
     "_folder_vscode_open",
     "_folder_gulp_open",
@@ -89,7 +90,7 @@
       "alpha": 100,
       "value": null
     },
-    "settings.modifiedItemForeground": {
+    "settings.modifiedItemIndicator": {
       "alpha": 100,
       "value": null
     },
@@ -108,14 +109,10 @@
     "menubar.selectionForeground": {
       "alpha": 100,
       "value": null
-    },
-    "settings.headerForeground": {
-      "alpha": 100,
-      "value": null
     }
   },
   "changelog": {
-    "lastversion": "2.2.0"
+    "lastversion": "2.3.0"
   },
   "icons": {
     "theme": {
@@ -216,6 +213,12 @@
         "_folder_light": {
           "iconPath": "../icons/folder_light.svg"
         },
+        "_folder_root_dark": {
+          "iconPath": "../icons/folder_root_dark.svg"
+        },
+        "_folder_root_light": {
+          "iconPath": "../icons/folder_root_light.svg"
+        },
         "_file_folder": {
           "iconPath": "../icons/file_folder.svg"
         },
@@ -224,6 +227,9 @@
         },
         "_folder_open": {
           "iconPath": "../icons/folder_open.svg"
+        },
+        "_folder_root_open": {
+          "iconPath": "../icons/folder_root_open.svg"
         },
         "_folder_open_build": {
           "iconPath": "../icons/folder_open_build.svg"
@@ -290,6 +296,8 @@
     "_folder_node",
     "_folder_vscode",
     "_folder_dark",
-    "_folder_light"
+    "_folder_light",
+    "_folder_root_dark",
+    "_folder_root_light"
   ]
 }
