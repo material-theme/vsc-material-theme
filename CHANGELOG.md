@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file. See [standa
 * Extend graphql support for file icon ([e98cb88](https://github.com/equinusocio/vsc-material-theme/commit/e98cb88)), closes [#226](https://github.com/equinusocio/vsc-material-theme/issues/226)
 * Fix breadcrumb theme ([e2d6fd5](https://github.com/equinusocio/vsc-material-theme/commit/e2d6fd5))
 * Fix custom menu foreground color (Win/Linux) ([d14e343](https://github.com/equinusocio/vsc-material-theme/commit/d14e343)), closes [#239](https://github.com/equinusocio/vsc-material-theme/issues/239)
+* Fix missing commands ([0f925af](https://github.com/equinusocio/vsc-material-theme/commit/0f925af))
 * Fix missing coommands ([746625e](https://github.com/equinusocio/vsc-material-theme/commit/746625e)), closes [#249](https://github.com/equinusocio/vsc-material-theme/issues/249)
 * Fix settings colors ([e325007](https://github.com/equinusocio/vsc-material-theme/commit/e325007))
 * Fix some workbench input graphic glitches ([bbd8a2d](https://github.com/equinusocio/vsc-material-theme/commit/bbd8a2d))
