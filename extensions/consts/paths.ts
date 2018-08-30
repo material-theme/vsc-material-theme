@@ -9,6 +9,7 @@ export const PATHS: IPaths = {
   THEMES: './themes',
   UI: './ui',
   VSIX_DIR: path.join(__dirname, '../../'),
+  EXT_DIR: path.join(__dirname, '..')
 };
 
 export default PATHS;

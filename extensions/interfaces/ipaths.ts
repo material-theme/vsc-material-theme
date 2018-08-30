@@ -20,6 +20,10 @@ export interface IPaths {
    */
   VSIX_DIR: string;
   /**
+   * Internal Extensions directory
+   */
+  EXT_DIR: string;
+  /**
    * UI directory
    */
   UI: string;
