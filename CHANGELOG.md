@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.4.2"></a>
+## [2.4.2](https://github.com/equinusocio/vsc-material-theme/compare/v2.3.0...v2.4.2) (2018-08-30)
+
+
+### Bug Fixes
+
+* Add .cabal file icon ([846bd9a](https://github.com/equinusocio/vsc-material-theme/commit/846bd9a))
+* Add coldfusion file icon ([8f130d4](https://github.com/equinusocio/vsc-material-theme/commit/8f130d4)), closes [#222](https://github.com/equinusocio/vsc-material-theme/issues/222)
+* Extend graphql support for file icon ([e98cb88](https://github.com/equinusocio/vsc-material-theme/commit/e98cb88)), closes [#226](https://github.com/equinusocio/vsc-material-theme/issues/226)
+* Fix breadcrumb theme ([e2d6fd5](https://github.com/equinusocio/vsc-material-theme/commit/e2d6fd5))
+* Fix custom menu foreground color (Win/Linux) ([d14e343](https://github.com/equinusocio/vsc-material-theme/commit/d14e343)), closes [#239](https://github.com/equinusocio/vsc-material-theme/issues/239)
+* Fix missing commands ([0f925af](https://github.com/equinusocio/vsc-material-theme/commit/0f925af))
+* Fix missing coommands ([746625e](https://github.com/equinusocio/vsc-material-theme/commit/746625e)), closes [#249](https://github.com/equinusocio/vsc-material-theme/issues/249)
+* Fix settings colors ([e325007](https://github.com/equinusocio/vsc-material-theme/commit/e325007))
+* Fix some workbench input graphic glitches ([bbd8a2d](https://github.com/equinusocio/vsc-material-theme/commit/bbd8a2d))
+* Fix windows/linux custom menu item hovered background ([dc00744](https://github.com/equinusocio/vsc-material-theme/commit/dc00744)), closes [#245](https://github.com/equinusocio/vsc-material-theme/issues/245)
+* Switched webviews to correct folder ([ed63525](https://github.com/equinusocio/vsc-material-theme/commit/ed63525))
+
+
+### Features
+
+* Add .env.development, .env.testing, .env.staging, .env-production to supported filenames ([#225](https://github.com/equinusocio/vsc-material-theme/issues/225)) ([cdeaa5f](https://github.com/equinusocio/vsc-material-theme/commit/cdeaa5f))
+* **Reload notification:** added support for after-install notification ([a42b3a0](https://github.com/equinusocio/vsc-material-theme/commit/a42b3a0))
+* **Reload notification:** added support never show again notification  ([440c104](https://github.com/equinusocio/vsc-material-theme/commit/440c104))
+* Add icons to root folders ([3ad76f1](https://github.com/equinusocio/vsc-material-theme/commit/3ad76f1)), closes [#241](https://github.com/equinusocio/vsc-material-theme/issues/241)
+* Add support for custom menus and menubar on Windows/Linux (vscode v1.26.0) ([681db67](https://github.com/equinusocio/vsc-material-theme/commit/681db67)), closes [#228](https://github.com/equinusocio/vsc-material-theme/issues/228)
+* Add theme for the new settings view ([50b22c3](https://github.com/equinusocio/vsc-material-theme/commit/50b22c3))
+* added integration for VSC settings preview ([#242](https://github.com/equinusocio/vsc-material-theme/issues/242)) ([e783b1c](https://github.com/equinusocio/vsc-material-theme/commit/e783b1c))
+
+
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.3.0...v2.5.0) (2018-08-30)
 
