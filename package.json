@@ -42,7 +42,7 @@
     "build-themes": "gulp build:themes",
     "build-ui": "yarn copy-ui && yarn build-ui-release-notes",
     "copy-ui": "gulp build:copy-ui",
-    "build-ui-release-notes": "browserify src/webviews/ui/release-notes/index.js > ui/release-notes.js",
+    "build-ui-release-notes": "browserify extensions/webviews/ui/release-notes/index.js > ui/release-notes.js",
     "build-ui-only": "yarn cleanup && yarn build-ts && yarn build-ui",
     "build-ts": "tsc -p ./tsconfig.json",
     "test": "tslint **.ts",

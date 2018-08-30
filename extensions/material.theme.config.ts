@@ -10,7 +10,7 @@ import {onChangeConfiguration} from './helpers/configuration-change';
 import {changelogMessage, installationMessage} from './helpers/messages';
 import checkInstallation from './helpers/check-installation';
 import writeChangelog from './helpers/write-changelog';
-import {ReleaseNotesWebview} from '../src/webviews/ReleaseNotes';
+import {ReleaseNotesWebview} from './webviews/ReleaseNotes';
 import handleAutoapply from './helpers/handle-autoapply';
 
 export async function activate(context: ExtensionContext) {
