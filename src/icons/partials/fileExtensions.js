@@ -200,6 +200,7 @@
   "lib": "_file_lib",
   "rb": "_file_ruby",
   "erb": "_file_ruby",
+  "lock": "_file_ruby",
   "fs": "_file_fsharp",
   "fsx": "_file_fsharp",
   "fsi": "_file_fsharp",
