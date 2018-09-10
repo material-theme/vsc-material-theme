@@ -30,6 +30,7 @@
   "swig": "_file_swig",
   "sketch": "_file_sketch",
   "do": "_file_todo",
+  "todo": "_file_todo",
   "sublime-settings": "_file_sublime",
   "sublime-theme": "_file_sublime",
   "sublime-commands": "_file_sublime",
