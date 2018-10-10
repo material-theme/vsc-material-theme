@@ -844,7 +844,6 @@
     "settings.textInputBackground": "{{variant.scheme.backgroundAlt}}",
     "settings.headerForeground": "{{commons.accents.Teal}}",
     "settings.modifiedItemIndicator": "{{commons.accents.Teal}}",
-    "settings.modifiedItemForeground": "{{commons.accents.Teal}}",
     "settings.checkboxBackground": "{{variant.scheme.backgroundAlt}}",
     "settings.checkboxForeground": "{{variant.scheme.foreground}}"
   }
