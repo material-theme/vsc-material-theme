@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "elm": "_file_elm",
   "cabal": "_file_cabal",
   "cfc": "_file_coldfusion",
   "cfm": "_file_coldfusion",
