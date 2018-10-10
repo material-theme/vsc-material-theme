@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "hbs": "_file_handlebars",
   "elm": "_file_elm",
   "cabal": "_file_cabal",
   "cfc": "_file_coldfusion",
