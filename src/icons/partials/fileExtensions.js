@@ -143,7 +143,7 @@
   "jsp": "_file_java",
   "c": "_file_c",
   "h": "_file_c",
-  "m": "_file_c",
+  "m": "_file_matlab",
   "cc": "_file_cpp",
   "cpp": "_file_cpp",
   "c++": "_file_cpp",
