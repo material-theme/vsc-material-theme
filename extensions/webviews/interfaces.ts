@@ -1,6 +1,14 @@
 import {IThemeCustomSettings} from '../../extensions/interfaces/itheme-custom-properties';
 import {IDefaults} from '../../extensions/interfaces/idefaults';
 
+export interface IPost {
+  title: String;
+  version: String;
+  fixed: String[];
+  new: String[];
+  breaking: String[];
+}
+
 export interface SettingsChangedMessage {
   type: 'settingsChanged';
   config: IThemeCustomSettings;
