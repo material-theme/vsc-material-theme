@@ -833,7 +833,7 @@
     "menu.selectionBackground": "{{variant.scheme.lineHighlight}}50",
     "menu.selectionForeground": "{{commons.accents.Teal}}",
     "menu.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
-    "menu.separatorBackground": "{{variant.scheme.foregrund}}",
+    "menu.separatorBackground": "{{variant.scheme.foreground}}",
     "menubar.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
     "menubar.selectionForeground": "{{commons.accents.Teal}}",
     "menubar.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
