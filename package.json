@@ -22,11 +22,6 @@
   "engines": {
     "vscode": "^1.25.0"
   },
-  "standard-version": {
-    "scripts": {
-      "postchangelog": "yarn gulp changelog-title"
-    }
-  },
   "scripts": {
     "build": "yarn cleanup && yarn get-remote-icons && yarn build-icons && yarn build-themes && yarn build-icons-accents && yarn build-icons-variants && yarn build-icons-variants-json && yarn build-ui",
     "build-icons": "yarn remove-icons && yarn minimize-icons && gulp build:icons && yarn minimize-json",
@@ -46,7 +41,6 @@
     "build-ui-only": "yarn cleanup && yarn build-ts && yarn build-ui",
     "build-ts": "tsc -p ./tsconfig.json",
     "test": "tslint **.ts",
-    "release": "standard-version",
     "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall && tsc -p tsconfig.json"
   },
   "categories": [
@@ -244,7 +238,6 @@
     "mustache": "2.3.0",
     "ncp": "2.0.0",
     "run-sequence": "2.2.1",
-    "standard-version": "4.4.0",
     "svgo": "1.0.5",
     "tslint": "5.10.0",
     "tslint-xo": "0.8.0",
