@@ -1,4 +1,13 @@
 "fileExtensions": {
+  "story.tsx": "_file_storybook",
+  "stories.tsx": "_file_storybook",
+  "story.ts": "_file_storybook",
+  "stories.ts": "_file_storybook",
+  "story.jsx": "_file_storybook",
+  "stories.jsx": "_file_storybook",
+  "story.js": "_file_storybook",
+  "stories.js": "_file_storybook",
+  "proto": "_file_protobuf",
   "hbs": "_file_handlebars",
   "elm": "_file_elm",
   "cabal": "_file_cabal",
