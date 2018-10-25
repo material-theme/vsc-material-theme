@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/equinusocio/vsc-material-theme/compare/v2.4.2...v2.5.0) (2018-10-25)
+
+
+### Bug Fixes
+
+* Add elm file icon ([05f26c8](https://github.com/equinusocio/vsc-material-theme/commit/05f26c8)), closes [#256](https://github.com/equinusocio/vsc-material-theme/issues/256)
+* Add file icon to .lock files ([a4c9d38](https://github.com/equinusocio/vsc-material-theme/commit/a4c9d38)), closes [#250](https://github.com/equinusocio/vsc-material-theme/issues/250)
+* Add file icon to .todo files ([6703017](https://github.com/equinusocio/vsc-material-theme/commit/6703017)), closes [#252](https://github.com/equinusocio/vsc-material-theme/issues/252)
+* Add handlebars file icon ([9abcad9](https://github.com/equinusocio/vsc-material-theme/commit/9abcad9)), closes [#268](https://github.com/equinusocio/vsc-material-theme/issues/268)
+* Add matlab file icon () ([cdaa9a0](https://github.com/equinusocio/vsc-material-theme/commit/cdaa9a0)), closes [#267](https://github.com/equinusocio/vsc-material-theme/issues/267)
+* Fixed same color for parameters and numerics ([bc204bc](https://github.com/equinusocio/vsc-material-theme/commit/bc204bc))
+* Fixed same color for parameters and numerics ([91c0430](https://github.com/equinusocio/vsc-material-theme/commit/91c0430))
+* Improve scrollbar contrast ([92314b5](https://github.com/equinusocio/vsc-material-theme/commit/92314b5)), closes [#262](https://github.com/equinusocio/vsc-material-theme/issues/262)
+* Remove support for old setting modified indicator. Ref [#254](https://github.com/equinusocio/vsc-material-theme/issues/254) ([78a6df3](https://github.com/equinusocio/vsc-material-theme/commit/78a6df3))
+
+
+### Features
+
+* added support for ext changelogs (WIP) ([#275](https://github.com/equinusocio/vsc-material-theme/issues/275)) ([751b763](https://github.com/equinusocio/vsc-material-theme/commit/751b763))
+* added support for ext changelogs (WIP) ([#275](https://github.com/equinusocio/vsc-material-theme/issues/275)) ([dd14b71](https://github.com/equinusocio/vsc-material-theme/commit/dd14b71))
+
+
+
 <a name="2.4.2"></a>
 ## [2.4.2](https://github.com/equinusocio/vsc-material-theme/compare/v2.3.0...v2.4.2) (2018-08-30)
 
