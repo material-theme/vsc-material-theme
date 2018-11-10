@@ -742,6 +742,7 @@
     "titleBar.border": "{{variant.scheme.contrastBorder}}60",
     "sideBarTitle.foreground": "{{variant.scheme.foreground}}",
     "sideBarSectionHeader.background": "{{variant.scheme.backgroundAlt}}",
+    "sideBarSectionHeader.border": "{{variant.scheme.contrastBorder}}60",
     "input.background": "{{variant.scheme.inputBackground}}",
     "input.foreground": "{{variant.scheme.inputForeground}}",
     "input.placeholderForeground": "{{variant.scheme.foreground}}60",
