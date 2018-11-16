@@ -125,5 +125,6 @@
   ".angular-cli.json": "_file_angular",
   "directive.ts": "_file_angular-directive",
   "directive.js": "_file_angular-directive",
-  "favicon.ico": "_file_favicon"
+  "favicon.ico": "_file_favicon",
+  "mix.lock": "_file_elixir-lock"
 },
