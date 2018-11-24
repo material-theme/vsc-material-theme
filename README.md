@@ -41,8 +41,10 @@ Launch *Quick Open*
 Paste the following command and press `Enter`:
 
 ```shell
-ext install vsc-material-theme
+ext install material theme
 ```
+
+And pick the one by **Mattia Astorino** (me) as author.
 
 #### Packaged VSIX Extension
 
