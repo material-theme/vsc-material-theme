@@ -60,7 +60,7 @@
       {
         "command": "materialTheme.toggleApplyIcons",
         "title": "Enable or disable icons auto-applying",
-        "category": "🎨 Material Theme"
+        "category": "💅 Material Theme"
       },
       {
         "command": "materialTheme.setAccent",
@@ -70,12 +70,12 @@
       {
         "command": "materialTheme.fixIcons",
         "title": "Fix file icons",
-        "category": "🎨 Material Theme"
+        "category": "🛠 Material Theme"
       },
       {
         "command": "materialTheme.showReleaseNotes",
         "title": "Release Notes",
-        "category": "🎨 Material Theme"
+        "category": "📋 Material Theme"
       }
     ],
     "configuration": {
