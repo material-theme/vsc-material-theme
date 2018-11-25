@@ -40,11 +40,11 @@ export function isAccent(accentName: string, defaults: IDefaults): boolean {
 }
 
 /**
- * Determines if the passing theme label is a material theme
+ * Determines if the passing theme id is a material theme
  */
 export function isMaterialTheme(themeName: string): boolean {
   const packageJSON = getPackageJSON();
-  return Boolean(packageJSON.contributes.themes.find(contrib => contrib.label === themeName));
+  return Boolean(packageJSON.contributes.themes.find(contrib => contrib.id === themeName));
 }
 
 /**

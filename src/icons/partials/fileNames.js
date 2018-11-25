@@ -77,7 +77,9 @@
   "license.md": "_file_license",
   "license.md.rendered": "_file_license",
   "license.txt": "_file_license",
+  "babel.config.js": "_file_babel",
   ".babelrc": "_file_babel",
+  ".babelrc.js": "_file_babel",
   ".babelrc.json": "_file_babel",
   ".eslintrc": "_file_eslint",
   ".eslintignore": "_file_eslint",
@@ -125,5 +127,7 @@
   ".angular-cli.json": "_file_angular",
   "directive.ts": "_file_angular-directive",
   "directive.js": "_file_angular-directive",
-  "favicon.ico": "_file_favicon"
+  "favicon.ico": "_file_favicon",
+  "mix.lock": "_file_elixir-lock",
+  "now.json": "_file_now"
 },
