@@ -61,10 +61,7 @@ export function getThemeIconsContribute(ID: string): IPackageJSONThemeIcons {
  */
 export function getIconVariantFromTheme(theme: string): string {
   const {themeIconVariants} = getDefaultValues();
-  const splitted = theme.split('-');
-  const variantIcon = splitted[splitted.length - 1];
-  const found = Object.keys(themeIconVariants)
-    .find(key => themeIconVariants[key].includes(variantIcon));
+  const found = Object.keys(themeIconVariants).find(variant => theme.includes(variant));
   return found ? found.toLowerCase() : null;
 }
 

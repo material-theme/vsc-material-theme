@@ -122,61 +122,51 @@
     },
     "themes": [
       {
-        "id": "eq-material-theme-default",
         "label": "Material Theme",
         "path": "./themes/Material-Theme-Default.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-default-high-contrast",
         "label": "Material Theme High Contrast",
         "path": "./themes/Material-Theme-Default-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-darker",
         "label": "Material Theme Darker",
         "path": "./themes/Material-Theme-Darker.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-darker-high-contrast",
         "label": "Material Theme Darker High Contrast",
         "path": "./themes/Material-Theme-Darker-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-palenight",
         "label": "Material Theme Palenight",
         "path": "./themes/Material-Theme-Palenight.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-palenight-high-contrast",
         "label": "Material Theme Palenight High Contrast",
         "path": "./themes/Material-Theme-Palenight-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-ocean",
         "label": "Material Theme Ocean",
         "path": "./themes/Material-Theme-Ocean.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-ocean-high-contrast",
         "label": "Material Theme Ocean High Contrast",
         "path": "./themes/Material-Theme-Ocean-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
-        "id": "eq-material-theme-lighter",
         "label": "Material Theme Lighter",
         "path": "./themes/Material-Theme-Lighter.json",
         "uiTheme": "vs"
       },
       {
-        "id": "eq-material-theme-lighter-high-contrast",
         "label": "Material Theme Lighter High Contrast",
         "path": "./themes/Material-Theme-Lighter-High-Contrast.json",
         "uiTheme": "vs"
