@@ -24,7 +24,6 @@ export interface IPackageJSONCommand {
 }
 
 export interface IPackageJSONTheme {
-  id: string;
   label: string;
   path: string;
   uiTheme: string;

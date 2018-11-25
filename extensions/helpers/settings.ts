@@ -44,7 +44,7 @@ export function isAccent(accentName: string, defaults: IDefaults): boolean {
  */
 export function isMaterialTheme(themeName: string): boolean {
   const packageJSON = getPackageJSON();
-  return Boolean(packageJSON.contributes.themes.find(contrib => contrib.id === themeName));
+  return Boolean(packageJSON.contributes.themes.find(contrib => contrib.label === themeName));
 }
 
 /**
