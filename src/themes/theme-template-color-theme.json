@@ -714,6 +714,7 @@
     "editorGutter.addedBackground": "{{variant.scheme.base.green}}60",
     "editorGutter.deletedBackground": "{{variant.scheme.base.red}}60",
     "tab.activeBorder": "{{commons.accents.Teal}}",
+    "tab.activeModifiedBorder": "{{variant.scheme.sidebarForeground}}",
     "tab.unfocusedActiveBorder": "{{variant.scheme.comments}}",
     "tab.activeForeground": "{{variant.scheme.tabActiveForeground}}",
     "tab.inactiveForeground": "{{variant.scheme.sidebarForeground}}",
