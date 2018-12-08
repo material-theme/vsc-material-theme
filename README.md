@@ -1,7 +1,7 @@
 
 <p align="center"><img width="980px" src="https://i.imgur.com/qvxc7OA.jpg"></p>
 
-<a href="https://code.visualstudio.com/updates/v1_25"><img src="https://img.shields.io/badge/For_VS_Code-v1.28+-373277.svg?style=for-the-badge&colorA=399DDF&colorB=006CB4"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs-short/Equinusocio.vsc-material-theme.svg
+<a href="https://code.visualstudio.com/updates/v1_25"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=FBBD30&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs-short/Equinusocio.vsc-material-theme.svg
 ?style=for-the-badge&colorA=5DDB61&colorB=4BC74F"/></a>
 [![VSCode.pro](https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge)]( https://a.paddle.com/v2/click/16413/37697?link=1227 "This open source project is supported by VSCode.pro")
 
