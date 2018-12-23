@@ -13,7 +13,13 @@ export interface IPost {
   new: IChangeType[];
   breaking: IChangeType[];
 }
-
+export interface IPostNormalized {
+  title: String;
+  version: String;
+  fixed: String[];
+  new: String[];
+  breaking: String[];
+}
 export interface SettingsChangedMessage {
   type: 'settingsChanged';
   config: IThemeCustomSettings;
