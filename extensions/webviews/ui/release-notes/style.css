@@ -100,7 +100,6 @@ body {
   -webkit-user-select: none;
   user-select: none;
   cursor: default;
-  white
 }
 
 .Release-List li::before {
