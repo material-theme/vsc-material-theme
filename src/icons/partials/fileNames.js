@@ -1,4 +1,6 @@
 "fileNames": {
+  "nuxt.config.js": "_file_nuxtconfig",
+  "vue.config.js": "_file_vue",
   ".browserslistrc": "_file_browserlist",
   ".nvmrc": "_file_node",
   ".graphqlconfig.yml": "_file_graphql",

@@ -1,4 +1,5 @@
 "fileExtensions": {
+  "tf": "_file_terraform",
   "story.tsx": "_file_storybook",
   "stories.tsx": "_file_storybook",
   "story.ts": "_file_storybook",
