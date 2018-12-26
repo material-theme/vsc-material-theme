@@ -1,4 +1,5 @@
 "fileNames": {
+  ".browserslistrc": "_file_browserlist",
   ".nvmrc": "_file_node",
   ".graphqlconfig.yml": "_file_graphql",
   ".graphqlconfig.yaml": "_file_graphql",
