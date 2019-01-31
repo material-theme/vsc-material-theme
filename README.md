@@ -12,9 +12,7 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
             - [Packaged VSIX Extension](#packaged-vsix-extension)
                 - [GitHub Repository Clone](#github-repository-clone)
     - [Activate theme](#activate-theme)
-    - [Fix File Icons](#fix-file-icons)
     - [Set the accent color](#set-the-accent-color)
-    - [Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
     - [Override theme colors](#override-theme-colors)
         - [Color Scheme override](#color-scheme-override)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
@@ -80,18 +78,6 @@ Launch *Quick Open*,
 
 Type `theme` and choose `Preferences: Color Theme`, then select one of the Material Theme variant from the list. After the activation the theme will set the correct icons theme for you, based on your picked theme variant.
 
-## Fix File Icons
-
-If you notice that the folder icons does not match the material theme active variant you can fix it with just a command.
-
-Launch *Quick Open*,
-
-  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
-  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
-  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
-
-type `material theme` and select `Material Theme: Fix file icons` from the drop-down menu, this command will set the correct icon theme based on your active material theme variant.
-
 ## Set the accent color
 
 Launch *Quick Open*,
@@ -101,18 +87,6 @@ Launch *Quick Open*,
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
 Type `material theme` and choose `Material Theme: Set accent color` and pick one color from the list.
-
-## Disabling/enabling file icons auto-applying
-
-By default material theme will apply the correct icons theme based on your active theme variant. To disable this behavior follow these steps:
-
-Launch *Quick Open*,
-
-  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
-  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
-  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
-
-Type `material theme` and choose `Material Theme: Enable or disable icons auto-applying` and choose to disable or enable this behavior.
 
 ## Override theme colors
 You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the vs code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
