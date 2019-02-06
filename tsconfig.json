@@ -1,23 +1,26 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "out",
     "lib": [
-      "es6",
+      "es7",
       "dom"
     ],
-    "module": "commonjs",
+    "sourceMap": true,
     "allowUnreachableCode": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "target": "es6"
+    "noImplicitAny": true
   },
   "include": [
-    "./**/*",
-    "./.gulp/**/*"
+    "./.gulp/**/*",
+    "./typings/**/*",
+    "./src/**/*",
+    "./test/**/*",
   ],
   "exclude": [
     "node_modules",
-    "out"
+    ".vscode-test"
   ]
 }

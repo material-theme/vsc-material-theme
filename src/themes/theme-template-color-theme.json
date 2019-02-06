@@ -296,18 +296,8 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "{{variant.scheme.base.purple}}"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
-      ],
-      "settings": {
         "fontStyle": "italic",
-        "foreground": "{{variant.scheme.base.yellow}}"
+        "foreground": "{{variant.scheme.base.purple}}"
       }
     },
     {

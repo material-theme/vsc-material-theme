@@ -6,10 +6,10 @@ import * as path from 'path';
 
 import {HR, MESSAGE_GENERATED, MESSAGE_THEME_VARIANT_PARSE_ERROR} from './../consts/log';
 
-import {CHARSET} from './../../extensions/consts/files';
+import {CHARSET} from './../../src/consts/files';
 import {IThemeVariant} from './../interfaces/itheme-variant';
-import paths from './../../extensions/consts/paths';
-import {ensureDir, getDefaultValues} from './../../extensions/helpers/fs';
+import paths from './../../src/consts/paths';
+import {ensureDir, getDefaultValues} from './../../src/helpers/fs';
 
 const commons = getDefaultValues();
 

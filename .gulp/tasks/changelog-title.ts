@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as gulp from 'gulp';
-import {CHARSET} from './../../extensions/consts/files';
+import {CHARSET} from '../../src/consts/files';
 
 export default gulp.task('changelog-title', () => {
   fs.writeFileSync(

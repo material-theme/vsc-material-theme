@@ -13,7 +13,6 @@
     - [Installing and compiling source](#installing-and-compiling-source)
         - [Testing the theme](#testing-the-theme)
         - [Adding new Material Theme commands](#adding-new-material-theme-commands)
-        - [Adding new icons](#adding-new-icons)
     - [Financial contributions](#financial-contributions)
     - [Credits](#credits)
         - [Contributors](#contributors)
@@ -117,20 +116,6 @@ A test suite is currently in developing. Update soon.
 ### Adding new custom setting
 
 Soon(ish)®
-
-### Adding new icons
-
-* Add your icon to the `~/src/icons/svgs` directory.
-
-* Add the reference to that icon to the `~/src/icons/partials/fileNames.js` or if your icon is referred to a directory adds the reference to the `~/src/icons/partials/folderNames.js` file, otherwise to `~/src/icons/partials/fileExtensions.js` if is referred to a file extension.
-
-* If you want to make the icon sensitive to be accented, modify the `~/extensions/defaults.json` file, adding the icon definition to the `accentableIcons` array (e.g. ["_folder_open", "_folder_open_build"]) and the path to the `icons.theme.iconDefinitions` object. **The same applies to variants (the variant icons array is called "variantsIcons")**
-
-* Execute the build command.
-
-* Start the debug
-
-* Enjoy your new icons in Material Theme, and don't forget to pull request!
 
 
 ## Financial contributions

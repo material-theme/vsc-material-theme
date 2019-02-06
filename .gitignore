@@ -1,15 +1,8 @@
 *.log
 *.~lock
-*.js
-!src/icons/partials/*.js
 **/*.map
-*.gulp/**.js
-dist/
+out/
 node_modules/
 .DS_Store
 /themes
-/icons
-/src/icons/svgs/*.svg
-.tmp-output-remote-icons
-_tmp-output-remote-icons
 /ui/
