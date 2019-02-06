@@ -5,7 +5,7 @@
 [![VSCode.pro](https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge)]( https://a.paddle.com/v2/click/16413/37697?link=1227 "This open source project is supported by VSCode.pro")
 
 
-The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues)
+The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues).
 
 - [Getting started](#getting-started)
     - [Installation](#installation)
@@ -31,7 +31,7 @@ You can install this awesome theme through the [Visual Studio Code Marketplace](
 
 ## Installation
 
-Launch *Quick Open*
+Launch *Quick Open*:
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
@@ -72,41 +72,41 @@ git clone https://github.com/equinusocio/vsc-material-theme.git Equinusocio.vsc-
 
 ## Activate theme
 
-Launch *Quick Open*,
+Launch *Quick Open*:
 
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `theme` and choose `Preferences: Color Theme`, then select one of the Material Theme variant from the list. After the activation the theme will set the correct icons theme for you, based on your picked theme variant.
+Type `theme`, choose `Preferences: Color Theme`, and select one of the Material Theme variants from the list. After activation, the theme will set the correct icon theme based on your active theme variant.
 
 ## Fix File Icons
 
-If you notice that the folder icons does not match the material theme active variant you can fix it with just a command.
+If you notice that the folder icons do not match the active Material Theme variant, you can fix it with just a command.
 
-Launch *Quick Open*,
+Launch *Quick Open*:
 
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-type `material theme` and select `Material Theme: Fix file icons` from the drop-down menu, this command will set the correct icon theme based on your active material theme variant.
+Type `material theme` and select `Material Theme: Fix file icons` from the drop-down menu. This command will set the correct icon theme based on your active Material Theme variant.
 
 ## Set the accent color
 
-Launch *Quick Open*,
+Launch *Quick Open*:
 
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `material theme` and choose `Material Theme: Set accent color` and pick one color from the list.
+Type `material theme`, choose `Material Theme: Set accent color`, and pick one color from the list.
 
 ## Disabling/enabling file icons auto-applying
 
-By default material theme will apply the correct icons theme based on your active theme variant. To disable this behavior follow these steps:
+By default, Material Theme will apply the correct icons theme based on your active theme variant. To disable this behavior follow these steps:
 
-Launch *Quick Open*,
+Launch *Quick Open*:
 
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
@@ -115,7 +115,7 @@ Launch *Quick Open*,
 Type `material theme` and choose `Material Theme: Enable or disable icons auto-applying` and choose to disable or enable this behavior.
 
 ## Override theme colors
-You can override the material theme ui and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the vs code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme)
+You can override the Material Theme UI and schemes colors by adding these theme-specific settings to your configuration. For advanced customisation please check the [relative section on the VS Code documentation](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme).
 
 ### Color Scheme override
 
