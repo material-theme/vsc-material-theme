@@ -839,6 +839,9 @@
     "settings.headerForeground": "{{commons.accents.Teal}}",
     "settings.modifiedItemIndicator": "{{commons.accents.Teal}}",
     "settings.checkboxBackground": "{{variant.scheme.backgroundAlt}}",
-    "settings.checkboxForeground": "{{variant.scheme.foreground}}"
+    "settings.checkboxForeground": "{{variant.scheme.foreground}}",
+    "listFilterWidget.background": "{{variant.scheme.inactiveSelectionBackground}}",
+    "listFilterWidget.outline": "{{variant.scheme.inactiveSelectionBackground}}",
+    "listFilterWidget.noMatchesOutline": "{{variant.scheme.inactiveSelectionBackground}}"
   }
 }
