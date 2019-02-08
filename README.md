@@ -9,19 +9,20 @@
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues).
 
 - [Getting started](#getting-started)
-    - [Installation](#installation)
-            - [Packaged VSIX Extension](#packaged-vsix-extension)
-                - [GitHub Repository Clone](#github-repository-clone)
-    - [Activate theme](#activate-theme)
-    - [Set the accent color](#set-the-accent-color)
-    - [Override theme colors](#override-theme-colors)
-        - [Color Scheme override](#color-scheme-override)
+  - [Installation](#installation)
+      - [Packaged VSIX Extension](#packaged-vsix-extension)
+        - [GitHub Repository Clone](#github-repository-clone)
+  - [Activate theme](#activate-theme)
+  - [Set the accent color](#set-the-accent-color)
+  - [Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
+  - [Override theme colors](#override-theme-colors)
+    - [Color Scheme override](#color-scheme-override)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
-    - [Contributors](#contributors)
-    - [Backers](#backers)
-    - [Sponsors](#sponsors)
+  - [Contributors](#contributors)
+  - [Backers](#backers)
+  - [Sponsors](#sponsors)
 
 
 # Getting started
@@ -78,19 +79,6 @@ Launch *Quick Open*:
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
 Type `theme`, choose `Preferences: Color Theme`, and select one of the Material Theme variants from the list. After activation, the theme will set the correct icon theme based on your active theme variant.
-
-
-## Fix File Icons
-
-If you notice that the folder icons do not match the active Material Theme variant, you can fix it with just a command.
-
-Launch *Quick Open*:
-
-  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
-  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
-  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
-
-Type `material theme` and select `Material Theme: Fix file icons` from the drop-down menu. This command will set the correct icon theme based on your active Material Theme variant.
 
 
 ## Set the accent color
