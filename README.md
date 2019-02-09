@@ -80,7 +80,6 @@ Launch *Quick Open*:
 
 Type `theme`, choose `Preferences: Color Theme`, and select one of the Material Theme variants from the list. After activation, the theme will set the correct icon theme based on your active theme variant.
 
-
 ## Set the accent color
 
 Launch *Quick Open*:
