@@ -28,6 +28,7 @@ export async function activate(context: ExtensionContext) {
   // Registering commands
   Commands.registerCommand('materialTheme.setAccent', async () => {
     const accentPicked = await ThemeCommands.accentsQuickPick();
+    await ThemeCommands.accentsSetter(accentPicked);
     await updateAccent(accentPicked);
   });
 
