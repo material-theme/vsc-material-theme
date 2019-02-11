@@ -1,20 +1,41 @@
 
 <p align="center"><img width="800px" src="https://i.ibb.co/LzRwxp4/Frame.jpg"></p>
 <p align="center">
-<a href="https://code.visualstudio.com/updates/v1_25"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=FBBD30&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs-short/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=5DDB61&colorB=4BC74F&label=DOWNLOADS"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
+<a href="https://code.visualstudio.com/updates/v1_25"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=FBBD30&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/downloads-short/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=5DDB61&colorB=4BC74F&label=DOWNLOADS"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
 </p>
 
 
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues).
 
+- [- Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
 - [Getting started](#getting-started)
   - [Installation](#installation)
       - [Packaged VSIX Extension](#packaged-vsix-extension)
         - [GitHub Repository Clone](#github-repository-clone)
   - [Activate theme](#activate-theme)
   - [Set the accent color](#set-the-accent-color)
+  - [Override theme colors](#override-theme-colors)
+    - [Color Scheme override](#color-scheme-override)
+- [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
+- [Official Portings](#official-portings)
+- [Other resources](#other-resources)
+  - [Contributors](#contributors)
+  - [Backers](#backers)
+  - [Sponsors](#sponsors)
+<<<<<<< HEAD
   - [Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
+=======
+>>>>>>> develop
+  - [Override theme colors](#override-theme-colors)
+    - [Color Scheme override](#color-scheme-override)
+- [- Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
+- [Getting started](#getting-started)
+  - [Installation](#installation)
+      - [Packaged VSIX Extension](#packaged-vsix-extension)
+        - [GitHub Repository Clone](#github-repository-clone)
+  - [Activate theme](#activate-theme)
+  - [Set the accent color](#set-the-accent-color)
   - [Override theme colors](#override-theme-colors)
     - [Color Scheme override](#color-scheme-override)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
@@ -89,19 +110,6 @@ Launch *Quick Open*:
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
 Type `material theme`, choose `Material Theme: Set accent color`, and pick one color from the list.
-
-
-## Disabling/enabling file icons auto-applying
-
-By default, Material Theme will apply the correct icons theme based on your active theme variant. To disable this behavior follow these steps:
-
-Launch *Quick Open*:
-
-  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
-  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
-  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
-
-Type `material theme` and choose `Material Theme: Enable or disable icons auto-applying` and choose to disable or enable this behavior.
 
 
 ## Override theme colors
