@@ -1,26 +1,28 @@
 
-<p align="center"><img width="980px" src="https://i.imgur.com/qvxc7OA.jpg"></p>
+<p align="center"><img width="800px" src="https://i.ibb.co/LzRwxp4/Frame.jpg"></p>
+<p align="center">
+<a href="https://code.visualstudio.com/updates/v1_25"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=FBBD30&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs-short/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=5DDB61&colorB=4BC74F&label=DOWNLOADS"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
+</p>
 
-<a href="https://code.visualstudio.com/updates/v1_25"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=FBBD30&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme"><img src="https://vsmarketplacebadge.apphb.com/installs-short/Equinusocio.vsc-material-theme.svg?style=for-the-badge&colorA=5DDB61&colorB=4BC74F&label=DOWNLOADS"/></a>
-[![VSCode.pro](https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge)]( https://a.paddle.com/v2/click/16413/37697?link=1227)
 
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues).
 
 - [Getting started](#getting-started)
-    - [Installation](#installation)
-            - [Packaged VSIX Extension](#packaged-vsix-extension)
-                - [GitHub Repository Clone](#github-repository-clone)
-    - [Activate theme](#activate-theme)
-    - [Set the accent color](#set-the-accent-color)
-    - [Override theme colors](#override-theme-colors)
-        - [Color Scheme override](#color-scheme-override)
+  - [Installation](#installation)
+      - [Packaged VSIX Extension](#packaged-vsix-extension)
+        - [GitHub Repository Clone](#github-repository-clone)
+  - [Activate theme](#activate-theme)
+  - [Set the accent color](#set-the-accent-color)
+  - [Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
+  - [Override theme colors](#override-theme-colors)
+    - [Color Scheme override](#color-scheme-override)
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
-    - [Contributors](#contributors)
-    - [Backers](#backers)
-    - [Sponsors](#sponsors)
+  - [Contributors](#contributors)
+  - [Backers](#backers)
+  - [Sponsors](#sponsors)
 
 
 # Getting started
@@ -77,20 +79,6 @@ Launch *Quick Open*:
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
 Type `theme`, choose `Preferences: Color Theme`, and select one of the Material Theme variants from the list. After activation, the theme will set the correct icon theme based on your active theme variant.
-
-
-## Fix File Icons
-
-If you notice that the folder icons do not match the active Material Theme variant, you can fix it with just a command.
-
-Launch *Quick Open*:
-
-  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
-  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
-  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
-
-Type `material theme` and select `Material Theme: Fix file icons` from the drop-down menu. This command will set the correct icon theme based on your active Material Theme variant.
-
 
 ## Set the accent color
 
@@ -216,6 +204,6 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 ---
 
-<p align="center"> <img src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/0.0.14/1494970083238/Microsoft.VisualStudio.Services.Icons.Default" width=16 height=16/> Copyright &copy; 2017 Mattia Astorino</p>
+<p align="center"> <img src="https://equinusocio.gallerycdn.vsassets.io/extensions/equinusocio/vsc-material-theme/0.0.14/1494970083238/Microsoft.VisualStudio.Services.Icons.Default" width=16 height=16/> Copyright &copy; 2019 Mattia Astorino & Alessio Occhipinti</p>
 
 <p align="center"><a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-5E81AC.svg?style=flat-square"/></a></p>
