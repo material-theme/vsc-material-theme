@@ -8,7 +8,6 @@
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/equinusocio/vsc-material-theme/issues).
 
-- [- Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
 - [Getting started](#getting-started)
   - [Installation](#installation)
       - [Packaged VSIX Extension](#packaged-vsix-extension)
