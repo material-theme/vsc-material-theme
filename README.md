@@ -25,7 +25,6 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
   - [Sponsors](#sponsors)
   - [Override theme colors](#override-theme-colors)
     - [Color Scheme override](#color-scheme-override)
-- [- Disabling/enabling file icons auto-applying](#disablingenabling-file-icons-auto-applying)
 - [Getting started](#getting-started)
   - [Installation](#installation)
       - [Packaged VSIX Extension](#packaged-vsix-extension)
