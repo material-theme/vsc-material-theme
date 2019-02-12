@@ -11,7 +11,7 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
 - [Getting started](#getting-started)
   - [Installation](#installation)
       - [Packaged VSIX Extension](#packaged-vsix-extension)
-        - [GitHub Repository Clone](#github-repository-clone)
+      - [GitHub Repository Clone](#github-repository-clone)
   - [Activate theme](#activate-theme)
   - [Set the accent color](#set-the-accent-color)
   - [Override theme colors](#override-theme-colors)
@@ -19,32 +19,16 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
 - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
 - [Official Portings](#official-portings)
 - [Other resources](#other-resources)
-  - [Contributors](#contributors)
-  - [Backers](#backers)
-  - [Sponsors](#sponsors)
-  - [Override theme colors](#override-theme-colors)
-    - [Color Scheme override](#color-scheme-override)
-- [Getting started](#getting-started)
-  - [Installation](#installation)
-      - [Packaged VSIX Extension](#packaged-vsix-extension)
-        - [GitHub Repository Clone](#github-repository-clone)
-  - [Activate theme](#activate-theme)
-  - [Set the accent color](#set-the-accent-color)
-  - [Override theme colors](#override-theme-colors)
-    - [Color Scheme override](#color-scheme-override)
-- [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
-- [Official Portings](#official-portings)
-- [Other resources](#other-resources)
-  - [Contributors](#contributors)
-  - [Backers](#backers)
-  - [Sponsors](#sponsors)
+- [Contributors](#contributors)
+- [Backers](#backers)
+- [Sponsors](#sponsors)
 
 
-# Getting started
+## Getting started
 
 You can install this awesome theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme).
 
-## Installation
+### Installation
 
 Launch *Quick Open*:
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
@@ -143,7 +127,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 },
 ```
 
-# Recommended settings for a better experience
+## Recommended settings for a better experience
 
 ```js
 {
@@ -158,7 +142,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 }
 ```
 
-# Official Portings
+## Official Portings
 Thanks to the Material Theme community you can use is with other softwares, here the official portings:
 
 - Atom Editor: [atom-material-ui](https://github.com/silvestreh/atom-material-ui) (by [@silvestreh](https://github.com/silvestreh))
@@ -172,7 +156,7 @@ Thanks to the Material Theme community you can use is with other softwares, here
 - [Nylas N1](https://github.com/jackiehluo/n1-material) (thanks to [@jackiehluo](https://github.com/jackiehluo))
 - [Base16](https://github.com/ntpeters/base16-materialtheme-scheme) (by [@ntpeters](https://github.com/ntpeters))
 
-# Other resources
+## Other resources
 - **AppIcon:** [Download](https://github.com/equinusocio/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 
