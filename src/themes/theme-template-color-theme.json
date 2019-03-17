@@ -93,7 +93,6 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "punctuation",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -694,6 +693,9 @@
     "editor.selectionBackground": "{{variant.scheme.selection}}",
     "editor.selectionHighlightBackground": "{{variant.scheme.caret}}20",
     "editorOverviewRuler.border": "{{variant.scheme.background}}",
+    "editorOverviewRuler.errorForeground": "{{variant.scheme.base.red}}40",
+    "editorOverviewRuler.infoForeground": "{{variant.scheme.base.blue}}40",
+    "editorOverviewRuler.warningForeground": "{{variant.scheme.base.yellow}}40",
     "editorHoverWidget.background": "{{variant.scheme.background}}",
     "editorHoverWidget.border": "{{variant.scheme.inputBorder}}",
     "editorIndentGuide.background": "{{variant.scheme.guides}}70",
