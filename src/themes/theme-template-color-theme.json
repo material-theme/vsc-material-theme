@@ -93,7 +93,6 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "punctuation",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
