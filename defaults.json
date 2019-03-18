@@ -96,7 +96,7 @@
     }
   },
   "changelog": {
-    "lastversion": "2.7.0"
+    "lastversion": "2.8.0"
   },
   "themeVariants": {
     "Darker": "./themes/Material-Theme-Darker.json",

@@ -94,6 +94,7 @@
         "keyword.control",
         "constant.other.color",
         "punctuation.definition.tag",
+        "punctuation",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
