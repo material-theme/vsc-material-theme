@@ -1,7 +1,7 @@
 <p align="center">
   <h3>
       This project is no longer under active development. This theme should be completely rewritten from scratch, if any python developer want to help me to revive this project, contact me.
-  <h3>
+  </h3>
 </p>
 
 ![Material Theme](http://i.imgur.com/9PyxJMN.gif)
