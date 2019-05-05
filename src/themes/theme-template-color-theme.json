@@ -724,6 +724,8 @@
     "statusBar.debuggingBackground": "{{variant.scheme.base.purple}}",
     "statusBar.debuggingForeground": "{{variant.scheme.base.white}}",
     "statusBarItem.hoverBackground": "{{variant.scheme.comments}}20",
+    "statusBarItem.remoteForeground": "{{variant.scheme.base.black}}",
+    "statusBarItem.remoteBackground": "{{commons.accents.Teal}}",
     "activityBar.background": "{{variant.scheme.backgroundAlt}}",
     "activityBar.border": "{{variant.scheme.contrastBorder}}60",
     "activityBar.foreground": "{{variant.scheme.foreground}}",
