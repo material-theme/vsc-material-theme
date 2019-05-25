@@ -131,7 +131,6 @@
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
-        "meta.function-call",
         "variable.function",
         "support.function",
         "keyword.other.special-method"
@@ -693,6 +692,9 @@
     "editor.lineHighlightBackground": "{{variant.scheme.lineHighlight}}50",
     "editor.selectionBackground": "{{variant.scheme.selection}}",
     "editor.selectionHighlightBackground": "{{variant.scheme.caret}}20",
+    "editor.findMatchBackground": "{{variant.scheme.base.pink}}",
+    "editorOverviewRuler.findMatchForeground": "{{variant.scheme.base.pink}}60",
+    "editor.findMatchHighlightBackground": "{{variant.scheme.base.pink}}60",
     "editorOverviewRuler.border": "{{variant.scheme.background}}",
     "editorOverviewRuler.errorForeground": "{{variant.scheme.base.red}}40",
     "editorOverviewRuler.infoForeground": "{{variant.scheme.base.blue}}40",
@@ -724,6 +726,8 @@
     "statusBar.debuggingBackground": "{{variant.scheme.base.purple}}",
     "statusBar.debuggingForeground": "{{variant.scheme.base.white}}",
     "statusBarItem.hoverBackground": "{{variant.scheme.comments}}20",
+    "statusBarItem.remoteForeground": "{{variant.scheme.base.black}}",
+    "statusBarItem.remoteBackground": "{{commons.accents.Teal}}",
     "activityBar.background": "{{variant.scheme.backgroundAlt}}",
     "activityBar.border": "{{variant.scheme.contrastBorder}}60",
     "activityBar.foreground": "{{variant.scheme.foreground}}",
