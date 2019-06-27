@@ -97,6 +97,10 @@
     "editor.findMatchBorder": {
       "alpha": 100,
       "value": null
+    },
+    "selection.background": {
+      "alpha": 40,
+      "value": null
     }
   },
   "changelog": {

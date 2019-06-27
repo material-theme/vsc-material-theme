@@ -678,7 +678,7 @@
     "editorRuler.foreground": "{{variant.scheme.guides}}",
     "scrollbar.shadow": "{{variant.scheme.background}}00",
     "editorLink.activeForeground": "{{variant.scheme.foreground}}",
-    "selection.background": "{{variant.scheme.foreground}}",
+    "selection.background": "{{commons.accents.Teal}}",
     "progressBar.background": "{{commons.accents.Teal}}",
     "textLink.foreground": "{{commons.accents.Teal}}",
     "textLink.activeForeground": "{{variant.scheme.foreground}}",
