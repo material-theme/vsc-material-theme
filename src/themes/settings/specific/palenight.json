@@ -29,6 +29,9 @@
     "listHoverBackground": "#292D3E",
     "tabActiveForeground": "#FFFFFF",
     "inactiveSelectionBackground": "#00000030",
+    "findMatchBackground": "#000000",
+    "findMatchHighlightBackground": "#00000050",
+    "findMatchHighlightBorder": "#ffffff30",
     "base": {
       "white": "#ffffff",
       "black": "#000000",
