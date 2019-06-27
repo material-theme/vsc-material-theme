@@ -158,6 +158,7 @@
     }
   ],
   "devDependencies": {
+    "@babel/register": "7.4.4",
     "@types/gulp": "4.0.5",
     "@types/gulp-if": "0.0.33",
     "@types/gulp-util": "3.0.34",

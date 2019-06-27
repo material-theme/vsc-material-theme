@@ -682,19 +682,18 @@
     "progressBar.background": "{{commons.accents.Teal}}",
     "textLink.foreground": "{{commons.accents.Teal}}",
     "textLink.activeForeground": "{{variant.scheme.foreground}}",
+    "widget.shadow": "{{variant.scheme.shadow}}",
+    "button.background": "{{variant.scheme.selection}}",
+    "debugToolBar.background": "{{variant.scheme.background}}",
+    "pickerGroup.foreground": "{{commons.accents.Teal}}",
+
+
     "editorLineNumber.foreground": "{{variant.scheme.lineNumbers}}",
     "editorLineNumber.activeForeground": "{{variant.scheme.sidebarForeground}}",
     "editorBracketMatch.border": "{{variant.scheme.caret}}50",
     "editorBracketMatch.background": "{{variant.scheme.background}}",
     "editorWhitespace.foreground": "{{variant.scheme.foreground}}40",
-    "editor.background": "{{variant.scheme.background}}",
-    "editor.foreground": "{{variant.scheme.foreground}}",
-    "editor.lineHighlightBackground": "{{variant.scheme.lineHighlight}}50",
-    "editor.selectionBackground": "{{variant.scheme.selection}}",
-    "editor.selectionHighlightBackground": "{{variant.scheme.caret}}20",
-    "editor.findMatchBackground": "{{variant.scheme.base.pink}}",
-    "editorOverviewRuler.findMatchForeground": "{{variant.scheme.base.pink}}60",
-    "editor.findMatchHighlightBackground": "{{variant.scheme.base.pink}}60",
+    "editorOverviewRuler.findMatchForeground": "{{commons.accents.Teal}}",
     "editorOverviewRuler.border": "{{variant.scheme.background}}",
     "editorOverviewRuler.errorForeground": "{{variant.scheme.base.red}}40",
     "editorOverviewRuler.infoForeground": "{{variant.scheme.base.blue}}40",
@@ -711,6 +710,18 @@
     "editorGutter.modifiedBackground": "{{variant.scheme.base.blue}}60",
     "editorGutter.addedBackground": "{{variant.scheme.base.green}}60",
     "editorGutter.deletedBackground": "{{variant.scheme.base.red}}60",
+
+    "editor.background": "{{variant.scheme.background}}",
+    "editor.foreground": "{{variant.scheme.foreground}}",
+    "editor.lineHighlightBackground": "{{variant.scheme.lineHighlight}}50",
+    "editor.selectionBackground": "{{variant.scheme.selection}}",
+    "editor.selectionHighlightBackground": "{{variant.scheme.caret}}20",
+
+    "editor.findMatchBackground": "{{variant.scheme.findMatchBackground}}",
+    "editor.findMatchHighlightBackground": "{{variant.scheme.findMatchHighlightBackground}}",
+    "editor.findMatchBorder": "{{commons.accents.Teal}}",
+    "editor.findMatchHighlightBorder": "{{variant.scheme.findMatchHighlightBorder}}",
+
     "tab.activeBorder": "{{commons.accents.Teal}}",
     "tab.activeModifiedBorder": "{{variant.scheme.sidebarForeground}}",
     "tab.unfocusedActiveBorder": "{{variant.scheme.comments}}",
@@ -719,40 +730,51 @@
     "tab.inactiveBackground": "{{variant.scheme.background}}",
     "tab.unfocusedActiveForeground": "{{variant.scheme.foreground}}",
     "tab.border": "{{variant.scheme.background}}",
+
     "statusBar.noFolderBackground": "{{variant.scheme.background}}",
     "statusBar.border": "{{variant.scheme.contrastBorder}}60",
     "statusBar.background": "{{variant.scheme.backgroundAlt}}",
     "statusBar.foreground": "{{variant.scheme.statusbarForeground}}",
     "statusBar.debuggingBackground": "{{variant.scheme.base.purple}}",
     "statusBar.debuggingForeground": "{{variant.scheme.base.white}}",
+
     "statusBarItem.hoverBackground": "{{variant.scheme.comments}}20",
     "statusBarItem.remoteForeground": "{{variant.scheme.base.black}}",
     "statusBarItem.remoteBackground": "{{commons.accents.Teal}}",
+
     "activityBar.background": "{{variant.scheme.backgroundAlt}}",
     "activityBar.border": "{{variant.scheme.contrastBorder}}60",
     "activityBar.foreground": "{{variant.scheme.foreground}}",
+
     "activityBarBadge.background": "{{commons.accents.Teal}}",
     "activityBarBadge.foreground": "{{variant.scheme.base.black}}",
+
     "titleBar.activeBackground": "{{variant.scheme.backgroundAlt}}",
     "titleBar.activeForeground": "{{variant.scheme.foreground}}",
     "titleBar.inactiveBackground": "{{variant.scheme.backgroundAlt}}",
     "titleBar.inactiveForeground": "{{variant.scheme.sidebarForeground}}",
+    "titleBar.border": "{{variant.scheme.contrastBorder}}60",
+
     "sideBar.background": "{{variant.scheme.backgroundAlt}}",
     "sideBar.foreground": "{{variant.scheme.sidebarForeground}}",
     "sideBar.border": "{{variant.scheme.contrastBorder}}60",
-    "titleBar.border": "{{variant.scheme.contrastBorder}}60",
+
     "sideBarTitle.foreground": "{{variant.scheme.foreground}}",
     "sideBarSectionHeader.background": "{{variant.scheme.backgroundAlt}}",
     "sideBarSectionHeader.border": "{{variant.scheme.contrastBorder}}60",
+
     "input.background": "{{variant.scheme.inputBackground}}",
     "input.foreground": "{{variant.scheme.inputForeground}}",
     "input.placeholderForeground": "{{variant.scheme.foreground}}60",
     "input.border": "{{variant.scheme.inputBorder}}",
+
     "inputValidation.errorBorder": "{{variant.scheme.base.red}}50",
     "inputValidation.infoBorder": "{{variant.scheme.base.blue}}50",
     "inputValidation.warningBorder": "{{variant.scheme.base.yellow}}50",
+
     "dropdown.background": "{{variant.scheme.background}}",
     "dropdown.border": "{{variant.scheme.inputBorder}}",
+
     "list.hoverForeground": "{{variant.scheme.listHoverForeground}}",
     "list.hoverBackground": "{{variant.scheme.backgroundAlt}}",
     "list.activeSelectionBackground": "{{variant.scheme.backgroundAlt}}",
@@ -762,6 +784,7 @@
     "list.focusBackground": "{{variant.scheme.foreground}}20",
     "list.focusForeground": "{{variant.scheme.foreground}}",
     "list.highlightForeground": "{{commons.accents.Teal}}",
+
     "terminal.ansiWhite": "{{variant.scheme.base.white}}",
     "terminal.ansiBlack": "{{variant.scheme.base.black}}",
     "terminal.ansiBlue": "{{variant.scheme.base.blue}}",
@@ -778,9 +801,11 @@
     "terminal.ansiBrightMagenta": "{{variant.scheme.base.purple}}",
     "terminal.ansiBrightRed": "{{variant.scheme.base.red}}",
     "terminal.ansiBrightYellow": "{{variant.scheme.base.yellow}}",
+
     "scrollbarSlider.background": "{{variant.scheme.scrollbars}}",
     "scrollbarSlider.hoverBackground": "{{variant.scheme.scrollbarsHover}}",
     "scrollbarSlider.activeBackground": "{{commons.accents.Teal}}",
+
     "editorSuggestWidget.background": "{{variant.scheme.background}}",
     "editorSuggestWidget.foreground": "{{variant.scheme.foreground}}",
     "editorSuggestWidget.highlightForeground": "{{commons.accents.Teal}}",
@@ -790,23 +815,27 @@
     "editorWidget.resizeBorder": "{{commons.accents.Teal}}",
     "editorWidget.border": "{{variant.scheme.base.Teal}}",
     "editorMarkerNavigation.background": "{{variant.scheme.foreground}}05",
-    "widget.shadow": "{{variant.scheme.shadow}}",
+
     "panel.border": "{{variant.scheme.contrastBorder}}60",
     "panel.background": "{{variant.scheme.backgroundAlt}}",
     "panel.dropBackground": "{{variant.scheme.foreground}}",
     "panelTitle.inactiveForeground": "{{variant.scheme.foreground}}",
     "panelTitle.activeForeground": "{{variant.scheme.tabActiveForeground}}",
     "panelTitle.activeBorder": "{{commons.accents.Teal}}",
+
     "diffEditor.insertedTextBackground": "{{variant.scheme.base.green}}15",
     "diffEditor.removedTextBackground": "{{variant.scheme.base.red}}20",
+
     "notifications.background": "{{variant.scheme.background}}",
     "notifications.foreground": "{{variant.scheme.foreground}}",
     "notificationLink.foreground": "{{commons.accents.Teal}}",
+
     "badge.background": "{{variant.scheme.lineHighlight}}30",
     "badge.foreground": "{{variant.scheme.comments}}",
-    "button.background": "{{variant.scheme.selection}}",
+
     "extensionButton.prominentBackground": "{{variant.scheme.base.green}}90",
     "extensionButton.prominentHoverBackground": "{{variant.scheme.base.green}}",
+
     "peekView.border": "{{variant.scheme.shadow}}",
     "peekViewEditor.background": "{{variant.scheme.foreground}}05",
     "peekViewTitle.background": "{{variant.scheme.foreground}}05",
@@ -815,28 +844,32 @@
     "peekViewTitleDescription.foreground": "{{variant.scheme.foreground}}60",
     "peekViewResult.matchHighlightBackground": "{{variant.scheme.selection}}",
     "peekViewEditor.matchHighlightBackground": "{{variant.scheme.selection}}",
-    "debugToolBar.background": "{{variant.scheme.background}}",
-    "pickerGroup.foreground": "{{commons.accents.Teal}}",
+
     "gitDecoration.deletedResourceForeground": "{{variant.scheme.base.red}}90",
     "gitDecoration.conflictingResourceForeground": "{{variant.scheme.base.yellow}}90",
     "gitDecoration.modifiedResourceForeground": "{{variant.scheme.base.blue}}90",
     "gitDecoration.untrackedResourceForeground": "{{variant.scheme.base.green}}90",
     "gitDecoration.ignoredResourceForeground": "{{variant.scheme.sidebarForeground}}90",
+
     "peekViewResult.selectionBackground": "{{variant.scheme.sidebarForeground}}70",
+
     "breadcrumb.background": "{{variant.scheme.background}}",
     "breadcrumb.foreground": "{{variant.scheme.sidebarForeground}}",
     "breadcrumb.focusForeground": "{{variant.scheme.foreground}}",
     "breadcrumb.activeSelectionForeground": "{{commons.accents.Teal}}",
     "breadcrumbPicker.background": "{{variant.scheme.backgroundAlt}}",
+
     "menu.background": "{{variant.scheme.background}}",
     "menu.foreground": "{{variant.scheme.foreground}}",
     "menu.selectionBackground": "{{variant.scheme.lineHighlight}}50",
     "menu.selectionForeground": "{{commons.accents.Teal}}",
     "menu.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
     "menu.separatorBackground": "{{variant.scheme.foreground}}",
+
     "menubar.selectionBackground": "{{variant.scheme.inactiveSelectionBackground}}",
     "menubar.selectionForeground": "{{commons.accents.Teal}}",
     "menubar.selectionBorder": "{{variant.scheme.inactiveSelectionBackground}}",
+
     "settings.dropdownForeground": "{{variant.scheme.foreground}}",
     "settings.dropdownBackground": "{{variant.scheme.backgroundAlt}}",
     "settings.numberInputForeground": "{{variant.scheme.foreground}}",
@@ -847,6 +880,7 @@
     "settings.modifiedItemIndicator": "{{commons.accents.Teal}}",
     "settings.checkboxBackground": "{{variant.scheme.backgroundAlt}}",
     "settings.checkboxForeground": "{{variant.scheme.foreground}}",
+
     "listFilterWidget.background": "{{variant.scheme.inactiveSelectionBackground}}",
     "listFilterWidget.outline": "{{variant.scheme.inactiveSelectionBackground}}",
     "listFilterWidget.noMatchesOutline": "{{variant.scheme.inactiveSelectionBackground}}"
