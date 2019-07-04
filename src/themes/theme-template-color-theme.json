@@ -1,8 +1,7 @@
 {
   "name": "{{variant.name}}",
   "type": "{{variant.type}}",
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "settings": {
         "background": "{{variant.scheme.background}}",
         "foreground": "{{variant.scheme.base.white}}"
@@ -883,6 +882,8 @@
 
     "listFilterWidget.background": "{{variant.scheme.inactiveSelectionBackground}}",
     "listFilterWidget.outline": "{{variant.scheme.inactiveSelectionBackground}}",
-    "listFilterWidget.noMatchesOutline": "{{variant.scheme.inactiveSelectionBackground}}"
+    "listFilterWidget.noMatchesOutline": "{{variant.scheme.inactiveSelectionBackground}}",
+
+    "tree.indentGuidesStroke": "{{variant.scheme.guides}}"
   }
 }
