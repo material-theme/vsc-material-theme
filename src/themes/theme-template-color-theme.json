@@ -801,6 +801,9 @@
     "terminal.ansiBrightRed": "{{variant.scheme.base.red}}",
     "terminal.ansiBrightYellow": "{{variant.scheme.base.yellow}}",
 
+    "terminalCursor.foreground": "{{variant.scheme.base.yellow}}",
+    "terminalCursor.background": "{{variant.scheme.base.black}}",
+
     "scrollbarSlider.background": "{{variant.scheme.scrollbars}}",
     "scrollbarSlider.hoverBackground": "{{variant.scheme.scrollbarsHover}}",
     "scrollbarSlider.activeBackground": "{{commons.accents.Teal}}",
