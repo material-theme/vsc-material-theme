@@ -1,8 +1,7 @@
 {
   "name": "{{variant.name}}",
   "type": "{{variant.type}}",
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "settings": {
         "background": "{{variant.scheme.background}}",
         "foreground": "{{variant.scheme.base.white}}"
@@ -802,6 +801,9 @@
     "terminal.ansiBrightRed": "{{variant.scheme.base.red}}",
     "terminal.ansiBrightYellow": "{{variant.scheme.base.yellow}}",
 
+    "terminalCursor.foreground": "{{variant.scheme.base.yellow}}",
+    "terminalCursor.background": "{{variant.scheme.base.black}}",
+
     "scrollbarSlider.background": "{{variant.scheme.scrollbars}}",
     "scrollbarSlider.hoverBackground": "{{variant.scheme.scrollbarsHover}}",
     "scrollbarSlider.activeBackground": "{{commons.accents.Teal}}",
@@ -883,6 +885,8 @@
 
     "listFilterWidget.background": "{{variant.scheme.inactiveSelectionBackground}}",
     "listFilterWidget.outline": "{{variant.scheme.inactiveSelectionBackground}}",
-    "listFilterWidget.noMatchesOutline": "{{variant.scheme.inactiveSelectionBackground}}"
+    "listFilterWidget.noMatchesOutline": "{{variant.scheme.inactiveSelectionBackground}}",
+
+    "tree.indentGuidesStroke": "{{variant.scheme.guides}}"
   }
 }
