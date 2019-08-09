@@ -11,7 +11,7 @@
 [![Package Quality](http://npm.packagequality.com/shield/material-theme.svg?colorB=80d4cd&style=flat-square)](http://packagequality.com/#?package=material-theme)
 [![Join the chat at https://gitter.im/original-material-theme/sublime-text](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat-square)](https://gitter.im/original-material-theme/sublime-text?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similiar issue and then report a [new one](https://github.com/equinusocio/material-theme/issues).
+This theme brings the [Material Design](http://www.google.com/design/) visual language to your Sublime Text 3. If you have problems, first search for a similar issue and then report a [new one](https://github.com/equinusocio/material-theme/issues).
 
 Please read the [Known Issues](https://github.com/equinusocio/material-theme#known-issues) section before reporting a new one. Any issue that does not use the issue template and any issue related to the [known issues section](https://github.com/equinusocio/material-theme#known-issues) will be automatically closed.
 
