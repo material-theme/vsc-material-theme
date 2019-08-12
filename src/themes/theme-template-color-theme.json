@@ -685,7 +685,8 @@
     "button.background": "{{variant.scheme.selection}}",
     "debugToolBar.background": "{{variant.scheme.background}}",
     "pickerGroup.foreground": "{{commons.accents.Teal}}",
-    "inputOption.activeBackground": "{{commons.accents.Teal}}",
+    "inputOption.activeBackground": "{{variant.scheme.foreground}}30",
+    "inputOption.activeBorder": "{{variant.scheme.foreground}}30",
 
 
     "editorLineNumber.foreground": "{{variant.scheme.lineNumbers}}",
