@@ -14,10 +14,10 @@
   "homepage": "https://equinsuocha.io/projects/material-theme/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/equinusocio/vsc-material-theme.git"
+    "url": "https://github.com/material-theme/vsc-material-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/equinusocio/vsc-material-theme/issues"
+    "url": "https://github.com/material-theme/vsc-material-theme/issues"
   },
   "engines": {
     "vscode": ">=1.36.0"
@@ -148,7 +148,7 @@
   "badges": [
     {
       "url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
-      "href": "https://github.com/equinusocio/vsc-material-theme/issues",
+      "href": "https://github.com/material-theme/vsc-material-theme/issues",
       "description": "Open issues"
     },
     {
