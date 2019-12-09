@@ -20,12 +20,14 @@
     "url": "https://github.com/material-theme/vsc-material-theme/issues"
   },
   "engines": {
+    "node": ">=11",
     "vscode": ">=1.36.0"
   },
   "scripts": {
     "build": "yarn cleanup && yarn build-ts && yarn build-themes && yarn build-ui",
     "cleanup": "rimraf out",
-    "build-themes": "gulp build:themes",
+    "prebuild-themes": "tsc src/themes/generator.ts",
+    "build-themes": "node src/themes/generator.js",
     "build-ui": "gulp build:copy-ui && yarn build-ui-release-notes",
     "build-ui-release-notes": "browserify out/src/webviews/ui/release-notes/index.js > out/ui/release-notes.js",
     "build-ui-only": "yarn cleanup && yarn build-ts && yarn build-ui",
@@ -47,8 +49,7 @@
   "extensionKind": "ui",
   "main": "./out/src/material.theme.config",
   "contributes": {
-    "commands": [
-      {
+    "commands": [{
         "command": "materialTheme.setAccent",
         "title": "Set accent color",
         "category": "🎨 Material Theme"
@@ -89,8 +90,7 @@
         }
       }
     },
-    "themes": [
-      {
+    "themes": [{
         "label": "Material Theme",
         "path": "./out/themes/Material-Theme-Default.json",
         "uiTheme": "vs-dark"
@@ -145,8 +145,7 @@
   "extensionDependency": [
     "Equinusocio.vsc-material-theme-icons"
   ],
-  "badges": [
-    {
+  "badges": [{
       "url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
       "href": "https://github.com/material-theme/vsc-material-theme/issues",
       "description": "Open issues"
@@ -159,6 +158,7 @@
   ],
   "devDependencies": {
     "@babel/register": "7.4.4",
+    "@moxer/vscode-theme-generator": "1.1.0",
     "@types/gulp": "4.0.5",
     "@types/gulp-if": "0.0.33",
     "@types/gulp-util": "3.0.34",
@@ -167,6 +167,7 @@
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "browserify": "16.2.2",
+    "fs-extra": "8.1.0",
     "gulp": "3.9.1",
     "gulp-bump": "3.1.0",
     "gulp-conventional-changelog": "1.1.11",
@@ -187,6 +188,7 @@
   },
   "dependencies": {
     "@sanity/client": "0.139.0",
+    "@types/fs-extra": "8.0.1",
     "opencollective": "1.0.3"
   },
   "collective": {

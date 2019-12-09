@@ -746,6 +746,7 @@
     "activityBar.background": "{{variant.scheme.backgroundAlt}}",
     "activityBar.border": "{{variant.scheme.contrastBorder}}60",
     "activityBar.foreground": "{{variant.scheme.foreground}}",
+    "activityBar.activeBorder": "{{commons.accents.Teal}}",
 
     "activityBarBadge.background": "{{commons.accents.Teal}}",
     "activityBarBadge.foreground": "{{variant.scheme.base.black}}",

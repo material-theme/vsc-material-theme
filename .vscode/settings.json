@@ -23,5 +23,6 @@
     "editor.quickSuggestions": false
   },
   "gulp.autoDetect": "off",
-  "npm.autoDetect": "off"
+  "npm.autoDetect": "off",
+  "eslint.autoFixOnSave": true
 }
