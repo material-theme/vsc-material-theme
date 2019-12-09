@@ -20,8 +20,8 @@
     "url": "https://github.com/material-theme/vsc-material-theme/issues"
   },
   "engines": {
-    "node": ">=11",
-    "vscode": ">=1.36.0"
+    "node": "<=10",
+    "vscode": ">=1.39.0"
   },
   "scripts": {
     "build": "yarn cleanup && yarn build-ts && yarn build-themes && yarn build-ui",
