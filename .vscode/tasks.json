@@ -79,7 +79,7 @@
     {
       "args": [
         "run",
-        "build-ts"
+        "build:ts"
       ],
       "command": "npm",
       "dependsOn": "clean project",
