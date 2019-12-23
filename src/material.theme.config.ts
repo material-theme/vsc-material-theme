@@ -10,7 +10,7 @@ import checkInstallation from './helpers/check-installation';
 import writeChangelog from './helpers/write-changelog';
 import {ReleaseNotesWebview} from './webviews/ReleaseNotes';
 
-export async function activate(context: ExtensionContext) {
+export async function activate(context: ExtensionContext): Promise<void> {
   const installationType = checkInstallation();
   const releaseNotesView = new ReleaseNotesWebview(context);
 
@@ -32,5 +32,5 @@ export async function activate(context: ExtensionContext) {
     await updateAccent(accentPicked);
   });
 
-  Commands.registerCommand('materialTheme.showReleaseNotes', () => releaseNotesView.show());
+  Commands.registerCommand('materialTheme.showReleaseNotes', async () => releaseNotesView.show());
 }

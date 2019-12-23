@@ -25,9 +25,13 @@ const generate = async (): Promise<void> => {
   });
 };
 
-try {
-  generate();
-} catch (error) {
-  console.error(error);
-  process.exit(1);
-}
+const run = async (): Promise<void> => {
+  try {
+    await generate();
+  } catch (error) {
+    console.error('ERROR build:generate-themes', error);
+    process.exit(1);
+  }
+};
+
+run();

@@ -4,6 +4,11 @@
     "xo-typescript"
   ],
   "rules": {
-    "@typescript-eslint/indent": ["error", 2, { "SwitchCase": 1 }]
+    "@typescript-eslint/indent": ["error", 2, { "SwitchCase": 1 }],
+    "@typescript-eslint/member-naming": 0,
+    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }]
+  },
+  "env": {
+    "browser": true
   }
 }

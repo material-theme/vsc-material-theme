@@ -9,7 +9,7 @@ const templateSingleAccent = (accentName: string, accentColor: string): string =
   `;
 };
 
-export default (containerSelector: string, accentsObject: IAccents, currentAccent: string) => {
+export default (containerSelector: string, accentsObject: IAccents, currentAccent: string): void => {
   const container = document.querySelector(containerSelector);
 
   for (const accentKey of Object.keys(accentsObject)) {

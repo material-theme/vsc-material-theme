@@ -2,18 +2,19 @@ import * as sanityClient from '@sanity/client';
 
 import {IPost, IPostNormalized} from '../../interfaces';
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const getClient = () => sanityClient({
   projectId: 'v475t82f',
   dataset: 'production'
 });
 
-const getReleaseNotes = (): Promise<object[]> => {
+const getReleaseNotes = async (): Promise<object[]> => {
   const query = '*[_type == "release"] | order(version desc)';
   const client = getClient();
   return client.fetch(query);
 };
 
-const renderTemplate = (posts: IPostNormalized[]) => {
+const renderTemplate = (posts: IPostNormalized[]): string => {
   return `${posts.reduce((acc, {version, title, fixed, new: newItems, breaking}) => acc.concat(`<section class="Release">
     <header class="Release__Header">
       <span class="Release__Number">${version}</span>
@@ -21,11 +22,11 @@ const renderTemplate = (posts: IPostNormalized[]) => {
     </header>
     <ul class="Release-List">
       ${fixed.reduce((accc: string, src) =>
-        src.length > 0 ? accc.concat(`<li data-type="fixed">${src}</li>`) : '', '')}
+    src.length > 0 ? accc.concat(`<li data-type="fixed">${src}</li>`) : '', '')}
       ${newItems.reduce((accc: string, src) =>
-        src.length > 0 ? accc.concat(`<li data-type="new">${src}</li>`) : '', '')}
+    src.length > 0 ? accc.concat(`<li data-type="new">${src}</li>`) : '', '')}
       ${breaking.reduce((accc: string, src) =>
-        src.length > 0 ? accc.concat(`<li data-type="breaking">${src}</li>`) : '', '')}
+    src.length > 0 ? accc.concat(`<li data-type="breaking">${src}</li>`) : '', '')}
     </ul>
   </section>`), '')}`;
 };

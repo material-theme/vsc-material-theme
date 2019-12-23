@@ -2,52 +2,55 @@ import {IThemeCustomSettings} from '../interfaces/itheme-custom-properties';
 import {IDefaults} from '../interfaces/idefaults';
 
 export interface IChangeType {
-  children: {
-    text: String;
-  }[];
+  children: Array<{
+    text: string;
+  }>;
 }
 export interface IPost {
-  title: String;
-  version: String;
+  title: string;
+  version: string;
   fixed: IChangeType[];
   new: IChangeType[];
   breaking: IChangeType[];
 }
 export interface IPostNormalized {
-  title: String;
-  version: String;
-  fixed: String[];
-  new: String[];
-  breaking: String[];
+  title: string;
+  version: string;
+  fixed: string[];
+  new: string[];
+  breaking: string[];
 }
-export interface SettingsChangedMessage {
+export interface ISettingsChangedMessage {
   type: 'settingsChanged';
   config: IThemeCustomSettings;
 }
 
-export interface SaveSettingsMessage {
+export interface ISaveSettingsMessage {
   type: 'saveSettings';
   changes: {
-      [key: string]: any;
+    [key: string]: any;
   };
   removes: string[];
   scope: 'user' | 'workspace';
   uri: string;
 }
 
-export type Message = SaveSettingsMessage | SettingsChangedMessage;
+export type Message = ISaveSettingsMessage | ISettingsChangedMessage;
 export type Invalidates = 'all' | 'config' | undefined;
 
-export interface Bootstrap {
+export interface IBootstrap {
   config: IThemeCustomSettings;
 }
 
-export interface SettingsBootstrap extends Bootstrap {
+export interface ISettingsBootstrap extends IBootstrap {
   scope: 'user' | 'workspace';
-  scopes: ['user' | 'workspace', string][];
+  scopes: Array<['user' | 'workspace', string]>;
   defaults: IDefaults;
 }
 
 declare global {
-  interface Window { bootstrap: Bootstrap | SettingsBootstrap | {}; }
+  // eslint-disable-next-line @typescript-eslint/interface-name-prefix
+  interface Window {
+    bootstrap: IBootstrap | ISettingsBootstrap | {};
+  }
 }

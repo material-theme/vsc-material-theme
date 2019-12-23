@@ -24,16 +24,12 @@
     "vscode": ">=1.39.0"
   },
   "scripts": {
-    "bu": "yarn cleanup && yarn build:ts && yarn build:generate-themes",
-    "lint": "eslint .",
-    "build": "yarn cleanup && yarn build:ts && yarn build-themes && yarn build-ui",
+    "build": "yarn cleanup && yarn build:ts && yarn build:generate-themes && yarn build:ui",
     "cleanup": "rimraf build && rimraf dist",
+    "lint": "eslint .",
+    "build:ui": "node dist/scripts/ui/index.js",
     "build:generate-themes": "node dist/scripts/generator/index.js",
-    "build-ui": "gulp build:copy-ui && yarn build-ui-release-notes",
-    "build-ui-release-notes": "browserify out/src/webviews/ui/release-notes/index.js > out/ui/release-notes.js",
-    "build-ui-only": "yarn cleanup && yarn build-ts && yarn build-ui",
-    "build:ts": "tsc -p ./tsconfig.json",
-    "test": "tslint **.ts",
+    "build:ts": "tsc -p ./tsconfig.json && cp -r dist/src/ build",
     "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall && tsc -p tsconfig.json"
   },
   "categories": [
@@ -48,7 +44,7 @@
     "*"
   ],
   "extensionKind": "ui",
-  "main": "./out/src/material.theme.config",
+  "main": "./build/material.theme.config",
   "contributes": {
     "commands": [
       {
@@ -95,52 +91,52 @@
     "themes": [
       {
         "label": "Material Theme",
-        "path": "./out/themes/Material-Theme-Default.json",
+        "path": "./build/themes/Material-Theme-Default.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme High Contrast",
-        "path": "./out/themes/Material-Theme-Default-High-Contrast.json",
+        "path": "./build/themes/Material-Theme-Default-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme Darker",
-        "path": "./out/themes/Material-Theme-Darker.json",
+        "path": "./build/themes/Material-Theme-Darker.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme Darker High Contrast",
-        "path": "./out/themes/Material-Theme-Darker-High-Contrast.json",
+        "path": "./build/themes/Material-Theme-Darker-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme Palenight",
-        "path": "./out/themes/Material-Theme-Palenight.json",
+        "path": "./build/themes/Material-Theme-Palenight.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme Palenight High Contrast",
-        "path": "./out/themes/Material-Theme-Palenight-High-Contrast.json",
+        "path": "./build/themes/Material-Theme-Palenight-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme Ocean",
-        "path": "./out/themes/Material-Theme-Ocean.json",
+        "path": "./build/themes/Material-Theme-Ocean.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme Ocean High Contrast",
-        "path": "./out/themes/Material-Theme-Ocean-High-Contrast.json",
+        "path": "./build/themes/Material-Theme-Ocean-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Material Theme Lighter",
-        "path": "./out/themes/Material-Theme-Lighter.json",
+        "path": "./build/themes/Material-Theme-Lighter.json",
         "uiTheme": "vs"
       },
       {
         "label": "Material Theme Lighter High Contrast",
-        "path": "./out/themes/Material-Theme-Lighter-High-Contrast.json",
+        "path": "./build/themes/Material-Theme-Lighter-High-Contrast.json",
         "uiTheme": "vs"
       }
     ]
@@ -163,6 +159,7 @@
   "devDependencies": {
     "@babel/register": "7.4.4",
     "@moxer/vscode-theme-generator": "1.1.0",
+    "@types/browserify": "12.0.36",
     "@types/gulp-if": "0.0.33",
     "@types/gulp-util": "3.0.34",
     "@types/mustache": "0.8.32",
