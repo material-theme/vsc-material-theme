@@ -24,14 +24,15 @@
     "vscode": ">=1.39.0"
   },
   "scripts": {
-    "build": "yarn cleanup && yarn build-ts && yarn build-themes && yarn build-ui",
-    "cleanup": "rimraf out",
-    "prebuild-themes": "tsc src/themes/generator.ts",
-    "build-themes": "node src/themes/generator.js",
+    "bu": "yarn cleanup && yarn build:ts && yarn build:generate-themes",
+    "lint": "eslint .",
+    "build": "yarn cleanup && yarn build:ts && yarn build-themes && yarn build-ui",
+    "cleanup": "rimraf build && rimraf dist",
+    "build:generate-themes": "node dist/scripts/generator/index.js",
     "build-ui": "gulp build:copy-ui && yarn build-ui-release-notes",
     "build-ui-release-notes": "browserify out/src/webviews/ui/release-notes/index.js > out/ui/release-notes.js",
     "build-ui-only": "yarn cleanup && yarn build-ts && yarn build-ui",
-    "build-ts": "tsc -p ./tsconfig.json",
+    "build:ts": "tsc -p ./tsconfig.json",
     "test": "tslint **.ts",
     "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall && tsc -p tsconfig.json"
   },
@@ -49,7 +50,8 @@
   "extensionKind": "ui",
   "main": "./out/src/material.theme.config",
   "contributes": {
-    "commands": [{
+    "commands": [
+      {
         "command": "materialTheme.setAccent",
         "title": "Set accent color",
         "category": "🎨 Material Theme"
@@ -90,7 +92,8 @@
         }
       }
     },
-    "themes": [{
+    "themes": [
+      {
         "label": "Material Theme",
         "path": "./out/themes/Material-Theme-Default.json",
         "uiTheme": "vs-dark"
@@ -145,7 +148,8 @@
   "extensionDependency": [
     "Equinusocio.vsc-material-theme-icons"
   ],
-  "badges": [{
+  "badges": [
+    {
       "url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
       "href": "https://github.com/material-theme/vsc-material-theme/issues",
       "description": "Open issues"
@@ -159,27 +163,23 @@
   "devDependencies": {
     "@babel/register": "7.4.4",
     "@moxer/vscode-theme-generator": "1.1.0",
-    "@types/gulp": "4.0.5",
     "@types/gulp-if": "0.0.33",
     "@types/gulp-util": "3.0.34",
     "@types/mustache": "0.8.32",
     "@types/rimraf": "2.0.2",
+    "@typescript-eslint/eslint-plugin": "2.12.0",
+    "@typescript-eslint/parser": "2.12.0",
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "browserify": "16.2.2",
+    "eslint": "6.7.2",
+    "eslint-config-xo-space": "0.22.0",
+    "eslint-config-xo-typescript": "0.23.0",
     "fs-extra": "8.1.0",
-    "gulp": "3.9.1",
-    "gulp-bump": "3.1.0",
-    "gulp-conventional-changelog": "1.1.11",
-    "gulp-if": "2.0.2",
-    "gulp-stats": "0.0.4",
-    "gulp-util": "3.0.8",
     "mustache": "3.0.1",
-    "tslint": "5.10.0",
-    "tslint-xo": "0.8.0",
-    "typescript": "2.9.2",
-    "vscode": "1.1.18",
-    "yargs": "11.0.0"
+    "typescript": "3.7.4",
+    "vscode": "1.1.36",
+    "yargs": "15.0.2"
   },
   "__metadata": {
     "id": "dffaf5a1-2219-434b-9d87-cb586fd59260",
@@ -187,7 +187,7 @@
     "publisherId": "e41388a1-a892-4c1e-940b-1e7c1bf43c97"
   },
   "dependencies": {
-    "@sanity/client": "0.139.0",
+    "@sanity/client": "0.147.3",
     "@types/fs-extra": "8.0.1",
     "opencollective": "1.0.3"
   },

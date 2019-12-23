@@ -1,7 +1,5 @@
 {
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "files.insertFinalNewline": true,
+  "javascript.validate.enable": false,
   "files.exclude": {
     "**/.git": true,
     ".git-crypt": true,
@@ -15,14 +13,17 @@
     "*.template": "json"
   },
   "html.format.preserveNewLines": true,
-  "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "editor.quickSuggestions": false
   },
-  "gulp.autoDetect": "off",
-  "npm.autoDetect": "off",
-  "eslint.autoFixOnSave": true
+  "xo.enable": false,
+  "editor.formatOnSave": false,
+  "eslint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.codeActionsOnSaveTimeout": 2000
 }
