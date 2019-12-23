@@ -2,12 +2,6 @@ import {IColorSet} from '@moxer/vscode-theme-generator';
 import {ThemeSetting} from './types';
 
 export const getColorSet = (theme: ThemeSetting): IColorSet => {
-  // Do this like below if you need to interpolate
-  const themeSchemeBackground = `${theme.scheme.background}00`;
-  const themeSchemeBasePaleBlue = `${theme.scheme.base.paleblue}50`;
-  const themeSchemeForeground = `${theme.scheme.foreground}05`;
-  // Const themeSchemeShade2 = `${theme.scheme.shade2}50`;
-
   return {
     base: {
       // Determines the overall background color
@@ -30,15 +24,15 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * General elements style
       */
-      focusBorder: themeSchemeBackground,
-      'widget.shadow': themeSchemeBackground,
-      'selection.background': themeSchemeBasePaleBlue,
-      'scrollbar.shadow': themeSchemeBackground,
+      focusBorder: `${theme.scheme.background}00`,
+      'widget.shadow': `${theme.scheme.background}00`,
+      'selection.background': `${theme.scheme.base.paleblue}50`,
+      'scrollbar.shadow': `${theme.scheme.background}00`,
       'editorLink.activeForeground': theme.scheme.foreground,
       'progressBar.background': theme.scheme.base.yellow,
       'debugToolBar.background': theme.scheme.background,
       'pickerGroup.foreground': theme.scheme.base.yellow,
-      'editorMarkerNavigation.background': themeSchemeForeground,
+      'editorMarkerNavigation.background': `${theme.scheme.foreground}05`,
       // 'tree.indentGuidesStroke': theme.scheme.shade1,
       'terminalCursor.foreground': theme.scheme.base.yellow,
       'terminalCursor.background': theme.scheme.base.black,
@@ -84,8 +78,8 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'editor.foreground': theme.scheme.foreground,
       // 'editor.lineHighlightBackground': theme.scheme.shade1 + '50',
       // 'editor.lineHighlightBorder': theme.scheme.shade1 + '00',
-      'editor.findMatchBackground': themeSchemeBackground,
-      'editor.findMatchHighlightBackground': themeSchemeBackground,
+      'editor.findMatchBackground': `${theme.scheme.background}00`,
+      'editor.findMatchHighlightBackground': `${theme.scheme.background}00`,
       'editor.findMatchBorder': theme.scheme.base.pink,
       // 'editor.findMatchHighlightBorder': theme.scheme.shade6,
       // Editor Indent guides
@@ -98,9 +92,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'editorGroupHeader.tabsBackground': theme.scheme.background,
       'editorGroup.border': theme.scheme.background,
       // Editor gutter
-      'editorGutter.modifiedBackground': theme.scheme.base.blue + '60',
-      'editorGutter.addedBackground': theme.scheme.base.green + '60',
-      'editorGutter.deletedBackground': theme.scheme.base.red + '60',
+      'editorGutter.modifiedBackground': `${theme.scheme.base.blue}60`,
+      'editorGutter.addedBackground': `${theme.scheme.base.green}60`,
+      'editorGutter.deletedBackground': `${theme.scheme.base.red}60`,
       /**
       * Activity bar style
       */
@@ -167,7 +161,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Matching brackets style
       */
-      'editorBracketMatch.border': theme.scheme.base.cyan + '70',
+      'editorBracketMatch.border': `${theme.scheme.base.cyan}70`,
       'editorBracketMatch.background': theme.scheme.background,
       /**
       * Editor Overview Ruler style
@@ -206,9 +200,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Inputs validation style
       */
-      'inputValidation.errorBorder': theme.scheme.base.red + '50',
-      'inputValidation.infoBorder': theme.scheme.base.blue + '50',
-      'inputValidation.warningBorder': theme.scheme.base.yellow + '50',
+      'inputValidation.errorBorder': `${theme.scheme.base.red}50`,
+      'inputValidation.infoBorder': `${theme.scheme.base.blue}50`,
+      'inputValidation.warningBorder': `${theme.scheme.base.yellow}50`,
       /**
       * Dropdown menu style
       */
@@ -218,8 +212,8 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       * Lists style
       */
       'list.hoverForeground': theme.scheme.foreground,
-      'list.hoverBackground': themeSchemeBackground,
-      'list.activeSelectionBackground': themeSchemeBackground,
+      'list.hoverBackground': `${theme.scheme.background}00`,
+      'list.activeSelectionBackground': `${theme.scheme.background}00`,
       'list.activeSelectionForeground': theme.scheme.base.cyan,
       'list.inactiveSelectionForeground': theme.scheme.base.cyan,
       // 'list.inactiveSelectionBackground': theme.scheme.shade1 + '50',
@@ -238,8 +232,8 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Editor diff editor style
       */
-      'diffEditor.insertedTextBackground': theme.scheme.base.cyan + '20',
-      'diffEditor.removedTextBackground': theme.scheme.base.pink + '20',
+      'diffEditor.insertedTextBackground': `${theme.scheme.base.cyan}20`,
+      'diffEditor.removedTextBackground': `${theme.scheme.base.pink}20`,
       /**
       * Extensions button style
       */
@@ -255,8 +249,8 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       // 'peekViewTitle.background': theme.scheme.shade1,
       'peekViewEditorGutter.background': theme.scheme.background,
       'peekViewTitleDescription.foreground': theme.scheme.foreground,
-      'peekViewResult.matchHighlightBackground': theme.scheme.base.pink + '50',
-      'peekViewEditor.matchHighlightBackground': theme.scheme.base.pink + '50',
+      'peekViewResult.matchHighlightBackground': `${theme.scheme.base.pink}50`,
+      'peekViewEditor.matchHighlightBackground': `${theme.scheme.base.pink}50`,
       // 'peekViewResult.selectionBackground': theme.scheme.shade1,
       /**
       * GIT decorations style
@@ -363,17 +357,17 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       // Ighlights matches from the find widge
       findMatchHighlight: theme.scheme.base.pink,
       // Highlights the selected area for "find in selection"
-      findRangeHighlight: theme.scheme.base.yellow + '30',
+      findRangeHighlight: `${theme.scheme.base.yellow}30`,
       // Set color for invisible characters/whitespaces
       // invisibles: theme.scheme.shade1,
       // Highlights text which matches the selected text
       // selection: theme.scheme.shade1,
       // Highlights text inside selected area
-      selectionHighlight: theme.scheme.base.yellow + '50',
+      selectionHighlight: `${theme.scheme.base.yellow}50`,
       // When the cursor is on a symbol, highlights places that symbol is read
-      wordHighlight: theme.scheme.base.pink + '30',
+      wordHighlight: `${theme.scheme.base.pink}30`,
       // When the cursor is on a symbol, highlights places that symbol is written
-      wordHighlightStrong: theme.scheme.base.green + '30'
+      wordHighlightStrong: `${theme.scheme.base.green}30`
     }
     /**
     * Override all syntax tokens
