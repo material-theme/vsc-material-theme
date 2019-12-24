@@ -29,7 +29,7 @@
     "lint": "eslint .",
     "build:ui": "node dist/scripts/ui/index.js",
     "build:generate-themes": "node dist/scripts/generator/index.js",
-    "build:ts": "tsc -p ./tsconfig.json && cp -r dist/src/ build",
+    "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build",
     "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall && tsc -p tsconfig.json"
   },
   "categories": [
@@ -157,26 +157,19 @@
     }
   ],
   "devDependencies": {
-    "@babel/register": "7.4.4",
     "@moxer/vscode-theme-generator": "1.1.0",
     "@types/browserify": "12.0.36",
-    "@types/gulp-if": "0.0.33",
-    "@types/gulp-util": "3.0.34",
-    "@types/mustache": "0.8.32",
     "@types/rimraf": "2.0.2",
     "@typescript-eslint/eslint-plugin": "2.12.0",
     "@typescript-eslint/parser": "2.12.0",
-    "babel-core": "6.26.3",
-    "babel-preset-env": "1.7.0",
     "browserify": "16.2.2",
     "eslint": "6.7.2",
     "eslint-config-xo-space": "0.22.0",
     "eslint-config-xo-typescript": "0.23.0",
     "fs-extra": "8.1.0",
-    "mustache": "3.0.1",
+    "ncp": "2.0.0",
     "typescript": "3.7.4",
-    "vscode": "1.1.36",
-    "yargs": "15.0.2"
+    "vscode": "1.1.36"
   },
   "__metadata": {
     "id": "dffaf5a1-2219-434b-9d87-cb586fd59260",

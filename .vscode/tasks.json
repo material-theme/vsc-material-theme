@@ -6,92 +6,21 @@
 // ${fileExtname}: the current opened file's extension
 // ${cwd}: the current working directory of the spawned process
 // A task runner that calls a custom npm script that compiles the extension.
+
 {
   "version": "2.0.0",
-  // tasks list (build, build-theme, semver etc)
   "tasks": [
     {
       "args": [
-        "run",
         "build"
       ],
-      "command": "npm",
+      "command": "yarn",
       "dependsOn": "tsc",
       "label": "build",
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": []
-    },
-    {
-      "linux": {
-        "args": [
-          ".",
-          "-name",
-          "\"*.js\"",
-          "-not",
-          "-path",
-          "\"./node_modules/*\"",
-          "-not",
-          "-path",
-          "\"./src/*\"",
-          "-not",
-          "-path",
-          "\"./test/*\"",
-          "-type",
-          "f",
-          "-delete"
-        ],
-        "command": "find"
-      },
-      "osx": {
-        "args": [
-          ".",
-          "-name",
-          "\"*.js\"",
-          "-not",
-          "-path",
-          "\"./node_modules/*\"",
-          "-not",
-          "-path",
-          "\"./src/*\"",
-          "-not",
-          "-path",
-          "\"./test/*\"",
-          "-type",
-          "f",
-          "-delete"
-        ],
-        "command": "find"
-      },
-      "command": "",
-      "label": "clean project"
-    },
-    {
-      "args": [
-        "run",
-        "changelog"
-      ],
-      "command": "npm",
-      "label": "changelog"
-    },
-    {
-      "args": [
-        "run",
-        "build:ts"
-      ],
-      "command": "npm",
-      "dependsOn": "clean project",
-      "label": "tsc"
-    },
-    {
-      "args": [
-        "run",
-        "build-ui-only"
-      ],
-      "command": "npm",
-      "label": "UI: build UI only",
       "problemMatcher": []
     }
   ]
