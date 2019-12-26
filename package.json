@@ -21,7 +21,7 @@
   },
   "engines": {
     "node": "<=10",
-    "vscode": ">=1.39.0"
+    "vscode": ">=1.1.36"
   },
   "scripts": {
     "build": "yarn cleanup && yarn build:ts && yarn build:generate-themes && yarn build:ui",
@@ -29,7 +29,7 @@
     "lint": "eslint .",
     "build:ui": "node dist/scripts/ui/index.js",
     "build:generate-themes": "node dist/scripts/generator/index.js",
-    "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build",
+    "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build && ncp material-theme.config.json build",
     "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall && tsc -p tsconfig.json"
   },
   "categories": [

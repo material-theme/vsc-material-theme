@@ -12,8 +12,7 @@ import {
   Uri
 } from 'vscode';
 
-import {getCustomSettings} from '../helpers/settings';
-import {Invalidates, Message, ISettingsChangedMessage} from './interfaces';
+import {Invalidates, Message} from './interfaces';
 
 export abstract class WebviewController<TBootstrap> extends Disposable {
   private panel: WebviewPanel | undefined;
@@ -38,7 +37,7 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
     const html = await this.getHtml();
 
     const rootPath = Uri
-      .file(this.context.asAbsolutePath('./out'))
+      .file(this.context.asAbsolutePath('./build'))
       .with({scheme: 'vscode-resource'}).toString();
 
     // Replace placeholders in html content for assets and adding configurations as `window.bootstrap`
@@ -93,32 +92,32 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
 
   private async getHtml(): Promise<string> {
     const doc = await Workspace
-      .openTextDocument(this.context.asAbsolutePath(path.join('out/ui', this.filename)));
+      .openTextDocument(this.context.asAbsolutePath(path.join('build/ui', this.filename)));
     return doc.getText();
   }
 
-  private async postMessage(message: Message, invalidates: Invalidates = 'all'): Promise<boolean> {
-    if (this.panel === undefined) {
-      return false;
-    }
+  // Private async postMessage(message: Message, invalidates: Invalidates = 'all'): Promise<boolean> {
+  //   if (this.panel === undefined) {
+  //     return false;
+  //   }
 
-    const result = await this.panel.webview.postMessage(message);
+  //   const result = await this.panel.webview.postMessage(message);
 
-    // If post was ok, update invalidateOnVisible if different than default
-    if (!result && this.invalidateOnVisible !== 'all') {
-      this.invalidateOnVisible = invalidates;
-    }
+  //   // If post was ok, update invalidateOnVisible if different than default
+  //   if (!result && this.invalidateOnVisible !== 'all') {
+  //     this.invalidateOnVisible = invalidates;
+  //   }
 
-    return result;
-  }
+  //   return result;
+  // }
 
-  private async postUpdatedConfiguration(): Promise<boolean> {
-    // Post full raw configuration
-    return this.postMessage({
-      type: 'settingsChanged',
-      config: getCustomSettings()
-    } as ISettingsChangedMessage, 'config');
-  }
+  // Private async postUpdatedConfiguration(): Promise<boolean> {
+  //   // Post full raw configuration
+  //   return this.postMessage({
+  //     type: 'settingsChanged',
+  //     config: getCustomSettings()
+  //   } as ISettingsChangedMessage, 'config');
+  // }
 
   private onPanelDisposed(): void {
     if (this.disposablePanel) {
@@ -142,7 +141,8 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
     switch (invalidContext) {
       case 'config':
         // Post the new configuration to the view
-        return this.postUpdatedConfiguration();
+        // return this.postUpdatedConfiguration();
+        return;
       default:
         return this.show();
     }

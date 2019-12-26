@@ -1,6 +1,3 @@
-import {IThemeCustomSettings} from '../interfaces/itheme-custom-properties';
-import {IDefaults} from '../interfaces/idefaults';
-
 export interface IChangeType {
   children: Array<{
     text: string;
@@ -22,7 +19,7 @@ export interface IPostNormalized {
 }
 export interface ISettingsChangedMessage {
   type: 'settingsChanged';
-  config: IThemeCustomSettings;
+  config: {};
 }
 
 export interface ISaveSettingsMessage {
@@ -39,13 +36,13 @@ export type Message = ISaveSettingsMessage | ISettingsChangedMessage;
 export type Invalidates = 'all' | 'config' | undefined;
 
 export interface IBootstrap {
-  config: IThemeCustomSettings;
+  config: {};
 }
 
 export interface ISettingsBootstrap extends IBootstrap {
   scope: 'user' | 'workspace';
   scopes: Array<['user' | 'workspace', string]>;
-  defaults: IDefaults;
+  defaults: {};
 }
 
 declare global {

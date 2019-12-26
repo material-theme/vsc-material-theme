@@ -8,3 +8,4 @@ node_modules/
 /ui/
 build
 dist
+user.material-theme.config.json

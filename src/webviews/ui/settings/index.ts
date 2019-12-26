@@ -1,11 +1,11 @@
 import {ISettingsBootstrap} from '../../interfaces';
-import accentsSelector from './lib/accents-selector';
+// Import accentsSelector from './lib/accents-selector';
 
 const run = (): void => {
   bind();
 
   const {config, defaults} = window.bootstrap as ISettingsBootstrap;
-  accentsSelector('[data-setting="accentSelector"]', defaults.accents, config.accent);
+  // AccentsSelector('[data-setting="accentSelector"]', defaults.accents, config.accent);
 
   console.log(defaults);
   console.log(config);

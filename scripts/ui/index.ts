@@ -2,7 +2,7 @@ import * as fs from 'fs-extra';
 import * as path from 'path';
 import browserify from 'browserify';
 
-import {BUILD_FOLDER_PATH, SRC_FOLDER_PATH, TS_BUILD_FOLDER_PATH} from '../../env';
+import {BUILD_FOLDER_PATH, SRC_FOLDER_PATH, TS_BUILD_FOLDER_PATH} from '../../src/env';
 
 const UI_FOLDER_PATH = path.join(SRC_FOLDER_PATH, 'webviews', 'ui');
 const UI_JS_FOLDER_PATH = path.join(TS_BUILD_FOLDER_PATH, 'src', 'webviews', 'ui');
@@ -14,7 +14,7 @@ const copyStatics = async (): Promise<void[]> => {
     dest: path.join(UI_FOLDER_BUILD_PATH, 'release-notes.html')
   }, {
     src: path.join(UI_FOLDER_PATH, 'release-notes', 'style.css'),
-    dest: path.join(UI_FOLDER_BUILD_PATH, 'style.css')
+    dest: path.join(UI_FOLDER_BUILD_PATH, 'release-notes.css')
   }];
 
   return Promise.all(paths.map(async path => fs.copyFile(path.src, path.dest)));

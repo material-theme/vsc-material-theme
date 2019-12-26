@@ -1,4 +1,4 @@
-import {IAccents} from '../../../../interfaces/idefaults';
+// Import {IAccents} from '../../../../interfaces/idefaults';
 
 const templateSingleAccent = (accentName: string, accentColor: string): string => {
   const dashAccentName = accentName.toLowerCase().replace(/ /gi, '-');
@@ -9,7 +9,7 @@ const templateSingleAccent = (accentName: string, accentColor: string): string =
   `;
 };
 
-export default (containerSelector: string, accentsObject: IAccents, currentAccent: string): void => {
+export default (containerSelector: string, accentsObject: Record<string, string>, currentAccent: string): void => {
   const container = document.querySelector(containerSelector);
 
   for (const accentKey of Object.keys(accentsObject)) {

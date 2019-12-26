@@ -4,33 +4,25 @@ import {
 } from 'vscode';
 
 import * as ThemeCommands from './commands';
-import {updateAccent} from './helpers/settings';
-import {changelogMessage, installationMessage} from './helpers/messages';
-import checkInstallation from './helpers/check-installation';
-import writeChangelog from './helpers/write-changelog';
+import {installationMessage} from './helpers/messages';
 import {ReleaseNotesWebview} from './webviews/ReleaseNotes';
+import {changelogManager} from './core/changelog-manager';
+import {extensionManager} from './core/extension-manager';
 
 export async function activate(context: ExtensionContext): Promise<void> {
-  const installationType = checkInstallation();
   const releaseNotesView = new ReleaseNotesWebview(context);
+  const installationType = extensionManager.getInstallationType();
 
-  writeChangelog();
-
-  if (installationType.isFirstInstall) {
+  // TODO: BEFORE RELEASE add new message for new install because with the refactor also updates will be considered as new install, for the first time
+  if (installationType.firstInstall) {
     await installationMessage();
   }
 
-  const shouldShowChangelog = (installationType.isFirstInstall || installationType.isUpdate) && await changelogMessage();
-  if (shouldShowChangelog) {
-    releaseNotesView.show();
+  if ((installationType.firstInstall || installationType.update) && await changelogManager.askShowChangelog()) {
+    await releaseNotesView.show();
   }
 
   // Registering commands
-  Commands.registerCommand('materialTheme.setAccent', async () => {
-    const accentPicked = await ThemeCommands.accentsQuickPick();
-    await ThemeCommands.accentsSetter(accentPicked);
-    await updateAccent(accentPicked);
-  });
-
+  Commands.registerCommand('materialTheme.setAccent', ThemeCommands.setAccent);
   Commands.registerCommand('materialTheme.showReleaseNotes', async () => releaseNotesView.show());
 }

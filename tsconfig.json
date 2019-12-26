@@ -19,8 +19,7 @@
     "./types",
     "./src/**/*",
     "./test/**/*",
-    "./scripts/**/*",
-    "./env.ts"
+    "./scripts/**/*"
   ],
   "exclude": [
     "node_modules",

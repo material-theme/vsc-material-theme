@@ -2,7 +2,7 @@ import {
   window as Window
 } from 'vscode';
 
-const MESSAGES = {
+export const MESSAGES = {
   CHANGELOG: {
     message: 'Material Theme was updated. Check the release notes for more details.',
     options: {ok: 'Show me', cancel: 'Maybe later'}
@@ -12,14 +12,7 @@ const MESSAGES = {
   }
 };
 
-export const changelogMessage = async () =>
-  await Window.showInformationMessage(
-    MESSAGES.CHANGELOG.message,
-    MESSAGES.CHANGELOG.options.ok,
-    MESSAGES.CHANGELOG.options.cancel
-  ) === MESSAGES.CHANGELOG.options.ok;
-
-export const installationMessage = async () =>
-  await Window.showInformationMessage(
+export const installationMessage = async (): Promise<string> =>
+  Window.showInformationMessage(
     MESSAGES.INSTALLATION.message
   );

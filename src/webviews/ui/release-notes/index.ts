@@ -1,4 +1,4 @@
-import * as sanityClient from '@sanity/client';
+import sanityClient from '@sanity/client';
 
 import {IPost, IPostNormalized} from '../../interfaces';
 
