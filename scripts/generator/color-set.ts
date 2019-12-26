@@ -27,7 +27,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       focusBorder: `${theme.scheme.focusBorder}00`,
       'editorCursor.foreground': theme.scheme.caret,
       'editorRuler.foreground': theme.scheme.guides,
-      'widget.shadow': `${theme.scheme.background}00`,
+      'widget.shadow': theme.scheme.shadow,
       'scrollbar.shadow': theme.scheme.shadow,
       'editorLink.activeForeground': theme.scheme.foreground,
       'selection.background': theme.scheme.defaultAccent,
