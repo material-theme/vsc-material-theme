@@ -3,6 +3,7 @@ export default {
   name: 'Material-Theme-Darker',
   type: 'dark',
   scheme: {
+    defaultAccent: '#80CBC4',
     background: '#212121',
     backgroundAlt: '#212121',
     contrastBorder: '#212121',

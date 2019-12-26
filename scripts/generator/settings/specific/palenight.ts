@@ -3,6 +3,7 @@ export default {
   name: 'Material-Theme-Palenight',
   type: 'dark',
   scheme: {
+    defaultAccent: '#80CBC4',
     background: '#292D3E',
     backgroundAlt: '#292D3E',
     contrastBorder: '#292D3E',

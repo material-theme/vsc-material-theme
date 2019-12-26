@@ -4,6 +4,7 @@ export type ThemeSetting = {
   name: string;
   type: string;
   scheme: {
+    defaultAccent: string;
     background: string;
     backgroundAlt: string;
     contrastBorder: string;

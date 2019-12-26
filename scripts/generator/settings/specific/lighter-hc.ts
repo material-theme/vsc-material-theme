@@ -3,6 +3,7 @@ export default {
   name: 'Material-Theme-Lighter-High-Contrast',
   type: 'light',
   scheme: {
+    defaultAccent: '#80CBC4',
     background: '#FFFFFF',
     backgroundAlt: '#FAFAFA',
     contrastBorder: '#CBCBCB',

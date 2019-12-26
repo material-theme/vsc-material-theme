@@ -24,28 +24,36 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * General elements style
       */
-      focusBorder: `${theme.scheme.background}00`,
+      focusBorder: `${theme.scheme.focusBorder}00`,
+      'editorCursor.foreground': theme.scheme.caret,
+      'editorRuler.foreground': theme.scheme.guides,
       'widget.shadow': `${theme.scheme.background}00`,
-      'selection.background': `${theme.scheme.base.paleblue}50`,
-      'scrollbar.shadow': `${theme.scheme.background}00`,
+      'scrollbar.shadow': theme.scheme.shadow,
       'editorLink.activeForeground': theme.scheme.foreground,
-      'progressBar.background': theme.scheme.base.yellow,
+      'selection.background': theme.scheme.defaultAccent,
+      'progressBar.background': theme.scheme.defaultAccent,
       'debugToolBar.background': theme.scheme.background,
-      'pickerGroup.foreground': theme.scheme.base.yellow,
+      'pickerGroup.foreground': theme.scheme.defaultAccent,
       'editorMarkerNavigation.background': `${theme.scheme.foreground}05`,
       // 'tree.indentGuidesStroke': theme.scheme.shade1,
       'terminalCursor.foreground': theme.scheme.base.yellow,
       'terminalCursor.background': theme.scheme.base.black,
+      'editorWhitespace.foreground': `${theme.scheme.foreground}40`,
+      /**
+      * InputOption
+      */
+      'inputOption.activeBackground': `${theme.scheme.foreground}30`,
+      'inputOption.activeBorder': `${theme.scheme.foreground}30`,
       /**
       * Buttons style
       */
-      'button.background': theme.scheme.background,
+      'button.background': theme.scheme.selection,
       // 'button.hoverBackground': theme.scheme.shade2,
       /**
       * Links style
       */
-      'textLink.foreground': theme.scheme.base.cyan,
-      'textLink.activeForeground': theme.scheme.base.yellow,
+      'textLink.foreground': theme.scheme.defaultAccent,
+      'textLink.activeForeground': theme.scheme.foreground,
       /**
       * Sidebar style
       */
@@ -76,21 +84,23 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       */
       'editor.background': theme.scheme.background,
       'editor.foreground': theme.scheme.foreground,
-      // 'editor.lineHighlightBackground': theme.scheme.shade1 + '50',
+      'editor.lineHighlightBackground': `${theme.scheme.lineHighlight}50`,
+      'editor.selectionBackground': theme.scheme.selection,
+      'editor.selectionHighlightBackground': `${theme.scheme.caret}20`,
       // 'editor.lineHighlightBorder': theme.scheme.shade1 + '00',
-      'editor.findMatchBackground': `${theme.scheme.background}00`,
-      'editor.findMatchHighlightBackground': `${theme.scheme.background}00`,
-      'editor.findMatchBorder': theme.scheme.base.pink,
-      // 'editor.findMatchHighlightBorder': theme.scheme.shade6,
+      'editor.findMatchBackground': theme.scheme.findMatchBackground,
+      'editor.findMatchHighlightBackground': theme.scheme.findMatchHighlightBackground,
+      'editor.findMatchBorder': theme.scheme.defaultAccent,
+      'editor.findMatchHighlightBorder': theme.scheme.findMatchHighlightBorder,
       // Editor Indent guides
-      // 'editorIndentGuide.background': theme.scheme.shade1,
-      // 'editorIndentGuide.activeBackground': theme.scheme.shade3,
+      'editorIndentGuide.background': `${theme.scheme.guides}70`,
+      'editorIndentGuide.activeBackground': theme.scheme.guides,
       // Editor line number
-      // 'editorLineNumber.foreground': theme.scheme.shade3,
-      'editorLineNumber.activeForeground': theme.scheme.base.yellow,
+      'editorLineNumber.foreground': theme.scheme.lineNumbers,
+      'editorLineNumber.activeForeground': theme.scheme.sidebarForeground,
       // Editor tab groups
       'editorGroupHeader.tabsBackground': theme.scheme.background,
-      'editorGroup.border': theme.scheme.background,
+      'editorGroup.border': theme.scheme.shadow,
       // Editor gutter
       'editorGutter.modifiedBackground': `${theme.scheme.base.blue}60`,
       'editorGutter.addedBackground': `${theme.scheme.base.green}60`,
@@ -161,27 +171,27 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Matching brackets style
       */
-      'editorBracketMatch.border': `${theme.scheme.base.cyan}70`,
+      'editorBracketMatch.border': `${theme.scheme.caret}50`,
       'editorBracketMatch.background': theme.scheme.background,
       /**
       * Editor Overview Ruler style
       */
-      'editorOverviewRuler.findMatchForeground': theme.scheme.base.pink,
-      // 'editorOverviewRuler.border': theme.scheme.borders,
-      'editorOverviewRuler.errorForeground': theme.scheme.base.red,
-      'editorOverviewRuler.infoForeground': theme.scheme.base.blue,
-      'editorOverviewRuler.warningForeground': theme.scheme.base.yellow,
+      'editorOverviewRuler.findMatchForeground': theme.scheme.defaultAccent,
+      'editorOverviewRuler.border': theme.scheme.background,
+      'editorOverviewRuler.errorForeground': `${theme.scheme.base.red}40`,
+      'editorOverviewRuler.infoForeground': `${theme.scheme.base.blue}40`,
+      'editorOverviewRuler.warningForeground': `${theme.scheme.base.yellow}40`,
       /**
       * Squigglies style
       */
-      'editorInfo.foreground': theme.scheme.base.blue,
-      'editorWarning.foreground': theme.scheme.base.yellow,
-      'editorError.foreground': theme.scheme.base.red,
+      'editorInfo.foreground': `${theme.scheme.base.blue}70`,
+      'editorWarning.foreground': `${theme.scheme.base.yellow}70`,
+      'editorError.foreground': `${theme.scheme.base.red}70`,
       /**
       * Popop dialogs style
       */
-      // 'editorHoverWidget.background': theme.scheme.shade1,
-      // 'editorHoverWidget.border': theme.scheme.shade1,
+      'editorHoverWidget.background': theme.scheme.background,
+      'editorHoverWidget.border': theme.scheme.inputBorder,
       /**
       * Title bar style
       */

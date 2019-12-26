@@ -3,6 +3,7 @@ export default {
   name: 'Material-Theme-Ocean',
   type: 'dark',
   scheme: {
+    defaultAccent: '#80CBC4',
     background: '#0F111A',
     backgroundAlt: '#0F111A',
     contrastBorder: '#0F111A',
