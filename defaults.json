@@ -22,6 +22,10 @@
       "alpha": 100,
       "value": null
     },
+    "activityBar.activeBorder": {
+      "alpha": 100,
+      "value": null
+    },
     "list.activeSelectionForeground": {
       "alpha": 100,
       "value": null

@@ -120,8 +120,8 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Global badges style
       */
-      'badge.background': theme.scheme.base.cyan,
-      'badge.foreground': theme.scheme.background,
+      'badge.background': `${theme.scheme.lineHighlight}30`,
+      'badge.foreground': theme.scheme.comments,
       /**
       * Extensions badge style
       */
@@ -244,73 +244,79 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'diffEditor.insertedTextBackground': `${theme.scheme.base.cyan}20`,
       'diffEditor.removedTextBackground': `${theme.scheme.base.pink}20`,
       /**
+      * Notifications
+      */
+      'notifications.background': theme.scheme.background,
+      'notifications.foreground': theme.scheme.foreground,
+      'notificationLink.foreground': theme.scheme.defaultAccent,
+      /**
       * Extensions button style
       */
-      'extensionButton.prominentBackground': theme.scheme.base.yellow,
-      'extensionButton.prominentHoverBackground': theme.scheme.base.yellow,
-      'extensionButton.prominentForeground': theme.scheme.background,
+      'extensionButton.prominentBackground': `${theme.scheme.base.green}90`,
+      'extensionButton.prominentHoverBackground': theme.scheme.base.green,
+      'extensionButton.prominentForeground': theme.scheme.base.black,
       /**
       * Peekview window style
       */
-      'peekViewEditor.background': theme.scheme.background,
-      'peekViewResult.background': theme.scheme.background,
-      // 'peekView.border': theme.scheme.shade1,
-      // 'peekViewTitle.background': theme.scheme.shade1,
-      'peekViewEditorGutter.background': theme.scheme.background,
-      'peekViewTitleDescription.foreground': theme.scheme.foreground,
-      'peekViewResult.matchHighlightBackground': `${theme.scheme.base.pink}50`,
-      'peekViewEditor.matchHighlightBackground': `${theme.scheme.base.pink}50`,
-      // 'peekViewResult.selectionBackground': theme.scheme.shade1,
+      'peekView.border': theme.scheme.shadow,
+      'peekViewEditor.background': `${theme.scheme.foreground}05`,
+      'peekViewTitle.background': `${theme.scheme.foreground}05`,
+      'peekViewResult.background': `${theme.scheme.foreground}05`,
+      'peekViewEditorGutter.background': `${theme.scheme.foreground}05`,
+      'peekViewTitleDescription.foreground': `${theme.scheme.foreground}60`,
+      'peekViewResult.matchHighlightBackground': theme.scheme.selection,
+      'peekViewEditor.matchHighlightBackground': theme.scheme.selection,
+      'peekViewResult.selectionBackground': `${theme.scheme.sidebarForeground}70`,
       /**
       * GIT decorations style
       */
-      'gitDecoration.deletedResourceForeground': theme.scheme.base.red,
-      'gitDecoration.conflictingResourceForeground': theme.scheme.base.yellow,
-      'gitDecoration.modifiedResourceForeground': theme.scheme.base.blue,
-      'gitDecoration.untrackedResourceForeground': theme.scheme.base.green,
-      // 'gitDecoration.ignoredResourceForeground': theme.scheme.shade1,
+      'gitDecoration.deletedResourceForeground': `${theme.scheme.base.red}90`,
+      'gitDecoration.conflictingResourceForeground': `${theme.scheme.base.yellow}90`,
+      'gitDecoration.modifiedResourceForeground': `${theme.scheme.base.blue}90`,
+      'gitDecoration.untrackedResourceForeground': `${theme.scheme.base.green}90`,
+      'gitDecoration.ignoredResourceForeground': `${theme.scheme.sidebarForeground}90`,
       /**
       * Breadcrumb style
       */
       'breadcrumb.background': theme.scheme.background,
-      // 'breadcrumb.foreground': theme.scheme.shade4,
+      'breadcrumb.foreground': theme.scheme.sidebarForeground,
       'breadcrumb.focusForeground': theme.scheme.foreground,
-      'breadcrumb.activeSelectionForeground': theme.scheme.base.pink,
-      'breadcrumbPicker.background': theme.scheme.background,
+      'breadcrumb.activeSelectionForeground': theme.scheme.defaultAccent,
+      'breadcrumbPicker.background': theme.scheme.backgroundAlt,
       /**
       * Custom menus style
       */
-      // 'menu.background': theme.scheme.shade1,
-      // 'menu.foreground': theme.scheme.shade3,
-      // 'menu.selectionBackground': theme.scheme.shade1,
-      'menu.selectionForeground': theme.scheme.foreground,
-      // 'menu.selectionBorder': theme.scheme.shade1,
-      // 'menu.separatorBackground': theme.scheme.shade3,
+      'menu.background': theme.scheme.background,
+      'menu.foreground': theme.scheme.foreground,
+      'menu.selectionBackground': `${theme.scheme.lineHighlight}50`,
+      'menu.selectionForeground': theme.scheme.defaultAccent,
+      'menu.selectionBorder': theme.scheme.inactiveSelectionBackground,
+      'menu.separatorBackground': theme.scheme.foreground,
       /**
       * Menu Bar style
       */
-      // 'menubar.selectionBackground': theme.scheme.shade1,
-      'menubar.selectionForeground': theme.scheme.foreground,
-      // 'menubar.selectionBorder': theme.scheme.shade1,
+      'menubar.selectionBackground': theme.scheme.inactiveSelectionBackground,
+      'menubar.selectionForeground': theme.scheme.defaultAccent,
+      'menubar.selectionBorder': theme.scheme.inactiveSelectionBackground,
       /**
       * Settings elements style
       */
       'settings.dropdownForeground': theme.scheme.foreground,
-      'settings.dropdownBackground': theme.scheme.background,
+      'settings.dropdownBackground': theme.scheme.backgroundAlt,
       'settings.numberInputForeground': theme.scheme.foreground,
-      'settings.numberInputBackground': theme.scheme.background,
+      'settings.numberInputBackground': theme.scheme.backgroundAlt,
       'settings.textInputForeground': theme.scheme.foreground,
-      'settings.textInputBackground': theme.scheme.background,
-      'settings.headerForeground': theme.scheme.base.cyan,
-      'settings.modifiedItemIndicator': theme.scheme.base.pink,
-      'settings.checkboxBackground': theme.scheme.background,
+      'settings.textInputBackground': theme.scheme.backgroundAlt,
+      'settings.headerForeground': theme.scheme.defaultAccent,
+      'settings.modifiedItemIndicator': theme.scheme.defaultAccent,
+      'settings.checkboxBackground': theme.scheme.backgroundAlt,
       'settings.checkboxForeground': theme.scheme.foreground,
       /**
       * List Filter Widget style
       */
-      'listFilterWidget.background': theme.scheme.base.violet,
-      'listFilterWidget.outline': theme.scheme.base.violet,
-      'listFilterWidget.noMatchesOutline': theme.scheme.base.violet
+      'listFilterWidget.background': theme.scheme.inactiveSelectionBackground,
+      'listFilterWidget.outline': theme.scheme.inactiveSelectionBackground,
+      'listFilterWidget.noMatchesOutline': theme.scheme.inactiveSelectionBackground
     },
     /**
     * Overrides specific syntax scopes provided
