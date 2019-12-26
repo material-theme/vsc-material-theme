@@ -7,6 +7,10 @@
   "license": "Apache-2.0",
   "author": "Mattia Astorino [@equinusocio]",
   "icon": "logo.png",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/vsc-material-theme"
+  },
   "galleryBanner": {
     "color": "#11131C",
     "theme": "dark"
@@ -30,7 +34,7 @@
     "build:ui": "node dist/scripts/ui/index.js",
     "build:generate-themes": "node dist/scripts/generator/index.js",
     "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build && ncp material-theme.config.json build",
-    "postinstall": "node ./node_modules/vscode/bin/install && opencollective postinstall && tsc -p tsconfig.json"
+    "postinstall": "node ./node_modules/vscode/bin/install && tsc -p tsconfig.json"
   },
   "categories": [
     "Themes",
