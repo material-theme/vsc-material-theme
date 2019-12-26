@@ -25,7 +25,7 @@
   },
   "engines": {
     "node": "<=10",
-    "vscode": ">=1.1.36"
+    "vscode": ">=1.40.0"
   },
   "scripts": {
     "build": "yarn cleanup && yarn build:ts && yarn build:generate-themes && yarn build:ui",
