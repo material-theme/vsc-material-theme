@@ -35,7 +35,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'debugToolBar.background': theme.scheme.background,
       'pickerGroup.foreground': theme.scheme.defaultAccent,
       'editorMarkerNavigation.background': `${theme.scheme.foreground}05`,
-      // 'tree.indentGuidesStroke': theme.scheme.shade1,
+      'tree.indentGuidesStroke': theme.scheme.guides,
       'terminalCursor.foreground': theme.scheme.base.yellow,
       'terminalCursor.background': theme.scheme.base.black,
       'editorWhitespace.foreground': `${theme.scheme.foreground}40`,
@@ -57,28 +57,28 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Sidebar style
       */
-      'sideBar.background': theme.scheme.background,
-      // 'sideBar.foreground': theme.scheme.shade4,
-      // 'sideBar.border': themeSchemeShade2,
+      'sideBar.background': theme.scheme.backgroundAlt,
+      'sideBar.foreground': theme.scheme.sidebarForeground,
+      'sideBar.border': `${theme.scheme.contrastBorder}60`,
       /**
       * Sidebar elements style
       */
-      // 'sideBarTitle.foreground': theme.scheme.shade4,
-      'sideBarSectionHeader.background': theme.scheme.background,
+      'sideBarTitle.foreground': theme.scheme.foreground,
+      'sideBarSectionHeader.background': theme.scheme.backgroundAlt,
+      'sideBarSectionHeader.border': `${theme.scheme.contrastBorder}60`,
       // "sideBarSectionHeader.foreground": theme.scheme.foreground,
-      'sideBarSectionHeader.border': theme.scheme.background,
       /**
       * Window panels style (terminal, global search)
       */
-      'panel.background': theme.scheme.background,
-      // 'panel.border': theme.scheme.borders,
-      // 'panel.dropBackground': theme.scheme.shade2,
+      'panel.border': `${theme.scheme.contrastBorder}60`,
+      'panel.background': theme.scheme.backgroundAlt,
+      'panel.dropBackground': theme.scheme.foreground,
       /**
       * Window panels elements style
       */
-      // 'panelTitle.inactiveForeground': theme.scheme.shade4,
-      'panelTitle.activeForeground': theme.scheme.base.white,
-      'panelTitle.activeBorder': theme.scheme.base.yellow,
+      'panelTitle.inactiveForeground': theme.scheme.foreground,
+      'panelTitle.activeForeground': theme.scheme.tabActiveForeground,
+      'panelTitle.activeBorder': theme.scheme.defaultAccent,
       /**
       * Code Editor style
       */
@@ -108,15 +108,15 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Activity bar style
       */
-      'activityBar.background': theme.scheme.background,
-      'activityBar.border': theme.scheme.background,
-      // 'activityBar.foreground': theme.scheme.shade5,
-      'activityBar.activeBorder': theme.scheme.base.pink,
+      'activityBar.background': theme.scheme.backgroundAlt,
+      'activityBar.border': `${theme.scheme.contrastBorder}60`,
+      'activityBar.foreground': theme.scheme.foreground,
+      'activityBar.activeBorder': theme.scheme.defaultAccent,
       /**
       * Activity bar badges style
       */
-      'activityBarBadge.background': theme.scheme.base.cyan,
-      'activityBarBadge.foreground': theme.scheme.background,
+      'activityBarBadge.background': theme.scheme.defaultAccent,
+      'activityBarBadge.foreground': theme.scheme.base.black,
       /**
       * Global badges style
       */
@@ -130,44 +130,43 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Scrollbar style
       */
-      // 'scrollbarSlider.background': theme.scheme.shade4 + '50',
-      // 'scrollbarSlider.hoverBackground': theme.scheme.shade2,
-      // 'scrollbarSlider.activeBackground': theme.scheme.shade4,
+      'scrollbarSlider.background': theme.scheme.scrollbars,
+      'scrollbarSlider.hoverBackground': theme.scheme.scrollbarsHover,
+      'scrollbarSlider.activeBackground': theme.scheme.defaultAccent,
       /**
       * Tabs style
       */
-      'tab.activeBorder': theme.scheme.background,
-      'tab.activeBorderTop': theme.scheme.base.cyan,
-      // 'tab.inactiveModifiedBorder': theme.scheme.shade5,
-      'tab.activeModifiedBorder': theme.scheme.base.pink,
-      // 'tab.unfocusedActiveBorder': theme.scheme.shade4,
-      'tab.activeForeground': theme.scheme.base.white,
-      'tab.activeBackground': theme.scheme.background,
-      // 'tab.inactiveForeground': theme.scheme.shade4,
+      'tab.activeBorder': theme.scheme.defaultAccent,
+      'tab.activeModifiedBorder': theme.scheme.sidebarForeground,
+      'tab.unfocusedActiveBorder': theme.scheme.comments,
+      'tab.activeForeground': theme.scheme.tabActiveForeground,
+      'tab.inactiveForeground': theme.scheme.sidebarForeground,
       'tab.inactiveBackground': theme.scheme.background,
+      'tab.activeBackground': theme.scheme.background,
       'tab.unfocusedActiveForeground': theme.scheme.foreground,
       'tab.border': theme.scheme.background,
+      // 'tab.inactiveModifiedBorder': theme.scheme.shade5,
       /**
       * Editor overlay widgets style (find/replace..)
       */
-      // 'editorWidget.background': theme.scheme.shade1,
-      'editorWidget.resizeBorder': theme.scheme.base.yellow,
-      'editorWidget.border': theme.scheme.base.yellow,
+      'editorWidget.background': theme.scheme.backgroundAlt,
+      'editorWidget.resizeBorder': theme.scheme.defaultAccent,
+      'editorWidget.border': theme.scheme.defaultAccent,
       /**
       * Statusbar style
       */
       'statusBar.noFolderBackground': theme.scheme.background,
-      // 'statusBar.border': theme.scheme.borders,
-      'statusBar.background': theme.scheme.background,
-      // 'statusBar.foreground': theme.scheme.shade4,
+      'statusBar.border': `${theme.scheme.contrastBorder}60`,
+      'statusBar.background': theme.scheme.backgroundAlt,
+      'statusBar.foreground': theme.scheme.statusbarForeground,
       'statusBar.debuggingBackground': theme.scheme.base.purple,
       'statusBar.debuggingForeground': theme.scheme.base.white,
       /**
       * Statusbar items style
       */
-      // 'statusBarItem.hoverBackground': theme.scheme.shade1 + '50',
+      'statusBarItem.hoverBackground': `${theme.scheme.comments}20`,
       'statusBarItem.remoteForeground': theme.scheme.base.black,
-      'statusBarItem.remoteBackground': theme.scheme.base.yellow,
+      'statusBarItem.remoteBackground': theme.scheme.defaultAccent,
       /**
       * Matching brackets style
       */
@@ -195,18 +194,18 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Title bar style
       */
-      'titleBar.activeBackground': theme.scheme.background,
+      'titleBar.activeBackground': theme.scheme.backgroundAlt,
       'titleBar.activeForeground': theme.scheme.foreground,
-      'titleBar.inactiveBackground': theme.scheme.background,
-      // 'titleBar.inactiveForeground': theme.scheme.shade4,
-      // 'titleBar.border': theme.scheme.borders,
+      'titleBar.inactiveBackground': theme.scheme.backgroundAlt,
+      'titleBar.inactiveForeground': theme.scheme.sidebarForeground,
+      'titleBar.border': `${theme.scheme.contrastBorder}60`,
       /**
       * Textfield and inputs style
       */
-      'input.background': theme.scheme.background,
-      'input.foreground': theme.scheme.base.pink,
-      // 'input.placeholderForeground': theme.scheme.shade3,
-      // 'input.border': theme.scheme.shade1,
+      'input.background': theme.scheme.inputBackground,
+      'input.foreground': theme.scheme.inputForeground,
+      'input.placeholderForeground': `${theme.scheme.foreground}60`,
+      'input.border': theme.scheme.inputBorder,
       /**
       * Inputs validation style
       */
@@ -216,29 +215,29 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Dropdown menu style
       */
-      // 'dropdown.background': theme.scheme.shade1,
-      // 'dropdown.border': theme.scheme.shade1,
+      'dropdown.background': theme.scheme.background,
+      'dropdown.border': theme.scheme.inputBorder,
       /**
       * Lists style
       */
-      'list.hoverForeground': theme.scheme.foreground,
-      'list.hoverBackground': `${theme.scheme.background}00`,
-      'list.activeSelectionBackground': `${theme.scheme.background}00`,
-      'list.activeSelectionForeground': theme.scheme.base.cyan,
-      'list.inactiveSelectionForeground': theme.scheme.base.cyan,
-      // 'list.inactiveSelectionBackground': theme.scheme.shade1 + '50',
-      // 'list.focusBackground': theme.scheme.shade1,
-      'list.focusForeground': theme.scheme.base.white,
-      'list.highlightForeground': theme.scheme.base.cyan,
+      'list.hoverForeground': theme.scheme.listHoverForeground,
+      'list.hoverBackground': theme.scheme.backgroundAlt,
+      'list.activeSelectionBackground': theme.scheme.backgroundAlt,
+      'list.activeSelectionForeground': theme.scheme.defaultAccent,
+      'list.inactiveSelectionForeground': theme.scheme.defaultAccent,
+      'list.inactiveSelectionBackground': theme.scheme.inactiveSelectionBackground,
+      'list.focusBackground': `${theme.scheme.foreground}20`,
+      'list.focusForeground': theme.scheme.foreground,
+      'list.highlightForeground': theme.scheme.defaultAccent,
       // 'list.dropBackground': theme.scheme.shade2,
       /**
       * Editor suggest widget style
       */
-      // 'editorSuggestWidget.background': theme.scheme.shade1,
+      'editorSuggestWidget.background': theme.scheme.background,
       'editorSuggestWidget.foreground': theme.scheme.foreground,
-      'editorSuggestWidget.highlightForeground': theme.scheme.base.cyan,
-      // 'editorSuggestWidget.selectedBackground': theme.scheme.shade2,
-      // 'editorSuggestWidget.border': theme.scheme.shade1,
+      'editorSuggestWidget.highlightForeground': theme.scheme.defaultAccent,
+      'editorSuggestWidget.selectedBackground': `${theme.scheme.lineHighlight}50`,
+      'editorSuggestWidget.border': theme.scheme.inputBorder,
       /**
       * Editor diff editor style
       */
