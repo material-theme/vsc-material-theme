@@ -87,7 +87,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'editor.lineHighlightBackground': `${theme.scheme.lineHighlight}50`,
       'editor.selectionBackground': theme.scheme.selection,
       'editor.selectionHighlightBackground': `${theme.scheme.caret}20`,
-      // 'editor.lineHighlightBorder': theme.scheme.shade1 + '00',
+      'editor.lineHighlightBorder': `${theme.scheme.lineHighlight}00`,
       'editor.findMatchBackground': theme.scheme.findMatchBackground,
       'editor.findMatchHighlightBackground': theme.scheme.findMatchHighlightBackground,
       'editor.findMatchBorder': theme.scheme.defaultAccent,
@@ -326,7 +326,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       boolean: theme.scheme.base.pink,
       class: theme.scheme.base.violet,
       classMember: theme.scheme.base.red,
-      // Comment: theme.scheme.shade4,
+      comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
       cssId: theme.scheme.base.orange,
       cssTag: theme.scheme.base.yellow,
@@ -344,9 +344,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     * color palette
     */
     terminal: {
-      // Black: theme.scheme.shade3,
+      black: theme.scheme.base.black,
       blue: theme.scheme.base.blue,
-      // BrightBlack: theme.scheme.shade3,
+      brightBlack: theme.scheme.comments,
       brightBlue: theme.scheme.base.blue,
       brightCyan: theme.scheme.base.cyan,
       brightGreen: theme.scheme.base.green,
@@ -374,9 +374,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       // Highlights the selected area for "find in selection"
       findRangeHighlight: `${theme.scheme.base.yellow}30`,
       // Set color for invisible characters/whitespaces
-      // invisibles: theme.scheme.shade1,
+      invisibles: theme.scheme.guides,
       // Highlights text which matches the selected text
-      // selection: theme.scheme.shade1,
+      selection: theme.scheme.selection,
       // Highlights text inside selected area
       selectionHighlight: `${theme.scheme.base.yellow}50`,
       // When the cursor is on a symbol, highlights places that symbol is read
