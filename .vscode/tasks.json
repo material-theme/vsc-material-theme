@@ -15,7 +15,6 @@
         "build"
       ],
       "command": "yarn",
-      "dependsOn": "tsc",
       "label": "build",
       "group": {
         "kind": "build",
