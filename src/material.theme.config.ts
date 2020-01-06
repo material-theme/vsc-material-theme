@@ -4,7 +4,6 @@ import {
 } from 'vscode';
 
 import * as ThemeCommands from './commands';
-import {installationMessage} from './helpers/messages';
 import {ReleaseNotesWebview} from './webviews/ReleaseNotes';
 import {changelogManager} from './core/changelog-manager';
 import {extensionManager} from './core/extension-manager';
