@@ -13,11 +13,6 @@ export async function activate(context: ExtensionContext): Promise<void> {
   const releaseNotesView = new ReleaseNotesWebview(context);
   const installationType = extensionManager.getInstallationType();
 
-  // TODO: BEFORE RELEASE add new message for new install because with the refactor also updates will be considered as new install, for the first time
-  if (installationType.firstInstall) {
-    await installationMessage();
-  }
-
   if ((installationType.firstInstall || installationType.update) && await changelogManager.askShowChangelog()) {
     await releaseNotesView.show();
   }
