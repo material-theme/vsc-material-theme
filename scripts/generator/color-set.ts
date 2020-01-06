@@ -394,6 +394,94 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
         settings: {
           foreground: theme.scheme.base.cyan
         }
+      },
+      {
+        name: 'String',
+        scope: ['string.quoted'],
+        settings: {
+          foreground: theme.scheme.base.green
+        }
+      },
+      {
+        name: 'JSON Key - Level 0',
+        scope: [
+          'meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.purple
+        }
+      },
+      {
+        name: 'JSON Key - Level 1',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.yellow
+        }
+      },
+      {
+        name: 'JSON Key - Level 2',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.orange
+        }
+      },
+      {
+        name: 'JSON Key - Level 3',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.red
+        }
+      },
+      {
+        name: 'JSON Key - Level 4',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.brown
+        }
+      },
+      {
+        name: 'JSON Key - Level 5',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.blue
+        }
+      },
+      {
+        name: 'JSON Key - Level 6',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.pink
+        }
+      },
+      {
+        name: 'JSON Key - Level 7',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.purple
+        }
+      },
+      {
+        name: 'JSON Key - Level 8',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.green
+        }
       }
     ]
   };
