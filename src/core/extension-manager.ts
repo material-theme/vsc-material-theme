@@ -80,6 +80,7 @@ class ExtensionManager implements IExtensionManager {
 
   private async init(): Promise<void> {
     try {
+      const packageJSON = this.getPackageJSON();
       const userConfig = await this.getUserConfig();
       this.installationType = {
         update: userConfig && this.isVersionUpdate(userConfig),
@@ -89,9 +90,13 @@ class ExtensionManager implements IExtensionManager {
       const configBuffer = await workspace.fs.readFile(this.configFileUri);
       const configContent = Buffer.from(configBuffer).toString('utf8');
 
-      await workspace.fs.writeFile(this.userConfigFileUri, configBuffer);
-
       this.configJSON = JSON.parse(configContent) as MaterialThemeConfig;
+
+      const userConfigUpdate = {...this.configJSON, changelog: {lastversion: packageJSON.version}};
+      await workspace.fs.writeFile(
+        this.userConfigFileUri,
+        Buffer.from(JSON.stringify(userConfigUpdate), 'utf-8')
+      );
     } catch (error) {
       this.configJSON = {accentsProperties: {}, accents: {}};
       window
