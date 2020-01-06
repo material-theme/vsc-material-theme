@@ -25,7 +25,7 @@
   },
   "engines": {
     "node": "<=10",
-    "vscode": ">=1.40.0"
+    "vscode": "^1.41.0"
   },
   "scripts": {
     "build": "yarn cleanup && yarn build:ts && yarn build:generate-themes && yarn build:legacy && yarn build:ui",
@@ -145,52 +145,52 @@
         "uiTheme": "vs"
       },
       {
-        "label": "Material Theme (Legacy)",
+        "label": "Legacy - Material Theme",
         "path": "./build/themes/Material-Theme-Default-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme High Contrast (Legacy)",
+        "label": "Legacy - Material Theme High Contrast",
         "path": "./build/themes/Material-Theme-Default-High-Contrast-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Darker (Legacy)",
+        "label": "Legacy - Material Theme Darker",
         "path": "./build/themes/Material-Theme-Darker-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Darker High Contrast (Legacy)",
+        "label": "Legacy - Material Theme Darker High Contrast",
         "path": "./build/themes/Material-Theme-Darker-High-Contrast-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Palenight (Legacy)",
+        "label": "Legacy - Material Theme Palenight",
         "path": "./build/themes/Material-Theme-Palenight-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Palenight High Contrast (Legacy)",
+        "label": "Legacy - Material Theme Palenight High Contrast",
         "path": "./build/themes/Material-Theme-Palenight-High-Contrast-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Ocean (Legacy)",
+        "label": "Legacy - Material Theme Ocean",
         "path": "./build/themes/Material-Theme-Ocean-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Ocean High Contrast (Legacy)",
+        "label": "Legacy - Material Theme Ocean High Contrast",
         "path": "./build/themes/Material-Theme-Ocean-High-Contrast-Legacy.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Lighter (Legacy)",
+        "label": "Legacy - Material Theme Lighter",
         "path": "./build/themes/Material-Theme-Lighter-Legacy.json",
         "uiTheme": "vs"
       },
       {
-        "label": "Material Theme Lighter High Contrast (Legacy)",
+        "label": "Legacy - Material Theme Lighter High Contrast",
         "path": "./build/themes/Material-Theme-Lighter-High-Contrast-Legacy.json",
         "uiTheme": "vs"
       }
