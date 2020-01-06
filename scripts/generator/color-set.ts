@@ -383,20 +383,18 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       wordHighlight: `${theme.scheme.base.pink}30`,
       // When the cursor is on a symbol, highlights places that symbol is written
       wordHighlightStrong: `${theme.scheme.base.green}30`
-    }
+    },
     /**
     * Override all syntax tokens
     */
-    // customTokens: [
-    // 	{
-    // 		name: 'String',
-    // 		scope: [ 'string' ],
-    // 		settings: {
-    // 			fontStyle: 'normal',
-    // 			foreground: '#',
-    // 			background: '#'
-    // 		}
-    // 	}
-    // ]
+    customTokens: [
+      {
+        name: 'Punctuation',
+        scope: ['punctuation'],
+        settings: {
+          foreground: theme.scheme.base.cyan
+        }
+      }
+    ]
   };
 };
