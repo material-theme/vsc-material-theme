@@ -13,9 +13,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       // Determines function, class, classMember, type, and cssTag
       color3: theme.scheme.base.yellow,
       // Determines functionCall and number
-      color4: theme.scheme.base.paleblue,
+      color4: theme.scheme.base.blue,
       // Determines the overall text foreground color
-      foreground: theme.scheme.base.white
+      foreground: theme.scheme.foreground
     },
     /**
     * Overrides specific syntax scopes provided
@@ -23,47 +23,100 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     syntax: {
       boolean: theme.scheme.base.pink,
-      class: theme.scheme.base.violet,
+      storage: theme.scheme.base.purple,
+      class: theme.scheme.base.purple,
       classMember: theme.scheme.base.red,
       comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
       cssId: theme.scheme.base.orange,
       cssTag: theme.scheme.base.yellow,
-      function: theme.scheme.base.yellow,
-      functionCall: theme.scheme.base.violet,
+      function: theme.scheme.base.blue,
+      functionCall: theme.scheme.base.purple,
+      number: theme.scheme.base.orange,
       identifier: theme.scheme.base.cyan,
       keyword: theme.scheme.base.red,
-      storage: theme.scheme.foreground,
       string: theme.scheme.base.green,
       stringEscape: theme.scheme.foreground,
-      type: theme.scheme.base.pink
+      type: theme.scheme.base.yellow
     },
     /**
     * Override all syntax tokens
     */
     customTokens: [
       {
-        name: 'Punctuation',
-        scope: ['punctuation.separator', 'punctuation.definition.string'],
+        name: 'Markdown - Blockquote',
+        scope: [
+          'markup.quote'
+        ],
         settings: {
+          fontStyle: 'italic',
           foreground: theme.scheme.base.cyan
+        }
+      },
+      {
+        name: 'Markdown - Fenced Language',
+        scope: [
+          'markup.fenced_code.block'
+        ],
+        settings: {
+          foreground: `${theme.scheme.foreground}90`
+        }
+      },
+      {
+        name: 'Markdown - Blockquote Punctuation',
+        scope: [
+          'punctuation.definition.quote'
+        ],
+        settings: {
+          foreground: theme.scheme.base.pink
+        }
+      },
+      {
+        name: 'Variables',
+        scope: [
+          'variable',
+          'string constant.other.placeholder'
+        ],
+        settings: {
+          foreground: theme.scheme.foreground
         }
       },
       {
         name: 'Keyword, Storage',
         scope: [
           'keyword',
-          'storage'
+          'storage.type',
+          'storage.modifier'
         ],
         settings: {
-          fontStyle: 'italic'
+          foreground: theme.scheme.base.purple
         }
       },
       {
-        name: 'String',
-        scope: ['string.quoted'],
+        name: 'Support Class',
+        scope: ['support.class.builtin'],
         settings: {
-          foreground: theme.scheme.base.green
+          foreground: theme.scheme.base.yellow
+        }
+      },
+      {
+        name: 'Punctuation',
+        scope: [
+          'punctuation.separator',
+          'punctuation.definition.string'
+        ],
+        settings: {
+          foreground: theme.scheme.base.cyan
+        }
+      },
+      {
+        name: 'Keyword Control',
+        scope: [
+          'keyword.control'
+        ],
+        settings: {
+          foreground: theme.scheme.base.cyan,
+          fontStyle: 'italic'
         }
       },
       {

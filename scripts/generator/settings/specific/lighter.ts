@@ -44,7 +44,7 @@ export default {
       blue: '#6182B8',
       paleblue: '#8796B0',
       purple: '#7C4DFF',
-      brown: '#C17E70',
+      brown: '#916b53',
       pink: '#FF5370',
       violet: '#945EB8'
     }

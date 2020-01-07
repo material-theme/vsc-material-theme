@@ -124,7 +124,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -145,7 +145,7 @@
         "source.cpp meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -154,7 +154,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -164,7 +164,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -435,7 +435,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C17E70"
+        "foreground": "#916b53"
       }
     },
     {
@@ -453,7 +453,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -529,7 +529,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -540,7 +540,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -555,7 +555,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
