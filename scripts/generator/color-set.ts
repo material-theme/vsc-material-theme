@@ -24,20 +24,23 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     syntax: {
       boolean: theme.scheme.base.pink,
       storage: theme.scheme.base.purple,
-      class: theme.scheme.base.purple,
+      class: theme.scheme.base.yellow,
       classMember: theme.scheme.base.red,
       comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
       cssId: theme.scheme.base.orange,
       cssTag: theme.scheme.base.yellow,
       function: theme.scheme.base.blue,
-      functionCall: theme.scheme.base.purple,
+      functionCall: theme.scheme.base.blue,
       number: theme.scheme.base.orange,
       identifier: theme.scheme.base.cyan,
       keyword: theme.scheme.base.red,
       string: theme.scheme.base.green,
       stringEscape: theme.scheme.foreground,
-      type: theme.scheme.base.yellow
+      type: theme.scheme.base.yellow,
+      punctuation: theme.scheme.base.cyan,
+      variable: theme.scheme.foreground,
+      otherKeyword: theme.scheme.base.orange
     },
     /**
     * Override all syntax tokens
@@ -72,41 +75,12 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
         }
       },
       {
-        name: 'Variables',
+        name: 'Other Keywords',
         scope: [
-          'variable',
-          'string constant.other.placeholder'
+          'keyword.other'
         ],
         settings: {
-          foreground: theme.scheme.foreground
-        }
-      },
-      {
-        name: 'Keyword, Storage',
-        scope: [
-          'keyword',
-          'storage.type',
-          'storage.modifier'
-        ],
-        settings: {
-          foreground: theme.scheme.base.purple
-        }
-      },
-      {
-        name: 'Support Class',
-        scope: ['support.class.builtin'],
-        settings: {
-          foreground: theme.scheme.base.yellow
-        }
-      },
-      {
-        name: 'Punctuation',
-        scope: [
-          'punctuation.separator',
-          'punctuation.definition.string'
-        ],
-        settings: {
-          foreground: theme.scheme.base.cyan
+          foreground: theme.scheme.base.orange
         }
       },
       {
