@@ -15,7 +15,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       // Determines functionCall and number
       color4: theme.scheme.base.paleblue,
       // Determines the overall text foreground color
-      foreground: theme.scheme.base.white
+      foreground: theme.scheme.foreground
     },
     /**
     * Overrides specific syntax scopes provided
@@ -23,14 +23,14 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     syntax: {
       boolean: theme.scheme.base.pink,
-      class: theme.scheme.base.violet,
+      class: theme.scheme.base.purple,
       classMember: theme.scheme.base.red,
       comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
       cssId: theme.scheme.base.orange,
       cssTag: theme.scheme.base.yellow,
       function: theme.scheme.base.yellow,
-      functionCall: theme.scheme.base.violet,
+      functionCall: theme.scheme.base.blue,
       identifier: theme.scheme.base.cyan,
       keyword: theme.scheme.base.red,
       storage: theme.scheme.foreground,
