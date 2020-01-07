@@ -18,6 +18,137 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       foreground: theme.scheme.base.white
     },
     /**
+    * Overrides specific syntax scopes provided
+    * by the theme generator
+    */
+    syntax: {
+      boolean: theme.scheme.base.pink,
+      class: theme.scheme.base.violet,
+      classMember: theme.scheme.base.red,
+      comment: theme.scheme.comments,
+      cssClass: theme.scheme.base.yellow,
+      cssId: theme.scheme.base.orange,
+      cssTag: theme.scheme.base.yellow,
+      function: theme.scheme.base.yellow,
+      functionCall: theme.scheme.base.violet,
+      identifier: theme.scheme.base.cyan,
+      keyword: theme.scheme.base.red,
+      storage: theme.scheme.foreground,
+      string: theme.scheme.base.green,
+      stringEscape: theme.scheme.foreground,
+      type: theme.scheme.base.pink
+    },
+    /**
+    * Override all syntax tokens
+    */
+    customTokens: [
+      {
+        name: 'Punctuation',
+        scope: ['punctuation.separator', 'punctuation.definition.string'],
+        settings: {
+          foreground: theme.scheme.base.cyan
+        }
+      },
+      {
+        name: 'Keyword, Storage',
+        scope: [
+          'keyword',
+          'storage'
+        ],
+        settings: {
+          fontStyle: 'italic'
+        }
+      },
+      {
+        name: 'String',
+        scope: ['string.quoted'],
+        settings: {
+          foreground: theme.scheme.base.green
+        }
+      },
+      {
+        name: 'JSON Key - Level 0',
+        scope: [
+          'meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.purple
+        }
+      },
+      {
+        name: 'JSON Key - Level 1',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.yellow
+        }
+      },
+      {
+        name: 'JSON Key - Level 2',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.orange
+        }
+      },
+      {
+        name: 'JSON Key - Level 3',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.red
+        }
+      },
+      {
+        name: 'JSON Key - Level 4',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.brown
+        }
+      },
+      {
+        name: 'JSON Key - Level 5',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.blue
+        }
+      },
+      {
+        name: 'JSON Key - Level 6',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.pink
+        }
+      },
+      {
+        name: 'JSON Key - Level 7',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.purple
+        }
+      },
+      {
+        name: 'JSON Key - Level 8',
+        scope: [
+          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
+        ],
+        settings: {
+          foreground: theme.scheme.base.green
+        }
+      }
+    ],
+    /**
     * Overrides workbench UI Elements
     */
     workbench: {
@@ -25,7 +156,6 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       * General elements style
       */
       focusBorder: `${theme.scheme.focusBorder}00`,
-      'editorCursor.foreground': theme.scheme.caret,
       'editorRuler.foreground': theme.scheme.guides,
       'widget.shadow': theme.scheme.shadow,
       'scrollbar.shadow': theme.scheme.shadow,
@@ -85,7 +215,6 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'editor.background': theme.scheme.background,
       'editor.foreground': theme.scheme.foreground,
       'editor.lineHighlightBackground': `${theme.scheme.lineHighlight}50`,
-      'editor.selectionBackground': theme.scheme.selection,
       'editor.selectionHighlightBackground': `${theme.scheme.caret}20`,
       'editor.lineHighlightBorder': `${theme.scheme.lineHighlight}00`,
       'editor.findMatchBackground': theme.scheme.findMatchBackground,
@@ -319,27 +448,6 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'listFilterWidget.noMatchesOutline': theme.scheme.inactiveSelectionBackground
     },
     /**
-    * Overrides specific syntax scopes provided
-    * by the theme generator
-    */
-    syntax: {
-      boolean: theme.scheme.base.pink,
-      class: theme.scheme.base.violet,
-      classMember: theme.scheme.base.red,
-      comment: theme.scheme.comments,
-      cssClass: theme.scheme.base.yellow,
-      cssId: theme.scheme.base.orange,
-      cssTag: theme.scheme.base.yellow,
-      function: theme.scheme.base.yellow,
-      functionCall: theme.scheme.base.violet,
-      identifier: theme.scheme.base.cyan,
-      keyword: theme.scheme.base.red,
-      storage: theme.scheme.foreground,
-      string: theme.scheme.base.green,
-      stringEscape: theme.scheme.foreground,
-      type: theme.scheme.base.pink
-    },
-    /**
     * Define the integrated shell
     * color palette
     */
@@ -368,9 +476,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       // Highlights matches from the find widget
       // currentFindMatchHighlight: theme.scheme.shade5,
       // Set the editor cursor color
-      cursor: theme.scheme.base.yellow,
-      // Ighlights matches from the find widge
-      findMatchHighlight: theme.scheme.base.pink,
+      cursor: theme.scheme.caret,
+      // Ighlights matches from the find widget
+      findMatchHighlight: theme.scheme.foreground,
       // Highlights the selected area for "find in selection"
       findRangeHighlight: `${theme.scheme.base.yellow}30`,
       // Set color for invisible characters/whitespaces
@@ -383,106 +491,6 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       wordHighlight: `${theme.scheme.base.pink}30`,
       // When the cursor is on a symbol, highlights places that symbol is written
       wordHighlightStrong: `${theme.scheme.base.green}30`
-    },
-    /**
-    * Override all syntax tokens
-    */
-    customTokens: [
-      {
-        name: 'Punctuation',
-        scope: ['punctuation'],
-        settings: {
-          foreground: theme.scheme.base.cyan
-        }
-      },
-      {
-        name: 'String',
-        scope: ['string.quoted'],
-        settings: {
-          foreground: theme.scheme.base.green
-        }
-      },
-      {
-        name: 'JSON Key - Level 0',
-        scope: [
-          'meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.purple
-        }
-      },
-      {
-        name: 'JSON Key - Level 1',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.yellow
-        }
-      },
-      {
-        name: 'JSON Key - Level 2',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.orange
-        }
-      },
-      {
-        name: 'JSON Key - Level 3',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.red
-        }
-      },
-      {
-        name: 'JSON Key - Level 4',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.brown
-        }
-      },
-      {
-        name: 'JSON Key - Level 5',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.blue
-        }
-      },
-      {
-        name: 'JSON Key - Level 6',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.pink
-        }
-      },
-      {
-        name: 'JSON Key - Level 7',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.purple
-        }
-      },
-      {
-        name: 'JSON Key - Level 8',
-        scope: [
-          'meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json'
-        ],
-        settings: {
-          foreground: theme.scheme.base.green
-        }
-      }
-    ]
+    }
   };
 };
