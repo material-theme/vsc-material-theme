@@ -13,7 +13,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       // Determines function, class, classMember, type, and cssTag
       color3: theme.scheme.base.yellow,
       // Determines functionCall and number
-      color4: theme.scheme.base.paleblue,
+      color4: theme.scheme.base.blue,
       // Determines the overall text foreground color
       foreground: theme.scheme.foreground
     },
@@ -23,28 +23,46 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     syntax: {
       boolean: theme.scheme.base.pink,
+      storage: theme.scheme.base.purple,
       class: theme.scheme.base.purple,
       classMember: theme.scheme.base.red,
       comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
       cssId: theme.scheme.base.orange,
       cssTag: theme.scheme.base.yellow,
-      function: theme.scheme.base.yellow,
+      function: theme.scheme.base.blue,
       functionCall: theme.scheme.base.blue,
-      identifier: theme.scheme.base.cyan,
+      number: theme.scheme.base.orange,
+      identifier: theme.scheme.foreground,
       keyword: theme.scheme.base.red,
-      storage: theme.scheme.foreground,
       string: theme.scheme.base.green,
       stringEscape: theme.scheme.foreground,
-      type: theme.scheme.base.pink
+      type: theme.scheme.base.yellow
     },
     /**
     * Override all syntax tokens
     */
     customTokens: [
       {
+        name: 'String',
+        scope: ['string.quoted'],
+        settings: {
+          foreground: theme.scheme.base.green
+        }
+      },
+      {
+        name: 'Support Class',
+        scope: ['support.class.builtin'],
+        settings: {
+          foreground: theme.scheme.base.yellow
+        }
+      },
+      {
         name: 'Punctuation',
-        scope: ['punctuation.separator', 'punctuation.definition.string'],
+        scope: [
+          'punctuation.separator',
+          'punctuation.definition.string'
+        ],
         settings: {
           foreground: theme.scheme.base.cyan
         }
@@ -52,18 +70,11 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       {
         name: 'Keyword, Storage',
         scope: [
-          'keyword',
-          'storage'
+          'keyword.control'
         ],
         settings: {
+          foreground: theme.scheme.base.cyan,
           fontStyle: 'italic'
-        }
-      },
-      {
-        name: 'String',
-        scope: ['string.quoted'],
-        settings: {
-          foreground: theme.scheme.base.green
         }
       },
       {

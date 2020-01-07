@@ -116,6 +116,21 @@
         "fontStyle": "italic"
       }
     },
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#FF5370",
+      "orange": "#F78C6C",
+      "yellow": "#FFCB6B",
+      "green": "#C3E88D",
+      "cyan": "#89DDFF",
+      "blue": "#82AAFF",
+      "paleblue": "#B2CCD6",
+      "purple": "#C792EA",
+      "brown": "#916b53",
+      "pink": "#ff9cac",
+      "violet": "#bb80b3"
+    }
     {
       "name": "Tag",
       "scope": [
@@ -124,7 +139,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -145,7 +160,7 @@
         "source.cpp meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -154,7 +169,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -164,7 +179,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -435,7 +450,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C17E70"
+        "foreground": "#916b53"
       }
     },
     {
@@ -453,7 +468,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -529,7 +544,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -540,7 +555,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
@@ -555,7 +570,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#ff9cac"
       }
     },
     {
