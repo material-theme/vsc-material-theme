@@ -47,6 +47,16 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     customTokens: [
       {
+        name: 'Keyword Control',
+        scope: [
+          'keyword.control'
+        ],
+        settings: {
+          foreground: theme.scheme.base.cyan,
+          fontStyle: 'italic'
+        }
+      },
+      {
         name: 'Markdown - Blockquote',
         scope: [
           'markup.quote'
@@ -72,25 +82,6 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
         ],
         settings: {
           foreground: theme.scheme.base.pink
-        }
-      },
-      {
-        name: 'Other Keywords',
-        scope: [
-          'keyword.other'
-        ],
-        settings: {
-          foreground: theme.scheme.base.orange
-        }
-      },
-      {
-        name: 'Keyword Control',
-        scope: [
-          'keyword.control'
-        ],
-        settings: {
-          foreground: theme.scheme.base.cyan,
-          fontStyle: 'italic'
         }
       },
       {
