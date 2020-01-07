@@ -31,9 +31,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       cssId: theme.scheme.base.orange,
       cssTag: theme.scheme.base.yellow,
       function: theme.scheme.base.blue,
-      functionCall: theme.scheme.base.blue,
+      functionCall: theme.scheme.base.purple,
       number: theme.scheme.base.orange,
-      identifier: theme.scheme.foreground,
+      identifier: theme.scheme.base.cyan,
       keyword: theme.scheme.base.red,
       string: theme.scheme.base.green,
       stringEscape: theme.scheme.foreground,
@@ -44,10 +44,52 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     customTokens: [
       {
-        name: 'String',
-        scope: ['string.quoted'],
+        name: 'Markdown - Blockquote',
+        scope: [
+          'markup.quote'
+        ],
         settings: {
-          foreground: theme.scheme.base.green
+          fontStyle: 'italic',
+          foreground: theme.scheme.base.cyan
+        }
+      },
+      {
+        name: 'Markdown - Fenced Language',
+        scope: [
+          'markup.fenced_code.block'
+        ],
+        settings: {
+          foreground: `${theme.scheme.foreground}90`
+        }
+      },
+      {
+        name: 'Markdown - Blockquote Punctuation',
+        scope: [
+          'punctuation.definition.quote'
+        ],
+        settings: {
+          foreground: theme.scheme.base.pink
+        }
+      },
+      {
+        name: 'Variables',
+        scope: [
+          'variable',
+          'string constant.other.placeholder'
+        ],
+        settings: {
+          foreground: theme.scheme.foreground
+        }
+      },
+      {
+        name: 'Keyword, Storage',
+        scope: [
+          'keyword',
+          'storage.type',
+          'storage.modifier'
+        ],
+        settings: {
+          foreground: theme.scheme.base.purple
         }
       },
       {
@@ -68,7 +110,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
         }
       },
       {
-        name: 'Keyword, Storage',
+        name: 'Keyword Control',
         scope: [
           'keyword.control'
         ],
