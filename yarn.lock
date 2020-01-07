@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@moxer/vscode-theme-generator@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@moxer/vscode-theme-generator/-/vscode-theme-generator-1.1.0.tgz#cea19b9f3b0c7f370e0eb11e1a95635c0913635c"
-  integrity sha512-QslF7P46BNE2f1qxqL0zQtRvrMIPBwK1xFAfgsjpNMOc8DslBLnqxvJKhCtcJa+lasA+wlpXGBZg1OBCx2A0qQ==
+"@moxer/vscode-theme-generator@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@moxer/vscode-theme-generator/-/vscode-theme-generator-1.4.0.tgz#7d216d37a837e11644a20742f24829508061ba70"
+  integrity sha512-x7B34YEPMcVPejz+5WtlUKzs74nphrNc/w5x3iimevMCk8ZeKiqBc1nDtdbpOfII2YLzDcvwFm9BNfiXUoGyzg==
   dependencies:
     ansi-styles "^3.2.1"
     argparse "^1.0.10"
@@ -2414,10 +2414,17 @@ resolve@1.1.7:
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
   integrity sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs=
 
-resolve@^1.1.4, resolve@^1.11.1, resolve@^1.4.0:
+resolve@^1.1.4, resolve@^1.4.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
   integrity sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==
+  dependencies:
+    path-parse "^1.0.6"
+
+resolve@^1.11.1:
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.14.2.tgz#dbf31d0fa98b1f29aa5169783b9c290cb865fea2"
+  integrity sha512-EjlOBLBO1kxsUxsKjLt7TAECyKW6fOh1VRkykQkKGzcBbjjPIxBqGh0jf7GJ3k/f5mxMqW3htMD3WdTUVtW8HQ==
   dependencies:
     path-parse "^1.0.6"
 
