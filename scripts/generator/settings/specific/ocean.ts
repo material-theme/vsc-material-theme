@@ -36,7 +36,7 @@ export default {
     base: {
       white: '#ffffff',
       black: '#000000',
-      red: '#FF5370',
+      red: '#f07178',
       orange: '#F78C6C',
       yellow: '#FFCB6B',
       green: '#C3E88D',
