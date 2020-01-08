@@ -23,8 +23,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     syntax: {
       boolean: theme.scheme.base.pink,
-      storage: theme.scheme.base.purple,
-      class: theme.scheme.base.yellow,
+      class: theme.scheme.base.purple,
       classMember: theme.scheme.base.red,
       comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
@@ -32,14 +31,13 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       cssTag: theme.scheme.base.yellow,
       function: theme.scheme.base.blue,
       functionCall: theme.scheme.base.blue,
-      number: theme.scheme.base.orange,
       identifier: theme.scheme.base.cyan,
       keyword: theme.scheme.base.red,
+      storage: theme.scheme.base.purple,
       string: theme.scheme.base.green,
       stringEscape: theme.scheme.foreground,
-      type: theme.scheme.base.purple,
+      type: theme.scheme.base.paleblue,
       punctuation: theme.scheme.base.cyan,
-      variable: theme.scheme.foreground,
       otherKeyword: theme.scheme.base.orange
     },
     /**
