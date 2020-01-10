@@ -36,7 +36,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       storage: theme.scheme.base.purple,
       string: theme.scheme.base.green,
       stringEscape: theme.scheme.foreground,
-      type: theme.scheme.base.paleblue,
+      type: theme.scheme.base.yellow,
       punctuation: theme.scheme.base.cyan,
       otherKeyword: theme.scheme.base.orange,
       variable: theme.scheme.foreground,
