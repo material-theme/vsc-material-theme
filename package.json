@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "31.14.0",
+  "version": "31.15.0",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "author": "Mattia Astorino [@equinusocio]",
@@ -23,6 +23,9 @@
   "bugs": {
     "url": "https://github.com/material-theme/vsc-material-theme/issues"
   },
+  "extensionPack": [
+		"equinusocio.vsc-community-material-theme"
+	],
   "engines": {
     "node": "<=10",
     "vscode": "^1.41.0"
@@ -214,7 +217,7 @@
     }
   ],
   "devDependencies": {
-    "@moxer/vscode-theme-generator": "1.15.0",
+    "@moxer/vscode-theme-generator": "1.16.1",
     "@types/browserify": "12.0.36",
     "@types/rimraf": "2.0.2",
     "@typescript-eslint/eslint-plugin": "2.12.0",
