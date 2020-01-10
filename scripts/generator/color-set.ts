@@ -38,7 +38,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       stringEscape: theme.scheme.foreground,
       type: theme.scheme.base.paleblue,
       punctuation: theme.scheme.base.cyan,
-      otherKeyword: theme.scheme.base.orange
+      otherKeyword: theme.scheme.base.orange,
+      variable: theme.scheme.foreground,
+      number: theme.scheme.base.orange
     },
     /**
     * Override all syntax tokens
