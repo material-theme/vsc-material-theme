@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "31.16.0",
+  "version": "31.17.0",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "author": "Mattia Astorino [@equinusocio]",
@@ -24,7 +24,8 @@
     "url": "https://github.com/material-theme/vsc-material-theme/issues"
   },
   "extensionPack": [
-    "equinusocio.vsc-community-material-theme"
+    "equinusocio.vsc-community-material-theme",
+    "equinusocio.vsc-material-theme-icons"
   ],
   "engines": {
     "node": "<=10",
