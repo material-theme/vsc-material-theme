@@ -167,7 +167,7 @@
     }
   ],
   "devDependencies": {
-    "@moxer/vscode-theme-generator": "1.16.1",
+    "@moxer/vscode-theme-generator": "1.16.2",
     "@types/browserify": "12.0.36",
     "@types/rimraf": "2.0.2",
     "@typescript-eslint/eslint-plugin": "2.12.0",
