@@ -9,6 +9,7 @@ import {changelogManager} from './core/changelog-manager';
 import {extensionManager} from './core/extension-manager';
 
 export async function activate(context: ExtensionContext): Promise<void> {
+  await extensionManager.init();
   const releaseNotesView = new ReleaseNotesWebview(context);
   const installationType = extensionManager.getInstallationType();
 

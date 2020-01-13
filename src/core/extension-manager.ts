@@ -14,6 +14,7 @@ type InstallationType = {
 };
 
 export interface IExtensionManager {
+  init: () => Promise<void>;
   getPackageJSON: () => Record<string, any>;
   getConfig: () => MaterialThemeConfig;
   getInstallationType: () => {};
@@ -30,7 +31,6 @@ class ExtensionManager implements IExtensionManager {
     const extensionFolderUri = Uri.file(extensions.getExtension(MATERIAL_THEME_EXT_ID).extensionPath);
     this.configFileUri = extensionFolderUri.with({path: posix.join(extensionFolderUri.path, CONFIG_FILE_NAME)});
     this.userConfigFileUri = extensionFolderUri.with({path: posix.join(extensionFolderUri.path, USER_CONFIG_FILE_NAME)});
-    this.init();
   }
 
   getPackageJSON(): Record<string, any> {
@@ -78,7 +78,7 @@ class ExtensionManager implements IExtensionManager {
     } catch {}
   }
 
-  private async init(): Promise<void> {
+  async init(): Promise<void> {
     try {
       const packageJSON = this.getPackageJSON();
       const userConfig = await this.getUserConfig();
