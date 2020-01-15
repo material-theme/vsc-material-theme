@@ -23,7 +23,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     syntax: {
       boolean: theme.scheme.base.pink,
-      class: theme.scheme.base.purple,
+      class: theme.scheme.base.yellow,
       classMember: theme.scheme.base.red,
       comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
