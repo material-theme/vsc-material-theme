@@ -28,6 +28,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       comment: theme.scheme.comments,
       cssClass: theme.scheme.base.yellow,
       cssId: theme.scheme.base.orange,
+      cssProperties: theme.scheme.base.paleblue,
       cssTag: theme.scheme.base.yellow,
       function: theme.scheme.base.blue,
       functionCall: theme.scheme.base.blue,
