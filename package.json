@@ -2,7 +2,7 @@
   "name": "vsc-material-theme",
   "displayName": "Material Theme",
   "description": "The most epic theme now for Visual Studio Code",
-  "version": "32.4.0",
+  "version": "32.5.0",
   "publisher": "Equinusocio",
   "license": "Apache-2.0",
   "author": "Mattia Astorino [@equinusocio]",
@@ -52,7 +52,8 @@
     "*"
   ],
   "extensionKind": [
-    "ui"
+    "ui",
+    "workspace"
   ],
   "main": "./build/material.theme.config",
   "contributes": {
