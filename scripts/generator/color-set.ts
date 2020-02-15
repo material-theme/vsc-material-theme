@@ -179,7 +179,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'widget.shadow': theme.scheme.shadow,
       'scrollbar.shadow': theme.scheme.shadow,
       'editorLink.activeForeground': theme.scheme.foreground,
-      'selection.background': theme.scheme.defaultAccent,
+      'selection.background': `${theme.scheme.lineHighlight}80`,
       'progressBar.background': theme.scheme.defaultAccent,
       'debugToolBar.background': theme.scheme.background,
       'pickerGroup.foreground': theme.scheme.defaultAccent,
@@ -351,9 +351,10 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       * Textfield and inputs style
       */
       'input.background': theme.scheme.inputBackground,
-      'input.foreground': theme.scheme.inputForeground,
+      'input.foreground': theme.scheme.foreground,
       'input.placeholderForeground': `${theme.scheme.foreground}60`,
       'input.border': theme.scheme.inputBorder,
+
       /**
       * Inputs validation style
       */
