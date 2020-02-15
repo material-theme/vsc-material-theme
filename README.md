@@ -137,7 +137,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 ```
 
 ## Official Portings
-Thanks to the Material Theme community you can use is with other softwares, here the official portings:
+Thanks to the Material Theme community you can use it with other software, here are the official portings:
 
 - [Windows Terminal](https://github.com/julianlatest/material-windows-terminal) (by [@julianlatest](https://github.com/julianlatest))
 - [IntelliJ IDEA](https://github.com/ChrisRM/material-theme-jetbrains) (thanks to [@ChrisRM](https://github.com/ChrisRM) and [@mallowigi](https://github.com/mallowigi)).
