@@ -3,6 +3,7 @@ import {ThemeSetting} from './types';
 
 export const getColorSet = (theme: ThemeSetting): IColorSet => {
   return {
+    semanticHighlighting: true,
     base: {
       // Determines the overall background color
       background: theme.scheme.background,
@@ -366,6 +367,11 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       */
       'dropdown.background': theme.scheme.background,
       'dropdown.border': theme.scheme.inputBorder,
+      /**
+       * Quick Panel
+       */
+      'quickInput.background': theme.scheme.background,
+      'quickInput.foreground': theme.scheme.sidebarForeground,
       /**
       * Lists style
       */
