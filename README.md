@@ -101,10 +101,8 @@ You can override the Material Theme UI and schemes colors by adding these theme-
         "textMateRules": [
             {
                 "scope": [
-                    "punctuation.definition.comment",
-                    "comment.block",
-                    "comment.line",
-                    "comment.block.documentation"
+                    "comment",
+                    "comment punctuation.definition.comment"
                 ],
                 "settings": {
                     "foreground": "#FF0000"
