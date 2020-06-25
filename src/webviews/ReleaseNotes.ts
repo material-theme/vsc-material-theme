@@ -1,6 +1,6 @@
 import {WebviewController} from './Webview';
 
-export class ReleaseNotesWebview extends WebviewController<{}> {
+export class ReleaseNotesWebview extends WebviewController<Record<string, unknown>> {
   get filename(): string {
     return 'release-notes.html';
   }
@@ -17,7 +17,7 @@ export class ReleaseNotesWebview extends WebviewController<{}> {
    * This will be called by the WebviewController when init the view
    * passing as `window.bootstrap` to the view.
    */
-  getBootstrap(): {} {
+  getBootstrap(): Record<string, unknown> {
     return {};
   }
 }

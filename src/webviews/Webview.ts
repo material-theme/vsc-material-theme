@@ -36,17 +36,10 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
   async show(): Promise<void> {
     const html = await this.getHtml();
 
-    const rootPath = Uri
-      .file(this.context.asAbsolutePath('./build'))
-      .with({scheme: 'vscode-resource'}).toString();
-
-    // Replace placeholders in html content for assets and adding configurations as `window.bootstrap`
-    const fullHtml = html
-      .replace(/{{root}}/g, rootPath)
-      .replace('\'{{bootstrap}}\'', JSON.stringify(this.getBootstrap()));
-
     // If panel already opened just reveal
     if (this.panel !== undefined) {
+      // Replace placeholders in html content for assets and adding configurations as `window.bootstrap`
+      const fullHtml = this.replaceInPanel(html);
       this.panel.webview.html = fullHtml;
       return this.panel.reveal(ViewColumn.Active);
     }
@@ -71,6 +64,9 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
       this.panel.webview.onDidReceiveMessage(this.onMessageReceived, this)
     );
 
+    // Replace placeholders in html content for assets and adding configurations as `window.bootstrap`
+    const fullHtml = this.replaceInPanel(html);
+
     this.panel.webview.html = fullHtml;
   }
 
@@ -88,6 +84,16 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
       default:
         break;
     }
+  }
+
+  private replaceInPanel(html: string): string {
+    // Replace placeholders in html content for assets and adding configurations as `window.bootstrap`
+    const fullHtml = html
+      .replace(/{{root}}/g, this.panel.webview.asWebviewUri(Uri.file(this.context.asAbsolutePath('./build'))).toString())
+      .replace(/{{cspSource}}/g, this.panel.webview.cspSource)
+      .replace('\'{{bootstrap}}\'', JSON.stringify(this.getBootstrap()));
+
+    return fullHtml;
   }
 
   private async getHtml(): Promise<string> {
@@ -127,7 +133,7 @@ export abstract class WebviewController<TBootstrap> extends Disposable {
     this.panel = undefined;
   }
 
-  private async onViewStateChanged(event: WebviewPanelOnDidChangeViewStateEvent): Promise<boolean | void> {
+  private async onViewStateChanged(event: WebviewPanelOnDidChangeViewStateEvent): Promise<void> {
     console.log('WebviewEditor.onViewStateChanged', event.webviewPanel.visible);
 
     if (!this.invalidateOnVisible || !event.webviewPanel.visible) {

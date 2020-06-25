@@ -24,10 +24,10 @@ const getThemeColorCustomizationsConfig = (accentColor?: string): Record<string,
 
 const updateColorCustomizationsConfig = async (config: any): Promise<boolean> => {
   try {
-    workspace.getConfiguration().update('workbench.colorCustomizations', config, true);
+    await workspace.getConfiguration().update('workbench.colorCustomizations', config, true);
     return true;
   } catch (error) {
-    window.showErrorMessage(error);
+    await window.showErrorMessage(error);
   }
 };
 

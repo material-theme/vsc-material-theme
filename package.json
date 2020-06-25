@@ -170,17 +170,18 @@
   "devDependencies": {
     "@moxer/vscode-theme-generator": "1.19.0",
     "@types/browserify": "12.0.36",
-    "@types/rimraf": "2.0.2",
-    "@typescript-eslint/eslint-plugin": "2.12.0",
-    "@typescript-eslint/parser": "2.12.0",
-    "browserify": "16.2.2",
-    "eslint": "6.7.2",
-    "eslint-config-xo-space": "0.22.0",
-    "eslint-config-xo-typescript": "0.23.0",
-    "fs-extra": "8.1.0",
+    "@types/fs-extra": "8.1.0",
+    "@types/rimraf": "3.0.0",
+    "@typescript-eslint/eslint-plugin": "3.3.0",
+    "@typescript-eslint/parser": "3.3.0",
+    "browserify": "16.5.1",
+    "eslint": "7.2.0",
+    "eslint-config-xo-space": "0.25.0",
+    "eslint-config-xo-typescript": "0.31.0",
+    "fs-extra": "9.0.1",
     "ncp": "2.0.0",
-    "typescript": "3.7.4",
-    "vscode": "1.1.36"
+    "typescript": "3.9.5",
+    "vscode": "1.1.37"
   },
   "__metadata": {
     "id": "dffaf5a1-2219-434b-9d87-cb586fd59260",
@@ -188,8 +189,7 @@
     "publisherId": "e41388a1-a892-4c1e-940b-1e7c1bf43c97"
   },
   "dependencies": {
-    "@sanity/client": "0.147.3",
-    "@types/fs-extra": "8.0.1",
+    "@sanity/client": "1.149.16",
     "opencollective": "1.0.3"
   },
   "collective": {

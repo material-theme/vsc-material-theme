@@ -19,7 +19,7 @@ export interface IPostNormalized {
 }
 export interface ISettingsChangedMessage {
   type: 'settingsChanged';
-  config: {};
+  config: Record<string, unknown>;
 }
 
 export interface ISaveSettingsMessage {
@@ -36,18 +36,17 @@ export type Message = ISaveSettingsMessage | ISettingsChangedMessage;
 export type Invalidates = 'all' | 'config' | undefined;
 
 export interface IBootstrap {
-  config: {};
+  config: Record<string, unknown>;
 }
 
 export interface ISettingsBootstrap extends IBootstrap {
   scope: 'user' | 'workspace';
   scopes: Array<['user' | 'workspace', string]>;
-  defaults: {};
+  defaults: Record<string, unknown>;
 }
 
 declare global {
-  // eslint-disable-next-line @typescript-eslint/interface-name-prefix
   interface Window {
-    bootstrap: IBootstrap | ISettingsBootstrap | {};
+    bootstrap: IBootstrap | ISettingsBootstrap | Record<string, unknown>;
   }
 }

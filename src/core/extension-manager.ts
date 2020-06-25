@@ -17,7 +17,7 @@ export interface IExtensionManager {
   init: () => Promise<void>;
   getPackageJSON: () => Record<string, any>;
   getConfig: () => MaterialThemeConfig;
-  getInstallationType: () => {};
+  getInstallationType: () => Record<string, unknown>;
   updateConfig: (config: Partial<MaterialThemeConfig>) => Promise<void>;
 }
 
@@ -50,6 +50,32 @@ class ExtensionManager implements IExtensionManager {
     await workspace.fs.writeFile(this.configFileUri, Buffer.from(JSON.stringify(newConfig), 'utf-8'));
   }
 
+  async init(): Promise<void> {
+    try {
+      const packageJSON = this.getPackageJSON();
+      const userConfig = await this.getUserConfig();
+      this.installationType = {
+        update: userConfig && this.isVersionUpdate(userConfig),
+        firstInstall: !userConfig
+      };
+
+      const configBuffer = await workspace.fs.readFile(this.configFileUri);
+      const configContent = Buffer.from(configBuffer).toString('utf8');
+
+      this.configJSON = JSON.parse(configContent) as MaterialThemeConfig;
+
+      const userConfigUpdate = {...this.configJSON, changelog: {lastversion: packageJSON.version}};
+      await workspace.fs.writeFile(
+        this.userConfigFileUri,
+        Buffer.from(JSON.stringify(userConfigUpdate), 'utf-8')
+      );
+    } catch (error) {
+      this.configJSON = {accentsProperties: {}, accents: {}};
+      await window
+        .showErrorMessage(`Material Theme: there was an error while loading the configuration. Please retry or open an issue: ${String(error)}`);
+    }
+  }
+
   private isVersionUpdate(userConfig: MaterialThemeConfig): boolean {
     const splitVersion = (input: string): {major: number; minor: number; patch: number} => {
       const [major, minor, patch] = input.split('.').map(i => parseInt(i, 10));
@@ -76,32 +102,6 @@ class ExtensionManager implements IExtensionManager {
       const configContent = Buffer.from(configBuffer).toString('utf8');
       return JSON.parse(configContent) as MaterialThemeConfig;
     } catch {}
-  }
-
-  async init(): Promise<void> {
-    try {
-      const packageJSON = this.getPackageJSON();
-      const userConfig = await this.getUserConfig();
-      this.installationType = {
-        update: userConfig && this.isVersionUpdate(userConfig),
-        firstInstall: !userConfig
-      };
-
-      const configBuffer = await workspace.fs.readFile(this.configFileUri);
-      const configContent = Buffer.from(configBuffer).toString('utf8');
-
-      this.configJSON = JSON.parse(configContent) as MaterialThemeConfig;
-
-      const userConfigUpdate = {...this.configJSON, changelog: {lastversion: packageJSON.version}};
-      await workspace.fs.writeFile(
-        this.userConfigFileUri,
-        Buffer.from(JSON.stringify(userConfigUpdate), 'utf-8')
-      );
-    } catch (error) {
-      this.configJSON = {accentsProperties: {}, accents: {}};
-      window
-        .showErrorMessage(`Material Theme: there was an error while loading the configuration. Please retry or open an issue: ${String(error)}`);
-    }
   }
 }
 
