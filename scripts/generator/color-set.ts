@@ -359,9 +359,9 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       /**
       * Inputs validation style
       */
-      'inputValidation.errorBorder': `${theme.scheme.base.red}50`,
-      'inputValidation.infoBorder': `${theme.scheme.base.blue}50`,
-      'inputValidation.warningBorder': `${theme.scheme.base.yellow}50`,
+      'inputValidation.errorBorder': `${theme.scheme.base.red}`,
+      'inputValidation.infoBorder': `${theme.scheme.base.blue}`,
+      'inputValidation.warningBorder': `${theme.scheme.base.yellow}`,
       /**
       * Dropdown menu style
       */

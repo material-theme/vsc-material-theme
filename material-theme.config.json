@@ -105,6 +105,10 @@
     "selection.background": {
       "alpha": 40,
       "value": null
+    },
+    "statusBarItem.remoteBackground": {
+      "alpha": 100,
+      "value": null
     }
   }
 }
