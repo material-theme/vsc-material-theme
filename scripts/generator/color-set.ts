@@ -471,7 +471,13 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       */
       'listFilterWidget.background': theme.scheme.inactiveSelectionBackground,
       'listFilterWidget.outline': theme.scheme.inactiveSelectionBackground,
-      'listFilterWidget.noMatchesOutline': theme.scheme.inactiveSelectionBackground
+      'listFilterWidget.noMatchesOutline': theme.scheme.inactiveSelectionBackground,
+      /**
+      * Debug Console
+      */
+      'debugConsole.errorForeground': theme.scheme.base.red,
+      'debugConsole.infoForeground': theme.scheme.base.cyan,
+      'debugConsole.warningForeground': theme.scheme.base.yellow
     },
     /**
     * Define the integrated shell
