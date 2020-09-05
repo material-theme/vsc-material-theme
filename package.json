@@ -38,7 +38,9 @@
     "build:ui": "node dist/scripts/ui/index.js",
     "build:generate-themes": "node dist/scripts/generator/index.js",
     "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build && ncp material-theme.config.json build",
-    "postinstall": "node ./node_modules/vscode/bin/install && tsc -p tsconfig.json"
+    "postinstall": "node ./node_modules/vscode/bin/install && tsc -p tsconfig.json",
+    "release": "git pull && standard-version --release-as minor && git push --follow-tags",
+    "release:major": "git pull && standard-version --release-as major && git push --follow-tags"
   },
   "categories": [
     "Themes",
@@ -180,6 +182,7 @@
     "eslint-config-xo-typescript": "0.31.0",
     "fs-extra": "9.0.1",
     "ncp": "2.0.0",
+    "standard-version": "9.0.0",
     "typescript": "3.9.5",
     "vscode": "1.1.37"
   },
