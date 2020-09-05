@@ -12,10 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run:
-        - npm install
-        - npm version minor
-        - npm build
+        run: yarn install
+      - name: Bump version
+        run: yarn version --minor
+      - name: Build extension
+        run: yarn build
       - uses: lannonbr/vsce-action@master
         with:
           args: "publish -p $VSCE_TOKEN"
