@@ -2,18 +2,15 @@ name: Release Extension
 
 on:
   push:
-    branches:
-      - master
     tags:
-      - release
+      - v*
 
 jobs:
-  deploy:
+  release:
     runs-on: ubuntu-latest
+    if: contains(github.ref, 'tag')
     steps:
       - uses: actions/checkout@v2
-      - name: Bump version
-        run: yarn version --minor
       - name: Build extension
         run: yarn build
       - uses: lannonbr/vsce-action@master
