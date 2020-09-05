@@ -13,8 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run:
-        - yarn install
-        - yarn build
+        - npm install
+        - npm version minor
+        - npm build
       - uses: lannonbr/vsce-action@master
         with:
           args: "publish -p $VSCE_TOKEN"
