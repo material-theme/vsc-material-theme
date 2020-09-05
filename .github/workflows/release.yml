@@ -50,8 +50,6 @@ jobs:
     needs: prepare
     steps:
       - uses: actions/checkout@v2
-      - name: Build extension
-        run: yarn build
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
@@ -68,6 +66,9 @@ jobs:
       - name: Install Dependencies
         run: yarn --frozen-lockfile
         if: steps.cache-yarn-cache.outputs.cache-hit != 'true' || steps.cache-node-modules.outputs.cache-hit != 'true'
+
+      - name: Build extension
+        run: yarn build
 
       - uses: lannonbr/vsce-action@master
         with:
