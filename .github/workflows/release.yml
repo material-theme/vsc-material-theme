@@ -19,6 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Use Node Version 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -50,6 +55,11 @@ jobs:
     needs: prepare
     steps:
       - uses: actions/checkout@v2
+
+      - name: Use Node Version 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
