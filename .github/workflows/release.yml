@@ -1,0 +1,22 @@
+name: Release Extension
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - release
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run:
+        - yarn install
+        - yarn build
+      - uses: lannonbr/vsce-action@master
+        with:
+          args: "publish -p $VSCE_TOKEN"
+        env:
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
