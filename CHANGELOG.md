@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [32.9.0](https://github.com/material-theme/vsc-material-theme/compare/v32.8.0...v32.9.0) (2020-09-05)
+
 ## [32.8.0](https://github.com/material-theme/vsc-material-theme/compare/v2.7.0...v32.8.0) (2020-09-05)
 
 
