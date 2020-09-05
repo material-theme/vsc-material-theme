@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        run: yarn install
       - name: Bump version
         run: yarn version --minor
       - name: Build extension
