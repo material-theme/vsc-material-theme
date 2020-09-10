@@ -38,17 +38,30 @@ const quickPick = async (): Promise<string> => {
 };
 
 export const command = async (): Promise<void> => {
+  const pkg = extensionManager.getPackageJSON();
+  const currentThemeID = workspace.getConfiguration().get<string>('workbench.colorTheme');
+  const isMaterialTheme = Boolean(pkg.contributes.themes.find(theme => theme.label === currentThemeID));
+
+  if (!isMaterialTheme) {
+    return;
+  }
+
   const themeConfig = extensionManager.getConfig();
   const currentColorCustomizationsConfig: any = workspace.getConfiguration().get('workbench.colorCustomizations');
   const accent = await quickPick();
+  let config = {};
 
-  const config = accent === PURGE_KEY ? {
-    ...currentColorCustomizationsConfig,
-    ...getThemeColorCustomizationsConfig()
-  } : {
-    ...currentColorCustomizationsConfig,
-    ...getThemeColorCustomizationsConfig(themeConfig.accents[accent])
-  };
+  if (accent === PURGE_KEY) {
+    const {[currentThemeID]: _, ...rest} = currentColorCustomizationsConfig;
+    config = rest;
+  } else {
+    config = {
+      ...currentColorCustomizationsConfig,
+      [`[${currentThemeID}]`]: {
+        ...getThemeColorCustomizationsConfig(themeConfig.accents[accent])
+      }
+    };
+  }
 
   await updateColorCustomizationsConfig(config);
   await settingsManager.updateSetting('accent', accent);

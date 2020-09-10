@@ -8,6 +8,15 @@ type MaterialThemeConfig = {
   changelog?: { lastversion?: string };
 };
 
+type PackageJSON = {
+  version: string;
+  contributes: {
+    themes: Array<{
+      label: string;
+    }>;
+  };
+};
+
 type InstallationType = {
   firstInstall: boolean;
   update: boolean;
@@ -15,7 +24,7 @@ type InstallationType = {
 
 export interface IExtensionManager {
   init: () => Promise<void>;
-  getPackageJSON: () => Record<string, any>;
+  getPackageJSON: () => PackageJSON;
   getConfig: () => MaterialThemeConfig;
   getInstallationType: () => Record<string, unknown>;
   updateConfig: (config: Partial<MaterialThemeConfig>) => Promise<void>;
@@ -33,7 +42,7 @@ class ExtensionManager implements IExtensionManager {
     this.userConfigFileUri = extensionFolderUri.with({path: posix.join(extensionFolderUri.path, USER_CONFIG_FILE_NAME)});
   }
 
-  getPackageJSON(): Record<string, any> {
+  getPackageJSON(): PackageJSON {
     return extensions.getExtension(MATERIAL_THEME_EXT_ID).packageJSON;
   }
 
