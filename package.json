@@ -9,7 +9,7 @@
   "icon": "logo.png",
   "funding": {
     "type": "opencollective",
-    "url": "https://opencollective.com/vsc-material-theme"
+    "url": "https://opencollective.com/material-theme"
   },
   "galleryBanner": {
     "color": "#11131C",
@@ -160,12 +160,12 @@
   "badges": [
     {
       "url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
-      "href": "https://github.com/material-theme/vsc-material-theme/issues",
+      "href": "https://github.com/material-theme/material-theme/issues",
       "description": "Open issues"
     },
     {
       "url": "https://img.shields.io/badge/Support%20this%20project-%F0%9F%92%96%EF%B8%8F-green.svg?style=flat-square",
-      "href": "https://opencollective.com/vsc-material-theme",
+      "href": "https://opencollective.com/material-theme",
       "description": "Support us!"
     }
   ],
@@ -197,7 +197,7 @@
   },
   "collective": {
     "type": "opencollective",
-    "url": "https://opencollective.com/vsc-material-theme",
+    "url": "https://opencollective.com/material-theme",
     "logo": "https://opencollective.com/opencollective/logo.txt"
   }
 }
