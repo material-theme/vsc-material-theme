@@ -10,7 +10,6 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
 
 - [Getting started](#getting-started)
   - [Installation](#installation)
-      - [GitHub Repository Clone](#github-repository-clone)
 - [Activate theme](#activate-theme)
 - [Set the accent color](#set-the-accent-color)
 - [Override theme colors](#override-theme-colors)
@@ -40,23 +39,7 @@ Paste the following command and press `Enter`:
 ext install material theme
 ```
 
-And pick the one by **Mattia Astorino (Equinusocio)** (me) as author.
-
-##### GitHub Repository Clone
-
-Change to your `.vscode/extensions` [VS Code extensions directory](https://code.visualstudio.com/docs/extensions/install-extension#_side-loading).
-Depending on your platform it is located in the following folders:
-
-  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> **Linux** `~/.vscode/extensions`
-  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> **macOs** `~/.vscode/extensions`
-  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> **Windows** `%USERPROFILE%\.vscode\extensions`
-
-Clone the Material Theme repository as `Equinusocio.vsc-material-theme`:
-
-```shell
-git clone https://github.com/material-theme/vsc-material-theme.git Equinusocio.vsc-material-theme
-```
-
+And pick the one by **Mattia Astorino (Equinusocio)** as author.
 
 ## Activate theme
 
