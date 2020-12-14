@@ -28,7 +28,8 @@
     "equinusocio.vsc-material-theme-icons"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=12",
+    "vscode": "^1.51.0"
   },
   "scripts": {
     "build": "yarn cleanup && yarn build:ts && yarn build:generate-themes && yarn build:ui",
