@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [33.1.0](https://github.com/material-theme/vsc-material-theme/compare/v33.0.0...v33.1.0) (2020-12-14)
+
+
+### Features
+
+* **#508:** add check for setting sync across devices ([#512](https://github.com/material-theme/vsc-material-theme/issues/512)) ([f09de7a](https://github.com/material-theme/vsc-material-theme/commit/f09de7a2970defaed43d8e293b4d3ac4e350e71b)), closes [#508](https://github.com/material-theme/vsc-material-theme/issues/508)
+* wrap accent settings inside variant name ([#504](https://github.com/material-theme/vsc-material-theme/issues/504)) ([596b6e6](https://github.com/material-theme/vsc-material-theme/commit/596b6e68a95b13c1809e16db7f89b0491f48f804))
+
 ## [33.0.0](https://github.com/material-theme/vsc-material-theme/compare/v32.9.0...v33.0.0) (2020-09-05)
 
 ## [32.9.0](https://github.com/material-theme/vsc-material-theme/compare/v32.8.0...v32.9.0) (2020-09-05)
