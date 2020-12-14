@@ -1,4 +1,4 @@
-import {extensions, workspace, window, Uri} from 'vscode';
+import {extensions, workspace, window, Uri, ExtensionContext} from 'vscode';
 import {posix} from 'path';
 import {CONFIG_FILE_NAME, USER_CONFIG_FILE_NAME, MATERIAL_THEME_EXT_ID} from '../env';
 
@@ -23,14 +23,19 @@ type InstallationType = {
 };
 
 export interface IExtensionManager {
-  init: () => Promise<void>;
+  init: (context: ExtensionContext) => Promise<void>;
   getPackageJSON: () => PackageJSON;
   getConfig: () => MaterialThemeConfig;
   getInstallationType: () => Record<string, unknown>;
   updateConfig: (config: Partial<MaterialThemeConfig>) => Promise<void>;
+  VERSION_KEY: string;
 }
 
 class ExtensionManager implements IExtensionManager {
+  get VERSION_KEY() {
+    return 'vsc-material-theme.version';
+  }
+
   installationType: InstallationType;
   private readonly configFileUri: Uri;
   private readonly userConfigFileUri: Uri;
@@ -59,14 +64,22 @@ class ExtensionManager implements IExtensionManager {
     await workspace.fs.writeFile(this.configFileUri, Buffer.from(JSON.stringify(newConfig), 'utf-8'));
   }
 
-  async init(): Promise<void> {
+  async init(context: ExtensionContext): Promise<void> {
     try {
       const packageJSON = this.getPackageJSON();
       const userConfig = await this.getUserConfig();
+      const mementoStateVersion = context.globalState.get(this.VERSION_KEY);
+      const themeNeverUsed = mementoStateVersion === undefined || typeof mementoStateVersion !== 'string';
+
       this.installationType = {
-        update: userConfig && this.isVersionUpdate(userConfig),
-        firstInstall: !userConfig
+        update: userConfig && this.isVersionUpdate(userConfig, packageJSON),
+        firstInstall: !userConfig && themeNeverUsed
       };
+
+      // Theme not used before across devices
+      if (themeNeverUsed) {
+        await context.globalState.update(this.VERSION_KEY, packageJSON.version);
+      }
 
       const configBuffer = await workspace.fs.readFile(this.configFileUri);
       const configContent = Buffer.from(configBuffer).toString('utf8');
@@ -85,13 +98,11 @@ class ExtensionManager implements IExtensionManager {
     }
   }
 
-  private isVersionUpdate(userConfig: MaterialThemeConfig): boolean {
+  private isVersionUpdate(userConfig: MaterialThemeConfig, packageJSON: PackageJSON): boolean {
     const splitVersion = (input: string): {major: number; minor: number; patch: number} => {
       const [major, minor, patch] = input.split('.').map(i => parseInt(i, 10));
       return {major, minor, patch};
     };
-
-    const packageJSON = this.getPackageJSON();
 
     const versionCurrent = splitVersion(packageJSON.version);
     const versionOld = splitVersion(userConfig.changelog.lastversion);

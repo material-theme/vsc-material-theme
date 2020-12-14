@@ -29,7 +29,7 @@
   ],
   "engines": {
     "node": ">=12",
-    "vscode": "^1.41.0"
+    "vscode": "^1.51.0"
   },
   "scripts": {
     "build": "yarn cleanup && yarn build:ts && yarn build:generate-themes && yarn build:ui",
@@ -170,7 +170,7 @@
     }
   ],
   "devDependencies": {
-    "@moxer/vscode-theme-generator": "1.19.0",
+    "@moxer/vscode-theme-generator": "1.20.0",
     "@types/browserify": "12.0.36",
     "@types/fs-extra": "8.1.0",
     "@types/rimraf": "3.0.0",
@@ -183,7 +183,7 @@
     "fs-extra": "9.0.1",
     "ncp": "2.0.0",
     "standard-version": "9.0.0",
-    "typescript": "3.9.5",
+    "typescript": "4.1.3",
     "vscode": "1.1.37"
   },
   "__metadata": {
@@ -192,7 +192,7 @@
     "publisherId": "e41388a1-a892-4c1e-940b-1e7c1bf43c97"
   },
   "dependencies": {
-    "@sanity/client": "1.149.16",
+    "@sanity/client": "2.1.0",
     "opencollective": "1.0.3"
   },
   "collective": {
