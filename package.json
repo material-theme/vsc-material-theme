@@ -40,6 +40,7 @@
     "build:ts": "tsc -p ./tsconfig.json && ncp dist/src/ build && ncp material-theme.config.json build",
     "postinstall": "node ./node_modules/vscode/bin/install && tsc -p tsconfig.json",
     "release": "git pull && standard-version --release-as minor && git push --follow-tags",
+    "release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
     "release:major": "git pull && standard-version --release-as major && git push --follow-tags"
   },
   "categories": [
