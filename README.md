@@ -133,6 +133,7 @@ Thanks to the Material Theme community you can use it with other software, here 
 - [Bear Notes](https://github.com/r3volution11/material-theme-bear-notes) (by [@r3volution11](https://github.com/r3volution11))
 - [Mattermost](https://gist.github.com/k1r8r0wn/47cfa776a6fa4e9bf3fa40df0fb76c2c) (by [@k1r8r0wn](https://github.com/k1r8r0wn))
 - [Material Theme to GitHub](https://github.com/CharlieEtienne/material-github)
+- [Fluent Terminal](https://github.com/idokaraderu/fluent-material-theme) (by [@idokaraderu](https://github.com/idokaraderu))
 
 ## Other resources
 - **AppIcon:** [Download](https://github.com/material-theme/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
