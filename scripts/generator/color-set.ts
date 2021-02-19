@@ -382,6 +382,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'list.inactiveSelectionForeground': theme.scheme.defaultAccent,
       'list.inactiveSelectionBackground': theme.scheme.inactiveSelectionBackground,
       'list.focusBackground': `${theme.scheme.foreground}20`,
+      'quickInput.list.focusBackground': `${theme.scheme.foreground}20`,
       'list.focusForeground': theme.scheme.foreground,
       'list.highlightForeground': theme.scheme.defaultAccent,
       // 'list.dropBackground': theme.scheme.shade2,
