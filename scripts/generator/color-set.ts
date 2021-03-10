@@ -49,6 +49,33 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     customTokens: [
       {
+        name: 'Markup Deleted',
+        scope: [
+          'markup.deleted'
+        ],
+        settings: {
+          foreground: theme.scheme.base.red
+        }
+      },
+      {
+        name: 'Markup Inserted',
+        scope: [
+          'markup.inserted'
+        ],
+        settings: {
+          foreground: theme.scheme.base.green
+        }
+      },
+      {
+        name: 'Markup Underline',
+        scope: [
+          'markup.underline'
+        ],
+        settings: {
+          fontStyle: 'underline'
+        }
+      },
+      {
         name: 'Keyword Control',
         scope: [
           'keyword.control'
