@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [33.2.1](https://github.com/material-theme/vsc-material-theme/compare/v33.1.2...v33.2.1) (2021-03-15)
+
+
+### Bug Fixes
+
+* fix: add basic markup highlight ([420341c](https://github.com/material-theme/vsc-material-theme/commit/420341c3837f830a1be1acfcd17a0fc28c13f06d)), closes [#514](https://github.com/material-theme/vsc-material-theme/issues/514)
+* update theme keys for upcoming vscode 1.54 ([4445f3d](https://github.com/material-theme/vsc-material-theme/commit/4445f3db12fb77060bdbeeb4ffca0e59f849200e))
+
 ### [33.1.2](https://github.com/material-theme/vsc-material-theme/compare/v33.1.1...v33.1.2) (2020-12-14)
 
 ### [33.1.1](https://github.com/material-theme/vsc-material-theme/compare/v33.1.0...v33.1.1) (2020-12-14)
