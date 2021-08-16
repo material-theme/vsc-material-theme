@@ -88,7 +88,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 
 ```js
 "editor.tokenColorCustomizations": {
-    "[Material Theme VARIANT]": {
+    "[Material Theme*]": {
         "textMateRules": [
             {
                 "scope": [
@@ -104,7 +104,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 },
 
 "workbench.colorCustomizations": {
-	"[Material Theme VARIANT]": {
+	"[Material Theme*]": {
 		"sideBar.background": "#ff0000",
 	}
 },
