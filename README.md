@@ -145,7 +145,7 @@ Thanks to the Material Theme community you can use it with other software, here 
 - [RStudio](https://github.com/lusignan/RStudio-Material-Theme)(by [@lusignan](https://github.com/lusignan))
 
 ## Other resources
-- **AppIcon:** [Download](https://github.com/material-theme/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
+- **Vscode Dock Icon:** [Download](https://github.com/material-theme/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
 
 
 ## Contributors
