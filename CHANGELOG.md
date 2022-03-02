@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [33.3.0](https://github.com/material-theme/vsc-material-theme/compare/v33.2.2...v33.3.0) (2022-03-02)
+
+
+### Features
+
+* add support to untrusted workspaces ([68e8e7c](https://github.com/material-theme/vsc-material-theme/commit/68e8e7cfa81f746ddf28cb44568df121da05876c))
+
 ### [33.2.2](https://github.com/material-theme/vsc-material-theme/compare/v33.2.1...v33.2.2) (2021-03-15)
 
 ### [33.2.1](https://github.com/material-theme/vsc-material-theme/compare/v33.1.2...v33.2.1) (2021-03-15)
