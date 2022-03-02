@@ -59,6 +59,11 @@
     "workspace"
   ],
   "main": "./build/material.theme.config",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
   "contributes": {
     "commands": [
       {
