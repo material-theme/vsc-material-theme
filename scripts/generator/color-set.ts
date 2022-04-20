@@ -86,6 +86,34 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
         }
       },
       {
+        name: 'Parameter',
+        scope: [
+          'variable.parameter'
+        ],
+        settings: {
+          fontStyle: 'italic'
+        }
+      },
+      {
+        name: 'Python - Self Parameter',
+        scope: [
+          'variable.parameter.function.language.special.self.python'
+        ],
+        settings: {
+          foreground: theme.scheme.base.red,
+          fontStyle: 'italic'
+        }
+      },
+      {
+        name: 'Python - Format Placeholder',
+        scope: [
+          'constant.character.format.placeholder.other.python'
+        ],
+        settings: {
+          foreground: theme.scheme.base.orange
+        }
+      },
+      {
         name: 'Markdown - Blockquote',
         scope: [
           'markup.quote'
