@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [33.5.0](https://github.com/material-theme/vsc-material-theme/compare/v33.4.0...v33.5.0) (2022-06-11)
+
+
+### Features
+
+* add highlight indicator color for notes ([58123b4](https://github.com/material-theme/vsc-material-theme/commit/58123b4ce813c409b06972d7550ccbb4df3d8589))
+
 ## [33.4.0](https://github.com/material-theme/vsc-material-theme/compare/v33.3.0...v33.4.0) (2022-03-03)
 
 
