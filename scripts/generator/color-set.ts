@@ -357,6 +357,11 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'editorWidget.resizeBorder': theme.scheme.defaultAccent,
       'editorWidget.border': theme.scheme.defaultAccent,
       /**
+      * Notebook style
+      */
+      'notebook.focusedCellBorder': theme.scheme.defaultAccent,
+      'notebook.inactiveFocusedCellBorder': `${theme.scheme.defaultAccent}50`,
+      /**
       * Statusbar style
       */
       'statusBar.noFolderBackground': theme.scheme.background,
