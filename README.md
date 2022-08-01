@@ -146,6 +146,7 @@ Thanks to the Material Theme community you can use it with other software, here 
 
 ## Other resources
 - **Vscode Dock Icon:** [Download](https://github.com/material-theme/vsc-material-theme/files/989048/vsc-material-theme-appicon.zip) the official Material Theme app icon for Visual Studio code
+- **Color palettes:** You can check the official Material Theme colors [here](https://github.com/material-theme/vsc-material-theme/tree/master/scripts/generator/settings/specific)
 
 
 ## Contributors
