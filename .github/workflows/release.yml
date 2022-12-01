@@ -3,7 +3,7 @@ name: Release Extension
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - v*
   pull_request:
@@ -41,7 +41,7 @@ jobs:
       - name: Build extension
         run: yarn build
 
-      - uses: lannonbr/vsce-action@master
+      - uses: lannonbr/vsce-action@main
         with:
           args: "publish -p $VSCE_TOKEN"
         env:
