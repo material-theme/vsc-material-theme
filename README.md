@@ -128,6 +128,7 @@ You can override the Material Theme UI and schemes colors by adding these theme-
 ## Official Portings
 Thanks to the Material Theme community you can use it with other software, here are the official portings:
 
+- [GitKraken](https://github.com/material-theme/gitkraken) (by [@equinusocio](https://github.com/julianlatest))
 - [Windows Terminal](https://github.com/julianlatest/material-windows-terminal) (by [@julianlatest](https://github.com/julianlatest))
 - [Vim and NeoVim](https://github.com/kaicataldo/material.vim) (by [@kaicataldo](https://github.com/kaicataldo))
 - [Vim](https://github.com/hzchirs/vim-material) (thanks to [@hzchirs](https://github.com/hzchirs)).
