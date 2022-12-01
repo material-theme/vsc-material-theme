@@ -41,7 +41,7 @@ jobs:
       - name: Build extension
         run: yarn build
 
-      - uses: lannonbr/vsce-action@main
+      - uses: lannonbr/vsce-action@master
         with:
           args: "publish -p $VSCE_TOKEN"
         env:
