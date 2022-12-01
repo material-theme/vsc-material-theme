@@ -9,24 +9,31 @@
 * GPG Tool
 
 - [Contributing guidelines](#contributing-guidelines)
-    - [Requirements:](#requirements)
-    - [Installing and compiling source](#installing-and-compiling-source)
-        - [Testing the theme](#testing-the-theme)
-        - [Adding new Material Theme commands](#adding-new-material-theme-commands)
-    - [Financial contributions](#financial-contributions)
-    - [Credits](#credits)
-        - [Contributors](#contributors)
-        - [Backers](#backers)
-        - [Sponsors](#sponsors)
+  - [Requirements:](#requirements)
+  - [Installing and compiling source](#installing-and-compiling-source)
+    - [Testing the theme](#testing-the-theme)
+    - [Adding new Material Theme commands](#adding-new-material-theme-commands)
+      - [index.ts](#indexts)
+        - [Example of `async` exported `function`](#example-of-async-exported-function)
+        - [Example of `sync` exported `function`](#example-of-sync-exported-function)
+      - [Using external "mini" modules](#using-external-mini-modules)
+      - [Register the command](#register-the-command)
+      - [Add to package.json](#add-to-packagejson)
+      - [Build and run](#build-and-run)
+      - [Test your command](#test-your-command)
+    - [Adding new custom setting](#adding-new-custom-setting)
+  - [Financial contributions](#financial-contributions)
+  - [Credits](#credits)
+    - [Contributors](#contributors)
+    - [Backers](#backers)
+    - [Sponsors](#sponsors)
 
 ## Installing and compiling source
 
-First you will have to install node_modules through npm or yarn
+First you will have to install node_modules through npm
 
 ```shell
 npm install
-# or
-yarn install
 ```
 
 To compile to the source code, you have to execute the build task through visual studio code.
