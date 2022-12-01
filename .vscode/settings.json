@@ -17,7 +17,11 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
-    "editor.quickSuggestions": false
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
   },
   "xo.enable": false,
   "editor.formatOnSave": false,
