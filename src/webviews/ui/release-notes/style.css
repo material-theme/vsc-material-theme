@@ -109,12 +109,14 @@ body {
   line-height: 1;
   box-sizing: border-box;
   width: 64px;
+  min-width: 64px;
   height: 16px;
   border-radius: 3px;
   margin-right: 8px;
   padding: 4px 5px;
   text-transform: uppercase;
   text-align: center;
+  flex-shrink: 0;
   color: #FFF;
 }
 
