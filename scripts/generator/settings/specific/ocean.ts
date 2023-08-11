@@ -10,7 +10,7 @@ export default {
     comments: '#464B5D',
     caret: '#FFCC00',
     findHighlight: '#FFCC00',
-    foreground: '#A6ACCD',
+    foreground: '#babed8',
     focusBorder: '#FFFFFF',
     guides: '#3B3F51',
     lineNumbers: '#3B3F5180',

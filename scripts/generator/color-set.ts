@@ -470,7 +470,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       */
       'extensionButton.prominentBackground': `${theme.scheme.base.green}90`,
       'extensionButton.prominentHoverBackground': theme.scheme.base.green,
-      'extensionButton.prominentForeground': theme.scheme.base.black,
+      'extensionButton.prominentForeground': theme.scheme.foreground,
       /**
       * Peekview window style
       */
