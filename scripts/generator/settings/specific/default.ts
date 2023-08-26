@@ -13,7 +13,7 @@ export default {
     foreground: '#EEFFFF',
     focusBorder: '#FFFFFF',
     guides: '#37474F',
-    lineNumbers: '#37474F',
+    lineNumbers: '#465A64',
     invisibles: '#65737E',
     lineHighlight: '#000000',
     selection: '#80CBC420',
