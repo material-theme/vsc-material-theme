@@ -6,7 +6,7 @@ export default {
     defaultAccent: '#80CBC4',
     background: '#292D3E',
     backgroundAlt: '#1B1E2B',
-    contrastBorder: '#000000',
+    contrastBorder: '#424A6C',
     scrollbars: '#A6ACCD20',
     sidebarForeground: '#757CA1',
     comments: '#676E95',

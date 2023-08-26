@@ -6,7 +6,7 @@ export default {
     defaultAccent: '#80CBC4',
     background: '#0F111A',
     backgroundAlt: '#090B10',
-    contrastBorder: '#000000',
+    contrastBorder: '#3E445D',
     comments: '#464B5D',
     caret: '#FFCC00',
     findHighlight: '#FFCC00',
