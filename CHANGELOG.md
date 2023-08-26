@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [33.10.0](https://github.com/material-theme/vsc-material-theme/compare/v33.9.0...v33.10.0) (2023-08-26)
+
+
+### Features
+
+* add new Deep Forest variant ([3396bec](https://github.com/material-theme/vsc-material-theme/commit/3396bec8c64a9afd78acd87edba0c85d518582b9))
+
+
+### Bug Fixes
+
+* add more visible borders to HC variants ([fa4a198](https://github.com/material-theme/vsc-material-theme/commit/fa4a19828be43033270d56ec05572100fc3a7502))
+* increase default variant line numbers contrast ([1bbf065](https://github.com/material-theme/vsc-material-theme/commit/1bbf0658280131c3c8f2dd1b044457d3e4ad783d))
+
 ## [33.9.0](https://github.com/material-theme/vsc-material-theme/compare/v33.8.1...v33.9.0) (2023-08-11)
 
 ### [33.8.1](https://github.com/material-theme/vsc-material-theme/compare/v33.7.1...v33.8.1) (2023-08-11)
