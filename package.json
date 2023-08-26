@@ -149,6 +149,16 @@
         "uiTheme": "vs-dark"
       },
       {
+        "label": "Material Theme Deep Forest",
+        "path": "./build/themes/Material-Theme-Deep-Forest.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Material Theme Deep Forest High Contrast",
+        "path": "./build/themes/Material-Theme-Deep-Forest-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
         "label": "Material Theme Lighter",
         "path": "./build/themes/Material-Theme-Lighter.json",
         "uiTheme": "vs"

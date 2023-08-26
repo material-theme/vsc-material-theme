@@ -7,7 +7,7 @@ import {getColorSet} from './color-set';
 import {BUILD_FOLDER_PATH} from '../../src/env';
 
 const THEME_BUILD_PATH = path.join(BUILD_FOLDER_PATH, 'themes');
-const themes = ['default', 'darker', 'lighter', 'ocean', 'palenight'];
+const themes = ['default', 'darker', 'lighter', 'ocean', 'palenight', 'deepforest'];
 
 const withHC = themes.reduce((acc, src) => {
   acc = acc.concat(`${src}-hc`);
