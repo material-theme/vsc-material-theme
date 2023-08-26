@@ -36,10 +36,10 @@ export default {
     base: {
       white: '#ffffff',
       black: '#000000',
-      red: '#C77272',
+      red: '#f07178',
       orange: '#CC8868',
       yellow: '#FFCB6B',
-      green: '#A3D283',
+      green: '#C3E88D',
       cyan: '#74C9DE',
       blue: '#6FA0DE',
       paleblue: '#95BBBD',
