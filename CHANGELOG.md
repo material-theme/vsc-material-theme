@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [33.10.1](https://github.com/material-theme/vsc-material-theme/compare/v33.10.0...v33.10.1) (2023-08-26)
+
+
+### Bug Fixes
+
+* tweak deep forest syntax colors ([963d886](https://github.com/material-theme/vsc-material-theme/commit/963d8869c3356b46260425bf5c4d9cb6b764caf9))
+
 ## [33.10.0](https://github.com/material-theme/vsc-material-theme/compare/v33.9.0...v33.10.0) (2023-08-26)
 
 
