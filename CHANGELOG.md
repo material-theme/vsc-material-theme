@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [33.10.3](https://github.com/material-theme/vsc-material-theme/compare/v33.10.2...v33.10.3) (2023-08-27)
+
+
+### Bug Fixes
+
+* add accent color to hovered resize borders ([43c2ba6](https://github.com/material-theme/vsc-material-theme/commit/43c2ba65f0e4b291ba58e9ca5baa367255784122))
+
 ### [33.10.2](https://github.com/material-theme/vsc-material-theme/compare/v33.10.1...v33.10.2) (2023-08-27)
 
 
