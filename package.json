@@ -149,8 +149,8 @@
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Deep Forest",
-        "path": "./build/themes/Material-Theme-Deep-Forest.json",
+        "label": "Material Theme Deepforest",
+        "path": "./build/themes/Material-Theme-Deepforest.json",
         "uiTheme": "vs-dark"
       },
       {

@@ -1,6 +1,6 @@
 export default {
   id: 'material.theme.deepforest.hc',
-  name: 'Material-Theme-Deep-Forest-High-Contrast',
+  name: 'Material-Theme-Deepforest-High-Contrast',
   type: 'dark',
   scheme: {
     defaultAccent: '#80CBC4',

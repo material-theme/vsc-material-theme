@@ -1,6 +1,6 @@
 export default {
   id: 'material.theme.deepforest',
-  name: 'Material-Theme-Deep-Forest',
+  name: 'Material-Theme-Deepforest',
   type: 'dark',
   scheme: {
     defaultAccent: '#80CBC4',
