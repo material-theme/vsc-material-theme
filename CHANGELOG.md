@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [33.10.2](https://github.com/material-theme/vsc-material-theme/compare/v33.10.1...v33.10.2) (2023-08-27)
+
+
+### Bug Fixes
+
+* theme name and ids ([117aa96](https://github.com/material-theme/vsc-material-theme/commit/117aa96840c63dc4313de6903760588b7f045d2c))
+
 ### [33.10.1](https://github.com/material-theme/vsc-material-theme/compare/v33.10.0...v33.10.1) (2023-08-26)
 
 
