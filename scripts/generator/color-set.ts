@@ -278,6 +278,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'panel.border': `${theme.scheme.contrastBorder}60`,
       'panel.background': theme.scheme.backgroundAlt,
       'panel.dropBackground': theme.scheme.foreground,
+      'sash.hoverBorder': `${theme.scheme.defaultAccent}50`,
       /**
       * Window panels elements style
       */
