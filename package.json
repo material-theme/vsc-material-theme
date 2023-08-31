@@ -154,8 +154,8 @@
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Material Theme Deep Forest High Contrast",
-        "path": "./build/themes/Material-Theme-Deep-Forest-High-Contrast.json",
+        "label": "Material Theme DeepForest High Contrast",
+        "path": "./build/themes/Material-Theme-Deepforest-High-Contrast.json",
         "uiTheme": "vs-dark"
       },
       {
