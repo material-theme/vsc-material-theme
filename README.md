@@ -4,17 +4,11 @@
 <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme#review-details"><img src="https://img.shields.io/badge/marketplace-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
 </p>
 
-## Brought to you by
-
-<p><a title="Try CodeStream" href="https://sponsorlink.codestream.com/?utm_source=vscmarket&amp;utm_campaign=equin_material&amp;utm_medium=banner"><img src="https://alt-images.codestream.com/codestream_logo_equin_material.png"></a></br>
-Manage pull requests and conduct code reviews in your IDE with full source-tree context. Comment on any line, not just the diffs. Use jump-to-definition, your favorite keybindings, and code intelligence with more of your workflow.<br> <a title="Try CodeStream" href="https://sponsorlink.codestream.com/?utm_source=vscmarket&amp;utm_campaign=equin_material&amp;utm_medium=banner">Learn More</a></p>
-
 ---
 ## Table of contents
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/material-theme/vsc-material-theme/issues).
 
-- [Brought to you by](#brought-to-you-by)
 - [Table of contents](#table-of-contents)
 - [Getting started](#getting-started)
   - [Installation](#installation)
