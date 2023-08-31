@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [33.10.4](https://github.com/material-theme/vsc-material-theme/compare/v33.10.3...v33.10.4) (2023-08-31)
+
+
+### Bug Fixes
+
+* remove sponsor ([938d2aa](https://github.com/material-theme/vsc-material-theme/commit/938d2aacbea49d7cb003d24e4c0e4197f88fa2cc))
+
 ### [33.10.3](https://github.com/material-theme/vsc-material-theme/compare/v33.10.2...v33.10.3) (2023-08-27)
 
 
