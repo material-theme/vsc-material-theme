@@ -1,5 +1,5 @@
 
-<p align="center"><img width="800px" src="https://i.ibb.co/LzRwxp4/Frame.jpg"></p>
+<p align="center"><img width="100%" src="https://repobeats.axiom.co/api/embed/384b0179b69382cb38b09db4e62cff1aed59a135.svg"></p>
 <p align="center">
 <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme#review-details"><img src="https://img.shields.io/badge/marketplace-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
 </p>
