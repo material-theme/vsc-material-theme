@@ -15,7 +15,7 @@
     "color": "#11131C",
     "theme": "dark"
   },
-  "homepage": "https://github.com/material-theme/vsc-material-theme",
+  "homepage": "https://material-theme.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/material-theme/vsc-material-theme.git"
@@ -69,12 +69,12 @@
       {
         "command": "materialTheme.setAccent",
         "title": "Set accent color",
-        "category": "🎨 Material Theme"
+        "category": "Material Theme"
       },
       {
         "command": "materialTheme.showReleaseNotes",
         "title": "Release Notes",
-        "category": "📋 Material Theme"
+        "category": "Material Theme"
       }
     ],
     "configuration": {
@@ -175,12 +175,12 @@
   ],
   "badges": [
     {
-      "url": "https://camo.githubusercontent.com/d3c6e53aa66426dead24cdedab0e83082103bea6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f657175696e75736f63696f2f7673632d6d6174657269616c2d7468656d652e7376673f7374796c653d666c61742d737175617265",
-      "href": "https://github.com/material-theme/material-theme/issues",
+      "url": "https://img.shields.io/github/issues/material-theme/vsc-material-theme",
+      "href": "https://github.com/material-theme/vsc-material-theme/issues",
       "description": "Open issues"
     },
     {
-      "url": "https://img.shields.io/badge/Support%20this%20project-%F0%9F%92%96%EF%B8%8F-green.svg?style=flat-square",
+      "url": "https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F-s?style=for-the-badge&logo=open-collective&label=Support%20us&labelColor=%233b79d6&color=%233b79d6",
       "href": "https://opencollective.com/material-theme",
       "description": "Support us!"
     }
