@@ -3,6 +3,9 @@
 >The original one. <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme#review-details"><img src="https://img.shields.io/badge/marketplace-gray.svg?colorA=655BE1&colorB=4F44D6&style=flat-square"/></a>
 
 ---
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
+
 ## Table of contents
 
 The most epic theme meets Visual Studio Code. You can help by reporting issues [here](https://github.com/material-theme/vsc-material-theme/issues).
@@ -20,6 +23,8 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
   - [Contributors](#contributors)
   - [Backers](#backers)
   - [Sponsors](#sponsors)
+ 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
 
 
 ## Getting started
@@ -41,6 +46,9 @@ ext install material theme
 
 And pick the one by **Mattia Astorino (Equinusocio)** as author.
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
+
+
 ## Activate theme
 
 Launch *Quick Open*:
@@ -51,6 +59,9 @@ Launch *Quick Open*:
 
 Type `theme`, choose `Preferences: Color Theme`, and select one of the Material Theme variants from the list. After activation, the theme will set the correct icon theme based on your active theme variant.
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
+
+
 ## Set the accent color
 
 Launch *Quick Open*:
@@ -60,6 +71,8 @@ Launch *Quick Open*:
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
 Type `material theme`, choose `Material Theme: Set accent color`, and pick one color from the list.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
 
 
 ## Override theme colors
@@ -79,19 +92,28 @@ Learn how to customize every part of this theme by using Visual Studio Code API.
 }
 ```
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
+
+
 ## Official Portings
 
 You can find all the official portings and resources [here](https://github.com/material-theme/vsc-material-theme/discussions/1279).
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
+
+
 ## Want to use the legacy version?
 
 If you're looking for the deprecated Community Material Theme [you can find it here](https://github.com/material-theme/vsc-material-theme/discussions/1278). This version has been deprecated and removed from the official marketplace.
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
 
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
 <a href="graphs/contributors"><img src="https://opencollective.com/material-theme/contributors.svg?width=890" /></a>
 
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
 
 ## Backers
 
