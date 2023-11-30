@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [33.11.0](https://github.com/material-theme/vsc-material-theme/compare/v33.10.5...v33.11.0) (2023-11-30)
+
+
+### Bug Fixes
+
+* update sidebar contrast for some variants ([ba6160f](https://github.com/material-theme/vsc-material-theme/commit/ba6160f9ffebed8d66cd483b6e599109a6455144))
+
 ### [33.10.5](https://github.com/material-theme/vsc-material-theme/compare/v33.10.4...v33.10.5) (2023-08-31)
 
 
