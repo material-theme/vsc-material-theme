@@ -16,6 +16,7 @@ The most epic theme meets Visual Studio Code. You can help by reporting issues [
   - [Override theme colors](#override-theme-colors)
   - [Recommended settings for a better experience](#recommended-settings-for-a-better-experience)
   - [Official Portings](#official-portings)
+  - [Want to use the legacy version?](#want-to-use-the-legacy-version)
   - [Contributors](#contributors)
   - [Backers](#backers)
   - [Sponsors](#sponsors)
@@ -81,6 +82,10 @@ Learn how to customize every part of this theme by using Visual Studio Code API.
 ## Official Portings
 
 You can find all the official portings and resources [here](https://github.com/material-theme/vsc-material-theme/discussions/1279).
+
+## Want to use the legacy version?
+
+If you're looking for the deprecated Community Material Theme [you can find it here](https://github.com/material-theme/vsc-material-theme/discussions/1278). This version has been deprecated and removed from the official marketplace.
 
 ## Contributors
 
