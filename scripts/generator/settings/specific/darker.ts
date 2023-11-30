@@ -25,7 +25,7 @@ export default {
     scrollbarsHover: '#EEFFFF10',
     statusbarForeground: '#616161',
     sidebarBackground: '#212121',
-    sidebarForeground: '#616161',
+    sidebarForeground: '#676767',
     listHoverForeground: '#FFFFFF',
     listHoverBackground: '#212121',
     tabActiveForeground: '#FFFFFF',

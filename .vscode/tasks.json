@@ -12,9 +12,10 @@
   "tasks": [
     {
       "args": [
+        "run",
         "build"
       ],
-      "command": "yarn",
+      "command": "npm",
       "label": "build",
       "group": {
         "kind": "build",
