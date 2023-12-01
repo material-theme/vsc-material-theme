@@ -24,7 +24,6 @@
     "url": "https://github.com/material-theme/vsc-material-theme/issues"
   },
   "extensionPack": [
-    "equinusocio.vsc-community-material-theme",
     "equinusocio.vsc-material-theme-icons"
   ],
   "engines": {
