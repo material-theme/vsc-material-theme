@@ -21,7 +21,7 @@ The most epic theme meets Visual Studio Code.
   - [Contributors](#contributors)
   - [Backers](#backers)
   - [Sponsors](#sponsors)
- 
+
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
 
 
@@ -76,6 +76,8 @@ Type `material theme`, choose `Material Theme: Set accent color`, and pick one c
 ## Override theme colors
 
 Learn how to customize every part of this theme by using Visual Studio Code API. [Read more.](https://github.com/material-theme/vsc-material-theme/discussions/1274)
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmineblocks.com%2F1%2Fwiki%2Fimages%2F5%2F59%2FEmpty.png&f=1&nofb=1&ipt=272d1bf6ef886b68f90fc4b76685cf3d69c29691db2a6136a83a4f99e53db919&ipo=images)
 
 ## Recommended settings for a better experience
 
