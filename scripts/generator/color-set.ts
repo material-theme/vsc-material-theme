@@ -49,6 +49,15 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
     */
     customTokens: [
       {
+        name: 'Constant Placeholder',
+        scope: [
+          'constant.other.placeholder'
+        ],
+        settings: {
+          foreground: theme.scheme.base.red
+        }
+      },
+      {
         name: 'Markup Deleted',
         scope: [
           'markup.deleted'
