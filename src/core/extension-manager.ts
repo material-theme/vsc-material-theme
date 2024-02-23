@@ -44,7 +44,7 @@ class ExtensionManager implements IExtensionManager {
   constructor() {
     const extensionFolderUri = Uri.file(extensions.getExtension(MATERIAL_THEME_EXT_ID).extensionPath);
     this.configFileUri = extensionFolderUri.with({path: posix.join(extensionFolderUri.path, CONFIG_FILE_NAME)});
-    this.userConfigFileUri = extensionFolderUri.with({path: posix.join(extensionFolderUri.path, USER_CONFIG_FILE_NAME)});
+    this.userConfigFileUri = extensionFolderUri.with({path: posix.join(ExtensionContext.globalStorageUri.fsPath, USER_CONFIG_FILE_NAME)});
   }
 
   getPackageJSON(): PackageJSON {
