@@ -44,7 +44,12 @@ class ExtensionManager implements IExtensionManager {
   constructor() {
     const extensionFolderUri = Uri.file(extensions.getExtension(MATERIAL_THEME_EXT_ID).extensionPath);
     this.configFileUri = extensionFolderUri.with({path: posix.join(extensionFolderUri.path, CONFIG_FILE_NAME)});
-    this.userConfigFileUri = extensionFolderUri.with({path: posix.join(ExtensionContext.globalStorageUri.fsPath, USER_CONFIG_FILE_NAME)});
+    this.userConfigFileUri = extensionFolderUri.with({
+      path: this.getLocationIfExistsOrUseDefault(
+          posix.join(extensionFolderUri.path, USER_CONFIG_FILE_NAME),
+          posix.join(ExtensionContext.globalStorageUri.fsPath, USER_CONFIG_FILE_NAME)
+      )
+    });
   }
 
   getPackageJSON(): PackageJSON {
@@ -122,6 +127,15 @@ class ExtensionManager implements IExtensionManager {
       const configContent = Buffer.from(configBuffer).toString('utf8');
       return JSON.parse(configContent) as MaterialThemeConfig;
     } catch {}
+  }
+
+  private async getLocationIfExistsOrUseDefault(filePath: Uri, defaultLocation: Uri): Promise<Uri> {
+    try {
+        await workspace.fs.stat(filePath);
+        return filePath;
+    } catch (error) {
+        return defaultLocation;
+    }
   }
 }
 
