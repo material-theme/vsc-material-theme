@@ -1,4 +1,4 @@
-import {extensions, workspace, window, Uri, ExtensionContext} from 'vscode';
+import {extensions, workspace, window, Uri, ExtensionContext, FileSystemError} from 'vscode';
 import {posix} from 'path';
 import {CONFIG_FILE_NAME, USER_CONFIG_FILE_NAME, MATERIAL_THEME_EXT_ID} from '../env';
 
@@ -45,7 +45,7 @@ class ExtensionManager implements IExtensionManager {
     const extensionFolderUri = Uri.file(extensions.getExtension(MATERIAL_THEME_EXT_ID).extensionPath);
     this.configFileUri = extensionFolderUri.with({path: posix.join(extensionFolderUri.path, CONFIG_FILE_NAME)});
     this.userConfigFileUri = extensionFolderUri.with({
-      path: this.getLocationIfExistsOrUseDefault(
+      path: this.migrateFileLocation(
           posix.join(extensionFolderUri.path, USER_CONFIG_FILE_NAME),
           posix.join(ExtensionContext.globalStorageUri.fsPath, USER_CONFIG_FILE_NAME)
       )
@@ -129,12 +129,20 @@ class ExtensionManager implements IExtensionManager {
     } catch {}
   }
 
-  private async getLocationIfExistsOrUseDefault(filePath: Uri, defaultLocation: Uri): Promise<Uri> {
+  private async migrateFileLocation(oldLocation: Uri, newLocation: Uri): Promise<Uri> {
     try {
-        await workspace.fs.stat(filePath);
-        return filePath;
+      // Check if the old location exists
+      await workspace.fs.stat(oldLocation);
+
+      await workspace.fs.rename(oldLocation, newLocation, { overwrite: true });
+      return newLocation;
     } catch (error) {
-        return defaultLocation;
+      if (error instanceof FileSystemError) {
+        console.error('Error moving location:', error.message);
+      } else {
+        throw error;
+      }
+      return oldLocation;
     }
   }
 }
