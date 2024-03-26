@@ -135,15 +135,14 @@ class ExtensionManager implements IExtensionManager {
       await workspace.fs.stat(oldLocation);
 
       await workspace.fs.rename(oldLocation, newLocation, { overwrite: true });
-      return newLocation;
     } catch (error) {
       if (error instanceof FileSystemError) {
         console.error('Error moving location:', error.message);
       } else {
         throw error;
       }
-      return oldLocation;
     }
+    return newLocation;
   }
 }
 
