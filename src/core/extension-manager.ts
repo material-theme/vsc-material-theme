@@ -129,21 +129,20 @@ class ExtensionManager implements IExtensionManager {
     } catch {}
   }
 
-  private async migrateFileLocation(oldLocation: Uri, newLocation: Uri): Promise<Uri> {
+  private async migrateFileLocation(oldLocation: string, newLocation: string): Promise<string> {
     try {
       // Check if the old location exists
       await workspace.fs.stat(oldLocation);
 
       await workspace.fs.rename(oldLocation, newLocation, { overwrite: true });
-      return newLocation;
     } catch (error) {
       if (error instanceof FileSystemError) {
         console.error('Error moving location:', error.message);
       } else {
         throw error;
       }
-      return oldLocation;
     }
+    return newLocation;
   }
 }
 
