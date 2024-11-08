@@ -10,7 +10,7 @@ IT — Material Theme Accordo di Licenza
    a) Ingegnerizzare, modificare, decompilare o disassemblare il codice sorgente dell'estensione.
    b) Utilizzare l'estensione per attività illegali o non autorizzate.
    c) Condividere l'estensione tramite canali alternativi a quello di vendita ufficiale.
-   b) Non é possibile ripubblicare l'estensione con nome diverso o con modifiche sostanziali, in modo gratuito o a pagamento, senza il consenso dell'autore.
+   b) Non é possibile ripubblicare l'estensione, anche con nome diverso o con modifiche sostanziali, in modo gratuito o a pagamento, per Visual Studio Code o altri software, senza il consenso dell'autore.
 
 3. Termini di Validità
    La licenza è valida fino alla sua revoca da parte di Mattia Astorino o dell'utente. Mattia Astorino si riserva il diritto di revocare la licenza in caso di violazione dei termini.
@@ -42,7 +42,7 @@ EN — Material Theme License Agreement
    a) Reverse engineer, modify, decompile, or disassemble the extension's source code.
    b) Use the extension for illegal or unauthorized activities.
    c) Share the extension through channels other than the official sales channel.
-   b) Is not posible republish the extension with a different name or with substantial modifications, for free or for a fee, without the author's consent.
+   b) Is not posible republish the extension, even with a different name or with substantial modifications, for free or for a fee, for Visual Studio Code or other softwares, without the author's consent.
 
 3. Term of Validity
    The license is valid until revoked by Mattia Astorino or the user. Mattia Astorino reserves the right to revoke the license in case of violation of the terms.
