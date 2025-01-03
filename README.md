@@ -28,6 +28,6 @@ If you want to customize some colors you can use VSCode Settings to match your t
 
 After 10 years Material Theme and derivates moved (months ago) to closed source to focus on important things like providing more support with premium versions of our themes, so we don't have to ask for contributions again.
 
-If you have a brain but don't agree with this decision, feel free to play with the 800+ forks we have, they are still using the old Apache license, including the full history before we moved to closed source. But remember, only one is the original 10-year supported.
+If you have a brain but don't agree with this decision, feel free to play with the 800+ forks we have, they are still using the old Apache license, including the full history before we moved to closed source. Remember that Apache 2.0 **has conditions** (though some YouTubers and the open-source community might overlook them for convenience).
 
 ### [View forks ↗️](https://github.com/material-theme/vsc-material-theme/forks?include=active&page=1&period=&sort_by=stargazer_counts)
