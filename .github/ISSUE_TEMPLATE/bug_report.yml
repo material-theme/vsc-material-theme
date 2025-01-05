@@ -1,0 +1,69 @@
+name: Bug report 🐛
+description: Something not working as expected? This is the place to report your issue.
+labels:
+  - 'bug'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Hi there! :wave:
+
+        Thanks for taking the time to fill out this bug report. Please use issues only to report bugs.
+        **If you want to discuss about something that doesn't match your taste, give feedback or chat about a topic, visit [Discussions](https://github.com/material-theme/vsc-material-theme/discussions).
+        Every issue opened not related to a bug will be closed instantly.**
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Tell us more about the problem that you're running into. If possible attach a screenshot or video."
+      placeholder: What did you see? What did you expect to see?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: 'How do we reproduce the error you described above? Does an additional extension need to be installed? For issues with syntax highlighting, consider adding some example code and the language being used.'
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. Type '....'
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Extension Version
+      description: 'What version of `vsc-material-theme` are you using?'
+      placeholder: v34.5.0
+    validations:
+      required: true
+  - type: input
+    id: vsc-version
+    attributes:
+      label: VSCode Version
+      description: 'What version of Visual Studio Code are you using?'
+      placeholder: v1.92.0
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      description: In which themes(s) are you experiencing the issue?
+      multiple: false
+      options:
+        - Both of them
+        - Material Theme
+        - Material Theme Hight Contrast
+        - Material Theme Darker
+        - Material Theme Darker High Contrast
+        - Material Theme Ocean
+        - Material Theme Ocean High Contrast
+        - Material Theme Palenight
+        - Material Theme Palenight High Contrast
+        - Material Theme Deepforest
+        - Material Theme Deepforest High Contrast
+        - Material Theme Lighter
+        - Material Theme Lighter High Contrast

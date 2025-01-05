@@ -1,0 +1,11 @@
+*.log
+*.~lock
+**/*.map
+out/
+node_modules/
+.DS_Store
+/themes
+/ui/
+build
+dist
+user.material-theme.config.json
